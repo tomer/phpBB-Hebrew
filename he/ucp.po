@@ -1,0 +1,2554 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/ucp.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/ucp.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#. // Privacy policy and T&C
+#: $lang->'PRIVACY_POLICY'
+msgid ""
+"This policy explains in detail how “%1$s” along with its affiliated "
+"companies (hereinafter “we”, “us”, “our”, “%1$s”, “%2$s”) and phpBB ("
+"hereinafter “they”, “them”, “their”, “phpBB software”, “www.phpbb.com”, “"
+"phpBB Limited”, “phpBB Teams”) use any information collected during any "
+"session of usage by you (hereinafter “your information”).<br />\n"
+"\t<br />\n"
+"\t<br />\n"
+"\t<br />\n"
+"\t<br />\n"
+"\tYour password is ciphered (a one-way hash) so that it is secure. However, "
+"it is recommended that you do not reuse the same password across a number of "
+"different websites. Your password is the means of accessing your account at "
+"“%1$s”, so please guard it carefully and under no circumstance will anyone "
+"affiliated with “%1$s”, phpBB or another 3rd party, legitimately ask you for "
+"your password. Should you forget your password for your account, you can use "
+"the “I forgot my password” feature provided by the phpBB software. This "
+"process will ask you to submit your user name and your email, then the phpBB "
+"software will generate a new password to reclaim your account.<br />\n"
+"\t"
+msgstr ""
+"הסכם זה מסביר בפירוט כיצד “%1$s” יחד עם החברות הקשורות אליה (להלן “אנחנו”, "
+"“אותנו”, “שלנו”, “%1$s”, “%2$s”) ו־phpBB (להלן “הם”, “אותם”, “שלהם”, “מערכת "
+"phpBB”, “www.phpbb.co.il”, “קבוצת phpBB”, “צוות phpBB הישראלי”) משתמשים בכל "
+"מידע אשר נאסף במשך כל חיבור בשימוש שלך (להלן “המידע שלך”).<br />\n"
+"\t<br />\n"
+"\t<br />\n"
+"\t<br />\n"
+"\t<br />\n"
+"\tהססמה שלך מוצפנת (הצפנה לכיוון אחד) כך שהיא מאובטחת. עם זאת, מומלץ שאתה לא "
+"תבצע שימוש חוזר באותה הססמה במספר אתרים שונים. הססמה שלך היא האמצעי לגישה "
+"לחשבון שלך ב־“%1$s”, אז אנא שמור עליה בבטחה ותחת שום מצב שבו מישהו הקשור "
+"ל־“%1$s”, phpBB או כל צד שלישי אחר, יבקש את ססמתך בדרך לא חוקית. אם תשכח את "
+"הססמה לחשבון שלך, תוכל להשתמש במאפיין “שכחתי את ססמתי” המסופק על־ידי מערכת "
+"phpBB. תהליך זה יבקש ממך להזין את שם המשתמש שלך והדואר האלקטרוני שלך, לאחר "
+"מכן מערכת phpBB תיצור ססמה חדשה כדי להשיב את חשבונך.<br />\n"
+"\t"
+
+#. // Common language entries
+#: $lang->'ACCOUNT_ACTIVE'
+msgid "Your account has now been activated. Thank you for registering."
+msgstr "חשבונך הופעל. תודה שנרשמת."
+
+#: $lang->'ACCOUNT_ACTIVE_ADMIN'
+msgid "The account has now been activated."
+msgstr "החשבון הופעל."
+
+#: $lang->'ACCOUNT_ACTIVE_PROFILE'
+msgid "Your account has now been successfully reactivated."
+msgstr "חשבונך הופעל מחדש בהצלחה."
+
+#: $lang->'ACCOUNT_ADDED'
+msgid ""
+"Thank you for registering, your account has been created. You may now login "
+"with your username and password."
+msgstr "תודה שנרשמת, חשבונך נוצר. תוכל להתחבר כעת עם שם המשתמש והססמה שלך."
+
+#: $lang->'ACCOUNT_COPPA'
+msgid ""
+"Your account has been created but has to be approved, please check your "
+"email for details."
+msgstr ""
+"חשבונך נוצר אבל צריך לקבל אישור, בדוק את תיבת הדואר האלקטרוני שלך לפרטים "
+"נוספים."
+
+#: $lang->'ACCOUNT_EMAIL_CHANGED'
+msgid ""
+"Your account has been updated. However, this board requires account "
+"reactivation on email changes. An activation key has been sent to the new "
+"email address you provided. Please check your email for further information."
+msgstr ""
+"חשבונך עודכן, אך המערכת דורשת הפעלת חשבון מחדש בעת שינוי דואר אלקטרוני. "
+"קישור להפעלה נשלח לכתובת הדואר האלקטרוני שסיפקת. בדוק את תיבת הדואר "
+"האלקטרוני שלך לפרטים נוספים."
+
+#: $lang->'ACCOUNT_EMAIL_CHANGED_ADMIN'
+msgid ""
+"Your account has been updated. However, this board requires account "
+"reactivation by the administrators on email changes. An email has been sent "
+"to them and you will be informed when your account has been reactivated."
+msgstr ""
+"חשבונך עודכן, אך המערכת דורשת הפעלת חשבון מחדש על־ידי מנהל ראשי בעת שינוי "
+"דואר אלקטרוני. הודעה נשלחה אל המנהלים הראשיים ואתה תקבל הודעה כאשר חשבונך "
+"יופעל מחדש."
+
+#: $lang->'ACCOUNT_INACTIVE'
+msgid ""
+"Your account has been created. However, this board requires account "
+"activation. An activation key has been sent to the email address you "
+"provided. Please check your email for further information and also be sure "
+"to check your junk mail box. It may take a while to get the email depending "
+"on your email provider."
+msgstr ""
+"חשבונך נוצר, אך המערכת דורשת הפעלת חשבון, קישור להפעלה נשלח לתיבת הדואר "
+"האלקטרוני שסיפקת. בדוק את תיבת הדואר האלקטרוני שלך לפרטים נוספים בנוסף מומלץ "
+"לבדוק בדואר הזבל. ייתכן ויקח זמן לקבלת הדואר האלקטרוני כתלות בספק הדואר "
+"האלקטרוני שלך."
+
+#: $lang->'ACCOUNT_INACTIVE_ADMIN'
+msgid ""
+"Your account has been created. However, this board requires account "
+"activation by the administrator group. An email has been sent to them and "
+"you will be informed when your account has been activated."
+msgstr ""
+"חשבונך נוצר, אך המערכת דורשת הפעלת חשבון על־ידי מנהל ראשי. הודעה נשלחה אל "
+"המנהלים הראשיים ואתה תקבל הודעה כאשר חשבונך יופעל."
+
+#: $lang->'ACTIVATION_EMAIL_SENT'
+msgid "The activation email has been sent to your email address."
+msgstr "הדואר האלקטרוני שמכיל את קישור ההפעלה נשלח אל תיבת הדואר שלך."
+
+#: $lang->'ACTIVATION_EMAIL_SENT_ADMIN'
+msgid ""
+"The activation email has been sent to the administrators email addresses."
+msgstr ""
+"הדואר האלקטרוני שמכיל את קישור ההפעלה נשלח אל תיבת הדואר של המנהלים הראשיים."
+
+#: $lang->'ADD'
+msgid "Add"
+msgstr "הוסף"
+
+#: $lang->'ADD_BCC'
+msgid "Add [BCC]"
+msgstr "הוסף [מקור חסוי]"
+
+#: $lang->'ADD_FOES'
+msgid "Add new foes"
+msgstr "הוספת נודניקים חדשים"
+
+#: $lang->'ADD_FOES_EXPLAIN'
+msgctxt "$lang->'ADD_FOES_EXPLAIN'"
+msgid "You may enter several usernames each on a different line."
+msgstr "תוכל להזין כמה שמות משתמשים בשורות נפרדות."
+
+#: $lang->'ADD_FOLDER'
+msgid "Add folder"
+msgstr "הוספת תיקייה"
+
+#: $lang->'ADD_FRIENDS'
+msgid "Add new friends"
+msgstr "הוספת חברים חדשים"
+
+#: $lang->'ADD_FRIENDS_EXPLAIN'
+msgctxt "$lang->'ADD_FRIENDS_EXPLAIN'"
+msgid "You may enter several usernames each on a different line."
+msgstr "אתה יכול להזין כמה שמות משתמשים בשורות נפרדות."
+
+#: $lang->'ADD_NEW_RULE'
+msgid "Add new rule"
+msgstr "הוספת כלל חדש"
+
+#: $lang->'ADD_RULE'
+msgid "Add rule"
+msgstr "הוסף כלל"
+
+#: $lang->'ADD_TO'
+msgid "Add [To]"
+msgstr "הוסף [נמען]"
+
+#: $lang->'ADD_USERS_UCP_EXPLAIN'
+msgid ""
+"Here you can add new users to the group. You may select whether this group "
+"becomes the new default for the selected users. Please enter each username "
+"on a separate line."
+msgstr ""
+"כאן אתה יכול לצרף משתמשים חדשים לקבוצה. אתה יכול לבחור שקבוצה זו תהפוך "
+"לקבוצת ברירת המחדל למשתמשים הנבחרים. אנא הכנס כל שם משתמש בשורה חדשה."
+
+#: $lang->'ADMIN_EMAIL'
+msgid "Administrators can email me information"
+msgstr "מנהלים ראשיים יכולים לשלוח אלי מידע"
+
+#: $lang->'AGREE'
+msgid "I agree to these terms"
+msgstr "אני מסכים לתנאים אלו"
+
+#: $lang->'ALLOW_PM'
+msgid "Allow users to send you private messages"
+msgstr "אפשר למשתמשים לשלוח אליך הודעות פרטיות"
+
+#: $lang->'ALLOW_PM_EXPLAIN'
+msgid ""
+"Note that administrators and moderators will always be able to send you "
+"messages."
+msgstr "שים לב שמנהלים ראשיים ומנהלים יוכלו תמיד לשלוח אליך הודעות."
+
+#: $lang->'ALREADY_ACTIVATED'
+msgid "You have already activated your account."
+msgstr "כבר הפעלת את חשבונך."
+
+#: $lang->'ATTACHMENTS_EXPLAIN'
+msgid "This is a list of attachments you have made in posts to this board."
+msgstr "זוהי רשימת הקבצים אשר צירפת להודעות בפורומים."
+
+#: $lang->'ATTACHMENTS_DELETED'
+msgid "Attachments successfully deleted."
+msgstr "הקבצים המצורפים נמחקו בהצלחה."
+
+#: $lang->'ATTACHMENT_DELETED'
+msgid "Attachment successfully deleted."
+msgstr "הקובץ המצורף נמחק בהצלחה."
+
+#: $lang->'AUTOLOGIN_SESSION_KEYS_DELETED'
+msgid "The selected \"Remember Me\" login keys were successfully deleted."
+msgstr "מפתחות הכניסה האוטומטית שנבחרו נמחקו בהצלחה."
+
+#: $lang->'AVATAR_CATEGORY'
+msgid "Category"
+msgstr "קטגוריה"
+
+#: $lang->'AVATAR_DRIVER_GRAVATAR_TITLE'
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#: $lang->'AVATAR_DRIVER_GRAVATAR_EXPLAIN'
+msgid ""
+"Gravatar is a service that allows you to maintain the same avatar across "
+"multiple websites. Visit <a href=\"http://www.gravatar.com/\">Gravatar</a> "
+"for more information."
+msgstr ""
+"Gravatar הוא שירות המאפשר לך לשמור את אותו סמל אישי על פני מספר אתרי "
+"אינטרנט. בקר ב-<a href=\"http://www.gravatar.com/\">Gravatar</a> לקבלת מידע "
+"נוסף."
+
+#: $lang->'AVATAR_DRIVER_LOCAL_TITLE'
+msgid "Gallery avatar"
+msgstr "גלרית סמלים אישיים"
+
+#: $lang->'AVATAR_DRIVER_LOCAL_EXPLAIN'
+msgid "You can choose your avatar from a locally available set of avatars."
+msgstr "אתה יכול לבחור את הסמל האישי שלך מאוסף מקומי של סמלים אישיים."
+
+#: $lang->'AVATAR_DRIVER_REMOTE_TITLE'
+msgid "Remote avatar"
+msgstr "סמל אישי מרוחק"
+
+#: $lang->'AVATAR_DRIVER_REMOTE_EXPLAIN'
+msgid "Link to avatar images from another website."
+msgstr "קשר לסמלים אישיים מאתר אחר."
+
+#: $lang->'AVATAR_DRIVER_UPLOAD_TITLE'
+msgid "Upload avatar"
+msgstr "העלאת סמל אישי"
+
+#: $lang->'AVATAR_DRIVER_UPLOAD_EXPLAIN'
+msgid "Upload your own custom avatar."
+msgstr "העלה את הסמל האישי שלך."
+
+#: $lang->'AVATAR_EXPLAIN'
+msgid "Maximum dimensions; width: %1$s, height: %2$s, file size: %3$.2f KiB."
+msgstr "ממדים מירביים; רוחב: %1$s, גובה: %2$s, גודל קובץ: %3$.2f KiB."
+
+#: $lang->'AVATAR_EXPLAIN_NO_FILESIZE'
+msgid "Maximum dimensions; width: %1$s, height: %2$s."
+msgstr ""
+
+#: $lang->'AVATAR_FEATURES_DISABLED'
+msgid "The avatar functionality is currently disabled."
+msgstr "אפשרות הסמל האישי כבויה כרגע."
+
+#: $lang->'AVATAR_GALLERY'
+msgid "Local gallery"
+msgstr "גלריה מקומית"
+
+#: $lang->'AVATAR_GENERAL_UPLOAD_ERROR'
+msgid "Could not upload avatar to %s."
+msgstr "לא ניתן להעלות סמל אישי אל %s."
+
+#: $lang->'AVATAR_NOT_ALLOWED'
+msgid "Your avatar cannot be displayed because avatars have been disallowed."
+msgstr "לא ניתן להציג את הסמל האישי שלך מכיוון שסמלים אישיים נהפכו ללא מורשים."
+
+#: $lang->'AVATAR_PAGE'
+msgid "Page"
+msgstr "עמוד"
+
+#: $lang->'AVATAR_SELECT'
+msgid "Select your avatar"
+msgstr "בחר את הסמל האישי שלך"
+
+#: $lang->'AVATAR_TYPE'
+msgid "Avatar type"
+msgstr "סוג הסמל האישי"
+
+#: $lang->'AVATAR_TYPE_NOT_ALLOWED'
+msgid ""
+"Your current avatar cannot be displayed because its type has been disallowed."
+msgstr "לא ניתן להציג את הסמל האישי הנוכחי שלך בגלל שסוגו נהפך ללא מורשה."
+
+#: $lang->'BACK_TO_DRAFTS'
+msgid "Back to saved drafts"
+msgstr "חזור לטיוטות השמורות"
+
+#: $lang->'BACK_TO_LOGIN'
+msgid "Back to login screen"
+msgstr "חזור למסך ההתחברות"
+
+#: $lang->'BIRTHDAY'
+msgid "Birthday"
+msgstr "יום הולדת"
+
+#: $lang->'BIRTHDAY_EXPLAIN'
+msgid "Setting a year will list your age when it is your birthday."
+msgstr "הגדרת השנה תרשום את גילך בזמן יום ההולדת שלך."
+
+#: $lang->'BOARD_DATE_FORMAT'
+msgid "My date format"
+msgstr "תבנית התאריך שלי"
+
+#: $lang->'BOARD_DATE_FORMAT_EXPLAIN'
+msgid ""
+"The syntax used is identical to the PHP <a href=\"http://www.php.net/date\""
+">date()</a> function."
+msgstr ""
+"התחביר שבשימוש זהה לפונקציית ה־PHP <a href=\"http://www.php.net/date\""
+">date()</a>."
+
+#: $lang->'BOARD_LANGUAGE'
+msgid "My language"
+msgstr "השפה שלי"
+
+#: $lang->'BOARD_STYLE'
+msgid "My board style"
+msgstr "עיצוב המערכת שלי"
+
+#: $lang->'BOARD_TIMEZONE'
+msgid "My timezone"
+msgstr "אזור הזמן שלי"
+
+#: $lang->'BOOKMARKS'
+msgid "Bookmarks"
+msgstr "מועדפים"
+
+#: $lang->'BOOKMARKS_EXPLAIN'
+msgid ""
+"You can bookmark topics for future reference. Select the checkbox for any "
+"bookmark you wish to delete, then press the <em>Remove marked bookmarks</em> "
+"button."
+msgstr ""
+"אתה יכול לסמן נושאים כמועדפים לשימוש עתידי. בחר בתיבת הסימון של כל פריט "
+"מועדף אשר אתה מעוניין למחוק, ולחץ על הכפתור <em>הסר פריטי מועדפים "
+"מסומנים</em>."
+
+#: $lang->'BOOKMARKS_DISABLED'
+msgid "Bookmarks are disabled on this board."
+msgstr "אפשרות המועדפים כבויה במערכת זו."
+
+#: $lang->'BOOKMARKS_REMOVED'
+msgid "Bookmarks removed successfully."
+msgstr "פריטי המועדפים הוסרו בהצלחה."
+
+#: $lang->'CANNOT_EDIT_MESSAGE_TIME'
+msgid "You can no longer edit or delete that message."
+msgstr "אתה לא יכול לערוך או למחוק יותר הודעה זו."
+
+#: $lang->'CANNOT_MOVE_TO_SAME_FOLDER'
+msgid "Messages cannot be moved to the folder you want to remove."
+msgstr "לא ניתן להעביר הודעות אל התיקייה אשר אתה מעוניין למחוק."
+
+#: $lang->'CANNOT_MOVE_FROM_SPECIAL'
+msgid "Messages cannot be moved from the outbox."
+msgstr "לא ניתן להעביר הודעות מתיבת הדואר היוצא."
+
+#: $lang->'CANNOT_RENAME_FOLDER'
+msgid "This folder cannot be renamed."
+msgstr "לא ניתן לשנות את שם התיקייה הזו."
+
+#: $lang->'CANNOT_REMOVE_FOLDER'
+msgid "This folder cannot be removed."
+msgstr "לא ניתן להסיר את התיקייה הזו."
+
+#: $lang->'CHANGE_DEFAULT_GROUP'
+msgid "Change default group"
+msgstr "שנה קבוצה כברירת מחדל"
+
+#: $lang->'CHANGE_PASSWORD'
+msgid "Change password"
+msgstr "שנה ססמה"
+
+#: $lang->'CLICK_GOTO_FOLDER'
+msgid "%1$sGo to your “%3$s” folder%2$s"
+msgstr "%1$sעבור לתיקיית “%3$s” שלך%2$s"
+
+#: $lang->'CLICK_RETURN_FOLDER'
+msgid "%1$sReturn to your “%3$s” folder%2$s"
+msgstr "%1$sחזור לתיקיית “%3$s” שלך%2$s"
+
+#: $lang->'CONFIRMATION'
+msgid "Confirmation of registration"
+msgstr "אישור הרשמה"
+
+#: $lang->'CONFIRM_CHANGES'
+msgid "Confirm changes"
+msgstr "אישור שינויים"
+
+#: $lang->'CONFIRM_EXPLAIN'
+msgid ""
+"To prevent automated registrations the board requires you to enter a "
+"confirmation code. The code is displayed in the image you should see below. "
+"If you are visually impaired or cannot otherwise read this code please "
+"contact the %sBoard Administrator%s."
+msgstr ""
+"כדי להימנע מהרשמות אוטומטיות, המערכת דורשת ממך להזין קוד אישור. הקוד מוצג "
+"בתמונה אשר אתה אמור לראות להלן. אם אינך מצליח לקרוא את הקוד מכל סיבה שהיא, "
+"צור קשר עם %sהמנהל הראשי%s."
+
+#: $lang->'VC_REFRESH'
+msgid "Refresh confirmation code"
+msgstr "רענן קוד אישור"
+
+#: $lang->'VC_REFRESH_EXPLAIN'
+msgid ""
+"If you cannot read the code you can request a new one by clicking the button."
+msgstr "אם אינך מצליח לקרוא את הקוד תוכל לבקש אחד חדש בעזרת לחיצה על הכפתור."
+
+#: $lang->'CONFIRM_PASSWORD'
+msgid "Confirm password"
+msgstr "אישור ססמה"
+
+#: $lang->'CONFIRM_PASSWORD_EXPLAIN'
+msgid "You only need to confirm your password if you changed it above."
+msgstr "אתה צריך לאשר את ססמתך אם שינית את הקודמת בלבד."
+
+#: $lang->'COPPA_BIRTHDAY'
+msgid ""
+"To continue with the registration procedure please tell us when you were "
+"born."
+msgstr "כדי להמשיך בתהליך ההרשמה, אנא ספר לנו מתי נולדת."
+
+#: $lang->'COPPA_COMPLIANCE'
+msgid "COPPA compliance"
+msgstr "התאמת COPPA"
+
+#: $lang->'COPPA_EXPLAIN'
+msgid ""
+"Please note that clicking submit will create your account. However it cannot "
+"be activated until a parent or guardian approves your registration. You will "
+"be emailed a copy of the necessary form with details of where to send it."
+msgstr ""
+"שים לב שלחיצה על שלח תיצור את חשבונך, אך הוא לא יופעל עד שהורה או אפוטרופוס "
+"יאשר את הרשמתך. ישלח אליך עותק של הטופס הנדרש כולל פרטים לגבי כתובת הנמען."
+
+#: $lang->'CREATE_FOLDER'
+msgid "Add folder…"
+msgstr "הוסף תיקייה…"
+
+#: $lang->'CURRENT_IMAGE'
+msgid "Current image"
+msgstr "תמונה נוכחית"
+
+#: $lang->'CURRENT_PASSWORD'
+msgid "Current password"
+msgstr "ססמה נוכחית"
+
+#: $lang->'CURRENT_PASSWORD_EXPLAIN'
+msgid ""
+"You must enter your current password if you wish to alter your email address "
+"or username."
+msgstr ""
+"אתה חייב להזין את ססמתך הנוכחית אם ברצונך לשנות את כתובת הדואר האלקטרוני שלך "
+"או את שם המשתמש."
+
+#: $lang->'CURRENT_CHANGE_PASSWORD_EXPLAIN'
+msgid ""
+"To change your password, your email address, or your username, you must "
+"enter your current password."
+msgstr ""
+"על מנת לשנות את ססמתך, כתובת הדואר האלקטרוני שלך, או שם המשתמש שלך, אתה חייב "
+"להזין את ססמתך הנוכחית."
+
+#: $lang->'CUR_PASSWORD_EMPTY'
+msgid "You did not enter your current password."
+msgstr "לא הזנת את הססמה הנוכחית."
+
+#: $lang->'CUR_PASSWORD_ERROR'
+msgid "The current password you entered is incorrect."
+msgstr "הססמה הנוכחית שהזנת שגויה."
+
+#: $lang->'CUSTOM_DATEFORMAT'
+msgid "Custom…"
+msgstr "מותאם אישית…"
+
+#: $lang->'DEFAULT_ACTION'
+msgid "Default action"
+msgstr "פעולה כברירת מחדל"
+
+#: $lang->'DEFAULT_ACTION_EXPLAIN'
+msgid "This action will be triggered if none of the above is applicable."
+msgstr "פעולה זו תתבצע אם אף אחד מהקודמות ברות-ישום."
+
+#: $lang->'DEFAULT_ADD_SIG'
+msgid "Attach my signature by default"
+msgstr "צרף את החתימה שלי כברירת מחדל"
+
+#: $lang->'DEFAULT_BBCODE'
+msgid "Enable BBCode by default"
+msgstr "הפעל BBCode כברירת מחדל"
+
+#: $lang->'DEFAULT_NOTIFY'
+msgid "Notify me upon replies by default"
+msgstr "הודע לי בעת תגובות כברירת מחדל"
+
+#: $lang->'DEFAULT_SMILIES'
+msgid "Enable smilies by default"
+msgstr "הפעל סמיילים כברירת מחדל"
+
+#: $lang->'DEFINED_RULES'
+msgid "Defined rules"
+msgstr "כללים מוגדרים"
+
+#: $lang->'DELETED_TOPIC'
+msgid "Topic has been removed."
+msgstr "הנושא הוסר."
+
+#: $lang->'DELETE_ATTACHMENT'
+msgid "Delete attachment"
+msgstr "מחק קובץ מצורף"
+
+#: $lang->'DELETE_ATTACHMENTS'
+msgid "Delete attachments"
+msgstr "מחק קבצים מצורפים"
+
+#: $lang->'DELETE_ATTACHMENT_CONFIRM'
+msgid "Are you sure you want to delete this attachment?"
+msgstr "אתה בטוח שאתה רוצה למחוק קובץ מצורף זה?"
+
+#: $lang->'DELETE_ATTACHMENTS_CONFIRM'
+msgid "Are you sure you want to delete these attachments?"
+msgstr "אתה בטוח שאתה רוצה למחוק קבצים מצורפים אלו?"
+
+#: $lang->'DELETE_AVATAR'
+msgid "Delete image"
+msgstr "מחק תמונה"
+
+#: $lang->'DELETE_COOKIES_CONFIRM'
+msgid "Are you sure you want to delete all cookies set by this board?"
+msgstr "אתה בטוח שאתה רוצה למחוק את כל העוגיות אשר נקבעו על־ידי המערכת?"
+
+#: $lang->'DELETE_MARKED_PM'
+msgid "Delete marked messages"
+msgstr "מחק הודעות מסומנות"
+
+#: $lang->'DELETE_MARKED_PM_CONFIRM'
+msgid "Are you sure you want to delete all marked messages?"
+msgstr "אתה בטוח שאתה רוצה למחוק את כל ההודעות המסומנות?"
+
+#: $lang->'DELETE_OLDEST_MESSAGES'
+msgid "Delete oldest messages"
+msgstr "מחק הודעות ישנות יותר"
+
+#: $lang->'DELETE_MESSAGE'
+msgctxt "$lang->'DELETE_MESSAGE'"
+msgid "Delete message"
+msgstr "מחק הודעה"
+
+#: $lang->'DELETE_MESSAGE_CONFIRM'
+msgid "Are you sure you want to delete this private message?"
+msgstr "אתה בטוח שאתה רוצה למחוק הודעה פרטית זו?"
+
+#: $lang->'DELETE_MESSAGES_IN_FOLDER'
+msgid "Delete all messages within removed folder"
+msgstr "מחק את כל ההודעות בתוך התיקייה שהוסרה"
+
+#: $lang->'DELETE_RULE'
+msgid "Delete rule"
+msgstr "מחק כלל"
+
+#: $lang->'DELETE_RULE_CONFIRM'
+msgid "Are you sure you want to delete this rule?"
+msgstr "אתה בטוח שאתה רוצה למחוק כלל זה?"
+
+#: $lang->'DEMOTE_SELECTED'
+msgid "Demote selected"
+msgstr "ביטול נבחרים"
+
+#: $lang->'DISABLE_CENSORS'
+msgid "Enable word censoring"
+msgstr "הפעלת צנזור מילים"
+
+#: $lang->'DISPLAY_GALLERY'
+msgid "Display gallery"
+msgstr "הצג גלריה"
+
+#: $lang->'DOMAIN_NO_MX_RECORD_EMAIL'
+msgid "The entered email domain has no valid MX record."
+msgstr "כתובת הדואר האלקטרוני שהוזנה אינה בעלת רשומת MX חוקית."
+
+#: $lang->'DOWNLOADS'
+msgctxt "$lang->'DOWNLOADS'"
+msgid "Downloads"
+msgstr "הורדות"
+
+#: $lang->'DRAFTS_DELETED'
+msgid "All selected drafts were successfully deleted."
+msgstr "כל הטיוטות הנבחרות הוסרו בהצלחה."
+
+#: $lang->'DRAFTS_EXPLAIN'
+msgid "Here you can view, edit and delete your saved drafts."
+msgstr "כאן אתה יכול לראות, לערוך ולמחוק את הטיוטות השמורות שלך."
+
+#: $lang->'DRAFT_UPDATED'
+msgid "Draft successfully updated."
+msgstr "הטויטה עודכנה בהצלחה."
+
+#: $lang->'EDIT_DRAFT_EXPLAIN'
+msgid ""
+"Here you are able to edit your draft. Drafts do not contain attachment and "
+"poll information."
+msgstr ""
+"כאן אתה יכול לערוך את הטיוטה שלך. הטיוטות אינן מכילות קבצים מצורפים ופרטי "
+"סקר."
+
+#: $lang->'EMAIL_BANNED_EMAIL'
+msgid "The email address you entered is not allowed to be used."
+msgstr "כתובת הדואר האלקטרוני שהזנת אינה מורשת לשימוש."
+
+#: $lang->'EMAIL_REMIND'
+msgid ""
+"This must be the email address associated with your account. If you have not "
+"changed this via your user control panel then it is the email address you "
+"registered your account with."
+msgstr ""
+"כתובת הדואר האלקטרוני חייבת להיות אותה הכתובת המשותפת עם החשבון שלך. אם אינך "
+"שינית אותה דרך לוח הבקרה למשתמש שלך אז זו אותה הכתובת אשר רשמת איתה את "
+"חשבונך."
+
+#: $lang->'EMAIL_TAKEN_EMAIL'
+msgid "The entered email address is already in use."
+msgstr "כתובת הדואר האלקטרוני שהוזנה כבר בשימוש."
+
+#: $lang->'EMPTY_DRAFT'
+msgid "You must enter a message to submit your changes."
+msgstr "אתה חייב להזין הודעה כדי לשלוח את השינויים שלך."
+
+#: $lang->'EMPTY_DRAFT_TITLE'
+msgid "You must enter a draft title."
+msgstr "אתה חייב להזין כותרת לטיוטה."
+
+#: $lang->'EXPORT_AS_XML'
+msgid "Export as XML"
+msgstr "יצא בתור XML"
+
+#: $lang->'EXPORT_AS_CSV'
+msgid "Export as CSV"
+msgstr "יצא בתור CSV"
+
+#: $lang->'EXPORT_AS_CSV_EXCEL'
+msgid "Export as CSV (Excel)"
+msgstr "יצא בתור CSV (Excel)"
+
+#: $lang->'EXPORT_AS_TXT'
+msgid "Export as TXT"
+msgstr "יצא בתור TXT"
+
+#: $lang->'EXPORT_AS_MSG'
+msgid "Export as MSG"
+msgstr "יצא בתור MSG"
+
+#: $lang->'EXPORT_FOLDER'
+msgid "Export this view"
+msgstr "יצא תצוגה זו"
+
+#: $lang->'FIELD_REQUIRED'
+msgid "The field “%s” must be completed."
+msgstr "השדה “%s” חייב להיות שלם."
+
+#: $lang->'FIELD_TOO_SHORT'->1
+msgid "The field “%2$s” is too short, a minimum of %1$d character is required."
+msgstr "השדה “%2$s” קצר מדי, לפחות תו %1$d נדרש."
+
+#: $lang->'FIELD_TOO_SHORT'->2
+msgid ""
+"The field “%2$s” is too short, a minimum of %1$d characters is required."
+msgstr "השדה “%2$s” קצר מדי, לפחות %1$d תווים נדרשים."
+
+#: $lang->'FIELD_TOO_LONG'->1
+msgid "The field “%2$s” is too long, a maximum of %1$d character is allowed."
+msgstr "השדה “%2$s” ארוך מידי, לכל היותר תו %1$d מורשה."
+
+#: $lang->'FIELD_TOO_LONG'->2
+msgid "The field “%2$s” is too long, a maximum of %1$d characters is allowed."
+msgstr "השדה “%2$s” ארוך מידי, לכל היותר %1$d תווים מורשים."
+
+#: $lang->'FIELD_TOO_SMALL'
+msgid "The value of “%2$s” is too small, a minimum value of %1$d is required."
+msgstr "הערך של “%2$s” קטן מידי, לפחות %1$d תווים נדרשים."
+
+#: $lang->'FIELD_TOO_LARGE'
+msgid "The value of “%2$s” is too large, a maximum value of %1$d is allowed."
+msgstr "הערך של “%2$s” גדול מידי, ערך מירבי של %1$d תווים מורשים."
+
+#: $lang->'FIELD_INVALID_CHARS_INVALID'
+msgid "The field “%s” has invalid characters."
+msgstr "השדה \"%s\" מכיל תווים לא חוקיים."
+
+#: $lang->'FIELD_INVALID_CHARS_NUMBERS_ONLY'
+msgid "The field “%s” has invalid characters, only numbers are allowed."
+msgstr "השדה “%s” מכיל תווים לא חוקיים, מספרים בלבד מורשים."
+
+#: $lang->'FIELD_INVALID_CHARS_ALPHA_DOTS'
+msgid ""
+"The field “%s” has invalid characters, only alphanumeric or . characters are "
+"allowed."
+msgstr ""
+"השדה \"%s\" מכיל תווים לא חוקיים, רק תווים אלפאנומריים או נקודות מותרים."
+
+#: $lang->'FIELD_INVALID_CHARS_ALPHA_ONLY'
+msgid ""
+"The field “%s” has invalid characters, only alphanumeric characters are "
+"allowed."
+msgstr "השדה “%s” מכיל תווים לא חוקיים, תווי אותיות בלבד מורשים."
+
+#: $lang->'FIELD_INVALID_CHARS_ALPHA_PUNCTUATION'
+msgid ""
+"The field “%s” has invalid characters, only alphanumeric or _,-. characters "
+"are allowed and the first character must be alphabetic."
+msgstr ""
+"השדה \"%s\" מכיל תווים לא חוקיים, רק תווים אלפאנומריים או _,-. מותרים והתו "
+"הראשון חייב להיות אלפביתי."
+
+#: $lang->'FIELD_INVALID_CHARS_ALPHA_SPACERS'
+msgid ""
+"The field “%s” has invalid characters, only alphanumeric, space or -+_[] "
+"characters are allowed."
+msgstr ""
+"השדה \"%s\" מכיל תווים לא חוקיים, רק תווים אלפאנומריים, רווחים או -+_[] "
+"מותרים."
+
+#: $lang->'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'
+msgid ""
+"The field “%s” has invalid characters, only alphanumeric or _ characters are "
+"allowed."
+msgstr "השדה “%s” מכיל תווים לא מותרים, רק תווים אותיות ו_ מותרים לשימוש."
+
+#: $lang->'FIELD_INVALID_CHARS_LETTER_NUM_DOTS'
+msgid ""
+"The field “%s” has invalid characters, only letter, number or . characters "
+"are allowed."
+msgstr "השדה “%s” מכיל תווים לא מותרים, רק אותיות מספרים ו. מותרים לשימוש."
+
+#: $lang->'FIELD_INVALID_CHARS_LETTER_NUM_ONLY'
+msgid ""
+"The field “%s” has invalid characters, only letter and number characters are "
+"allowed."
+msgstr "השדה “%s” מכיל תווים לא מותרים,רק אותיות ומספרים מותרים לשימוש."
+
+#: $lang->'FIELD_INVALID_CHARS_LETTER_NUM_PUNCTUATION'
+msgid ""
+"The field “%s” has invalid characters, only letter, number or _,-. "
+"characters are allowed and the first character must be alphabetic."
+msgstr ""
+"השדה “%s”מכיל תווים לא חוקיים,רק אותיות מספרים ו _,-. הם תווים חוקיים, והאות "
+"הראשונה חייבת להיות אלפביתית."
+
+#: $lang->'FIELD_INVALID_CHARS_LETTER_NUM_SPACERS'
+msgid ""
+"The field “%s” has invalid characters, only letter, number, space or -+_[] "
+"characters are allowed."
+msgstr ""
+"השדה “%s” מכיל תווים לא מותרים, רק אותיות מספרים ורווחים ו -+_[] הם תווים "
+"מותרים."
+
+#: $lang->'FIELD_INVALID_CHARS_LETTER_NUM_UNDERSCORE'
+msgid ""
+"The field “%s” has invalid characters, only letter, number or _ characters "
+"are allowed."
+msgstr "השדה “%s” מכיל תווים לא מותרים, רק אותיות מספרים ו _ מותרים בשימוש."
+
+#: $lang->'FIELD_INVALID_DATE'
+msgid "The field “%s” has an invalid date."
+msgstr "השדה “%s” מכיל תאריך לא חוקי."
+
+#: $lang->'FIELD_INVALID_URL'
+msgid "The field “%s” has an invalid url."
+msgstr "השדה \"%s\" מכיל כתובת אתר לא חוקית."
+
+#: $lang->'FIELD_INVALID_VALUE'
+msgid "The field “%s” has an invalid value."
+msgstr "השדה “%s” מכיל ערך לא חוקי."
+
+#: $lang->'FOE_MESSAGE'
+msgid "Message from foe"
+msgstr "הודעה מנודניק"
+
+#: $lang->'FOES_EXPLAIN'
+msgid ""
+"Foes are users which will be ignored by default. Posts by these users will "
+"not be fully visible. Personal messages from foes are still permitted. "
+"Please note that you cannot ignore moderators or administrators."
+msgstr ""
+"נודניקים הם משתמשים אשר אתה מתעלם מהם כברירת מחדל. הודעות אשר נשלחות על־ידי "
+"משתמשים אלו לא יוצגו לגמרי. הודעות פרטיות מהנודניקים עדיין מותרות. שים לב "
+"שאתה לא יכול להתעלם ממנהלים או מנהלים ראשיים."
+
+#: $lang->'FOES_UPDATED'
+msgid "Your foes list has been updated successfully."
+msgstr "רשימת הנודניקים שלך עודכנה בהצלחה."
+
+#: $lang->'FOLDER_ADDED'
+msgid "Folder successfully added."
+msgstr "התיקייה נוספה בהצלחה."
+
+#: $lang->'FOLDER_MESSAGE_STATUS'->1
+msgctxt "$lang->'FOLDER_MESSAGE_STATUS'->1"
+msgid "%2$d out of %1$s stored"
+msgstr "%2$d מתוך %1$s אוחסנה"
+
+#: $lang->'FOLDER_MESSAGE_STATUS'->2
+msgctxt "$lang->'FOLDER_MESSAGE_STATUS'->2"
+msgid "%2$d out of %1$s stored"
+msgstr "%2$d מתוך %1$s אוחסנו"
+
+#: $lang->'FOLDER_NAME_EMPTY'
+msgid "You must enter a name for this folder."
+msgstr "אתה חייב להזין שם לתיקייה זו."
+
+#: $lang->'FOLDER_NAME_EXIST'
+msgid "Folder <strong>%s</strong> already exists."
+msgstr "התיקייה <strong>%s</strong> כבר קיימת."
+
+#: $lang->'FOLDER_OPTIONS'
+msgid "Folder options"
+msgstr "אפשרויות תיקייה"
+
+#: $lang->'FOLDER_RENAMED'
+msgid "Folder successfully renamed."
+msgstr "שם התיקייה שונה בהצלחה."
+
+#: $lang->'FOLDER_REMOVED'
+msgid "Folder successfully removed."
+msgstr "התיקייה הוסרה בהצלחה."
+
+#: $lang->'FOLDER_STATUS_MSG'->1
+msgctxt "$lang->'FOLDER_STATUS_MSG'->1"
+msgid "Folder is %3$d%% full (%2$d out of %1$s stored)"
+msgstr "התיקייה %3$d%% מלאה (%2$d מתוך %1$s אוחסנה)"
+
+#: $lang->'FOLDER_STATUS_MSG'->2
+msgctxt "$lang->'FOLDER_STATUS_MSG'->2"
+msgid "Folder is %3$d%% full (%2$d out of %1$s stored)"
+msgstr "התיקייה %3$d%% מלאה (%2$d מתוך %1$s אוחסנו)"
+
+#: $lang->'FORWARD_PM'
+msgid "Forward PM"
+msgstr "העבר הודעה פרטית"
+
+#: $lang->'FORCE_PASSWORD_EXPLAIN'
+msgid ""
+"Before you may continue browsing the board you are required to change your "
+"password."
+msgstr "לפני שתוכל להמשיך לגלוש במערכת אתה נדרש לשנות את ססמתך."
+
+#: $lang->'FRIEND_MESSAGE'
+msgid "Message from friend"
+msgstr "הודעה מחבר"
+
+#: $lang->'FRIENDS'
+msgid "Friends"
+msgstr "חברים"
+
+#: $lang->'FRIENDS_EXPLAIN'
+msgid ""
+"Friends enable you quick access to members you communicate with frequently. "
+"If the template has relevant support any posts made by a friend may be "
+"highlighted."
+msgstr ""
+"חברים מאפשרים לך גישה מהירה למשתמשים אשר איתם אתה משוחח בקביעות. אם לעיצוב "
+"המערכת יש את התמיכה הנדרשת, כל הודעות אשר נשלחות על־ידי חברים יודגשו."
+
+#: $lang->'FRIENDS_OFFLINE'
+msgid "Offline"
+msgstr "מנותק"
+
+#: $lang->'FRIENDS_ONLINE'
+msgid "Online"
+msgstr "מחובר"
+
+#: $lang->'FRIENDS_UPDATED'
+msgid "Your friends list has been updated successfully."
+msgstr "רשימת החברים שלך עודכנה בהצלחה."
+
+#: $lang->'FULL_FOLDER_OPTION_CHANGED'
+msgid "The action to take when a folder is full has been changed successfully."
+msgstr "הפעולה לביצוע כאשר תיקייה מלאה שונתה בהצלחה."
+
+#: $lang->'FWD_ORIGINAL_MESSAGE'
+msgid "-------- Original Message --------"
+msgstr "-------- הודעה מקורית --------"
+
+#: $lang->'FWD_SUBJECT'
+msgid "Subject: %s"
+msgstr "כותרת: %s"
+
+#: $lang->'FWD_DATE'
+msgid "Date: %s"
+msgstr "תאריך: %s"
+
+#: $lang->'FWD_FROM'
+msgid "From: %s"
+msgstr "מאת: %s"
+
+#: $lang->'FWD_TO'
+msgid "To: %s"
+msgstr "אל: %s"
+
+#: $lang->'GLOBAL_ANNOUNCEMENT'
+msgid "Global announcement"
+msgstr "הכרזה גלובלית"
+
+#: $lang->'GRAVATAR_AVATAR_EMAIL'
+msgid "Gravatar email"
+msgstr "דוא\"ל ה-Gravatar"
+
+#: $lang->'GRAVATAR_AVATAR_EMAIL_EXPLAIN'
+msgid ""
+"Enter the email address you used for registering your account on <a href=\""
+"http://www.gravatar.com/\">Gravatar</a>."
+msgstr ""
+"הזן את כתובת הדוא\"ל שבה השתמש לרישום החשבון שלך ב-<a href=\""
+"http://www.gravatar.com/\">Gravatar</a>."
+
+#: $lang->'GRAVATAR_AVATAR_SIZE'
+msgctxt "$lang->'GRAVATAR_AVATAR_SIZE'"
+msgid "Avatar dimensions"
+msgstr "מימדי הסמל האישי"
+
+#: $lang->'GRAVATAR_AVATAR_SIZE_EXPLAIN'
+msgctxt "$lang->'GRAVATAR_AVATAR_SIZE_EXPLAIN'"
+msgid ""
+"Specify the width and height of the avatar, leave blank to attempt automatic "
+"verification."
+msgstr ""
+"ציין את הרוחב והגובה של הסמל האישי, השאר ריק כדי לבצע בדיקה אוטומטית של "
+"המימדים."
+
+#: $lang->'HIDE_ONLINE'
+msgid "Hide my online status"
+msgstr "הסתר את מצב החיבור שלי"
+
+#: $lang->'HIDE_ONLINE_EXPLAIN'
+msgid ""
+"Changing this setting won’t become effective until your next visit to the "
+"board."
+msgstr "שינוי הגדרה זו לא תפעל עד ביקורך הבא במערכת."
+
+#: $lang->'HOLD_NEW_MESSAGES'
+msgid ""
+"Do not accept new messages (New messages will be held back until enough "
+"space is available)"
+msgstr "אל תקבל הודעות חדשות (הודעות חדשות יהיו בהמתנה עד אשר יהיה מספיק מקום)"
+
+#: $lang->'HOLD_NEW_MESSAGES_SHORT'
+msgid "New messages will be held back"
+msgstr "הודעות חדשות יהיו בהמתנה"
+
+#: $lang->'IF_FOLDER_FULL'
+msgid "If folder is full"
+msgstr "אם התיקייה מלאה"
+
+#: $lang->'IMPORTANT_NEWS'
+msgid "Important announcements"
+msgstr "הכרזות חשובות"
+
+#: $lang->'INVALID_USER_BIRTHDAY'
+msgid "The entered birthday is not a valid date."
+msgstr "תאריך יום ההולדת שהוזן אינו תיקני."
+
+#: $lang->'INVALID_CHARS_USERNAME'
+msgid "The username contains forbidden characters."
+msgstr "שם המשתמש מכיל תווים אסורים."
+
+#: $lang->'INVALID_CHARS_NEW_PASSWORD'
+msgid "The password does not contain the required characters."
+msgstr "הססמה אינה מכילה את התווים הנדרשים."
+
+#: $lang->'ITEMS_REQUIRED'
+msgid ""
+"The items marked with * are required profile fields and need to be filled "
+"out."
+msgstr "הפריטים המסומנים עם * הינם שדות פרופיל נדרשים וחייבים לקבל ערכים."
+
+#: $lang->'JOIN_SELECTED'
+msgid "Join selected"
+msgstr "צרף נבחרים"
+
+#: $lang->'LANGUAGE'
+msgid "Language"
+msgstr "שפה"
+
+#: $lang->'LINK_REMOTE_AVATAR'
+msgid "Link off-site"
+msgstr "קישור לאתר חיצוני"
+
+#: $lang->'LINK_REMOTE_AVATAR_EXPLAIN'
+msgid ""
+"Enter the URL of the location containing the avatar image you wish to link "
+"to."
+msgstr "הזן את כתובת המיקום המכיל את תמונת הסמל האישי אשר אתה מעוניין לקשר."
+
+#: $lang->'LINK_REMOTE_SIZE'
+msgctxt "$lang->'LINK_REMOTE_SIZE'"
+msgid "Avatar dimensions"
+msgstr "ממדי סמל אישי"
+
+#: $lang->'LINK_REMOTE_SIZE_EXPLAIN'
+msgctxt "$lang->'LINK_REMOTE_SIZE_EXPLAIN'"
+msgid ""
+"Specify the width and height of the avatar, leave blank to attempt automatic "
+"verification."
+msgstr "ציין את הרוחב והגובה של הסמל האישי, השאר ריק כדי לנסות לבדוק אוטומטית."
+
+#: $lang->'LOGIN_EXPLAIN_UCP'
+msgid "Please login in order to access the User Control Panel."
+msgstr "נא התחבר כדי לגשת ללוח הבקרה למשתמש."
+
+#: $lang->'LOGIN_LINK'
+msgid ""
+"Link or register your account on an external service with your board account"
+msgstr ""
+"קשור או רשום את החשבון שלך עם שירות חיצוני בעזרת החשבון שלך במערכת הפורומים"
+
+#: $lang->'LOGIN_LINK_EXPLAIN'
+msgid ""
+"You have attempted to login with an external service that is not yet "
+"connected to an account on this board. You must now either link this account "
+"to an existing account or create a new account."
+msgstr ""
+"ניסית להתחבר עם שירות חיצוני שעדיין לא חובר לחשבון במערכת פורומים זו. עליך "
+"לקשר את החשבון הזה לחשבון קיים או ליצור חשבון חדש."
+
+#: $lang->'LOGIN_LINK_MISSING_DATA'
+msgid ""
+"Data that is necessary to link your account with an external service is not "
+"available. Please restart the login process."
+msgstr ""
+"נתונים שהכרחיים לביצוע הקישור של החשבון שלך עם שירות חיצוני אינם זמינים. נסה "
+"מחדש את תהליך הכניסה."
+
+#: $lang->'LOGIN_LINK_NO_DATA_PROVIDED'
+msgid ""
+"No data has been provided to this page to link an external account to a "
+"forum account. Please contact the board administrator if you continue to "
+"experience problems."
+msgstr ""
+"לא סופקו נתונים לדף זה כדי לקשר חשבון חיצוני לחשבון מערכת פורומים זו. אנא "
+"צור קשר עם המנהל הראשי של המערכת אם אתה ממשיך להיתקל בבעיות."
+
+#: $lang->'LOGIN_KEY'
+msgid "Login Key"
+msgstr "מפתח ההתחברות"
+
+#: $lang->'LOGIN_TIME'
+msgid "Login Time"
+msgstr "זמן ההתחברות"
+
+#: $lang->'LOGIN_REDIRECT'
+msgid "You have been successfully logged in."
+msgstr "התחברת בהצלחה."
+
+#: $lang->'LOGOUT_FAILED'
+msgid ""
+"You were not logged out, as the request did not match your session. Please "
+"contact the board administrator if you continue to experience problems."
+msgstr ""
+"אינך מנותק, מפני שהבקשה אינה התאימה לחיבור שלך. צור קשר עם המנהל הראשי אם "
+"אתה ממשיך להיתקל בבעיות."
+
+#: $lang->'LOGOUT_REDIRECT'
+msgid "You have been successfully logged out."
+msgstr "התנתקת בהצלחה."
+
+#: $lang->'MARK_IMPORTANT'
+msgid "Mark/Unmark as important"
+msgstr "סמן/בטל סימון כחשוב"
+
+#: $lang->'MARKED_MESSAGE'
+msgid "Marked message"
+msgstr "הודעה מסומנת"
+
+#: $lang->'MAX_FOLDER_REACHED'
+msgid "Maximum number of allowed user defined folders reached."
+msgstr "המספר המרבי המורשה של תיקיות המוגדרות על־ידי המשתמש התקבל."
+
+#: $lang->'MESSAGE_BY_AUTHOR'
+msgid "by"
+msgstr "על־ידי"
+
+#: $lang->'MESSAGE_COLOURS'
+msgid "Message colours"
+msgstr "צבעי הודעה"
+
+#: $lang->'MESSAGE_DELETED'
+msgid "Message successfully deleted."
+msgstr "ההודעה נמחקה בהצלחה."
+
+#: $lang->'MESSAGE_EDITED'
+msgid "Message successfully edited."
+msgstr "ההודעה נערכה בהצלחה."
+
+#: $lang->'MESSAGE_HISTORY'
+msgid "Message history"
+msgstr "היסטורית ההודעה"
+
+#: $lang->'MESSAGE_REMOVED_FROM_OUTBOX'
+msgid "This message was deleted by its author."
+msgstr "הודעה זו נמחקה על ידי הכותב שלה."
+
+#: $lang->'MESSAGE_SENT_ON'
+msgid "on"
+msgstr "ב"
+
+#: $lang->'MESSAGE_STORED'
+msgid "This message has been sent successfully."
+msgstr "ההודעה נשלחה בהצלחה."
+
+#: $lang->'MESSAGE_TO'
+msgid "To"
+msgstr "אל"
+
+#: $lang->'MESSAGES_DELETED'
+msgid "Messages successfully deleted"
+msgstr "ההודעות נמחקו בהצלחה"
+
+#: $lang->'MOVE_DELETED_MESSAGES_TO'
+msgid "Move messages from removed folder to"
+msgstr "העבר הודעות מהתיקייה שהוסרה אל"
+
+#: $lang->'MOVE_DOWN'
+msgid "Move down"
+msgstr "העבר למטה"
+
+#: $lang->'MOVE_MARKED_TO_FOLDER'
+msgid "Move marked to %s"
+msgstr "העבר מסומנים אל %s"
+
+#: $lang->'MOVE_PM_ERROR'->1
+msgid ""
+"An error occurred while moving the messages to the new folder, only %2$d out "
+"of %1$s was moved."
+msgstr "אירעה שגיאה בעת העברת ההודעה לתיקייה החדשה, רק %2$d מתוך %1$s הועברה."
+
+#: $lang->'MOVE_PM_ERROR'->2
+msgid ""
+"An error occurred while moving the messages to the new folder, only %2$d out "
+"of %1$s were moved."
+msgstr "אירעה שגיאה בעת העברת ההודעות לתיקייה החדשה, רק %2$d מתוך %1$s הועברו."
+
+#: $lang->'MOVE_TO_FOLDER'
+msgid "Move to folder"
+msgstr "העבר לתיקייה"
+
+#: $lang->'MOVE_UP'
+msgid "Move up"
+msgstr "העבר למעלה"
+
+#: $lang->'NEW_FOLDER_NAME'
+msgid "New folder name"
+msgstr "השם החדש לתיקייה"
+
+#: $lang->'NEW_PASSWORD'
+msgid "New password"
+msgstr "ססמה חדשה"
+
+#: $lang->'NEW_PASSWORD_CONFIRM_EMPTY'
+msgid "You did not enter a confirm password."
+msgstr "לא הזנת את הססמה בשנית."
+
+#: $lang->'NEW_PASSWORD_ERROR'
+msgid "The passwords you entered do not match."
+msgstr "הססמאות שהזנת אינן תואמות."
+
+#: $lang->'NOTIFICATIONS_MARK_ALL_READ'
+msgid "Mark all notifications read"
+msgstr "סמן את כל ההודעות כנקראו"
+
+#: $lang->'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'
+msgid "Are you sure you want to mark all notifications read?"
+msgstr "האם אתה בטוח שברצונך לסמן את כל ההודעות כנקראו?"
+
+#: $lang->'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'
+msgid "All notifications have been marked read."
+msgstr "כל ההודעות סומנו כנקראו."
+
+#: $lang->'NOTIFICATION_GROUP_MISCELLANEOUS'
+msgid "Miscellaneous Notifications"
+msgstr "הודעות שונות"
+
+#: $lang->'NOTIFICATION_GROUP_MODERATION'
+msgid "Moderation Notifications"
+msgstr "התראות ניהול"
+
+#: $lang->'NOTIFICATION_GROUP_ADMINISTRATION'
+msgid "Administration Notifications"
+msgstr "התראות ניהול המערכת"
+
+#: $lang->'NOTIFICATION_GROUP_POSTING'
+msgid "Posting Notifications"
+msgstr "התראות הודעות"
+
+#: $lang->'NOTIFICATION_METHOD_BOARD'
+msgid "Notifications"
+msgstr ""
+
+#: $lang->'NOTIFICATION_METHOD_EMAIL'
+msgid "Email"
+msgstr "דואר אלקטרוני"
+
+#: $lang->'NOTIFICATION_METHOD_JABBER'
+msgid "Jabber"
+msgstr "Jabber"
+
+#: $lang->'NOTIFICATION_TYPE'
+msgid "Notification type"
+msgstr "סוג ההודעה"
+
+#: $lang->'NOTIFICATION_TYPE_BOOKMARK'
+msgid "Someone replies to a topic you have bookmarked"
+msgstr "מישהו מגיב לנושא שסימנת כמועדף"
+
+#: $lang->'NOTIFICATION_TYPE_GROUP_REQUEST'
+msgid "Someone requests to join a group you lead"
+msgstr "מישהו ביקש להצטרף לקבוצה שאתה מוביל"
+
+#: $lang->'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'
+msgid "A post or topic needs approval"
+msgstr "נושא או הודעה חדשים ממתינים לאישור"
+
+#: $lang->'NOTIFICATION_TYPE_MODERATION_QUEUE'
+msgid "Your topics/posts are approved or disapproved by a moderator"
+msgstr "הנושאים/ההודעות שלך יאושרו או לא יאושרו על ידי מנהל"
+
+#: $lang->'NOTIFICATION_TYPE_PM'
+msgid "Someone sends you a private message"
+msgstr "מישהו שלח לך הודעה פרטית"
+
+#: $lang->'NOTIFICATION_TYPE_POST'
+msgid "Someone replies to a topic to which you are subscribed"
+msgstr "מישהו הגיב לנושא אליו נרשמת לקבלת עדכונים"
+
+#: $lang->'NOTIFICATION_TYPE_QUOTE'
+msgid "Someone quotes you in a post"
+msgstr "מישהו ציטט אותך בהודעה"
+
+#: $lang->'NOTIFICATION_TYPE_REPORT'
+msgid "Someone reports a post"
+msgstr "מישהו דיווח על הודעה"
+
+#: $lang->'NOTIFICATION_TYPE_TOPIC'
+msgid "Someone creates a topic in a forum to which you are subscribed"
+msgstr "מישהו פירסם נושא חדש בפורום אליו נרשמת לקבלת עדכונים"
+
+#: $lang->'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'
+msgid "User requiring activation"
+msgstr "משתמש ממתין להפעלה"
+
+#: $lang->'NOTIFY_METHOD'
+msgid "Notification method"
+msgstr "אמצעי התראה"
+
+#: $lang->'NOTIFY_METHOD_BOTH'
+msgid "Both"
+msgstr "שניהם"
+
+#: $lang->'NOTIFY_METHOD_EMAIL'
+msgid "Email only"
+msgstr "דואר אלקטרוני בלבד"
+
+#: $lang->'NOTIFY_METHOD_EXPLAIN'
+msgid "Method for sending messages sent via this board."
+msgstr "שיטה להעברת ההודעות שנשלחו דרך המערכת."
+
+#: $lang->'NOTIFY_METHOD_IM'
+msgid "Jabber only"
+msgstr "Jabber בלבד"
+
+#: $lang->'NOTIFY_ON_PM'
+msgid "Notify me on new private messages"
+msgstr "הודע לי בעת הודעות פרטיות חדשות"
+
+#: $lang->'NOT_ADDED_FRIENDS_ANONYMOUS'
+msgid "You cannot add the anonymous user to your friends list."
+msgstr "אתה לא יכול להוסיף את משתמש האורח אל רשימת החברים שלך."
+
+#: $lang->'NOT_ADDED_FRIENDS_BOTS'
+msgid "You cannot add bots to your friends list."
+msgstr "אתה לא יכול להוסיף רובוטים אל רשימת החברים שלך."
+
+#: $lang->'NOT_ADDED_FRIENDS_FOES'
+msgid "You cannot add users to your friends list who are on your foes list."
+msgstr ""
+"אתה לא יכול להוסיף משתמשים לרשימת החברים שלך אשר נמצאים ברשימת הנודניקים שלך."
+
+#: $lang->'NOT_ADDED_FRIENDS_SELF'
+msgid "You cannot add yourself to the friends list."
+msgstr "אתה לא יכול להוסיף את עצמך לרשימת החברים שלך."
+
+#: $lang->'NOT_ADDED_FOES_MOD_ADMIN'
+msgid "You cannot add administrators and moderators to your foes list."
+msgstr "אתה לא יכול להוסיף מנהלים ראשיים ומנהלים לרשימת הנודניקים שלך."
+
+#: $lang->'NOT_ADDED_FOES_ANONYMOUS'
+msgid "You cannot add the anonymous user to your foes list."
+msgstr "אתה לא יכול להוסיף את משתמש האורח לרשימת הנודניקים שלך."
+
+#: $lang->'NOT_ADDED_FOES_BOTS'
+msgid "You cannot add bots to your foes list."
+msgstr "אתה לא יכול להוסיף רובוטים לרשימת הנודניקים שלך."
+
+#: $lang->'NOT_ADDED_FOES_FRIENDS'
+msgid "You cannot add users to your foes list who are on your friends list."
+msgstr ""
+"אתה לא יכול להוסיף משתמשים לרשימת הנודניקים שלך אשר נמצאים ברשימת החברים שלך."
+
+#: $lang->'NOT_ADDED_FOES_SELF'
+msgid "You cannot add yourself to the foes list."
+msgstr "אתה לא יכול להוסיף את עצמך לרשימת הנודניקים."
+
+#: $lang->'NOT_AGREE'
+msgid "I do not agree to these terms"
+msgstr "אני לא מסכים לתנאים אלו"
+
+#: $lang->'NOT_ENOUGH_SPACE_FOLDER'
+msgid ""
+"The destination folder “%s” seems to be full. The requested action has not "
+"been taken."
+msgstr "תיקיית היעד “%s” נראית מלאה. הפעולה המבוקשת לא התבצעה."
+
+#: $lang->'NOT_MOVED_MESSAGES'->1
+msgid "You have %d private message currently on hold because of full folder."
+msgstr "יש לך הודעה פרטית %d כרגע בהמתנה בגלל שהתיקייה מלאה."
+
+#: $lang->'NOT_MOVED_MESSAGES'->2
+msgid "You have %d private messages currently on hold because of full folder."
+msgstr "יש לך %d הודעות פרטיות כרגע בהמתנה בגלל שהתיקייה מלאה."
+
+#: $lang->'NO_ACTION_MODE'
+msgid "No message action specified."
+msgstr "לא צוינה פעולת הודעה."
+
+#: $lang->'NO_AUTHOR'
+msgid "No author defined for this message"
+msgstr "לא מוגדר כותב להודעה זו"
+
+#: $lang->'NO_AVATAR'
+msgid "No avatar selected"
+msgstr "לא נבחר סמל אישי"
+
+#: $lang->'NO_AVATAR_CATEGORY'
+msgctxt "$lang->'NO_AVATAR_CATEGORY'"
+msgid "None"
+msgstr "ללא"
+
+#: $lang->'NO_AUTH_DELETE_MESSAGE'
+msgid "You are not authorised to delete private messages."
+msgstr "אינך מורשה למחוק הודעות פרטיות."
+
+#: $lang->'NO_AUTH_EDIT_MESSAGE'
+msgid "You are not authorised to edit private messages."
+msgstr "אינך מורשה לערוך הודעות פרטיות."
+
+#: $lang->'NO_AUTH_FORWARD_MESSAGE'
+msgid "You are not authorised to forward private messages."
+msgstr "אינך מורשה להעביר הודעות פרטיות."
+
+#: $lang->'NO_AUTH_GROUP_MESSAGE'
+msgid "You are not authorised to send private messages to groups."
+msgstr "אינך מורשה לשלוח הודעות פרטיות לקבוצות."
+
+#: $lang->'NO_AUTH_PASSWORD_REMINDER'
+msgid "You are not authorised to request a new password."
+msgstr "אינך מורשה לבקש ססמה חדשה."
+
+#: $lang->'NO_AUTH_PROFILEINFO'
+msgid "You are not authorised to change your profile information."
+msgstr "אינך מורשה לשנות את פרטי הפרופיל שלך."
+
+#: $lang->'NO_AUTH_READ_HOLD_MESSAGE'
+msgid "You are not authorised to read private messages that are on hold."
+msgstr "אינך מורשה לקרוא הודעות פרטיות אשר בהמתנה."
+
+#: $lang->'NO_AUTH_READ_MESSAGE'
+msgid "You are not authorised to read private messages."
+msgstr "אינך מורשה לקרוא הודעות פרטיות."
+
+#: $lang->'NO_AUTH_READ_REMOVED_MESSAGE'
+msgid ""
+"You are not able to read this message because it was removed by the author."
+msgstr "אתה לא יכול לקרוא הודעה זו מפני שהיא הוסרה על־ידי הכותב."
+
+#: $lang->'NO_AUTH_SEND_MESSAGE'
+msgid "You are not authorised to send private messages."
+msgstr "אינך מורשה לשלוח הודעות פרטיות."
+
+#: $lang->'NO_AUTH_SIGNATURE'
+msgid "You are not authorised to define a signature."
+msgstr "אינך מורשה להגדיר חתימה."
+
+#: $lang->'NO_BCC_RECIPIENT'
+msgctxt "$lang->'NO_BCC_RECIPIENT'"
+msgid "None"
+msgstr "ללא"
+
+#: $lang->'NO_BOOKMARKS'
+msgid "You have no bookmarks."
+msgstr "אין לך פריטים מועדפים."
+
+#: $lang->'NO_BOOKMARKS_SELECTED'
+msgid "You have selected no bookmarks."
+msgstr "לא בחרת פריטים מועדפים."
+
+#: $lang->'NO_EDIT_READ_MESSAGE'
+msgid "Private message cannot be edited because it has already been read."
+msgstr "ההודעה הפרטית אינה ניתנת לעריכה מפני שהיא כבר נקראה."
+
+#: $lang->'NO_EMAIL_USER'
+msgid "The email/username information submitted could not be found."
+msgstr "פרטי הדואר האלקטרוני/שם המשתמש שנשלחו לא נמצאו."
+
+#: $lang->'NO_FOES'
+msgid "No foes currently defined"
+msgstr "אין נודניקים מוגדרים כרגע"
+
+#: $lang->'NO_FRIENDS'
+msgid "No friends currently defined"
+msgstr "אין חברים מוגדרים כרגע"
+
+#: $lang->'NO_FRIENDS_OFFLINE'
+msgid "No friends offline"
+msgstr "אין חברים מנותקים"
+
+#: $lang->'NO_FRIENDS_ONLINE'
+msgid "No friends online"
+msgstr "אין חברים מחוברים"
+
+#: $lang->'NO_GROUP_SELECTED'
+msgid "No group specified."
+msgstr "לא צוינה קבוצה."
+
+#: $lang->'NO_IMPORTANT_NEWS'
+msgid "No important announcements present."
+msgstr "אין הכרזות חשובות כרגע."
+
+#: $lang->'NO_MESSAGE'
+msgid "Private message could not be found."
+msgstr "ההודעה הפרטית לא נמצאה."
+
+#: $lang->'NO_NEW_FOLDER_NAME'
+msgid "You have to specify a new folder name."
+msgstr "אתה חייב לציין שם לתיקייה החדשה."
+
+#: $lang->'NO_NEWER_PM'
+msgid "No newer messages."
+msgstr "אין הודעות חדשות יותר."
+
+#: $lang->'NO_OLDER_PM'
+msgid "No older messages."
+msgstr "אין הודעות ישנות יותר."
+
+#: $lang->'NO_PASSWORD_SUPPLIED'
+msgid "You cannot login without a password."
+msgstr "אתה לא יכול להתחבר ללא ססמה."
+
+#: $lang->'NO_RECIPIENT'
+msgid "No recipient defined."
+msgstr "לא מוגדר נמען."
+
+#: $lang->'NO_RULES_DEFINED'
+msgid "No rules defined."
+msgstr "לא מוגדרים כללים."
+
+#: $lang->'NO_SAVED_DRAFTS'
+msgid "No drafts saved."
+msgstr "אין טיוטות שמורות."
+
+#: $lang->'NO_TO_RECIPIENT'
+msgctxt "$lang->'NO_TO_RECIPIENT'"
+msgid "None"
+msgstr "ללא"
+
+#: $lang->'NO_WATCHED_FORUMS'
+msgid "You are not subscribed to any forums."
+msgstr "אינך רשום לקבלת עדכונים לאף פורום."
+
+#: $lang->'NO_WATCHED_SELECTED'
+msgid "You have not selected any subscribed topics or forums."
+msgstr "לא בחרת להירשם לאף פורום או נושא."
+
+#: $lang->'NO_WATCHED_TOPICS'
+msgid "You are not subscribed to any topics."
+msgstr "אינך רשום לקבלת עדכונים לאף נושא."
+
+#: $lang->'PASS_TYPE_ALPHA_EXPLAIN'
+msgid ""
+"Password must be between %1$s and %2$s long, must contain letters in mixed "
+"case and must contain numbers."
+msgstr ""
+"הססמה חייבת להיות בין %1$s לבין %2$s באורך, חייבת להכיל אותיות קטנות וגדולות "
+"באנגלית וחייבת להכיל מספרים."
+
+#: $lang->'PASS_TYPE_ANY_EXPLAIN'
+msgid "Must be between %1$s and %2$s."
+msgstr "חייבת להיות בין %1$s לבין %2$s."
+
+#: $lang->'PASS_TYPE_CASE_EXPLAIN'
+msgid ""
+"Password must be between %1$s and %2$s long and must contain letters in "
+"mixed case."
+msgstr ""
+"הססמה חייבת להיות בין %1$s לבין %2$sבאורך, חייבת להכיל אותיות קטנות וגדולות "
+"באנגלית."
+
+#: $lang->'PASS_TYPE_SYMBOL_EXPLAIN'
+msgid ""
+"Password must be between %1$s and %2$s long, must contain letters in mixed "
+"case, must contain numbers and must contain symbols."
+msgstr ""
+"הססמה חייבת להיות בין %1$s לבין %2$s באורך,חייבת להכיל אותיות קטנות וגדולות "
+"באנגלית, חייבת להכיל מספרים וחייבת להכיל סימנים."
+
+#: $lang->'PASSWORD'
+msgid "Password"
+msgstr "ססמה"
+
+#: $lang->'PASSWORD_ACTIVATED'
+msgid "Your new password has been activated."
+msgstr "הססמה החדשה שלך הפועלה."
+
+#: $lang->'PASSWORD_UPDATED'
+msgid "A new password was sent to your registered email address."
+msgstr "ססמה חדשה נשלחה לדואר האלקטרוני שלך."
+
+#: $lang->'PERMISSIONS_RESTORED'
+msgid "Successfully restored original permissions."
+msgstr "ההרשאות המקוריות שוחזרו בהצלחה."
+
+#: $lang->'PERMISSIONS_TRANSFERRED'
+msgid ""
+"Successfully transferred permissions from <strong>%s</strong>, you are now "
+"able to browse the board with this user’s permissions.<br />Please note that "
+"admin permissions were not transferred. You are able to revert to your "
+"permission set at any time."
+msgstr ""
+"ההרשאות הועברו בהצלחה מ־<strong>%s</strong>, תוכל לגלוש כעת במערכת עם הרשאות "
+"משתמש זה.<br />שים לב שהרשאות מנהל ראשי לא הועברו. תוכל לחזור להרשאות אשר "
+"נקבעו לך בכל זמן נתון."
+
+#: $lang->'PM_DISABLED'
+msgid "Private messaging has been disabled on this board."
+msgstr "אפשרות ההודעות הפרטיות כבויה במערכת זו."
+
+#: $lang->'PM_FROM'
+msgid "From"
+msgstr "מאת"
+
+#: $lang->'PM_FROM_REMOVED_AUTHOR'
+msgid "This message was sent by a user no longer registered."
+msgstr "הודעה זו נשלחה על־ידי משתמש אשר אינו רשום יותר."
+
+#: $lang->'PM_ICON'
+msgid "PM icon"
+msgstr "סמל ההודעה הפרטית"
+
+#: $lang->'PM_INBOX'
+msgid "Inbox"
+msgstr "דואר נכנס"
+
+#: $lang->'PM_MARK_ALL_READ'
+msgid "Mark all messages read"
+msgstr "סמן את כל ההודעות כנקראו"
+
+#: $lang->'PM_MARK_ALL_READ_SUCCESS'
+msgid "All private messages in this folder have been marked read"
+msgstr "כל ההודעות הפרטיות שבתיקיה הזו סומנו כהודעות שנקראו"
+
+#: $lang->'PM_NO_USERS'
+msgid "The requested users to be added do not exist."
+msgstr "המשתמשים המבוקשים להוספה לא קיימים."
+
+#: $lang->'PM_OUTBOX'
+msgid "Outbox"
+msgstr "דואר יוצא"
+
+#: $lang->'PM_SENTBOX'
+msgid "Sent messages"
+msgstr "הודעות שנשלחו"
+
+#: $lang->'PM_SUBJECT'
+msgid "Message subject"
+msgstr "כותרת ההודעה"
+
+#: $lang->'PM_TO'
+msgid "Send to"
+msgstr "שלח אל"
+
+#: $lang->'PM_TOOLS'
+msgid "Message tools"
+msgstr "כלי הודעות"
+
+#: $lang->'PM_USERS_REMOVED_NO_PERMISSION'
+msgid ""
+"Some users couldn’t be added as they do not have permission to read private "
+"messages."
+msgstr "לא ניתן להוסיף חלק מהמשתמשים מכיוון שאין להם הרשאה לקרוא הודעות פרטיות."
+
+#: $lang->'PM_USERS_REMOVED_NO_PM'
+msgid ""
+"Some users couldn’t be added as they have disabled private message receipt."
+msgstr "כמה מהמשתמשים לא נתנו להוספה מפני שהם כיבו את קבלת ההודעות הפרטיות."
+
+#: $lang->'POST_EDIT_PM'
+msgid "Edit message"
+msgstr "ערוך הודעה"
+
+#: $lang->'POST_FORWARD_PM'
+msgid "Forward message"
+msgstr "העבר הודעה"
+
+#: $lang->'POST_NEW_PM'
+msgctxt "$lang->'POST_NEW_PM'"
+msgid "Compose message"
+msgstr "שלח הודעה"
+
+#: $lang->'POST_PM_LOCKED'
+msgid "Private messaging is locked."
+msgstr "אפשרות ההודעות הפרטיות נעולה."
+
+#: $lang->'POST_PM_POST'
+msgid "Quote post"
+msgstr "צטט הודעה"
+
+#: $lang->'POST_QUOTE_PM'
+msgid "Quote message"
+msgstr "צטט הודעה"
+
+#: $lang->'POST_REPLY_PM'
+msgid "Reply to message"
+msgstr "הגב להודעה"
+
+#: $lang->'PRINT_PM'
+msgid "Print view"
+msgstr "תצוגה לפני הדפסה"
+
+#: $lang->'PREFERENCES_UPDATED'
+msgid "Your preferences have been updated."
+msgstr "ההעדפות שלך עודכנו."
+
+#: $lang->'PROFILE_INFO_NOTICE'
+msgid ""
+"Please note that this information may be viewable to other members. Be "
+"careful when including any personal details. Any fields marked with a * must "
+"be completed."
+msgstr ""
+"שים לב שמידע זה ניתן לצפייה על־ידי המשתמשים האחרים. הזהר מלכלול פרטים "
+"אישיים. כל השדות המסומנים עם * חייבים להיות שלמים."
+
+#: $lang->'PROFILE_UPDATED'
+msgid "Your profile has been updated."
+msgstr "הפרופיל שלך עודכן."
+
+#: $lang->'PROFILE_AUTOLOGIN_KEYS'
+msgid ""
+"The \"Remember Me\" login keys automatically log you in when you visit the "
+"board. If you logout, the remember me login key is deleted only on the "
+"computer you are using to logout. Here you can see remember login keys "
+"created on other computers you used to access this site."
+msgstr ""
+"מפתחות ההתחברות \"זכור אותי\" מחברים אותך אוטומטית כשאתה מבקר במערכת "
+"הפורומים. אם התנתקת, מפתח ההתחברות \"זכור אותי\" ימחק רק במחשב בו אתה משתמש "
+"כדי להתנתק. כאן אתה יכול לראות את מפתחות ההתחברות שנוצרו במחשבים אחרים שבו "
+"השתמשת כדי להתחבר לאתר זה."
+
+#: $lang->'PROFILE_NO_AUTOLOGIN_KEYS'
+msgid "There are no saved \"Remember Me\" login keys."
+msgstr "לא קיימים מפתחות כניסה \"זכור אותי\"."
+
+#: $lang->'RECIPIENT'
+msgctxt "$lang->'RECIPIENT'"
+msgid "Recipient"
+msgstr "נמען"
+
+#: $lang->'RECIPIENTS'
+msgctxt "$lang->'RECIPIENTS'"
+msgid "Recipients"
+msgstr "נמענים"
+
+#: $lang->'REGISTRATION'
+msgid "Registration"
+msgstr "הרשמה"
+
+#: $lang->'RELEASE_MESSAGES'
+msgid ""
+"%sRelease all on-hold messages%s… they will be re-sorted into the "
+"appropriate folder if enough space is made available."
+msgstr ""
+"%sפתח את כל ההודעות שבהמתנה%s… הן ימוינו מחדש אל התיקייה המתאימה אם מספיק "
+"מקום זמין."
+
+#: $lang->'REMOVE_ADDRESS'
+msgid "Remove address"
+msgstr "הסר כתובת"
+
+#: $lang->'REMOVE_SELECTED_BOOKMARKS'
+msgid "Remove selected bookmarks"
+msgstr "הסר פריטי מועדפים נבחרים"
+
+#: $lang->'REMOVE_SELECTED_BOOKMARKS_CONFIRM'
+msgid "Are you sure you want to delete all selected bookmarks?"
+msgstr "אתה בטוח שאתה רוצה למחוק את כל פריטי המועדפים הנבחרים?"
+
+#: $lang->'REMOVE_BOOKMARK_MARKED'
+msgid "Remove marked bookmarks"
+msgstr "הסר פריטי מועדפים מסומנים"
+
+#: $lang->'REMOVE_FOLDER'
+msgid "Remove folder"
+msgstr "הסר תיקייה"
+
+#: $lang->'REMOVE_FOLDER_CONFIRM'
+msgid "Are you sure you want to remove this folder?"
+msgstr "אתה בטוח שאתה רוצה להסיר תיקייה זו?"
+
+#: $lang->'RENAME'
+msgid "Rename"
+msgstr "שנה שם"
+
+#: $lang->'RENAME_FOLDER'
+msgid "Rename folder"
+msgstr "שנה שם תיקייה"
+
+#: $lang->'REPLIED_MESSAGE'
+msgid "Replied to message"
+msgstr "הגיב להודעה"
+
+#: $lang->'REPLY_TO_ALL'
+msgid "Reply to sender and all recipients."
+msgstr "הגב לשולח ולכל הנמענים."
+
+#: $lang->'REPORT_PM'
+msgid "Report private message"
+msgstr "דווח על הודעה פרטית זו"
+
+#: $lang->'RESIGN_SELECTED'
+msgid "Resign selected"
+msgstr "רשום מחדש נבחרים"
+
+#: $lang->'RETURN_FOLDER'
+msgid "%1$sReturn to previous folder%2$s"
+msgstr "%1$sחזור לתיקייה הקודמת%2$s"
+
+#: $lang->'RETURN_UCP'
+msgid "%sReturn to the User Control Panel%s"
+msgstr "%sחזור ללוח הבקרה למשתמש%s"
+
+#: $lang->'RULE_ADDED'
+msgid "Rule successfully added."
+msgstr "הכלל נוסף בהצלחה."
+
+#: $lang->'RULE_ALREADY_DEFINED'
+msgid "This rule was defined previously."
+msgstr "כלל זה הוגדר כבר קודם לכן."
+
+#: $lang->'RULE_DELETED'
+msgid "Rule successfully removed."
+msgstr "הכלל הוסר בהצלחה."
+
+#: $lang->'RULE_LIMIT_REACHED'
+msgid ""
+"You cannot add more PM rules. You have reached the maximum number of rules."
+msgstr ""
+"אינך יכול להוסיף יותר כללים להודעות הפרטיות. הגעת למקסימום הכללים שניתן "
+"להגדיר."
+
+#: $lang->'RULE_NOT_DEFINED'
+msgid "Rule not correctly specified."
+msgstr "הכלל לא צוין כראוי."
+
+#: $lang->'RULE_REMOVED_MESSAGES'->1
+msgid "%d private message was removed due to private message filters."
+msgstr "הודעה פרטית %d הוסרה עקב מסנני ההודעות הפרטיות."
+
+#: $lang->'RULE_REMOVED_MESSAGES'->2
+msgid "%d private messages were removed due to private message filters."
+msgstr "%d הודעות פרטיות הוסרו עקב מסנני ההודעות הפרטיות."
+
+#: $lang->'SAME_PASSWORD_ERROR'
+msgid "The new password you entered is the same as your current password."
+msgstr "הססמה החדשה שהזנת זהה לססמתך הנוכחית."
+
+#: $lang->'SEARCH_YOUR_POSTS'
+msgid "Show your posts"
+msgstr "הצג את ההודעות שלך"
+
+#: $lang->'SEND_PASSWORD'
+msgctxt "$lang->'SEND_PASSWORD'"
+msgid "Send password"
+msgstr "שלח ססמה"
+
+#. Used before dates in private messages
+#: $lang->'SENT_AT'
+msgid "Sent"
+msgstr "נשלח"
+
+#: $lang->'SHOW_EMAIL'
+msgid "Users can contact me by email"
+msgstr "משתמשים יכולים ליצור איתי קשר בעזרת דואר אלקטרוני"
+
+#: $lang->'SIGNATURE_EXPLAIN'
+msgid ""
+"This is a block of text that can be added to posts you make. There is a %d "
+"character limit."
+msgstr "זהו חלק טקסט אשר מתווסף להודעות שלך בפורומים. ישנה הגבלה של %d תווים."
+
+#: $lang->'SIGNATURE_PREVIEW'
+msgid "Your signature will appear like this in posts"
+msgstr "כך תיראה חתימתך בהודעות"
+
+#: $lang->'SIGNATURE_TOO_LONG'
+msgid "Your signature is too long."
+msgstr "חתימתך ארוכה מידי."
+
+#: $lang->'SELECT_CURRENT_TIME'
+msgid "Select current time"
+msgstr "בחר זמן נוכחי"
+
+#: $lang->'SELECT_TIMEZONE'
+msgid "Select timezone"
+msgstr "בחר אזור זמן"
+
+#: $lang->'SORT'
+msgid "Sort"
+msgstr "מיין"
+
+#: $lang->'SORT_COMMENT'
+msgid "File comment"
+msgstr "תיאור הקובץ"
+
+#: $lang->'SORT_DOWNLOADS'
+msgctxt "$lang->'SORT_DOWNLOADS'"
+msgid "Downloads"
+msgstr "הורדות"
+
+#: $lang->'SORT_EXTENSION'
+msgid "Extension"
+msgstr "סיומת"
+
+#: $lang->'SORT_FILENAME'
+msgid "Filename"
+msgstr "שם קובץ"
+
+#: $lang->'SORT_POST_TIME'
+msgid "Post time"
+msgstr "זמן השליחה"
+
+#: $lang->'SORT_SIZE'
+msgid "File size"
+msgstr "גודל קובץ"
+
+#: $lang->'TIMEZONE'
+msgid "Timezone"
+msgstr "אזור זמן"
+
+#: $lang->'TIMEZONE_DATE_SUGGESTION'
+msgid "Suggestion: %s"
+msgstr "הצעה: %s"
+
+#: $lang->'TIMEZONE_INVALID'
+msgid "The timezone you selected is invalid."
+msgstr "אזור הזמן שבחרת לא תקין."
+
+#: $lang->'TO'
+msgctxt "$lang->'TO'"
+msgid "Recipient"
+msgstr "נמען"
+
+#: $lang->'TO_MASS'
+msgctxt "$lang->'TO_MASS'"
+msgid "Recipients"
+msgstr "נמענים"
+
+#: $lang->'TO_ADD'
+msgid "Add recipient"
+msgstr "הוסף נמען"
+
+#: $lang->'TO_ADD_MASS'
+msgid "Add recipients"
+msgstr "הוסף נמענים"
+
+#: $lang->'TO_ADD_GROUPS'
+msgid "Add groups"
+msgstr "הוסף קבוצות"
+
+#: $lang->'TOO_MANY_RECIPIENTS'
+msgid "You tried to send a private message to too many recipients."
+msgstr "ניסית לשלוח הודעה פרטית ליותר מדי נמענים."
+
+#: $lang->'TOO_MANY_REGISTERS'
+msgid ""
+"You have exceeded the maximum number of registration attempts for this "
+"session. Please try again later."
+msgstr "עברת את המספר המרבי של ניסיונות הרשמה לחיבור זה. נסה שנית מאוחר יותר."
+
+#: $lang->'UCP'
+msgid "User Control Panel"
+msgstr "לוח בקרה למשתמש"
+
+#: $lang->'UCP_ACTIVATE'
+msgid "Activate account"
+msgstr "הפעל חשבון"
+
+#: $lang->'UCP_ADMIN_ACTIVATE'
+msgid ""
+"Please note that you will need to enter a valid email address before your "
+"account is activated. The administrator will review your account and if "
+"approved you will receive an email at the address you specified."
+msgstr ""
+"שים לב שאתה צריך להזין כתובת דואר אלקטרוני חוקית לפני שחשבונך יופעל. המנהל "
+"הראשי יסקור את חשבונך ואם יאשר, תקבל הודעת דואר אלקטרוני לכתובת שציינת."
+
+#: $lang->'UCP_ATTACHMENTS'
+msgid "Attachments"
+msgstr "קבצים מצורפים"
+
+#: $lang->'UCP_AUTH_LINK'
+msgid "External accounts"
+msgstr "חשבונות חיצוניים"
+
+#: $lang->'UCP_AUTH_LINK_ASK'
+msgid ""
+"You currently have no account associated with this external service. Click "
+"the button below to link your board account to an account with this external "
+"service."
+msgstr ""
+"אין לך כרגע חשבון קשור לשירות חיצוני זה. לחץ על הכפתור מטה כדי לקשר את "
+"החשבון שלך במערכת לחשבון בשירות החיצוני הזה."
+
+#: $lang->'UCP_AUTH_LINK_ID'
+msgid "Unique identifier"
+msgstr "מזהה ייחודי"
+
+#: $lang->'UCP_AUTH_LINK_LINK'
+msgid "Link"
+msgstr "קשר"
+
+#: $lang->'UCP_AUTH_LINK_MANAGE'
+msgid "Manage external account associations"
+msgstr "ניהול חיבורי חשבונות חיצוניים"
+
+#: $lang->'UCP_AUTH_LINK_NOT_SUPPORTED'
+msgid ""
+"Linking board accounts to external services is not supported by this board’s "
+"current authentication method."
+msgstr ""
+"קישור חשבונות במערכת לשירותים חיצוניים אינו נתמך על ידי שיטת האימות הנוכחית "
+"של מערכת הפורומים הזו."
+
+#: $lang->'UCP_AUTH_LINK_TITLE'
+msgid "Manage your external account associations"
+msgstr "נהל את חיבורי החשבונות החיצוניים שלך"
+
+#: $lang->'UCP_AUTH_LINK_UNLINK'
+msgid "Unlink"
+msgstr "נתק"
+
+#: $lang->'UCP_COPPA_BEFORE'
+msgid "Before %s"
+msgstr "לפני %s"
+
+#: $lang->'UCP_COPPA_ON_AFTER'
+msgid "On or after %s"
+msgstr "בתאריך או לאחר %s"
+
+#: $lang->'UCP_EMAIL_ACTIVATE'
+msgid ""
+"Please note that you will need to enter a valid email address before your "
+"account is activated. You will receive an email at the address you provide "
+"that contains an account activation link."
+msgstr ""
+"שים לב שאתה צריך להזין כתובת דואר אלקטרוני חוקית לפני שחשבונך יופעל. תקבל "
+"הודעת דואר אלקטרוני לכתובת שציינת אשר מכילה קישור להפעלת החשבון."
+
+#: $lang->'UCP_JABBER'
+msgid "Jabber address"
+msgstr "כתובת Jabber"
+
+#: $lang->'UCP_LOGIN_LINK'
+msgid "Set up an external account association"
+msgstr "הגדר חיבור עם חשבון חיצוני"
+
+#: $lang->'UCP_MAIN'
+msgid "Overview"
+msgstr "סקירה כללית"
+
+#: $lang->'UCP_MAIN_ATTACHMENTS'
+msgid "Manage attachments"
+msgstr "ניהול קבצים מצורפים"
+
+#: $lang->'UCP_MAIN_BOOKMARKS'
+msgid "Manage bookmarks"
+msgstr "ניהול מועדפים"
+
+#: $lang->'UCP_MAIN_DRAFTS'
+msgid "Manage drafts"
+msgstr "ניהול טיוטות"
+
+#: $lang->'UCP_MAIN_FRONT'
+msgid "Front page"
+msgstr "עמוד ראשי"
+
+#: $lang->'UCP_MAIN_SUBSCRIBED'
+msgid "Manage subscriptions"
+msgstr "ניהול הרשמות"
+
+#: $lang->'UCP_NO_ATTACHMENTS'
+msgid "You have posted no files."
+msgstr "לא שלחת קבצים."
+
+#: $lang->'UCP_NOTIFICATION_LIST'
+msgid "Manage notifications"
+msgstr "נהל התראות"
+
+#: $lang->'UCP_NOTIFICATION_LIST_EXPLAIN'
+msgid "Here you may view all past notifications."
+msgstr "כאן אתה יכול לצפות בכל ההתראות הקודמות."
+
+#: $lang->'UCP_NOTIFICATION_OPTIONS'
+msgid "Edit notification options"
+msgstr "שינוי הגדרות התראה"
+
+#: $lang->'UCP_NOTIFICATION_OPTIONS_EXPLAIN'
+msgid "Here you can set your preferred notification methods for the board."
+msgstr "כאן אתה יכול להגדיר את אמצעי ההתראה המועדף עליך למערכת."
+
+#: $lang->'UCP_PREFS'
+msgid "Board preferences"
+msgstr "העדפות מערכת"
+
+#: $lang->'UCP_PREFS_PERSONAL'
+msgid "Edit global settings"
+msgstr "ערוך הגדרות כלליות"
+
+#: $lang->'UCP_PREFS_POST'
+msgid "Edit posting defaults"
+msgstr "ערוך הגדרות שליחה"
+
+#: $lang->'UCP_PREFS_VIEW'
+msgid "Edit display options"
+msgstr "ערוך אפשרויות תצוגה"
+
+#: $lang->'UCP_PM'
+msgid "Private messages"
+msgstr "הודעות פרטיות"
+
+#: $lang->'UCP_PM_COMPOSE'
+msgctxt "$lang->'UCP_PM_COMPOSE'"
+msgid "Compose message"
+msgstr "צור הודעה"
+
+#: $lang->'UCP_PM_DRAFTS'
+msgid "Manage PM drafts"
+msgstr "ניהול טיוטות הודעות פרטיות"
+
+#: $lang->'UCP_PM_OPTIONS'
+msgid "Rules, folders &amp; settings"
+msgstr "כללים, תיקיות והגדרות"
+
+#: $lang->'UCP_PM_UNREAD'
+msgid "Unread messages"
+msgstr "הודעות שלא נקראו"
+
+#: $lang->'UCP_PM_VIEW'
+msgid "View messages"
+msgstr "צפה בהודעות"
+
+#: $lang->'UCP_PROFILE'
+msgid "Profile"
+msgstr "פרופיל"
+
+#: $lang->'UCP_PROFILE_AVATAR'
+msgid "Edit avatar"
+msgstr "ערוך סמל אישי"
+
+#: $lang->'UCP_PROFILE_PROFILE_INFO'
+msgid "Edit profile"
+msgstr "ערוך פרופיל"
+
+#: $lang->'UCP_PROFILE_REG_DETAILS'
+msgid "Edit account settings"
+msgstr "ערוך הגדרות חשבון"
+
+#: $lang->'UCP_PROFILE_SIGNATURE'
+msgid "Edit signature"
+msgstr "ערוך חתימה"
+
+#: $lang->'UCP_PROFILE_AUTOLOGIN_KEYS'
+msgid "Manage “Remember Me” login keys"
+msgstr "ניהול מפתחות התחברות \"זכור אותי\" אוטומטיים"
+
+#: $lang->'UCP_USERGROUPS'
+msgid "Usergroups"
+msgstr "קבוצות משתמשים"
+
+#: $lang->'UCP_USERGROUPS_MEMBER'
+msgid "Edit memberships"
+msgstr "ערוך חברויות"
+
+#: $lang->'UCP_USERGROUPS_MANAGE'
+msgid "Manage groups"
+msgstr "ניהול קבוצות"
+
+#: $lang->'UCP_PASSWORD_RESET_DISABLED'
+msgid ""
+"The password reset functionality has been disabled. If you need help "
+"accessing your account, please contact the %sBoard Administrator%s"
+msgstr ""
+"לא ניתן לבצע איפוס ססמה במערכת פורומים זו. אם אתה צריך עזרה בגישה לחשבון "
+"שלך, אנא צור קשר עם %sמנהל מערכת הפורומים%s"
+
+#: $lang->'UCP_REGISTER_DISABLE'
+msgid "Creating a new account is currently not possible."
+msgstr "יצירת חשבון חדש כרגע בלתי אפשרית."
+
+#: $lang->'UCP_REMIND'
+msgctxt "$lang->'UCP_REMIND'"
+msgid "Send password"
+msgstr "שלח ססמה"
+
+#: $lang->'UCP_RESEND'
+msgid "Send activation email"
+msgstr "שלח קישור להפעלה לדואר אלקטרוני"
+
+#: $lang->'UCP_WELCOME'
+msgid ""
+"Welcome to the User Control Panel. From here you can monitor, view and "
+"update your profile, preferences, subscribed forums and topics. You can also "
+"send messages to other users (if permitted). Please ensure you read any "
+"announcements before continuing."
+msgstr ""
+"ברוך הבא ללוח הבקרה למשתמש. מכאן אתה יכול לפקח, לראות ולעדכן את הפרופיל, "
+"ההעדפות והנושאים והפורומים אליהם אתה רשום. אתה יכול גם לשלוח הודעות למשתמשים "
+"אחרים (אם ניתן). וודא שקראת את כל ההכרזות לפני שתמשיך."
+
+#: $lang->'UCP_ZEBRA'
+msgid "Friends &amp; Foes"
+msgstr "חברים ונודניקים"
+
+#: $lang->'UCP_ZEBRA_FOES'
+msgid "Manage foes"
+msgstr "ניהול נודניקים"
+
+#: $lang->'UCP_ZEBRA_FRIENDS'
+msgid "Manage friends"
+msgstr "ניהול חברים"
+
+#: $lang->'UNDISCLOSED_RECIPIENT'
+msgid "Undisclosed Recipient"
+msgstr "נמען בלתי מזוהה"
+
+#: $lang->'UNKNOWN_FOLDER'
+msgid "Unknown folder"
+msgstr "תיקייה לא ידועה"
+
+#: $lang->'UNWATCH_MARKED'
+msgid "Unwatch marked"
+msgstr "הפסק לעקוב אחר מסומנים"
+
+#: $lang->'UPLOAD_AVATAR_FILE'
+msgid "Upload from your machine"
+msgstr "העלה מהמחשב שלך"
+
+#: $lang->'UPLOAD_AVATAR_URL'
+msgid "Upload from a URL"
+msgstr "העלה מכתובת"
+
+#: $lang->'UPLOAD_AVATAR_URL_EXPLAIN'
+msgid ""
+"Enter the URL of the location containing the image. The image will be copied "
+"to this site."
+msgstr "הזן את כתובת המיקום המכיל את התמונה, התמונה תועתק לאתר זה."
+
+#: $lang->'USERNAME_ALPHA_ONLY_EXPLAIN'
+msgid ""
+"Username must be between %1$s and %2$s long and use only alphanumeric "
+"characters."
+msgstr "שם המשתמש חייב להיות בין %1$s לבין %2$s ולהכיל אותיות בלבד."
+
+#: $lang->'USERNAME_ALPHA_SPACERS_EXPLAIN'
+msgid ""
+"Username must be between %1$s and %2$s long and use alphanumeric, space or "
+"-+_[] characters."
+msgstr "שם המשתמש חייב להיות בין %1$s לבין %2$s ולהכיל אותיות, רווח או -+_[]."
+
+#: $lang->'USERNAME_ASCII_EXPLAIN'
+msgid ""
+"Username must be between %1$s and %2$s long and use only ASCII characters, "
+"so no special symbols."
+msgstr ""
+"שם המשתמש חייב להיות בין %1$s לבין %2$s ולהכיל תווי ASCII בלבד, ללא תווים "
+"מיוחדים."
+
+#: $lang->'USERNAME_LETTER_NUM_EXPLAIN'
+msgid ""
+"Username must be between %1$s and %2$s long and use only letter or number "
+"characters."
+msgstr "שם המשתמש חייב להיות בין %1$s לבין %2$s ולהכין אותיות ומספרים בלבד."
+
+#: $lang->'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'
+msgid ""
+"Username must be between %1$s and %2$s long and use letter, number, space or "
+"-+_[] characters."
+msgstr ""
+"שם המשתמש חייב להיות בין %1$s לבין %2$s ולהכין אותיות, מספרים, רווח או -+_[]."
+
+#: $lang->'USERNAME_CHARS_ANY_EXPLAIN'
+msgid "Length must be between %1$s and %2$s."
+msgstr "האורך חייב להיות בין %1$s לבין %2$s."
+
+#: $lang->'USERNAME_TAKEN_USERNAME'
+msgid ""
+"The username you entered is already in use, please select an alternative."
+msgstr "שם המשתמש שבחרת כבר בשימוש, אנא בחר בשם אחר."
+
+#: $lang->'USERNAME_DISALLOWED_USERNAME'
+msgid ""
+"The username you entered has been disallowed or contains a disallowed word. "
+"Please choose a different name."
+msgstr "שם המשתמש שהזנת לא מורשה או מכיל מילה לא מורשת. אנא בחר בשם אחר."
+
+#: $lang->'USER_NOT_FOUND_OR_INACTIVE'
+msgid ""
+"The usernames you specified could either not be found or are not activated "
+"users."
+msgstr "שמות המשתמשים שציינת לא נמצאו או שלא הופעלו."
+
+#: $lang->'VIEW_AVATARS'
+msgid "Display avatars"
+msgstr "הצג סמלים אישיים"
+
+#: $lang->'VIEW_EDIT'
+msgid "View/Edit"
+msgstr "ראה/ערוך"
+
+#: $lang->'VIEW_FLASH'
+msgid "Display Flash animations"
+msgstr "הצג אנימציות פלאש"
+
+#: $lang->'VIEW_IMAGES'
+msgid "Display images within posts"
+msgstr "הצג תמונות בהודעות"
+
+#: $lang->'VIEW_NEXT_HISTORY'
+msgid "Next PM in history"
+msgstr "הודעה פרטית הבאה בהיסטוריה"
+
+#: $lang->'VIEW_NEXT_PM'
+msgid "Next PM"
+msgstr "הודעה פרטית הבאה"
+
+#: $lang->'VIEW_PM'
+msgid "View message"
+msgstr "צפה בהודעה"
+
+#: $lang->'VIEW_PM_INFO'
+msgid "Message details"
+msgstr "פרטי ההודעה"
+
+#: $lang->'VIEW_PM_MESSAGES'->1
+msgid "%d message"
+msgstr "הודעה %d"
+
+#: $lang->'VIEW_PM_MESSAGES'->2
+msgid "%d messages"
+msgstr "%d הודעות"
+
+#: $lang->'VIEW_PREVIOUS_HISTORY'
+msgid "Previous PM in history"
+msgstr "הודעה פרטית קודמת בהיסטוריה"
+
+#: $lang->'VIEW_PREVIOUS_PM'
+msgid "Previous PM"
+msgstr "הודעה פרטית קודמת"
+
+#: $lang->'VIEW_PROFILE'
+msgid "View profile"
+msgstr "צפה בפרופיל"
+
+#: $lang->'VIEW_SIGS'
+msgid "Display signatures"
+msgstr "הצג חתימות"
+
+#: $lang->'VIEW_SMILIES'
+msgid "Display smilies as images"
+msgstr "הצג סמיילים כתמונות"
+
+#: $lang->'VIEW_TOPICS_DAYS'
+msgid "Display topics from previous days"
+msgstr "הצג נושאים מימים קודמים"
+
+#: $lang->'VIEW_TOPICS_DIR'
+msgid "Display topic order direction"
+msgstr "הצג כיוון סדר נושא"
+
+#: $lang->'VIEW_TOPICS_KEY'
+msgid "Display topics ordering by"
+msgstr "הצג סידור נושאים על־ידי"
+
+#: $lang->'VIEW_POSTS_DAYS'
+msgid "Display posts from previous days"
+msgstr "הצג הודעות מימים קודמים"
+
+#: $lang->'VIEW_POSTS_DIR'
+msgid "Display post order direction"
+msgstr "הצג כיוון סדר הודעה"
+
+#: $lang->'VIEW_POSTS_KEY'
+msgid "Display posts ordering by"
+msgstr "הצג סידור הודעות על־ידי"
+
+#: $lang->'WATCHED_EXPLAIN'
+msgid ""
+"Below is a list of forums and topics you are subscribed to. You will be "
+"notified of new posts in either. To unsubscribe mark the forum or topic and "
+"then press the <em>Unwatch marked</em> button."
+msgstr ""
+"זוהי רשימת הפורומים והנושאים אשר נרשמת אליהם. תקבל הודעה על הודעות חדשות "
+"בהם. כדי לבטל הרשמה סמן את הפורום או הנושא ולחץ על הכפתור <em>בטל "
+"הרשמתך</em>."
+
+#: $lang->'WATCHED_FORUMS'
+msgid "Watched forums"
+msgstr "פורומים אחריהם אתה עוקב"
+
+#: $lang->'WATCHED_TOPICS'
+msgid "Watched topics"
+msgstr "נושאים אחריהם אתה עוקב"
+
+#: $lang->'WRONG_ACTIVATION'
+msgid "The activation key you supplied does not match any in the database."
+msgstr "קישור ההפעלה שסיפקת אינו תואם לזה שבבסיס הנתונים."
+
+#: $lang->'YOUR_DETAILS'
+msgid "Your activity"
+msgstr "הפעילות שלך"
+
+#: $lang->'YOUR_FOES'
+msgid "Your foes"
+msgstr "הנודניקים שלך"
+
+#: $lang->'YOUR_FOES_EXPLAIN'
+msgctxt "$lang->'YOUR_FOES_EXPLAIN'"
+msgid "To remove usernames select them and click submit."
+msgstr "כדי להסיר שמות משתמשים בחר אותם ולחץ על שלח."
+
+#: $lang->'YOUR_FRIENDS'
+msgid "Your friends"
+msgstr "החברים שלך"
+
+#: $lang->'YOUR_FRIENDS_EXPLAIN'
+msgctxt "$lang->'YOUR_FRIENDS_EXPLAIN'"
+msgid "To remove usernames select them and click submit."
+msgstr "כדי להסיר שמות משתמשים בחר אותם ולחץ על שלח."
+
+#: $lang->'YOUR_WARNINGS'
+msgid "Your warning level"
+msgstr "רמת האזהרה שלך"
+
+#: $lang->'PM_ACTION'->'PLACE_INTO_FOLDER'
+msgid "Place into folder"
+msgstr "הכנס לתוך תיקייה"
+
+#: $lang->'PM_ACTION'->'MARK_AS_READ'
+msgid "Mark as read"
+msgstr "סמן כנקרא"
+
+#: $lang->'PM_ACTION'->'MARK_AS_IMPORTANT'
+msgid "Mark message"
+msgstr "סמן הודעה"
+
+#: $lang->'PM_ACTION'->'DELETE_MESSAGE'
+msgctxt "$lang->'PM_ACTION'->'DELETE_MESSAGE'"
+msgid "Delete message"
+msgstr "מחק הודעה"
+
+#: $lang->'PM_CHECK'->'SUBJECT'
+msgid "Subject"
+msgstr "כותרת"
+
+#: $lang->'PM_CHECK'->'SENDER'
+msgid "Sender"
+msgstr "שולח"
+
+#: $lang->'PM_CHECK'->'MESSAGE'
+msgid "Message"
+msgstr "הודעה"
+
+#: $lang->'PM_CHECK'->'STATUS'
+msgid "Message status"
+msgstr "מצב הודעה"
+
+#: $lang->'PM_CHECK'->'TO'
+msgid "Sent To"
+msgstr "נשלח אל"
+
+#: $lang->'PM_RULE'->'IS_LIKE'
+msgid "is like"
+msgstr "דומה"
+
+#: $lang->'PM_RULE'->'IS_NOT_LIKE'
+msgid "is not like"
+msgstr "לא דומה"
+
+#: $lang->'PM_RULE'->'IS'
+msgid "is"
+msgstr "הוא"
+
+#: $lang->'PM_RULE'->'IS_NOT'
+msgid "is not"
+msgstr "לא"
+
+#: $lang->'PM_RULE'->'BEGINS_WITH'
+msgid "begins with"
+msgstr "מתחיל ב"
+
+#: $lang->'PM_RULE'->'ENDS_WITH'
+msgid "ends with"
+msgstr "מסתיים ב"
+
+#: $lang->'PM_RULE'->'IS_FRIEND'
+msgid "is friend"
+msgstr "חבר"
+
+#: $lang->'PM_RULE'->'IS_FOE'
+msgid "is foe"
+msgstr "נודניק"
+
+#: $lang->'PM_RULE'->'IS_USER'
+msgid "is user"
+msgstr "משתמש"
+
+#: $lang->'PM_RULE'->'IS_GROUP'
+msgid "is in usergroup"
+msgstr "בקבוצת משתמשים"
+
+#: $lang->'PM_RULE'->'ANSWERED'
+msgid "answered"
+msgstr "נענתה"
+
+#: $lang->'PM_RULE'->'FORWARDED'
+msgid "forwarded"
+msgstr "הועברה"
+
+#: $lang->'PM_RULE'->'TO_GROUP'
+msgid "to my default usergroup"
+msgstr "אל קבוצת ברירת המחדל שלי"
+
+#: $lang->'PM_RULE'->'TO_ME'
+msgid "to me"
+msgstr "אלי"
+
+#: $lang->'GROUPS_EXPLAIN'
+msgid ""
+"Usergroups enable board admins to better administer users. By default you "
+"will be placed in a specific group, this is your default group. This group "
+"defines how you may appear to other users, for example your username "
+"colouration, avatar, rank, etc. Depending on whether the administrator "
+"allows it you may be allowed to change your default group. You may also be "
+"placed in or allowed to join other groups. Some groups may give you "
+"additional permissions to view content or increase your capabilities in "
+"other areas."
+msgstr ""
+"קבוצות משתמשים מאפשרות למנהלים ראשיים של המערכת לנהל טוב יותר את המשתמשים "
+"במערכת. כברירת מחדל, אתה תכנס לקבוצה מסוימת, קבוצת ברירת המחדל שלך. קבוצה זו "
+"מגדירה כיצד תופיע למשתמשים האחרים, למשל צבע שם המשתמש שלך, סמל אישי, דירוג, "
+"ועוד. אם המנהל הראשי מאפשר - תוכל לשנות את קבוצת ברירת המחדל שלך, תוכל "
+"להצטרף או לבקש להצטרף לקבוצות אחרות אם קיימות כאלה. קבוצות שונות יכולות לתת "
+"לך הרשאות נוספות לצפייה בתוכן \\ פורומים נוספים ו\\או להגדלת ההרשאות שלך "
+"באזורים מסוימים."
+
+#: $lang->'GROUP_LEADER'
+msgid "Leaderships"
+msgstr "מנהל קבוצות"
+
+#: $lang->'GROUP_MEMBER'
+msgid "Memberships"
+msgstr "חבר בקבוצות"
+
+#: $lang->'GROUP_PENDING'
+msgid "Pending memberships"
+msgstr "חברויות בהמתנה"
+
+#: $lang->'GROUP_NONMEMBER'
+msgid "Non-memberships"
+msgstr "ללא חברויות"
+
+#: $lang->'GROUP_DETAILS'
+msgid "Group details"
+msgstr "פרטי קבוצות"
+
+#: $lang->'NO_LEADER'
+msgid "No group leaderships"
+msgstr "אין ניהולי קבוצות"
+
+#: $lang->'NO_MEMBER'
+msgid "No group memberships"
+msgstr "אין חברויות קבוצות"
+
+#: $lang->'NO_PENDING'
+msgid "No pending memberships"
+msgstr "אין בקשות חברות בהמתנה"
+
+#: $lang->'NO_NONMEMBER'
+msgid "No non-member groups"
+msgstr "אין קבוצות ללא חברות"

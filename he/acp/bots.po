@@ -1,0 +1,181 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/bots.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/acp/bots.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#. // Bot settings
+#: $lang->'BOTS'
+msgid "Manage bots"
+msgstr "ניהול בוטים"
+
+#: $lang->'BOTS_EXPLAIN'
+msgid ""
+"“Bots”, “spiders” or “crawlers” are automated agents most commonly used by "
+"search engines to update their databases. Since they rarely make proper use "
+"of sessions they can distort visitor counts, increase load and sometimes "
+"fail to index sites correctly. Here you can define a special type of user to "
+"overcome these problems."
+msgstr ""
+"”בוטים”, ”עכבישים” או ”תולעים” הם נציגים אוטומטים אשר בשימוש בדרך כלל על־ידי "
+"מנועי חיפוש כדי לעדכן את בסיס הנתונים שלהם. מכיוון שלעיתים נדירות הם עושים "
+"שימוש נכון בחיבורים הם יכולים לסלף מוני ביקורים, להגדיל טעינה ולפעמים להיכשל "
+"בהכנסת האתרים כראוי. כאן תוכל להגדיר סוג מיוחד של משתמש על מנת להתגבר על "
+"בעיות אלו."
+
+#: $lang->'BOT_ACTIVATE'
+msgid "Activate"
+msgstr "הפעל"
+
+#: $lang->'BOT_ACTIVE'
+msgid "Bot active"
+msgstr "הבוט פעיל"
+
+#: $lang->'BOT_ADD'
+msgid "Add bot"
+msgstr "הוסף בוט"
+
+#: $lang->'BOT_ADDED'
+msgid "New bot successfully added."
+msgstr "הבוט החדש נוסף בהצלחה."
+
+#: $lang->'BOT_AGENT'
+msgid "Agent match"
+msgstr "התאמת נציג"
+
+#: $lang->'BOT_AGENT_EXPLAIN'
+msgid "A string matching the bots browser agent, partial matches are allowed."
+msgstr "מחרוזת התואמת לדפדפן הנציג של הבוטים, התאמות חלקיות מורשות."
+
+#: $lang->'BOT_DEACTIVATE'
+msgid "Deactivate"
+msgstr "הפסק"
+
+#: $lang->'BOT_DELETED'
+msgid "Bot deleted successfully."
+msgstr "הבוט נמחק."
+
+#: $lang->'BOT_EDIT'
+msgid "Edit bots"
+msgstr "ערוך בוטים"
+
+#: $lang->'BOT_EDIT_EXPLAIN'
+msgid ""
+"Here you can add or edit an existing bot entry. You may define an agent "
+"string and/or one or more IP addresses (or range of addresses) to match. Be "
+"careful when defining matching agent strings or addresses. You may also "
+"specify a style and language that the bot will view the board using. This "
+"may allow you to reduce bandwidth use by setting a simple style for bots. "
+"Remember to set appropriate permissions for the special Bot usergroup."
+msgstr ""
+"כאן אתה יכול להוסיף בוט או לערוך רישום בוט קיים. אתה יכול להגדיר מחרוזת נציג "
+"ו/או אחד או יותר כתובות IP (או טווח של כתובות) להתאמה. הזהר בעת הגדרת התאמת "
+"מחרוזות נציג או כתובות. תוכל גם להגדיר עיצוב ושפה בהם הבוט ישתמש כדי לצפות "
+"במערכת. זה יוכל לאפשר לך להקטין תעבורה על־ידי הגדרת עיצוב פשוט לבוטים. זכור "
+"לקבוע את הגישות המתאימות לקבוצת המשתמשים של הבוטים המיוחדת."
+
+#: $lang->'BOT_LANG'
+msgid "Bot language"
+msgstr "שפת הבוט"
+
+#: $lang->'BOT_LANG_EXPLAIN'
+msgid "The language presented to the bot as it browses."
+msgstr "השפה המוצגת לבוט כאשר הוא גולש."
+
+#: $lang->'BOT_LAST_VISIT'
+msgid "Last visit"
+msgstr "ביקור אחרון"
+
+#: $lang->'BOT_IP'
+msgid "Bot IP address"
+msgstr "כתובת IP של הבוט"
+
+#: $lang->'BOT_IP_EXPLAIN'
+msgid "Partial matches are allowed, separate addresses with a comma."
+msgstr "התאמות חלקיות מורשות, הפרד כתובות עם פסיק."
+
+#: $lang->'BOT_NAME'
+msgid "Bot name"
+msgstr "שם הבוט"
+
+#: $lang->'BOT_NAME_EXPLAIN'
+msgid "Used only for your own information."
+msgstr "לשימוש שלך בלבד."
+
+#: $lang->'BOT_NAME_TAKEN'
+msgid "The name is already in use on your board and can’t be used for the Bot."
+msgstr "השם כבר בשימוש במערכת ולא ניתן להשתמש בו בשביל הבוט."
+
+#: $lang->'BOT_NEVER'
+msgid "Never"
+msgstr "לעולם לא"
+
+#: $lang->'BOT_STYLE'
+msgid "Bot style"
+msgstr "עיצוב הבוט"
+
+#: $lang->'BOT_STYLE_EXPLAIN'
+msgid "The style used for the board by the bot."
+msgstr "עיצוב המערכת בו משתמש הבוט."
+
+#: $lang->'BOT_UPDATED'
+msgid "Existing bot updated successfully."
+msgstr "הבוט הקיים עודכן בהצלחה."
+
+#: $lang->'ERR_BOT_AGENT_MATCHES_UA'
+msgid ""
+"The bot agent you supplied is similar to the one you are currently using. "
+"Please adjust the agent for this bot."
+msgstr "נציג הבוט שציינת זהה לאחד בו אתה כרגע משתמש. אנא התאם את הציג לבוט זה."
+
+#: $lang->'ERR_BOT_NO_IP'
+msgid ""
+"The IP addresses you supplied were invalid or the hostname could not be "
+"resolved."
+msgstr "כתובות ה־IP שסיפקת לא חוקיות או ששם השרת לא נמצא."
+
+#: $lang->'ERR_BOT_NO_MATCHES'
+msgid "You must supply at least one of an agent or IP for this bot match."
+msgstr "אתה חייב לספק לפחות נציג אחת או IP להתאמת הבוט."
+
+#: $lang->'NO_BOT'
+msgid "Found no bot with the specified ID."
+msgstr "לא נמצאו בוטים עם מספר ה־ID שצוין."
+
+#: $lang->'NO_BOT_GROUP'
+msgid "Unable to find special bot group."
+msgstr "לא ניתן למצוא קבוצת בוטים מיוחדת."

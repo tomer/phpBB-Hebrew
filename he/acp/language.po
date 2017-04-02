@@ -1,0 +1,178 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/language.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/acp/language.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'ACP_FILES'
+msgid "Admin language files"
+msgstr "קבצי שפה של לוח הבקרה למנהל הראשי"
+
+#: $lang->'ACP_LANGUAGE_PACKS_EXPLAIN'
+msgid ""
+"Here you are able to install/remove language packs. The default language "
+"pack is marked with an asterisk (*)."
+msgstr ""
+"כאן אתה יכול להתקין/להסיר חבילות שפה. חבילת השפה ברירת המחדל מסומנת בכוכבית "
+"(*)."
+
+#: $lang->'DELETE_LANGUAGE_CONFIRM'
+msgid "Are you sure you wish to delete “%s”?"
+msgstr "האם אתה בטוח שברצונך למחוק את “%s”?"
+
+#: $lang->'INSTALLED_LANGUAGE_PACKS'
+msgid "Installed language packs"
+msgstr "חבילות שפה מותקנות"
+
+#: $lang->'LANGUAGE_DETAILS_UPDATED'
+msgid "Language details successfully updated."
+msgstr "פרטי חבילת השפה עודכנו בהצלחה."
+
+#: $lang->'LANGUAGE_PACK_ALREADY_INSTALLED'
+msgid "This language pack is already installed."
+msgstr "חבילת השפה כבר מותקנת."
+
+#: $lang->'LANGUAGE_PACK_DELETED'
+msgid ""
+"The language pack “%s” has been removed successfully. All users using this "
+"language have been reset to the board’s default language."
+msgstr ""
+"חבילת השפה “%s” הוסרה בהצלחה. כל המשתמשים שהשתמשו בחבילה זו הועברו לחבילת "
+"ברירת המחדל של המערכת."
+
+#: $lang->'LANGUAGE_PACK_DETAILS'
+msgid "Language pack details"
+msgstr "פרטי חבילת שפה"
+
+#: $lang->'LANGUAGE_PACK_INSTALLED'
+msgid "The language pack “%s” has been successfully installed."
+msgstr "חבילת השפה “%s” הותקנה בהצלחה."
+
+#: $lang->'LANGUAGE_PACK_CPF_UPDATE'
+msgid ""
+"The custom profile fields’ language strings were copied from the default "
+"language. Please change them if necessary."
+msgstr ""
+"שמות הזיהוי של שדות הפרופיל המותאמים אישית הועתקו משפת ברירת המחדל. אנא שנה "
+"אותם אם נדרש."
+
+#: $lang->'LANGUAGE_PACK_ISO'
+msgid "ISO"
+msgstr "ISO"
+
+#: $lang->'LANGUAGE_PACK_LOCALNAME'
+msgctxt "$lang->'LANGUAGE_PACK_LOCALNAME'"
+msgid "Local name"
+msgstr "שם מקומי"
+
+#: $lang->'LANGUAGE_PACK_NAME'
+msgid "Name"
+msgstr "שם"
+
+#: $lang->'LANGUAGE_PACK_NOT_EXIST'
+msgid "The selected language pack does not exist."
+msgstr "חבילת השפה שנבחרה איננה קיימת."
+
+#: $lang->'LANGUAGE_PACK_USED_BY'
+msgid "Used by (including robots)"
+msgstr "בשימוש על ידי (כולל רובוטים)"
+
+#: $lang->'LANGUAGE_VARIABLE'
+msgid "Language variable"
+msgstr "מחרוזת"
+
+#: $lang->'LANG_AUTHOR'
+msgid "Language pack author"
+msgstr "יוצר חבילת השפה"
+
+#: $lang->'LANG_ENGLISH_NAME'
+msgid "English name"
+msgstr "שם באנגלית"
+
+#: $lang->'LANG_ISO_CODE'
+msgid "ISO code"
+msgstr "קוד ISO"
+
+#: $lang->'LANG_LOCAL_NAME'
+msgctxt "$lang->'LANG_LOCAL_NAME'"
+msgid "Local name"
+msgstr "שם מקומי"
+
+#: $lang->'MISSING_LANG_FILES'
+msgid "Missing language files"
+msgstr "קבצי שפה חסרים"
+
+#: $lang->'MISSING_LANG_VARIABLES'
+msgid "Missing language variables"
+msgstr "משתני שפה חסרים"
+
+#: $lang->'NO_FILE_SELECTED'
+msgid "You haven’t specified a language file."
+msgstr "אינך ציינת קובץ שפה."
+
+#: $lang->'NO_LANG_ID'
+msgid "You haven’t specified a language pack."
+msgstr "אינך ציינת חבילת שפות"
+
+#: $lang->'NO_REMOVE_DEFAULT_LANG'
+msgid ""
+"You are not able to remove the default language pack.<br />If you want to "
+"remove this language pack, change your board’s default language first."
+msgstr ""
+"אינך יכול למחוק את שפת ברירת המחדל של המערכת. <br />אם אתה באמת רוצה למחוק "
+"את החבילה, שנה את חבילת ברירת המחדל של המערכת תחילה."
+
+#: $lang->'NO_UNINSTALLED_LANGUAGE_PACKS'
+msgid "No uninstalled language packs"
+msgstr "אין חבילות שפה לא מותקנות."
+
+#: $lang->'THOSE_MISSING_LANG_FILES'
+msgid "The following language files are missing from the “%s” language folder"
+msgstr "קבצי השפה הבאים חסרים מתיקית השפה “%s”"
+
+#: $lang->'THOSE_MISSING_LANG_VARIABLES'
+msgid ""
+"The following language variables are missing from the “%s” language pack"
+msgstr "משתני השפה הבאים חסרים מחבילת השפה “%s”"
+
+#: $lang->'UNINSTALLED_LANGUAGE_PACKS'
+msgid "Uninstalled language packs"
+msgstr "חבילות שפה לא מותקנת"
+
+#: $lang->'BROWSE_LANGUAGE_PACKS_DATABASE'
+msgid "Browse language packs database"
+msgstr "צפה במאגר השפות"

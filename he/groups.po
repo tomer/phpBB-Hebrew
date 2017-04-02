@@ -1,0 +1,257 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/groups.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/groups.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'ALREADY_DEFAULT_GROUP'
+msgid "The selected group is already your default group."
+msgstr "הקבוצה הנבחרת היא כבר קבוצת ברירת המחדל שלך."
+
+#: $lang->'ALREADY_IN_GROUP'
+msgid "You are already a member of the selected group."
+msgstr "אתה כבר חבר של הקבוצה הנבחרת."
+
+#: $lang->'ALREADY_IN_GROUP_PENDING'
+msgid "You already requested joining the selected group."
+msgstr "כבר ביקשת להצטרף לקבוצה הנבחרת."
+
+#: $lang->'CANNOT_JOIN_GROUP'
+msgid ""
+"You are not able to join this group. You are only able to join open and "
+"freely open groups."
+msgstr "אינך מורשה להוסיף קבוצה זו. אתה יכול רק להוסיף קבוצות פתוחות."
+
+#: $lang->'CANNOT_RESIGN_GROUP'
+msgid ""
+"You are not able to resign from this group. You are only able to resign from "
+"open and freely open groups."
+msgstr "אינך יכול להסיר מקבוצה זו. אתה יכול רק להסיר מקבוצות פתוחות ."
+
+#: $lang->'CHANGED_DEFAULT_GROUP'
+msgid "Successfully changed default group."
+msgstr "קבוצת ברירת המחדל שונתה בהצלחה."
+
+#: $lang->'GROUP_AVATAR'
+msgid "Group avatar"
+msgstr "סמל אישי לקבוצה"
+
+#: $lang->'GROUP_CHANGE_DEFAULT'
+msgid ""
+"Are you sure you want to change your default membership to the group “%s”?"
+msgstr "האם אתה בטוח שאתה רוצה לשנות את חברות ברירת המחדל שלך לקבוצה “%s”?"
+
+#: $lang->'GROUP_CLOSED'
+msgid "Closed"
+msgstr "סגורה"
+
+#: $lang->'GROUP_DESC'
+msgid "Group description"
+msgstr "תיאור הקבוצה"
+
+#: $lang->'GROUP_HIDDEN'
+msgid "Hidden"
+msgstr "מוסתרת"
+
+#: $lang->'GROUP_INFORMATION'
+msgid "Usergroup information"
+msgstr "פרטי קבוצת המשתמשים"
+
+#: $lang->'GROUP_IS_CLOSED'
+msgid ""
+"This is a closed group, new members can only join upon invitation of a group "
+"leader."
+msgstr ""
+"זוהי קבוצה סגורה, משתמשים חדשים יכולים להצטרף רק על־ידי הזמנה מראש הקבוצה."
+
+#: $lang->'GROUP_IS_FREE'
+msgid "This is a freely open group, all new members are welcome."
+msgstr "זוהי קבוצה הפתוחה בחופשיות, כל המשתמשים החדשים מוזמנים בברכה."
+
+#: $lang->'GROUP_IS_HIDDEN'
+msgid ""
+"This is a hidden group, only members of this group can view its membership."
+msgstr "זוהי קבוצה מוסתרת, רק משתמשי הקבוצה יכולים לצפות בחברויות שלה."
+
+#: $lang->'GROUP_IS_OPEN'
+msgid "This is an open group, members can apply to join."
+msgstr "זוהי קבוצה פתוחה, משתמשים יכולים לבקש להצטרף."
+
+#: $lang->'GROUP_IS_SPECIAL'
+msgid ""
+"This is a special group, special groups are managed by the board "
+"administrators."
+msgstr ""
+"זוהי קבוצה מיוחדת, קבוצות מיוחדות מנוהלות על־ידי המנהלים הראשיים של המערכת."
+
+#: $lang->'GROUP_JOIN'
+msgid "Join group"
+msgstr "הצטרף לקבוצה"
+
+#: $lang->'GROUP_JOIN_CONFIRM'
+msgid "Are you sure you want to join the selected group?"
+msgstr "האם אתה בטוח שאתה רוצה להצטרף לקבוצה הנבחרת?"
+
+#: $lang->'GROUP_JOIN_PENDING'
+msgid "Request to join group"
+msgstr "בקש להצטרף לקבוצה"
+
+#: $lang->'GROUP_JOIN_PENDING_CONFIRM'
+msgid "Are you sure you want to request joining the selected group?"
+msgstr "האם אתה בטוח שאתה רוצה לבקש להצטרף לקבוצה הנבחרת?"
+
+#: $lang->'GROUP_JOINED'
+msgid "Successfully joined selected group."
+msgstr "הצטרפת לקבוצה הנבחרת בהצלחה."
+
+#: $lang->'GROUP_JOINED_PENDING'
+msgid ""
+"Successfully requested group membership. Please wait for a group leader to "
+"approve your membership."
+msgstr ""
+"הבקשה לחברות בקבוצה עברה בהצלחה. אנא המתן שראש קבוצה יאשר את החברות שלך."
+
+#: $lang->'GROUP_LIST'
+msgid "Manage users"
+msgstr "ניהול משתמשים"
+
+#: $lang->'GROUP_MEMBERS'
+msgid "Group members"
+msgstr "חברי הקבוצה"
+
+#: $lang->'GROUP_NAME'
+msgid "Group name"
+msgstr "שם הקבוצה"
+
+#: $lang->'GROUP_OPEN'
+msgid "Open"
+msgstr "פתוחה"
+
+#: $lang->'GROUP_RANK'
+msgid "Group rank"
+msgstr "דירוג לקבוצה"
+
+#: $lang->'GROUP_RESIGN_MEMBERSHIP'
+msgid "Resign group membership"
+msgstr "בטל חברות קבוצה"
+
+#: $lang->'GROUP_RESIGN_MEMBERSHIP_CONFIRM'
+msgid ""
+"Are you sure you want to resign your membership from the selected group?"
+msgstr "האם אתה בטוח שאתה רוצה לבטל את החברות שלך בקבוצה הנבחרת?"
+
+#: $lang->'GROUP_RESIGN_PENDING'
+msgid "Resign a pending group membership"
+msgstr "בטל חברות ניסיונית בקבוצה"
+
+#: $lang->'GROUP_RESIGN_PENDING_CONFIRM'
+msgid ""
+"Are you sure you want to resign your pending membership from the selected "
+"group?"
+msgstr "האם אתה בטוח שאתה מעוניין לבטל את החברות הניסיונית שלך בקבוצה הנבחרת?"
+
+#: $lang->'GROUP_RESIGNED_MEMBERSHIP'
+msgid "You were successfully removed from the selected group."
+msgstr "הוסרת מהקבוצה הנבחרת בהצלחה."
+
+#: $lang->'GROUP_RESIGNED_PENDING'
+msgid ""
+"Your pending membership was successfully removed from the selected group."
+msgstr "חברותך הניסיונית הוסרה מהקבוצה הנבחרת בהצלחה."
+
+#: $lang->'GROUP_TYPE'
+msgid "Group type"
+msgstr "סוג הקבוצה"
+
+#: $lang->'GROUP_UNDISCLOSED'
+msgid "Hidden group"
+msgstr "קבוצה מוסתרת"
+
+#: $lang->'FORUM_UNDISCLOSED'
+msgid "Moderating hidden forum(s)"
+msgstr "ניהול פורומים מוסתרים"
+
+#: $lang->'LOGIN_EXPLAIN_GROUP'
+msgid "You need to login to view group details."
+msgstr "אתה צריך להתחבר כדי לצפות בפרטי הקבוצה."
+
+#: $lang->'NO_LEADERS'
+msgid "You are not a leader of any group."
+msgstr "אינך ראש קבוצה של אף קבוצה."
+
+#: $lang->'NOT_LEADER_OF_GROUP'
+msgid ""
+"The requested operation cannot be taken because you are not a leader of the "
+"selected group."
+msgstr "הפעולה המבוקשת אינה יכולה להתבצע מפני שאינך ראש הקבוצה."
+
+#: $lang->'NOT_MEMBER_OF_GROUP'
+msgid ""
+"The requested operation cannot be taken because you are not a member of the "
+"selected group or your membership has not been approved yet."
+msgstr ""
+"הפעולה המבוקשת אינה יכולה להתבצע מפני שאינך חבר בקבוצה הנבחרת או שחברותך "
+"עדיין לא אושרה."
+
+#: $lang->'NOT_RESIGN_FROM_DEFAULT_GROUP'
+msgid "You are not allowed to resign from your default group."
+msgstr "אינך רשאי לבטל את חברותך מקבוצת ברירת המחדל שלך."
+
+#: $lang->'PRIMARY_GROUP'
+msgid "Primary group"
+msgstr "קבוצה ראשית"
+
+#: $lang->'REMOVE_SELECTED'
+msgid "Remove selected"
+msgstr "הסר נבחרים"
+
+#: $lang->'USER_GROUP_CHANGE'
+msgid "From “%1$s” group to “%2$s”"
+msgstr "מקבוצה “%1$s” ל־“%2$s”"
+
+#: $lang->'USER_GROUP_DEMOTE'
+msgid "Demote leadership"
+msgstr "בטל ניהול קבוצה"
+
+#: $lang->'USER_GROUP_DEMOTE_CONFIRM'
+msgid ""
+"Are you sure you want to demote as group leader from the selected group?"
+msgstr "אתה בטוח שאתה רוצה לבטל את ניהול הקבוצה שלך בקבוצה הנבחרת?"
+
+#: $lang->'USER_GROUP_DEMOTED'
+msgid "Successfully demoted your leadership."
+msgstr "ניהול הקבוצה שלך בוטל בהצלחה."

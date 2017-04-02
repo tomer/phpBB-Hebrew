@@ -1,0 +1,221 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/ban.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/acp/ban.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#. // Banning
+#: $lang->'1_HOUR'
+msgid "1 hour"
+msgstr "שעה"
+
+#: $lang->'30_MINS'
+msgid "30 minutes"
+msgstr "חצי שעה"
+
+#: $lang->'6_HOURS'
+msgid "6 hours"
+msgstr "6 שעות"
+
+#: $lang->'ACP_BAN_EXPLAIN'
+msgid ""
+"Here you can control the banning of users by name, IP or email address. "
+"These methods prevent a user reaching any part of the board. You can give a "
+"short (maximum 3000 characters) reason for the ban if you wish. This will be "
+"displayed in the admin log. The duration of a ban can also be specified. If "
+"you want the ban to end on a specific date rather than after a set time "
+"period select <span style=\"text-decoration: underline;\">Until -&gt;</span> "
+"for the ban length and enter a date in <kbd>YYYY-MM-DD</kbd> format."
+msgstr ""
+"כאן תוכל לנהל את חסימת המשתמשים לפי שם, IP או כתובת דואר אלקטרוני. שיטות אלו "
+"מונעות ממשתמש להיכנס לכל חלק של המערכת. תוכל לתת סיבה קצרה (מקסימום 3000 "
+"תווים) לחסימה אם תרצה. הסיבה תוצג ביומן המנהלים הראשיים. ניתן לציין גם את "
+"אורך הזמן של החסימה. אם אתה רוצה שהחסימה תסתיים בתאריך מסוים במקום לאחר "
+"תקופת זמן שנקבעה בחר ב<span style=\"text-decoration: underline;\">עד "
+"-&gt;</span> לאורך החסימה והזן תאריך בתבנית <kbd>YYYY-MM-DD</kbd>."
+
+#: $lang->'BAN_EXCLUDE'
+msgid "Exclude from banning"
+msgstr "שחרר מחסימה"
+
+#: $lang->'BAN_LENGTH'
+msgid "Length of ban"
+msgstr "אורך החסימה"
+
+#: $lang->'BAN_REASON'
+msgid "Reason for ban"
+msgstr "סיבה לחסימה"
+
+#: $lang->'BAN_GIVE_REASON'
+msgid "Reason shown to the banned"
+msgstr "הסיבה המוצגת לחסום"
+
+#: $lang->'BAN_UPDATE_SUCCESSFUL'
+msgid "The banlist has been updated successfully."
+msgstr "רשימת החסומים עודכנה בהצלחה."
+
+#. Example: "until Mon 13.Jul.2009, 14:44"
+#: $lang->'BANNED_UNTIL_DATE'
+msgid "until %s"
+msgstr "עד %s"
+
+#. Example: "7 days (until Tue 14.Jul.2009, 14:44)"
+#: $lang->'BANNED_UNTIL_DURATION'
+msgid "%1$s (until %2$s)"
+msgstr "%1$s (עד %2$s)"
+
+#: $lang->'EMAIL_BAN'
+msgid "Ban one or more email addresses"
+msgstr "חסום כתובת דואר אלקטרוני אחת או יותר"
+
+#: $lang->'EMAIL_BAN_EXCLUDE_EXPLAIN'
+msgid "Enable this to exclude the entered email address from all current bans."
+msgstr "אפשר כדי לשחרר את כתובות הדואר האלקטרוני שהוזנו מכל החסימות הנוכחיות."
+
+#: $lang->'EMAIL_BAN_EXPLAIN'
+msgid ""
+"To specify more than one email address enter each on a new line. To match "
+"partial addresses use * as the wildcard, e.g. <samp>*@hotmail.com</samp>, "
+"<samp>*@*.domain.tld</samp>, etc."
+msgstr ""
+"כדי לציין יותר מכתובת דואר אלקטרוני אחת, הזן כל אחת מהן בשורה חדשה. לכתובות "
+"עם התאמות חלקיות השתמש ב־* בתור התו המשלים, למשל <samp>*@hotmail.com</samp>, "
+"<samp>*@*.domain.tld</samp>, וכד'."
+
+#: $lang->'EMAIL_NO_BANNED'
+msgid "No banned email addresses"
+msgstr "אין כתובות דואר אלקטרוני חסומות"
+
+#: $lang->'EMAIL_UNBAN'
+msgid "Un-ban or un-exclude emails"
+msgstr "בטל חסימה או שחרור לכתובות דואר אלקטרוני"
+
+#: $lang->'EMAIL_UNBAN_EXPLAIN'
+msgid ""
+"You can unban (or un-exclude) multiple email addresses in one go using the "
+"appropriate combination of mouse and keyboard for your computer and browser. "
+"Excluded email addresses are emphasised."
+msgstr ""
+"אתה יכול לבטל חסימה (או לבטל שחרור) למספר כתובות דואר אלקטרוני במהלך אחד "
+"בעזרת השילוב המתאים של עכבר ומקלדת לפי המחשב והדפדפן שלך. כתובות דואר "
+"אלקטרוני שמשוחררות מחסימה מודגשות."
+
+#: $lang->'IP_BAN'
+msgid "Ban one or more IPs"
+msgstr "חסום כתובת IP אחת או יותר"
+
+#: $lang->'IP_BAN_EXCLUDE_EXPLAIN'
+msgid "Enable this to exclude the entered IP from all current bans."
+msgstr "אפשר כדי לשחרר את כתובות הIP שהוזנו מכל החסימות הנוכחיות."
+
+#: $lang->'IP_HOSTNAME'
+msgid "IP addresses or hostnames"
+msgstr "כתובות IP או שמות שרתים"
+
+#: $lang->'IP_NO_BANNED'
+msgid "No banned IP addresses"
+msgstr "אין כתובות IP חסומות"
+
+#: $lang->'IP_UNBAN'
+msgid "Un-ban or un-exclude IPs"
+msgstr "בטל חסימה או שחרור לכתובות IP"
+
+#: $lang->'IP_UNBAN_EXPLAIN'
+msgid ""
+"You can unban (or un-exclude) multiple IP addresses in one go using the "
+"appropriate combination of mouse and keyboard for your computer and browser. "
+"Excluded IPs are emphasised."
+msgstr ""
+"אתה יכול לבטל חסימה (או לבטל שחרור) למספר כתובות IP במהלך אחד בעזרת השילוב "
+"המתאים של עכבר ומקלדת לפי המחשב והדפדפן שלך. כתובות IP שמשוחררות מחסימה "
+"מודגשות."
+
+#: $lang->'LENGTH_BAN_INVALID'
+msgid "The date has to be formatted <kbd>YYYY-MM-DD</kbd>."
+msgstr "התאריך צריך להיות בתבנית <kbd>YYYY-MM-DD</kbd>."
+
+#: $lang->'OPTIONS_BANNED'
+msgid "Banned"
+msgstr "נחסם"
+
+#: $lang->'OPTIONS_EXCLUDED'
+msgid "Excluded"
+msgstr "שוחרר"
+
+#: $lang->'PERMANENT'
+msgid "Permanent"
+msgstr "תמידית"
+
+#: $lang->'UNTIL'
+msgid "Until"
+msgstr "עד"
+
+#: $lang->'USER_BAN'
+msgid "Ban one or more users by username"
+msgstr "חסום משתמש אחד או יותר על ידי שם משתמש"
+
+#: $lang->'USER_BAN_EXCLUDE_EXPLAIN'
+msgid "Enable this to exclude the entered users from all current bans."
+msgstr "אפשר כדי לשחרר את המשתמשים שהוזנו מכל החסימות הנוכחיות."
+
+#: $lang->'USER_BAN_EXPLAIN'
+msgid ""
+"You can ban multiple users in one go by entering each name on a new line. "
+"Use the <span style=\"text-decoration: underline;\">Find a member</span> "
+"facility to look up and add one or more users automatically."
+msgstr ""
+"אתה יכול לחסום כמה משתמשים במהלך אחד על־ידי הזנת כל שם בשורה חדשה. השתמש "
+"באפשרות <span style=\"text-decoration: underline;\">מצא משתמש</span> כדי "
+"למצוא ולהוסיף משתמש אחד או יותר אוטומטית."
+
+#: $lang->'USER_NO_BANNED'
+msgid "No banned usernames"
+msgstr "אין שמות משתמשים חסומים"
+
+#: $lang->'USER_UNBAN'
+msgid "Un-ban or un-exclude users by username"
+msgstr "בטל חסימה או שחרור למשתמש על ידי שם משתמש"
+
+#: $lang->'USER_UNBAN_EXPLAIN'
+msgid ""
+"You can unban (or un-exclude) multiple users in one go using the appropriate "
+"combination of mouse and keyboard for your computer and browser. Excluded "
+"users are emphasised."
+msgstr ""
+"אתה יכול לבטל חסימה (או לבטל שחרור) למספר משתמשים במהלך אחד בעזרת השילוב "
+"המתאים של עכבר ומקלדת לפי המחשב והדפדפן שלך. משתמשים שמשוחררים מחסימה "
+"מודגשים."

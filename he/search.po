@@ -1,0 +1,333 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/search.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/search.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'ALL_AVAILABLE'
+msgid "All available"
+msgstr "כל התווים"
+
+#: $lang->'ALL_RESULTS'
+msgid "All results"
+msgstr "כל התוצאות"
+
+#: $lang->'DISPLAY_RESULTS'
+msgid "Display results as"
+msgstr "הצג את תוצאות החיפוש כ"
+
+#: $lang->'FOUND_SEARCH_MATCHES'->1
+msgid "Search found %d match"
+msgstr "החיפוש הנציב תוצאה %d"
+
+#: $lang->'FOUND_SEARCH_MATCHES'->2
+msgid "Search found %d matches"
+msgstr "החיפוש הניב %d תוצאות"
+
+#: $lang->'FOUND_MORE_SEARCH_MATCHES'->1
+msgid "Search found more than %d match"
+msgstr "החיפוש הניב יותר מתוצאה %d"
+
+#: $lang->'FOUND_MORE_SEARCH_MATCHES'->2
+msgid "Search found more than %d matches"
+msgstr "החיפוש הניב יותר מ %d תוצאות"
+
+#: $lang->'GLOBAL'
+msgid "Global announcement"
+msgstr "הכרזה גלובלית"
+
+#: $lang->'IGNORED_TERMS'
+msgid "ignored"
+msgstr "לא נכלל"
+
+#: $lang->'IGNORED_TERMS_EXPLAIN'
+msgid ""
+"The following words in your search query were ignored because they are too "
+"common words: <strong>%s</strong>."
+msgstr ""
+"המילים הבאות לא נכללו בחיפוש שלך מפני שהן מילים נפוצות מדי: "
+"<strong>%s</strong>."
+
+#: $lang->'JUMP_TO_POST'
+msgid "Jump to post"
+msgstr "עבור להודעה"
+
+#: $lang->'LOGIN_EXPLAIN_EGOSEARCH'
+msgid ""
+"The board requires you to be registered and logged in to view your own posts."
+msgstr "המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות בהודעות שלך."
+
+#: $lang->'LOGIN_EXPLAIN_UNREADSEARCH'
+msgid ""
+"The board requires you to be registered and logged in to view your unread "
+"posts."
+msgstr "המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות בהודעות שלך שלא נקראו."
+
+#: $lang->'LOGIN_EXPLAIN_NEWPOSTS'
+msgid ""
+"The board requires you to be registered and logged in to view new posts "
+"since your last visit."
+msgstr ""
+"המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות בהודעות חדשות מאז ביקורך "
+"האחרון."
+
+#: $lang->'MAX_NUM_SEARCH_KEYWORDS_REFINE'->1
+msgid ""
+"You specified too many words to search for. Please do not enter more than %1$"
+"d word."
+msgstr "החיפוש שלך כולל יותר מדי מילים. אנא אל תזין יותר ממילה אחת."
+
+#: $lang->'MAX_NUM_SEARCH_KEYWORDS_REFINE'->2
+msgid ""
+"You specified too many words to search for. Please do not enter more than %1$"
+"d words."
+msgstr "החיפוש שלך כולל יותר מדי מילים. אנא אל תזין יותר מ-%1$d מילים."
+
+#: $lang->'NO_KEYWORDS'
+msgid ""
+"You must specify at least one word to search for. Each word must consist of "
+"at least %s and must not contain more than %s excluding wildcards."
+msgstr ""
+"יש לציין לפחות מילה אחת לחיפוש. כל מילה חייבת להכיל לפחות %s אותיות ולא "
+"יכולה להכין יותר מ־%s אותיות, לא כולל תווים משלימים."
+
+#: $lang->'NO_RECENT_SEARCHES'
+msgid "No searches have been carried out recently."
+msgstr "לא בוצעו חיפושים במערכת לאחרונה."
+
+#: $lang->'NO_SEARCH'
+msgid "Sorry but you are not permitted to use the search system."
+msgstr "אנו מתנצלים, אך אינך מורשה להשתמש במערכת החיפוש."
+
+#: $lang->'NO_SEARCH_RESULTS'
+msgid "No suitable matches were found."
+msgstr "לא נמצאו תוצאות מתאימות."
+
+#: $lang->'NO_SEARCH_LOAD'
+msgid ""
+"Sorry but you cannot use search at this time. The server has high load. "
+"Please try again later."
+msgstr "השרת עמוס כרגע. על כן לא ניתן לחפש בשלב זה. אנא נסה מאוחר יותר."
+
+#: $lang->'NO_SEARCH_TIME'->1
+msgid ""
+"Sorry but you cannot use search at this time. Please try again in %d second."
+msgstr ""
+"אנו מתנצלים אך אין אפשרות להשתמש בחיפוש בזמן זה. אנא נסה שנית בעוד כשניה."
+
+#: $lang->'NO_SEARCH_TIME'->2
+msgid ""
+"Sorry but you cannot use search at this time. Please try again in %d seconds."
+msgstr ""
+"אנו מתנצלים אך אין אפשרות להשתמש בחיפוש בזמן זה. אנא נסה שנית בעוד %d שניות."
+
+#: $lang->'NO_SEARCH_UNREADS'
+msgid "Sorry but searching for unread posts has been disabled on this board."
+msgstr "סליחה אך חיפוש הודעות שלא נקראו בוטל בפורום."
+
+#: $lang->'WORD_IN_NO_POST'
+msgid ""
+"No posts were found because the word <strong>%s</strong> is not contained in "
+"any post."
+msgstr ""
+"לא נמצאו תוצאות מכיוון והמילה <strong>%s</strong> לא נמצאה כלל בשום הודעה."
+
+#: $lang->'WORDS_IN_NO_POST'
+msgid ""
+"No posts were found because the words <strong>%s</strong> are not contained "
+"in any post."
+msgstr ""
+"לא נמצאו תוצאות מכיוון והמילים <strong>%s</strong> לא נמצאו כלל בשום הודעה."
+
+#: $lang->'POST_CHARACTERS'
+msgid "characters of posts"
+msgstr "תווים מההודעה"
+
+#: $lang->'PHRASE_SEARCH_DISABLED'
+msgid "Searching by exact phrase is not supported on this board."
+msgstr "חיפוש לפי ביטוי מדויק אינו נתמך במערכת פורומים זו."
+
+#: $lang->'RECENT_SEARCHES'
+msgid "Recent searches"
+msgstr "חיפושים אחרונים שבוצעו"
+
+#: $lang->'RESULT_DAYS'
+msgid "Limit results to previous"
+msgstr "הגבל תוצאות לפי זמן כתיבה"
+
+#: $lang->'RESULT_SORT'
+msgid "Sort results by"
+msgstr "סדר את התוצאות עפ\"י"
+
+#: $lang->'RETURN_FIRST'
+msgid "Return first"
+msgstr "מספר התווים אשר יוצגו מכל הודעה שתימצא"
+
+#: $lang->'GO_TO_SEARCH_ADV'
+msgid "Go to advanced search"
+msgstr "עבור לחיפוש מתקדם"
+
+#: $lang->'SEARCHED_FOR'
+msgid "Search term used"
+msgstr "חפש לפי התנאים"
+
+#: $lang->'SEARCHED_TOPIC'
+msgid "Searched topic"
+msgstr "החיפוש בוצע בנושא"
+
+#: $lang->'SEARCHED_QUERY'
+msgid "Searched query"
+msgstr "החיפוש בוצע על-פי שאילתה"
+
+#: $lang->'SEARCH_ALL_TERMS'
+msgid "Search for all terms or use query as entered"
+msgstr "חפש הודעות הכוללות את כל מילות המפתח או השתמש בשאילתה כפי שהוכנסה"
+
+#: $lang->'SEARCH_ANY_TERMS'
+msgid "Search for any terms"
+msgstr "חפש הודעות הכוללות לפחות אחת ממילות המפתח"
+
+#: $lang->'SEARCH_AUTHOR'
+msgid "Search for author"
+msgstr "חפש לפי שם מחבר ההודעה"
+
+#: $lang->'SEARCH_AUTHOR_EXPLAIN'
+msgid "Use * as a wildcard for partial matches."
+msgstr "השתמש ב־* (כוכבית) כתו משלים."
+
+#: $lang->'SEARCH_FIRST_POST'
+msgid "First post of topics only"
+msgstr "הודעה ראשונה בנושא בלבד"
+
+#: $lang->'SEARCH_FORUMS'
+msgid "Search in forums"
+msgstr "חפש בפורומים"
+
+#: $lang->'SEARCH_FORUMS_EXPLAIN'
+msgid ""
+"Select the forum or forums you wish to search in. Subforums are searched "
+"automatically if you do not disable “search subforums“ below."
+msgstr ""
+"בחר את הפורום או פורומים שבהם אתה מעוניין לבצע את החיפוש. החיפוש בתתי-"
+"פורומים מתבצע אוטומטית אם אינך מכבה את \"חפש בתת-פורומים\" למטה."
+
+#: $lang->'SEARCH_IN_RESULTS'
+msgid "Search these results"
+msgstr "חפש בתוך תוצאות החיפוש"
+
+#: $lang->'SEARCH_KEYWORDS_EXPLAIN'
+msgid ""
+"Place <strong>+</strong> in front of a word which must be found and "
+"<strong>-</strong> in front of a word which must not be found. Put a list of "
+"words separated by <strong>|</strong> into brackets if only one of the words "
+"must be found. Use * as a wildcard for partial matches."
+msgstr ""
+"הצב <strong>+</strong> לפני ביטוי שחייב להימצא ולהיכלל בתוצאות החיפוש שלך, "
+"או <strong>-</strong> לפני ביטוי שלא חייב. תוכל גם לרשום רשימת ביטויים "
+"מופרדים ב־<strong>|</strong> וכל התאמה מאחד הביטויים יוצג לך בתוצאות החיפוש. "
+"השתמש ב־* (כוכבית) כתו משלים."
+
+#: $lang->'SEARCH_MSG_ONLY'
+msgid "Message text only"
+msgstr "תוכן ההודעה בלבד"
+
+#: $lang->'SEARCH_OPTIONS'
+msgid "Search options"
+msgstr "אפשרויות חיפוש"
+
+#: $lang->'SEARCH_QUERY'
+msgid "Search query"
+msgstr "שאילתת חיפוש"
+
+#: $lang->'SEARCH_SUBFORUMS'
+msgid "Search subforums"
+msgstr "חפש בתתי-פורומים"
+
+#: $lang->'SEARCH_TITLE_MSG'
+msgid "Post subjects and message text"
+msgstr "נושא ההודעה ותוכן ההודעה"
+
+#: $lang->'SEARCH_TITLE_ONLY'
+msgid "Topic titles only"
+msgstr "נושא ההודעה בלבד"
+
+#: $lang->'SEARCH_WITHIN'
+msgid "Search within"
+msgstr "חפש בתוך"
+
+#: $lang->'SORT_ASCENDING'
+msgid "Ascending"
+msgstr "סדר עולה"
+
+#: $lang->'SORT_AUTHOR'
+msgid "Author"
+msgstr "מחבר ההודעה"
+
+#: $lang->'SORT_DESCENDING'
+msgid "Descending"
+msgstr "סדר יורד"
+
+#: $lang->'SORT_FORUM'
+msgid "Forum"
+msgstr "פורום"
+
+#: $lang->'SORT_POST_SUBJECT'
+msgid "Post subject"
+msgstr "נושא ההודעה"
+
+#: $lang->'SORT_TIME'
+msgid "Post time"
+msgstr "תאריך ושעת הכתיבה"
+
+#: $lang->'SPHINX_SEARCH_FAILED'
+msgid "Search failed: %s"
+msgstr "חיפוש נכשל: %s"
+
+#: $lang->'SPHINX_SEARCH_FAILED_LOG'
+msgid ""
+"Sorry, search could not be performed. More information about this failure "
+"has been logged in the error log."
+msgstr ""
+"סליחה, החיפוש לא ניתן לביצוע. מידע נוסף עבור שגיאה זו תועד ביומן השגיאות."
+
+#: $lang->'TOO_FEW_AUTHOR_CHARS'->1
+msgid "You must specify at least %d character of the authors name."
+msgstr "אתה חייב לציין לפחות תו %d מהשם של המחבר."
+
+#: $lang->'TOO_FEW_AUTHOR_CHARS'->2
+msgid "You must specify at least %d characters of the authors name."
+msgstr "אתה חייב לציין לפחות %d תווים מהשם של המחבר."

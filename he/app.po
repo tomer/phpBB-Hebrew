@@ -1,0 +1,66 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/app.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/app.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#. //
+#. // Some characters you may want to copy&paste:
+#. // ’ » “ ” …
+#. //
+#: $lang->'CONTROLLER_ARGUMENT_VALUE_MISSING'
+msgid ""
+"Missing value for argument #%1$s: <strong>%3$s</strong> in class "
+"<strong>%2$s</strong>"
+msgstr ""
+"חסר ערך לפרמטר #%1$s: <strong>%3$s</strong> במחלקה <strong>%2$s</strong>"
+
+#: $lang->'CONTROLLER_NOT_SPECIFIED'
+msgid "No controller has been specified."
+msgstr "לא הוגדר Controller"
+
+#: $lang->'CONTROLLER_METHOD_NOT_SPECIFIED'
+msgid "No method was specified for the controller."
+msgstr "לא הוגדרה מתודה ל-Controller"
+
+#: $lang->'CONTROLLER_SERVICE_UNDEFINED'
+msgid ""
+"The service for controller “<strong>%s</strong>” is not defined in "
+"./config/services.yml."
+msgstr ""
+"השירות עבור ה-Controller  “<strong>%s</strong>” לא מוגדר בקובץ "
+"./config/services.yml."

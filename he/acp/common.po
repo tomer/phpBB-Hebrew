@@ -1,0 +1,2871 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/common.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/acp/common.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#. // Common
+#: $lang->'ACP_ADMINISTRATORS'
+msgid "Administrators"
+msgstr "מנהלים ראשיים"
+
+#: $lang->'ACP_ADMIN_LOGS'
+msgid "Admin log"
+msgstr "מעקב אחר פעולות מנהלים ראשיים"
+
+#: $lang->'ACP_ADMIN_ROLES'
+msgid "Admin roles"
+msgstr "תפקידי מנהלים ראשיים"
+
+#: $lang->'ACP_ATTACHMENTS'
+msgctxt "$lang->'ACP_ATTACHMENTS'"
+msgid "Attachments"
+msgstr "קבצים מצורפים"
+
+#: $lang->'ACP_ATTACHMENT_SETTINGS'
+msgid "Attachment settings"
+msgstr "הגדרות צירוף קבצים"
+
+#: $lang->'ACP_AUTH_SETTINGS'
+msgid "Authentication"
+msgstr "אימות"
+
+#: $lang->'ACP_AUTOMATION'
+msgid "Automation"
+msgstr "מיכון"
+
+#: $lang->'ACP_AVATAR_SETTINGS'
+msgid "Avatar settings"
+msgstr "הגדרות סמל אישי"
+
+#: $lang->'ACP_BACKUP'
+msgid "Backup"
+msgstr "גיבוי"
+
+#: $lang->'ACP_BAN'
+msgid "Banning"
+msgstr "חסימה"
+
+#: $lang->'ACP_BAN_EMAILS'
+msgid "Ban emails"
+msgstr "חסימת כתובות דואר אלקטרוני"
+
+#: $lang->'ACP_BAN_IPS'
+msgid "Ban IPs"
+msgstr "חסימת כתובות IP"
+
+#: $lang->'ACP_BAN_USERNAMES'
+msgid "Ban users"
+msgstr "חסימת משתמשים"
+
+#: $lang->'ACP_BBCODES'
+msgid "BBCodes"
+msgstr "תגי BBCode"
+
+#: $lang->'ACP_BOARD_CONFIGURATION'
+msgid "Board configuration"
+msgstr "הגדרות מערכת"
+
+#: $lang->'ACP_BOARD_FEATURES'
+msgid "Board features"
+msgstr "מאפייני מערכת"
+
+#: $lang->'ACP_BOARD_MANAGEMENT'
+msgid "Board management"
+msgstr "ניהול מערכת"
+
+#: $lang->'ACP_BOARD_SETTINGS'
+msgid "Board settings"
+msgstr "הגדרות מערכת"
+
+#: $lang->'ACP_BOTS'
+msgid "Spiders/Robots"
+msgstr "עכבישים/רובוטים"
+
+#: $lang->'ACP_CAPTCHA'
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: $lang->'ACP_CAT_CUSTOMISE'
+msgid "Customise"
+msgstr "התאמה אישית"
+
+#: $lang->'ACP_CAT_DATABASE'
+msgid "Database"
+msgstr "בסיס נתונים"
+
+#: $lang->'ACP_CAT_DOT_MODS'
+msgid "Extensions"
+msgstr "תוספות"
+
+#: $lang->'ACP_CAT_FORUMS'
+msgid "Forums"
+msgstr "פורומים"
+
+#: $lang->'ACP_CAT_GENERAL'
+msgid "General"
+msgstr "כללי"
+
+#: $lang->'ACP_CAT_MAINTENANCE'
+msgid "Maintenance"
+msgstr "תחזוקה"
+
+#: $lang->'ACP_CAT_PERMISSIONS'
+msgctxt "$lang->'ACP_CAT_PERMISSIONS'"
+msgid "Permissions"
+msgstr "הרשאות"
+
+#: $lang->'ACP_CAT_POSTING'
+msgid "Posting"
+msgstr "הודעות"
+
+#: $lang->'ACP_CAT_STYLES'
+msgctxt "$lang->'ACP_CAT_STYLES'"
+msgid "Styles"
+msgstr "עיצובים"
+
+#: $lang->'ACP_CAT_SYSTEM'
+msgid "System"
+msgstr "מערכת"
+
+#: $lang->'ACP_CAT_USERGROUP'
+msgid "Users and Groups"
+msgstr "משתמשים וקבוצות"
+
+#: $lang->'ACP_CAT_USERS'
+msgid "Users"
+msgstr "משתמשים"
+
+#: $lang->'ACP_CLIENT_COMMUNICATION'
+msgid "Client communication"
+msgstr "תקשורת לקוחות"
+
+#: $lang->'ACP_COOKIE_SETTINGS'
+msgid "Cookie settings"
+msgstr "הגדרות עוגייה"
+
+#: $lang->'ACP_CONTACT'
+msgid "Contact page"
+msgstr "עמוד יצירת קשר"
+
+#: $lang->'ACP_CONTACT_SETTINGS'
+msgid "Contact page settings"
+msgstr "הגדרות עמוד יצירת קשר"
+
+#: $lang->'ACP_CRITICAL_LOGS'
+msgid "Error log"
+msgstr "מעקב אחר שגיאות"
+
+#: $lang->'ACP_CUSTOM_PROFILE_FIELDS'
+msgid "Custom profile fields"
+msgstr "שדות פרופיל מותאמים אישית"
+
+#: $lang->'ACP_DATABASE'
+msgid "Database management"
+msgstr "ניהול בסיס נתונים"
+
+#: $lang->'ACP_DISALLOW'
+msgid "Disallow"
+msgstr "לא מורשה"
+
+#: $lang->'ACP_DISALLOW_USERNAMES'
+msgid "Disallow usernames"
+msgstr "שמות משתמשים לא מורשים"
+
+#: $lang->'ACP_EMAIL_SETTINGS'
+msgid "Email settings"
+msgstr "הגדרות דואר אלקטרוני"
+
+#: $lang->'ACP_EXTENSION_GROUPS'
+msgid "Manage attachment extension groups"
+msgstr "ניהול קבוצת סיומות לקבצים מצורפים"
+
+#: $lang->'ACP_EXTENSION_MANAGEMENT'
+msgid "Extension management"
+msgstr "ניהול תוספות"
+
+#: $lang->'ACP_EXTENSIONS'
+msgid "Manage extensions"
+msgstr "נהל תוספות"
+
+#: $lang->'ACP_FORUM_BASED_PERMISSIONS'
+msgid "Forum based permissions"
+msgstr "הרשאות לפי פורומים"
+
+#: $lang->'ACP_FORUM_LOGS'
+msgid "Forum logs"
+msgstr "מעקב אחר פעולות בפורומים"
+
+#: $lang->'ACP_FORUM_MANAGEMENT'
+msgid "Forum management"
+msgstr "ניהול פורומים"
+
+#: $lang->'ACP_FORUM_MODERATORS'
+msgid "Forum moderators"
+msgstr "מנהלי פורומים"
+
+#: $lang->'ACP_FORUM_PERMISSIONS'
+msgid "Forum permissions"
+msgstr "הרשאות פורומים"
+
+#: $lang->'ACP_FORUM_PERMISSIONS_COPY'
+msgid "Copy forum permissions"
+msgstr "העתק הרשאות פורום"
+
+#: $lang->'ACP_FORUM_ROLES'
+msgid "Forum roles"
+msgstr "תפקידי פורומים"
+
+#: $lang->'ACP_GENERAL_CONFIGURATION'
+msgid "General configuration"
+msgstr "הגדרות כלליות"
+
+#: $lang->'ACP_GENERAL_TASKS'
+msgid "General tasks"
+msgstr "משימות כלליות"
+
+#: $lang->'ACP_GLOBAL_MODERATORS'
+msgid "Global moderators"
+msgstr "מנהלים גלובליים"
+
+#: $lang->'ACP_GLOBAL_PERMISSIONS'
+msgid "Global permissions"
+msgstr "הרשאות גלובליות"
+
+#: $lang->'ACP_GROUPS'
+msgctxt "$lang->'ACP_GROUPS'"
+msgid "Groups"
+msgstr "קבוצות"
+
+#: $lang->'ACP_GROUPS_FORUM_PERMISSIONS'
+msgid "Group forum permissions"
+msgstr "הרשאות פורום של קבוצה"
+
+#: $lang->'ACP_GROUPS_MANAGE'
+msgid "Manage groups"
+msgstr "ניהול קבוצות"
+
+#: $lang->'ACP_GROUPS_MANAGEMENT'
+msgid "Group management"
+msgstr "ניהול קבוצה"
+
+#: $lang->'ACP_GROUPS_PERMISSIONS'
+msgid "Group permissions"
+msgstr "הרשאות של קבוצה"
+
+#: $lang->'ACP_GROUPS_POSITION'
+msgid "Manage group positions"
+msgstr "נהל סדר קבוצות"
+
+#: $lang->'ACP_HELP_PHPBB'
+msgid "Help support phpBB"
+msgstr ""
+
+#: $lang->'ACP_ICONS'
+msgid "Topic icons"
+msgstr "סמלי נושאים"
+
+#: $lang->'ACP_ICONS_SMILIES'
+msgid "Topic icons/smilies"
+msgstr "סמלי/סמיילים של נושאים"
+
+#: $lang->'ACP_INACTIVE_USERS'
+msgctxt "$lang->'ACP_INACTIVE_USERS'"
+msgid "Inactive users"
+msgstr "משתמשים לא פעילים"
+
+#: $lang->'ACP_INDEX'
+msgctxt "$lang->'ACP_INDEX'"
+msgid "ACP index"
+msgstr "עמוד ניהול ראשי"
+
+#: $lang->'ACP_JABBER_SETTINGS'
+msgid "Jabber settings"
+msgstr "הגדרות Jabber"
+
+#: $lang->'ACP_LANGUAGE'
+msgid "Language management"
+msgstr "ניהול שפות"
+
+#: $lang->'ACP_LANGUAGE_PACKS'
+msgid "Language packs"
+msgstr "חבילות שפה"
+
+#: $lang->'ACP_LOAD_SETTINGS'
+msgid "Load settings"
+msgstr "הגדרות כלליות"
+
+#: $lang->'ACP_LOGGING'
+msgid "Logging"
+msgstr "מתחבר"
+
+#: $lang->'ACP_MAIN'
+msgctxt "$lang->'ACP_MAIN'"
+msgid "ACP index"
+msgstr "עמוד ניהול ראשי"
+
+#: $lang->'ACP_MANAGE_ATTACHMENTS'
+msgid "Manage attachments"
+msgstr "ניהול קבצים מצורפים"
+
+#: $lang->'ACP_MANAGE_ATTACHMENTS_EXPLAIN'
+msgid ""
+"Here you can list and delete files attached to posts and private messages."
+msgstr "כאן אתה יכול לנהל ולמחוק קבצים שצורפו להודעות ולהודעות פרטיות."
+
+#: $lang->'ACP_MANAGE_EXTENSIONS'
+msgid "Manage attachment extensions"
+msgstr "ניהול סיומות קבצים מצורפים"
+
+#: $lang->'ACP_MANAGE_FORUMS'
+msgid "Manage forums"
+msgstr "ניהול פורומים"
+
+#: $lang->'ACP_MANAGE_RANKS'
+msgid "Manage ranks"
+msgstr "ניהול דירוגים"
+
+#: $lang->'ACP_MANAGE_REASONS'
+msgid "Manage report/denial reasons"
+msgstr "ניהול סיבות דיווח/חסימה"
+
+#: $lang->'ACP_MANAGE_USERS'
+msgid "Manage users"
+msgstr "ניהול משתמשים"
+
+#: $lang->'ACP_MASS_EMAIL'
+msgid "Mass email"
+msgstr "שולח הדואר"
+
+#: $lang->'ACP_MESSAGES'
+msgid "Messages"
+msgstr "הודעות"
+
+#: $lang->'ACP_MESSAGE_SETTINGS'
+msgid "Private message settings"
+msgstr "הגדרות הודעות פרטיות"
+
+#: $lang->'ACP_MODULE_MANAGEMENT'
+msgid "Module management"
+msgstr "ניהול מודולים"
+
+#: $lang->'ACP_MOD_LOGS'
+msgid "Moderator log"
+msgstr "מעקב אחר פעולות מנהלים"
+
+#: $lang->'ACP_MOD_ROLES'
+msgid "Moderator roles"
+msgstr "תפקידי מנהלים"
+
+#: $lang->'ACP_NO_ITEMS'
+msgid "There are no items yet."
+msgstr "אין פריטים כרגע."
+
+#: $lang->'ACP_ORPHAN_ATTACHMENTS'
+msgid "Orphaned attachments"
+msgstr "קבצים מצורפים ללא שולח"
+
+#: $lang->'ACP_PERMISSIONS'
+msgctxt "$lang->'ACP_PERMISSIONS'"
+msgid "Permissions"
+msgstr "הרשאות"
+
+#: $lang->'ACP_PERMISSION_MASKS'
+msgid "Permission masks"
+msgstr "משימות הרשאה"
+
+#: $lang->'ACP_PERMISSION_ROLES'
+msgid "Permission roles"
+msgstr "תפקידי הרשאה"
+
+#: $lang->'ACP_PERMISSION_TRACE'
+msgid "Permission trace"
+msgstr "מעקב הרשאה"
+
+#: $lang->'ACP_PHP_INFO'
+msgid "PHP information"
+msgstr "פרטי PHP"
+
+#: $lang->'ACP_POST_SETTINGS'
+msgid "Post settings"
+msgstr "הגדרות שליחה"
+
+#: $lang->'ACP_PRUNE_FORUMS'
+msgid "Prune forums"
+msgstr "איפוס פורומים"
+
+#: $lang->'ACP_PRUNE_USERS'
+msgid "Prune users"
+msgstr "איפוס משתמשים"
+
+#: $lang->'ACP_PRUNING'
+msgid "Pruning"
+msgstr "איפוס"
+
+#: $lang->'ACP_QUICK_ACCESS'
+msgid "Quick access"
+msgstr "הרשאה מהירה"
+
+#: $lang->'ACP_RANKS'
+msgid "Ranks"
+msgstr "דירוגים"
+
+#: $lang->'ACP_REASONS'
+msgid "Report/denial reasons"
+msgstr "סיבות דיווח/חסימה"
+
+#: $lang->'ACP_REGISTER_SETTINGS'
+msgid "User registration settings"
+msgstr "הגדרות רישום משתמש"
+
+#: $lang->'ACP_RESTORE'
+msgid "Restore"
+msgstr "שחזור"
+
+#: $lang->'ACP_FEED'
+msgid "Feed management"
+msgstr "ניהול הזנות"
+
+#: $lang->'ACP_FEED_SETTINGS'
+msgid "Feed settings"
+msgstr "הגדרת הזנות"
+
+#: $lang->'ACP_SEARCH'
+msgid "Search configuration"
+msgstr "הגדרות חיפוש"
+
+#: $lang->'ACP_SEARCH_INDEX'
+msgid "Search index"
+msgstr "טבלאות חיפוש"
+
+#: $lang->'ACP_SEARCH_SETTINGS'
+msgid "Search settings"
+msgstr "הגדרות חיפוש"
+
+#: $lang->'ACP_SECURITY_SETTINGS'
+msgid "Security settings"
+msgstr "הגדרות אבטחה"
+
+#: $lang->'ACP_SERVER_CONFIGURATION'
+msgid "Server configuration"
+msgstr "הגדרות שרת"
+
+#: $lang->'ACP_SERVER_SETTINGS'
+msgid "Server settings"
+msgstr "הגדרות שרת"
+
+#: $lang->'ACP_SIGNATURE_SETTINGS'
+msgid "Signature settings"
+msgstr "הגדרות חתימה"
+
+#: $lang->'ACP_SMILIES'
+msgid "Smilies"
+msgstr "סמיילים"
+
+#: $lang->'ACP_STYLE_MANAGEMENT'
+msgid "Style management"
+msgstr "ניהול עיצובים"
+
+#: $lang->'ACP_STYLES'
+msgctxt "$lang->'ACP_STYLES'"
+msgid "Styles"
+msgstr "עיצובים"
+
+#: $lang->'ACP_STYLES_CACHE'
+msgid "Purge Cache"
+msgstr "אפס מטמון"
+
+#: $lang->'ACP_STYLES_INSTALL'
+msgid "Install Styles"
+msgstr "התקן עיצובים"
+
+#: $lang->'ACP_SUBMIT_CHANGES'
+msgid "Submit changes"
+msgstr "שלח שינויים"
+
+#: $lang->'ACP_TEMPLATES'
+msgid "Templates"
+msgstr "תבניות"
+
+#: $lang->'ACP_THEMES'
+msgid "Themes"
+msgstr "סגנונות"
+
+#: $lang->'ACP_UPDATE'
+msgid "Updating"
+msgstr "עדכון"
+
+#: $lang->'ACP_USERS_FORUM_PERMISSIONS'
+msgid "User forum permissions"
+msgstr "הרשאות פורום של משתמש"
+
+#: $lang->'ACP_USERS_LOGS'
+msgid "User logs"
+msgstr "יומן פעולות משתמש"
+
+#: $lang->'ACP_USERS_PERMISSIONS'
+msgid "User permissions"
+msgstr "הרשאות משתמש"
+
+#: $lang->'ACP_USER_ATTACH'
+msgctxt "$lang->'ACP_USER_ATTACH'"
+msgid "Attachments"
+msgstr "קבצים מצורפים"
+
+#: $lang->'ACP_USER_AVATAR'
+msgid "Avatar"
+msgstr "סמל אישי"
+
+#: $lang->'ACP_USER_FEEDBACK'
+msgid "Feedback"
+msgstr "משוב"
+
+#: $lang->'ACP_USER_GROUPS'
+msgctxt "$lang->'ACP_USER_GROUPS'"
+msgid "Groups"
+msgstr "קבוצות"
+
+#: $lang->'ACP_USER_MANAGEMENT'
+msgid "User management"
+msgstr "ניהול משתמשים"
+
+#: $lang->'ACP_USER_OVERVIEW'
+msgid "Overview"
+msgstr "סקירה כללית"
+
+#: $lang->'ACP_USER_PERM'
+msgctxt "$lang->'ACP_USER_PERM'"
+msgid "Permissions"
+msgstr "הרשאות"
+
+#: $lang->'ACP_USER_PREFS'
+msgid "Preferences"
+msgstr "העדפות"
+
+#: $lang->'ACP_USER_PROFILE'
+msgid "Profile"
+msgstr "פרופיל"
+
+#: $lang->'ACP_USER_RANK'
+msgid "Rank"
+msgstr "דירוג"
+
+#: $lang->'ACP_USER_ROLES'
+msgid "User roles"
+msgstr "תפקידי משתמשים"
+
+#: $lang->'ACP_USER_SECURITY'
+msgid "User security"
+msgstr "אבטחת משתמשים"
+
+#: $lang->'ACP_USER_SIG'
+msgid "Signature"
+msgstr "חתימה"
+
+#: $lang->'ACP_USER_WARNINGS'
+msgid "Warnings"
+msgstr "אזהרות"
+
+#: $lang->'ACP_VC_SETTINGS'
+msgid "Spambot countermeasures"
+msgstr "אמצעים נגד בוטים"
+
+#: $lang->'ACP_VC_CAPTCHA_DISPLAY'
+msgid "CAPTCHA image preview"
+msgstr "תצוגה מקדימה ל-CAPTCHA"
+
+#: $lang->'ACP_VERSION_CHECK'
+msgid "Check for updates"
+msgstr "בדוק עדכונים"
+
+#: $lang->'ACP_VIEW_ADMIN_PERMISSIONS'
+msgid "View administrative permissions"
+msgstr "הצגת הרשאות ניהול ראשי"
+
+#: $lang->'ACP_VIEW_FORUM_MOD_PERMISSIONS'
+msgid "View forum moderation permissions"
+msgstr "הצגת הרשאות ניהול פורום"
+
+#: $lang->'ACP_VIEW_FORUM_PERMISSIONS'
+msgid "View forum-based permissions"
+msgstr "הצגת הרשאות לפי פורום"
+
+#: $lang->'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'
+msgid "View global moderation permissions"
+msgstr "הצגת הרשאות ניהול גלובלי"
+
+#: $lang->'ACP_VIEW_USER_PERMISSIONS'
+msgid "View user-based permissions"
+msgstr "הצגת הרשאות לפי משתמש"
+
+#: $lang->'ACP_WORDS'
+msgid "Word censoring"
+msgstr "צנזור מילים"
+
+#: $lang->'ACTION'
+msgid "Action"
+msgstr "פעולה"
+
+#: $lang->'ACTIONS'
+msgid "Actions"
+msgstr "פעולות"
+
+#: $lang->'ACTIVATE'
+msgid "Activate"
+msgstr "הפעל"
+
+#: $lang->'ADD'
+msgid "Add"
+msgstr "הוסף"
+
+#: $lang->'ADMIN'
+msgid "Administration"
+msgstr "ניהול ראשי"
+
+#: $lang->'ADMIN_INDEX'
+msgid "Admin index"
+msgstr "עמוד ניהול ראשי"
+
+#: $lang->'ADMIN_PANEL'
+msgid "Administration Control Panel"
+msgstr "לוח בקרה למנהלים ראשיים"
+
+#: $lang->'ADM_LOGOUT'
+msgid "ACP&nbsp;Logout"
+msgstr "התנתקות מלוח הבקרה"
+
+#: $lang->'ADM_LOGGED_OUT'
+msgid "Successfully logged out from Administration Control Panel"
+msgstr "התנתקת בהצלחה מלוח הבקרה למנהלים ראשיים"
+
+#: $lang->'BACK'
+msgid "Back"
+msgstr "חזור"
+
+#: $lang->'CANNOT_CHANGE_FILE_GROUP'
+msgid "Unable to change file group"
+msgstr ""
+
+#: $lang->'CANNOT_CHANGE_FILE_PERMISSIONS'
+msgid "Unable to change file permissions"
+msgstr ""
+
+#: $lang->'CANNOT_COPY_FILES'
+msgid "Unable to copy files"
+msgstr ""
+
+#: $lang->'CANNOT_CREATE_SYMLINK'
+msgid "Unable to create a symlink"
+msgstr ""
+
+#: $lang->'CANNOT_DELETE_FILES'
+msgid "Unable to delete files from the system"
+msgstr ""
+
+#: $lang->'CANNOT_DUMP_FILE'
+msgid "Unable to dump file"
+msgstr ""
+
+#: $lang->'CANNOT_MIRROR_DIRECTORY'
+msgid "Unable to mirror directory"
+msgstr ""
+
+#: $lang->'CANNOT_RENAME_FILE'
+msgid "Unable to rename a file from the system"
+msgstr ""
+
+#: $lang->'CANNOT_TOUCH_FILES'
+msgid "Unable to determine if the file exists"
+msgstr ""
+
+#: $lang->'CONTAINER_EXCEPTION'
+msgid ""
+"phpBB encountered an error building the container due to an installed "
+"extension. For this reason, all extensions have been temporarily disabled. "
+"Please try purging your forum cache. All extensions will automatically be re-"
+"enabled once the container error is resolved. If this error continues, "
+"please visit <a href=\"https://www.phpbb.com/support\">phpBB.com</a> for "
+"support."
+msgstr ""
+
+#: $lang->'EXCEPTION'
+msgid "Exception"
+msgstr ""
+
+#: $lang->'COLOUR_SWATCH'
+msgid "Web-safe colour swatch"
+msgstr "מאגר צבעים לשימוש בטוח ברשת"
+
+#: $lang->'CONFIG_UPDATED'
+msgid "Configuration updated successfully."
+msgstr "ההגדרות עודכנו בהצלחה."
+
+#: $lang->'CRON_LOCK_ERROR'
+msgid "Could not obtain cron lock."
+msgstr "Could not obtain cron lock."
+
+#: $lang->'CRON_NO_SUCH_TASK'
+msgid "Could not find cron task “%s”."
+msgstr "Could not find cron task “%s”."
+
+#: $lang->'CRON_NO_TASK'
+msgid "No cron tasks need to be run right now."
+msgstr "No cron tasks need to be run right now."
+
+#: $lang->'CRON_NO_TASKS'
+msgid "No cron tasks could be found."
+msgstr "No cron tasks could be found."
+
+#: $lang->'CURRENT_VERSION'
+msgid "Current version"
+msgstr ""
+
+#: $lang->'DEACTIVATE'
+msgid "Deactivate"
+msgstr "הפסק"
+
+#: $lang->'DIRECTORY_DOES_NOT_EXIST'
+msgid "The entered path “%s” does not exist."
+msgstr "הנתיב שהוזן “%s” אינו קיים."
+
+#: $lang->'DIRECTORY_NOT_DIR'
+msgid "The entered path “%s” is not a directory."
+msgstr "הנתיב שהוזן “%s” אינו תיקייה."
+
+#: $lang->'DIRECTORY_NOT_WRITABLE'
+msgid "The entered path “%s” is not writable."
+msgstr "הנתיב שהוזן “%s” אינו ניתן לכתיבה."
+
+#: $lang->'DISABLE'
+msgid "Disable"
+msgstr "כבה"
+
+#: $lang->'DOWNLOAD'
+msgctxt "$lang->'DOWNLOAD'"
+msgid "Download"
+msgstr "הורד"
+
+#: $lang->'DOWNLOAD_AS'
+msgid "Download as"
+msgstr "הורד בתור"
+
+#: $lang->'DOWNLOAD_STORE'
+msgid "Download or store file"
+msgstr "הורד או אחסן קובץ"
+
+#: $lang->'DOWNLOAD_STORE_EXPLAIN'
+msgid ""
+"You may directly download the file or save it in your <samp>store/</samp> "
+"folder."
+msgstr ""
+"אתה יכול להוריד ישירות את הקובץ או לשמור אותו בתיקייה <samp>store/</samp>."
+
+#: $lang->'DOWNLOADS'
+msgid "Downloads"
+msgstr "הורדות"
+
+#: $lang->'EDIT'
+msgid "Edit"
+msgstr "ערוך"
+
+#: $lang->'ENABLE'
+msgid "Enable"
+msgstr "הפעל"
+
+#: $lang->'EXPORT_DOWNLOAD'
+msgctxt "$lang->'EXPORT_DOWNLOAD'"
+msgid "Download"
+msgstr "הורד"
+
+#: $lang->'EXPORT_STORE'
+msgid "Store"
+msgstr "אחסן"
+
+#: $lang->'GENERAL_OPTIONS'
+msgid "General options"
+msgstr "אפשרויות כלליות"
+
+#: $lang->'GENERAL_SETTINGS'
+msgid "General settings"
+msgstr "הגדרות כלליות"
+
+#: $lang->'GLOBAL_MASK'
+msgid "Global permission mask"
+msgstr "משימת הרשאה גלובלית"
+
+#: $lang->'INSTALL'
+msgid "Install"
+msgstr "התקן"
+
+#: $lang->'IP'
+msgid "User IP"
+msgstr "IP של משתמש"
+
+#: $lang->'IP_HOSTNAME'
+msgid "IP addresses or hostnames"
+msgstr "כתובות IP או שמות שרתים"
+
+#: $lang->'LATEST_VERSION'
+msgid "Latest version"
+msgstr ""
+
+#: $lang->'LOAD_NOTIFICATIONS'
+msgid "Display Notifications"
+msgstr "הצג התראות"
+
+#: $lang->'LOAD_NOTIFICATIONS_EXPLAIN'
+msgid "Display the notifications list on every page (typically in the header)."
+msgstr "הצג את ההתראות בכל עמוד (בדרך כלל בראש העמוד)."
+
+#: $lang->'LOGGED_IN_AS'
+msgid "You are logged in as:"
+msgstr "אתה מחובר בתור:"
+
+#: $lang->'LOGIN_ADMIN'
+msgid "To administer the board you must be an authenticated user."
+msgstr "כדי לנהל את המערכת אתה חייב להיות משתמש מורשה."
+
+#: $lang->'LOGIN_ADMIN_CONFIRM'
+msgid "To administer the board you must re-authenticate yourself."
+msgstr "כדי לנהל את המערכת אתה חייב לאמת את עצמך מחדש."
+
+#: $lang->'LOGIN_ADMIN_SUCCESS'
+msgid ""
+"You have successfully authenticated and will now be redirected to the "
+"Administration Control Panel."
+msgstr "אומתת בהצלחה ותועבר כעת ללוח הבקרה למנהלים ראשיים."
+
+#: $lang->'LOOK_UP_FORUM'
+msgid "Select a forum"
+msgstr "בחר פורום"
+
+#: $lang->'LOOK_UP_FORUMS_EXPLAIN'
+msgid "You are able to select more than one forum."
+msgstr "אתה יכול לבחור יותר מפורום אחד."
+
+#: $lang->'MANAGE'
+msgid "Manage"
+msgstr "ניהול"
+
+#: $lang->'MENU_TOGGLE'
+msgid "Hide or display the side menu"
+msgstr "הסתר או הצג את התפריט הצדדי"
+
+#. Not used at the moment
+#: $lang->'MORE'
+msgid "More"
+msgstr "עוד"
+
+#: $lang->'MORE_INFORMATION'
+msgid "More information »"
+msgstr "מידע נוסף »"
+
+#: $lang->'MOVE_DOWN'
+msgid "Move down"
+msgstr "העבר למטה"
+
+#: $lang->'MOVE_UP'
+msgid "Move up"
+msgstr "העבר למעלה"
+
+#: $lang->'NOTIFY'
+msgid "Notification"
+msgstr "הודעה"
+
+#: $lang->'NO_ADMIN'
+msgid "You are not authorised to administer this board."
+msgstr "אינך מורשה לנהל מערכת זו."
+
+#: $lang->'NO_EMAILS_DEFINED'
+msgid "No valid email addresses found."
+msgstr "לא נמצאו כתובות דואר אלקטרוני חוקיות."
+
+#: $lang->'NO_FILES_TO_DELETE'
+msgid "Attachments you selected for deletion do not exist."
+msgstr "הקבצים המצורפים שבחרת למחיקה לא קיימים."
+
+#: $lang->'NO_PASSWORD_SUPPLIED'
+msgid ""
+"You need to enter your password to access the Administration Control Panel."
+msgstr "אתה צריך להזין את ססמתך כדי לגשת ללוח הבקרה למנהלים ראשיים."
+
+#: $lang->'OFF'
+msgid "Off"
+msgstr "כבוי"
+
+#: $lang->'ON'
+msgid "On"
+msgstr "פעיל"
+
+#: $lang->'PARSE_BBCODE'
+msgid "Parse BBCode"
+msgstr "פרק BBCode"
+
+#: $lang->'PARSE_SMILIES'
+msgid "Parse smilies"
+msgstr "פרק סמיילים"
+
+#: $lang->'PARSE_URLS'
+msgid "Parse links"
+msgstr "פרק קישורים"
+
+#: $lang->'PERMISSIONS_TRANSFERRED'
+msgid "Permissions transferred"
+msgstr "ההרשאות עוברו"
+
+#: $lang->'PERMISSIONS_TRANSFERRED_EXPLAIN'
+msgid ""
+"You currently have the permissions from %1$s. You are able to browse the "
+"board with this user’s permissions, but not access the administration "
+"control panel since admin permissions were not transferred. You can <a href="
+"\"%2$s\"><strong>revert to your permission set</strong></a> at any time."
+msgstr ""
+"יש לך כרגע את ההרשאות מ־%1$s. אתה יכול לגלוש במערכת עם הרשאות משתמש זה, אבל "
+"לא לגשת ללוח הבקרה למנהלים ראשיים מפני שהרשאות הניהול הראשי לא הועברו. אתה "
+"יכול <a href=\"%2$s\"><strong>לחזור להרשאות שלך שנקבעו</strong></a> בכל זמן "
+"נתון."
+
+#: $lang->'PROCEED_TO_ACP'
+msgid "%sProceed to the ACP%s"
+msgstr "%sהמשך ללוח הבקרה למנהלים ראשיים%s"
+
+#: $lang->'RELEASE_ANNOUNCEMENT'
+msgid "Announcement"
+msgstr ""
+
+#: $lang->'REMIND'
+msgid "Remind"
+msgstr "הזכר"
+
+#: $lang->'REPARSE_LOCK_ERROR'
+msgid "Reparsing is already in progress by another process."
+msgstr ""
+
+#: $lang->'RESYNC'
+msgid "Resynchronise"
+msgstr "סנכרון מחדש"
+
+#: $lang->'RUNNING_TASK'
+msgid "Running task: %s."
+msgstr "משימות רצות: %s."
+
+#: $lang->'SELECT_ANONYMOUS'
+msgid "Select anonymous user"
+msgstr "בחר משתמש אורח"
+
+#: $lang->'SELECT_OPTION'
+msgid "Select option"
+msgstr "בחר אפשרות"
+
+#: $lang->'SETTING_TOO_LOW'
+msgid ""
+"The provided value for the setting “%1$s” is too low. The minimum acceptable "
+"value is %2$d."
+msgstr "הערך שהוזן עבור ההגדרה “%1$s” קטן מדי. הערך המינימלי המאושר הוא %2$d."
+
+#: $lang->'SETTING_TOO_BIG'
+msgid ""
+"The provided value for the setting “%1$s” is too high. The maximum "
+"acceptable value is %2$d."
+msgstr "הערך שהוזן עבור ההגדרה “%1$s” גבוה מדי. הערך המקסימלי המאושר הוא %2$d."
+
+#: $lang->'SETTING_TOO_LONG'
+msgid ""
+"The provided value for the setting “%1$s” is too long. The maximum "
+"acceptable length is %2$d."
+msgstr "הערך שהוזן עבור ההגדרה “%1$s” ארוך מדי. הערך המקסימלי המאושר הוא %2$d."
+
+#: $lang->'SETTING_TOO_SHORT'
+msgid ""
+"The provided value for the setting “%1$s” is too short. The minimum "
+"acceptable length is %2$d."
+msgstr "הערך שהוזן עבור ההגדרה “%1$s” קצר מדי. הערך המינימלי המאושר הוא %2$d."
+
+#: $lang->'SHOW_ALL_OPERATIONS'
+msgid "Show all operations"
+msgstr "הצג את כל הפעולות"
+
+#: $lang->'TASKS_NOT_READY'
+msgid "Not ready tasks:"
+msgstr "משימות לא מוכנות:"
+
+#: $lang->'TASKS_READY'
+msgid "Ready tasks:"
+msgstr "משימות מוכנות:"
+
+#: $lang->'TOTAL_SIZE'
+msgid "Total size"
+msgstr "גודל מוחלט"
+
+#: $lang->'UCP'
+msgctxt "$lang->'UCP'"
+msgid "User Control Panel"
+msgstr "לוח בקרה למשתמש"
+
+#: $lang->'USERNAMES_EXPLAIN'
+msgid "Place each username on a separate line."
+msgstr "הכנס כל שם משתמש בשורה נפרדת."
+
+#: $lang->'USER_CONTROL_PANEL'
+msgctxt "$lang->'USER_CONTROL_PANEL'"
+msgid "User Control Panel"
+msgstr "לוח בקרה למשתמש"
+
+#: $lang->'UPDATE_NEEDED'
+msgid "The board is not up to date."
+msgstr ""
+
+#: $lang->'UPDATE_NOT_NEEDED'
+msgid "The board is up to date."
+msgstr ""
+
+#: $lang->'UPDATES_AVAILABLE'
+msgid "Updates available:"
+msgstr ""
+
+#: $lang->'WARNING'
+msgid "Warning"
+msgstr "אזהרה"
+
+#. // PHP info
+#: $lang->'ACP_PHP_INFO_EXPLAIN'
+msgid ""
+"This page lists information on the version of PHP installed on this server. "
+"It includes details of loaded modules, available variables and default "
+"settings. This information may be useful when diagnosing problems. Please be "
+"aware that some hosting companies will limit what information is displayed "
+"here for security reasons. You are advised to not give out any details on "
+"this page except when asked by <a href=\"https://www.phpbb.com/about/team/\">"
+"official team members</a> on the support forums."
+msgstr ""
+"עמוד זה רושם את המידע לגבי גרסת PHP המותקנת על שרת זה. הוא כולל פרטים על "
+"מודולים טעונים, משתנים זמינים והגדרות ברירת מחדל. מידע זה יכול להיות שימושי "
+"בעת בעיות אבחון. שים לב שכמה חברות אחסון יגבילו את המידע המוצג כאן מטעמי "
+"ביטחון. מומלץ לא למסור שום פרטים מעמוד זה מלבד כאשר אתה מתבקש על־ידי <a href="
+"\"http://www.phpbb.co.il/about.php\">חברי הצוות הרשמיים</a> בפורומי התמיכה."
+
+#: $lang->'NO_PHPINFO_AVAILABLE'
+msgid ""
+"Information about your PHP configuration is unable to be determined. "
+"Phpinfo() has been disabled for security reasons."
+msgstr "לא ניתן לגלות מידע על הגדרות PHP. Phpinfo() כבוי מטעמי ביטחון."
+
+#. // Logs
+#: $lang->'ACP_ADMIN_LOGS_EXPLAIN'
+msgid ""
+"This lists all the actions carried out by board administrators. You can sort "
+"by username, date, IP or action. If you have appropriate permissions you can "
+"also clear individual operations or the log as a whole."
+msgstr ""
+"עמוד זה רושם את כל הפעולות אשר בוצעו על־ידי המנהלים הראשיים של המערכת. ניתן "
+"למיין לפי שם משתמש, תאריך, כתובת IP או פעולה. אם קיימות ההרשאות המתאימות, "
+"ניתן להסיר פעולות מסוימות או את מעקב הפעולות בשלמותו."
+
+#: $lang->'ACP_CRITICAL_LOGS_EXPLAIN'
+msgid ""
+"This lists the actions carried out by the board itself. This log provides "
+"you with information you are able to use for solving specific problems, for "
+"example non-delivery of emails. You can sort by username, date, IP or "
+"action. If you have appropriate permissions you can also clear individual "
+"operations or the log as a whole."
+msgstr ""
+"עמוד זה רושם את כל הפעולות אשר התבצעו על־ידי המערכת עצמה. מעקב הפעולות מספק "
+"מידע אשר יוכל לשמש לפתירת בעיות מסוימות, כגון אי־מסירת הודעות דואר אלקטרוני. "
+"ניתן למיין לפי שם משתמש, תאריך, כתובת IP או פעולה. אם קיימות ההרשאות "
+"המתאימות, ניתן להסיר פעולות מסוימות או את מעקב הפעולות בשלמותו."
+
+#: $lang->'ACP_MOD_LOGS_EXPLAIN'
+msgid ""
+"This lists all actions done on forums, topics and posts as well as actions "
+"carried out on users by moderators, including banning. You can sort by "
+"username, date, IP or action. If you have appropriate permissions you can "
+"also clear individual operations or the log as a whole."
+msgstr ""
+"עמוד זה רושם את כל הפעולות אשר התבצעו בפורומים, נושאים והודעות וגם פעולות "
+"שבוצעו על משתמשים על־ידי מנהלים, לרבות חסימתם. ניתן למיין לפי שם משתמש, "
+"תאריך, כתובת IP או פעולה. אם קיימות ההרשאות המתאימות, ניתן להסיר פעולות "
+"מסוימות או את מעקב הפעולות בשלמותו."
+
+#: $lang->'ACP_USERS_LOGS_EXPLAIN'
+msgid ""
+"This lists all actions carried out by users or on users (reports, warnings "
+"and user notes)."
+msgstr ""
+"עמוד זה רושם את כל הפעולות שבוצעו על־ידי משתמשים או על משתמשים (דיווחים, "
+"אזהרות והודעות משתמש)."
+
+#: $lang->'ALL_ENTRIES'
+msgid "All entries"
+msgstr "כל הרישומים"
+
+#: $lang->'DISPLAY_LOG'
+msgid "Display entries from previous"
+msgstr "הצג רישומים קודמים"
+
+#: $lang->'NO_ENTRIES'
+msgid "No log entries for this period."
+msgstr "אין רישומי מעקב פעולות בתקופה זו."
+
+#: $lang->'SORT_IP'
+msgid "IP address"
+msgstr "כתובת IP"
+
+#: $lang->'SORT_DATE'
+msgid "Date"
+msgstr "תאריך"
+
+#: $lang->'SORT_ACTION'
+msgid "Log action"
+msgstr "פעולה"
+
+#. // Index page
+#: $lang->'ADMIN_INTRO'
+msgid ""
+"Thank you for choosing phpBB as your board solution. This screen will give "
+"you a quick overview of all the various statistics of your board. The links "
+"on the left hand side of this screen allow you to control every aspect of "
+"your board experience. Each page will have instructions on how to use the "
+"tools."
+msgstr ""
+"תודה שבחרת ב־phpBB3 בתור מערכת הפורומים שלך. מסך זה יספק לך סקירה כללית "
+"מהירה של כל הסטטיסטיקות השונות של המערכת. הקישורים בתפריט הימני מאפשרים לך "
+"לנהל כל חלק במערכת. כל עמוד מכיל את ההוראות שלו על כיצד להשתמש בכלים."
+
+#: $lang->'ADMIN_LOG'
+msgid "Logged administrator actions"
+msgstr "פעולות מנהלים ראשיים הרשומות במעקב הפעולות"
+
+#: $lang->'ADMIN_LOG_INDEX_EXPLAIN'
+msgid ""
+"This gives an overview of the last five actions carried out by board "
+"administrators. A full copy of the log can be viewed from the appropriate "
+"menu item or following the link below."
+msgstr ""
+"חלק זה מספק לך סקירה כללית של חמשת הפעולות האחרונות אשר התבצעו על־ידי "
+"המנהלים הראשיים של המערכת. עותק מלא של מעקב הפעולות ניתן לצפייה מהקישור הבא:"
+
+#: $lang->'AVATAR_DIR_SIZE'
+msgid "Avatar directory size"
+msgstr "גודל תיקיית הסמלים האישיים"
+
+#: $lang->'BOARD_STARTED'
+msgid "Board started"
+msgstr "תאריך התקנת המערכת"
+
+#: $lang->'BOARD_VERSION'
+msgid "Board version"
+msgstr "גרסת המערכת"
+
+#: $lang->'DATABASE_SERVER_INFO'
+msgid "Database server"
+msgstr "שרת בסיס נתונים"
+
+#: $lang->'DATABASE_SIZE'
+msgid "Database size"
+msgstr "גודל בסיס נתונים"
+
+#. // Enviroment configuration checks, mbstring related
+#: $lang->'ERROR_MBSTRING_FUNC_OVERLOAD'
+msgid "Function overloading is improperly configured"
+msgstr "פנקציית overloading הוגדרה לא נכון"
+
+#: $lang->'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'
+msgid ""
+"<var>mbstring.func_overload</var> must be set to either 0 or 4. You can "
+"check the current value on the <samp>PHP information</samp> page."
+msgstr ""
+"<var>mbstring.func_overload</var> חייב להיות מוגדר ל0 או ל4. אתה יכול לבדוק "
+"את הערך הנוכחי בעמוד <samp>פרטי PHP</samp>."
+
+#: $lang->'ERROR_MBSTRING_ENCODING_TRANSLATION'
+msgid "Transparent character encoding is improperly configured"
+msgstr "קידוד תכונת השקיפות הוגדר לא נכון"
+
+#: $lang->'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'
+msgid ""
+"<var>mbstring.encoding_translation</var> must be set to 0. You can check the "
+"current value on the <samp>PHP information</samp> page."
+msgstr ""
+"<var>mbstring.encoding_translation</var> חייב להיות מוגדר ל0. אתה יכול לבדוק "
+"את הערך הנוכחי בעמוד <samp>פרטי PHP</samp>."
+
+#: $lang->'ERROR_MBSTRING_HTTP_INPUT'
+msgid "HTTP input character conversion is improperly configured"
+msgstr "ממיר תכונת הקלט של HTTP הוגדר לא נכון"
+
+#: $lang->'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'
+msgid ""
+"<var>mbstring.http_input</var> must be set to <samp>pass</samp>. You can "
+"check the current value on the <samp>PHP information</samp> page."
+msgstr ""
+"<var>mbstring.http_input</var> חייב להיות מוגדר ל־<samp>pass</samp>. אתה "
+"יכול לבדוק את הערך הנוכחי בעמוד <samp>פרטי PHP</samp>."
+
+#: $lang->'ERROR_MBSTRING_HTTP_OUTPUT'
+msgid "HTTP output character conversion is improperly configured"
+msgstr "ממיר תכונת הפלט של HTTP הוגדר לא נכון"
+
+#: $lang->'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'
+msgid ""
+"<var>mbstring.http_output</var> must be set to <samp>pass</samp>. You can "
+"check the current value on the <samp>PHP information</samp> page."
+msgstr ""
+"<var>mbstring.http_output</var> חייב להיות מוגדר ל־<samp>pass</samp>. אתה "
+"יכול לבדוק את הערך הנוכחי בעמוד <samp>פרטי PHP</samp>."
+
+#: $lang->'FILES_PER_DAY'
+msgid "Attachments per day"
+msgstr "קבצים מצורפים ליום"
+
+#: $lang->'FORUM_STATS'
+msgid "Board statistics"
+msgstr "סטטיסטיקות המערכת"
+
+#: $lang->'GZIP_COMPRESSION'
+msgid "GZip compression"
+msgstr "דחיסת GZip"
+
+#: $lang->'NO_SEARCH_INDEX'
+msgid ""
+"The selected search backend does not have a search index.<br />Please create "
+"the index for “%1$s” in the %2$ssearch index%3$s section."
+msgstr ""
+"לחיפוש זה אין אינדקס חיפוש.<br />אנא צור אינדקס עבור \"%1$s\" ב-%2$sאינדקס "
+"חיפוש של%3$s המדור."
+
+#: $lang->'NOT_AVAILABLE'
+msgid "Not available"
+msgstr "לא זמין"
+
+#: $lang->'NUMBER_FILES'
+msgid "Number of attachments"
+msgstr "מספר קבצים מצורפים"
+
+#: $lang->'NUMBER_POSTS'
+msgid "Number of posts"
+msgstr "מספר הודעות"
+
+#: $lang->'NUMBER_TOPICS'
+msgid "Number of topics"
+msgstr "מספר נושאים"
+
+#: $lang->'NUMBER_USERS'
+msgid "Number of users"
+msgstr "מספר משתמשים"
+
+#: $lang->'NUMBER_ORPHAN'
+msgid "Orphan attachments"
+msgstr "קבצים מצורפים ללא שולח"
+
+#: $lang->'PHP_VERSION_OLD'
+msgid ""
+"The version of PHP on this server will no longer be supported by future "
+"versions of phpBB. %sDetails%s"
+msgstr "גרסת ה־PHP שבשרת זה לא תתמך על ידי גרסאות עתידיות של phpBB. %sפרטים%s"
+
+#: $lang->'POSTS_PER_DAY'
+msgid "Posts per day"
+msgstr "הודעות ליום"
+
+#: $lang->'PURGE_CACHE'
+msgid "Purge the cache"
+msgstr "טיהור המטמון"
+
+#: $lang->'PURGE_CACHE_CONFIRM'
+msgid "Are you sure you wish to purge the cache?"
+msgstr "האם אתה בטוח שברצונך לטהר את המטמון?"
+
+#: $lang->'PURGE_CACHE_EXPLAIN'
+msgid ""
+"Purge all cache related items, this includes any cached template files or "
+"queries."
+msgstr ""
+"מטהר את כל הרכיבים הקשורים למטמון, אשר כוללים כל קבצי ערכה או שאילתות אשר "
+"במטמון."
+
+#: $lang->'PURGE_CACHE_SUCCESS'
+msgid "Cache successfully purged."
+msgstr "המטמון טוהר בהצלחה."
+
+#: $lang->'PURGE_SESSIONS'
+msgid "Purge all sessions"
+msgstr "טיהור כל החיבורים"
+
+#: $lang->'PURGE_SESSIONS_CONFIRM'
+msgid ""
+"Are you sure you wish to purge all sessions? This will log out all users."
+msgstr "האם אתה בטוח שברצונך לטהר את כל החיבורים? כל המשתמשים ינותקו."
+
+#: $lang->'PURGE_SESSIONS_EXPLAIN'
+msgid ""
+"Purge all sessions. This will log out all users by truncating the session "
+"table."
+msgstr "טיהור כל החיבורים. זה ינתק את כל המשתמשים על ידי קיצוץ טבלת החיבורים."
+
+#: $lang->'PURGE_SESSIONS_SUCCESS'
+msgid "Sessions successfully purged."
+msgstr "החיבורים טוהרו בהצלחה."
+
+#: $lang->'RESET_DATE'
+msgid "Reset board’s start date"
+msgstr "איפוס תאריך התקנת המערכת"
+
+#: $lang->'RESET_DATE_CONFIRM'
+msgid "Are you sure you wish to reset the board’s start date?"
+msgstr "אתה בטוח שאתה רוצה לאפס את תאריך התקנת המערכת?"
+
+#: $lang->'RESET_DATE_SUCCESS'
+msgid "Board’s start date reset"
+msgstr "תאריך התקנת המערכת אופס"
+
+#: $lang->'RESET_ONLINE'
+msgid "Reset most users ever online"
+msgstr "איפוס מספר המשתמשים הרב ביותר שהיה מחובר בו זמנית"
+
+#: $lang->'RESET_ONLINE_CONFIRM'
+msgid "Are you sure you wish to reset the most users ever online counter?"
+msgstr "אתה בטוח שאתה רוצה לאפס את מספר המשתמשים הרב ביותר שהיה מחובר בו זמנית?"
+
+#: $lang->'RESET_ONLINE_SUCCESS'
+msgid "Most users ever online reset"
+msgstr "אפס את מדד כמות המשתמשים המקסימלית שביקרו אי פעם ביחד"
+
+#: $lang->'RESYNC_POSTCOUNTS'
+msgid "Resynchronise post counts"
+msgstr "סנכרון מוני ההודעות מחדש"
+
+#: $lang->'RESYNC_POSTCOUNTS_EXPLAIN'
+msgid ""
+"Only existing posts will be taken into consideration. Pruned posts will not "
+"be counted."
+msgstr "רק הודעות קיימות יילקחו בחשבון. הודעות שאופסו לא יספרו."
+
+#: $lang->'RESYNC_POSTCOUNTS_CONFIRM'
+msgid "Are you sure you wish to resynchronise post counts?"
+msgstr "אתה בטוח שאתה רוצה לסנכרן מחדש את מוני ההודעות?"
+
+#: $lang->'RESYNC_POSTCOUNTS_SUCCESS'
+msgid "Resynchronised post counts"
+msgstr "ספור מחדש את ספירת ההודעות"
+
+#: $lang->'RESYNC_POST_MARKING'
+msgid "Resynchronise dotted topics"
+msgstr "סנכרון מחדש נושאים מסומנים"
+
+#: $lang->'RESYNC_POST_MARKING_CONFIRM'
+msgid "Are you sure you wish to resynchronise dotted topics?"
+msgstr "אתה בטוח שאתה רוצה לסנכרן מחדש את הנושאים המסומנים?"
+
+#: $lang->'RESYNC_POST_MARKING_EXPLAIN'
+msgid ""
+"First unmarks all topics and then correctly marks topics that have seen any "
+"activity during the past six months."
+msgstr ""
+"ראשית מבטל את סימון כל הנושאים ואז מסמן נושאים כראוי אשר נראתה בהם כל פעילות "
+"במשך שש החודשים האחרונים."
+
+#: $lang->'RESYNC_POST_MARKING_SUCCESS'
+msgid "Resynchronised dotted topics"
+msgstr "ספור מחדש את כל הנושאים המנוקדים"
+
+#: $lang->'RESYNC_STATS'
+msgid "Resynchronise statistics"
+msgstr "סנכרון מחדש סטטיסטיקות"
+
+#: $lang->'RESYNC_STATS_CONFIRM'
+msgid "Are you sure you wish to resynchronise statistics?"
+msgstr "אתה בטוח שאתה רוצה לסנכרן מחדש את הסטטיסטיקות?"
+
+#: $lang->'RESYNC_STATS_EXPLAIN'
+msgid "Recalculates the total number of posts, topics, users and files."
+msgstr "מחשב מחדש את המספר הכולל של ההודעות, הנושאים, המשתמשים והקבצים."
+
+#: $lang->'RESYNC_STATS_SUCCESS'
+msgid "Resynchronised statistics"
+msgstr "ספור מחדש את הסטטיסטיקות"
+
+#: $lang->'RUN'
+msgid "Run now"
+msgstr "הרץ כעת"
+
+#: $lang->'STATISTIC'
+msgid "Statistic"
+msgstr "סטטיסטיקה"
+
+#: $lang->'STATISTIC_RESYNC_OPTIONS'
+msgid "Resynchronise or reset statistics"
+msgstr "סנכרון מחדש או איפוס הסטטיסטיקות"
+
+#: $lang->'TIMEZONE_INVALID'
+msgid "The timezone you selected is invalid."
+msgstr "אזור הזמן שבחרת לא תקני."
+
+#: $lang->'TIMEZONE_SELECTED'
+msgid "(currently selected)"
+msgstr "(בשימוש)"
+
+#: $lang->'TOPICS_PER_DAY'
+msgid "Topics per day"
+msgstr "נושאים ליום"
+
+#: $lang->'UPLOAD_DIR_SIZE'
+msgid "Size of posted attachments"
+msgstr "גודל הקבצים המצורפים"
+
+#: $lang->'USERS_PER_DAY'
+msgid "Users per day"
+msgstr "משתמשים ליום"
+
+#: $lang->'VALUE'
+msgid "Value"
+msgstr "ערך"
+
+#: $lang->'VERSIONCHECK_FAIL'
+msgid "Failed to obtain latest version information."
+msgstr "נכשל הניסיון לקבל מידע על הגרסה האחרונה."
+
+#: $lang->'VERSIONCHECK_FORCE_UPDATE'
+msgid "Re-Check version"
+msgstr "בדיקת גרסה מחדש"
+
+#: $lang->'VERSION_CHECK'
+msgid "Version check"
+msgstr ""
+
+#: $lang->'VERSION_CHECK_EXPLAIN'
+msgid "Checks to see if your phpBB installation is up to date."
+msgstr ""
+
+#: $lang->'VERSION_NOT_UP_TO_DATE_ACP'
+msgid ""
+"Your phpBB installation is not up to date.<br />Below is a link to the "
+"release announcement, which contains more information as well as "
+"instructions on updating."
+msgstr ""
+
+#: $lang->'VERSION_NOT_UP_TO_DATE_TITLE'
+msgid "Your phpBB installation is not up to date."
+msgstr ""
+
+#: $lang->'VERSION_UP_TO_DATE_ACP'
+msgid ""
+"Your phpBB installation is up to date. There are no updates available at "
+"this time."
+msgstr ""
+
+#: $lang->'VIEW_ADMIN_LOG'
+msgid "View administrator log"
+msgstr "ראה מעקב אחר פעולות מנהלים ראשיים"
+
+#: $lang->'VIEW_INACTIVE_USERS'
+msgid "View inactive users"
+msgstr "ראה משתמשים לא פעילים"
+
+#: $lang->'WELCOME_PHPBB'
+msgid "Welcome to phpBB"
+msgstr "ברוך הבא ל־phpBB3"
+
+#: $lang->'WRITABLE_CONFIG'
+msgid ""
+"Your config file (config.php) is currently world-writable. We strongly "
+"encourage you to change the permissions to 640 or at least to 644 (for "
+"example: <a href=\"http://en.wikipedia.org/wiki/Chmod\" rel=\"external\""
+">chmod</a> 640 config.php)."
+msgstr ""
+"קובץ ההגדרות שלך (config.php) ניתן לכתיבה. אנחנו ממליצים לשנות את ההרשאות ל־"
+"640 או לפחות ל־644 (לדוגמה: <a href=\"http://en.wikipedia.org/wiki/Chmod\" "
+"rel=\"external\">chmod</a> 640 config.php)."
+
+#. // Inactive Users
+#: $lang->'INACTIVE_DATE'
+msgctxt "$lang->'INACTIVE_DATE'"
+msgid "Inactive date"
+msgstr "תאריך ללא פעילות"
+
+#: $lang->'INACTIVE_REASON'
+msgctxt "$lang->'INACTIVE_REASON'"
+msgid "Reason"
+msgstr "סיבה"
+
+#: $lang->'INACTIVE_REASON_MANUAL'
+msgid "Account deactivated by administrator"
+msgstr "החשבון הופסק על־ידי מנהל ראשי"
+
+#: $lang->'INACTIVE_REASON_PROFILE'
+msgid "Profile details changed"
+msgstr "פרטי הפרופיל שונו"
+
+#: $lang->'INACTIVE_REASON_REGISTER'
+msgid "Newly registered account"
+msgstr "חשבון שנרשם לאחרונה"
+
+#: $lang->'INACTIVE_REASON_REMIND'
+msgid "Forced user account reactivation"
+msgstr "חשבון המשתמש הוכרח לקבל הפעלה מחדש"
+
+#: $lang->'INACTIVE_REASON_UNKNOWN'
+msgid "Unknown"
+msgstr "לא ידוע"
+
+#: $lang->'INACTIVE_USERS'
+msgctxt "$lang->'INACTIVE_USERS'"
+msgid "Inactive users"
+msgstr "משתמשים לא פעילים"
+
+#: $lang->'INACTIVE_USERS_EXPLAIN'
+msgid ""
+"This is a list of users who have registered but whose accounts are inactive. "
+"You can activate, delete or remind (by sending an email) these users if you "
+"wish."
+msgstr ""
+"זוהי רשימת המשתמשים הרשומים אשר חשבונם אינו פעיל. אתה יכול להפעיל, למחוק או "
+"להזכיר (על־ידי שליחת דואר אלקטרוני) למשתמשים אלו אם תרצה."
+
+#: $lang->'INACTIVE_USERS_EXPLAIN_INDEX'
+msgid ""
+"This is a list of the last 10 registered users who have inactive accounts. "
+"Accounts are inactive either because account activation was enabled in user "
+"registration settings and these users’ accounts have not yet been activated, "
+"or because these accounts have been deactivated. A full list is available by "
+"following the link below from where you can activate, delete or remind (by "
+"sending an email) these users if you wish."
+msgstr ""
+"זוהי רשימת 10 המשתמשים האחרונים שנרשמו אשר חשבונם אינו פעיל. חשבונות לא "
+"פעילים או בגלל שהפעלת חשבון הופעלה בהגדרות רישום משתמש וחשבונות משתמשים אלו "
+"טרם הופעלו, או בגלל שחשבונות אלו בוטלו. רשימה מלאה זמינה על ידי לחיצה על "
+"הקישור שמופיע מטה, משם אתה יכול להפעיל, למחוק או להזכיר (על־ידי שליחת דואר "
+"אלקטרוני) למשתמשים אלו אם תרצה."
+
+#: $lang->'NO_INACTIVE_USERS'
+msgid "No inactive users"
+msgstr "אין משתמשים לא פעילים"
+
+#: $lang->'SORT_INACTIVE'
+msgctxt "$lang->'SORT_INACTIVE'"
+msgid "Inactive date"
+msgstr "תאריך ללא פעילות"
+
+#: $lang->'SORT_LAST_VISIT'
+msgid "Last visit"
+msgstr "ביקור אחרון"
+
+#: $lang->'SORT_REASON'
+msgctxt "$lang->'SORT_REASON'"
+msgid "Reason"
+msgstr "סיבה"
+
+#: $lang->'SORT_REG_DATE'
+msgid "Registration date"
+msgstr "תאריך הרשמה"
+
+#: $lang->'SORT_LAST_REMINDER'
+msgid "Last reminded"
+msgstr "הוזכר לאחרונה"
+
+#: $lang->'SORT_REMINDER'
+msgid "Reminder sent"
+msgstr "התזכורת נשלחה"
+
+#: $lang->'USER_IS_INACTIVE'
+msgid "User is inactive"
+msgstr "המשתמש לא פעיל"
+
+#. // Help support phpBB page
+#: $lang->'EXPLAIN_SEND_STATISTICS'
+msgid ""
+"Please send information about your server and board configurations to phpBB "
+"for statistical analysis. All information that could identify you or your "
+"website has been removed - the data is entirely <strong>anonymous</strong>. "
+"We base decisions about future phpBB versions on this information. The "
+"statistics are made available publically. We also share this data with the "
+"PHP project, the programming language phpBB is made with."
+msgstr ""
+"אנא שלח מידע אודות השרת שלך והגדרות המערכת לphpBB בשביל ניתוח סטטיסטי. כל "
+"מידע שיכול לזהות אותך או את האתר שלך הוסר — המידע כולו "
+"<strong>אנונימי</strong>. אנו מבססים החלטות אודות גרסאות עתדיות של phpBB על "
+"בסיס מידע זה. הסטטיסטיקות יהיו זמינות לציבור. אנו גם משתפים מידע זה עם "
+"פרויקט PHP, שפת התיכנות עליה phpBB בנויה."
+
+#: $lang->'EXPLAIN_SHOW_STATISTICS'
+msgid ""
+"Using the button below you can preview all variables that will be "
+"transmitted."
+msgstr "בשימוש בכפתור מתחת אתה יכול להציג את כל הערכים שישלחו."
+
+#: $lang->'DONT_SEND_STATISTICS'
+msgid ""
+"Return to the ACP if you do not wish to send statistical information to "
+"phpBB."
+msgstr "חזור ללוח הבקרה למנהל הראשי אם אתה לא רוצה לשלוח מידע סטטיסטי לphpBB."
+
+#: $lang->'GO_ACP_MAIN'
+msgid "Go to the ACP start page"
+msgstr "עבור לעמוד הראשי בלוח הבקרה למנהל הראשי"
+
+#: $lang->'HIDE_STATISTICS'
+msgid "Hide details"
+msgstr "הסתר פרטים"
+
+#: $lang->'SEND_STATISTICS'
+msgid "Send statistics"
+msgstr "שלח מידע סטטיסטי"
+
+#: $lang->'SEND_STATISTICS_LONG'
+msgid "Send statistical information"
+msgstr ""
+
+#: $lang->'SHOW_STATISTICS'
+msgid "Show details"
+msgstr "הצג פרטים"
+
+#: $lang->'THANKS_SEND_STATISTICS'
+msgid "Thank you for submitting your information."
+msgstr "תודה ששלחת את המידע."
+
+#: $lang->'FAIL_SEND_STATISTICS'
+msgid "phpBB was unable to send statistics"
+msgstr ""
+
+#. // Log Entries
+#: $lang->'LOG_ACL_ADD_USER_GLOBAL_U_'
+msgid "<strong>Added or edited users’ user permissions</strong><br />» %s"
+msgstr "<strong>הוסיף או ערך הרשאות משתמש של משתמשים</strong><br />» %s"
+
+#: $lang->'LOG_ACL_ADD_GROUP_GLOBAL_U_'
+msgid "<strong>Added or edited groups’ user permissions</strong><br />» %s"
+msgstr "<strong>הוסיף או ערך הרשאות משתמש של קבוצות</strong><br />» %s"
+
+#: $lang->'LOG_ACL_ADD_USER_GLOBAL_M_'
+msgid ""
+"<strong>Added or edited users’ global moderator permissions</strong><br />» "
+"%s"
+msgstr "<strong>הוסיף או ערך הרשאות מנהל גלובלי של משתמשים</strong><br />» %s"
+
+#: $lang->'LOG_ACL_ADD_GROUP_GLOBAL_M_'
+msgid ""
+"<strong>Added or edited groups’ global moderator permissions</strong><br />» "
+"%s"
+msgstr "<strong>הוסיף או ערך הרשאות מנהל גלובלי של קבוצות</strong><br />» %s"
+
+#: $lang->'LOG_ACL_ADD_USER_GLOBAL_A_'
+msgid ""
+"<strong>Added or edited users’ administrator permissions</strong><br />» %s"
+msgstr "<strong>הוסיף או ערך הרשאות מנהל ראשי של משתמשים</strong><br />» %s"
+
+#: $lang->'LOG_ACL_ADD_GROUP_GLOBAL_A_'
+msgid ""
+"<strong>Added or edited groups’ administrator permissions</strong><br />» %s"
+msgstr "<strong>הוסיף או ערך הרשאות מנהל ראשי של קבוצות</strong><br />» %s"
+
+#: $lang->'LOG_ACL_ADD_ADMIN_GLOBAL_A_'
+msgid "<strong>Added or edited Administrators</strong><br />» %s"
+msgstr "<strong>הוסיף או ערך מנהלים ראשיים</strong><br />» %s"
+
+#: $lang->'LOG_ACL_ADD_MOD_GLOBAL_M_'
+msgid "<strong>Added or edited Global Moderators</strong><br />» %s"
+msgstr "<strong>הוסיף או ערך מנהלים גלובליים</strong><br />» %s"
+
+#: $lang->'LOG_ACL_ADD_USER_LOCAL_F_'
+msgid ""
+"<strong>Added or edited users’ forum access</strong> from %1$s<br />» %2$s"
+msgstr "<strong>הוסיף או ערך הרשאת פורום של משתמשים</strong> מ־%1$s<br />» %2$s"
+
+#: $lang->'LOG_ACL_ADD_USER_LOCAL_M_'
+msgid ""
+"<strong>Added or edited users’ forum moderator access</strong> from %1$s<br "
+"/>» %2$s"
+msgstr ""
+"<strong>הוסיף או ערך הרשאת מנהל פורום של משתמשים</strong> מ־%1$s<br />» %2$s"
+
+#: $lang->'LOG_ACL_ADD_GROUP_LOCAL_F_'
+msgid ""
+"<strong>Added or edited groups’ forum access</strong> from %1$s<br />» %2$s"
+msgstr "<strong>הוסיף או ערך הרשאת פורום של קבוצות</strong> מ־%1$s<br />» %2$s"
+
+#: $lang->'LOG_ACL_ADD_GROUP_LOCAL_M_'
+msgid ""
+"<strong>Added or edited groups’ forum moderator access</strong> from %1$s<br "
+"/>» %2$s"
+msgstr ""
+"<strong>הוסיף או ערך הרשאת מנהל פורום של קבוצות</strong> מ־%1$s<br />» %2$s"
+
+#: $lang->'LOG_ACL_ADD_MOD_LOCAL_M_'
+msgid "<strong>Added or edited Moderators</strong> from %1$s<br />» %2$s"
+msgstr "<strong>הוסיף או ערך מנהלים</strong> מ־%1$s<br />» %2$s"
+
+#: $lang->'LOG_ACL_ADD_FORUM_LOCAL_F_'
+msgid ""
+"<strong>Added or edited forum permissions</strong> from %1$s<br />» %2$s"
+msgstr "<strong>הוסיף או ערך הרשאות פורומים</strong> מ־%1$s<br />» %2$s"
+
+#: $lang->'LOG_ACL_DEL_ADMIN_GLOBAL_A_'
+msgid "<strong>Removed Administrators</strong><br />» %s"
+msgstr "<strong>הסיר מנהלים ראשיים</strong><br />» %s"
+
+#: $lang->'LOG_ACL_DEL_MOD_GLOBAL_M_'
+msgid "<strong>Removed Global Moderators</strong><br />» %s"
+msgstr "<strong>הסיר מנהלים גלובליים</strong><br />» %s"
+
+#: $lang->'LOG_ACL_DEL_MOD_LOCAL_M_'
+msgid "<strong>Removed Moderators</strong> from %1$s<br />» %2$s"
+msgstr "<strong>הסיר מנהלים</strong> מ־%1$s<br />» %2$s"
+
+#: $lang->'LOG_ACL_DEL_FORUM_LOCAL_F_'
+msgid ""
+"<strong>Removed User/Group forum permissions</strong> from %1$s<br />» %2$s"
+msgstr "<strong>הסיר הרשאות פורום משתמש/קבוצה</strong> מ־%1$s<br />» %2$s"
+
+#: $lang->'LOG_ACL_TRANSFER_PERMISSIONS'
+msgid "<strong>Permissions transferred from</strong><br />» %s"
+msgstr "<strong>הרשאות הועברו מ</strong><br />» %s"
+
+#: $lang->'LOG_ACL_RESTORE_PERMISSIONS'
+msgid ""
+"<strong>Own permissions restored after using permissions from</strong><br />»"
+" %s"
+msgstr "<strong>שיחזר הרשאות לאחר שימוש בהרשאות של המשתמש</strong><br />» %s"
+
+#: $lang->'LOG_ADMIN_AUTH_FAIL'
+msgid "<strong>Failed administration login attempt</strong>"
+msgstr "<strong>ניסיון התחברות לניהול ראשי נכשל</strong>"
+
+#: $lang->'LOG_ADMIN_AUTH_SUCCESS'
+msgid "<strong>Successful administration login</strong>"
+msgstr "<strong>ניסיון התחברות לניהול ראשי הצליח</strong>"
+
+#: $lang->'LOG_ATTACHMENTS_DELETED'
+msgid "<strong>Removed user attachments</strong><br />» %s"
+msgstr "<strong>הסיר קבצים מצורפים של משתמש</strong><br />» %s"
+
+#: $lang->'LOG_ATTACH_EXT_ADD'
+msgid "<strong>Added or edited attachment extension</strong><br />» %s"
+msgstr "<strong>הוסיף או ערך סיומת קבצים מצורפים</strong><br />» %s"
+
+#: $lang->'LOG_ATTACH_EXT_DEL'
+msgid "<strong>Removed attachment extension</strong><br />» %s"
+msgstr "<strong>הסיר סיומת קבצים מצורפים</strong><br />» %s"
+
+#: $lang->'LOG_ATTACH_EXT_UPDATE'
+msgid "<strong>Updated attachment extension</strong><br />» %s"
+msgstr "<strong>עדכן סיומת קבצים מצורפים</strong><br />» %s"
+
+#: $lang->'LOG_ATTACH_EXTGROUP_ADD'
+msgid "<strong>Added extension group</strong><br />» %s"
+msgstr "<strong>הוסיף קבוצת סיומות</strong><br />» %s"
+
+#: $lang->'LOG_ATTACH_EXTGROUP_EDIT'
+msgid "<strong>Edited extension group</strong><br />» %s"
+msgstr "<strong>ערך קבוצת סיומות</strong><br />» %s"
+
+#: $lang->'LOG_ATTACH_EXTGROUP_DEL'
+msgid "<strong>Removed extension group</strong><br />» %s"
+msgstr "<strong>הסיר קבוצת סיומות</strong><br />» %s"
+
+#: $lang->'LOG_ATTACH_FILEUPLOAD'
+msgid "<strong>Orphan File uploaded to Post</strong><br />» ID %1$d - %2$s"
+msgstr "<strong>קובץ ללא שולח צורף להודעה</strong><br />» ID %1$d - %2$s"
+
+#: $lang->'LOG_ATTACH_ORPHAN_DEL'
+msgid "<strong>Orphan Files deleted</strong><br />» %s"
+msgstr "<strong>קבצים ללא שולח נמחקו</strong><br />» %s"
+
+#: $lang->'LOG_BAN_EXCLUDE_USER'
+msgid ""
+"<strong>Excluded user from ban</strong> for reason “<em>%1$s</em>”<br />» "
+"%2$s"
+msgstr "<strong>שחרר משתמש מחסימה</strong> מסיבה “<em>%1$s</em>”<br />» %2$s"
+
+#: $lang->'LOG_BAN_EXCLUDE_IP'
+msgid ""
+"<strong>Excluded IP from ban</strong> for reason “<em>%1$s</em>”<br />» %2$s"
+msgstr "<strong>שחרר IP מחסימה</strong> מסיבה “<em>%1$s</em>”<br />» %2$s"
+
+#: $lang->'LOG_BAN_EXCLUDE_EMAIL'
+msgid ""
+"<strong>Excluded email from ban</strong> for reason “<em>%1$s</em>”<br />» "
+"%2$s"
+msgstr ""
+"<strong>שחרר דואר אלקטרוני מחסימה</strong> מסיבה “<em>%1$s</em>”<br />» %2$s"
+
+#: $lang->'LOG_BAN_USER'
+msgid "<strong>Banned user</strong> for reason “<em>%1$s</em>”<br />» %2$s"
+msgstr "<strong>חסם משתמש</strong> מסיבה “<em>%1$s</em>”<br />» %2$s"
+
+#: $lang->'LOG_BAN_IP'
+msgid "<strong>Banned IP</strong> for reason “<em>%1$s</em>”<br />» %2$s"
+msgstr "<strong>חסם IP</strong> מסיבה “<em>%1$s</em>”<br />» %2$s"
+
+#: $lang->'LOG_BAN_EMAIL'
+msgid "<strong>Banned email</strong> for reason “<em>%1$s</em>”<br />» %2$s"
+msgstr "<strong>חסם דואר אלקטרוני</strong> מסיבה “<em>%1$s</em>”<br />» %2$s"
+
+#: $lang->'LOG_UNBAN_USER'
+msgid "<strong>Unbanned user</strong><br />» %s"
+msgstr "<strong>שחרר חסימת משתמש</strong><br />» %s"
+
+#: $lang->'LOG_UNBAN_IP'
+msgid "<strong>Unbanned IP</strong><br />» %s"
+msgstr "<strong>שחרר חסימת IP</strong><br />» %s"
+
+#: $lang->'LOG_UNBAN_EMAIL'
+msgid "<strong>Unbanned email</strong><br />» %s"
+msgstr "<strong>שחרר חסימת דואר אלקטרוני</strong><br />» %s"
+
+#: $lang->'LOG_BBCODE_ADD'
+msgid "<strong>Added new BBCode</strong><br />» %s"
+msgstr "<strong>הוסיף תג BBCode חדש</strong><br />» %s"
+
+#: $lang->'LOG_BBCODE_EDIT'
+msgid "<strong>Edited BBCode</strong><br />» %s"
+msgstr "<strong>ערך תג BBCode</strong><br />» %s"
+
+#: $lang->'LOG_BBCODE_DELETE'
+msgid "<strong>Deleted BBCode</strong><br />» %s"
+msgstr "<strong>מחק תג BBCode</strong><br />» %s"
+
+#: $lang->'LOG_BOT_ADDED'
+msgid "<strong>New bot added</strong><br />» %s"
+msgstr "<strong>נוסף בוט חדש</strong><br />» %s"
+
+#: $lang->'LOG_BOT_DELETE'
+msgid "<strong>Deleted bot</strong><br />» %s"
+msgstr "<strong>מחק בוט</strong><br />» %s"
+
+#: $lang->'LOG_BOT_UPDATED'
+msgid "<strong>Existing bot updated</strong><br />» %s"
+msgstr "<strong>בוט קיים עודכן</strong><br />» %s"
+
+#: $lang->'LOG_CLEAR_ADMIN'
+msgid "<strong>Cleared admin log</strong>"
+msgstr "<strong>ניקה מעקב אחר פעולות מנהלים ראשיים</strong>"
+
+#: $lang->'LOG_CLEAR_CRITICAL'
+msgid "<strong>Cleared error log</strong>"
+msgstr "<strong>ניקה מעקב אחר שגיאות</strong>"
+
+#: $lang->'LOG_CLEAR_MOD'
+msgid "<strong>Cleared moderator log</strong>"
+msgstr "<strong>ניקה מעקב אחר פעולות מנהלים</strong>"
+
+#: $lang->'LOG_CLEAR_USER'
+msgid "<strong>Cleared user log</strong><br />» %s"
+msgstr "<strong>ניקה מעקב אחר פעולות משתמש</strong><br />» %s"
+
+#: $lang->'LOG_CLEAR_USERS'
+msgid "<strong>Cleared user logs</strong>"
+msgstr "<strong>ניקה מעקב אחר פעולות משתמשים</strong>"
+
+#: $lang->'LOG_CONFIG_ATTACH'
+msgid "<strong>Altered attachment settings</strong>"
+msgstr "<strong>שינה הגדרות צירוף קבצים</strong>"
+
+#: $lang->'LOG_CONFIG_AUTH'
+msgid "<strong>Altered authentication settings</strong>"
+msgstr "<strong>שינה הגדרות אימות</strong>"
+
+#: $lang->'LOG_CONFIG_AVATAR'
+msgid "<strong>Altered avatar settings</strong>"
+msgstr "<strong>שינה הגדרות סמל אישי</strong>"
+
+#: $lang->'LOG_CONFIG_COOKIE'
+msgid "<strong>Altered cookie settings</strong>"
+msgstr "<strong>שנה הגדרות עוגייה</strong>"
+
+#: $lang->'LOG_CONFIG_EMAIL'
+msgid "<strong>Altered email settings</strong>"
+msgstr "<strong>שינה הגדרות דואר אלקטרוני</strong>"
+
+#: $lang->'LOG_CONFIG_FEATURES'
+msgid "<strong>Altered board features</strong>"
+msgstr "<strong>שינה מאפייני מערכת</strong>"
+
+#: $lang->'LOG_CONFIG_LOAD'
+msgid "<strong>Altered load settings</strong>"
+msgstr "<strong>שינה הגדרות כלליות</strong>"
+
+#: $lang->'LOG_CONFIG_MESSAGE'
+msgid "<strong>Altered private message settings</strong>"
+msgstr "<strong>שינה הגדרות הודעות פרטיות</strong>"
+
+#: $lang->'LOG_CONFIG_POST'
+msgid "<strong>Altered post settings</strong>"
+msgstr "<strong>שינה הגדרות שליחה</strong>"
+
+#: $lang->'LOG_CONFIG_REGISTRATION'
+msgid "<strong>Altered user registration settings</strong>"
+msgstr "<strong>שינה הגדרות רישום משתמש</strong>"
+
+#: $lang->'LOG_CONFIG_FEED'
+msgid "<strong>Altered syndication feeds settings</strong>"
+msgstr "<strong>שינה הגדות הפצה להזנות</strong>"
+
+#: $lang->'LOG_CONFIG_SEARCH'
+msgid "<strong>Altered search settings</strong>"
+msgstr "<strong>שינה הגדרות חיפוש</strong>"
+
+#: $lang->'LOG_CONFIG_SECURITY'
+msgid "<strong>Altered security settings</strong>"
+msgstr "<strong>שינה הגדרות אבטחה</strong>"
+
+#: $lang->'LOG_CONFIG_SERVER'
+msgid "<strong>Altered server settings</strong>"
+msgstr "<strong>שינה הגדרות שרת</strong>"
+
+#: $lang->'LOG_CONFIG_SETTINGS'
+msgid "<strong>Altered board settings</strong>"
+msgstr "<strong>שינה הגדרות מערכת</strong>"
+
+#: $lang->'LOG_CONFIG_SIGNATURE'
+msgid "<strong>Altered signature settings</strong>"
+msgstr "<strong>שינה הגדרות חתימה</strong>"
+
+#: $lang->'LOG_CONFIG_VISUAL'
+msgid "<strong>Altered anti-spambot settings</strong>"
+msgstr "<strong>שינה הגדרות אנטי־בוט</strong>"
+
+#: $lang->'LOG_APPROVE_TOPIC'
+msgctxt "$lang->'LOG_APPROVE_TOPIC'"
+msgid "<strong>Approved topic</strong><br />» %s"
+msgstr "<strong>אישר נושא</strong><br />» %s"
+
+#: $lang->'LOG_BUMP_TOPIC'
+msgid "<strong>User bumped topic</strong><br />» %s"
+msgstr "<strong>משתמש הקפיץ נושא</strong><br />» %s"
+
+#: $lang->'LOG_DELETE_POST'
+msgid ""
+"<strong>Deleted post “%1$s” written by “%2$s” for the following "
+"reason</strong><br />» %3$s"
+msgstr ""
+"<strong>מחק הודעה“%1$s” שנכתבה על ידי“%2$s”מכיוון ש-</strong><br />» %3$s"
+
+#: $lang->'LOG_DELETE_SHADOW_TOPIC'
+msgid "<strong>Deleted shadow topic</strong><br />» %s"
+msgstr "<strong>מחק נושא מוצל</strong><br />» %s"
+
+#: $lang->'LOG_DELETE_TOPIC'
+msgid ""
+"<strong>Deleted topic “%1$s” written by “%2$s” for the following "
+"reason</strong><br />» %3$s"
+msgstr ""
+"<strong>מחק נושא “%1$s” שנכתב על ידי “%2$s” מכיוון ש-</strong><br />» %3$s"
+
+#: $lang->'LOG_FORK'
+msgid "<strong>Copied topic</strong><br />» from %s"
+msgstr "<strong>העתיק נושא</strong><br />» מ%s"
+
+#: $lang->'LOG_LOCK'
+msgid "<strong>Locked topic</strong><br />» %s"
+msgstr "<strong>נעל נושא</strong><br />» %s"
+
+#: $lang->'LOG_LOCK_POST'
+msgid "<strong>Locked post</strong><br />» %s"
+msgstr "<strong>נעל הודעה</strong><br />» %s"
+
+#: $lang->'LOG_MERGE'
+msgid "<strong>Merged posts</strong> into topic<br />» %s"
+msgstr "<strong>מיזג הודעות</strong> לתוך נושא<br />» %s"
+
+#: $lang->'LOG_MOVE'
+msgid "<strong>Moved topic</strong><br />» from %1$s to %2$s"
+msgstr "<strong>העביר נושא</strong><br />» מ%1$s ל%2$s"
+
+#: $lang->'LOG_MOVED_TOPIC'
+msgid "<strong>Moved topic</strong><br />» %s"
+msgstr "<strong>העביר נושא</strong><br />» %s"
+
+#: $lang->'LOG_PM_REPORT_CLOSED'
+msgid "<strong>Closed PM report</strong><br />» %s"
+msgstr "<strong>סגר דיווח הודעה פרטית</strong><br />» %s"
+
+#: $lang->'LOG_PM_REPORT_DELETED'
+msgid "<strong>Deleted PM report</strong><br />» %s"
+msgstr "<strong>מחק דיווח הודעה פרטית</strong><br />» %s"
+
+#: $lang->'LOG_POST_APPROVED'
+msgid "<strong>Approved post</strong><br />» %s"
+msgstr "<strong>אישר הודעה</strong><br />» %s"
+
+#: $lang->'LOG_POST_DISAPPROVED'
+msgid ""
+"<strong>Disapproved post “%1$s” written by “%3$s” for the following "
+"reason</strong><br />» %2$s"
+msgstr ""
+"<strong>דחה הודעה “%1$s”שנכתבה על ידי  “%3$s”מכיוון ש-</strong><br />» %2$s"
+
+#: $lang->'LOG_POST_EDITED'
+msgid ""
+"<strong>Edited post “%1$s” written by “%2$s” for the following "
+"reason</strong><br />» %3$s"
+msgstr ""
+"<strong>ערך את ההודעה “%1$s” שנכתבה על ידי“%2$s” מכיוון ש-</strong><br />» "
+"%3$s"
+
+#: $lang->'LOG_POST_RESTORED'
+msgid "<strong>Restored post</strong><br />» %s"
+msgstr "<strong>שיחזר הודעה</strong><br />» %s"
+
+#: $lang->'LOG_REPORT_CLOSED'
+msgid "<strong>Closed report</strong><br />» %s"
+msgstr "<strong>סגר דיווח</strong><br />» %s"
+
+#: $lang->'LOG_REPORT_DELETED'
+msgid "<strong>Deleted report</strong><br />» %s"
+msgstr "<strong>מחק דיווח</strong><br />» %s"
+
+#: $lang->'LOG_RESTORE_TOPIC'
+msgid "<strong>Restored topic “%1$s” written by</strong><br />» %2$s"
+msgstr "<strong>שיחזר נושא “%1$s” שנכתב על ידי</strong><br />» %2$s"
+
+#: $lang->'LOG_SOFTDELETE_POST'
+msgid ""
+"<strong>Soft deleted post “%1$s” written by “%2$s” for the following "
+"reason</strong><br />» %3$s"
+msgstr ""
+"<strong>מחק ברוך את ההודעה “%1$s” שנכתבה על ידי“%2$s” מכיוון ש-</strong><br "
+"/>» %3$s"
+
+#: $lang->'LOG_SOFTDELETE_TOPIC'
+msgid ""
+"<strong>Soft deleted topic “%1$s” written by “%2$s” for the following "
+"reason</strong><br />» %3$s"
+msgstr ""
+"<strong>מחק ברוך את האשכול “%1$s” שנכתב על ידי “%%2$s”מכיוון ש-</strong><br "
+"/>» %3$s"
+
+#: $lang->'LOG_SPLIT_DESTINATION'
+msgid "<strong>Moved split posts</strong><br />» to %s"
+msgstr "<strong>העביר הודעות מפוצלות</strong><br />» אל %s"
+
+#: $lang->'LOG_SPLIT_SOURCE'
+msgid "<strong>Split posts</strong><br />» from %s"
+msgstr "<strong>פיצל הודעות</strong><br />» מ%s"
+
+#: $lang->'LOG_TOPIC_APPROVED'
+msgctxt "$lang->'LOG_TOPIC_APPROVED'"
+msgid "<strong>Approved topic</strong><br />» %s"
+msgstr "<strong>אישר נושא</strong><br />» %s"
+
+#: $lang->'LOG_TOPIC_RESTORED'
+msgid "<strong>Restored topic</strong><br />» %s"
+msgstr "<strong>שיחזר נושא</strong><br />» %s"
+
+#: $lang->'LOG_TOPIC_DISAPPROVED'
+msgid ""
+"<strong>Disapproved topic “%1$s” written by “%3$s” for the following "
+"reason</strong><br />» %2$s"
+msgstr ""
+"<strong>דחה את הנושא “%1$s” שנכתב על ידי “%3$s” מכיוון ש-</strong><br />» "
+"%2$s"
+
+#: $lang->'LOG_TOPIC_RESYNC'
+msgid "<strong>Resynchronised topic counters</strong><br />» %s"
+msgstr "<strong>סינכרן מחדש מוני נושאים</strong><br />» %s"
+
+#: $lang->'LOG_TOPIC_TYPE_CHANGED'
+msgid "<strong>Changed topic type</strong><br />» %s"
+msgstr "<strong>שינה סוג נושא</strong><br />» %s"
+
+#: $lang->'LOG_UNLOCK'
+msgid "<strong>Unlocked topic</strong><br />» %s"
+msgstr "<strong>פתח נושא</strong><br />» %s"
+
+#: $lang->'LOG_UNLOCK_POST'
+msgid "<strong>Unlocked post</strong><br />» %s"
+msgstr "<strong>פתח הודעה</strong><br />» %s"
+
+#: $lang->'LOG_DISALLOW_ADD'
+msgid "<strong>Added disallowed username</strong><br />» %s"
+msgstr "<strong>הוסיף שם משתמש לא מורשה</strong><br />» %s"
+
+#: $lang->'LOG_DISALLOW_DELETE'
+msgid "<strong>Deleted disallowed username</strong>"
+msgstr "<strong>מחק שם משתמש לא מורשה</strong>"
+
+#: $lang->'LOG_DB_BACKUP'
+msgid "<strong>Database backup</strong>"
+msgstr "<strong>בסיס נתונים גובה</strong>"
+
+#: $lang->'LOG_DB_DELETE'
+msgid "<strong>Deleted database backup</strong>"
+msgstr "<strong>מחק גיבוי בסיס נתונים</strong>"
+
+#: $lang->'LOG_DB_RESTORE'
+msgid "<strong>Restored database backup</strong>"
+msgstr "<strong>שחזר גיבוי בסיס נתונים</strong>"
+
+#: $lang->'LOG_DOWNLOAD_EXCLUDE_IP'
+msgid "<strong>Excluded IP/hostname from download list</strong><br />» %s"
+msgstr "<strong>שחרר IP/שם שרת מרשימת הורדה</strong><br />» %s"
+
+#: $lang->'LOG_DOWNLOAD_IP'
+msgid "<strong>Added IP/hostname to download list</strong><br />» %s"
+msgstr "<strong>הוסיף IP/שם שרת לרשימת הורדה</strong><br />» %s"
+
+#: $lang->'LOG_DOWNLOAD_REMOVE_IP'
+msgid "<strong>Removed IP/hostname from download list</strong><br />» %s"
+msgstr "<strong>הסיר IP/שם שרת מרשימת הורדה</strong><br />» %s"
+
+#: $lang->'LOG_ERROR_JABBER'
+msgid "<strong>Jabber error</strong><br />» %s"
+msgstr "<strong>שגיאת Jabber</strong><br />» %s"
+
+#: $lang->'LOG_ERROR_EMAIL'
+msgid "<strong>Email error</strong><br />» %s"
+msgstr "<strong>שגיאת דואר אלקטרוני</strong><br />» %s"
+
+#: $lang->'LOG_ERROR_CAPTCHA'
+msgid "<strong>CAPTCHA error</strong><br />» %s"
+msgstr "<strong>שגיאת CAPTCHA</strong><br />» %s"
+
+#: $lang->'LOG_FORUM_ADD'
+msgid "<strong>Created new forum</strong><br />» %s"
+msgstr "<strong>יצר פורום חדש</strong><br />» %s"
+
+#: $lang->'LOG_FORUM_COPIED_PERMISSIONS'
+msgid "<strong>Copied forum permissions</strong> from %1$s<br />» %2$s"
+msgstr "<strong>העתיק הרשאות פורום</strong> מ־%1$s<br />» %2$s"
+
+#: $lang->'LOG_FORUM_DEL_FORUM'
+msgid "<strong>Deleted forum</strong><br />» %s"
+msgstr "<strong>מחק פורום</strong><br />» %s"
+
+#: $lang->'LOG_FORUM_DEL_FORUMS'
+msgid "<strong>Deleted forum and its subforums</strong><br />» %s"
+msgstr "<strong>מחק פורום ואת תתי־הפורומים שלו</strong><br />» %s"
+
+#: $lang->'LOG_FORUM_DEL_MOVE_FORUMS'
+msgid "<strong>Deleted forum and moved subforums</strong> to %1$s<br />» %2$s"
+msgstr "<strong>מחק פורום והעביר תתי־פורומים</strong> אל %1$s<br />» %2$s"
+
+#: $lang->'LOG_FORUM_DEL_MOVE_POSTS'
+msgid "<strong>Deleted forum and moved posts </strong> to %1$s<br />» %2$s"
+msgstr "<strong>מחק פורום והעביר הודעות </strong> אל %1$s<br />» %2$s"
+
+#: $lang->'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'
+msgid ""
+"<strong>Deleted forum and its subforums, moved posts</strong> to %1$s<br />» "
+"%2$s"
+msgstr ""
+"<strong>מחק פורום ואת תתי־הפורומים שלו, העביר הודעות</strong> אל %1$s<br />» "
+"%2$s"
+
+#: $lang->'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'
+msgid ""
+"<strong>Deleted forum, moved posts</strong> to %1$s <strong>and "
+"subforums</strong> to %2$s<br />» %3$s"
+msgstr ""
+"<strong>מחק פורום, העביר הודעות</strong> אל %1$s "
+"<strong>ותתי־פורומים</strong> אל %2$s<br />» %3$s"
+
+#: $lang->'LOG_FORUM_DEL_POSTS'
+msgid "<strong>Deleted forum and its posts</strong><br />» %s"
+msgstr "<strong>מחק פורום וההודעות שלו</strong><br />» %s"
+
+#: $lang->'LOG_FORUM_DEL_POSTS_FORUMS'
+msgid "<strong>Deleted forum, its posts and subforums</strong><br />» %s"
+msgstr "<strong>מחק פורום, ההודעות ותתי־הפורומים שלו</strong><br />» %s"
+
+#: $lang->'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'
+msgid ""
+"<strong>Deleted forum and its posts, moved subforums</strong> to %1$s<br />» "
+"%2$s"
+msgstr ""
+"<strong>מחק פורום וההודעות שלו, העביר תתי־פורומים</strong> אל %1$s<br />» "
+"%2$s"
+
+#: $lang->'LOG_FORUM_EDIT'
+msgid "<strong>Edited forum details</strong><br />» %s"
+msgstr "<strong>ערך פרטי פורום</strong><br />» %s"
+
+#: $lang->'LOG_FORUM_MOVE_DOWN'
+msgid "<strong>Moved forum</strong> %1$s <strong>below</strong> %2$s"
+msgstr "<strong>העביר פורום</strong> %1$s <strong>מתחת</strong> %2$s"
+
+#: $lang->'LOG_FORUM_MOVE_UP'
+msgid "<strong>Moved forum</strong> %1$s <strong>above</strong> %2$s"
+msgstr "<strong>העביר פורום</strong> %1$s <strong>מעל</strong> %2$s"
+
+#: $lang->'LOG_FORUM_SYNC'
+msgid "<strong>Re-synchronised forum</strong><br />» %s"
+msgstr "<strong>סנכרון פורום מחדש</strong><br />» %s"
+
+#: $lang->'LOG_GENERAL_ERROR'
+msgid "<strong>A general error occurred</strong>: %1$s <br />» %2$s"
+msgstr "<strong>התרחשה שגיאה כללית</strong>: %1$s <br />» %2$s"
+
+#: $lang->'LOG_GROUP_CREATED'
+msgid "<strong>New usergroup created</strong><br />» %s"
+msgstr "<strong>קבוצת משתמשים חדשה נוצרה</strong><br />» %s"
+
+#: $lang->'LOG_GROUP_DEFAULTS'
+msgid "<strong>Group “%1$s” made default for members</strong><br />» %2$s"
+msgstr "<strong>הקבוצה “%1$s” הוגדרה כברירת מחדל למשתמשים</strong><br />» %2$s"
+
+#: $lang->'LOG_GROUP_DELETE'
+msgid "<strong>Usergroup deleted</strong><br />» %s"
+msgstr "<strong>קבוצת משתמשים נמחקה</strong><br />» %s"
+
+#: $lang->'LOG_GROUP_DEMOTED'
+msgid "<strong>Leaders demoted in usergroup</strong> %1$s<br />» %2$s"
+msgstr "<strong>ראשי קבוצה הודחו בקבוצת משתמשים</strong> %1$s<br />» %2$s"
+
+#: $lang->'LOG_GROUP_PROMOTED'
+msgid ""
+"<strong>Members promoted to leader in usergroup</strong> %1$s<br />» %2$s"
+msgstr ""
+"<strong>משתמשים קודמו לראשי קבוצה בקבוצת משתמשים</strong> %1$s<br />» %2$s"
+
+#: $lang->'LOG_GROUP_REMOVE'
+msgid "<strong>Members removed from usergroup</strong> %1$s<br />» %2$s"
+msgstr "<strong>משתמשים הוסרו מקבוצת משתמשים</strong> %1$s<br />» %2$s"
+
+#: $lang->'LOG_GROUP_UPDATED'
+msgid "<strong>Usergroup details updated</strong><br />» %s"
+msgstr "<strong>פרטי קבוצת משתמשים עודכנו</strong><br />» %s"
+
+#: $lang->'LOG_MODS_ADDED'
+msgid "<strong>Added new leaders to usergroup</strong> %1$s<br />» %2$s"
+msgstr "<strong>הוסיף ראשי קבוצה חדשים לקבוצת משתמשים</strong> %1$s<br />» %2$s"
+
+#: $lang->'LOG_USERS_ADDED'
+msgid "<strong>Added new members to usergroup</strong> %1$s<br />» %2$s"
+msgstr "<strong>הוסיף משתמשים חדשים לקבוצת משתמשים</strong> %1$s<br />» %2$s"
+
+#: $lang->'LOG_USERS_APPROVED'
+msgid "<strong>Users approved in usergroup</strong> %1$s<br />» %2$s"
+msgstr "<strong>משתמשים מאושרים בקבוצת המשתמשים</strong> %1$s<br />» %2$s"
+
+#: $lang->'LOG_USERS_PENDING'
+msgid ""
+"<strong>Users requested to join group “%1$s” and need to be "
+"approved</strong><br />» %2$s"
+msgstr ""
+"<strong>משתמשים שביקשו להצטרף לקבוצה “%1$s” וצריך לאשר אותם</strong><br />» "
+"%2$s"
+
+#: $lang->'LOG_IMAGE_GENERATION_ERROR'
+msgid ""
+"<strong>Error while creating image</strong><br />» Error in %1$s on line "
+"%2$s: %3$s"
+msgstr ""
+"<strong>שגיאה בזמן יצירת תיעוד</strong><br />» שגיאה ב־%1$s בשורה %2$s: %3$s"
+
+#: $lang->'LOG_INACTIVE_ACTIVATE'
+msgid "<strong>Activated inactive users</strong><br />» %s"
+msgstr "<strong>הפעיל משתמשים לא פעילים</strong><br />» %s"
+
+#: $lang->'LOG_INACTIVE_DELETE'
+msgid "<strong>Deleted inactive users</strong><br />» %s"
+msgstr "<strong>מחק משתמשים לא פעילים</strong><br />» %s"
+
+#: $lang->'LOG_INACTIVE_REMIND'
+msgid "<strong>Sent reminder emails to inactive users</strong><br />» %s"
+msgstr "<strong>שלח תזכורת בדואר אלקטרוני למשתמשים לא פעילים</strong><br />» %s"
+
+#: $lang->'LOG_INSTALL_CONVERTED'
+msgid "<strong>Converted from %1$s to phpBB %2$s</strong>"
+msgstr "<strong>המיר מ־%1$s ל־phpBB %2$s</strong>"
+
+#: $lang->'LOG_INSTALL_INSTALLED'
+msgid "<strong>Installed phpBB %s</strong>"
+msgstr "<strong>התקין את phpBB %s</strong>"
+
+#: $lang->'LOG_IP_BROWSER_FORWARDED_CHECK'
+msgid ""
+"<strong>Session IP/browser/X_FORWARDED_FOR check failed</strong><br />»User "
+"IP “<em>%1$s</em>” checked against session IP “<em>%2$s</em>”, user browser "
+"string “<em>%3$s</em>” checked against session browser string “<em>%4$s</em>”"
+" and user X_FORWARDED_FOR string “<em>%5$s</em>” checked against session "
+"X_FORWARDED_FOR string “<em>%6$s</em>”."
+msgstr ""
+"<strong>בדיקת חיבור IP/דפדפן/X_FORWARDED_FOR נכשלה</strong><br />»IP של "
+"המשתמש “<em>%1$s</em>” נבדק אל מול חיבור IP “<em>%2$s</em>”, מחרוזת דפדפן "
+"המשתמש “<em>%3$s</em>” נבדקה אל מול מחרוזת דפדפן המשתמש בחיבור "
+"“<em>%4$s</em>” ומחרוזת X_FORWARDED_FOR של המשתמש “<em>%5$s</em>” נבדקה אל "
+"מול מחרוזת X_FORWARDED_FOR של החיבור “<em>%6$s</em>”."
+
+#: $lang->'LOG_JAB_CHANGED'
+msgid "<strong>Jabber account changed</strong>"
+msgstr "<strong>חשבון Jabber שונה</strong>"
+
+#: $lang->'LOG_JAB_PASSCHG'
+msgid "<strong>Jabber password changed</strong>"
+msgstr "<strong>ססמת Jabber שונתה</strong>"
+
+#: $lang->'LOG_JAB_REGISTER'
+msgid "<strong>Jabber account registered</strong>"
+msgstr "<strong>חשבון Jabber נרשם</strong>"
+
+#: $lang->'LOG_JAB_SETTINGS_CHANGED'
+msgid "<strong>Jabber settings changed</strong>"
+msgstr "<strong>הגדרות Jabber שונו</strong>"
+
+#: $lang->'LOG_LANGUAGE_PACK_DELETED'
+msgid "<strong>Deleted language pack</strong><br />» %s"
+msgstr "<strong>מחק חבילת שפה</strong><br />» %s"
+
+#: $lang->'LOG_LANGUAGE_PACK_INSTALLED'
+msgid "<strong>Installed language pack</strong><br />» %s"
+msgstr "<strong>התקין חבילת שפה</strong><br />» %s"
+
+#: $lang->'LOG_LANGUAGE_PACK_UPDATED'
+msgid "<strong>Updated language pack details</strong><br />» %s"
+msgstr "<strong>עדכן פרטי חבילת שפה</strong><br />» %s"
+
+#: $lang->'LOG_LANGUAGE_FILE_REPLACED'
+msgid "<strong>Replaced language file</strong><br />» %s"
+msgstr "<strong>החליף קובץ שפה</strong><br />» %s"
+
+#: $lang->'LOG_LANGUAGE_FILE_SUBMITTED'
+msgid ""
+"<strong>Submitted language file and placed in store folder</strong><br />» %s"
+msgstr "<strong>שלח קובץ שפה והכניס אותו לתיקייה store</strong><br />» %s"
+
+#: $lang->'LOG_MASS_EMAIL'
+msgid "<strong>Sent mass email</strong><br />» %s"
+msgstr "<strong>שלח בשולח הדואר</strong><br />» %s"
+
+#: $lang->'LOG_MCP_CHANGE_POSTER'
+msgid ""
+"<strong>Changed poster in topic “%1$s”</strong><br />» from %2$s to %3$s"
+msgstr "<strong>שינה שולח בנושא “%1$s”</strong><br />» מ־%2$s ל־%3$s"
+
+#: $lang->'LOG_MODULE_DISABLE'
+msgid "<strong>Module disabled</strong><br />» %s"
+msgstr "<strong>מודול כובה</strong><br />» %s"
+
+#: $lang->'LOG_MODULE_ENABLE'
+msgid "<strong>Module enabled</strong><br />» %s"
+msgstr "<strong>מודול הופעל</strong><br />» %s"
+
+#: $lang->'LOG_MODULE_MOVE_DOWN'
+msgid "<strong>Module moved down</strong><br />» %1$s below %2$s"
+msgstr "<strong>מודול הועבר למטה</strong><br />» %1$s תחת %2$s"
+
+#: $lang->'LOG_MODULE_MOVE_UP'
+msgid "<strong>Module moved up</strong><br />» %1$s above %2$s"
+msgstr "<strong>מודול הועבר למעלה</strong><br />» %1$s מעל %2$s"
+
+#: $lang->'LOG_MODULE_REMOVED'
+msgid "<strong>Module removed</strong><br />» %s"
+msgstr "<strong>מודול הוסר</strong><br />» %s"
+
+#: $lang->'LOG_MODULE_ADD'
+msgid "<strong>Module added</strong><br />» %s"
+msgstr "<strong>מודול נוסף</strong><br />» %s"
+
+#: $lang->'LOG_MODULE_EDIT'
+msgid "<strong>Module edited</strong><br />» %s"
+msgstr "<strong>מודול נערך</strong><br />» %s"
+
+#: $lang->'LOG_A_ROLE_ADD'
+msgid "<strong>Admin role added</strong><br />» %s"
+msgstr "<strong>תפקיד מנהל ראשי נוסף</strong><br />» %s"
+
+#: $lang->'LOG_A_ROLE_EDIT'
+msgid "<strong>Admin role edited</strong><br />» %s"
+msgstr "<strong>תפקיד מנהל ראשי נערך</strong><br />» %s"
+
+#: $lang->'LOG_A_ROLE_REMOVED'
+msgid "<strong>Admin role removed</strong><br />» %s"
+msgstr "<strong>תפקיד מנהל ראשי הוסר</strong><br />» %s"
+
+#: $lang->'LOG_F_ROLE_ADD'
+msgid "<strong>Forum role added</strong><br />» %s"
+msgstr "<strong>תפקיד פורום נוסף</strong><br />» %s"
+
+#: $lang->'LOG_F_ROLE_EDIT'
+msgid "<strong>Forum role edited</strong><br />» %s"
+msgstr "<strong>תפקיד פורום נערך</strong><br />» %s"
+
+#: $lang->'LOG_F_ROLE_REMOVED'
+msgid "<strong>Forum role removed</strong><br />» %s"
+msgstr "<strong>תפקיד פורום הוסר</strong><br />» %s"
+
+#: $lang->'LOG_M_ROLE_ADD'
+msgid "<strong>Moderator role added</strong><br />» %s"
+msgstr "<strong>תפקיד מנהל נוסף</strong><br />» %s"
+
+#: $lang->'LOG_M_ROLE_EDIT'
+msgid "<strong>Moderator role edited</strong><br />» %s"
+msgstr "<strong>תפקיד מנהל נערך</strong><br />» %s"
+
+#: $lang->'LOG_M_ROLE_REMOVED'
+msgid "<strong>Moderator role removed</strong><br />» %s"
+msgstr "<strong>תפקיד מנהל הוסר</strong><br />» %s"
+
+#: $lang->'LOG_U_ROLE_ADD'
+msgid "<strong>User role added</strong><br />» %s"
+msgstr "<strong>תפקיד משתמש נוסף</strong><br />» %s"
+
+#: $lang->'LOG_U_ROLE_EDIT'
+msgid "<strong>User role edited</strong><br />» %s"
+msgstr "<strong>תפקיד משתמש נערך</strong><br />» %s"
+
+#: $lang->'LOG_U_ROLE_REMOVED'
+msgid "<strong>User role removed</strong><br />» %s"
+msgstr "<strong>תפקיד משתמש הוסר</strong><br />» %s"
+
+#: $lang->'LOG_PLUPLOAD_TIDY_FAILED'
+msgid ""
+"<strong>Unable to open %1$s for tidying, check permissions.</strong><br "
+"/>Exception: %2$s<br />Trace: %3$s"
+msgstr ""
+"<strong>לא הצליח לפתוח %1$s לפתרון , בדוק הרשאות.</strong><br />Exception: "
+"%2$s<br />Trace: %3$s"
+
+#: $lang->'LOG_PROFILE_FIELD_ACTIVATE'
+msgid "<strong>Profile field activated</strong><br />» %s"
+msgstr "<strong>שדה פרופיל הופעל</strong><br />» %s"
+
+#: $lang->'LOG_PROFILE_FIELD_CREATE'
+msgid "<strong>Profile field added</strong><br />» %s"
+msgstr "<strong>שדה פרופיל נוסף</strong><br />» %s"
+
+#: $lang->'LOG_PROFILE_FIELD_DEACTIVATE'
+msgid "<strong>Profile field deactivated</strong><br />» %s"
+msgstr "<strong>שדה פרופיל הופסק</strong><br />» %s"
+
+#: $lang->'LOG_PROFILE_FIELD_EDIT'
+msgid "<strong>Profile field changed</strong><br />» %s"
+msgstr "<strong>שדה פרופיל שונה</strong><br />» %s"
+
+#: $lang->'LOG_PROFILE_FIELD_REMOVED'
+msgid "<strong>Profile field removed</strong><br />» %s"
+msgstr "<strong>שדה פרופיל הוסר</strong><br />» %s"
+
+#: $lang->'LOG_PRUNE'
+msgid "<strong>Pruned forums</strong><br />» %s"
+msgstr "<strong>פורומים אופסו</strong><br />» %s"
+
+#: $lang->'LOG_AUTO_PRUNE'
+msgid "<strong>Auto-pruned forums</strong><br />» %s"
+msgstr "<strong>פרומים אופסו אוטומטית</strong><br />» %s"
+
+#: $lang->'LOG_PRUNE_SHADOW'
+msgid "<strong>Auto-pruned shadow topics</strong><br />» %s"
+msgstr "<strong>מחק נושאים מוצלים</strong><br />» %s"
+
+#: $lang->'LOG_PRUNE_USER_DEAC'
+msgid "<strong>Users deactivated</strong><br />» %s"
+msgstr "<strong>משתמשים הופסקו</strong><br />» %s"
+
+#: $lang->'LOG_PRUNE_USER_DEL_DEL'
+msgid "<strong>Users pruned and posts deleted</strong><br />» %s"
+msgstr "<strong>משתמשים אופסו והודעות נמחקו</strong><br />» %s"
+
+#: $lang->'LOG_PRUNE_USER_DEL_ANON'
+msgid "<strong>Users pruned and posts retained</strong><br />» %s"
+msgstr "<strong>משתמשים אופסו והודעות שוחזרו</strong><br />» %s"
+
+#: $lang->'LOG_PURGE_CACHE'
+msgid "<strong>Purged cache</strong>"
+msgstr "<strong>טיהר מטמון</strong>"
+
+#: $lang->'LOG_PURGE_SESSIONS'
+msgid "<strong>Purged sessions</strong>"
+msgstr "<strong>טיהר חיבורים</strong>"
+
+#: $lang->'LOG_RANK_ADDED'
+msgid "<strong>Added new rank</strong><br />» %s"
+msgstr "<strong>הוסיף דירוג חדש</strong><br />» %s"
+
+#: $lang->'LOG_RANK_REMOVED'
+msgid "<strong>Removed rank</strong><br />» %s"
+msgstr "<strong>הסיר דירוג</strong><br />» %s"
+
+#: $lang->'LOG_RANK_UPDATED'
+msgid "<strong>Updated rank</strong><br />» %s"
+msgstr "<strong>עדכן דירוג</strong><br />» %s"
+
+#: $lang->'LOG_REASON_ADDED'
+msgid "<strong>Added report/denial reason</strong><br />» %s"
+msgstr "<strong>הוסיף סיבת דיווח/חסימה</strong><br />» %s"
+
+#: $lang->'LOG_REASON_REMOVED'
+msgid "<strong>Removed report/denial reason</strong><br />» %s"
+msgstr "<strong>הסיר סיבת דיווח/חסימה</strong><br />» %s"
+
+#: $lang->'LOG_REASON_UPDATED'
+msgid "<strong>Updated report/denial reason</strong><br />» %s"
+msgstr "<strong>עדכן סיבת דיווח/חסימה</strong><br />» %s"
+
+#: $lang->'LOG_REFERER_INVALID'
+msgid ""
+"<strong>Referrer validation failed</strong><br />»Referrer was "
+"“<em>%1$s</em>”. The request was rejected and the session killed."
+msgstr ""
+"<strong>בדיקת דף מפנה נכשלה</strong><br />»הדף המפנה היה “<em>%1$s</em>”. "
+"הבקשה נדחתה והחיבור נסגר."
+
+#: $lang->'LOG_RESET_DATE'
+msgid "<strong>Board start date reset</strong>"
+msgstr "<strong>תאריך התקנת המערכת אופס</strong>"
+
+#: $lang->'LOG_RESET_ONLINE'
+msgid "<strong>Most users online reset</strong>"
+msgstr "<strong>מספר המשתמשים הרב ביותר שהיה מחובר בו זמנית אופס</strong>"
+
+#: $lang->'LOG_RESYNC_FILES_STATS'
+msgid "<strong>File statistics resynchronised</strong>"
+msgstr "<strong>אפס סטטיסטיקת קבצים</strong>"
+
+#: $lang->'LOG_RESYNC_POSTCOUNTS'
+msgid "<strong>User post counts resynchronised</strong>"
+msgstr "<strong>מוני הודעות המשתמשים סונכרנו מחדש</strong>"
+
+#: $lang->'LOG_RESYNC_POST_MARKING'
+msgid "<strong>Dotted topics resynchronised</strong>"
+msgstr "<strong>נושאים מסומנים סונכרנו מחדש</strong>"
+
+#: $lang->'LOG_RESYNC_STATS'
+msgid "<strong>Post, topic and user statistics resynchronised</strong>"
+msgstr "<strong>סטטיסטיקות הודעות, נושאים ומשתמשים סונכרנו מחדש</strong>"
+
+#: $lang->'LOG_SEARCH_INDEX_CREATED'
+msgid "<strong>Created search index for</strong><br />» %s"
+msgstr "<strong>צור חבילת חיפוש עבור</strong><br />» %s"
+
+#: $lang->'LOG_SEARCH_INDEX_REMOVED'
+msgid "<strong>Removed search index for</strong><br />» %s"
+msgstr "<strong>מחק חבילת חיפוש עבור</strong><br />» %s"
+
+#: $lang->'LOG_SPHINX_ERROR'
+msgid "<strong>Sphinx Error</strong><br />» %s"
+msgstr "<strong>Sphinx Error</strong><br />» %s"
+
+#: $lang->'LOG_STYLE_ADD'
+msgid "<strong>Added new style</strong><br />» %s"
+msgstr "<strong>הוסיף עיצוב חדש</strong><br />» %s"
+
+#: $lang->'LOG_STYLE_DELETE'
+msgid "<strong>Deleted style</strong><br />» %s"
+msgstr "<strong>מחק עיצוב</strong><br />» %s"
+
+#: $lang->'LOG_STYLE_EDIT_DETAILS'
+msgid "<strong>Edited style</strong><br />» %s"
+msgstr "<strong>ערך עיצוב</strong><br />» %s"
+
+#: $lang->'LOG_STYLE_EXPORT'
+msgid "<strong>Exported style</strong><br />» %s"
+msgstr "<strong>יצא עיצוב</strong><br />» %s"
+
+#. // @deprecated 3.1
+#: $lang->'LOG_TEMPLATE_ADD_DB'
+msgid "<strong>Added new template set to database</strong><br />» %s"
+msgstr "<strong>הוסיף ערכה חדשה לבסיס הנתונים</strong><br />» %s"
+
+#. // @deprecated 3.1
+#: $lang->'LOG_TEMPLATE_ADD_FS'
+msgid "<strong>Add new template set on filesystem</strong><br />» %s"
+msgstr "<strong>הוסיף ערכה חדשה למערכת הקבצים</strong><br />» %s"
+
+#: $lang->'LOG_TEMPLATE_CACHE_CLEARED'
+msgid ""
+"<strong>Deleted cached versions of template files in template set "
+"<em>%1$s</em></strong><br />» %2$s"
+msgstr ""
+"<strong>מחק גרסאות מטמון של קבצי ערכה בערכה <em>%1$s</em></strong><br />» "
+"%2$s"
+
+#: $lang->'LOG_TEMPLATE_DELETE'
+msgid "<strong>Deleted template set</strong><br />» %s"
+msgstr "<strong>מחק ערכה</strong><br />» %s"
+
+#: $lang->'LOG_TEMPLATE_EDIT'
+msgid "<strong>Edited template set <em>%1$s</em></strong><br />» %2$s"
+msgstr "<strong>ערך ערכה <em>%1$s</em></strong><br />» %2$s"
+
+#: $lang->'LOG_TEMPLATE_EDIT_DETAILS'
+msgid "<strong>Edited template details</strong><br />» %s"
+msgstr "<strong>ערך פרטי ערכה</strong><br />» %s"
+
+#: $lang->'LOG_TEMPLATE_EXPORT'
+msgid "<strong>Exported template set</strong><br />» %s"
+msgstr "<strong>יצא ערכה</strong><br />» %s"
+
+#. // @deprecated 3.1
+#: $lang->'LOG_TEMPLATE_REFRESHED'
+msgid "<strong>Refreshed template set</strong><br />» %s"
+msgstr "<strong>רענן ערכה</strong><br />» %s"
+
+#. // @deprecated 3.1
+#: $lang->'LOG_THEME_ADD_DB'
+msgid "<strong>Added new theme to database</strong><br />» %s"
+msgstr "<strong>הוסיף סגנון חדש לבסיס הנתונים</strong><br />» %s"
+
+#. // @deprecated 3.1
+#: $lang->'LOG_THEME_ADD_FS'
+msgid "<strong>Add new theme on filesystem</strong><br />» %s"
+msgstr "<strong>הוסיף סגנון חדש למערכת הקבצים</strong><br />» %s"
+
+#: $lang->'LOG_THEME_DELETE'
+msgid "<strong>Theme deleted</strong><br />» %s"
+msgstr "<strong>סגנון נמחק</strong><br />» %s"
+
+#: $lang->'LOG_THEME_EDIT_DETAILS'
+msgid "<strong>Edited theme details</strong><br />» %s"
+msgstr "<strong>ערך פרטי סגנון</strong><br />» %s"
+
+#: $lang->'LOG_THEME_EDIT'
+msgid "<strong>Edited theme <em>%1$s</em></strong>"
+msgstr "<strong>ערך סגנון <em>%1$s</em></strong>"
+
+#: $lang->'LOG_THEME_EDIT_FILE'
+msgid ""
+"<strong>Edited theme <em>%1$s</em></strong><br />» Modified file "
+"<em>%2$s</em>"
+msgstr "<strong>ערך סגנון <em>%1$s</em></strong><br />» שינה קובץ <em>%2$s</em>"
+
+#: $lang->'LOG_THEME_EXPORT'
+msgid "<strong>Exported theme</strong><br />» %s"
+msgstr "<strong>יצא סגנון</strong><br />» %s"
+
+#. // @deprecated 3.1
+#: $lang->'LOG_THEME_REFRESHED'
+msgid "<strong>Refreshed theme</strong><br />» %s"
+msgstr "<strong>רענן סגנון</strong><br />» %s"
+
+#: $lang->'LOG_UPDATE_DATABASE'
+msgid "<strong>Updated Database from version %1$s to version %2$s</strong>"
+msgstr "<strong>עדכן בסיס נתונים מגרסה %1$s לגרסה %2$s</strong>"
+
+#: $lang->'LOG_UPDATE_PHPBB'
+msgid "<strong>Updated phpBB from version %1$s to version %2$s</strong>"
+msgstr "<strong>עדכן את phpBB מגרסה %1$s לגרסה %2$s</strong>"
+
+#: $lang->'LOG_USER_ACTIVE'
+msgid "<strong>User activated</strong><br />» %s"
+msgstr "<strong>משתמש הופעל</strong><br />» %s"
+
+#: $lang->'LOG_USER_BAN_USER'
+msgid ""
+"<strong>Banned User via user management</strong> for reason “<em>%1$s</em>”<"
+"br />» %2$s"
+msgstr ""
+"<strong>חסם משתמש דרך ניהול משתמשים</strong> מסיבה “<em>%1$s</em>”<br />» "
+"%2$s"
+
+#: $lang->'LOG_USER_BAN_IP'
+msgid ""
+"<strong>Banned IP via user management</strong> for reason “<em>%1$s</em>”<br "
+"/>» %2$s"
+msgstr ""
+"<strong>חסם IP דרך ניהול משתמשים</strong> מסיבה “<em>%1$s</em>”<br />» %2$s"
+
+#: $lang->'LOG_USER_BAN_EMAIL'
+msgid ""
+"<strong>Banned email via user management</strong> for reason “<em>%1$s</em>”<"
+"br />» %2$s"
+msgstr ""
+"<strong>חסם דואר אלקטרוני דרך ניהול משתמשים</strong> מסיבה “<em>%1$s</em>”<"
+"br />» %2$s"
+
+#: $lang->'LOG_USER_DELETED'
+msgid "<strong>Deleted user</strong><br />» %s"
+msgstr "<strong>מחק משתמש</strong><br />» %s"
+
+#: $lang->'LOG_USER_DEL_ATTACH'
+msgid "<strong>Removed all attachments made by the user</strong><br />» %s"
+msgstr ""
+"<strong>הסיר את כל הקבצים המצורפים שנשלחו על־ידי המשתמש</strong><br />» %s"
+
+#: $lang->'LOG_USER_DEL_AVATAR'
+msgid "<strong>Removed user avatar</strong><br />» %s"
+msgstr "<strong>הסיר סמל אישי של המשתמש</strong><br />» %s"
+
+#: $lang->'LOG_USER_DEL_OUTBOX'
+msgid "<strong>Emptied user outbox</strong><br />» %s"
+msgstr "<strong>רוקן תיבת דואר יוצא למשתמש</strong><br />» %s"
+
+#: $lang->'LOG_USER_DEL_POSTS'
+msgid "<strong>Removed all posts made by the user</strong><br />» %s"
+msgstr "<strong>הסיר את כל ההודעות שנשלחו על־ידי המשתמש</strong><br />» %s"
+
+#: $lang->'LOG_USER_DEL_SIG'
+msgid "<strong>Removed user signature</strong><br />» %s"
+msgstr "<strong>הסיר חתימת משתמש</strong><br />» %s"
+
+#: $lang->'LOG_USER_INACTIVE'
+msgid "<strong>User deactivated</strong><br />» %s"
+msgstr "<strong>משתמש הופסק</strong><br />» %s"
+
+#: $lang->'LOG_USER_MOVE_POSTS'
+msgid ""
+"<strong>Moved user posts</strong><br />» posts by “%1$s” to forum “%2$s”"
+msgstr ""
+"<strong>העביר הודעות משתמש</strong><br />» הועדות של “%1$s” לפורום “%2$s”"
+
+#: $lang->'LOG_USER_NEW_PASSWORD'
+msgid "<strong>Changed user password</strong><br />» %s"
+msgstr "<strong>שינה ססמת משתמש</strong><br />» %s"
+
+#: $lang->'LOG_USER_REACTIVATE'
+msgid "<strong>Forced user account reactivation</strong><br />» %s"
+msgstr "<strong>דרש הפעלת חשבון משתמש מחדש</strong><br />» %s"
+
+#: $lang->'LOG_USER_REMOVED_NR'
+msgid "<strong>Removed newly registered flag from user</strong><br />» %s"
+msgstr "<strong>הסיר סימון משתמש שנרשם לאחרונה מהמשתמש</strong><br />» %s"
+
+#: $lang->'LOG_USER_UPDATE_EMAIL'
+msgid "<strong>User “%1$s” changed email</strong><br />» from “%2$s” to “%3$s”"
+msgstr ""
+"<strong>המשתמש “%1$s” שינה דואר אלקטרוני</strong><br />» מ־“%2$s” ל־“%3$s”"
+
+#: $lang->'LOG_USER_UPDATE_NAME'
+msgid "<strong>Changed username</strong><br />» from “%1$s” to “%2$s”"
+msgstr "<strong>שינה שם משתמש</strong><br />» מ־“%1$s” ל־“%2$s”"
+
+#: $lang->'LOG_USER_USER_UPDATE'
+msgid "<strong>Updated user details</strong><br />» %s"
+msgstr "<strong>עדכן פרטי משתמש</strong><br />» %s"
+
+#: $lang->'LOG_USER_ACTIVE_USER'
+msgid "<strong>User account activated</strong>"
+msgstr "<strong>חשבון משתמש הופעל</strong>"
+
+#: $lang->'LOG_USER_DEL_AVATAR_USER'
+msgid "<strong>User avatar removed</strong>"
+msgstr "<strong>סמל אישי של משתמש הוסר</strong>"
+
+#: $lang->'LOG_USER_DEL_SIG_USER'
+msgid "<strong>User signature removed</strong>"
+msgstr "<strong>חתימת משתמש הוסרה</strong>"
+
+#: $lang->'LOG_USER_FEEDBACK'
+msgid "<strong>Added user feedback</strong><br />» %s"
+msgstr "<strong>משוב משתמש נוסף</strong><br />» %s"
+
+#: $lang->'LOG_USER_GENERAL'
+msgid "<strong>Entry added:</strong><br />» %s"
+msgstr "<strong>רישום נוסף:</strong><br />» %s"
+
+#: $lang->'LOG_USER_INACTIVE_USER'
+msgid "<strong>User account de-activated</strong>"
+msgstr "<strong>חשבון משתמש הופסק</strong>"
+
+#: $lang->'LOG_USER_LOCK'
+msgid "<strong>User locked own topic</strong><br />» %s"
+msgstr "<strong>משתמש נעל את הנושא שלו</strong><br />» %s"
+
+#: $lang->'LOG_USER_MOVE_POSTS_USER'
+msgid "<strong>Moved all posts to forum</strong>» %s"
+msgstr "<strong>העביר את כל ההודעות לפורום</strong>» %s"
+
+#: $lang->'LOG_USER_REACTIVATE_USER'
+msgid "<strong>Forced user account reactivation</strong>"
+msgstr "<strong>דרש הפעלת חשבון משתמש מחדש</strong>"
+
+#: $lang->'LOG_USER_UNLOCK'
+msgid "<strong>User unlocked own topic</strong><br />» %s"
+msgstr "<strong>משתמש פתח את הנושא שלו</strong><br />» %s"
+
+#: $lang->'LOG_USER_WARNING'
+msgid "<strong>Added user warning</strong><br />» %s"
+msgstr "<strong>הוסיף אזהרה למשתמש</strong><br />» %s"
+
+#: $lang->'LOG_USER_WARNING_BODY'
+msgid ""
+"<strong>The following warning was issued to this user</strong><br />» %s"
+msgstr "<strong>האזהרה הבאה ניתנה למשתמש זה</strong><br />» %s"
+
+#: $lang->'LOG_USER_GROUP_CHANGE'
+msgid "<strong>User changed default group</strong><br />» %s"
+msgstr "<strong>משתמש שינה קבוצת ברירת מחדל</strong><br />» %s"
+
+#: $lang->'LOG_USER_GROUP_DEMOTE'
+msgid "<strong>User demoted as leaders from usergroup</strong><br />» %s"
+msgstr "<strong>משתמש הודע מראש קבוצת משתמשים</strong><br />» %s"
+
+#: $lang->'LOG_USER_GROUP_JOIN'
+msgid "<strong>User joined group</strong><br />» %s"
+msgstr "<strong>משתמש הצטרף לקבוצה</strong><br />» %s"
+
+#: $lang->'LOG_USER_GROUP_JOIN_PENDING'
+msgid "<strong>User joined group and needs to be approved</strong><br />» %s"
+msgstr "<strong>משתמש הצטרף לקבוצה וצריך לקבל אישור</strong><br />» %s"
+
+#: $lang->'LOG_USER_GROUP_RESIGN'
+msgid "<strong>User resigned membership from group</strong><br />» %s"
+msgstr "<strong>משתמש ביטל חברות מקבוצה</strong><br />» %s"
+
+#: $lang->'LOG_WARNING_DELETED'
+msgid "<strong>Deleted user warning</strong><br />» %s"
+msgstr "<strong>מחק אזהרת משתמש</strong><br />» %s"
+
+#: $lang->'LOG_WARNINGS_DELETED'->1
+msgid "<strong>Deleted user warning</strong><br />» %1$s"
+msgstr "<strong>מחק אזהרות משתמש</strong><br />» %1$s"
+
+#. Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+#: $lang->'LOG_WARNINGS_DELETED'->2
+msgid "<strong>Deleted %2$d user warnings</strong><br />» %1$s"
+msgstr "<strong>מחק %2$d אזהרות משתמש</strong><br />» %1$s"
+
+#: $lang->'LOG_WARNINGS_DELETED_ALL'
+msgid "<strong>Deleted all user warnings</strong><br />» %s"
+msgstr "<strong>מחק את כל אזהרות המשתמש</strong><br />» %s"
+
+#: $lang->'LOG_WORD_ADD'
+msgid "<strong>Added word censor</strong><br />» %s"
+msgstr "<strong>הוסיף מילה מצונזרת</strong><br />» %s"
+
+#: $lang->'LOG_WORD_DELETE'
+msgid "<strong>Deleted word censor</strong><br />» %s"
+msgstr "<strong>מחק מילה מצונזרת</strong><br />» %s"
+
+#: $lang->'LOG_WORD_EDIT'
+msgid "<strong>Edited word censor</strong><br />» %s"
+msgstr "<strong>ערך מילה מצונזרת</strong><br />» %s"
+
+#: $lang->'LOG_EXT_ENABLE'
+msgid "<strong>Extension enabled</strong><br />» %s"
+msgstr "<strong>תוספת הופעלה</strong><br />» %s"
+
+#: $lang->'LOG_EXT_DISABLE'
+msgid "<strong>Extension disabled</strong><br />» %s"
+msgstr "<strong>תוספת כובתה</strong><br />» %s"
+
+#: $lang->'LOG_EXT_PURGE'
+msgid "<strong>Extension’s data deleted</strong><br />» %s"
+msgstr "<strong>נתוני התוספת נמחקו</strong><br />» %s"
+
+#: $lang->'LOG_EXT_UPDATE'
+msgid "<strong>Extension updated</strong><br />» %s"
+msgstr ""

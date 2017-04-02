@@ -1,0 +1,5256 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/common.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/common.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#. //
+#. // Some characters you may want to copy&paste:
+#. // ’ » “ ” …
+#. //
+#: $lang->'TRANSLATION_INFO'
+msgctxt "$lang->'TRANSLATION_INFO'"
+msgid ""
+msgstr ""
+"מבוסס על <a href=\"http://www.phpbb.co.il\">phpBB.co.il - פורומים בעברית</a>"
+". כל הזכויות שמורות &copy; 2014 - phpBB.co.il."
+
+#: $lang->'DIRECTION'
+msgid "ltr"
+msgstr "rtl"
+
+#. 01 Jan 2007 (with Relative days enabled)
+#: $lang->'DATE_FORMAT'
+msgid "|d M Y|"
+msgstr "|d M Y|"
+
+#. 01 Jan 2007, 13:37 (with Relative days enabled)
+#: $lang->'DATETIME_FORMAT'
+msgid "|d M Y, H:i|"
+msgstr "|d M Y, H:i|"
+
+#: $lang->'USER_LANG'
+msgid "en-gb"
+msgstr "he"
+
+#. // You can define different rules for the determination of plural forms here.
+#. // See http://wiki.phpbb.com/Plural_Rules for more information
+#. // or ask the translation manager for help.
+#: $lang->'1_DAY'
+msgid "1 day"
+msgstr "יום אחד"
+
+#: $lang->'1_MONTH'
+msgid "1 month"
+msgstr "חודש אחד"
+
+#: $lang->'1_YEAR'
+msgid "1 year"
+msgstr "שנה אחת"
+
+#: $lang->'2_WEEKS'
+msgid "2 weeks"
+msgstr "שבועיים"
+
+#: $lang->'3_MONTHS'
+msgid "3 months"
+msgstr "שלושה חודשים"
+
+#: $lang->'6_MONTHS'
+msgid "6 months"
+msgstr "חצי שנה"
+
+#: $lang->'7_DAYS'
+msgid "7 days"
+msgstr "שבוע"
+
+#: $lang->'ACCOUNT_ALREADY_ACTIVATED'
+msgid "Your account has already been activated."
+msgstr "חשבונך כבר הופעל."
+
+#: $lang->'ACCOUNT_DEACTIVATED'
+msgid ""
+"Your account has been manually deactivated and is only able to be "
+"reactivated by an administrator."
+msgstr "חשבונך הופסק ידנית וניתן להפעלה מחדש על־ידי מנהל ראשי בלבד."
+
+#: $lang->'ACCOUNT_NOT_ACTIVATED'
+msgid "Your account has not been activated yet."
+msgstr "חשבונך עדיין לא הופעל."
+
+#: $lang->'ACP'
+msgid "Administration Control Panel"
+msgstr "לוח בקרה למנהל הראשי"
+
+#: $lang->'ACP_SHORT'
+msgid "ACP"
+msgstr "ACP"
+
+#: $lang->'ACTIVE'
+msgid "active"
+msgstr "פעיל"
+
+#: $lang->'ACTIVE_ERROR'
+msgid ""
+"The specified username is currently inactive. If you have problems "
+"activating your account, please contact a board administrator."
+msgstr ""
+"שם המשתמש שצוין לא פעיל כרגע. אם אתה נתקל בבעיות בהפעלת חשבונך, צור קשר עם "
+"המנהל הראשי של המערכת."
+
+#: $lang->'ADMINISTRATOR'
+msgid "Administrator"
+msgstr "מנהל ראשי"
+
+#: $lang->'ADMINISTRATORS'
+msgctxt "$lang->'ADMINISTRATORS'"
+msgid "Administrators"
+msgstr "מנהלים ראשיים"
+
+#: $lang->'AGE'
+msgid "Age"
+msgstr "גיל"
+
+#: $lang->'AIM'
+msgid "AIM"
+msgstr "AIM"
+
+#: $lang->'AJAX_ERROR_TITLE'
+msgid "AJAX error"
+msgstr "שגיאת AJAX"
+
+#: $lang->'AJAX_ERROR_TEXT'
+msgid "Something went wrong when processing your request."
+msgstr "משהו השתבש בזמן עיבוד הבקשה שלך."
+
+#: $lang->'AJAX_ERROR_TEXT_ABORT'
+msgid "User aborted request."
+msgstr "המשתמש ביטל את הבקשה."
+
+#: $lang->'AJAX_ERROR_TEXT_TIMEOUT'
+msgid "Your request timed out; please try again."
+msgstr "הבקשה שלך לקחה יותר מדי זמן; אנא נסה שנית."
+
+#: $lang->'AJAX_ERROR_TEXT_PARSERERROR'
+msgid ""
+"Something went wrong with the request and the server returned an invalid "
+"reply."
+msgstr "נראה כי משהו השתבש עם הבקשה והשרת החזיר תשובה לא תקינה."
+
+#: $lang->'ALLOWED'
+msgid "Allowed"
+msgstr "מורשה"
+
+#: $lang->'ALL_FILES'
+msgid "All files"
+msgstr "כל הקבצים"
+
+#: $lang->'ALL_FORUMS'
+msgid "All forums"
+msgstr "כל הפורומים"
+
+#: $lang->'ALL_MESSAGES'
+msgid "All messages"
+msgstr "כל ההודעות"
+
+#: $lang->'ALL_POSTS'
+msgid "All posts"
+msgstr "כל ההודעות"
+
+#: $lang->'ALL_TIMES'
+msgid "All times are <span title=\"%2$s\">%1$s</span>"
+msgstr "כל הזמנים הם <abbr title=\"%2$s\">%1$s</abbr>"
+
+#: $lang->'ALL_TOPICS'
+msgid "All Topics"
+msgstr "כל הנושאים"
+
+#: $lang->'ALT_TEXT'
+msgid "Alternative text"
+msgstr ""
+
+#: $lang->'AND'
+msgid "And"
+msgstr "וגם"
+
+#: $lang->'ARE_WATCHING_FORUM'
+msgid "You have subscribed to be notified of new posts in this forum."
+msgstr "נרשמת לקבל עדכונים על הודעות חדשות בפורום זה."
+
+#: $lang->'ARE_WATCHING_TOPIC'
+msgid "You have subscribed to be notified of new posts in this topic."
+msgstr "נרשמת לקבל עדכונים על הודעות חדשות בנושא זה."
+
+#: $lang->'ASCENDING'
+msgid "Ascending"
+msgstr "עולה"
+
+#: $lang->'ATTACHMENTS'
+msgid "Attachments"
+msgstr "קבצים מצורפים"
+
+#: $lang->'ATTACHED_IMAGE_NOT_IMAGE'
+msgid "The image file you tried to attach is invalid."
+msgstr "קובץ התמונה אשר ניסית לצרף אינו חוקי."
+
+#: $lang->'AUTHOR'
+msgid "Author"
+msgstr "מחבר"
+
+#: $lang->'AUTH_NO_PROFILE_CREATED'
+msgid "The creation of a user profile was unsuccessful."
+msgstr "המערכת לא הצליחה ליצור פרופיל משתמש."
+
+#: $lang->'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'
+msgid "Invalid database entry."
+msgstr "פרטי מאגר נתונים שגויים."
+
+#: $lang->'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'
+msgid "Invalid service type provided to OAuth service handler."
+msgstr "פרטי OAUTH שגויים למטפ בשירות."
+
+#: $lang->'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'
+msgid "OAuth service not created"
+msgstr "שירות OAuth לא נוצר"
+
+#: $lang->'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'
+msgid "Bitly"
+msgstr "Bitly"
+
+#: $lang->'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'
+msgctxt "$lang->'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'"
+msgid "Facebook"
+msgstr "Facebook"
+
+#: $lang->'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'
+msgid "Google"
+msgstr "Google"
+
+#: $lang->'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'
+msgctxt "$lang->'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'"
+msgid "Twitter"
+msgstr ""
+
+#: $lang->'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'
+msgid "OAuth token not stored."
+msgstr "מפתח OAuth לא אוחסן."
+
+#: $lang->'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'
+msgid "OAuth token incorrectly stored."
+msgstr "מפתח OAuth אוחסן בצורה שגוייה."
+
+#: $lang->'AVATAR_DISALLOWED_CONTENT'
+msgid ""
+"The upload was rejected because the uploaded file was identified as a "
+"possible attack vector."
+msgstr "העלאת הקובץ נדחתה מכיוון שהקובץ זוהה כקובץ חשוד."
+
+#: $lang->'AVATAR_DISALLOWED_EXTENSION'
+msgid ""
+"This file cannot be displayed because the extension <strong>%s</strong> is "
+"not allowed."
+msgstr "הקובץ אינו ניתן לתצוגה מפני שהסיומת <strong>%s</strong> אינה מורשית."
+
+#: $lang->'AVATAR_EMPTY_REMOTE_DATA'
+msgid ""
+"The specified avatar could not be uploaded because the remote data appears "
+"to be invalid or corrupted."
+msgstr ""
+"הסמל האישי שצוין אינו ניתן להעלאה מפני שהנתונים הרחוקים נראים לא חוקיים או "
+"פגומים."
+
+#: $lang->'AVATAR_EMPTY_FILEUPLOAD'
+msgid "The uploaded avatar file is empty."
+msgstr "קובץ הסמל האישי שהועלה ריק."
+
+#: $lang->'AVATAR_INVALID_FILENAME'
+msgid "%s is an invalid filename."
+msgstr "%s אינו שם קובץ חוקי."
+
+#: $lang->'AVATAR_NOT_UPLOADED'
+msgid "Avatar could not be uploaded."
+msgstr "הסמל האישי אינו ניתן להעלאה."
+
+#: $lang->'AVATAR_NO_TEMP_DIR'
+msgid "Temporary folder could not be found or is not writable."
+msgstr ""
+
+#: $lang->'AVATAR_NO_SIZE'
+msgid ""
+"The width or height of the linked avatar could not be determined. Please "
+"enter them manually."
+msgstr "לא ניתן לקבוע את הרוחב או הגובה של הסמל האישי המקושר. הזן אותם ידנית."
+
+#: $lang->'AVATAR_PARTIAL_UPLOAD'
+msgid "The specified file was only partially uploaded."
+msgstr "הקובץ שצוין הועלה חלקית בלבד."
+
+#: $lang->'AVATAR_PHP_SIZE_NA'
+msgid ""
+"The avatar’s filesize is too large.<br />The maximum allowed filesize set in "
+"php.ini could not be determined."
+msgstr ""
+"קובץ הסמל האישי גדול מדי.<br />לא ניתן לקבל את גודל הקובץ המרבי אשר מוגדר "
+"ב־php.ini."
+
+#: $lang->'AVATAR_PHP_SIZE_OVERRUN'
+msgid ""
+"The avatar’s filesize is too large. The maximum allowed upload size is %1$d "
+"%2$s.<br />Please note this is set in php.ini and cannot be overridden."
+msgstr ""
+"קובץ הסמל האישי גדול מדי. הגודל המרבי המורשה להעלאה הוא %1$d %2$s.<br />שים "
+"לב שהגודל נקבע ב־php.ini ואינו ניתן לשינוי."
+
+#: $lang->'AVATAR_REMOTE_UPLOAD_TIMEOUT'
+msgid ""
+"The specified avatar could not be uploaded because the request timed out."
+msgstr "הסמל האישי שבחרת לא הועלה בהצלחה כי הבקשה לקחה יותר מדי זמן."
+
+#: $lang->'AVATAR_PHP_UPLOAD_STOPPED'
+msgid "A PHP extension has stopped the file upload."
+msgstr ""
+
+#: $lang->'AVATAR_URL_INVALID'
+msgid "The URL you specified is invalid."
+msgstr "הכתובת שציינת אינה חוקית."
+
+#: $lang->'AVATAR_URL_NOT_FOUND'
+msgid "The file specified could not be found."
+msgstr "הקובץ שצוין לא נמצא."
+
+#: $lang->'AVATAR_WRONG_FILESIZE'
+msgid "The avatar’s filesize must be between 0 and %1$d %2$s."
+msgstr "הסמל האישי חייב להיות בין 0 ו־%1$d %2$s."
+
+#: $lang->'AVATAR_WRONG_SIZE'
+msgid ""
+"The submitted avatar is %5$s wide and %6$s high. Avatars must be at least %1$"
+"s wide and %2$s high, but no larger than %3$s wide and %4$s high."
+msgstr ""
+"הסמל האישי שנשלח הוא ברוחב של %5$s פיקסלים ובגובה של %6$s פיקסלים. הסמל "
+"האישי חייב להיות לפחות %1$s פיקסלים ברוחב ו-%2$s פיקסלים בגובה, אבל לא יותר "
+"גדול מ-%3$s פיקסלים ברוחב ו-%4$s פיקסלים בגובה."
+
+#: $lang->'BACK_TO_TOP'
+msgid "Top"
+msgstr "חזור למעלה"
+
+#: $lang->'BACK_TO_PREV'
+msgid "Back to previous page"
+msgstr "חזרה לעמוד הקודם"
+
+#: $lang->'BAN_TRIGGERED_BY_EMAIL'
+msgid "A ban has been issued on your email address."
+msgstr "כתובת הדואר האלקטרוני שלך חסומה."
+
+#: $lang->'BAN_TRIGGERED_BY_IP'
+msgid "A ban has been issued on your IP address."
+msgstr "כתובת ה־IP שלך חסומה."
+
+#: $lang->'BAN_TRIGGERED_BY_USER'
+msgid "A ban has been issued on your username."
+msgstr "שם המשתמש שלך חסום."
+
+#: $lang->'BBCODE_GUIDE'
+msgid "BBCode guide"
+msgstr "מדריך BBCode"
+
+#: $lang->'BCC'
+msgid "BCC"
+msgstr "עותק חסוי"
+
+#: $lang->'BIRTHDAYS'
+msgid "Birthdays"
+msgstr "ימי הולדת"
+
+#: $lang->'BOARD_BAN_PERM'
+msgid ""
+"You have been <strong>permanently</strong> banned from this board.<br /><br "
+"/>Please contact the %2$sBoard Administrator%3$s for more information."
+msgstr ""
+"נחסמת <strong>לצמיתות</strong> מהמערכת.<br /><br />צור קשר עם %2$sהמנהל "
+"הראשי%3$s למידע נוסף."
+
+#: $lang->'BOARD_BAN_REASON'
+msgid "Reason given for ban: <strong>%s</strong>"
+msgstr "הסיבה שניתנה לחסימה: <strong>%s</strong>"
+
+#: $lang->'BOARD_BAN_TIME'
+msgid ""
+"You have been banned from this board until <strong>%1$s</strong>.<br /><br />"
+"Please contact the %2$sBoard Administrator%3$s for more information."
+msgstr ""
+"נחסמת מהמערכת עד <strong>%1$s</strong>.<br /><br />נא ליצור קשר עם %2$sהמנהל "
+"הראשי%3$s למידע נוסף."
+
+#: $lang->'BOARD_DISABLE'
+msgid "Sorry but this board is currently unavailable."
+msgstr "מערכת הפורומים אינה זמינה כרגע. עמכם הסליחה."
+
+#: $lang->'BOARD_DISABLED'
+msgid "This board is currently disabled."
+msgstr "המערכת כבויה כרגע."
+
+#: $lang->'BOARD_UNAVAILABLE'
+msgid ""
+"Sorry but the board is temporarily unavailable, please try again in a few "
+"minutes."
+msgstr "אבל המערכת אינה זמינה באופן זמני, אנא נסה שוב בעוד מספר דקות."
+
+#: $lang->'BROWSING_FORUM'
+msgid "Users browsing this forum: %1$s"
+msgstr "משתמשים הגולשים בפורום זה: %1$s"
+
+#: $lang->'BROWSING_FORUM_GUESTS'->1
+msgid "Users browsing this forum: %2$s and %1$d guest"
+msgstr "משתמשים הגולשים בפורום זה: %2$s ואורח אחד"
+
+#: $lang->'BROWSING_FORUM_GUESTS'->2
+msgid "Users browsing this forum: %2$s and %1$d guests"
+msgstr "משתמשים הגולשים בפורום זה: %2$s ו־ %1$d אורחים"
+
+#: $lang->'BUTTON_EDIT'
+msgid "Edit"
+msgstr "ערוך"
+
+#: $lang->'BUTTON_FORUM_LOCKED'
+msgctxt "$lang->'BUTTON_FORUM_LOCKED'"
+msgid "Locked"
+msgstr "נעול"
+
+#: $lang->'BUTTON_NEW_TOPIC'
+msgid "New Topic"
+msgstr "נושא חדש"
+
+#: $lang->'BUTTON_PM'
+msgctxt "$lang->'BUTTON_PM'"
+msgid "PM"
+msgstr "הודעה פרטית"
+
+#: $lang->'BUTTON_PM_FORWARD'
+msgid "Forward"
+msgstr "העבר"
+
+#: $lang->'BUTTON_PM_NEW'
+msgid "New PM"
+msgstr "הודעה פרטית חדשה"
+
+#: $lang->'BUTTON_PM_REPLY'
+msgid "Send Reply"
+msgstr "שלח תגובה"
+
+#: $lang->'BUTTON_PM_REPLY_ALL'
+msgid "Reply All"
+msgstr "הגב לכולם"
+
+#: $lang->'BUTTON_POST_REPLY'
+msgid "Post Reply"
+msgstr "פרסם תגובה"
+
+#: $lang->'BUTTON_QUOTE'
+msgid "Quote"
+msgstr "ציטוט"
+
+#: $lang->'BUTTON_TOPIC_LOCKED'
+msgctxt "$lang->'BUTTON_TOPIC_LOCKED'"
+msgid "Locked"
+msgstr "נעול"
+
+#: $lang->'BYTES'
+msgid "Bytes"
+msgstr "Bytes"
+
+#: $lang->'BYTES_SHORT'
+msgid "B"
+msgstr "B"
+
+#: $lang->'CANCEL'
+msgid "Cancel"
+msgstr "בטל"
+
+#: $lang->'CHANGE'
+msgid "Change"
+msgstr "שנה"
+
+#: $lang->'CHANGE_FONT_SIZE'
+msgid "Change font size"
+msgstr "שנה גודל גופן"
+
+#: $lang->'CHANGING_PREFERENCES'
+msgid "Changing board preferences"
+msgstr "משנה העדפות מערכת"
+
+#: $lang->'CHANGING_PROFILE'
+msgid "Changing profile settings"
+msgstr "משנה הגדרות פרופיל"
+
+#: $lang->'CHARACTERS'->1
+msgid "%d character"
+msgstr "תו אחד"
+
+#: $lang->'CHARACTERS'->2
+msgid "%d characters"
+msgstr "%d תווים"
+
+#: $lang->'COLLAPSE_VIEW'
+msgid "Collapse view"
+msgstr "צמצם תצוגה"
+
+#: $lang->'CLOSE_WINDOW'
+msgid "Close window"
+msgstr "סגור חלון"
+
+#: $lang->'COLOUR_SWATCH'
+msgid "Colour swatch"
+msgstr "מאגר צבעים"
+
+#: $lang->'COLON'
+msgid ":"
+msgstr ":"
+
+#. Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
+#: $lang->'COMMA_SEPARATOR'
+msgid ", "
+msgstr ", "
+
+#: $lang->'CONFIRM'
+msgid "Confirm"
+msgstr "אישור"
+
+#: $lang->'CONFIRM_CODE'
+msgid "Confirmation code"
+msgstr "קוד אישור"
+
+#: $lang->'CONFIRM_CODE_EXPLAIN'
+msgid "Enter the code exactly as it appears. All letters are case insensitive."
+msgstr "הזן את הקוד בדיוק כפי שהוא מופיע. כל האותיות הן אותיות גדולות."
+
+#: $lang->'CONFIRM_CODE_WRONG'
+msgid "The confirmation code you entered was incorrect."
+msgstr "קוד האישור שהוזן שגוי."
+
+#: $lang->'CONFIRM_OPERATION'
+msgid "Are you sure you wish to carry out this operation?"
+msgstr "האם אתה בטוח שברצונך להמשיך?"
+
+#: $lang->'CONFIRM_AVATAR_DELETE'
+msgid "Are you sure you wish to delete this avatar?"
+msgstr "אתה בטוח שאתה רוצה למחוק את האוואטר?"
+
+#: $lang->'CONGRATULATIONS'
+msgid "Congratulations to"
+msgstr "מזל טוב ל"
+
+#: $lang->'CONNECTION_FAILED'
+msgid "Connection failed."
+msgstr "ההתחברות נכשלה."
+
+#: $lang->'CONNECTION_SUCCESS'
+msgid "Connection was successful!"
+msgstr "ההתחברות הצליחה!"
+
+#: $lang->'CONTACT'
+msgid "Contact"
+msgstr "יצירת קשר"
+
+#: $lang->'CONTACT_USER'
+msgid "Contact %s"
+msgstr "יצירת קשר עם %s"
+
+#: $lang->'CONTACT_US'
+msgid "Contact us"
+msgstr "יצירת קשר"
+
+#: $lang->'COOKIE_CONSENT_INFO'
+msgid "Learn more"
+msgstr ""
+
+#: $lang->'COOKIE_CONSENT_MSG'
+msgid ""
+"This website uses cookies to ensure you get the best experience on our "
+"website."
+msgstr ""
+
+#: $lang->'COOKIE_CONSENT_OK'
+msgid "Got it!"
+msgstr ""
+
+#: $lang->'COOKIES_DELETED'
+msgid "All board cookies successfully deleted."
+msgstr "כל עוגיות המערכת נמחקו בהצלחה."
+
+#: $lang->'CURRENT_TIME'
+msgid "It is currently %s"
+msgstr "עכשיו %s', // phpBBrew Group:: Original english is 'It is currently %s"
+
+#: $lang->'DAY'
+msgid "Day"
+msgstr "יום"
+
+#: $lang->'DAYS'
+msgid "Days"
+msgstr "ימים"
+
+#: $lang->'DELETE'
+msgid "Delete"
+msgstr "מחק"
+
+#: $lang->'DELETE_ALL'
+msgid "Delete all"
+msgstr "מחק הכל"
+
+#: $lang->'DELETE_COOKIES'
+msgid "Delete all board cookies"
+msgstr "מחק את כל עוגיות המערכת"
+
+#: $lang->'DELETE_MARKED'
+msgid "Delete marked"
+msgstr "מחק מסומנים"
+
+#: $lang->'DELETE_POST'
+msgid "Delete post"
+msgstr "מחק הודעה"
+
+#: $lang->'DELIMITER'
+msgid "Delimiter"
+msgstr "תוחם"
+
+#: $lang->'DESCENDING'
+msgid "Descending"
+msgstr "יורד"
+
+#: $lang->'DISABLED'
+msgid "Disabled"
+msgstr "מכובה"
+
+#: $lang->'DISPLAY'
+msgid "Display"
+msgstr "הצג"
+
+#: $lang->'DISPLAY_GUESTS'
+msgid "Display guests"
+msgstr "הצג אורחים"
+
+#: $lang->'DISPLAY_MESSAGES'
+msgid "Display messages from previous"
+msgstr "הצג הודעות קודמות"
+
+#: $lang->'DISPLAY_POSTS'
+msgid "Display posts from previous"
+msgstr "הצג הודעות החל מה"
+
+#: $lang->'DISPLAY_TOPICS'
+msgid "Display topics from previous"
+msgstr "הצג נושאים קודמים"
+
+#: $lang->'DOWNLOADED'
+msgid "Downloaded"
+msgstr "הורד"
+
+#: $lang->'DOWNLOADING_FILE'
+msgid "Downloading file"
+msgstr "מוריד קובץ"
+
+#: $lang->'DOWNLOAD_COUNTS'->0
+msgid "Not downloaded yet"
+msgstr "עדיין לא הורד"
+
+#: $lang->'DOWNLOAD_COUNTS'->1
+msgid "Downloaded %d time"
+msgstr ""
+"הורד פעם אחת', // phpBBrew Group:: Original english is 'Downloaded %d time"
+
+#: $lang->'DOWNLOAD_COUNTS'->2
+msgid "Downloaded %d times"
+msgstr "הורד %d פעמים"
+
+#: $lang->'EDIT_POST'
+msgid "Edit post"
+msgstr "ערוך הודעה"
+
+#: $lang->'ELLIPSIS'
+msgid "…"
+msgstr "…"
+
+#. Short form for EMAIL_ADDRESS
+#: $lang->'EMAIL'
+msgid "Email"
+msgstr "דואר אלקטרוני"
+
+#: $lang->'EMAIL_ADDRESS'
+msgid "Email address"
+msgstr "כתובת דואר אלקטרוני"
+
+#: $lang->'EMAIL_INVALID_EMAIL'
+msgid "The email address you entered is invalid."
+msgstr "כתובת הדואר האלקטרוני שהזנת איננה חוקית."
+
+#: $lang->'EMAIL_SMTP_ERROR_RESPONSE'
+msgid ""
+"Ran into problems sending email at <strong>Line %1$s</strong>. Response: "
+"%2$s."
+msgstr "שגיאה בשליחת הדואר האלקטרוני ב<strong>שורה %1$s</strong>. תגובה: %2$s."
+
+#: $lang->'EMPTY_SUBJECT'
+msgid "You must specify a subject when posting a new topic."
+msgstr "יש לציין כותרת בעת שליחת נושא חדש."
+
+#: $lang->'EMPTY_MESSAGE_SUBJECT'
+msgid "You must specify a subject when composing a new message."
+msgstr "יש לציין כותרת בעת שליחת הודעה חדשה."
+
+#: $lang->'ENABLED'
+msgid "Enabled"
+msgstr "מופעל"
+
+#: $lang->'ENCLOSURE'
+msgid "Enclosure"
+msgstr "סגור"
+
+#: $lang->'ENTER_USERNAME'
+msgid "Enter username"
+msgstr "הזן שם משתמש"
+
+#: $lang->'ERR_CHANGING_DIRECTORY'
+msgid "Unable to change directory."
+msgstr "לא ניתן לשנות תיקייה."
+
+#: $lang->'ERR_CONNECTING_SERVER'
+msgid "Error connecting to the server."
+msgstr "שגיאה בהתחברות לשרת."
+
+#: $lang->'ERR_JAB_AUTH'
+msgid "Could not authorise on Jabber server."
+msgstr "לא ניתן לאמת בשרת Jabber."
+
+#: $lang->'ERR_JAB_CONNECT'
+msgid "Could not connect to Jabber server."
+msgstr "לא ניתן להתחבר לשרת Jabber."
+
+#: $lang->'ERR_UNABLE_TO_LOGIN'
+msgid "The specified username or password is incorrect."
+msgstr "שם המשתמש או הססמה שצוינו לא נכונים."
+
+#: $lang->'ERR_UNWATCHING'
+msgid "An error occurred while trying to unsubscribe."
+msgstr "שגיאה התרחשה בעת הניסיון לבטל ההרשמה."
+
+#: $lang->'ERR_WATCHING'
+msgid "An error occurred while trying to subscribe."
+msgstr "שגיאה התרחשה בעת הניסיון להירשם."
+
+#: $lang->'ERR_WRONG_PATH_TO_PHPBB'
+msgid "The phpBB path specified appears to be invalid."
+msgstr "נתיב phpBB שצוין שגוי."
+
+#: $lang->'ERROR'
+msgid "Error"
+msgstr "שגיאה"
+
+#: $lang->'EXPAND_VIEW'
+msgid "Expand view"
+msgstr "הרחב תצוגה"
+
+#: $lang->'EXTENSION'
+msgid "Extension"
+msgstr "תוספות"
+
+#: $lang->'EXTENSION_DISABLED'
+msgid "The extension <strong>%s</strong> is not enabled."
+msgstr "התוספת <strong>%s</strong> לא פעילה."
+
+#: $lang->'EXTENSION_DISABLED_AFTER_POSTING'
+msgid ""
+"The extension <strong>%s</strong> has been deactivated and can no longer be "
+"displayed."
+msgstr "התוספת <strong>%s</strong> כובתה ולא ניתנת יותר להצגה."
+
+#: $lang->'EXTENSION_DOES_NOT_EXIST'
+msgid "The extension <strong>%s</strong> does not exist."
+msgstr "התוספת <strong>%s</strong> לא קיימת."
+
+#: $lang->'FACEBOOK'
+msgctxt "$lang->'FACEBOOK'"
+msgid "Facebook"
+msgstr "Facebook"
+
+#: $lang->'FAQ'
+msgid "FAQ"
+msgstr "שאלות נפוצות"
+
+#: $lang->'FAQ_EXPLAIN'
+msgid "Frequently Asked Questions"
+msgstr "שאלות נפוצות"
+
+#: $lang->'FEATURE_NOT_AVAILABLE'
+msgid "The requested feature is not available on this board."
+msgstr ""
+
+#: $lang->'FILENAME'
+msgid "Filename"
+msgstr "שם הקובץ"
+
+#: $lang->'FILESIZE'
+msgid "File size"
+msgstr "גודל הקובץ"
+
+#: $lang->'FILEDATE'
+msgid "File date"
+msgstr "תאריך קובץ"
+
+#: $lang->'FILE_COMMENT'
+msgid "File comment"
+msgstr "הערה לקובץ"
+
+#: $lang->'FILE_CONTENT_ERR'
+msgid "Could not read the contents of file: %s"
+msgstr "לא ניתן לקרוא את תוכן הקובץ: %s"
+
+#: $lang->'FILE_JSON_DECODE_ERR'
+msgid "Failed to decode json file: %s"
+msgstr "לא ניתן לפענח קובץ json: %s"
+
+#: $lang->'FILE_NOT_FOUND'
+msgid "The requested file could not be found: %s"
+msgstr "הקובץ המבוקש לא נמצא: %s"
+
+#: $lang->'FIND_USERNAME'
+msgid "Find a member"
+msgstr "מצא משתמש"
+
+#: $lang->'FOLDER'
+msgid "Folder"
+msgstr "תיקייה"
+
+#: $lang->'FORGOT_PASS'
+msgid "I forgot my password"
+msgstr "שכחתי את ססמתי"
+
+#: $lang->'FORM_INVALID'
+msgid "The submitted form was invalid. Try submitting again."
+msgstr "הטופס שנשלח לא תקין. נסה לשלוח שנית."
+
+#: $lang->'FORUM'
+msgid "Forum"
+msgstr "פורום"
+
+#: $lang->'FORUMS'
+msgid "Forums"
+msgstr "פורומים"
+
+#: $lang->'FORUMS_MARKED'
+msgid "Forums have been marked read."
+msgstr "הפורומים סומנו כנקראו."
+
+#: $lang->'FORUM_CAT'
+msgid "Forum category"
+msgstr "קטגוריות הפורום"
+
+#: $lang->'FORUM_INDEX'
+msgid "Board index"
+msgstr "עמוד ראשי"
+
+#: $lang->'FORUM_LINK'
+msgid "Forum link"
+msgstr "פורום קישור"
+
+#: $lang->'FORUM_LOCATION'
+msgid "Forum location"
+msgstr "מיקום בפורום"
+
+#: $lang->'FORUM_LOCKED'
+msgid "Forum locked"
+msgstr "פורום נעול"
+
+#: $lang->'FORUM_RULES'
+msgid "Forum rules"
+msgstr "חוקי הפורום"
+
+#: $lang->'FORUM_RULES_LINK'
+msgid "Please click here to view the forum rules"
+msgstr "אנא לחץ כאן על מנת לצפות בחוקי הפורום"
+
+#: $lang->'FROM'
+msgid "from"
+msgstr "מאת"
+
+#: $lang->'FSOCK_DISABLED'
+msgid ""
+"The operation could not be completed because the <var>fsockopen</var> "
+"function has been disabled or the server being queried could not be found."
+msgstr ""
+"לא ניתן להשלים את הפעולה מפני שהפונקציה <var>fsockopen</var> כבויה או שהשרת "
+"שהתבקש לא נמצא."
+
+#: $lang->'FSOCK_TIMEOUT'
+msgid "A timeout occurred while reading from the network stream."
+msgstr "נוצר פסק זמן במהלך הקריאה מהרשת."
+
+#: $lang->'FTP_FSOCK_HOST'
+msgctxt "$lang->'FTP_FSOCK_HOST'"
+msgid "FTP host"
+msgstr "שרת FTP"
+
+#: $lang->'FTP_FSOCK_HOST_EXPLAIN'
+msgctxt "$lang->'FTP_FSOCK_HOST_EXPLAIN'"
+msgid "FTP server used to connect your site."
+msgstr "שרת ה־FTP המשמש להתחברות לאתר שלך."
+
+#: $lang->'FTP_FSOCK_PASSWORD'
+msgctxt "$lang->'FTP_FSOCK_PASSWORD'"
+msgid "FTP password"
+msgstr "ססמה ל־FTP"
+
+#: $lang->'FTP_FSOCK_PASSWORD_EXPLAIN'
+msgctxt "$lang->'FTP_FSOCK_PASSWORD_EXPLAIN'"
+msgid "Password for your FTP username."
+msgstr "ססמה למשתמש ה־FTP."
+
+#: $lang->'FTP_FSOCK_PORT'
+msgctxt "$lang->'FTP_FSOCK_PORT'"
+msgid "FTP port"
+msgstr "יציאת FTP"
+
+#: $lang->'FTP_FSOCK_PORT_EXPLAIN'
+msgctxt "$lang->'FTP_FSOCK_PORT_EXPLAIN'"
+msgid "Port used to connect to your server."
+msgstr "יציאת התקשורת המשמשת להתחברות לשרת."
+
+#: $lang->'FTP_FSOCK_ROOT_PATH'
+msgctxt "$lang->'FTP_FSOCK_ROOT_PATH'"
+msgid "Path to phpBB"
+msgstr "נתיב ל־phpBB"
+
+#: $lang->'FTP_FSOCK_ROOT_PATH_EXPLAIN'
+msgctxt "$lang->'FTP_FSOCK_ROOT_PATH_EXPLAIN'"
+msgid "Path from the root to your phpBB board."
+msgstr "נתיב מהתיקייה הראשית לתיקייה של מערכת phpBB."
+
+#: $lang->'FTP_FSOCK_TIMEOUT'
+msgctxt "$lang->'FTP_FSOCK_TIMEOUT'"
+msgid "FTP timeout"
+msgstr "זמן הפסקה ל־FTP"
+
+#: $lang->'FTP_FSOCK_TIMEOUT_EXPLAIN'
+msgctxt "$lang->'FTP_FSOCK_TIMEOUT_EXPLAIN'"
+msgid ""
+"The amount of time, in seconds, that the system will wait for a reply from "
+"your server."
+msgstr "הזמן, בשניות, בו המערכת תמתין לתגובה מהשרת."
+
+#: $lang->'FTP_FSOCK_USERNAME'
+msgctxt "$lang->'FTP_FSOCK_USERNAME'"
+msgid "FTP username"
+msgstr "שם משתמש ל־FTP"
+
+#: $lang->'FTP_FSOCK_USERNAME_EXPLAIN'
+msgctxt "$lang->'FTP_FSOCK_USERNAME_EXPLAIN'"
+msgid "Username used to connect to your server."
+msgstr "שם המשתמש שבשימוש להתחברות לשרת."
+
+#: $lang->'FTP_HOST'
+msgctxt "$lang->'FTP_HOST'"
+msgid "FTP host"
+msgstr "שרת FTP"
+
+#: $lang->'FTP_HOST_EXPLAIN'
+msgctxt "$lang->'FTP_HOST_EXPLAIN'"
+msgid "FTP server used to connect your site."
+msgstr "שרת ה־FTP המשמש להתחברות לאתר שלך."
+
+#: $lang->'FTP_PASSWORD'
+msgctxt "$lang->'FTP_PASSWORD'"
+msgid "FTP password"
+msgstr "ססמה ל־FTP"
+
+#: $lang->'FTP_PASSWORD_EXPLAIN'
+msgctxt "$lang->'FTP_PASSWORD_EXPLAIN'"
+msgid "Password for your FTP username."
+msgstr "ססמה למשתמש ה־FTP."
+
+#: $lang->'FTP_PORT'
+msgctxt "$lang->'FTP_PORT'"
+msgid "FTP port"
+msgstr "יציאת FTP"
+
+#: $lang->'FTP_PORT_EXPLAIN'
+msgctxt "$lang->'FTP_PORT_EXPLAIN'"
+msgid "Port used to connect to your server."
+msgstr "יציאת התקשורת המשמשת להתחברות לשרת."
+
+#: $lang->'FTP_ROOT_PATH'
+msgctxt "$lang->'FTP_ROOT_PATH'"
+msgid "Path to phpBB"
+msgstr "נתיב ל־phpBB"
+
+#: $lang->'FTP_ROOT_PATH_EXPLAIN'
+msgctxt "$lang->'FTP_ROOT_PATH_EXPLAIN'"
+msgid "Path from the root to your phpBB board."
+msgstr "נתיב מהתיקייה הראשית לתיקייה של מערכת phpBB."
+
+#: $lang->'FTP_TIMEOUT'
+msgctxt "$lang->'FTP_TIMEOUT'"
+msgid "FTP timeout"
+msgstr "זמן הפסקה ל־FTP"
+
+#: $lang->'FTP_TIMEOUT_EXPLAIN'
+msgctxt "$lang->'FTP_TIMEOUT_EXPLAIN'"
+msgid ""
+"The amount of time, in seconds, that the system will wait for a reply from "
+"your server."
+msgstr "הזמן, בשניות, בו המערכת תמתין לתגובה מהשרת."
+
+#: $lang->'FTP_USERNAME'
+msgctxt "$lang->'FTP_USERNAME'"
+msgid "FTP username"
+msgstr "שם משתמש ל־FTP"
+
+#: $lang->'FTP_USERNAME_EXPLAIN'
+msgctxt "$lang->'FTP_USERNAME_EXPLAIN'"
+msgid "Username used to connect to your server."
+msgstr "שם המשתמש שבשימוש להתחברות לשרת."
+
+#: $lang->'GENERAL_ERROR'
+msgid "General Error"
+msgstr "שגיאה כללית"
+
+#: $lang->'GB'
+msgid "GB"
+msgstr "GB"
+
+#: $lang->'GIB'
+msgid "GiB"
+msgstr "GiB"
+
+#: $lang->'GO'
+msgid "Go"
+msgstr "עבור"
+
+#: $lang->'GOOGLEPLUS'
+msgid "Google+"
+msgstr "Google+"
+
+#: $lang->'GOTO_FIRST_POST'
+msgid "Go to first post"
+msgstr "עבור להודעה הראשונה"
+
+#: $lang->'GOTO_LAST_POST'
+msgid "Go to last post"
+msgstr "עבור להודעה האחרונה"
+
+#: $lang->'GOTO_PAGE'
+msgid "Go to page"
+msgstr "עבור לעמוד"
+
+#: $lang->'GROUP'
+msgid "Group"
+msgstr "קבוצה"
+
+#: $lang->'GROUPS'
+msgctxt "$lang->'GROUPS'"
+msgid "Groups"
+msgstr "קבוצות"
+
+#: $lang->'GROUP_ERR_TYPE'
+msgid "Inappropriate group type specified."
+msgstr "סוג הקבוצה שצוין לא מתאים."
+
+#: $lang->'GROUP_ERR_USERNAME'
+msgid "No group name specified."
+msgstr "שם הקבוצה לא צוין."
+
+#: $lang->'GROUP_ERR_USER_LONG'
+msgid ""
+"Group names cannot exceed 60 characters. The specified group name is too "
+"long."
+msgstr "שם הקבוצה עובר את מגבלת האורך של 60 תווים."
+
+#: $lang->'GUEST'
+msgid "Guest"
+msgstr "אורח"
+
+#: $lang->'GUEST_USERS_ONLINE'->1
+msgid "There is %d guest user online"
+msgstr "יש אורח אחד מחובר', // was 'There is %d guest user online"
+
+#: $lang->'GUEST_USERS_ONLINE'->2
+msgid "There are %d guest users online"
+msgstr "יש %d אורחים מחוברים"
+
+#: $lang->'GUEST_USERS_TOTAL'->1
+msgid "%d guest"
+msgstr "אורח אחד"
+
+#: $lang->'GUEST_USERS_TOTAL'->2
+msgid "%d guests"
+msgstr "%d אורחים"
+
+#: $lang->'G_ADMINISTRATORS'
+msgctxt "$lang->'G_ADMINISTRATORS'"
+msgid "Administrators"
+msgstr "מנהלים ראשיים"
+
+#: $lang->'G_BOTS'
+msgid "Bots"
+msgstr "בוטים"
+
+#: $lang->'G_GUESTS'
+msgid "Guests"
+msgstr "אורחים"
+
+#: $lang->'G_REGISTERED'
+msgid "Registered users"
+msgstr "משתמשים רשומים"
+
+#: $lang->'G_REGISTERED_COPPA'
+msgid "Registered COPPA users"
+msgstr "משתמשי COPPA רשומים"
+
+#: $lang->'G_GLOBAL_MODERATORS'
+msgid "Global moderators"
+msgstr "מנהלים גלובליים"
+
+#: $lang->'G_NEWLY_REGISTERED'
+msgid "Newly registered users"
+msgstr "משתמשים שנרשמו לאחרונה"
+
+#: $lang->'HIDDEN_USERS_ONLINE'->1
+msgid "%d hidden user"
+msgstr "משתמש מוסתר אחד"
+
+#: $lang->'HIDDEN_USERS_ONLINE'->2
+msgid "%d hidden users"
+msgstr "%d משתמשים מוסתרים"
+
+#: $lang->'HIDDEN_USERS_TOTAL'->1
+msgctxt "$lang->'HIDDEN_USERS_TOTAL'->1"
+msgid "%d hidden"
+msgstr "מוסתר אחד"
+
+#: $lang->'HIDDEN_USERS_TOTAL'->2
+msgctxt "$lang->'HIDDEN_USERS_TOTAL'->2"
+msgid "%d hidden"
+msgstr "%d מוסתרים"
+
+#: $lang->'HIDE_GUESTS'
+msgid "Hide guests"
+msgstr "הסתר אורחים"
+
+#: $lang->'HIDE_ME'
+msgid "Hide my online status this session"
+msgstr "בהתחברות זו אל תאפשר למשתמשים אחרים לראות אם אני מחובר"
+
+#: $lang->'HOURS'
+msgid "Hours"
+msgstr "שעות"
+
+#: $lang->'HOME'
+msgid "Home"
+msgstr "בית"
+
+#: $lang->'ICQ'
+msgid "ICQ"
+msgstr "ICQ"
+
+#: $lang->'IF'
+msgid "If"
+msgstr "אם"
+
+#: $lang->'IMAGE'
+msgid "Image"
+msgstr "תמונה"
+
+#: $lang->'IMAGE_FILETYPE_INVALID'
+msgid "Image file type %d for mimetype %s not supported."
+msgstr "סוג קובץ התמונה %d לסוג mime %s אינו נתמך."
+
+#: $lang->'IMAGE_FILETYPE_MISMATCH'
+msgid ""
+"Image file type mismatch: expected extension %1$s but extension %2$s given."
+msgstr ""
+"סוג קובץ התמונה אינו מתאים: הסיומת הצפויה היא %1$s אבל הסיומת שהתקבלה היא "
+"%2$s."
+
+#: $lang->'IN'
+msgctxt "$lang->'IN'"
+msgid "in"
+msgstr "ב"
+
+#: $lang->'INACTIVE'
+msgid "Inactive"
+msgstr "לא פעיל"
+
+#: $lang->'INDEX'
+msgid "Index page"
+msgstr "עמוד ראשי"
+
+#: $lang->'INFORMATION'
+msgid "Information"
+msgstr "מידע"
+
+#: $lang->'INSECURE_REDIRECT'
+msgid "Tried to redirect to potentially insecure url."
+msgstr "נעשה נסיון הפניה לכתובת שעשויה להיות לא בטוחה."
+
+#: $lang->'INTERESTS'
+msgid "Interests"
+msgstr "תחומי עניין"
+
+#: $lang->'INVALID_DIGEST_CHALLENGE'
+msgid "Invalid digest challenge."
+msgstr "טעות באתגר התקציר."
+
+#: $lang->'INVALID_EMAIL_LOG'
+msgid "<strong>%s</strong> possibly an invalid email address?"
+msgstr "<strong>%s</strong> ייתכן שזוהי כתובת דואר אלקטרוני לא תקנית?"
+
+#: $lang->'INVALID_FEED_ATTACHMENTS'
+msgid "The selected feed tried fetching attachments with invalid constraints."
+msgstr ""
+
+#: $lang->'INVALID_PLURAL_RULE'
+msgid ""
+"The chosen plural rule is invalid. Valid values are integers between 0 and "
+"15."
+msgstr "כלל הריבוי לא תקין. כללי ריבוי תקינים הם מספרים טבעיים בין 0 ל-15."
+
+#: $lang->'IP'
+msgid "IP"
+msgstr "IP"
+
+#: $lang->'IP_BLACKLISTED'
+msgid ""
+"Your IP %1$s has been blocked because it is blacklisted. For details please "
+"see <a href=\"%2$s\">%2$s</a>."
+msgstr ""
+"ה IPשלך %1$s נחסם מפני שהוא רשום ברשימה השחורה. לפרטים: <a href=\"%2$s\""
+">%2$s</a>."
+
+#: $lang->'JABBER'
+msgid "Jabber"
+msgstr "Jabber"
+
+#: $lang->'JOINED'
+msgid "Joined"
+msgstr "הצטרף"
+
+#: $lang->'JUMP_PAGE'
+msgid "Enter the page number you wish to go to"
+msgstr "הכנס את מספר העמוד שאליו ברצונך לעבור"
+
+#: $lang->'JUMP_TO'
+msgid "Jump to"
+msgstr "עבור ל"
+
+#: $lang->'JUMP_TO_PAGE'
+msgid "Jump to page"
+msgstr "קפוץ לעמוד"
+
+#: $lang->'JUMP_TO_PAGE_CLICK'
+msgid "Click to jump to page…"
+msgstr "לחץ כאן כדי לקפוץ לעמוד אחר…"
+
+#: $lang->'KB'
+msgid "KB"
+msgstr "KB"
+
+#: $lang->'KIB'
+msgid "KiB"
+msgstr "KiB"
+
+#: $lang->'LAST_POST'
+msgid "Last post"
+msgstr "הודעה אחרונה"
+
+#: $lang->'LAST_UPDATED'
+msgid "Last updated"
+msgstr "עודכן לאחרונה"
+
+#: $lang->'LAST_VISIT'
+msgid "Last visit"
+msgstr "ביקור אחרון"
+
+#: $lang->'LDAP_NO_LDAP_EXTENSION'
+msgid "LDAP extension not available."
+msgstr "סיומת LDAP לא זמינה."
+
+#: $lang->'LDAP_NO_SERVER_CONNECTION'
+msgid "Could not connect to LDAP server."
+msgstr "לא ניתן להתחבר לשרת LDAP."
+
+#: $lang->'LDAP_SEARCH_FAILED'
+msgid "An error occurred while searching the LDAP directory."
+msgstr "שגיאה התרחשה בזמן החיפוש בתיקיית LDAP."
+
+#: $lang->'LEGEND'
+msgid "Legend"
+msgstr "מקרא"
+
+#: $lang->'LIVE_SEARCHES_NOT_ALLOWED'
+msgid "Live searches are not allowed."
+msgstr "חיפושים חיים לא מורשים."
+
+#: $lang->'LOADING'
+msgid "Loading"
+msgstr "טוען"
+
+#: $lang->'LOCATION'
+msgctxt "$lang->'LOCATION'"
+msgid "Location"
+msgstr "מיקום"
+
+#: $lang->'LOCK_POST'
+msgid "Lock post"
+msgstr "נעל הודעה"
+
+#: $lang->'LOCK_POST_EXPLAIN'
+msgid "Prevent editing"
+msgstr "נעל מפני עריכה"
+
+#: $lang->'LOCK_TOPIC'
+msgid "Lock topic"
+msgstr "נעל נושא"
+
+#: $lang->'LOGIN'
+msgid "Login"
+msgstr "התחבר"
+
+#: $lang->'LOGIN_CHECK_PM'
+msgid "Log in to check your private messages."
+msgstr "התחבר כדי לבדוק הודעות פרטיות."
+
+#: $lang->'LOGIN_CONFIRMATION'
+msgid "Confirmation of login"
+msgstr "אישור התחברות"
+
+#. unused
+#: $lang->'LOGIN_CONFIRM_EXPLAIN'
+msgid ""
+"To prevent brute forcing accounts the board requires you to enter a "
+"confirmation code after a maximum amount of failed logins. The code is "
+"displayed in the image you should see below. If you are visually impaired or "
+"cannot otherwise read this code please contact the %sBoard Administrator%s."
+msgstr ""
+"כדי להימנע מחשבונות של גורמים עוינים, המערכת דורשת ממך להזין קוד אישור לאחר "
+"כמות מרבית של התחברויות שנכשלו. הקוד מוצג בתמונה אשר אתה רואה להלן. אם אינך "
+"מצליח לראות את התמונה צור קשר עם %sהמנהל הראשי של המערכת%s."
+
+#: $lang->'LOGIN_ERROR_ATTEMPTS'
+msgid ""
+"You exceeded the maximum allowed number of login attempts. In addition to "
+"your username and password you now also have to solve the CAPTCHA below."
+msgstr ""
+"עברת את המספר המרבי המותר של ניסיונות התחברות. בנוסף לשם המשתמש והססמה שלך "
+"אתה צריך לפתור את האנטי-בוט שמתחת."
+
+#: $lang->'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'
+msgid "You have not been authenticated by Apache."
+msgstr "אינך אומתת על־ידי Apache."
+
+#: $lang->'LOGIN_ERROR_OAUTH_SERVICE_DOES_NOT_EXIST'
+msgid "A non-existant OAuth service has been requested."
+msgstr "התבקש שירות OAuth שלא קיים."
+
+#: $lang->'LOGIN_ERROR_PASSWORD'
+msgid ""
+"You have specified an incorrect password. Please check your password and try "
+"again. If you continue to have problems please contact the %sBoard "
+"Administrator%s."
+msgstr ""
+"ציינת ססמה שגוייה. בדוק את ססמתך ונסה שנית. אם אתה ממשיך להיתקל בבעיות צור "
+"קשר עם %sהמנהל הראשי של המערכת%s."
+
+#: $lang->'LOGIN_ERROR_PASSWORD_CONVERT'
+msgid ""
+"It was not possible to convert your password when updating this bulletin "
+"board’s software. Please %srequest a new password%s. If you continue to have "
+"problems please contact the %sBoard Administrator%s."
+msgstr ""
+"לא היה ניתן להמיר את ססמתך בעת עדכון מערכת זו. אנא %sבקש ססמה חדשה%s. אם אתה "
+"ממשיך להיתקל בבעיות צור קשר עם %sהמנהל הראשי של המערכת%s."
+
+#: $lang->'LOGIN_ERROR_USERNAME'
+msgid ""
+"You have specified an incorrect username. Please check your username and try "
+"again. If you continue to have problems please contact the %sBoard "
+"Administrator%s."
+msgstr ""
+"ציינת שם משתמש שגוי. בדוק את שם המשתמש שלך ונסה שנית. אם אתה ממשיך להיתקל "
+"בבעיות צור קשר עם %sהמנהל הראשי של המערכת%s."
+
+#: $lang->'LOGIN_FORUM'
+msgid "To view or post in this forum you must enter its password."
+msgstr "כדי לצפות או לשלוח בפורום זה אתה חייב להזין את ססמתו."
+
+#: $lang->'LOGIN_INFO'
+msgid ""
+"In order to login you must be registered. Registering takes only a few "
+"moments but gives you increased capabilities. The board administrator may "
+"also grant additional permissions to registered users. Before you register "
+"please ensure you are familiar with our terms of use and related policies. "
+"Please ensure you read any forum rules as you navigate around the board."
+msgstr ""
+"כדי להתחבר אתה חייב להיות רשום. ההרשמה לוקחת מספר שניות ומאפשרת לך יכולות "
+"גבוהות יותר. המנהל הראשי של המערכת יכול לתת בנוסף הרשאות נוספות למשתמשים "
+"רשומים. לפני שאתה מתחבר וודא שאתה מסכים עם תנאי השימוש שלנו וכללי המדיניות. "
+"אנא וודא שקראת כל כללי פורום בזמן שאתה גולש במערכת."
+
+#: $lang->'LOGIN_VIEWFORUM'
+msgid ""
+"The board requires you to be registered and logged in to view this forum."
+msgstr "המערכת דורשת ממך להיות רשום ומחובר כדי לראות פורום זה."
+
+#: $lang->'LOGIN_EXPLAIN_EDIT'
+msgid ""
+"In order to edit posts in this forum you have to be registered and logged in."
+msgstr "כדי לערוך הודעות בפורום זה אתה חייב להיות רשום ומחובר."
+
+#: $lang->'LOGIN_EXPLAIN_VIEWONLINE'
+msgid ""
+"In order to view the online list you have to be registered and logged in."
+msgstr "כדי לראות את רשימת המחוברים אתה חייב להיות רשום ומחובר."
+
+#: $lang->'LOGIN_REQUIRED'
+msgid "You need to login to perform this action."
+msgstr "עליך להתחבר על מנת לבצע פעולה זו."
+
+#: $lang->'LOGOUT'
+msgid "Logout"
+msgstr "התנתק"
+
+#: $lang->'LOGOUT_USER'
+msgid "Logout [ %s ]"
+msgstr "[ %s ] התנתק"
+
+#: $lang->'LOG_ME_IN'
+msgid "Remember me"
+msgstr "זכור אותי"
+
+#: $lang->'MAIN'
+msgid "Main"
+msgstr "ראשי"
+
+#: $lang->'MARK'
+msgid "Mark"
+msgstr "סמן"
+
+#: $lang->'MARK_ALL'
+msgid "Mark all"
+msgstr "סמן הכל"
+
+#: $lang->'MARK_ALL_READ'
+msgid "Mark all read"
+msgstr "סמן הכל כנקרא"
+
+#: $lang->'MARK_FORUMS_READ'
+msgid "Mark forums read"
+msgstr "סמן פורומים כנקראו"
+
+#: $lang->'MARK_READ'
+msgid "Mark read"
+msgstr "סמן שנקרא"
+
+#: $lang->'MARK_SUBFORUMS_READ'
+msgid "Mark subforums read"
+msgstr "סמן תת-פורומים כנקראו"
+
+#: $lang->'MB'
+msgid "MB"
+msgstr "MB"
+
+#: $lang->'MIB'
+msgid "MiB"
+msgstr "MiB"
+
+#: $lang->'MCP'
+msgid "Moderator Control Panel"
+msgstr "לוח בקרה למנהל"
+
+#: $lang->'MCP_SHORT'
+msgid "MCP"
+msgstr "MCP"
+
+#: $lang->'MEMBERLIST'
+msgid "Members"
+msgstr "משתמשים"
+
+#: $lang->'MEMBERLIST_EXPLAIN'
+msgid "View complete list of members"
+msgstr "צפה ברשימת המשתמשים המלאה"
+
+#: $lang->'MERGE'
+msgid "Merge"
+msgstr "מיזוג"
+
+#: $lang->'MERGE_POSTS'
+msgid "Move posts"
+msgstr "העבר הודעות"
+
+#: $lang->'MERGE_TOPIC'
+msgid "Merge topic"
+msgstr "מזג נושאים"
+
+#: $lang->'MESSAGE'
+msgid "Message"
+msgstr "הודעה"
+
+#: $lang->'MESSAGES'
+msgid "Messages"
+msgstr "הודעות"
+
+#: $lang->'MESSAGES_COUNT'->1
+msgid "%d message"
+msgstr "הודעה אחת"
+
+#: $lang->'MESSAGES_COUNT'->2
+msgid "%d messages"
+msgstr "%d הודעות"
+
+#: $lang->'MESSAGE_BODY'
+msgid "Message body"
+msgstr "גוף ההודעה"
+
+#: $lang->'MINUTES'
+msgid "Minutes"
+msgstr "דקות"
+
+#: $lang->'MODERATE'
+msgid "Moderate"
+msgstr "נהל"
+
+#: $lang->'MODERATOR'
+msgid "Moderator"
+msgstr "מנהל"
+
+#: $lang->'MODERATORS'
+msgid "Moderators"
+msgstr "המנהלים"
+
+#: $lang->'MODULE_NOT_ACCESS'
+msgid "Module not accessible"
+msgstr "לא ניתן לגשת למודול"
+
+#: $lang->'MODULE_NOT_FIND'
+msgid "Cannot find module %s"
+msgstr "המודול %s לא נמצא"
+
+#: $lang->'MODULE_FILE_INCORRECT_CLASS'
+msgid "Module file %s does not contain correct class [%s]"
+msgstr "קובץ המודול %s לא כולל את המחלקה הנכונה [%s]"
+
+#: $lang->'MONTH'
+msgid "Month"
+msgstr "חודש"
+
+#: $lang->'MOVE'
+msgid "Move"
+msgstr "העבר"
+
+#: $lang->'NA'
+msgid "N/A"
+msgstr "לא זמין"
+
+#: $lang->'NEWEST_USER'
+msgid "Our newest member <strong>%s</strong>"
+msgstr "המשתמש החדש ביותר <strong>%s</strong>"
+
+#: $lang->'NEW_MESSAGE'
+msgid "New message"
+msgstr "הודעה חדשה"
+
+#: $lang->'NEW_MESSAGES'
+msgid "New messages"
+msgstr "הודעות חדשות"
+
+#. Not used anymore
+#: $lang->'NEW_POST'
+msgid "New post"
+msgstr "הודעה חדשה"
+
+#. Not used anymore
+#: $lang->'NEW_POSTS'
+msgctxt "$lang->'NEW_POSTS'"
+msgid "New posts"
+msgstr "יש הודעות חדשות"
+
+#. Used in pagination
+#: $lang->'NEXT'
+msgctxt "$lang->'NEXT'"
+msgid "Next"
+msgstr "הבא"
+
+#: $lang->'NEXT_STEP'
+msgctxt "$lang->'NEXT_STEP'"
+msgid "Next"
+msgstr "הבא"
+
+#: $lang->'NEVER'
+msgid "Never"
+msgstr "לעולם לא"
+
+#: $lang->'NO'
+msgid "No"
+msgstr "לא"
+
+#: $lang->'NO_NOTIFICATIONS'
+msgid "You have no notifications"
+msgstr "אין לך הודעות"
+
+#: $lang->'NOT_ALLOWED_MANAGE_GROUP'
+msgid "You are not allowed to manage this group."
+msgstr "אינך מורשה לנהל את הקבוצה הזו."
+
+#: $lang->'NOT_AUTHORISED'
+msgid "You are not authorised to access this area."
+msgstr "אינך מורשה להיכנס לאזור זה."
+
+#: $lang->'NOT_WATCHING_FORUM'
+msgid "You are no longer subscribed to updates on this forum."
+msgstr "אינך רשום יותר לקבלת עדכונים עבור פורום זה."
+
+#: $lang->'NOT_WATCHING_TOPIC'
+msgid "You are no longer subscribed to this topic."
+msgstr "אינך רשום יותר לקבלת עדכונים עבור נושא זה."
+
+#: $lang->'NOTIFICATIONS'
+msgid "Notifications"
+msgstr "התראות"
+
+#. // This applies for NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+#. // %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
+#. // Once the user count reaches 5 users or more, the list is trimmed using NOTIFICATION_X_OTHERS
+#. // Once the user count reaches 20 users or more, the list is trimmed using NOTIFICATION_MANY_OTHERS
+#. // Examples:
+#. // A replied...
+#. // A and B replied...
+#. // A, B and C replied...
+#. // A, B, C and 2 others replied...
+#. // A, B, C and others replied...
+#: $lang->'NOTIFICATION_BOOKMARK'->1
+msgid "<strong>Reply</strong> from %1$s in bookmarked topic:"
+msgstr "<strong>תגובה</strong> מאת %1$s בנושא שסימנת כמועדף:"
+
+#: $lang->'NOTIFICATION_FORUM'
+msgid "<em>Forum:</em> %1$s"
+msgstr "<em>פורום:</em> %1$s"
+
+#: $lang->'NOTIFICATION_GROUP_REQUEST'
+msgid "<strong>Group request</strong> from %1$s to join the group %2$s."
+msgstr "<strong>בקשת קבוצה</strong> מ-%1$s להצטרף לקבוצה %2$s."
+
+#: $lang->'NOTIFICATION_GROUP_REQUEST_APPROVED'
+msgid "<strong>Group request approved</strong> to join the group %1$s."
+msgstr "<strong>בקשת קבוצה אושרה</strong> להצטרף לקבוצה %1$s."
+
+#: $lang->'NOTIFICATION_METHOD_INVALID'
+msgid "The method \"%s\" does not refer to a valid notification method."
+msgstr ""
+
+#: $lang->'NOTIFICATION_PM'
+msgid "<strong>Private Message</strong> from %1$s:"
+msgstr "<strong>הודעה פרטית</strong> מאת %1$s:"
+
+#: $lang->'NOTIFICATION_POST'->1
+msgid "<strong>Reply</strong> from %1$s in topic:"
+msgstr "<strong>תגובה</strong> מאת %1$s בנושא:"
+
+#: $lang->'NOTIFICATION_POST_APPROVED'
+msgid "<strong>Post approved</strong>:"
+msgstr "<strong>הודעה אושרה</strong>:"
+
+#: $lang->'NOTIFICATION_POST_DISAPPROVED'
+msgid "<strong>Post disapproved</strong>:"
+msgstr "<strong>הודעה לא אושרה</strong>:"
+
+#: $lang->'NOTIFICATION_POST_IN_QUEUE'
+msgid "<strong>Post approval</strong> request by %1$s:"
+msgstr "<strong>בקשת אישור הודעה</strong> על ידי %1$s:"
+
+#: $lang->'NOTIFICATION_QUOTE'->1
+msgid "<strong>Quoted</strong> by %1$s in:"
+msgstr "<strong>צוטט</strong> על ידי %1$s בתוך:"
+
+#: $lang->'NOTIFICATION_REFERENCE'
+msgid "\"%1$s\""
+msgstr "\"%1$s\""
+
+#: $lang->'NOTIFICATION_REASON'
+msgid "<em>Reason:</em> %1$s."
+msgstr "<em>סיבה:</em> %1$s."
+
+#: $lang->'NOTIFICATION_REPORT_PM'
+msgid "<strong>Private Message reported</strong> by %1$s:"
+msgstr "<strong>ההודעה הפרטית דווחה</strong> by %1$s:"
+
+#: $lang->'NOTIFICATION_REPORT_POST'
+msgid "<strong>Post reported</strong> by %1$s:"
+msgstr "<strong>ההודעה דווחה</strong> על ידי %1$s:"
+
+#: $lang->'NOTIFICATION_REPORT_CLOSED'
+msgid "<strong>Report closed</strong> by %1$s for:"
+msgstr "<strong>הדיווח נסגר</strong> על ידי %1$s עבור:"
+
+#: $lang->'NOTIFICATION_TOPIC'
+msgid "<strong>New topic</strong> by %1$s:"
+msgstr "<strong>נושא חדש</strong> על ידי %1$s:"
+
+#: $lang->'NOTIFICATION_TOPIC_APPROVED'
+msgid "<strong>Topic approved</strong>:"
+msgstr "<strong>הנושא אושר</strong>:"
+
+#: $lang->'NOTIFICATION_TOPIC_DISAPPROVED'
+msgid "<strong>Topic disapproved</strong>:"
+msgstr "<strong>הנושא לא אושר</strong>:"
+
+#: $lang->'NOTIFICATION_TOPIC_IN_QUEUE'
+msgid "<strong>Topic approval</strong> request by %1$s:"
+msgstr "<strong>בקשה לאישור נושא</strong> על ידי %1$s:"
+
+#: $lang->'NOTIFICATION_TYPE_NOT_EXIST'
+msgid "The notification type \"%s\" is missing from the file system."
+msgstr "סוג ההתראה \"%s\" חסר במערכת הקבצים."
+
+#: $lang->'NOTIFICATION_ADMIN_ACTIVATE_USER'
+msgid ""
+"<strong>Activation required</strong> for deactivated or newly registered "
+"user: “%1$s”"
+msgstr ""
+"<strong>הפעלה נדרשת</strong> למשתמשים לא פעילים או שנרשמו לאחרונה: “%1$s”"
+
+#. // Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+#: $lang->'NOTIFICATION_MANY_OTHERS'
+msgid "others"
+msgstr "אחרים"
+
+#: $lang->'NOTIFICATION_X_OTHERS'->2
+msgid "%d others"
+msgstr "%d אחרים"
+
+#: $lang->'NOTIFY_ADMIN'
+msgid "Please notify the board administrator or webmaster."
+msgstr "אנא הודע למנהל הראשי של המערכת או למנהל האתר."
+
+#: $lang->'NOTIFY_ADMIN_EMAIL'
+msgid ""
+"Please notify the board administrator or webmaster: <a href=\"mailto:%1$s\""
+">%1$s</a>"
+msgstr ""
+"אנא הודע למנהל הראשי של המערכת או למנהל האתר: <a href=\"mailto:%1$s\""
+">%1$s</a>"
+
+#: $lang->'NO_ACCESS_ATTACHMENT'
+msgid "You are not allowed to access this file."
+msgstr "אינך מורשה לגשת לקובץ זה."
+
+#: $lang->'NO_ACTION'
+msgid "No action specified."
+msgstr "לא צוינה פעולה."
+
+#: $lang->'NO_ADMINISTRATORS'
+msgid "There are no administrators."
+msgstr "לא קיימים מנהלים ראשיים."
+
+#: $lang->'NO_AUTH_ADMIN'
+msgid ""
+"Access to the Administration Control Panel is not allowed as you do not have "
+"administrative permissions."
+msgstr "הגישה ללוח הבקרה למנהל הראשי אסורה מפני שאין לך את הרשאות הניהול הראשי."
+
+#: $lang->'NO_AUTH_ADMIN_USER_DIFFER'
+msgid "You are not able to re-authenticate as a different user."
+msgstr "אתה לא יכול להתאמת מחדש בתור משתמש אחר."
+
+#: $lang->'NO_AUTH_OPERATION'
+msgid "You do not have the necessary permissions to complete this operation."
+msgstr "אין לך את ההרשאות המתאימות להשלמת פעולה זו."
+
+#: $lang->'NO_AVATARS'
+msgid "No avatars currently available"
+msgstr "אין סמלים אישיים זמינים כרגע"
+
+#: $lang->'NO_CONNECT_TO_SMTP_HOST'
+msgid "Could not connect to smtp host : %1$s : %2$s"
+msgstr "לא ניתן להתחבר לשרת smtp : %1$s : %2$s"
+
+#: $lang->'NO_BIRTHDAYS'
+msgid "No birthdays today"
+msgstr "אף משתמש לא חוגג יום הולדת היום"
+
+#: $lang->'NO_EMAIL_MESSAGE'
+msgid "Email message was blank."
+msgstr "הודעת הדואר האלקטרוני ריקה."
+
+#: $lang->'NO_EMAIL_RESPONSE_CODE'
+msgid "Could not get mail server response codes."
+msgstr "לא ניתן לקבל את תשובת שרת הדואר."
+
+#: $lang->'NO_EMAIL_SUBJECT'
+msgid "No email subject specified."
+msgstr "לא צוינה כותרת הודעת הדואר האלקטרוני."
+
+#: $lang->'NO_FORUM'
+msgid "The forum you selected does not exist."
+msgstr "הפורום שבחרת לא קיים."
+
+#: $lang->'NO_FORUMS'
+msgid "This board has no forums."
+msgstr "במערכת זו אין פורומים."
+
+#: $lang->'NO_GROUP'
+msgid "The requested usergroup does not exist."
+msgstr "קבוצת המשתמשים שהתבקשה אינה קיימת."
+
+#: $lang->'NO_GROUP_MEMBERS'
+msgid "This group currently has no members."
+msgstr "לקבוצה זו אין כרגע חברים."
+
+#: $lang->'NO_IPS_DEFINED'
+msgid "No IP addresses or hostnames defined"
+msgstr "אין כתובות IP או שמות שרתים מוגדרים"
+
+#: $lang->'NO_MEMBERS'
+msgid "No members found for this search criterion."
+msgstr "לא נמצאו משתמשים לאפשרות חיפוש זו."
+
+#: $lang->'NO_MESSAGES'
+msgid "No messages"
+msgstr "אין הודעות"
+
+#: $lang->'NO_MODE'
+msgid "No mode specified."
+msgstr "אין מצב מסוים."
+
+#: $lang->'NO_MODERATORS'
+msgid "There are no moderators."
+msgstr "לא קיימים מנהלים"
+
+#: $lang->'NO_NEW_MESSAGES'
+msgid "No new messages"
+msgstr "אין הודעות חדשות"
+
+#. Not used anymore
+#: $lang->'NO_NEW_POSTS'
+msgid "No new posts"
+msgstr "אין הודעות חדשות"
+
+#: $lang->'NO_ONLINE_USERS'
+msgid "No registered users"
+msgstr "אין משתמשים רשומים"
+
+#: $lang->'NO_POSTS'
+msgid "No posts"
+msgstr "אין הודעות"
+
+#: $lang->'NO_POSTS_TIME_FRAME'
+msgid "No posts exist inside this topic for the selected time frame."
+msgstr "אין הודעות קיימות בנושא זה למסגרת הזמן שנבחרה."
+
+#: $lang->'NO_FEED_ENABLED'
+msgid "Feeds are not available on this board."
+msgstr "הזנות לא זמינות במערכת זו."
+
+#: $lang->'NO_FEED'
+msgid "The requested feed is not available."
+msgstr "ההזנה שביקשת לא זמינה."
+
+#: $lang->'NO_STYLE_DATA'
+msgid "Could not get style data"
+msgstr "לא ניתן למצוא מידע לעיצוב"
+
+#. Used for posts having no subject defined but displayed within management pages.
+#: $lang->'NO_SUBJECT'
+msgid "No subject specified"
+msgstr "לא צוינה כותרת"
+
+#: $lang->'NO_SUCH_SEARCH_MODULE'
+msgid "The specified search backend doesn’t exist."
+msgstr "שיטת החיפוש שצוינה אינה קיימת."
+
+#: $lang->'NO_SUPPORTED_AUTH_METHODS'
+msgid "No supported authentication methods."
+msgstr "אין שיטות אימות נתמכות."
+
+#: $lang->'NO_TOPIC'
+msgid "The requested topic does not exist."
+msgstr "הנושא המבוקש לא קיים."
+
+#: $lang->'NO_TOPIC_FORUM'
+msgid "The topic or forum no longer exists."
+msgstr "הנושא או הפורום לא קיימים יותר."
+
+#: $lang->'NO_TOPICS'
+msgid "There are no topics or posts in this forum."
+msgstr "אין נושאים או הודעות בפורום זה."
+
+#: $lang->'NO_TOPICS_TIME_FRAME'
+msgid "No topics exist inside this forum for the selected time frame."
+msgstr "אין נושאים קיימים בפורום זה למסגרת הזמן שנבחרה."
+
+#: $lang->'NO_UNREAD_POSTS'
+msgid "No unread posts"
+msgstr "אין הודעות שלא נקראו"
+
+#: $lang->'NO_UPLOAD_FORM_FOUND'
+msgid "Upload initiated but no valid file upload form found."
+msgstr "ההעלאה הותחלה אבל לא נמצא טופס העלאת קובץ חוקי."
+
+#: $lang->'NO_USER'
+msgid "The requested user does not exist."
+msgstr "המשתמש המבוקש לא נמצא."
+
+#: $lang->'NO_USERS'
+msgid "The requested users do not exist."
+msgstr "המשתמשים המבוקשים לא נמצאו."
+
+#: $lang->'NO_USER_SPECIFIED'
+msgid "No username was specified."
+msgstr "לא צוין שם משתמש."
+
+#. // Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
+#: $lang->'NUM_ATTACHMENTS'->1
+msgid "%d attachment"
+msgstr "קובץ מצורף אחד"
+
+#: $lang->'NUM_ATTACHMENTS'->2
+msgid "%d attachments"
+msgstr "%d קבצים מצורפים"
+
+#. 0
+#: $lang->'NUM_POSTS_IN_QUEUE'->0
+msgid "No posts in queue"
+msgstr "אין הודעות ממתינות"
+
+#. 1
+#: $lang->'NUM_POSTS_IN_QUEUE'->1
+msgid "1 post in queue"
+msgstr "הודעה ממתינה אחת"
+
+#. 2+
+#: $lang->'NUM_POSTS_IN_QUEUE'->2
+msgid "%d posts in queue"
+msgstr "%d הודעות ממתינות"
+
+#: $lang->'OCCUPATION'
+msgid "Occupation"
+msgstr "מקצוע"
+
+#: $lang->'OFFLINE'
+msgid "Offline"
+msgstr "מנותק"
+
+#: $lang->'ONLINE'
+msgid "Online"
+msgstr "מחובר"
+
+#: $lang->'ONLINE_BUDDIES'
+msgid "Online friends"
+msgstr "חברים מחוברים"
+
+#. // "... :: x registered and y hidden"
+#: $lang->'ONLINE_USERS_TOTAL'->1
+msgid "In total there is <strong>%1$d</strong> user online :: %2$s and %3$s"
+msgstr "בסך הכול יש <strong>משתמש אחד</strong> המחובר כעת :: %2$s ו־%3$s"
+
+#: $lang->'ONLINE_USERS_TOTAL'->2
+msgid "In total there are <strong>%1$d</strong> users online :: %2$s and %3$s"
+msgstr "בסך הכול יש <strong>%1$d</strong> משתמשים מחוברים :: %2$s ו־%3$s"
+
+#. // "... :: x registered, y hidden and z guests"
+#: $lang->'ONLINE_USERS_TOTAL_GUESTS'->1
+msgid ""
+"In total there is <strong>%1$d</strong> user online :: %2$s, %3$s and %4$s"
+msgstr "בסך הכול יש <strong>משתמש אחד</strong> המחובר כעת :: %2$s, %3$s ו־%4$s"
+
+#: $lang->'ONLINE_USERS_TOTAL_GUESTS'->2
+msgid ""
+"In total there are <strong>%1$d</strong> users online :: %2$s, %3$s and %4$s"
+msgstr "בסך הכול יש <strong>%1$d</strong> משתמשים מחוברים :: %2$s, %3$s ו־%4$s"
+
+#: $lang->'OPTIONS'
+msgid "Options"
+msgstr "אפשרויות"
+
+#: $lang->'PAGE_OF'
+msgid "Page <strong>%1$d</strong> of <strong>%2$d</strong>"
+msgstr "עמוד <strong>%1$d</strong> מתוך <strong>%2$d</strong>"
+
+#: $lang->'PAGE_TITLE_NUMBER'
+msgid "Page %s"
+msgstr "עמוד %s"
+
+#: $lang->'PASSWORD'
+msgid "Password"
+msgstr "ססמה"
+
+#: $lang->'PIXEL'
+msgid "px"
+msgstr "פיקסלים"
+
+#: $lang->'PIXELS'->1
+msgid "%d pixel"
+msgstr "פיקסל"
+
+#: $lang->'PIXELS'->2
+msgid "%d pixels"
+msgstr "%d פיקסלים"
+
+#: $lang->'PLEASE_WAIT'
+msgid "Please wait."
+msgstr "המתן בבקשה."
+
+#: $lang->'PM'
+msgctxt "$lang->'PM'"
+msgid "PM"
+msgstr "הודעה פרטית"
+
+#: $lang->'PM_REPORTED'
+msgctxt "$lang->'PM_REPORTED'"
+msgid "Click to view report"
+msgstr "לחץ כאן על מנת לצפות בדיווח"
+
+#: $lang->'POSTING_MESSAGE'
+msgid "Posting message in %s"
+msgstr "מפרסם הודעה ב%s"
+
+#: $lang->'POSTING_PRIVATE_MESSAGE'
+msgid "Composing private message"
+msgstr "כותב הודעה פרטית"
+
+#: $lang->'POST'
+msgid "Post"
+msgstr "הודעה"
+
+#: $lang->'POST_ANNOUNCEMENT'
+msgid "Announce"
+msgstr "הכרזה"
+
+#: $lang->'POST_STICKY'
+msgid "Sticky"
+msgstr "דביק"
+
+#: $lang->'POSTED'
+msgid "Posted"
+msgstr "פורסם"
+
+#: $lang->'POSTED_IN_FORUM'
+msgctxt "$lang->'POSTED_IN_FORUM'"
+msgid "in"
+msgstr "ב"
+
+#: $lang->'POSTED_ON_DATE'
+msgid "on"
+msgstr "ב"
+
+#: $lang->'POSTS'
+msgctxt "$lang->'POSTS'"
+msgid "Posts"
+msgstr "הודעות"
+
+#: $lang->'POSTS_UNAPPROVED'
+msgid "At least one post in this topic has not been approved."
+msgstr "לפחות הודעה אחת בנושא זה לא אושרה."
+
+#: $lang->'POSTS_UNAPPROVED_FORUM'
+msgid "At least one post in this forum has not been approved."
+msgstr "לפחות הודעה אחת בפורום זה לא אושרה."
+
+#: $lang->'POST_BY_AUTHOR'
+msgid "by"
+msgstr "על ידי"
+
+#: $lang->'POST_BY_FOE'
+msgid ""
+"<strong>%1$s</strong>, who is currently on your ignore list, made this post."
+msgstr ""
+"הודעה זו פורסמה על ידי <strong>%1$s</strong>, שכרגע ברשימת ההתעלמות שלך."
+
+#: $lang->'POST_DISPLAY'
+msgid "%1$sDisplay this post%2$s."
+msgstr "%1$sהצג הודעה זו%2$s."
+
+#: $lang->'POST_DAY'
+msgid "%.2f posts per day"
+msgstr "%.2f הודעות ליום"
+
+#: $lang->'POST_DELETED_ACTION'
+msgid "Deleted post:"
+msgstr "הודעה שנמחקה:"
+
+#: $lang->'POST_DELETED'
+msgid "This post has been deleted."
+msgstr "ההודעה נמחקה."
+
+#: $lang->'POST_DELETED_BY'
+msgid ""
+"<strong>%2$s</strong> deleted the post by <strong>%1$s</strong> on %3$s."
+msgstr ""
+"הפוסט מאת <strong>%1$s</strong> נמחק על ידי <strong>%2$s</strong> בתאריך "
+"%3$s."
+
+#: $lang->'POST_DELETED_BY_REASON'
+msgid ""
+"<strong>%2$s</strong> deleted the post by <strong>%1$s</strong> on %3$s for "
+"the following reason: %4$s"
+msgstr ""
+"<strong>%2$s</strong> מחק את הפוסט של <strong>%1$s</strong> בתאריך %3$s "
+"מהסיבה הבאה: %4$s"
+
+#: $lang->'POST_DETAILS'
+msgid "Post details"
+msgstr "פרטי ההודעה"
+
+#: $lang->'POST_NEW_TOPIC'
+msgid "Post new topic"
+msgstr "פרסם נושא חדש"
+
+#: $lang->'POST_PCT'
+msgid "%.2f%% of all posts"
+msgstr "%.2f%% מכל ההודעות"
+
+#: $lang->'POST_PCT_ACTIVE'
+msgid "%.2f%% of user’s posts"
+msgstr "%.2f%% מההודעות של המשתמש"
+
+#: $lang->'POST_PCT_ACTIVE_OWN'
+msgid "%.2f%% of your posts"
+msgstr "%.2f%% מההודעות שלך"
+
+#: $lang->'POST_REPLY'
+msgid "Post a reply"
+msgstr "פרסם תגובה"
+
+#: $lang->'POST_REPORTED'
+msgctxt "$lang->'POST_REPORTED'"
+msgid "Click to view report"
+msgstr "לחץ על מנת לצפות בדיווח"
+
+#: $lang->'POST_SUBJECT'
+msgid "Post subject"
+msgstr "נושא ההודעה"
+
+#: $lang->'POST_TIME'
+msgid "Post time"
+msgstr "זמן ההודעה"
+
+#: $lang->'POST_TOPIC'
+msgid "Post a new topic"
+msgstr "פרסם נושא חדש"
+
+#: $lang->'POST_UNAPPROVED_ACTION'
+msgid "Post awaiting approval:"
+msgstr "הודעה ממתינה לאישור:"
+
+#: $lang->'POST_UNAPPROVED'
+msgid "This post has not been approved."
+msgstr "הודעה זו לא אושרה."
+
+#: $lang->'POWERED_BY'
+msgid "Powered by %s"
+msgstr "מופעל על־ידי %s"
+
+#: $lang->'PREVIEW'
+msgid "Preview"
+msgstr "תצוגה מקדימה"
+
+#. Used in pagination
+#: $lang->'PREVIOUS'
+msgctxt "$lang->'PREVIOUS'"
+msgid "Previous"
+msgstr "הקודם"
+
+#: $lang->'PREVIOUS_STEP'
+msgctxt "$lang->'PREVIOUS_STEP'"
+msgid "Previous"
+msgstr "הקודם"
+
+#: $lang->'PRIVACY'
+msgid "Privacy policy"
+msgstr "מדיניות הפרטיות"
+
+#: $lang->'PRIVATE_MESSAGE'
+msgid "Private message"
+msgstr "הודעה פרטית"
+
+#: $lang->'PRIVATE_MESSAGES'
+msgid "Private messages"
+msgstr "הודעות פרטיות"
+
+#: $lang->'PRIVATE_MESSAGING'
+msgid "Private messaging"
+msgstr "התכתבות פרטית"
+
+#: $lang->'PROFILE'
+msgid "User Control Panel"
+msgstr "לוח בקרה למשתמש"
+
+#: $lang->'QUICK_LINKS'
+msgid "Quick links"
+msgstr "קישורים מהירים"
+
+#: $lang->'RANK'
+msgctxt "$lang->'RANK'"
+msgid "Rank"
+msgstr "דרגה"
+
+#: $lang->'READING_FORUM'
+msgid "Viewing topics in %s"
+msgstr "צופה בנושאים ב%s"
+
+#: $lang->'READING_GLOBAL_ANNOUNCE'
+msgid "Reading global announcement"
+msgstr "קורא הכרזה גלובלית"
+
+#: $lang->'READING_LINK'
+msgid "Following forum link %s"
+msgstr "עובר בקישור לפורום %s"
+
+#: $lang->'READING_TOPIC'
+msgid "Reading topic in %s"
+msgstr "קורא נושא ב%s"
+
+#: $lang->'READ_PROFILE'
+msgid "Profile"
+msgstr "פרופיל אישי"
+
+#: $lang->'REASON'
+msgid "Reason"
+msgstr "סיבה"
+
+#: $lang->'RECORD_ONLINE_USERS'
+msgid "Most users ever online was <strong>%1$s</strong> on %2$s"
+msgstr "מספר הגולשים הרב ביותר אי-פעם הוא <strong>%1$s</strong> ב־%2$s"
+
+#: $lang->'REDIRECT'
+msgid "Redirect"
+msgstr "העברה"
+
+#: $lang->'REDIRECTS'
+msgid "Total redirects"
+msgstr "סך הכול העברות"
+
+#: $lang->'REGISTER'
+msgid "Register"
+msgstr "הרשמה"
+
+#: $lang->'REGISTERED_USERS'
+msgid "Registered users:"
+msgstr "משתמשים רשומים:"
+
+#. // "... and 2 hidden users online"
+#: $lang->'REG_USERS_ONLINE'->1
+msgid "There is %1$d registered user and %2$s online"
+msgstr "יש משתמש אחד רשום ו־%2$s מחובר"
+
+#: $lang->'REG_USERS_ONLINE'->2
+msgid "There are %1$d registered users and %2$s online"
+msgstr "יש %1$d משתמשים רשומים ו־%2$s מחוברים"
+
+#: $lang->'REG_USERS_TOTAL'->1
+msgctxt "$lang->'REG_USERS_TOTAL'->1"
+msgid "%d registered"
+msgstr "משתמש רשום אחד"
+
+#: $lang->'REG_USERS_TOTAL'->2
+msgctxt "$lang->'REG_USERS_TOTAL'->2"
+msgid "%d registered"
+msgstr "%d משתמשים רשומים"
+
+#: $lang->'REMOVE'
+msgid "Remove"
+msgstr "הסר"
+
+#: $lang->'REMOVE_INSTALL'
+msgid ""
+"Please delete, move or rename the install directory before you use your "
+"board. If this directory is still present, only the Administration Control "
+"Panel (ACP) will be accessible."
+msgstr ""
+"אנא מחק, העבר או שנה את שם התיקייה install לפני שאתה משתמש במערכת. אם "
+"התיקייה עדיין קיימת, לוח הבקרה למנהל הראשי בלבד יהיה נגיש."
+
+#: $lang->'REPLIES'
+msgid "Replies"
+msgstr "תגובות"
+
+#: $lang->'REPLY_WITH_QUOTE'
+msgid "Reply with quote"
+msgstr "הגב עם ציטוט"
+
+#: $lang->'REPLYING_GLOBAL_ANNOUNCE'
+msgid "Replying to global announcement"
+msgstr "מגיב להכרזה גלובלית"
+
+#: $lang->'REPLYING_MESSAGE'
+msgid "Replying to message in %s"
+msgstr "מגיב להודעה ב%s"
+
+#: $lang->'REPORT_BY'
+msgid "Report by"
+msgstr "דווח על ידי"
+
+#: $lang->'REPORT_POST'
+msgid "Report this post"
+msgstr "דווח על הודעה זו"
+
+#: $lang->'REPORTING_POST'
+msgid "Reporting post"
+msgstr "מדווח על הודעה"
+
+#: $lang->'RESEND_ACTIVATION'
+msgid "Resend activation email"
+msgstr "שלח מחדש הפעלה לדואר אלקטרוני"
+
+#: $lang->'RESET'
+msgid "Reset"
+msgstr "איפוס טופס"
+
+#: $lang->'RESTORE_PERMISSIONS'
+msgid "Restore permissions"
+msgstr "שחזר הרשאות"
+
+#: $lang->'RETURN_INDEX'
+msgid "%sReturn to the index page%s"
+msgstr "%sחזור לעמוד הראשי%s"
+
+#: $lang->'RETURN_FORUM'
+msgid "%sReturn to the forum last visited%s"
+msgstr "%sחזור לפורום בו ביקרת לאחרונה%s"
+
+#: $lang->'RETURN_PAGE'
+msgid "%sReturn to the previous page%s"
+msgstr "%sחזור לעמוד הקודם%s"
+
+#: $lang->'RETURN_TOPIC'
+msgid "%sReturn to the topic last visited%s"
+msgstr "%sחזור לנושא שבו צפית%s"
+
+#: $lang->'RETURN_TO'
+msgid "Return to “%s”"
+msgstr "חזור אל “%s”"
+
+#: $lang->'RETURN_TO_INDEX'
+msgid "Return to Board Index"
+msgstr "חזור לעמוד הראשי של הפורום"
+
+#: $lang->'FEED'
+msgid "Feed"
+msgstr "הזנות"
+
+#: $lang->'FEED_NEWS'
+msgid "News"
+msgstr "חדשות"
+
+#: $lang->'FEED_TOPICS_ACTIVE'
+msgid "Active Topics"
+msgstr "נושאים פעילים"
+
+#: $lang->'FEED_TOPICS_NEW'
+msgid "New Topics"
+msgstr "נושאים חדשים"
+
+#: $lang->'RULES_ATTACH_CAN'
+msgid "You <strong>can</strong> post attachments in this forum"
+msgstr "<strong>ניתן</strong> לצרף קבצים בפורום זה"
+
+#: $lang->'RULES_ATTACH_CANNOT'
+msgid "You <strong>cannot</strong> post attachments in this forum"
+msgstr "<strong>לא ניתן</strong> לצרף קבצים בפורום זה"
+
+#: $lang->'RULES_DELETE_CAN'
+msgid "You <strong>can</strong> delete your posts in this forum"
+msgstr "<strong>ניתן</strong> למחוק את הודעותיך בפורום זה"
+
+#: $lang->'RULES_DELETE_CANNOT'
+msgid "You <strong>cannot</strong> delete your posts in this forum"
+msgstr "<strong>לא ניתן</strong> למחוק את הודעותיך בפורום זה"
+
+#: $lang->'RULES_DOWNLOAD_CAN'
+msgid "You <strong>can</strong> download attachments in this forum"
+msgstr "<strong>ניתן</strong> להוריד קבצים שצורפו בפורום זה"
+
+#: $lang->'RULES_DOWNLOAD_CANNOT'
+msgid "You <strong>cannot</strong> download attachments in this forum"
+msgstr "<strong>לא ניתן</strong> להוריד קבצים שצורפו בפורום זה"
+
+#: $lang->'RULES_EDIT_CAN'
+msgid "You <strong>can</strong> edit your posts in this forum"
+msgstr "<strong>ניתן</strong> לערוך את ההודעות שלך בפורום זה"
+
+#: $lang->'RULES_EDIT_CANNOT'
+msgid "You <strong>cannot</strong> edit your posts in this forum"
+msgstr "<strong>לא ניתן</strong> לערוך את ההודעות שלך בפורום זה"
+
+#: $lang->'RULES_LOCK_CAN'
+msgid "You <strong>can</strong> lock your topics in this forum"
+msgstr "<strong>ניתן</strong> לנעול את ההודעות שלך בפורום זה"
+
+#: $lang->'RULES_LOCK_CANNOT'
+msgid "You <strong>cannot</strong> lock your topics in this forum"
+msgstr "<strong>לא ניתן</strong> לנעול את ההודעות שלך בפורום זה"
+
+#: $lang->'RULES_POST_CAN'
+msgid "You <strong>can</strong> post new topics in this forum"
+msgstr "<strong>ניתן</strong> לכתוב נושאים חדשים בפורום זה"
+
+#: $lang->'RULES_POST_CANNOT'
+msgid "You <strong>cannot</strong> post new topics in this forum"
+msgstr "<strong>לא ניתן</strong> לכתוב נושאים חדשים בפורום זה"
+
+#: $lang->'RULES_REPLY_CAN'
+msgid "You <strong>can</strong> reply to topics in this forum"
+msgstr "<strong>ניתן</strong> להגיב לנושאים קיימים בפורום זה"
+
+#: $lang->'RULES_REPLY_CANNOT'
+msgid "You <strong>cannot</strong> reply to topics in this forum"
+msgstr "<strong>לא ניתן</strong> להגיב לנושאים קיימים בפורום זה"
+
+#: $lang->'RULES_VOTE_CAN'
+msgid "You <strong>can</strong> vote in polls in this forum"
+msgstr "<strong>ניתן</strong> להצביע בסקרים בפורום זה"
+
+#: $lang->'RULES_VOTE_CANNOT'
+msgid "You <strong>cannot</strong> vote in polls in this forum"
+msgstr "<strong>לא ניתן</strong> להצביע בסקרים בפורום זה"
+
+#: $lang->'SEARCH'
+msgid "Search"
+msgstr "חיפוש"
+
+#: $lang->'SEARCH_MINI'
+msgid "Search…"
+msgstr "חיפוש…"
+
+#: $lang->'SEARCH_ADV'
+msgid "Advanced search"
+msgstr "חיפוש מתקדם"
+
+#: $lang->'SEARCH_ADV_EXPLAIN'
+msgid "View the advanced search options"
+msgstr "צפה באפשרויות החיפוש המתקדם"
+
+#: $lang->'SEARCH_KEYWORDS'
+msgid "Search for keywords"
+msgstr "חיפוש מילות מפתח"
+
+#: $lang->'SEARCHING_FORUMS'
+msgid "Searching forums"
+msgstr "מחפש בפורומים"
+
+#: $lang->'SEARCH_ACTIVE_TOPICS'
+msgid "Active topics"
+msgstr "נושאים פעילים"
+
+#: $lang->'SEARCH_FOR'
+msgid "Search for"
+msgstr "חפש"
+
+#: $lang->'SEARCH_FORUM'
+msgid "Search this forum…"
+msgstr "חפש בפורום הזה…"
+
+#: $lang->'SEARCH_NEW'
+msgctxt "$lang->'SEARCH_NEW'"
+msgid "New posts"
+msgstr "הודעות חדשות"
+
+#: $lang->'SEARCH_POSTS_BY'
+msgid "Search posts by"
+msgstr "חפש הודעות שנכתבו ע\"י"
+
+#: $lang->'SEARCH_SELF'
+msgid "Your posts"
+msgstr "הודעותיך"
+
+#: $lang->'SEARCH_TOPIC'
+msgid "Search this topic…"
+msgstr "חפש בתוך הנושא הזה…"
+
+#: $lang->'SEARCH_UNANSWERED'
+msgid "Unanswered topics"
+msgstr "נושאים ללא תגובות"
+
+#: $lang->'SEARCH_UNREAD'
+msgctxt "$lang->'SEARCH_UNREAD'"
+msgid "Unread posts"
+msgstr "הודעות שלא נקראו"
+
+#: $lang->'SEARCH_USER_POSTS'
+msgid "Search user’s posts"
+msgstr "חפש את הודעות המשתמש"
+
+#: $lang->'SECONDS'
+msgid "Seconds"
+msgstr "שניות"
+
+#: $lang->'SEE_ALL'
+msgid "See All"
+msgstr "הצג הכל"
+
+#: $lang->'SELECT'
+msgid "Select"
+msgstr "בחר"
+
+#: $lang->'SELECT_ALL_CODE'
+msgid "Select all"
+msgstr "בחר הכל"
+
+#: $lang->'SELECT_DESTINATION_FORUM'
+msgid "Please select a destination forum"
+msgstr "אנא בחר פורום יעד"
+
+#: $lang->'SELECT_FORUM'
+msgid "Select a forum"
+msgstr "בחר פורום"
+
+#. Used for submit buttons
+#: $lang->'SEND_EMAIL'
+msgid "Send email"
+msgstr "שלח דואר אלקטרוני"
+
+#: $lang->'SEND_EMAIL_USER'
+msgid "Send email to %s"
+msgstr "שלח דואר אלקטרוני אל %s"
+
+#: $lang->'SEND_PRIVATE_MESSAGE'
+msgid "Send private message"
+msgstr "שלח הודעה פרטית"
+
+#: $lang->'SETTINGS'
+msgid "Settings"
+msgstr "הגדרות"
+
+#: $lang->'SIGNATURE'
+msgid "Signature"
+msgstr "חתימה"
+
+#: $lang->'SKIP'
+msgid "Skip to content"
+msgstr "דלג לתוכן"
+
+#: $lang->'SKYPE'
+msgid "Skype"
+msgstr "Skype"
+
+#: $lang->'SMTP_NO_AUTH_SUPPORT'
+msgid "SMTP server does not support authentication."
+msgstr "שרת ה־SMTP אינו תומך באימות."
+
+#: $lang->'SORRY_AUTH_READ'
+msgid "You are not authorised to read this forum."
+msgstr "אינך מורשה לקרוא בפורום זה."
+
+#: $lang->'SORRY_AUTH_READ_TOPIC'
+msgid "You are not authorised to read this topic."
+msgstr ""
+
+#: $lang->'SORRY_AUTH_VIEW_ATTACH'
+msgid "You are not authorised to download this attachment."
+msgstr "אינך מורשה להוריד קובץ מצורף זה."
+
+#: $lang->'SORT_BY'
+msgid "Sort by"
+msgstr "מיין לפי"
+
+#: $lang->'SORT_DIRECTION'
+msgid "Direction"
+msgstr ""
+
+#: $lang->'SORT_JOINED'
+msgid "Joined date"
+msgstr "תאריך הצטרפות"
+
+#: $lang->'SORT_LOCATION'
+msgctxt "$lang->'SORT_LOCATION'"
+msgid "Location"
+msgstr "מיקום"
+
+#: $lang->'SORT_OPTIONS'
+msgid "Display and sorting options"
+msgstr ""
+
+#: $lang->'SORT_RANK'
+msgctxt "$lang->'SORT_RANK'"
+msgid "Rank"
+msgstr "דירוג"
+
+#: $lang->'SORT_POSTS'
+msgctxt "$lang->'SORT_POSTS'"
+msgid "Posts"
+msgstr "הודעות"
+
+#: $lang->'SORT_TOPIC_TITLE'
+msgctxt "$lang->'SORT_TOPIC_TITLE'"
+msgid "Topic title"
+msgstr "כותרת הנושא"
+
+#: $lang->'SORT_USERNAME'
+msgctxt "$lang->'SORT_USERNAME'"
+msgid "Username"
+msgstr "שם משתמש"
+
+#: $lang->'SPLIT_TOPIC'
+msgid "Split topic"
+msgstr "פצל נושא"
+
+#: $lang->'SQL_ERROR_OCCURRED'
+msgid ""
+"An SQL error occurred while fetching this page. Please contact the %sBoard "
+"Administrator%s if this problem persists."
+msgstr ""
+"שגיאת SQL התרחשה בעת טעינת עמוד זה. צור קשר עם %sהמנהל הראשי של המערכת%s אם "
+"הבעיה ממשיכה."
+
+#: $lang->'STATISTICS'
+msgid "Statistics"
+msgstr "סטטיסטיקות"
+
+#: $lang->'START_WATCHING_FORUM'
+msgid "Subscribe forum"
+msgstr "הרשם לקבלת עדכונים מפורום זה"
+
+#: $lang->'START_WATCHING_TOPIC'
+msgid "Subscribe topic"
+msgstr "הרשם לקבלת עדכונים מנושא זה"
+
+#: $lang->'STOP_WATCHING_FORUM'
+msgid "Unsubscribe forum"
+msgstr "בטל הרשמתך מפורום זה"
+
+#: $lang->'STOP_WATCHING_TOPIC'
+msgid "Unsubscribe topic"
+msgstr "בטל הרשמתך מנושא זה"
+
+#: $lang->'STRING_LIST_MULTI'
+msgid "%1$s, and %2$s"
+msgstr "%1$s, ו־ %2$s"
+
+#: $lang->'STRING_LIST_SIMPLE'
+msgid "%1$s and %2$s"
+msgstr "%1$s ו־ %2$s"
+
+#: $lang->'SUBFORUM'
+msgid "Subforum"
+msgstr "תת פורום"
+
+#: $lang->'SUBFORUMS'
+msgid "Subforums"
+msgstr "תת פורומים"
+
+#: $lang->'SUBJECT'
+msgid "Subject"
+msgstr "נושא"
+
+#: $lang->'SUBMIT'
+msgid "Submit"
+msgstr "שלח"
+
+#: $lang->'TB'
+msgid "TB"
+msgstr "TB"
+
+#: $lang->'TERMS_USE'
+msgid "Terms of use"
+msgstr "תנאי שימוש"
+
+#: $lang->'TEST_CONNECTION'
+msgid "Test connection"
+msgstr "בדוק חיבור"
+
+#: $lang->'THE_TEAM'
+msgid "The team"
+msgstr "הצוות"
+
+#: $lang->'TIB'
+msgid "TiB"
+msgstr "TiB"
+
+#: $lang->'TIME'
+msgid "Time"
+msgstr "זמן"
+
+#: $lang->'TIMEOUT_PROCESSING_REQ'
+msgid "Request timed out."
+msgstr "עבר הזמן המוקצב לבקשה."
+
+#: $lang->'TOO_LARGE'
+msgid "The value you entered is too large."
+msgstr "הערך שהזנת גדול מדי."
+
+#: $lang->'TOO_LARGE_MAX_RECIPIENTS'
+msgid ""
+"The value of <strong>Maximum number of allowed recipients per private "
+"message</strong> setting you entered is too large."
+msgstr ""
+"הערך שהזנת ל<strong>מספר מרבי של נמענים מורשים לכל הודעה פרטית</strong> גדול "
+"מדי."
+
+#: $lang->'TOO_LONG'
+msgid "The value you entered is too long."
+msgstr "הערך שהזנת ארוך מדי."
+
+#: $lang->'TOO_LONG_CONFIRM_CODE'
+msgid "The confirm code you entered is too long."
+msgstr "קוד האישור שהזנת ארוך מדי."
+
+#: $lang->'TOO_LONG_DATEFORMAT'
+msgid "The date format you entered is too long."
+msgstr "תבנית התאריך שהזנת ארוכה מדי."
+
+#: $lang->'TOO_LONG_JABBER'
+msgid "The Jabber account name you entered is too long."
+msgstr "שם חשבון ה־Jabber שהזנת ארוך מדי."
+
+#: $lang->'TOO_LONG_NEW_PASSWORD'
+msgctxt "$lang->'TOO_LONG_NEW_PASSWORD'"
+msgid "The password you entered is too long."
+msgstr "הססמה שהזנת ארוכה מדי."
+
+#: $lang->'TOO_LONG_PASSWORD_CONFIRM'
+msgid "The password confirmation you entered is too long."
+msgstr "ססמת האישור שהזנת ארוכה מדי."
+
+#: $lang->'TOO_LONG_USER_PASSWORD'
+msgctxt "$lang->'TOO_LONG_USER_PASSWORD'"
+msgid "The password you entered is too long."
+msgstr "הססמה שהזנת ארוכה מדי."
+
+#: $lang->'TOO_LONG_USERNAME'
+msgid "The username you entered is too long."
+msgstr "שם המשתמש שהזנת ארוך מדי."
+
+#: $lang->'TOO_LONG_EMAIL'
+msgid "The email address you entered is too long."
+msgstr "כתובת הדואר האלקטרוני שהזנת ארוך מדי."
+
+#: $lang->'TOO_MANY_VOTE_OPTIONS'
+msgid "You have tried to vote for too many options."
+msgstr "ניסית להצביע ליותר מדי אפשרויות."
+
+#: $lang->'TOO_SHORT'
+msgid "The value you entered is too short."
+msgstr "הערך שהזנת קצר מדי."
+
+#: $lang->'TOO_SHORT_CONFIRM_CODE'
+msgid "The confirm code you entered is too short."
+msgstr "קוד האישור שהזנת קצר מדי."
+
+#: $lang->'TOO_SHORT_DATEFORMAT'
+msgid "The date format you entered is too short."
+msgstr "תבנית התאריך שהזנת קצרה מדי."
+
+#: $lang->'TOO_SHORT_JABBER'
+msgid "The Jabber account name you entered is too short."
+msgstr "שם חשבון ה־Jabber שהזנת קצר מדי."
+
+#: $lang->'TOO_SHORT_NEW_PASSWORD'
+msgctxt "$lang->'TOO_SHORT_NEW_PASSWORD'"
+msgid "The password you entered is too short."
+msgstr "הססמה שהזנת קצרה מדי."
+
+#: $lang->'TOO_SHORT_PASSWORD_CONFIRM'
+msgid "The password confirmation you entered is too short."
+msgstr "ססמת האישור שהזנת קצרה מדי."
+
+#: $lang->'TOO_SHORT_USER_PASSWORD'
+msgctxt "$lang->'TOO_SHORT_USER_PASSWORD'"
+msgid "The password you entered is too short."
+msgstr "הססמה שהזנת קצרה מדי."
+
+#: $lang->'TOO_SHORT_USERNAME'
+msgid "The username you entered is too short."
+msgstr "שם המשתמש שהזנת קצר מדי."
+
+#: $lang->'TOO_SHORT_EMAIL'
+msgid "The email address you entered is too short."
+msgstr "כתובת הדואר האלקטרוני שהזנת ארוכה מדי."
+
+#: $lang->'TOO_SHORT_EMAIL_CONFIRM'
+msgid "The email address confirmation you entered is too short."
+msgstr "כתובת הדואר האלקטרוני שהזנת קצרה מידי."
+
+#: $lang->'TOO_SMALL'
+msgid "The value you entered is too small."
+msgstr "הערך שהזנת קטן מדי."
+
+#: $lang->'TOO_SMALL_MAX_RECIPIENTS'
+msgid ""
+"The value of <strong>Maximum number of allowed recipients per private "
+"message</strong> setting you entered is too small."
+msgstr ""
+"הערך שהזנת ל<strong>מספר מרבי של נמענים מורשים לכל הודעה פרטית</strong> קטן "
+"מדי."
+
+#: $lang->'TOPIC'
+msgid "Topic"
+msgstr "נושא"
+
+#: $lang->'TOPICS'
+msgid "Topics"
+msgstr "נושאים"
+
+#: $lang->'TOPICS_UNAPPROVED'
+msgid "At least one topic in this forum has not been approved."
+msgstr "לפחות נושא אחד בפורום זה לא אושר."
+
+#: $lang->'TOPIC_ICON'
+msgid "Topic icon"
+msgstr "אייקון לנושא"
+
+#: $lang->'TOPIC_LOCKED'
+msgid "This topic is locked, you cannot edit posts or make further replies."
+msgstr "נושא זה נעול, אינך יכול לערוך הודעות או לבצע תגובות עתידיות."
+
+#: $lang->'TOPIC_LOCKED_SHORT'
+msgid "Topic locked"
+msgstr "נושא נעול"
+
+#: $lang->'TOPIC_MOVED'
+msgid "Moved topic"
+msgstr "נושא הועבר"
+
+#: $lang->'TOPIC_REVIEW'
+msgid "Topic review"
+msgstr "תקציר הנושא"
+
+#: $lang->'TOPIC_TITLE'
+msgctxt "$lang->'TOPIC_TITLE'"
+msgid "Topic title"
+msgstr "כותרת הנושא"
+
+#: $lang->'TOPIC_UNAPPROVED'
+msgid "This topic has not been approved."
+msgstr "נושא זה לא אושר."
+
+#: $lang->'TOPIC_DELETED'
+msgid "This topic has been deleted."
+msgstr "נושא זה נמחק."
+
+#: $lang->'TOTAL_ATTACHMENTS'
+msgid "Attachment(s)"
+msgstr "קבצים מצורפים"
+
+#: $lang->'TOTAL_LOGS'->1
+msgid "%d log"
+msgstr "פעולה %d"
+
+#: $lang->'TOTAL_LOGS'->2
+msgid "%d logs"
+msgstr "%d פעולות"
+
+#: $lang->'TOTAL_PMS'->1
+msgid "%d private message in total"
+msgstr "הודעה פרטית %d בסך הכל"
+
+#: $lang->'TOTAL_PMS'->2
+msgid "%d private messages in total"
+msgstr "%d הודעות פרטיות סך הכל"
+
+#: $lang->'TOPIC_POLL'
+msgid "This topic has a poll."
+msgstr "לנושא זה יש סקר."
+
+#: $lang->'TOTAL_POSTS'
+msgid "Total posts"
+msgstr "הודעות בסך הכל"
+
+#: $lang->'TOTAL_POSTS_COUNT'->2
+msgid "Total posts <strong>%d</strong>"
+msgstr "<strong>%d</strong> הודעות בסך הכל"
+
+#: $lang->'TOPIC_REPORTED'
+msgid "This topic has been reported"
+msgstr "נושא זה דווח"
+
+#: $lang->'TOTAL_TOPICS'->2
+msgid "Total topics <strong>%d</strong>"
+msgstr "<strong>%d</strong> נושאים בסך הכל"
+
+#: $lang->'TOTAL_USERS'->2
+msgid "Total members <strong>%d</strong>"
+msgstr "<strong>%d</strong> משתמשים בסך הכל"
+
+#: $lang->'TRACKED_PHP_ERROR'
+msgid "Tracked PHP errors: %s"
+msgstr "שגיאות PHP מעוקבות: %s"
+
+#: $lang->'TWITTER'
+msgctxt "$lang->'TWITTER'"
+msgid "Twitter"
+msgstr "Twitter"
+
+#: $lang->'UNABLE_GET_IMAGE_SIZE'
+msgid ""
+"It was not possible to determine the dimensions of the image. Please verify "
+"that the URL you entered is correct."
+msgstr ""
+"לא ניתן היה לקבוע את מימדי התמונה, אנא ודא כי כתובת האינטרנט שהכנסת נכונה.."
+
+#: $lang->'UNABLE_TO_DELIVER_FILE'
+msgid "Unable to deliver file."
+msgstr "לא ניתן למסור קובץ."
+
+#: $lang->'UNKNOWN_BROWSER'
+msgid "Unknown browser"
+msgstr "דפדפן לא ידוע"
+
+#: $lang->'UNMARK_ALL'
+msgid "Unmark all"
+msgstr "בטל סימון"
+
+#: $lang->'UNREAD_MESSAGES'
+msgid "Unread messages"
+msgstr "הודעות שלא נקראו"
+
+#: $lang->'UNREAD_POST'
+msgid "Unread post"
+msgstr "הודעה שלא נקראה"
+
+#: $lang->'UNREAD_POSTS'
+msgctxt "$lang->'UNREAD_POSTS'"
+msgid "Unread posts"
+msgstr "הודעות שלא נקראו"
+
+#: $lang->'UNWATCH_FORUM_CONFIRM'
+msgid "Are you sure you wish to unsubscribe from this forum?"
+msgstr "האם אתה בטוח שברצונך לבטל את הרישום לפורום זה?"
+
+#: $lang->'UNWATCH_FORUM_DETAILED'
+msgid "Are you sure you wish to unsubscribe from the forum “%s”?"
+msgstr "האם אתה בטוח שברצונך לבטל את הרישום מפורום “%s”?"
+
+#: $lang->'UNWATCH_TOPIC_CONFIRM'
+msgid "Are you sure you wish to unsubscribe from this topic?"
+msgstr "האם אתה בטוח שברצונך לבטל את הרישום מנושא זה?"
+
+#: $lang->'UNWATCH_TOPIC_DETAILED'
+msgid "Are you sure you wish to unsubscribe from the topic “%s”?"
+msgstr "האם אתה בטוח שברצונך לבטל את הרישום מנושא “%s”?"
+
+#: $lang->'UNWATCHED_FORUMS'
+msgid "You are no longer subscribed to the selected forums."
+msgstr "אינך רשום יותר לעדכונים לפורומים שנבחרו."
+
+#: $lang->'UNWATCHED_TOPICS'
+msgid "You are no longer subscribed to the selected topics."
+msgstr "אינך רשום יותר לעדכונים לנושאים שנבחרו."
+
+#: $lang->'UNWATCHED_FORUMS_TOPICS'
+msgid "You are no longer subscribed to the selected entries."
+msgstr "אינך רשום יותר לקבלת עדכונים בפריטים הנבחרים."
+
+#: $lang->'UPDATE'
+msgid "Update"
+msgstr "עדכן"
+
+#: $lang->'UPLOAD_IN_PROGRESS'
+msgid "The upload is currently in progress."
+msgstr "ההעלאה כרגע בביצוע."
+
+#: $lang->'URL_REDIRECT'
+msgid ""
+"If your browser does not support meta redirection %splease click HERE to be "
+"redirected%s."
+msgstr "אם הדפדפן שלך אינו תומך בהפניית meta %sלחץ כאן כדי לעבור%s."
+
+#: $lang->'USERGROUPS'
+msgctxt "$lang->'USERGROUPS'"
+msgid "Groups"
+msgstr "קבוצות"
+
+#: $lang->'USERNAME'
+msgctxt "$lang->'USERNAME'"
+msgid "Username"
+msgstr "שם משתמש"
+
+#: $lang->'USERNAMES'
+msgid "Usernames"
+msgstr "שמות משתמשים"
+
+#: $lang->'USER_AVATAR'
+msgid "User avatar"
+msgstr "סמל אישי של המשתמש"
+
+#: $lang->'USER_CANNOT_READ'
+msgid "You cannot read posts in this forum."
+msgstr "אינך יכול לקרוא הודעות בפורום זה."
+
+#: $lang->'USER_POSTS'->1
+msgid "%d Post"
+msgstr "הודעה %d"
+
+#: $lang->'USER_POSTS'->2
+msgid "%d Posts"
+msgstr "%d הודעות"
+
+#: $lang->'USERS'
+msgid "Users"
+msgstr "משתמשים"
+
+#: $lang->'USE_PERMISSIONS'
+msgid "Test out user’s permissions"
+msgstr "נסה את הרשאות המשתמש"
+
+#: $lang->'USER_NEW_PERMISSION_DISALLOWED'
+msgid ""
+"We are sorry, but you are not authorised to use this feature. You may have "
+"just registered here and may need to participate more in discussions to be "
+"able to use this feature."
+msgstr ""
+"אנו מצטערים, אך אינך מורשה להשתמש באפשרות זו. יכול להיות שרק נרשמת לכאן והנך "
+"צריך להשתתף יותר בדיונים כדי להשתמש באפשרות זו."
+
+#. Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
+#: $lang->'VARIANT_DATE_SEPARATOR'
+msgid " / "
+msgstr " / "
+
+#: $lang->'VIEWED'
+msgid "Viewed"
+msgstr "נצפה"
+
+#: $lang->'VIEWED_COUNTS'->0
+msgid "Not viewed yet"
+msgstr "לא נצפה עדיין"
+
+#: $lang->'VIEWED_COUNTS'->1
+msgid "Viewed %d time"
+msgstr "נצפה פעם אחת"
+
+#: $lang->'VIEWED_COUNTS'->2
+msgid "Viewed %d times"
+msgstr "נצפה %d פעמים"
+
+#: $lang->'VIEWING_CONTACT_ADMIN'
+msgid "Viewing contact page"
+msgstr "צופה בדף ליצירת הקשר"
+
+#: $lang->'VIEWING_FAQ'
+msgid "Viewing FAQ"
+msgstr "צופה בשאלות נפוצות"
+
+#: $lang->'VIEWING_MEMBERS'
+msgid "Viewing member details"
+msgstr "צופה בפרטי משתמש"
+
+#: $lang->'VIEWING_ONLINE'
+msgid "Viewing who is online"
+msgstr "צופה במי מחובר"
+
+#: $lang->'VIEWING_MCP'
+msgid "Viewing moderator control panel"
+msgstr "צופה בלוח הבקרה למנהל"
+
+#: $lang->'VIEWING_MEMBER_PROFILE'
+msgid "Viewing member profile"
+msgstr "צופה בפרופיל משתמש"
+
+#: $lang->'VIEWING_PRIVATE_MESSAGES'
+msgid "Viewing private messages"
+msgstr "צופה בהודעות פרטיות"
+
+#: $lang->'VIEWING_REGISTER'
+msgid "Registering account"
+msgstr "נרשם לפורום"
+
+#: $lang->'VIEWING_UCP'
+msgid "Viewing user control panel"
+msgstr "צופה בלוח הבקרה למשתמש"
+
+#: $lang->'VIEWS'
+msgid "Views"
+msgstr "צפיות"
+
+#: $lang->'VIEW_BOOKMARKS'
+msgid "View bookmarks"
+msgstr "צפה בנושאים מועדפים"
+
+#: $lang->'VIEW_FORUM_LOGS'
+msgid "View Logs"
+msgstr "צופה בלוגים של הפורום"
+
+#: $lang->'VIEW_LATEST_POST'
+msgid "View the latest post"
+msgstr "צפה בהודעה האחרונה"
+
+#: $lang->'VIEW_NEWEST_POST'
+msgid "View first unread post"
+msgstr "צפה בהודעה הראשונה שלא נקראה"
+
+#: $lang->'VIEW_NOTES'
+msgid "View user notes"
+msgstr "צפה בהערות על המשתמש"
+
+#: $lang->'VIEW_ONLINE_TIMES'->1
+msgid "based on users active over the past %d minute"
+msgstr "מבוסס על משתמשים פעילים בדקה האחרונה"
+
+#: $lang->'VIEW_ONLINE_TIMES'->2
+msgid "based on users active over the past %d minutes"
+msgstr "מבוסס על משתמשים פעילים ב־%d הדקות האחרונות"
+
+#: $lang->'VIEW_TOPIC'
+msgid "View topic"
+msgstr "צפה בנושא"
+
+#: $lang->'VIEW_TOPIC_ANNOUNCEMENT'
+msgid "Announcement: "
+msgstr "הכרזה: "
+
+#: $lang->'VIEW_TOPIC_GLOBAL'
+msgid "Global Announcement: "
+msgstr "הכרזה גלובלית: "
+
+#: $lang->'VIEW_TOPIC_LOCKED'
+msgid "Locked: "
+msgstr "נעול: "
+
+#: $lang->'VIEW_TOPIC_LOGS'
+msgid "View logs"
+msgstr "ראה פעולות"
+
+#: $lang->'VIEW_TOPIC_MOVED'
+msgid "Moved: "
+msgstr "הועבר: "
+
+#: $lang->'VIEW_TOPIC_POLL'
+msgid "Poll: "
+msgstr "סקר: "
+
+#: $lang->'VIEW_TOPIC_STICKY'
+msgid "Sticky: "
+msgstr "דביק: "
+
+#: $lang->'VISIT_WEBSITE'
+msgid "Visit website"
+msgstr "בקר באתר הבית"
+
+#: $lang->'WARNINGS'
+msgid "Warnings"
+msgstr "אזהרות"
+
+#: $lang->'WARN_USER'
+msgid "Warn user"
+msgstr "הזהר משתמש"
+
+#: $lang->'WATCH_FORUM_CONFIRM'
+msgid "Are you sure you wish to subscribe to this forum?"
+msgstr "האם אתה בטוח שברצונך להירשם לפורום זה?"
+
+#: $lang->'WATCH_FORUM_DETAILED'
+msgid "Are you sure you wish to subscribe to the forum “%s”?"
+msgstr "האם אתה בטוח שברצונך להירשם לפורום “%s”?"
+
+#: $lang->'WATCH_TOPIC_CONFIRM'
+msgid "Are you sure you wish to subscribe to this topic?"
+msgstr "האם אתה בטוח שברצונך להירשם לנושא זה?"
+
+#: $lang->'WATCH_TOPIC_DETAILED'
+msgid "Are you sure you wish to subscribe to the topic “%s”?"
+msgstr "האם אתה בטוח שברצונך להירשם לנושא “%s”?"
+
+#: $lang->'WELCOME_SUBJECT'
+msgid "Welcome to %s forums"
+msgstr "ברוך הבא לפורום %s"
+
+#: $lang->'WEBSITE'
+msgid "Website"
+msgstr "אתר בית"
+
+#: $lang->'WHOIS'
+msgid "Whois"
+msgstr "מי זה"
+
+#: $lang->'WHO_IS_ONLINE'
+msgid "Who is online"
+msgstr "מי מחובר"
+
+#: $lang->'WRONG_PASSWORD'
+msgid "You entered an incorrect password."
+msgstr "הזנת ססמה שגויה."
+
+#: $lang->'WRONG_DATA_COLOUR'
+msgid "The colour value you entered is invalid."
+msgstr "ערך הצבע שהזנת שגוי."
+
+#: $lang->'WRONG_DATA_JABBER'
+msgid "The name you entered is not a valid Jabber account name."
+msgstr "השם שהזנת אינו שם חשבון Jabber חוקי."
+
+#: $lang->'WRONG_DATA_LANG'
+msgid "The language you specified is not valid."
+msgstr "השפה שציינת אינה חוקית."
+
+#: $lang->'WRONG_DATA_POST_SD'
+msgid "The post sort direction you specified is not valid."
+msgstr "הכיוון של סידור ההודעות לא תקני."
+
+#: $lang->'WRONG_DATA_POST_SK'
+msgid "The post sort option you specified is not valid."
+msgstr "אפשרות הסידור שבחרת לא תקנית."
+
+#: $lang->'WRONG_DATA_TOPIC_SD'
+msgid "The topic sort direction you specified is not valid."
+msgstr "הכיוון של סידור האשכולות שבחרת לא תקני."
+
+#: $lang->'WRONG_DATA_TOPIC_SK'
+msgid "The topic sort option you specified is not valid."
+msgstr "אפשרות הסידור שבחרת לא תקנית."
+
+#: $lang->'WROTE'
+msgid "wrote"
+msgstr "כתב"
+
+#: $lang->'YAHOO'
+msgid "Yahoo Messenger"
+msgstr "Yahoo Messenger"
+
+#: $lang->'YOUTUBE'
+msgid "YouTube"
+msgstr "YouTube"
+
+#: $lang->'YEAR'
+msgid "Year"
+msgstr "שנה"
+
+#: $lang->'YEAR_MONTH_DAY'
+msgid "(YYYY-MM-DD)"
+msgstr "(YYYY-MM-DD)"
+
+#: $lang->'YES'
+msgid "Yes"
+msgstr "כן"
+
+#: $lang->'YOU_LAST_VISIT'
+msgid "Last visit was: %s"
+msgstr "ביקורך האחרון היה ב: %s"
+
+#: $lang->'datetime'->'TODAY'
+msgid "Today"
+msgstr "היום"
+
+#: $lang->'datetime'->'TOMORROW'
+msgid "Tomorrow"
+msgstr "מחר"
+
+#: $lang->'datetime'->'YESTERDAY'
+msgid "Yesterday"
+msgstr "אתמול"
+
+#: $lang->'datetime'->'AGO'->0
+msgid "less than a minute ago"
+msgstr "לפני פחות מדקה"
+
+#: $lang->'datetime'->'AGO'->1
+msgid "%d minute ago"
+msgstr "לפני דקה"
+
+#: $lang->'datetime'->'AGO'->2
+msgid "%d minutes ago"
+msgstr "לפני %d דקות"
+
+#: $lang->'Sunday'
+msgid "Sunday"
+msgstr "יום ראשון"
+
+#: $lang->'Monday'
+msgid "Monday"
+msgstr "יום שני"
+
+#: $lang->'Tuesday'
+msgid "Tuesday"
+msgstr "יום שלישי"
+
+#: $lang->'Wednesday'
+msgid "Wednesday"
+msgstr "יום רביעי"
+
+#: $lang->'Thursday'
+msgid "Thursday"
+msgstr "יום חמישי"
+
+#: $lang->'Friday'
+msgid "Friday"
+msgstr "יום שישי"
+
+#: $lang->'Saturday'
+msgid "Saturday"
+msgstr "יום שבת"
+
+#: $lang->'Sun'
+msgid "Sun"
+msgstr "א'"
+
+#: $lang->'Mon'
+msgid "Mon"
+msgstr "ב'"
+
+#: $lang->'Tue'
+msgid "Tue"
+msgstr "ג'"
+
+#: $lang->'Wed'
+msgid "Wed"
+msgstr "ד'"
+
+#: $lang->'Thu'
+msgid "Thu"
+msgstr "ה'"
+
+#: $lang->'Fri'
+msgid "Fri"
+msgstr "ו'"
+
+#: $lang->'Sat'
+msgid "Sat"
+msgstr "ש'"
+
+#: $lang->'January'
+msgid "January"
+msgstr "ינואר"
+
+#: $lang->'February'
+msgid "February"
+msgstr "פברואר"
+
+#: $lang->'March'
+msgid "March"
+msgstr "מרץ"
+
+#: $lang->'April'
+msgid "April"
+msgstr "אפריל"
+
+#: $lang->'May'
+msgctxt "$lang->'May'"
+msgid "May"
+msgstr "מאי"
+
+#: $lang->'June'
+msgid "June"
+msgstr "יוני"
+
+#: $lang->'July'
+msgid "July"
+msgstr "יולי"
+
+#: $lang->'August'
+msgid "August"
+msgstr "אוגוסט"
+
+#: $lang->'September'
+msgid "September"
+msgstr "ספטמבר"
+
+#: $lang->'October'
+msgid "October"
+msgstr "אוקטובר"
+
+#: $lang->'November'
+msgid "November"
+msgstr "נובמבר"
+
+#: $lang->'December'
+msgid "December"
+msgstr "דצמבר"
+
+#: $lang->'Jan'
+msgid "Jan"
+msgstr "ינואר"
+
+#: $lang->'Feb'
+msgid "Feb"
+msgstr "פברואר"
+
+#: $lang->'Mar'
+msgid "Mar"
+msgstr "מרץ"
+
+#: $lang->'Apr'
+msgid "Apr"
+msgstr "אפריל"
+
+#. Short representation of "May". May_short used because in English the short and long date are the same for May.
+#: $lang->'May_short'
+msgctxt "$lang->'May_short'"
+msgid "May"
+msgstr "מאי"
+
+#: $lang->'Jun'
+msgid "Jun"
+msgstr "יוני"
+
+#: $lang->'Jul'
+msgid "Jul"
+msgstr "יולי"
+
+#: $lang->'Aug'
+msgid "Aug"
+msgstr "אוגוסט"
+
+#: $lang->'Sep'
+msgid "Sep"
+msgstr "ספטמבר"
+
+#: $lang->'Oct'
+msgid "Oct"
+msgstr "אוקטובר"
+
+#: $lang->'Nov'
+msgid "Nov"
+msgstr "נובמבר"
+
+#: $lang->'Dec'
+msgid "Dec"
+msgstr "דצמבר"
+
+#. // Timezones can be translated. We use this for the Etc/GMT timezones here,
+#. // because they are named invers to their offset.
+#: $lang->'timezones'->'UTC'
+msgid "UTC"
+msgstr "UTC"
+
+#: $lang->'timezones'->'UTC_OFFSET'
+msgid "UTC%1$s"
+msgstr "UTC%1$s"
+
+#: $lang->'timezones'->'UTC_OFFSET_CURRENT'
+msgid "UTC%1$s - %2$s"
+msgstr "UTC%1$s - %2$s"
+
+#: $lang->'timezones'->'Etc/GMT-12'
+msgid "UTC+12"
+msgstr "UTC+12"
+
+#: $lang->'timezones'->'Etc/GMT-11'
+msgid "UTC+11"
+msgstr "UTC+11"
+
+#: $lang->'timezones'->'Etc/GMT-10'
+msgid "UTC+10"
+msgstr "UTC+10"
+
+#: $lang->'timezones'->'Etc/GMT-9'
+msgid "UTC+9"
+msgstr "UTC+9"
+
+#: $lang->'timezones'->'Etc/GMT-8'
+msgid "UTC+8"
+msgstr "UTC+8"
+
+#: $lang->'timezones'->'Etc/GMT-7'
+msgid "UTC+7"
+msgstr "UTC+7"
+
+#: $lang->'timezones'->'Etc/GMT-6'
+msgid "UTC+6"
+msgstr "UTC+6"
+
+#: $lang->'timezones'->'Etc/GMT-5'
+msgid "UTC+5"
+msgstr "UTC+5"
+
+#: $lang->'timezones'->'Etc/GMT-4'
+msgid "UTC+4"
+msgstr "UTC+4"
+
+#: $lang->'timezones'->'Etc/GMT-3'
+msgid "UTC+3"
+msgstr "UTC+3"
+
+#: $lang->'timezones'->'Etc/GMT-2'
+msgid "UTC+2"
+msgstr "UTC+2"
+
+#: $lang->'timezones'->'Etc/GMT-1'
+msgid "UTC+1"
+msgstr "UTC+1"
+
+#: $lang->'timezones'->'Etc/GMT+1'
+msgid "UTC-1"
+msgstr "UTC-1"
+
+#: $lang->'timezones'->'Etc/GMT+2'
+msgid "UTC-2"
+msgstr "UTC-2"
+
+#: $lang->'timezones'->'Etc/GMT+3'
+msgid "UTC-3"
+msgstr "UTC-3"
+
+#: $lang->'timezones'->'Etc/GMT+4'
+msgid "UTC-4"
+msgstr "UTC-4"
+
+#: $lang->'timezones'->'Etc/GMT+5'
+msgid "UTC-5"
+msgstr "UTC-5"
+
+#: $lang->'timezones'->'Etc/GMT+6'
+msgid "UTC-6"
+msgstr "UTC-6"
+
+#: $lang->'timezones'->'Etc/GMT+7'
+msgid "UTC-7"
+msgstr "UTC-7"
+
+#: $lang->'timezones'->'Etc/GMT+8'
+msgid "UTC-8"
+msgstr "UTC-8"
+
+#: $lang->'timezones'->'Etc/GMT+9'
+msgid "UTC-9"
+msgstr "UTC-9"
+
+#: $lang->'timezones'->'Etc/GMT+10'
+msgid "UTC-10"
+msgstr "UTC-10"
+
+#: $lang->'timezones'->'Etc/GMT+11'
+msgid "UTC-11"
+msgstr "UTC-11"
+
+#: $lang->'timezones'->'Etc/GMT+12'
+msgid "UTC-12"
+msgstr "UTC-12"
+
+#: $lang->'timezones'->'Africa/Abidjan'
+msgid "Africa/Abidjan"
+msgstr "אפריקה/אביג'ן"
+
+#: $lang->'timezones'->'Africa/Accra'
+msgid "Africa/Accra"
+msgstr "אפריקה/אקרה"
+
+#: $lang->'timezones'->'Africa/Addis_Ababa'
+msgid "Africa/Addis Ababa"
+msgstr "אפריקה/אדיס אבבה"
+
+#: $lang->'timezones'->'Africa/Algiers'
+msgid "Africa/Algiers"
+msgstr "אפריקה/אלג'יר"
+
+#: $lang->'timezones'->'Africa/Asmara'
+msgid "Africa/Asmara"
+msgstr "אפריקה/אסמרה"
+
+#: $lang->'timezones'->'Africa/Bamako'
+msgid "Africa/Bamako"
+msgstr "אפריקה/במקו"
+
+#: $lang->'timezones'->'Africa/Bangui'
+msgid "Africa/Bangui"
+msgstr "אפריקה/בנגי"
+
+#: $lang->'timezones'->'Africa/Banjul'
+msgid "Africa/Banjul"
+msgstr "אפריקה/בנג'ול"
+
+#: $lang->'timezones'->'Africa/Bissau'
+msgid "Africa/Bissau"
+msgstr "אפריקה/ביסאו"
+
+#: $lang->'timezones'->'Africa/Blantyre'
+msgid "Africa/Blantyre"
+msgstr "אפריקה/בלנטייר"
+
+#: $lang->'timezones'->'Africa/Brazzaville'
+msgid "Africa/Brazzaville"
+msgstr "אפריקה/ברזוויל"
+
+#: $lang->'timezones'->'Africa/Bujumbura'
+msgid "Africa/Bujumbura"
+msgstr "אפריקה/בוג'ומבורה"
+
+#: $lang->'timezones'->'Africa/Cairo'
+msgid "Africa/Cairo"
+msgstr "אפריקה/קהיר"
+
+#: $lang->'timezones'->'Africa/Casablanca'
+msgid "Africa/Casablanca"
+msgstr "אפריקה/קזבלנקה"
+
+#: $lang->'timezones'->'Africa/Ceuta'
+msgid "Africa/Ceuta"
+msgstr "אפריקה/סאוטה"
+
+#: $lang->'timezones'->'Africa/Conakry'
+msgid "Africa/Conakry"
+msgstr "אפריקה/קונאקרי"
+
+#: $lang->'timezones'->'Africa/Dakar'
+msgid "Africa/Dakar"
+msgstr "אפריקה/דקר"
+
+#: $lang->'timezones'->'Africa/Dar_es_Salaam'
+msgid "Africa/Dar es Salaam"
+msgstr "אפריקה/דאר א-סלאם"
+
+#: $lang->'timezones'->'Africa/Djibouti'
+msgid "Africa/Djibouti"
+msgstr "אפריקה/דג'יבוטי"
+
+#: $lang->'timezones'->'Africa/Douala'
+msgid "Africa/Douala"
+msgstr "אפריקה/דואלה"
+
+#: $lang->'timezones'->'Africa/El_Aaiun'
+msgid "Africa/El Aaiun"
+msgstr "אפריקה/לעיון"
+
+#: $lang->'timezones'->'Africa/Freetown'
+msgid "Africa/Freetown"
+msgstr "אפריקה/פריטאון"
+
+#: $lang->'timezones'->'Africa/Gaborone'
+msgid "Africa/Gaborone"
+msgstr "אפריקה/גבורון"
+
+#: $lang->'timezones'->'Africa/Harare'
+msgid "Africa/Harare"
+msgstr "אפריקה/הררה"
+
+#: $lang->'timezones'->'Africa/Johannesburg'
+msgid "Africa/Johannesburg"
+msgstr "אפריקה/יוהנסבורג"
+
+#: $lang->'timezones'->'Africa/Juba'
+msgid "Africa/Juba"
+msgstr "אפריקה/Juba"
+
+#: $lang->'timezones'->'Africa/Kampala'
+msgid "Africa/Kampala"
+msgstr "אפריקה/קמפלה"
+
+#: $lang->'timezones'->'Africa/Khartoum'
+msgid "Africa/Khartoum"
+msgstr "אפריקה/Khartoum"
+
+#: $lang->'timezones'->'Africa/Kigali'
+msgid "Africa/Kigali"
+msgstr "אפריקה/Kigali"
+
+#: $lang->'timezones'->'Africa/Kinshasa'
+msgid "Africa/Kinshasa"
+msgstr "אפריקה/Kinshasa"
+
+#: $lang->'timezones'->'Africa/Lagos'
+msgid "Africa/Lagos"
+msgstr "אפריקה/Lagos"
+
+#: $lang->'timezones'->'Africa/Libreville'
+msgid "Africa/Libreville"
+msgstr "אפריקה/Libreville"
+
+#: $lang->'timezones'->'Africa/Lome'
+msgid "Africa/Lome"
+msgstr "אפריקה/Lome"
+
+#: $lang->'timezones'->'Africa/Luanda'
+msgid "Africa/Luanda"
+msgstr "אפריקה/Luanda"
+
+#: $lang->'timezones'->'Africa/Lubumbashi'
+msgid "Africa/Lubumbashi"
+msgstr "אפריקה/Lubumbashi"
+
+#: $lang->'timezones'->'Africa/Lusaka'
+msgid "Africa/Lusaka"
+msgstr "אפריקה/Lusaka"
+
+#: $lang->'timezones'->'Africa/Malabo'
+msgid "Africa/Malabo"
+msgstr "אפריקה/Malabo"
+
+#: $lang->'timezones'->'Africa/Maputo'
+msgid "Africa/Maputo"
+msgstr "אפריקה/Maputo"
+
+#: $lang->'timezones'->'Africa/Maseru'
+msgid "Africa/Maseru"
+msgstr "אפריקה/Maseru"
+
+#: $lang->'timezones'->'Africa/Mbabane'
+msgid "Africa/Mbabane"
+msgstr "אפריקה/Mbabane"
+
+#: $lang->'timezones'->'Africa/Mogadishu'
+msgid "Africa/Mogadishu"
+msgstr "אפריקה/Mogadishu"
+
+#: $lang->'timezones'->'Africa/Monrovia'
+msgid "Africa/Monrovia"
+msgstr "אפריקה/Monrovia"
+
+#: $lang->'timezones'->'Africa/Nairobi'
+msgid "Africa/Nairobi"
+msgstr "אפריקה/Nairobi"
+
+#: $lang->'timezones'->'Africa/Ndjamena'
+msgid "Africa/Ndjamena"
+msgstr "אפריקה/Ndjamena"
+
+#: $lang->'timezones'->'Africa/Niamey'
+msgid "Africa/Niamey"
+msgstr "אפריקה/Niamey"
+
+#: $lang->'timezones'->'Africa/Nouakchott'
+msgid "Africa/Nouakchott"
+msgstr "אפריקה/Nouakchott"
+
+#: $lang->'timezones'->'Africa/Ouagadougou'
+msgid "Africa/Ouagadougou"
+msgstr "אפריקה/Ouagadougou"
+
+#: $lang->'timezones'->'Africa/Porto-Novo'
+msgid "Africa/Porto-Novo"
+msgstr "אפריקה/Porto-Novo"
+
+#: $lang->'timezones'->'Africa/Sao_Tome'
+msgid "Africa/Sao Tome"
+msgstr "אפריקה/Sao Tome"
+
+#: $lang->'timezones'->'Africa/Tripoli'
+msgid "Africa/Tripoli"
+msgstr "אפריקה/Tripoli"
+
+#: $lang->'timezones'->'Africa/Tunis'
+msgid "Africa/Tunis"
+msgstr "אפריקה/Tunis"
+
+#: $lang->'timezones'->'Africa/Windhoek'
+msgid "Africa/Windhoek"
+msgstr "אפריקה/Windhoek"
+
+#: $lang->'timezones'->'America/Adak'
+msgid "America/Adak"
+msgstr "אמריקה/Adak"
+
+#: $lang->'timezones'->'America/Anchorage'
+msgid "America/Anchorage"
+msgstr "אמריקה/Anchorage"
+
+#: $lang->'timezones'->'America/Anguilla'
+msgid "America/Anguilla"
+msgstr "אמריקה/Anguilla"
+
+#: $lang->'timezones'->'America/Antigua'
+msgid "America/Antigua"
+msgstr "אמריקה/Antigua"
+
+#: $lang->'timezones'->'America/Araguaina'
+msgid "America/Araguaina"
+msgstr "אמריקה/Araguaina"
+
+#: $lang->'timezones'->'America/Argentina/Buenos_Aires'
+msgid "America/Argentina/Buenos Aires"
+msgstr "אמריקה/Argentina/Buenos Aires"
+
+#: $lang->'timezones'->'America/Argentina/Catamarca'
+msgid "America/Argentina/Catamarca"
+msgstr "אמריקה/Argentina/Catamarca"
+
+#: $lang->'timezones'->'America/Argentina/Cordoba'
+msgid "America/Argentina/Cordoba"
+msgstr "אמריקה/Argentina/Cordoba"
+
+#: $lang->'timezones'->'America/Argentina/Jujuy'
+msgid "America/Argentina/Jujuy"
+msgstr "אמריקה/Argentina/Jujuy"
+
+#: $lang->'timezones'->'America/Argentina/La_Rioja'
+msgid "America/Argentina/La Rioja"
+msgstr "אמריקה/Argentina/La Rioja"
+
+#: $lang->'timezones'->'America/Argentina/Mendoza'
+msgid "America/Argentina/Mendoza"
+msgstr "אמריקה/Argentina/Mendoza"
+
+#: $lang->'timezones'->'America/Argentina/Rio_Gallegos'
+msgid "America/Argentina/Rio Gallegos"
+msgstr "אמריקה/Argentina/Rio Gallegos"
+
+#: $lang->'timezones'->'America/Argentina/Salta'
+msgid "America/Argentina/Salta"
+msgstr "אמריקה/Argentina/Salta"
+
+#: $lang->'timezones'->'America/Argentina/San_Juan'
+msgid "America/Argentina/San Juan"
+msgstr "אמריקה/Argentina/San Juan"
+
+#: $lang->'timezones'->'America/Argentina/San_Luis'
+msgid "America/Argentina/San Luis"
+msgstr "אמריקה/Argentina/San Luis"
+
+#: $lang->'timezones'->'America/Argentina/Tucuman'
+msgid "America/Argentina/Tucuman"
+msgstr "אמריקה/Argentina/Tucuman"
+
+#: $lang->'timezones'->'America/Argentina/Ushuaia'
+msgid "America/Argentina/Ushuaia"
+msgstr "אמריקה/Argentina/Ushuaia"
+
+#: $lang->'timezones'->'America/Aruba'
+msgid "America/Aruba"
+msgstr "אמריקה/Aruba"
+
+#: $lang->'timezones'->'America/Asuncion'
+msgid "America/Asuncion"
+msgstr "אמריקה/Asuncion"
+
+#: $lang->'timezones'->'America/Atikokan'
+msgid "America/Atikokan"
+msgstr "אמריקה/Atikokan"
+
+#: $lang->'timezones'->'America/Bahia'
+msgid "America/Bahia"
+msgstr "אמריקה/Bahia"
+
+#: $lang->'timezones'->'America/Bahia_Banderas'
+msgid "America/Bahia Banderas"
+msgstr "אמריקה/Bahia Banderas"
+
+#: $lang->'timezones'->'America/Barbados'
+msgid "America/Barbados"
+msgstr "אמריקה/Barbados"
+
+#: $lang->'timezones'->'America/Belem'
+msgid "America/Belem"
+msgstr "אמריקה/Belem"
+
+#: $lang->'timezones'->'America/Belize'
+msgid "America/Belize"
+msgstr "אמריקה/Belize"
+
+#: $lang->'timezones'->'America/Blanc-Sablon'
+msgid "America/Blanc-Sablon"
+msgstr "אמריקה/Blanc-Sablon"
+
+#: $lang->'timezones'->'America/Boa_Vista'
+msgid "America/Boa Vista"
+msgstr "אמריקה/Boa Vista"
+
+#: $lang->'timezones'->'America/Bogota'
+msgid "America/Bogota"
+msgstr "אמריקה/Bogota"
+
+#: $lang->'timezones'->'America/Boise'
+msgid "America/Boise"
+msgstr "אמריקה/Boise"
+
+#: $lang->'timezones'->'America/Cambridge_Bay'
+msgid "America/Cambridge Bay"
+msgstr "אמריקה/Cambridge Bay"
+
+#: $lang->'timezones'->'America/Campo_Grande'
+msgid "America/Campo Grande"
+msgstr "אמריקה/Campo Grande"
+
+#: $lang->'timezones'->'America/Cancun'
+msgid "America/Cancun"
+msgstr "אמריקה/Cancun"
+
+#: $lang->'timezones'->'America/Caracas'
+msgid "America/Caracas"
+msgstr "אמריקה/Caracas"
+
+#: $lang->'timezones'->'America/Cayenne'
+msgid "America/Cayenne"
+msgstr "אמריקה/Cayenne"
+
+#: $lang->'timezones'->'America/Cayman'
+msgid "America/Cayman"
+msgstr "אמריקה/Cayman"
+
+#: $lang->'timezones'->'America/Chicago'
+msgid "America/Chicago"
+msgstr "אמריקה/Chicago"
+
+#: $lang->'timezones'->'America/Chihuahua'
+msgid "America/Chihuahua"
+msgstr "אמריקה/Chihuahua"
+
+#: $lang->'timezones'->'America/Costa_Rica'
+msgid "America/Costa Rica"
+msgstr "אמריקה/Costa Rica"
+
+#: $lang->'timezones'->'America/Creston'
+msgid "America/Creston"
+msgstr "אמריקה/Creston"
+
+#: $lang->'timezones'->'America/Cuiaba'
+msgid "America/Cuiaba"
+msgstr "אמריקה/Cuiaba"
+
+#: $lang->'timezones'->'America/Curacao'
+msgid "America/Curacao"
+msgstr "אמריקה/Curacao"
+
+#: $lang->'timezones'->'America/Danmarkshavn'
+msgid "America/Danmarkshavn"
+msgstr "אמריקה/Danmarkshavn"
+
+#: $lang->'timezones'->'America/Dawson'
+msgid "America/Dawson"
+msgstr "אמריקה/Dawson"
+
+#: $lang->'timezones'->'America/Dawson_Creek'
+msgid "America/Dawson Creek"
+msgstr "אמריקה/Dawson Creek"
+
+#: $lang->'timezones'->'America/Denver'
+msgid "America/Denver"
+msgstr "אמריקה/Denver"
+
+#: $lang->'timezones'->'America/Detroit'
+msgid "America/Detroit"
+msgstr "אמריקה/Detroit"
+
+#: $lang->'timezones'->'America/Dominica'
+msgid "America/Dominica"
+msgstr "אמריקה/Dominica"
+
+#: $lang->'timezones'->'America/Edmonton'
+msgid "America/Edmonton"
+msgstr "אמריקה/Edmonton"
+
+#: $lang->'timezones'->'America/Eirunepe'
+msgid "America/Eirunepe"
+msgstr "אמריקה/Eirunepe"
+
+#: $lang->'timezones'->'America/El_Salvador'
+msgid "America/El Salvador"
+msgstr "אמריקה/El Salvador"
+
+#: $lang->'timezones'->'America/Fortaleza'
+msgid "America/Fortaleza"
+msgstr "אמריקה/Fortaleza"
+
+#: $lang->'timezones'->'America/Glace_Bay'
+msgid "America/Glace Bay"
+msgstr "אמריקה/Glace Bay"
+
+#: $lang->'timezones'->'America/Godthab'
+msgid "America/Godthab"
+msgstr "אמריקה/Godthab"
+
+#: $lang->'timezones'->'America/Goose_Bay'
+msgid "America/Goose Bay"
+msgstr "אמריקה/Goose Bay"
+
+#: $lang->'timezones'->'America/Grand_Turk'
+msgid "America/Grand Turk"
+msgstr "אמריקה/Grand Turk"
+
+#: $lang->'timezones'->'America/Grenada'
+msgid "America/Grenada"
+msgstr "אמריקה/Grenada"
+
+#: $lang->'timezones'->'America/Guadeloupe'
+msgid "America/Guadeloupe"
+msgstr "אמריקה/Guadeloupe"
+
+#: $lang->'timezones'->'America/Guatemala'
+msgid "America/Guatemala"
+msgstr "אמריקה/Guatemala"
+
+#: $lang->'timezones'->'America/Guayaquil'
+msgid "America/Guayaquil"
+msgstr "אמריקה/Guayaquil"
+
+#: $lang->'timezones'->'America/Guyana'
+msgid "America/Guyana"
+msgstr "אמריקה/Guyana"
+
+#: $lang->'timezones'->'America/Halifax'
+msgid "America/Halifax"
+msgstr "אמריקה/Halifax"
+
+#: $lang->'timezones'->'America/Havana'
+msgid "America/Havana"
+msgstr "אמריקה/Havana"
+
+#: $lang->'timezones'->'America/Hermosillo'
+msgid "America/Hermosillo"
+msgstr "אמריקה/Hermosillo"
+
+#: $lang->'timezones'->'America/Indiana/Indianapolis'
+msgid "America/Indiana/Indianapolis"
+msgstr "אמריקה/Indiana/Indianapolis"
+
+#: $lang->'timezones'->'America/Indiana/Knox'
+msgid "America/Indiana/Knox"
+msgstr "אמריקה/Indiana/Knox"
+
+#: $lang->'timezones'->'America/Indiana/Marengo'
+msgid "America/Indiana/Marengo"
+msgstr "אמריקה/Indiana/Marengo"
+
+#: $lang->'timezones'->'America/Indiana/Petersburg'
+msgid "America/Indiana/Petersburg"
+msgstr "אמריקה/Indiana/Petersburg"
+
+#: $lang->'timezones'->'America/Indiana/Tell_City'
+msgid "America/Indiana/Tell City"
+msgstr "אמריקה/Indiana/Tell City"
+
+#: $lang->'timezones'->'America/Indiana/Vevay'
+msgid "America/Indiana/Vevay"
+msgstr "אמריקה/Indiana/Vevay"
+
+#: $lang->'timezones'->'America/Indiana/Vincennes'
+msgid "America/Indiana/Vincennes"
+msgstr "אמריקה/Indiana/Vincennes"
+
+#: $lang->'timezones'->'America/Indiana/Winamac'
+msgid "America/Indiana/Winamac"
+msgstr "אמריקה/Indiana/Winamac"
+
+#: $lang->'timezones'->'America/Inuvik'
+msgid "America/Inuvik"
+msgstr "אמריקה/Inuvik"
+
+#: $lang->'timezones'->'America/Iqaluit'
+msgid "America/Iqaluit"
+msgstr "אמריקה/Iqaluit"
+
+#: $lang->'timezones'->'America/Jamaica'
+msgid "America/Jamaica"
+msgstr "אמריקה/Jamaica"
+
+#: $lang->'timezones'->'America/Juneau'
+msgid "America/Juneau"
+msgstr "אמריקה/Juneau"
+
+#: $lang->'timezones'->'America/Kentucky/Louisville'
+msgid "America/Kentucky/Louisville"
+msgstr "אמריקה/Kentucky/Louisville"
+
+#: $lang->'timezones'->'America/Kentucky/Monticello'
+msgid "America/Kentucky/Monticello"
+msgstr "אמריקה/Kentucky/Monticello"
+
+#: $lang->'timezones'->'America/Kralendijk'
+msgid "America/Kralendijk"
+msgstr "אמריקה/Kralendijk"
+
+#: $lang->'timezones'->'America/La_Paz'
+msgid "America/La Paz"
+msgstr "אמריקה/La Paz"
+
+#: $lang->'timezones'->'America/Lima'
+msgid "America/Lima"
+msgstr "אמריקה/Lima"
+
+#: $lang->'timezones'->'America/Los_Angeles'
+msgid "America/Los Angeles"
+msgstr "אמריקה/Los Angeles"
+
+#: $lang->'timezones'->'America/Lower_Princes'
+msgid "America/Lower Princes"
+msgstr "אמריקה/Lower Princes"
+
+#: $lang->'timezones'->'America/Maceio'
+msgid "America/Maceio"
+msgstr "אמריקה/Maceio"
+
+#: $lang->'timezones'->'America/Managua'
+msgid "America/Managua"
+msgstr "אמריקה/Managua"
+
+#: $lang->'timezones'->'America/Manaus'
+msgid "America/Manaus"
+msgstr "אמריקה/Manaus"
+
+#: $lang->'timezones'->'America/Marigot'
+msgid "America/Marigot"
+msgstr "אמריקה/Marigot"
+
+#: $lang->'timezones'->'America/Martinique'
+msgid "America/Martinique"
+msgstr "אמריקה/Martinique"
+
+#: $lang->'timezones'->'America/Matamoros'
+msgid "America/Matamoros"
+msgstr "אמריקה/Matamoros"
+
+#: $lang->'timezones'->'America/Mazatlan'
+msgid "America/Mazatlan"
+msgstr "אמריקה/Mazatlan"
+
+#: $lang->'timezones'->'America/Menominee'
+msgid "America/Menominee"
+msgstr "אמריקה/Menominee"
+
+#: $lang->'timezones'->'America/Merida'
+msgid "America/Merida"
+msgstr "אמריקה/Merida"
+
+#: $lang->'timezones'->'America/Metlakatla'
+msgid "America/Metlakatla"
+msgstr "אמריקה/Metlakatla"
+
+#: $lang->'timezones'->'America/Mexico_City'
+msgid "America/Mexico City"
+msgstr "אמריקה/Mexico City"
+
+#: $lang->'timezones'->'America/Miquelon'
+msgid "America/Miquelon"
+msgstr "אמריקה/Miquelon"
+
+#: $lang->'timezones'->'America/Moncton'
+msgid "America/Moncton"
+msgstr "אמריקה/Moncton"
+
+#: $lang->'timezones'->'America/Monterrey'
+msgid "America/Monterrey"
+msgstr "אמריקה/Monterrey"
+
+#: $lang->'timezones'->'America/Montevideo'
+msgid "America/Montevideo"
+msgstr "אמריקה/Montevideo"
+
+#: $lang->'timezones'->'America/Montreal'
+msgid "America/Montreal"
+msgstr "אמריקה/Montreal"
+
+#: $lang->'timezones'->'America/Montserrat'
+msgid "America/Montserrat"
+msgstr "אמריקה/Montserrat"
+
+#: $lang->'timezones'->'America/Nassau'
+msgid "America/Nassau"
+msgstr "אמריקה/Nassau"
+
+#: $lang->'timezones'->'America/New_York'
+msgid "America/New York"
+msgstr "אמריקה/New York"
+
+#: $lang->'timezones'->'America/Nipigon'
+msgid "America/Nipigon"
+msgstr "אמריקה/Nipigon"
+
+#: $lang->'timezones'->'America/Nome'
+msgid "America/Nome"
+msgstr "אמריקה/Nome"
+
+#: $lang->'timezones'->'America/Noronha'
+msgid "America/Noronha"
+msgstr "אמריקה/Noronha"
+
+#: $lang->'timezones'->'America/North_Dakota/Beulah'
+msgid "America/North Dakota/Beulah"
+msgstr "אמריקה/North Dakota/Beulah"
+
+#: $lang->'timezones'->'America/North_Dakota/Center'
+msgid "America/North Dakota/Center"
+msgstr "אמריקה/North Dakota/Center"
+
+#: $lang->'timezones'->'America/North_Dakota/New_Salem'
+msgid "America/North Dakota/New Salem"
+msgstr "אמריקה/North Dakota/New Salem"
+
+#: $lang->'timezones'->'America/Ojinaga'
+msgid "America/Ojinaga"
+msgstr "אמריקה/Ojinaga"
+
+#: $lang->'timezones'->'America/Panama'
+msgid "America/Panama"
+msgstr "אמריקה/Panama"
+
+#: $lang->'timezones'->'America/Pangnirtung'
+msgid "America/Pangnirtung"
+msgstr "אמריקה/Pangnirtung"
+
+#: $lang->'timezones'->'America/Paramaribo'
+msgid "America/Paramaribo"
+msgstr "אמריקה/Paramaribo"
+
+#: $lang->'timezones'->'America/Phoenix'
+msgid "America/Phoenix"
+msgstr "אמריקה/Phoenix"
+
+#: $lang->'timezones'->'America/Port-au-Prince'
+msgid "America/Port-au-Prince"
+msgstr "אמריקה/Port-au-Prince"
+
+#: $lang->'timezones'->'America/Port_of_Spain'
+msgid "America/Port of Spain"
+msgstr "אמריקה/Port of Spain"
+
+#: $lang->'timezones'->'America/Porto_Velho'
+msgid "America/Porto Velho"
+msgstr "אמריקה/Porto Velho"
+
+#: $lang->'timezones'->'America/Puerto_Rico'
+msgid "America/Puerto Rico"
+msgstr "אמריקה/Puerto Rico"
+
+#: $lang->'timezones'->'America/Rainy_River'
+msgid "America/Rainy River"
+msgstr "אמריקה/Rainy River"
+
+#: $lang->'timezones'->'America/Rankin_Inlet'
+msgid "America/Rankin Inlet"
+msgstr "אמריקה/Rankin Inlet"
+
+#: $lang->'timezones'->'America/Recife'
+msgid "America/Recife"
+msgstr "אמריקה/Recife"
+
+#: $lang->'timezones'->'America/Regina'
+msgid "America/Regina"
+msgstr "אמריקה/Regina"
+
+#: $lang->'timezones'->'America/Resolute'
+msgid "America/Resolute"
+msgstr "אמריקה/Resolute"
+
+#: $lang->'timezones'->'America/Rio_Branco'
+msgid "America/Rio Branco"
+msgstr "אמריקה/Rio Branco"
+
+#: $lang->'timezones'->'America/Santa_Isabel'
+msgid "America/Santa Isabel"
+msgstr "אמריקה/Santa Isabel"
+
+#: $lang->'timezones'->'America/Santarem'
+msgid "America/Santarem"
+msgstr "אמריקה/Santarem"
+
+#: $lang->'timezones'->'America/Santiago'
+msgid "America/Santiago"
+msgstr "אמריקה/Santiago"
+
+#: $lang->'timezones'->'America/Santo_Domingo'
+msgid "America/Santo Domingo"
+msgstr "אמריקה/Santo Domingo"
+
+#: $lang->'timezones'->'America/Sao_Paulo'
+msgid "America/Sao Paulo"
+msgstr "אמריקה/Sao Paulo"
+
+#: $lang->'timezones'->'America/Scoresbysund'
+msgid "America/Scoresbysund"
+msgstr "אמריקה/Scoresbysund"
+
+#: $lang->'timezones'->'America/Shiprock'
+msgid "America/Shiprock"
+msgstr "אמריקה/Shiprock"
+
+#: $lang->'timezones'->'America/Sitka'
+msgid "America/Sitka"
+msgstr "אמריקה/Sitka"
+
+#: $lang->'timezones'->'America/St_Barthelemy'
+msgid "America/St. Barthelemy"
+msgstr "אמריקה/St. Barthelemy"
+
+#: $lang->'timezones'->'America/St_Johns'
+msgid "America/St. Johns"
+msgstr "אמריקה/St. Johns"
+
+#: $lang->'timezones'->'America/St_Kitts'
+msgid "America/St. Kitts"
+msgstr "אמריקה/St. Kitts"
+
+#: $lang->'timezones'->'America/St_Lucia'
+msgid "America/St. Lucia"
+msgstr "אמריקה/St. Lucia"
+
+#: $lang->'timezones'->'America/St_Thomas'
+msgid "America/St. Thomas"
+msgstr "אמריקה/St. Thomas"
+
+#: $lang->'timezones'->'America/St_Vincent'
+msgid "America/St. Vincent"
+msgstr "אמריקה/St. Vincent"
+
+#: $lang->'timezones'->'America/Swift_Current'
+msgid "America/Swift Current"
+msgstr "אמריקה/Swift Current"
+
+#: $lang->'timezones'->'America/Tegucigalpa'
+msgid "America/Tegucigalpa"
+msgstr "אמריקה/Tegucigalpa"
+
+#: $lang->'timezones'->'America/Thule'
+msgid "America/Thule"
+msgstr "אמריקה/Thule"
+
+#: $lang->'timezones'->'America/Thunder_Bay'
+msgid "America/Thunder Bay"
+msgstr "אמריקה/Thunder Bay"
+
+#: $lang->'timezones'->'America/Tijuana'
+msgid "America/Tijuana"
+msgstr "אמריקה/Tijuana"
+
+#: $lang->'timezones'->'America/Toronto'
+msgid "America/Toronto"
+msgstr "אמריקה/Toronto"
+
+#: $lang->'timezones'->'America/Tortola'
+msgid "America/Tortola"
+msgstr "אמריקה/Tortola"
+
+#: $lang->'timezones'->'America/Vancouver'
+msgid "America/Vancouver"
+msgstr "אמריקה/Vancouver"
+
+#: $lang->'timezones'->'America/Whitehorse'
+msgid "America/Whitehorse"
+msgstr "אמריקה/Whitehorse"
+
+#: $lang->'timezones'->'America/Winnipeg'
+msgid "America/Winnipeg"
+msgstr "אמריקה/Winnipeg"
+
+#: $lang->'timezones'->'America/Yakutat'
+msgid "America/Yakutat"
+msgstr "אמריקה/Yakutat"
+
+#: $lang->'timezones'->'America/Yellowknife'
+msgid "America/Yellowknife"
+msgstr "אמריקה/Yellowknife"
+
+#: $lang->'timezones'->'Antarctica/Casey'
+msgid "Antarctica/Casey"
+msgstr "אנטארקטיקה/Casey"
+
+#: $lang->'timezones'->'Antarctica/Davis'
+msgid "Antarctica/Davis"
+msgstr "אנטארקטיקה/Davis"
+
+#: $lang->'timezones'->'Antarctica/DumontDUrville'
+msgid "Antarctica/DumontDUrville"
+msgstr "אנטארקטיקה/DumontDUrville"
+
+#: $lang->'timezones'->'Antarctica/Macquarie'
+msgid "Antarctica/Macquarie"
+msgstr "אנטארקטיקה/Macquarie"
+
+#: $lang->'timezones'->'Antarctica/Mawson'
+msgid "Antarctica/Mawson"
+msgstr "אנטארקטיקה/Mawson"
+
+#: $lang->'timezones'->'Antarctica/McMurdo'
+msgid "Antarctica/McMurdo"
+msgstr "אנטארקטיקה/McMurdo"
+
+#: $lang->'timezones'->'Antarctica/Palmer'
+msgid "Antarctica/Palmer"
+msgstr "אנטארקטיקה/Palmer"
+
+#: $lang->'timezones'->'Antarctica/Rothera'
+msgid "Antarctica/Rothera"
+msgstr "אנטארקטיקה/Rothera"
+
+#: $lang->'timezones'->'Antarctica/South_Pole'
+msgid "Antarctica/South Pole"
+msgstr "אנטארקטיקה/South Pole"
+
+#: $lang->'timezones'->'Antarctica/Syowa'
+msgid "Antarctica/Syowa"
+msgstr "אנטארקטיקה/Syowa"
+
+#: $lang->'timezones'->'Antarctica/Vostok'
+msgid "Antarctica/Vostok"
+msgstr "אנטארקטיקה/Vostok"
+
+#: $lang->'timezones'->'Arctic/Longyearbyen'
+msgid "Arctic/Longyearbyen"
+msgstr "הארקטי/Longyearbyen"
+
+#: $lang->'timezones'->'Asia/Aden'
+msgid "Asia/Aden"
+msgstr "אסיה/Aden"
+
+#: $lang->'timezones'->'Asia/Almaty'
+msgid "Asia/Almaty"
+msgstr "אסיה/Almaty"
+
+#: $lang->'timezones'->'Asia/Amman'
+msgid "Asia/Amman"
+msgstr "אסיה/Amman"
+
+#: $lang->'timezones'->'Asia/Anadyr'
+msgid "Asia/Anadyr"
+msgstr "אסיה/Anadyr"
+
+#: $lang->'timezones'->'Asia/Aqtau'
+msgid "Asia/Aqtau"
+msgstr "אסיה/Aqtau"
+
+#: $lang->'timezones'->'Asia/Aqtobe'
+msgid "Asia/Aqtobe"
+msgstr "אסיה/Aqtobe"
+
+#: $lang->'timezones'->'Asia/Ashgabat'
+msgid "Asia/Ashgabat"
+msgstr "אסיה/Ashgabat"
+
+#: $lang->'timezones'->'Asia/Baghdad'
+msgid "Asia/Baghdad"
+msgstr "אסיה/Baghdad"
+
+#: $lang->'timezones'->'Asia/Bahrain'
+msgid "Asia/Bahrain"
+msgstr "אסיה/Bahrain"
+
+#: $lang->'timezones'->'Asia/Baku'
+msgid "Asia/Baku"
+msgstr "אסיה/Baku"
+
+#: $lang->'timezones'->'Asia/Bangkok'
+msgid "Asia/Bangkok"
+msgstr "אסיה/Bangkok"
+
+#: $lang->'timezones'->'Asia/Beirut'
+msgid "Asia/Beirut"
+msgstr "אסיה/ביירות"
+
+#: $lang->'timezones'->'Asia/Bishkek'
+msgid "Asia/Bishkek"
+msgstr "אסיה/Bishkek"
+
+#: $lang->'timezones'->'Asia/Brunei'
+msgid "Asia/Brunei"
+msgstr "אסיה/Brunei"
+
+#: $lang->'timezones'->'Asia/Choibalsan'
+msgid "Asia/Choibalsan"
+msgstr "אסיה/Choibalsan"
+
+#: $lang->'timezones'->'Asia/Chongqing'
+msgid "Asia/Chongqing"
+msgstr "אסיה/Chongqing"
+
+#: $lang->'timezones'->'Asia/Colombo'
+msgid "Asia/Colombo"
+msgstr "אסיה/Colombo"
+
+#: $lang->'timezones'->'Asia/Damascus'
+msgid "Asia/Damascus"
+msgstr "אסיה/דמשק"
+
+#: $lang->'timezones'->'Asia/Dhaka'
+msgid "Asia/Dhaka"
+msgstr "אסיה/Dhaka"
+
+#: $lang->'timezones'->'Asia/Dili'
+msgid "Asia/Dili"
+msgstr "אסיה/Dili"
+
+#: $lang->'timezones'->'Asia/Dubai'
+msgid "Asia/Dubai"
+msgstr "אסיה/Dubai"
+
+#: $lang->'timezones'->'Asia/Dushanbe'
+msgid "Asia/Dushanbe"
+msgstr "אסיה/Dushanbe"
+
+#: $lang->'timezones'->'Asia/Gaza'
+msgid "Asia/Gaza"
+msgstr "אסיה/עזה"
+
+#: $lang->'timezones'->'Asia/Harbin'
+msgid "Asia/Harbin"
+msgstr "אסיה/Harbin"
+
+#: $lang->'timezones'->'Asia/Hebron'
+msgid "Asia/Hebron"
+msgstr "אסיה/חברון"
+
+#: $lang->'timezones'->'Asia/Ho_Chi_Minh'
+msgid "Asia/Ho Chi Minh"
+msgstr "אסיה/Ho Chi Minh"
+
+#: $lang->'timezones'->'Asia/Hong_Kong'
+msgid "Asia/Hong Kong"
+msgstr "אסיה/הונג קונג"
+
+#: $lang->'timezones'->'Asia/Hovd'
+msgid "Asia/Hovd"
+msgstr "אסיה/חובד"
+
+#: $lang->'timezones'->'Asia/Irkutsk'
+msgid "Asia/Irkutsk"
+msgstr "אסיה/אירקוטסק"
+
+#: $lang->'timezones'->'Asia/Jakarta'
+msgid "Asia/Jakarta"
+msgstr "אסיה/Jakarta"
+
+#: $lang->'timezones'->'Asia/Jayapura'
+msgid "Asia/Jayapura"
+msgstr "אסיה/Jayapura"
+
+#: $lang->'timezones'->'Asia/Jerusalem'
+msgid "Asia/Jerusalem"
+msgstr "אסיה/ירושלים"
+
+#: $lang->'timezones'->'Asia/Kabul'
+msgid "Asia/Kabul"
+msgstr "אסיה/Kabul"
+
+#: $lang->'timezones'->'Asia/Kamchatka'
+msgid "Asia/Kamchatka"
+msgstr "אסיה/Kamchatka"
+
+#: $lang->'timezones'->'Asia/Karachi'
+msgid "Asia/Karachi"
+msgstr "אסיה/Karachi"
+
+#: $lang->'timezones'->'Asia/Kashgar'
+msgid "Asia/Kashgar"
+msgstr "אסיה/Kashgar"
+
+#: $lang->'timezones'->'Asia/Kathmandu'
+msgid "Asia/Kathmandu"
+msgstr "אסיה/Kathmandu"
+
+#: $lang->'timezones'->'Asia/Khandyga'
+msgid "Asia/Khandyga"
+msgstr "אסיה/Khandyga"
+
+#: $lang->'timezones'->'Asia/Kolkata'
+msgid "Asia/Kolkata"
+msgstr "אסיה/Kolkata"
+
+#: $lang->'timezones'->'Asia/Krasnoyarsk'
+msgid "Asia/Krasnoyarsk"
+msgstr "אסיה/Krasnoyarsk"
+
+#: $lang->'timezones'->'Asia/Kuala_Lumpur'
+msgid "Asia/Kuala Lumpur"
+msgstr "אסיה/Kuala Lumpur"
+
+#: $lang->'timezones'->'Asia/Kuching'
+msgid "Asia/Kuching"
+msgstr "אסיה/Kuching"
+
+#: $lang->'timezones'->'Asia/Kuwait'
+msgid "Asia/Kuwait"
+msgstr "אסיה/Kuwait"
+
+#: $lang->'timezones'->'Asia/Macau'
+msgid "Asia/Macau"
+msgstr "אסיה/Macau"
+
+#: $lang->'timezones'->'Asia/Magadan'
+msgid "Asia/Magadan"
+msgstr "אסיה/Magadan"
+
+#: $lang->'timezones'->'Asia/Makassar'
+msgid "Asia/Makassar"
+msgstr "אסיה/Makassar"
+
+#: $lang->'timezones'->'Asia/Manila'
+msgid "Asia/Manila"
+msgstr "אסיה/Manila"
+
+#: $lang->'timezones'->'Asia/Muscat'
+msgid "Asia/Muscat"
+msgstr "אסיה/Muscat"
+
+#: $lang->'timezones'->'Asia/Nicosia'
+msgid "Asia/Nicosia"
+msgstr "אסיה/Nicosia"
+
+#: $lang->'timezones'->'Asia/Novokuznetsk'
+msgid "Asia/Novokuznetsk"
+msgstr "אסיה/Novokuznetsk"
+
+#: $lang->'timezones'->'Asia/Novosibirsk'
+msgid "Asia/Novosibirsk"
+msgstr "אסיה/Novosibirsk"
+
+#: $lang->'timezones'->'Asia/Omsk'
+msgid "Asia/Omsk"
+msgstr "אסיה/Omsk"
+
+#: $lang->'timezones'->'Asia/Oral'
+msgid "Asia/Oral"
+msgstr "אסיה/Oral"
+
+#: $lang->'timezones'->'Asia/Phnom_Penh'
+msgid "Asia/Phnom Penh"
+msgstr "אסיה/Phnom Penh"
+
+#: $lang->'timezones'->'Asia/Pontianak'
+msgid "Asia/Pontianak"
+msgstr "אסיה/Pontianak"
+
+#: $lang->'timezones'->'Asia/Pyongyang'
+msgid "Asia/Pyongyang"
+msgstr "אסיה/Pyongyang"
+
+#: $lang->'timezones'->'Asia/Qatar'
+msgid "Asia/Qatar"
+msgstr "אסיה/Qatar"
+
+#: $lang->'timezones'->'Asia/Qyzylorda'
+msgid "Asia/Qyzylorda"
+msgstr "אסיה/Qyzylorda"
+
+#: $lang->'timezones'->'Asia/Rangoon'
+msgid "Asia/Rangoon"
+msgstr "אסיה/Rangoon"
+
+#: $lang->'timezones'->'Asia/Riyadh'
+msgid "Asia/Riyadh"
+msgstr "אסיה/Riyadh"
+
+#: $lang->'timezones'->'Asia/Sakhalin'
+msgid "Asia/Sakhalin"
+msgstr "אסיה/Sakhalin"
+
+#: $lang->'timezones'->'Asia/Samarkand'
+msgid "Asia/Samarkand"
+msgstr "אסיה/Samarkand"
+
+#: $lang->'timezones'->'Asia/Seoul'
+msgid "Asia/Seoul"
+msgstr "אסיה/Seoul"
+
+#: $lang->'timezones'->'Asia/Shanghai'
+msgid "Asia/Shanghai"
+msgstr "אסיה/Shanghai"
+
+#: $lang->'timezones'->'Asia/Singapore'
+msgid "Asia/Singapore"
+msgstr "אסיה/Singapore"
+
+#: $lang->'timezones'->'Asia/Taipei'
+msgid "Asia/Taipei"
+msgstr "אסיה/Taipei"
+
+#: $lang->'timezones'->'Asia/Tashkent'
+msgid "Asia/Tashkent"
+msgstr "אסיה/Tashkent"
+
+#: $lang->'timezones'->'Asia/Tbilisi'
+msgid "Asia/Tbilisi"
+msgstr "אסיה/Tbilisi"
+
+#: $lang->'timezones'->'Asia/Tehran'
+msgid "Asia/Tehran"
+msgstr "אסיה/Tehran"
+
+#: $lang->'timezones'->'Asia/Thimphu'
+msgid "Asia/Thimphu"
+msgstr "אסיה/Thimphu"
+
+#: $lang->'timezones'->'Asia/Tokyo'
+msgid "Asia/Tokyo"
+msgstr "אסיה/Tokyo"
+
+#: $lang->'timezones'->'Asia/Ulaanbaatar'
+msgid "Asia/Ulaanbaatar"
+msgstr "אסיה/Ulaanbaatar"
+
+#: $lang->'timezones'->'Asia/Urumqi'
+msgid "Asia/Urumqi"
+msgstr "אסיה/Urumqi"
+
+#: $lang->'timezones'->'Asia/Ust-Nera'
+msgid "Asia/Ust-Nera"
+msgstr "אסיה/Ust-Nera"
+
+#: $lang->'timezones'->'Asia/Vientiane'
+msgid "Asia/Vientiane"
+msgstr "אסיה/Vientiane"
+
+#: $lang->'timezones'->'Asia/Vladivostok'
+msgid "Asia/Vladivostok"
+msgstr "אסיה/Vladivostok"
+
+#: $lang->'timezones'->'Asia/Yakutsk'
+msgid "Asia/Yakutsk"
+msgstr "אסיה/Yakutsk"
+
+#: $lang->'timezones'->'Asia/Yekaterinburg'
+msgid "Asia/Yekaterinburg"
+msgstr "אסיה/Yekaterinburg"
+
+#: $lang->'timezones'->'Asia/Yerevan'
+msgid "Asia/Yerevan"
+msgstr "אסיה/Yerevan"
+
+#: $lang->'timezones'->'Atlantic/Azores'
+msgid "Atlantic/Azores"
+msgstr "אנטלנטי/Azores"
+
+#: $lang->'timezones'->'Atlantic/Bermuda'
+msgid "Atlantic/Bermuda"
+msgstr "אנטלנטי/Bermuda"
+
+#: $lang->'timezones'->'Atlantic/Canary'
+msgid "Atlantic/Canary"
+msgstr "אנטלנטי/Canary"
+
+#: $lang->'timezones'->'Atlantic/Cape_Verde'
+msgid "Atlantic/Cape Verde"
+msgstr "אנטלנטי/Cape Verde"
+
+#: $lang->'timezones'->'Atlantic/Faroe'
+msgid "Atlantic/Faroe"
+msgstr "אנטלנטי/Faroe"
+
+#: $lang->'timezones'->'Atlantic/Madeira'
+msgid "Atlantic/Madeira"
+msgstr "אנטלנטי/Madeira"
+
+#: $lang->'timezones'->'Atlantic/Reykjavik'
+msgid "Atlantic/Reykjavik"
+msgstr "אנטלנטי/Reykjavik"
+
+#: $lang->'timezones'->'Atlantic/South_Georgia'
+msgid "Atlantic/South Georgia"
+msgstr "אנטלנטי/South Georgia"
+
+#: $lang->'timezones'->'Atlantic/St_Helena'
+msgid "Atlantic/St. Helena"
+msgstr "אנטלנטי/St. Helena"
+
+#: $lang->'timezones'->'Atlantic/Stanley'
+msgid "Atlantic/Stanley"
+msgstr "אנטלנטי/Stanley"
+
+#: $lang->'timezones'->'Australia/Adelaide'
+msgid "Australia/Adelaide"
+msgstr "אוסטרליה/Adelaide"
+
+#: $lang->'timezones'->'Australia/Brisbane'
+msgid "Australia/Brisbane"
+msgstr "אוסטרליה/Brisbane"
+
+#: $lang->'timezones'->'Australia/Broken_Hill'
+msgid "Australia/Broken Hill"
+msgstr "אוסטרליה/Broken Hill"
+
+#: $lang->'timezones'->'Australia/Currie'
+msgid "Australia/Currie"
+msgstr "אוסטרליה/Currie"
+
+#: $lang->'timezones'->'Australia/Darwin'
+msgid "Australia/Darwin"
+msgstr "אוסטרליה/Darwin"
+
+#: $lang->'timezones'->'Australia/Eucla'
+msgid "Australia/Eucla"
+msgstr "אוסטרליה/Eucla"
+
+#: $lang->'timezones'->'Australia/Hobart'
+msgid "Australia/Hobart"
+msgstr "אוסטרליה/Hobart"
+
+#: $lang->'timezones'->'Australia/Lindeman'
+msgid "Australia/Lindeman"
+msgstr "אוסטרליה/Lindeman"
+
+#: $lang->'timezones'->'Australia/Lord_Howe'
+msgid "Australia/Lord Howe"
+msgstr "אוסטרליה/Lord Howe"
+
+#: $lang->'timezones'->'Australia/Melbourne'
+msgid "Australia/Melbourne"
+msgstr "אוסטרליה/Melbourne"
+
+#: $lang->'timezones'->'Australia/Perth'
+msgid "Australia/Perth"
+msgstr "אוסטרליה/Perth"
+
+#: $lang->'timezones'->'Australia/Sydney'
+msgid "Australia/Sydney"
+msgstr "אוסטרליה/Sydney"
+
+#: $lang->'timezones'->'Europe/Amsterdam'
+msgid "Europe/Amsterdam"
+msgstr "אירופה/Amsterdam"
+
+#: $lang->'timezones'->'Europe/Andorra'
+msgid "Europe/Andorra"
+msgstr "אירופה/Andorra"
+
+#: $lang->'timezones'->'Europe/Athens'
+msgid "Europe/Athens"
+msgstr "אירופה/Athens"
+
+#: $lang->'timezones'->'Europe/Belgrade'
+msgid "Europe/Belgrade"
+msgstr "אירופה/Belgrade"
+
+#: $lang->'timezones'->'Europe/Berlin'
+msgid "Europe/Berlin"
+msgstr "אירופה/Berlin"
+
+#: $lang->'timezones'->'Europe/Bratislava'
+msgid "Europe/Bratislava"
+msgstr "אירופה/Bratislava"
+
+#: $lang->'timezones'->'Europe/Brussels'
+msgid "Europe/Brussels"
+msgstr "אירופה/Brussels"
+
+#: $lang->'timezones'->'Europe/Bucharest'
+msgid "Europe/Bucharest"
+msgstr "אירופה/Bucharest"
+
+#: $lang->'timezones'->'Europe/Budapest'
+msgid "Europe/Budapest"
+msgstr "אירופה/Budapest"
+
+#: $lang->'timezones'->'Europe/Busingen'
+msgid "Europe/Busingen"
+msgstr "אירופה/Busingen"
+
+#: $lang->'timezones'->'Europe/Chisinau'
+msgid "Europe/Chisinau"
+msgstr "אירופה/Chisinau"
+
+#: $lang->'timezones'->'Europe/Copenhagen'
+msgid "Europe/Copenhagen"
+msgstr "אירופה/Copenhagen"
+
+#: $lang->'timezones'->'Europe/Dublin'
+msgid "Europe/Dublin"
+msgstr "אירופה/Dublin"
+
+#: $lang->'timezones'->'Europe/Gibraltar'
+msgid "Europe/Gibraltar"
+msgstr "אירופה/Gibraltar"
+
+#: $lang->'timezones'->'Europe/Guernsey'
+msgid "Europe/Guernsey"
+msgstr "אירופה/Guernsey"
+
+#: $lang->'timezones'->'Europe/Helsinki'
+msgid "Europe/Helsinki"
+msgstr "אירופה/Helsinki"
+
+#: $lang->'timezones'->'Europe/Isle_of_Man'
+msgid "Europe/Isle of Man"
+msgstr "אירופה/Isle of Man"
+
+#: $lang->'timezones'->'Europe/Istanbul'
+msgid "Europe/Istanbul"
+msgstr "אירופה/Istanbul"
+
+#: $lang->'timezones'->'Europe/Jersey'
+msgid "Europe/Jersey"
+msgstr "אירופה/Jersey"
+
+#: $lang->'timezones'->'Europe/Kaliningrad'
+msgid "Europe/Kaliningrad"
+msgstr "אירופה/Kaliningrad"
+
+#: $lang->'timezones'->'Europe/Kiev'
+msgid "Europe/Kiev"
+msgstr "אירופה/Kiev"
+
+#: $lang->'timezones'->'Europe/Lisbon'
+msgid "Europe/Lisbon"
+msgstr "אירופה/Lisbon"
+
+#: $lang->'timezones'->'Europe/Ljubljana'
+msgid "Europe/Ljubljana"
+msgstr "אירופה/Ljubljana"
+
+#: $lang->'timezones'->'Europe/London'
+msgid "Europe/London"
+msgstr "אירופה/London"
+
+#: $lang->'timezones'->'Europe/Luxembourg'
+msgid "Europe/Luxembourg"
+msgstr "אירופה/Luxembourg"
+
+#: $lang->'timezones'->'Europe/Madrid'
+msgid "Europe/Madrid"
+msgstr "אירופה/Madrid"
+
+#: $lang->'timezones'->'Europe/Malta'
+msgid "Europe/Malta"
+msgstr "אירופה/Malta"
+
+#: $lang->'timezones'->'Europe/Mariehamn'
+msgid "Europe/Mariehamn"
+msgstr "אירופה/Mariehamn"
+
+#: $lang->'timezones'->'Europe/Minsk'
+msgid "Europe/Minsk"
+msgstr "אירופה/Minsk"
+
+#: $lang->'timezones'->'Europe/Monaco'
+msgid "Europe/Monaco"
+msgstr "אירופה/Monaco"
+
+#: $lang->'timezones'->'Europe/Moscow'
+msgid "Europe/Moscow"
+msgstr "אירופה/Moscow"
+
+#: $lang->'timezones'->'Europe/Oslo'
+msgid "Europe/Oslo"
+msgstr "אירופה/Oslo"
+
+#: $lang->'timezones'->'Europe/Paris'
+msgid "Europe/Paris"
+msgstr "אירופה/Paris"
+
+#: $lang->'timezones'->'Europe/Podgorica'
+msgid "Europe/Podgorica"
+msgstr "אירופה/Podgorica"
+
+#: $lang->'timezones'->'Europe/Prague'
+msgid "Europe/Prague"
+msgstr "אירופה/Prague"
+
+#: $lang->'timezones'->'Europe/Riga'
+msgid "Europe/Riga"
+msgstr "אירופה/Riga"
+
+#: $lang->'timezones'->'Europe/Rome'
+msgid "Europe/Rome"
+msgstr "אירופה/Rome"
+
+#: $lang->'timezones'->'Europe/Samara'
+msgid "Europe/Samara"
+msgstr "אירופה/Samara"
+
+#: $lang->'timezones'->'Europe/San_Marino'
+msgid "Europe/San Marino"
+msgstr "אירופה/San Marino"
+
+#: $lang->'timezones'->'Europe/Sarajevo'
+msgid "Europe/Sarajevo"
+msgstr "אירופה/Sarajevo"
+
+#: $lang->'timezones'->'Europe/Simferopol'
+msgid "Europe/Simferopol"
+msgstr "אירופה/Simferopol"
+
+#: $lang->'timezones'->'Europe/Skopje'
+msgid "Europe/Skopje"
+msgstr "אירופה/Skopje"
+
+#: $lang->'timezones'->'Europe/Sofia'
+msgid "Europe/Sofia"
+msgstr "אירופה/Sofia"
+
+#: $lang->'timezones'->'Europe/Stockholm'
+msgid "Europe/Stockholm"
+msgstr "אירופה/Stockholm"
+
+#: $lang->'timezones'->'Europe/Tallinn'
+msgid "Europe/Tallinn"
+msgstr "אירופה/Tallinn"
+
+#: $lang->'timezones'->'Europe/Tirane'
+msgid "Europe/Tirane"
+msgstr "אירופה/Tirane"
+
+#: $lang->'timezones'->'Europe/Uzhgorod'
+msgid "Europe/Uzhgorod"
+msgstr "אירופה/Uzhgorod"
+
+#: $lang->'timezones'->'Europe/Vaduz'
+msgid "Europe/Vaduz"
+msgstr "אירופה/Vaduz"
+
+#: $lang->'timezones'->'Europe/Vatican'
+msgid "Europe/Vatican"
+msgstr "אירופה/Vatican"
+
+#: $lang->'timezones'->'Europe/Vienna'
+msgid "Europe/Vienna"
+msgstr "אירופה/Vienna"
+
+#: $lang->'timezones'->'Europe/Vilnius'
+msgid "Europe/Vilnius"
+msgstr "אירופה/Vilnius"
+
+#: $lang->'timezones'->'Europe/Volgograd'
+msgid "Europe/Volgograd"
+msgstr "אירופה/Volgograd"
+
+#: $lang->'timezones'->'Europe/Warsaw'
+msgid "Europe/Warsaw"
+msgstr "אירופה/Warsaw"
+
+#: $lang->'timezones'->'Europe/Zagreb'
+msgid "Europe/Zagreb"
+msgstr "אירופה/Zagreb"
+
+#: $lang->'timezones'->'Europe/Zaporozhye'
+msgid "Europe/Zaporozhye"
+msgstr "אירופה/Zaporozhye"
+
+#: $lang->'timezones'->'Europe/Zurich'
+msgid "Europe/Zurich"
+msgstr "אירופה/Zurich"
+
+#: $lang->'timezones'->'Indian/Antananarivo'
+msgid "Indian/Antananarivo"
+msgstr "הודי/Antananarivo"
+
+#: $lang->'timezones'->'Indian/Chagos'
+msgid "Indian/Chagos"
+msgstr "הודי/Chagos"
+
+#: $lang->'timezones'->'Indian/Christmas'
+msgid "Indian/Christmas"
+msgstr "הודי/Christmas"
+
+#: $lang->'timezones'->'Indian/Cocos'
+msgid "Indian/Cocos"
+msgstr "הודי/Cocos"
+
+#: $lang->'timezones'->'Indian/Comoro'
+msgid "Indian/Comoro"
+msgstr "הודי/Comoro"
+
+#: $lang->'timezones'->'Indian/Kerguelen'
+msgid "Indian/Kerguelen"
+msgstr "הודי/Kerguelen"
+
+#: $lang->'timezones'->'Indian/Mahe'
+msgid "Indian/Mahe"
+msgstr "הודי/Mahe"
+
+#: $lang->'timezones'->'Indian/Maldives'
+msgid "Indian/Maldives"
+msgstr "הודי/Maldives"
+
+#: $lang->'timezones'->'Indian/Mauritius'
+msgid "Indian/Mauritius"
+msgstr "הודי/Mauritius"
+
+#: $lang->'timezones'->'Indian/Mayotte'
+msgid "Indian/Mayotte"
+msgstr "הודי/Mayotte"
+
+#: $lang->'timezones'->'Indian/Reunion'
+msgid "Indian/Reunion"
+msgstr "הודי/Reunion"
+
+#: $lang->'timezones'->'Pacific/Apia'
+msgid "Pacific/Apia"
+msgstr "האוקיינוס השקט/Apia"
+
+#: $lang->'timezones'->'Pacific/Auckland'
+msgid "Pacific/Auckland"
+msgstr "האוקיינוס השקט/Auckland"
+
+#: $lang->'timezones'->'Pacific/Chatham'
+msgid "Pacific/Chatham"
+msgstr "האוקיינוס השקט/Chatham"
+
+#: $lang->'timezones'->'Pacific/Chuuk'
+msgid "Pacific/Chuuk"
+msgstr "האוקיינוס השקט/Chuuk"
+
+#: $lang->'timezones'->'Pacific/Easter'
+msgid "Pacific/Easter"
+msgstr "האוקיינוס השקט/Easter"
+
+#: $lang->'timezones'->'Pacific/Efate'
+msgid "Pacific/Efate"
+msgstr "האוקיינוס השקט/Efate"
+
+#: $lang->'timezones'->'Pacific/Enderbury'
+msgid "Pacific/Enderbury"
+msgstr "האוקיינוס השקט/Enderbury"
+
+#: $lang->'timezones'->'Pacific/Fakaofo'
+msgid "Pacific/Fakaofo"
+msgstr "האוקיינוס השקט/Fakaofo"
+
+#: $lang->'timezones'->'Pacific/Fiji'
+msgid "Pacific/Fiji"
+msgstr "האוקיינוס השקט/Fiji"
+
+#: $lang->'timezones'->'Pacific/Funafuti'
+msgid "Pacific/Funafuti"
+msgstr "האוקיינוס השקט/Funafuti"
+
+#: $lang->'timezones'->'Pacific/Galapagos'
+msgid "Pacific/Galapagos"
+msgstr "האוקיינוס השקט/Galapagos"
+
+#: $lang->'timezones'->'Pacific/Gambier'
+msgid "Pacific/Gambier"
+msgstr "האוקיינוס השקט/Gambier"
+
+#: $lang->'timezones'->'Pacific/Guadalcanal'
+msgid "Pacific/Guadalcanal"
+msgstr "האוקיינוס השקט/Guadalcanal"
+
+#: $lang->'timezones'->'Pacific/Guam'
+msgid "Pacific/Guam"
+msgstr "האוקיינוס השקט/Guam"
+
+#: $lang->'timezones'->'Pacific/Honolulu'
+msgid "Pacific/Honolulu"
+msgstr "האוקיינוס השקט/Honolulu"
+
+#: $lang->'timezones'->'Pacific/Johnston'
+msgid "Pacific/Johnston"
+msgstr "האוקיינוס השקט/Johnston"
+
+#: $lang->'timezones'->'Pacific/Kiritimati'
+msgid "Pacific/Kiritimati"
+msgstr "האוקיינוס השקט/Kiritimati"
+
+#: $lang->'timezones'->'Pacific/Kosrae'
+msgid "Pacific/Kosrae"
+msgstr "האוקיינוס השקט/Kosrae"
+
+#: $lang->'timezones'->'Pacific/Kwajalein'
+msgid "Pacific/Kwajalein"
+msgstr "האוקיינוס השקט/Kwajalein"
+
+#: $lang->'timezones'->'Pacific/Majuro'
+msgid "Pacific/Majuro"
+msgstr "האוקיינוס השקט/Majuro"
+
+#: $lang->'timezones'->'Pacific/Marquesas'
+msgid "Pacific/Marquesas"
+msgstr "האוקיינוס השקט/Marquesas"
+
+#: $lang->'timezones'->'Pacific/Midway'
+msgid "Pacific/Midway"
+msgstr "האוקיינוס השקט/Midway"
+
+#: $lang->'timezones'->'Pacific/Nauru'
+msgid "Pacific/Nauru"
+msgstr "האוקיינוס השקט/Nauru"
+
+#: $lang->'timezones'->'Pacific/Niue'
+msgid "Pacific/Niue"
+msgstr "האוקיינוס השקט/Niue"
+
+#: $lang->'timezones'->'Pacific/Norfolk'
+msgid "Pacific/Norfolk"
+msgstr "האוקיינוס השקט/Norfolk"
+
+#: $lang->'timezones'->'Pacific/Noumea'
+msgid "Pacific/Noumea"
+msgstr "האוקיינוס השקט/Noumea"
+
+#: $lang->'timezones'->'Pacific/Pago_Pago'
+msgid "Pacific/Pago Pago"
+msgstr "האוקיינוס השקט/Pago Pago"
+
+#: $lang->'timezones'->'Pacific/Palau'
+msgid "Pacific/Palau"
+msgstr "האוקיינוס השקט/Palau"
+
+#: $lang->'timezones'->'Pacific/Pitcairn'
+msgid "Pacific/Pitcairn"
+msgstr "האוקיינוס השקט/Pitcairn"
+
+#: $lang->'timezones'->'Pacific/Pohnpei'
+msgid "Pacific/Pohnpei"
+msgstr "האוקיינוס השקט/Pohnpei"
+
+#: $lang->'timezones'->'Pacific/Port_Moresby'
+msgid "Pacific/Port Moresby"
+msgstr "האוקיינוס השקט/Port Moresby"
+
+#: $lang->'timezones'->'Pacific/Rarotonga'
+msgid "Pacific/Rarotonga"
+msgstr "האוקיינוס השקט/Rarotonga"
+
+#: $lang->'timezones'->'Pacific/Saipan'
+msgid "Pacific/Saipan"
+msgstr "האוקיינוס השקט/Saipan"
+
+#: $lang->'timezones'->'Pacific/Tahiti'
+msgid "Pacific/Tahiti"
+msgstr "האוקיינוס השקט/Tahiti"
+
+#: $lang->'timezones'->'Pacific/Tarawa'
+msgid "Pacific/Tarawa"
+msgstr "האוקיינוס השקט/Tarawa"
+
+#: $lang->'timezones'->'Pacific/Tongatapu'
+msgid "Pacific/Tongatapu"
+msgstr "האוקיינוס השקט/Tongatapu"
+
+#: $lang->'timezones'->'Pacific/Wake'
+msgid "Pacific/Wake"
+msgstr "האוקיינוס השקט/Wake"
+
+#: $lang->'timezones'->'Pacific/Wallis'
+msgid "Pacific/Wallis"
+msgstr "האוקיינוס השקט/Wallis"
+
+#. // The value is only an example and will get replaced by the current time on view
+#: %24lang-%3E%27dateformats%27-%3E%27d+M+Y%2C+H%3Ai%27
+msgid "01 Jan 2007, 13:37"
+msgstr "01 ינואר 2007, 13:37"
+
+#: %24lang-%3E%27dateformats%27-%3E%27d+M+Y+H%3Ai%27
+msgid "01 Jan 2007 13:37"
+msgstr "01 ינואר 2007 13:37"
+
+#: %24lang-%3E%27dateformats%27-%3E%27M+jS%2C+%5C%27y%2C+H%3Ai%27
+msgid "Jan 1st, '07, 13:37"
+msgstr "ינואר 1st, '07, 13:37"
+
+#: %24lang-%3E%27dateformats%27-%3E%27D+M+d%2C+Y+g%3Ai+a%27
+msgid "Mon Jan 01, 2007 1:37 pm"
+msgstr "שני ינואר 01, 2007 1:37 pm"
+
+#: %24lang-%3E%27dateformats%27-%3E%27F+jS%2C+Y%2C+g%3Ai+a%27
+msgid "January 1st, 2007, 1:37 pm"
+msgstr "ינואר 1st, 2007, 1:37 pm"
+
+#: %24lang-%3E%27dateformats%27-%3E%27%7Cd+M+Y%7C%2C+H%3Ai%27
+msgid "Today, 13:37 / 01 Jan 2007, 13:37"
+msgstr "היום, 13:37 / 01 Jan 2007, 13:37"
+
+#: %24lang-%3E%27dateformats%27-%3E%27%7CF+jS%2C+Y%7C%2C+g%3Ai+a%27
+msgid "Today, 1:37 pm / January 1st, 2007, 1:37 pm"
+msgstr "היום, 1:37 pm / ינואר 1st, 2007, 1:37 pm"
+
+#. // The default dateformat which will be used on new installs in this language
+#. // Translators should change this if a the usual date format is different
+#. Mon Jan 01, 2007 1:37 pm
+#: $lang->'default_dateformat'
+msgid "D M d, Y g:i a"
+msgstr "D M d, Y g:i a"

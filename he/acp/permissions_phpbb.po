@@ -1,0 +1,622 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/permissions_phpbb.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/acp/permissions_phpbb.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#. /**
+#. *	EXTENSION-DEVELOPERS PLEASE NOTE
+#. *
+#. *	You are able to put your permission sets into your extension.
+#. *	The permissions logic should be added via the 'core.permissions' event.
+#. *	You can easily add new permission categories, types and permissions, by
+#. *	simply merging them into the respective arrays.
+#. *	The respective language strings should be added into a language file, that
+#. *	start with 'permissions_', so they are automatically loaded within the ACP.
+#. */
+#: $lang->'ACL_CAT_ACTIONS'
+msgid "Actions"
+msgstr "פעולות"
+
+#: $lang->'ACL_CAT_CONTENT'
+msgid "Content"
+msgstr "תוכן"
+
+#: $lang->'ACL_CAT_FORUMS'
+msgid "Forums"
+msgstr "פורומים"
+
+#: $lang->'ACL_CAT_MISC'
+msgid "Misc"
+msgstr "שונות"
+
+#: $lang->'ACL_CAT_PERMISSIONS'
+msgid "Permissions"
+msgstr "הרשאות"
+
+#: $lang->'ACL_CAT_PM'
+msgid "Private messages"
+msgstr "הודעות פרטיות"
+
+#: $lang->'ACL_CAT_POLLS'
+msgid "Polls"
+msgstr "סקרים"
+
+#: $lang->'ACL_CAT_POST'
+msgid "Post"
+msgstr "הודעה"
+
+#: $lang->'ACL_CAT_POST_ACTIONS'
+msgid "Post actions"
+msgstr "פעולות הודעה"
+
+#: $lang->'ACL_CAT_POSTING'
+msgid "Posting"
+msgstr "פרסום"
+
+#: $lang->'ACL_CAT_PROFILE'
+msgid "Profile"
+msgstr "פרופיל"
+
+#: $lang->'ACL_CAT_SETTINGS'
+msgid "Settings"
+msgstr "הגדרות"
+
+#: $lang->'ACL_CAT_TOPIC_ACTIONS'
+msgid "Topic actions"
+msgstr "פעולות נושא"
+
+#: $lang->'ACL_CAT_USER_GROUP'
+msgid "Users &amp; Groups"
+msgstr "משתמשים וקבוצות"
+
+#. // User Permissions
+#: $lang->'ACL_U_VIEWPROFILE'
+msgid "Can view profiles, memberlist and online list"
+msgstr "רשאי לצפות בפרופילים, רשימת המשתמשים, ורשימת המחוברים"
+
+#: $lang->'ACL_U_CHGNAME'
+msgid "Can change username"
+msgstr "רשאי לשנות שם משתמש"
+
+#: $lang->'ACL_U_CHGPASSWD'
+msgid "Can change password"
+msgstr "רשאי לשנות ססמה"
+
+#: $lang->'ACL_U_CHGEMAIL'
+msgid "Can change email address"
+msgstr "רשאי לשנות את כתובת הדואר האלקטרוני"
+
+#: $lang->'ACL_U_CHGAVATAR'
+msgid "Can change avatar"
+msgstr "רשאי לשנות את תמונת התצוגה"
+
+#: $lang->'ACL_U_CHGGRP'
+msgid "Can change default usergroup"
+msgstr "רשאי לשנות את קבוצת ברירת המחדל"
+
+#: $lang->'ACL_U_CHGPROFILEINFO'
+msgid "Can change profile field information"
+msgstr "ראשי לשנות מידע בשדות הפרופיל"
+
+#: $lang->'ACL_U_ATTACH'
+msgctxt "$lang->'ACL_U_ATTACH'"
+msgid "Can attach files"
+msgstr "רשאי לצרף קבצים"
+
+#: $lang->'ACL_U_DOWNLOAD'
+msgctxt "$lang->'ACL_U_DOWNLOAD'"
+msgid "Can download files"
+msgstr "רשאי להוריד קבצים"
+
+#: $lang->'ACL_U_SAVEDRAFTS'
+msgid "Can save drafts"
+msgstr "רשאי לשמור טיוטות"
+
+#: $lang->'ACL_U_CHGCENSORS'
+msgid "Can disable word censors"
+msgstr "רשאי לנטרל מילים מצונזרות"
+
+#: $lang->'ACL_U_SIG'
+msgid "Can use signature"
+msgstr "רשאי להשתמש בחתימה"
+
+#: $lang->'ACL_U_SENDPM'
+msgid "Can send private messages"
+msgstr "רשאי לשלוח הודעות פרטיות"
+
+#: $lang->'ACL_U_MASSPM'
+msgid "Can send messages to multiple users"
+msgstr "רשאי לשלוח הודעות לכמה משתמשים"
+
+#: $lang->'ACL_U_MASSPM_GROUP'
+msgid "Can send messages to groups"
+msgstr "רשאי לשלוח הודעות לקבוצות"
+
+#: $lang->'ACL_U_READPM'
+msgid "Can read private messages"
+msgstr "רשאי לקרוא הודעות פרטיות"
+
+#: $lang->'ACL_U_PM_EDIT'
+msgid "Can edit own private messages"
+msgstr "רשאי לערוך הודעות פרטיות עצמיות"
+
+#: $lang->'ACL_U_PM_DELETE'
+msgid "Can remove private messages from own folder"
+msgstr "רשאי למחוק הודעות פרטיות מהתיקייה האישית"
+
+#: $lang->'ACL_U_PM_FORWARD'
+msgid "Can forward private messages"
+msgstr "רשאי להעביר הודעות פרטיות"
+
+#: $lang->'ACL_U_PM_EMAILPM'
+msgid "Can email private messages"
+msgstr "רשאי לשלוח בדואר אלקטרוני הודעות פרטיות"
+
+#: $lang->'ACL_U_PM_PRINTPM'
+msgid "Can print private messages"
+msgstr "רשאי להדפיס הודעות פרטיות"
+
+#: $lang->'ACL_U_PM_ATTACH'
+msgid "Can attach files in private messages"
+msgstr "רשאי לצרף קבצים בהודעות פרטיות"
+
+#: $lang->'ACL_U_PM_DOWNLOAD'
+msgid "Can download files in private messages"
+msgstr "רשאי להוריד קבצים בהודעות פרטיות"
+
+#: $lang->'ACL_U_PM_BBCODE'
+msgid "Can use BBCode in private messages"
+msgstr "רשאי להשתמש בBBcode בהודעות פרטיות"
+
+#: $lang->'ACL_U_PM_SMILIES'
+msgid "Can use smilies in private messages"
+msgstr "רשאי להשתמש בסמיילים בהודעות פרטיות"
+
+#: $lang->'ACL_U_PM_IMG'
+msgid "Can use [img] BBCode tag in private messages"
+msgstr "רשאי להשתמש בתג [img] בהודעות פרטיות"
+
+#: $lang->'ACL_U_PM_FLASH'
+msgid "Can use [flash] BBCode tag in private messages"
+msgstr "רשאי להשתמש בתג [flash] בהודעות פרטיות"
+
+#: $lang->'ACL_U_SENDEMAIL'
+msgid "Can send emails"
+msgstr "רשאי לשלוח דואר אלקטרוני"
+
+#: $lang->'ACL_U_SENDIM'
+msgid "Can send instant messages"
+msgstr "רשאי לשלוח הודעות פרטיות"
+
+#: $lang->'ACL_U_IGNOREFLOOD'
+msgctxt "$lang->'ACL_U_IGNOREFLOOD'"
+msgid "Can ignore flood limit"
+msgstr "רשאי להתעלם מהגבלת ההצפה"
+
+#: $lang->'ACL_U_HIDEONLINE'
+msgid "Can hide online status"
+msgstr "רשאי להסתיר מצב מחובר"
+
+#: $lang->'ACL_U_VIEWONLINE'
+msgid "Can view hidden online users"
+msgstr "רשאי לראות משתמשים מוסתרים מחוברים"
+
+#: $lang->'ACL_U_SEARCH'
+msgid "Can search board"
+msgstr "רשאי לחפש בפורום"
+
+#. // Forum Permissions
+#: $lang->'ACL_F_LIST'
+msgid "Can see forum"
+msgstr "רשאי לראות פורום"
+
+#: $lang->'ACL_F_READ'
+msgid "Can read forum"
+msgstr "רשאי לקרוא בפורום"
+
+#: $lang->'ACL_F_SEARCH'
+msgid "Can search the forum"
+msgstr "רשאי לחפש בפורום"
+
+#: $lang->'ACL_F_SUBSCRIBE'
+msgid "Can subscribe forum"
+msgstr "רשאי להרשם לפורום"
+
+#: $lang->'ACL_F_PRINT'
+msgid "Can print topics"
+msgstr "רשאי להדפיס נושאים"
+
+#: $lang->'ACL_F_EMAIL'
+msgid "Can email topics"
+msgstr "רשאי לשלוח בדואר האלקטרוני נושאים"
+
+#: $lang->'ACL_F_BUMP'
+msgid "Can bump topics"
+msgstr "רשאי להקפיץ נושאים"
+
+#: $lang->'ACL_F_USER_LOCK'
+msgid "Can lock own topics"
+msgstr "רשאי לנעול נושאים של עצמו"
+
+#: $lang->'ACL_F_DOWNLOAD'
+msgctxt "$lang->'ACL_F_DOWNLOAD'"
+msgid "Can download files"
+msgstr "רשאי להוריד קבצים"
+
+#: $lang->'ACL_F_REPORT'
+msgid "Can report posts"
+msgstr "רשאי לדווח על הודעות"
+
+#: $lang->'ACL_F_POST'
+msgid "Can start new topics"
+msgstr "רשאי לכתוב נושא חדש"
+
+#: $lang->'ACL_F_STICKY'
+msgid "Can post stickies"
+msgstr "רשאי לכתוב נושאים דביקים"
+
+#: $lang->'ACL_F_ANNOUNCE'
+msgid "Can post announcements"
+msgstr "רשאי לכתוב הכרזות"
+
+#: $lang->'ACL_F_ANNOUNCE_GLOBAL'
+msgid "Can post global announcements"
+msgstr ""
+
+#: $lang->'ACL_F_REPLY'
+msgid "Can reply to topics"
+msgstr "רשאי להגיב לנושאים"
+
+#: $lang->'ACL_F_EDIT'
+msgid "Can edit own posts"
+msgstr "רשאי לערוך את הודעותיו"
+
+#: $lang->'ACL_F_DELETE'
+msgid "Can permanently delete own posts"
+msgstr "רשאי למחוק את הודעותיו לצמיתות"
+
+#: $lang->'ACL_F_SOFTDELETE'
+msgid ""
+"Can soft delete own posts<br /><em>Moderators, who have the approve posts "
+"permission, can restore soft deleted posts.</em>"
+msgstr ""
+"רשאי למחוק מחיקה רכה את הודעותיו<br /><em>מנהלים, בעלי ההרשאה לאשר הודעות, "
+"יכולים לשחזר שנמחקו מחיקה רכה.</em>"
+
+#: $lang->'ACL_F_IGNOREFLOOD'
+msgctxt "$lang->'ACL_F_IGNOREFLOOD'"
+msgid "Can ignore flood limit"
+msgstr "רשאי לבטל הגבלת הצפה"
+
+#: $lang->'ACL_F_POSTCOUNT'
+msgid ""
+"Increment post counter<br /><em>Please note that this setting only affects "
+"new posts.</em>"
+msgstr ""
+"ספירת הודעות במונה ההודעות<br /><em>שים לב כי הגדרה זו תחול רק על הודעות "
+"חדשות.</em>"
+
+#: $lang->'ACL_F_NOAPPROVE'
+msgid "Can post without approval"
+msgstr "רשאי לכתוב הודעה ללא אישור"
+
+#: $lang->'ACL_F_ATTACH'
+msgctxt "$lang->'ACL_F_ATTACH'"
+msgid "Can attach files"
+msgstr "רשאי לצרף קבצים"
+
+#: $lang->'ACL_F_ICONS'
+msgid "Can use topic/post icons"
+msgstr "רשאי להשתמש באייקונים בנושאים/הודעות"
+
+#: $lang->'ACL_F_BBCODE'
+msgid "Can use BBCode"
+msgstr "רשאי להשתמש בBBCode"
+
+#: $lang->'ACL_F_FLASH'
+msgid "Can use [flash] BBCode tag"
+msgstr "רשאי להשתמש בתג [flash]"
+
+#: $lang->'ACL_F_IMG'
+msgid "Can use [img] BBCode tag"
+msgstr "רשאי להשתמש בתג [img]"
+
+#: $lang->'ACL_F_SIGS'
+msgid "Can use signatures"
+msgstr "רשאי להשתמש בחתימה"
+
+#: $lang->'ACL_F_SMILIES'
+msgid "Can use smilies"
+msgstr "רשאי להשתמש בסמיילים"
+
+#: $lang->'ACL_F_POLL'
+msgid "Can create polls"
+msgstr "רשאי ליצור סקרים"
+
+#: $lang->'ACL_F_VOTE'
+msgid "Can vote in polls"
+msgstr "רשאי להצביע לסקרים"
+
+#: $lang->'ACL_F_VOTECHG'
+msgid "Can change existing vote"
+msgstr "רשאי לשנות את ההצבעה"
+
+#. // Moderator Permissions
+#: $lang->'ACL_M_EDIT'
+msgid "Can edit posts"
+msgstr "רשאי לערוך הודעות"
+
+#: $lang->'ACL_M_DELETE'
+msgid "Can permanently delete posts"
+msgstr "רשאי למחוק הודעות לצמיתות"
+
+#: $lang->'ACL_M_SOFTDELETE'
+msgid ""
+"Can soft delete posts<br /><em>Moderators, who have the approve posts "
+"permission, can restore soft deleted posts.</em>"
+msgstr ""
+"רשאי למחוק הודעות מחיקה רכה<br /><em>מנהלים, בעלי ההרשאה לאשר הודעות, יכולים "
+"לשחזר שנמחקו מחיקה רכה.</em>"
+
+#: $lang->'ACL_M_APPROVE'
+msgid "Can approve and restore posts"
+msgstr "רשאי לאשר ולשחזר הודעות"
+
+#: $lang->'ACL_M_REPORT'
+msgid "Can close and delete reports"
+msgstr "רשאי לסגור ולמחוק דיווחים"
+
+#: $lang->'ACL_M_CHGPOSTER'
+msgid "Can change post author"
+msgstr "רשאי לשנות את מחבר ההודעה"
+
+#: $lang->'ACL_M_MOVE'
+msgid "Can move topics"
+msgstr "רשאי להעביר נושאים"
+
+#: $lang->'ACL_M_LOCK'
+msgid "Can lock topics"
+msgstr "רשאי לנעול נושאים"
+
+#: $lang->'ACL_M_SPLIT'
+msgid "Can split topics"
+msgstr "רשאי לפצל נושאים"
+
+#: $lang->'ACL_M_MERGE'
+msgid "Can merge topics"
+msgstr "רשאי למזג נושאים"
+
+#: $lang->'ACL_M_INFO'
+msgid "Can view post details"
+msgstr "רשאי לראות פרטי הודעה"
+
+#. This moderator setting is only global (and not local)
+#: $lang->'ACL_M_WARN'
+msgid ""
+"Can issue warnings<br /><em>This setting is only assigned globally. It is "
+"not forum based.</em>"
+msgstr ""
+"רשאי להזהיר<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום "
+"מסוים.</em>"
+
+#. This moderator setting is only global (and not local)
+#: $lang->'ACL_M_PM_REPORT'
+msgid ""
+"Can close and delete reports of private messages<br /><em>This setting is "
+"only assigned globally. It is not forum based.</em>"
+msgstr ""
+"רשאי לסגור ולמחוק דיווחים של הודעות פרטיות<br /><em>הגדרה זו נקבעת באופן "
+"גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>"
+
+#. This moderator setting is only global (and not local)
+#: $lang->'ACL_M_BAN'
+msgid ""
+"Can manage bans<br /><em>This setting is only assigned globally. It is not "
+"forum based.</em>"
+msgstr ""
+"רשאי לנהל חסימות<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת "
+"לפורום מסוים.</em>"
+
+#. // Admin Permissions
+#: $lang->'ACL_A_BOARD'
+msgid "Can alter board settings/check for updates"
+msgstr "רשאי לשנות הגדרות מערכת/לבדוק עבור עדכונים"
+
+#: $lang->'ACL_A_SERVER'
+msgid "Can alter server/communication settings"
+msgstr "רשאי לשנות שרת/הגדרות תקשורת"
+
+#: $lang->'ACL_A_JABBER'
+msgid "Can alter Jabber settings"
+msgstr "רשאי לשנות הגדרות Jabber"
+
+#: $lang->'ACL_A_PHPINFO'
+msgid "Can view php settings"
+msgstr "רשאי לראות הגדרות PHP"
+
+#: $lang->'ACL_A_FORUM'
+msgid "Can manage forums"
+msgstr "רשאי לנהל פורומים"
+
+#: $lang->'ACL_A_FORUMADD'
+msgid "Can add new forums"
+msgstr "רשאי להוסיף פורומים חדשים"
+
+#: $lang->'ACL_A_FORUMDEL'
+msgid "Can delete forums"
+msgstr "רשאי למחוק פורומים"
+
+#: $lang->'ACL_A_PRUNE'
+msgid "Can prune forums"
+msgstr "רשאי לאפס פורומים"
+
+#: $lang->'ACL_A_ICONS'
+msgid "Can alter topic/post icons and smilies"
+msgstr "רשאי לשנות סמיילים ואייקונים לנושא/הודעה"
+
+#: $lang->'ACL_A_WORDS'
+msgid "Can alter word censors"
+msgstr "רשאי לשנות צנזורים"
+
+#: $lang->'ACL_A_BBCODE'
+msgid "Can define BBCode tags"
+msgstr "רשאי להגדיר תגי BBCode"
+
+#: $lang->'ACL_A_ATTACH'
+msgid "Can alter attachment related settings"
+msgstr "רשאי לשנות הגדרות קובץ מצורף"
+
+#: $lang->'ACL_A_USER'
+msgid ""
+"Can manage users<br /><em>This also includes seeing the users browser agent "
+"within the viewonline list.</em>"
+msgstr ""
+"רשאי לנהל משתמשים<br /><em>הגדרה זו כוללת גם צפייה בדפדפן המשתמשים בתוך "
+"רשימת המשתמשים המחוברים.</em>"
+
+#: $lang->'ACL_A_USERDEL'
+msgid "Can delete/prune users"
+msgstr "רשאי למחוק/לאפס משתמשים"
+
+#: $lang->'ACL_A_GROUP'
+msgid "Can manage groups"
+msgstr "רשאי לנהל קבוצות"
+
+#: $lang->'ACL_A_GROUPADD'
+msgid "Can add new groups"
+msgstr "רשאי להוסיף קבוצות חדשות"
+
+#: $lang->'ACL_A_GROUPDEL'
+msgid "Can delete groups"
+msgstr "רשאי למחוק קבוצות"
+
+#: $lang->'ACL_A_RANKS'
+msgid "Can manage ranks"
+msgstr "רשאי לנהל דרגות"
+
+#: $lang->'ACL_A_PROFILE'
+msgid "Can manage custom profile fields"
+msgstr "רשאי לנהל שדות מותאמים אישית בפרופיל"
+
+#: $lang->'ACL_A_NAMES'
+msgid "Can manage disallowed names"
+msgstr "רשאי לנהל שמות משתמש לא מורשים"
+
+#: $lang->'ACL_A_BAN'
+msgid "Can manage bans"
+msgstr "רשאי לנהל חסימות"
+
+#: $lang->'ACL_A_VIEWAUTH'
+msgid "Can view permission masks"
+msgstr "רשאי לראות הרשאות מוסתרות"
+
+#: $lang->'ACL_A_AUTHGROUPS'
+msgid "Can alter permissions for individual groups"
+msgstr "רשאי לשנות הרשאות לקבוצות מסוימות"
+
+#: $lang->'ACL_A_AUTHUSERS'
+msgid "Can alter permissions for individual users"
+msgstr "רשאי לשנות הרשאות למשתמשים מסוימים"
+
+#: $lang->'ACL_A_FAUTH'
+msgid "Can alter forum permission class"
+msgstr "רשאי לשנות הרשאות מחלקה לפורום"
+
+#: $lang->'ACL_A_MAUTH'
+msgid "Can alter moderator permission class"
+msgstr "רשאי לשנות הרשאות מחלקה למנהלים"
+
+#: $lang->'ACL_A_AAUTH'
+msgid "Can alter admin permission class"
+msgstr "רשאי לשנות הרשאות מחלקה למנהל הראשי"
+
+#: $lang->'ACL_A_UAUTH'
+msgid "Can alter user permission class"
+msgstr "רשאי לשנות הרשאות מחלקה למשתמש"
+
+#: $lang->'ACL_A_ROLES'
+msgid "Can manage roles"
+msgstr "רשאי לנהל כללים"
+
+#: $lang->'ACL_A_SWITCHPERM'
+msgid "Can use others permissions"
+msgstr "רשאי להשתמש בהרשאות אחרות"
+
+#: $lang->'ACL_A_STYLES'
+msgid "Can manage styles"
+msgstr "ראשי לנהל עיצובים"
+
+#: $lang->'ACL_A_EXTENSIONS'
+msgid "Can manage extensions"
+msgstr "רשאי לנהל תוספות"
+
+#: $lang->'ACL_A_VIEWLOGS'
+msgid "Can view logs"
+msgstr "רשאי לראות מעקב פעולות"
+
+#: $lang->'ACL_A_CLEARLOGS'
+msgid "Can clear logs"
+msgstr "רשאי למחוק מעקב פעולות"
+
+#: $lang->'ACL_A_MODULES'
+msgid "Can manage modules"
+msgstr "רשאי לנהל מודולים"
+
+#: $lang->'ACL_A_LANGUAGE'
+msgid "Can manage language packs"
+msgstr "רשאי לנהל חבילות שפה"
+
+#: $lang->'ACL_A_EMAIL'
+msgid "Can send mass email"
+msgstr "רשאי להשתמש בשולח הדואר האלקטרוני"
+
+#: $lang->'ACL_A_BOTS'
+msgid "Can manage bots"
+msgstr "רשאי לנהל רובוטים"
+
+#: $lang->'ACL_A_REASONS'
+msgid "Can manage report/denial reasons"
+msgstr "רשאי לנהל סיבות דיווח/חסימה"
+
+#: $lang->'ACL_A_BACKUP'
+msgid "Can backup/restore database"
+msgstr "רשאי לגבות/לשחזר בסיס נתונים"
+
+#: $lang->'ACL_A_SEARCH'
+msgid "Can manage search backends and settings"
+msgstr "רשאי לנהל חיפוש מאגר נתונים והגדרות"

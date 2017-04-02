@@ -1,0 +1,298 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/viewtopic.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/viewtopic.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'APPROVE'
+msgid "Approve"
+msgstr "אשר"
+
+#: $lang->'ATTACHMENT'
+msgid "Attachment"
+msgstr "קובץ מצורף"
+
+#: $lang->'ATTACHMENT_FUNCTIONALITY_DISABLED'
+msgid "The attachments feature has been disabled."
+msgstr "האפשרות לצירוף קבצים בוטלה."
+
+#: $lang->'BOOKMARK_ADDED'
+msgid "Bookmarked topic successfully."
+msgstr "הנושא נוסף למועדפים בהצלחה."
+
+#: $lang->'BOOKMARK_ERR'
+msgid "Bookmarking the topic failed. Please try again."
+msgstr "הוספת הנושא למועדפים נכשלה. אנא נסה שנית."
+
+#: $lang->'BOOKMARK_REMOVED'
+msgid "Removed bookmarked topic successfully."
+msgstr "הנושא הוסר מהמועדפים בהצלחה."
+
+#: $lang->'BOOKMARK_TOPIC'
+msgid "Bookmark topic"
+msgstr "הוסף למועדפים"
+
+#: $lang->'BOOKMARK_TOPIC_REMOVE'
+msgid "Remove from bookmarks"
+msgstr "הסר ממועדפים"
+
+#: $lang->'BUMPED_BY'
+msgid "Last bumped by %1$s on %2$s."
+msgstr "הוקפץ לאחרונה על ידי %1$s בתאריך %2$s."
+
+#: $lang->'BUMP_TOPIC'
+msgid "Bump topic"
+msgstr "הקפץ נושא"
+
+#: $lang->'CODE'
+msgid "Code"
+msgstr "קוד"
+
+#: $lang->'DELETE_TOPIC'
+msgid "Delete topic"
+msgstr "מחק נושא"
+
+#: $lang->'DELETED_INFORMATION'
+msgid "Deleted by %1$s on %2$s"
+msgstr "נמחק על ידי %1$s ב %2$s"
+
+#: $lang->'DISAPPROVE'
+msgid "Disapprove"
+msgstr "אל תאשר"
+
+#: $lang->'DOWNLOAD_NOTICE'
+msgid ""
+"You do not have the required permissions to view the files attached to this "
+"post."
+msgstr "אין לך את ההרשאות המתאימות על מנת לצפות בקבצים המצורפים להודעה זאת."
+
+#: $lang->'EDITED_TIMES_TOTAL'->1
+msgid "Last edited by %2$s on %3$s, edited %1$d time in total."
+msgstr "נערך לאחרונה על ידי %2$s ב %3$s, נערך פעם %1$d בסך הכל."
+
+#: $lang->'EDITED_TIMES_TOTAL'->2
+msgid "Last edited by %2$s on %3$s, edited %1$d times in total."
+msgstr "נערך לאחרונה על ידי %2$s ב %3$s, נערך %1$d פעמים בסך הכל."
+
+#: $lang->'EMAIL_TOPIC'
+msgid "Email topic"
+msgstr "Email topic"
+
+#: $lang->'ERROR_NO_ATTACHMENT'
+msgid "The selected attachment does not exist anymore."
+msgstr "הקובץ המצורף שנבחר לא קיים יותר."
+
+#: $lang->'FILE_NOT_FOUND_404'
+msgid "The file <strong>%s</strong> does not exist."
+msgstr "הקובץ <strong>%s</strong> לא קיים."
+
+#: $lang->'FORK_TOPIC'
+msgid "Copy topic"
+msgstr "העתק נושא"
+
+#: $lang->'FULL_EDITOR'
+msgid "Full Editor &amp; Preview"
+msgstr "עורך מלא ותצוגה מקדימה"
+
+#: $lang->'LINKAGE_FORBIDDEN'
+msgid "You are not authorised to view, download or link from/to this site."
+msgstr "אינך מורשה לצפות, להוריד או לתת קישור ל/מאתר זה."
+
+#: $lang->'LOGIN_NOTIFY_TOPIC'
+msgid "You have been notified about this topic, please login to view it."
+msgstr "קיבלת הודעה על נושא זה, אנא התחבר על מנת לצפות בו."
+
+#: $lang->'LOGIN_VIEWTOPIC'
+msgid ""
+"The board requires you to be registered and logged in to view this topic."
+msgstr "המערכת דורשת ממך להיות רשום ומחובר כדי לצפות בנושא הזה."
+
+#: $lang->'MAKE_ANNOUNCE'
+msgid "Change to “Announcement”"
+msgstr "הפוך להכרזה"
+
+#: $lang->'MAKE_GLOBAL'
+msgid "Change to “Global”"
+msgstr "הפוך לגלובלי"
+
+#: $lang->'MAKE_NORMAL'
+msgid "Change to “Standard Topic”"
+msgstr "הפוך לרגיל"
+
+#: $lang->'MAKE_STICKY'
+msgid "Change to “Sticky”"
+msgstr "הפוך לדביק"
+
+#: $lang->'MAX_OPTIONS_SELECT'->1
+msgid "You may select <strong>%d</strong> option"
+msgstr "אתה יכול לבחור רק אפשרות <strong>%d</strong>"
+
+#: $lang->'MAX_OPTIONS_SELECT'->2
+msgid "You may select up to <strong>%d</strong> options"
+msgstr "אתה יכול לבחור עד <strong>%d</strong> אפשרויות"
+
+#: $lang->'MISSING_INLINE_ATTACHMENT'
+msgid "The attachment <strong>%s</strong> is no longer available"
+msgstr "הקובץ המצורף <strong>%s</strong> לא זמין יותר."
+
+#: $lang->'MOVE_TOPIC'
+msgid "Move topic"
+msgstr "העבר נושא"
+
+#: $lang->'NO_ATTACHMENT_SELECTED'
+msgid "You haven’t selected an attachment to download or view."
+msgstr "לא בחרת קובץ מצורף להוריד או לצפייה."
+
+#: $lang->'NO_NEWER_TOPICS'
+msgid "There are no newer topics in this forum."
+msgstr "אין נושאים חדשים יותר בפורום זה."
+
+#: $lang->'NO_OLDER_TOPICS'
+msgid "There are no older topics in this forum."
+msgstr "אין נושאים ישנים יותר בפורום זה."
+
+#: $lang->'NO_UNREAD_POSTS'
+msgid "There are no new unread posts for this topic."
+msgstr "אין הודעות שלא נקראו בנושא הזה."
+
+#: $lang->'NO_VOTE_OPTION'
+msgid "You must specify an option when voting."
+msgstr "אתה מוכרח לבחור אפשרות להצבעה."
+
+#: $lang->'NO_VOTES'
+msgid "No votes"
+msgstr "אין הצבעות"
+
+#: $lang->'POLL_ENDED_AT'
+msgid "Poll ended at %s"
+msgstr "הסקר נגמר בתאריך %s"
+
+#: $lang->'POLL_RUN_TILL'
+msgid "Poll runs till %s"
+msgstr "הסקר פעיל עד %s"
+
+#: $lang->'POLL_VOTED_OPTION'
+msgid "You voted for this option"
+msgstr "הצבעת לאפשרות זאת"
+
+#: $lang->'POST_DELETED_RESTORE'
+msgid "This post has been deleted. It can be restored."
+msgstr "הודעה זו נמחקה. היא איננה נתנת לשחזור."
+
+#: $lang->'PRINT_TOPIC'
+msgid "Print view"
+msgstr "גרסה להדפסה"
+
+#: $lang->'QUICK_MOD'
+msgid "Quick-mod tools"
+msgstr "כלים מהירים"
+
+#: $lang->'QUICKREPLY'
+msgid "Quick Reply"
+msgstr "תגובה מהירה"
+
+#: $lang->'QUOTE'
+msgid "Quote"
+msgstr "ציטוט"
+
+#: $lang->'REPLY_TO_TOPIC'
+msgid "Reply to topic"
+msgstr "הגב לנושא"
+
+#: $lang->'RESTORE'
+msgid "Restore"
+msgstr "שחזר"
+
+#: $lang->'RESTORE_TOPIC'
+msgid "Restore topic"
+msgstr "שחזר נושא"
+
+#: $lang->'RETURN_POST'
+msgid "%sReturn to the post%s"
+msgstr "%sחזור להודעה%s"
+
+#: $lang->'SUBMIT_VOTE'
+msgid "Submit vote"
+msgstr "שלח הצבעתך"
+
+#: $lang->'TOPIC_TOOLS'
+msgid "Topic tools"
+msgstr "אפשרויות נושא"
+
+#: $lang->'TOTAL_VOTES'
+msgid "Total votes"
+msgstr "סך הכול הצבעות"
+
+#: $lang->'UNLOCK_TOPIC'
+msgid "Unlock topic"
+msgstr "פתח נושא"
+
+#: $lang->'VIEW_INFO'
+msgid "Post details"
+msgstr "פרטי ההודעה"
+
+#: $lang->'VIEW_NEXT_TOPIC'
+msgid "Next topic"
+msgstr "הנושא הבא"
+
+#: $lang->'VIEW_PREVIOUS_TOPIC'
+msgid "Previous topic"
+msgstr "הנושא הקודם"
+
+#: $lang->'VIEW_RESULTS'
+msgid "View results"
+msgstr "צפייה בתוצאות"
+
+#: $lang->'VIEW_TOPIC_POSTS'->1
+msgid "%d post"
+msgstr "הודעה %d"
+
+#: $lang->'VIEW_TOPIC_POSTS'->2
+msgid "%d posts"
+msgstr "%d הודעות"
+
+#: $lang->'VIEW_UNREAD_POST'
+msgid "First unread post"
+msgstr "הודעה ראשונה שלא נקראה"
+
+#: $lang->'VOTE_SUBMITTED'
+msgid "Your vote has been cast."
+msgstr "הצבעתך נקלטה."
+
+#: $lang->'VOTE_CONVERTED'
+msgid "Changing votes is not supported for converted polls."
+msgstr "שינוי הצבעות לא נתמך בסקרים שהומרו."

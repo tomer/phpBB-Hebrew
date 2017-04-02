@@ -1,0 +1,936 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/posting.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/posting.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'ADD_ATTACHMENT'
+msgid "Upload attachment"
+msgstr "צירוף קובץ"
+
+#: $lang->'ADD_ATTACHMENT_EXPLAIN'
+msgid "If you wish to attach one or more files enter the details below."
+msgstr "אם אתה מעוניין לצרף קובץ אחד או יותר, הזן את הפרטים שלהלן."
+
+#: $lang->'ADD_FILE'
+msgid "Add the file"
+msgstr "צרף קובץ"
+
+#: $lang->'ADD_POLL'
+msgid "Poll creation"
+msgstr "יצירת סקר"
+
+#: $lang->'ADD_POLL_EXPLAIN'
+msgid "If you do not want to add a poll to your topic leave the fields blank."
+msgstr "אם אינך מעוניין להוסיף סקר לנושא שלך, השאר את השדות ריקים."
+
+#: $lang->'ALREADY_DELETED'
+msgid "Sorry but this message is already deleted."
+msgstr "סליחה אך ההודעה כבר נמחקה."
+
+#: $lang->'ATTACH_DISK_FULL'
+msgid "There is not enough free disk space to post this attachment."
+msgstr "אין מספיק מקום פנוי בכונן על מנת לצרף את הקובץ המצורף."
+
+#: $lang->'ATTACH_QUOTA_REACHED'
+msgid "Sorry, the board attachment quota has been reached."
+msgstr "סליחה אך מכסת הקבצים המצורפים של המערכת התמלאה."
+
+#: $lang->'ATTACH_SIG'
+msgid "Attach a signature (signatures can be altered via the UCP)"
+msgstr "צרף חתימה (חתימות ניתנות לשינוי דרך לוח הבקרה למשתמש)"
+
+#: $lang->'BBCODE_A_HELP'
+msgid "Inline uploaded attachment: [attachment=]filename.ext[/attachment]"
+msgstr "הוספת קובץ מצורף: [attachment=]שם הקובץ[/attachment]"
+
+#: $lang->'BBCODE_B_HELP'
+msgid "Bold text: [b]text[/b]"
+msgstr "טקסט מודגש: [b]טקסט[/b]"
+
+#: $lang->'BBCODE_C_HELP'
+msgid "Code display: [code]code[/code]"
+msgstr "תצוגת קוד: [code]קוד[/code]"
+
+#: $lang->'BBCODE_D_HELP'
+msgid "Flash: [flash=width,height]http://url[/flash]"
+msgstr "פלאש: [flash=רוחב,גובה]כתובת[/flash]"
+
+#: $lang->'BBCODE_F_HELP'
+msgid "Font size: [size=85]small text[/size]"
+msgstr "גודל גופן: [small=85]טקסט קטן[/size]"
+
+#: $lang->'BBCODE_IS_OFF'
+msgid "%sBBCode%s is <em>OFF</em>"
+msgstr "%sBBCode%s <em>כבוי</em>"
+
+#: $lang->'BBCODE_IS_ON'
+msgid "%sBBCode%s is <em>ON</em>"
+msgstr "%sBBCode%s <em>פעיל</em>"
+
+#: $lang->'BBCODE_I_HELP'
+msgid "Italic text: [i]text[/i]"
+msgstr "טקסט נטוי: [i]טקסט[/i]"
+
+#: $lang->'BBCODE_L_HELP'
+msgid "List: [list][*]text[/list]"
+msgstr "רשימה: [list][*]טקסט[/list]"
+
+#: $lang->'BBCODE_LISTITEM_HELP'
+msgid "List item: [*]text"
+msgstr "פריט רשימה: [*]טקסט"
+
+#: $lang->'BBCODE_O_HELP'
+msgid ""
+"Ordered list: e.g. [list=1][*]First point[/list] or [list=a][*]Point a[/list]"
+msgstr ""
+"רשימה מסודרת:  לדוגמא [list=1][*]נקודה ראשונה[/list] או [list=a][*]נקודה "
+"א[/list]"
+
+#: $lang->'BBCODE_P_HELP'
+msgid "Insert image: [img]http://image_url[/img]"
+msgstr "הוספת תמונה: [img]כתובת התמונה[/img]"
+
+#: $lang->'BBCODE_Q_HELP'
+msgid "Quote text: [quote]text[/quote]"
+msgstr "טקסט מצוטט: [quote]טקסט[/quote]"
+
+#: $lang->'BBCODE_S_HELP'
+msgid "Font colour: [color=red]text[/color] or [color=#FF0000]text[/color]"
+msgstr "צבע גופן: [color=red]טקסט[/color] או [color=#FF0000]טקסט[/color]"
+
+#: $lang->'BBCODE_U_HELP'
+msgid "Underline text: [u]text[/u]"
+msgstr "טקסט עם קו תחתון: [u]טקסט[/u]"
+
+#: $lang->'BBCODE_W_HELP'
+msgid "Insert URL: [url]http://url[/url] or [url=http://url]URL text[/url]"
+msgstr "הוספת כתובת: [url]כתובת[/url] או [url=כתובת]טקסט לקישור[/url]"
+
+#: $lang->'BBCODE_Y_HELP'
+msgid "List: Add list element"
+msgstr "רשימה: הוספת פריט רשימה"
+
+#: $lang->'BUMP_ERROR'
+msgid "You cannot bump this topic so soon after the last post."
+msgstr "אתה לא יכול להקפיץ נושא זה בזמן קצר כל כך מאז ההודעה האחרונה."
+
+#: $lang->'CANNOT_DELETE_REPLIED'
+msgid "Sorry but you may only delete posts which have not been replied to."
+msgstr "סליחה אך אתה יכול למחוק רק הודעות שלא קיבלו תגובה."
+
+#: $lang->'CANNOT_EDIT_POST_LOCKED'
+msgid "This post has been locked. You can no longer edit that post."
+msgstr "הודעה זו ננעלה. אתה לא יכול לערוך יותר את ההודעה."
+
+#: $lang->'CANNOT_EDIT_TIME'
+msgid "You can no longer edit or delete that post."
+msgstr "אתה לא יכול לערוך או למחוק יותר את הודעה זו."
+
+#: $lang->'CANNOT_POST_ANNOUNCE'
+msgid "Sorry but you cannot post announcements."
+msgstr "סליחה אבל אתה לא יכול לשלוח הכרזות."
+
+#: $lang->'CANNOT_POST_STICKY'
+msgid "Sorry but you cannot post sticky topics."
+msgstr "סליחה אבל אתה לא יכול לשלוח נושאים דביקים."
+
+#: $lang->'CHANGE_TOPIC_TO'
+msgid "Change topic type to"
+msgstr "שנה את סוג נושא ל"
+
+#: $lang->'CHARS_POST_CONTAINS'->1
+msgid "Your message contains %1$d character."
+msgstr "ההודעה שלך מכילה תו אחד."
+
+#: $lang->'CHARS_POST_CONTAINS'->2
+msgid "Your message contains %1$d characters."
+msgstr "ההודעה שלך מכילה %1$d תווים."
+
+#: $lang->'CHARS_SIG_CONTAINS'->1
+msgid "Your signature contains %1$d character."
+msgstr "החתימה שלך מכילה תו אחד."
+
+#: $lang->'CHARS_SIG_CONTAINS'->2
+msgid "Your signature contains %1$d characters."
+msgstr "החתימה שלך מכילה %1$d תווים."
+
+#: $lang->'CLOSE_TAGS'
+msgid "Close tags"
+msgstr "סגור תגים"
+
+#: $lang->'CURRENT_TOPIC'
+msgid "Current topic"
+msgstr "נושא נוכחי"
+
+#: $lang->'DELETE_FILE'
+msgid "Delete file"
+msgstr "מחק קובץ"
+
+#: $lang->'DELETE_MESSAGE'
+msgid "Delete message"
+msgstr "מחק הודעה"
+
+#: $lang->'DELETE_MESSAGE_CONFIRM'
+msgid "Are you sure you want to delete this message?"
+msgstr "האם אתה בטוח שאתה רוצה למחוק את הודעה זו?"
+
+#: $lang->'DELETE_OWN_POSTS'
+msgid "Sorry but you can only delete your own posts."
+msgstr "סליחה אבל אתה יכול למחוק רק את ההודעות שלך."
+
+#: $lang->'DELETE_PERMANENTLY'
+msgid "Delete permanently"
+msgstr "מחק לצמיתות"
+
+#: $lang->'DELETE_POST_CONFIRM'
+msgid "Are you sure you want to delete this post?"
+msgstr "האם אתה בטוח שאתה רוצה למחוק את ההודעה הזאת?"
+
+#: $lang->'DELETE_POST_PERMANENTLY_CONFIRM'
+msgid "Are you sure you want to <strong>permanently</strong> delete this post?"
+msgstr "האם אתה בטוח שאתה רוצה למחוק <strong>לצמיתות</strong> את ההודעה הזאת?"
+
+#: $lang->'DELETE_POST_PERMANENTLY'->1
+msgid "Permanently delete this post so it can not be recovered"
+msgstr "מחק את ההודעה הזו לצמיתות כך שלא יהיה ניתן לשחזר אותה"
+
+#: $lang->'DELETE_POST_PERMANENTLY'->2
+msgid "Permanently delete %1$d posts so they can not be recovered"
+msgstr "מחק לצמיתות %1$d הודעות כך שלא יהיה ניתן לשחזר אותן"
+
+#: $lang->'DELETE_POSTS_CONFIRM'
+msgid "Are you sure you want to delete these posts?"
+msgstr "אתה בטוח שאתה רוצה למחוק את הודעות אלו?"
+
+#: $lang->'DELETE_POSTS_PERMANENTLY_CONFIRM'
+msgid ""
+"Are you sure you want to <strong>permanently</strong> delete these posts?"
+msgstr "האם אתה בטוח שאתה רוצה למחוק <strong>לצמיתות</strong> את הודעות אלו?"
+
+#: $lang->'DELETE_REASON'
+msgid "Reason for deletion"
+msgstr "סיבה להעברה לסל המחזור"
+
+#: $lang->'DELETE_REASON_EXPLAIN'
+msgid "The specified reason for deletion will be visible to moderators."
+msgstr "הסיבה המוגדרת תוצג למנהלים"
+
+#: $lang->'DELETE_POST_WARN'
+msgid "Delete this post"
+msgstr "מחק את הודעה זו"
+
+#: $lang->'DELETE_TOPIC_CONFIRM'
+msgid "Are you sure you want to delete this topic?"
+msgstr "האם אתה בטוח שאתה רוצה למחוק את נושא זה?"
+
+#: $lang->'DELETE_TOPIC_PERMANENTLY'->1
+msgid "Permanently delete this topic so it can not be recovered"
+msgstr "מחק את הנושא הזה לצמיתות כך שלא יהיה ניתן לשחזר אותו"
+
+#: $lang->'DELETE_TOPIC_PERMANENTLY'->2
+msgid "Permanently delete %1$d topics so they can not be recovered"
+msgstr "מחק לצמיתות %1$d נושאים כך שלא יהיה ניתן לשחזר אותם"
+
+#: $lang->'DELETE_TOPIC_PERMANENTLY_CONFIRM'
+msgid ""
+"Are you sure you want to <strong>permanently</strong> delete this topic?"
+msgstr "האם אתה בטוח שאתה רוצה למחוק <strong>לצמיתות</strong> את הנושא הזה?"
+
+#: $lang->'DELETE_TOPICS_CONFIRM'
+msgid "Are you sure you want to delete these topics?"
+msgstr "אתה בטוח שאתה רוצה למחוק את נושאים אלו?"
+
+#: $lang->'DELETE_TOPICS_PERMANENTLY_CONFIRM'
+msgid ""
+"Are you sure you want to <strong>permanently</strong> delete these topics?"
+msgstr "האם אתה בטוח שאתה רוצה למחוק <strong>לצמיתות</strong> את נושאים אלו?"
+
+#: $lang->'DISABLE_BBCODE'
+msgid "Disable BBCode"
+msgstr "כבה BBCode"
+
+#: $lang->'DISABLE_MAGIC_URL'
+msgid "Do not automatically parse URLs"
+msgstr "אל תהפוך קישורים ללחיצים"
+
+#: $lang->'DISABLE_SMILIES'
+msgid "Disable smilies"
+msgstr "כבה סמיילים"
+
+#: $lang->'DISALLOWED_CONTENT'
+msgid ""
+"The upload was rejected because the uploaded file was identified as a "
+"possible attack vector."
+msgstr "ההעלאה נדחתה מכיוון שהקובץ זוהה כקובץ חשוד."
+
+#: $lang->'DISALLOWED_EXTENSION'
+msgid "The extension %s is not allowed."
+msgstr "הסיומת %s אינה מורשת."
+
+#: $lang->'DRAFT_LOADED'
+msgid ""
+"Draft loaded into posting area, you may want to finish your post now.<br />"
+"Your draft will be deleted after submitting this post."
+msgstr ""
+"טיוטה נטענה אל אזור השליחה, תוכל לסיים את ההודעה כעת.<br />הטיוטה תמחק לאחר "
+"שליחת ההודעה."
+
+#: $lang->'DRAFT_LOADED_PM'
+msgid ""
+"Draft loaded into message area, you may want to finish your private message "
+"now.<br />Your draft will be deleted after submitting this private message."
+msgstr ""
+"טיוטה נטענה אל אזור השליחה, תוכל לסיים את ההודעה הפרטית כעת.<br />הטיוטה "
+"תמחק לאחר שליחת ההודעה הפרטית."
+
+#: $lang->'DRAFT_SAVED'
+msgid "Draft successfully saved."
+msgstr "הטיוטה נשמרה בהצלחה."
+
+#: $lang->'DRAFT_TITLE'
+msgid "Draft title"
+msgstr "כותרת הטיוטה"
+
+#: $lang->'EDIT_REASON'
+msgid "Reason for editing this post"
+msgstr "סיבה לעריכת ההודעה"
+
+#: $lang->'EMPTY_FILEUPLOAD'
+msgid "The uploaded file is empty."
+msgstr "הקובץ שהועלה ריק."
+
+#: $lang->'EMPTY_MESSAGE'
+msgid "You must enter a message when posting."
+msgstr "אתה חייב להזין הודעה בעת שליחה."
+
+#: $lang->'EMPTY_REMOTE_DATA'
+msgid "File could not be uploaded, please try uploading the file manually."
+msgstr "הקובץ לא ניתן להעלאה, נסה להעלות את הקובץ בעצמך."
+
+#: $lang->'FLASH_IS_OFF'
+msgid "[flash] is <em>OFF</em>"
+msgstr "[flash] <em>כבוי</em>"
+
+#: $lang->'FLASH_IS_ON'
+msgid "[flash] is <em>ON</em>"
+msgstr "[flash] <em>פעיל</em>"
+
+#: $lang->'FLOOD_ERROR'
+msgid "You cannot make another post so soon after your last."
+msgstr "אתה לא יכול לשלוח הודעה נוספת בזמן קצר כל כך מאז ההודעה האחרונה."
+
+#: $lang->'FONT_COLOR'
+msgid "Font colour"
+msgstr "צבע גופן"
+
+#: $lang->'FONT_COLOR_HIDE'
+msgid "Hide font colour"
+msgstr "הסתר צבע גופן"
+
+#: $lang->'FONT_HUGE'
+msgid "Huge"
+msgstr "ענק"
+
+#: $lang->'FONT_LARGE'
+msgid "Large"
+msgstr "גדול"
+
+#: $lang->'FONT_NORMAL'
+msgctxt "$lang->'FONT_NORMAL'"
+msgid "Normal"
+msgstr "רגיל"
+
+#: $lang->'FONT_SIZE'
+msgid "Font size"
+msgstr "גודל גופן"
+
+#: $lang->'FONT_SMALL'
+msgid "Small"
+msgstr "קטן"
+
+#: $lang->'FONT_TINY'
+msgid "Tiny"
+msgstr "קטנטן"
+
+#: $lang->'GENERAL_UPLOAD_ERROR'
+msgid "Could not upload attachment to %s."
+msgstr "לא ניתן לצרף קובץ ל־%s."
+
+#: $lang->'IMAGES_ARE_OFF'
+msgid "[img] is <em>OFF</em>"
+msgstr "[img] <em>כבוי</em>"
+
+#: $lang->'IMAGES_ARE_ON'
+msgid "[img] is <em>ON</em>"
+msgstr "[img] <em>פעיל</em>"
+
+#: $lang->'INVALID_FILENAME'
+msgid "%s is an invalid filename."
+msgstr "%s אינו שם קובץ חוקי."
+
+#: $lang->'LOAD'
+msgid "Load"
+msgstr "טען"
+
+#: $lang->'LOAD_DRAFT'
+msgid "Load draft"
+msgstr "טען טיוטה"
+
+#: $lang->'LOAD_DRAFT_EXPLAIN'
+msgid ""
+"Here you are able to select the draft you want to continue writing. Your "
+"current post will be cancelled, all current post contents will be deleted. "
+"View, edit and delete drafts within your User Control Panel."
+msgstr ""
+"כאן אתה יכול לבחור את הטיוטה שאתה רוצה להמשיך לכתוב. ההודעה הנוכחית שלך "
+"תבוטל, כל תוכן ההודעה הנוכחית ימחק. צפייה, עריכה ומחיקת טיוטות בלוח הבקרה "
+"למשתמש שלך."
+
+#: $lang->'LOGIN_EXPLAIN_BUMP'
+msgid "You need to login in order to bump topics within this forum."
+msgstr "אתה צריך להתחבר כדי להבליט נושאים בפורום זה."
+
+#: $lang->'LOGIN_EXPLAIN_DELETE'
+msgid "You need to login in order to delete posts within this forum."
+msgstr "אתה צריך להתחבר כדי למחוק הודעות בפורום זה."
+
+#: $lang->'LOGIN_EXPLAIN_POST'
+msgid "You need to login in order to post within this forum."
+msgstr "אתה צריך להתחבר כדי לשלוח הודעות בפורום זה."
+
+#: $lang->'LOGIN_EXPLAIN_QUOTE'
+msgid "You need to login in order to quote posts within this forum."
+msgstr "אתה צריך להתחבר כדי לצטט הודעות בפורום זה."
+
+#: $lang->'LOGIN_EXPLAIN_REPLY'
+msgid "You need to login in order to reply to topics within this forum."
+msgstr "אתה צריך להתחבר כדי להגיב לנושאים בפורום זה."
+
+#: $lang->'MAX_FONT_SIZE_EXCEEDED'
+msgid "You may only use fonts up to size %d."
+msgstr "אפשר להשתמש בפונט עד לגודל %d"
+
+#: $lang->'MAX_FLASH_HEIGHT_EXCEEDED'->1
+msgid "Your flash files may only be up to %d pixel high."
+msgstr "קבצי הפלאש שלך יכולים להיות עד גובה של פיקסל אחד."
+
+#: $lang->'MAX_FLASH_HEIGHT_EXCEEDED'->2
+msgid "Your flash files may only be up to %d pixels high."
+msgstr "קבצי הפלאש שלך יכולים להיות עד גובה של %d פיקסלים."
+
+#: $lang->'MAX_FLASH_WIDTH_EXCEEDED'->1
+msgid "Your flash files may only be up to %d pixel wide."
+msgstr "קבצי הפלאש שלך יכולים להיות עד רוחב של פיקסל אחד."
+
+#: $lang->'MAX_FLASH_WIDTH_EXCEEDED'->2
+msgid "Your flash files may only be up to %d pixels wide."
+msgstr "קבצי הפלאש שלך יכולים להיות עד רוחב של %d פיקסלים."
+
+#: $lang->'MAX_IMG_HEIGHT_EXCEEDED'->1
+msgid "Your images may only be up to %1$d pixel high."
+msgstr "התמונות שלך יכולות להיות עד גובה של פיקסל אחד."
+
+#: $lang->'MAX_IMG_HEIGHT_EXCEEDED'->2
+msgid "Your images may only be up to %1$d pixels high."
+msgstr "התמונות שלך יכולות להיות עד גובה של %d פיקסלים."
+
+#: $lang->'MAX_IMG_WIDTH_EXCEEDED'->1
+msgid "Your images may only be up to %d pixel wide."
+msgstr "התמונות שלך יכולות להיות עד רוחב של פיקסל אחד."
+
+#: $lang->'MAX_IMG_WIDTH_EXCEEDED'->2
+msgid "Your images may only be up to %d pixels wide."
+msgstr "התמונות שלך יכולות להיות עד רוחב של %d פיקסלים."
+
+#. zero means no limit, so we don't view a message here.
+#: $lang->'MESSAGE_BODY_EXPLAIN'->0
+msgctxt "$lang->'MESSAGE_BODY_EXPLAIN'->0"
+msgid ""
+msgstr ""
+
+#: $lang->'MESSAGE_BODY_EXPLAIN'->1
+msgid ""
+"Enter your message here, it may contain no more than <strong>%d</strong> "
+"character."
+msgstr ""
+"הכנס את ההודעה שלך כאן, היא יכולה לכלול לא יותר מ<strong>תו אחד</strong>."
+
+#: $lang->'MESSAGE_BODY_EXPLAIN'->2
+msgid ""
+"Enter your message here, it may contain no more than <strong>%d</strong> "
+"characters."
+msgstr ""
+".הכנס את ההודעה שלך כאן, היא יכולה לכלול לא יותר מ<strong>%d</strong> תווים"
+
+#: $lang->'MESSAGE_DELETED'
+msgid "This message has been deleted successfully."
+msgstr "ההודעה נמחקה בהצלחה."
+
+#: $lang->'MORE_SMILIES'
+msgid "View more smilies"
+msgstr "צפה בסמיילים נוספים"
+
+#: $lang->'NOTIFY_REPLY'
+msgid "Notify me when a reply is posted"
+msgstr "הודע לי כאשר תגובה נשלחת"
+
+#: $lang->'NOT_UPLOADED'
+msgid "File could not be uploaded."
+msgstr "הקובץ לא ניתן להעלאה."
+
+#: $lang->'NO_DELETE_POLL_OPTIONS'
+msgid "You cannot delete existing poll options."
+msgstr "אתה לא יכול למחוק אפשרויות סקר קיימות."
+
+#: $lang->'NO_PM_ICON'
+msgid "No PM icon"
+msgstr "ללא סמל להודעה פרטית"
+
+#: $lang->'NO_POLL_TITLE'
+msgid "You have to enter a poll title."
+msgstr "אתה חייב להזין כותרת לסקר."
+
+#: $lang->'NO_POST'
+msgid "The requested post does not exist."
+msgstr "ההודעה המבוקשת לא נמצאה."
+
+#: $lang->'NO_POST_MODE'
+msgid "No post mode specified."
+msgstr "לא צוין מצב נושא."
+
+#: $lang->'NO_TEMP_DIR'
+msgid "Temporary folder could not be found or is not writable."
+msgstr ""
+
+#: $lang->'PARTIAL_UPLOAD'
+msgid "The uploaded file was only partially uploaded."
+msgstr "הקובץ הועלה באופן חלקי בלבד."
+
+#: $lang->'PHP_UPLOAD_STOPPED'
+msgid "A PHP extension has stopped the file upload."
+msgstr ""
+
+#: $lang->'PHP_SIZE_NA'
+msgid ""
+"The attachment’s file size is too large.<br />Could not determine the "
+"maximum size defined by PHP in php.ini."
+msgstr ""
+"גודל הקובץ המצורף גדול מדי.<br />לא ניתן לקבל את הגודל המרבי המוגדר על־ידי "
+"PHP בקובץ php.ini."
+
+#: $lang->'PHP_SIZE_OVERRUN'
+msgid ""
+"The attachment’s file size is too large, the maximum upload size is %1$d "
+"%2$s.<br />Please note this is set in php.ini and cannot be overridden."
+msgstr ""
+"גודל הקובץ המצורף גדול מדי, הגודל המרבי להעלאה הוא %1$d %2$s.<br />שים לב "
+"שהגודל נקבע בקובץ php.ini ואינו ניתן לשינוי."
+
+#: $lang->'PLACE_INLINE'
+msgid "Place inline"
+msgstr "הכנס בשורה"
+
+#: $lang->'POLL_DELETE'
+msgid "Delete poll"
+msgstr "מחק סקר"
+
+#: $lang->'POLL_FOR'
+msgid "Run poll for"
+msgstr "הרץ סקר למשך"
+
+#: $lang->'POLL_FOR_EXPLAIN'
+msgid "Enter 0 for a never ending poll."
+msgstr "הכנס 0 לסקר ללא הגבלת תוקף."
+
+#: $lang->'POLL_MAX_OPTIONS'
+msgid "Options per user"
+msgstr "אפשרויות למשתמש"
+
+#: $lang->'POLL_MAX_OPTIONS_EXPLAIN'
+msgid "This is the number of options each user may select when voting."
+msgstr "זהו מספר האפשרויות שכל משתמש יוכל לבחור בזמן הצבעה."
+
+#: $lang->'POLL_OPTIONS'
+msgid "Poll options"
+msgstr "אפשרויות סקר"
+
+#: $lang->'POLL_OPTIONS_EXPLAIN'->1
+msgid ""
+"Place each option on a new line. You may enter <strong>%d</strong> option."
+msgstr "מקם כל אפשרות בשורה חדשה. אתה יכול להזין אפשרות <strong>אחת</strong>."
+
+#: $lang->'POLL_OPTIONS_EXPLAIN'->2
+msgid ""
+"Place each option on a new line. You may enter up to <strong>%d</strong> "
+"options."
+msgstr ""
+"מקם כל אפשרות בשורה חדשה. אתה יכול להזין עד <strong>%d</strong> אפשרויות."
+
+#: $lang->'POLL_OPTIONS_EDIT_EXPLAIN'->1
+msgid ""
+"Place each option on a new line. You may enter <strong>%d</strong> option. "
+"If you remove or add options all previous votes will be reset."
+msgstr ""
+"מקם כל אפשרות בשורה חדשה. אתה יכול להזין אפשרות <strong>אחת</strong>. אם "
+"תסיר או תוסיף אפשרויות חדשות כל ההצבעות הקודמות יתאפסו."
+
+#: $lang->'POLL_OPTIONS_EDIT_EXPLAIN'->2
+msgid ""
+"Place each option on a new line. You may enter up to <strong>%d</strong> "
+"options. If you remove or add options all previous votes will be reset."
+msgstr ""
+"מקם כל אפשרות בשורה חדשה. אתה יכול להזין עד <strong>%d</strong> אפשרויות. אם "
+"תסיר או תוסיף אפשרויות חדשות כל ההצבעות הקודמות יתאפסו."
+
+#: $lang->'POLL_QUESTION'
+msgid "Poll question"
+msgstr "שאלת הסקר"
+
+#: $lang->'POLL_TITLE_TOO_LONG'
+msgid "The poll title must contain fewer than 100 characters."
+msgstr "כותרת הסקר חייבת להכיל פחות מ־100 תווים."
+
+#: $lang->'POLL_TITLE_COMP_TOO_LONG'
+msgid ""
+"The parsed size of your poll title is too large, consider removing BBCodes "
+"or smilies."
+msgstr ""
+"הגודל המפורק של כותרת הסקר שלך גדול מדי, נסה להסיר תגי BBCodes או סמיילים."
+
+#: $lang->'POLL_VOTE_CHANGE'
+msgid "Allow re-voting"
+msgstr "אפשר הצבעה מחדש"
+
+#: $lang->'POLL_VOTE_CHANGE_EXPLAIN'
+msgid "If enabled users are able to change their vote."
+msgstr "אם פעיל משתמשים יוכלו לשנות את הצבעתם."
+
+#: $lang->'POSTED_ATTACHMENTS'
+msgid "Posted attachments"
+msgstr "קבצים מצורפים"
+
+#: $lang->'POST_APPROVAL_NOTIFY'
+msgid "You will be notified when your post has been approved."
+msgstr "אתה תקבל דואר אלקטרוני כאשר ההודעה תאושר."
+
+#: $lang->'POST_CONFIRMATION'
+msgid "Confirmation of post"
+msgstr "אישור הודעה"
+
+#: $lang->'POST_CONFIRM_EXPLAIN'
+msgid ""
+"To prevent automated posts the board requires you to enter a confirmation "
+"code. The code is displayed in the image you should see below. If you are "
+"visually impaired or cannot otherwise read this code please contact the %"
+"sBoard Administrator%s."
+msgstr ""
+"כדי למנוע הודעות הנשלחות באופן אוטומטי המערכת דורשת ממך להזין קוד אישור. "
+"הקוד מוצג בתמונה אשר אתה אמור לראות להלן. אם אינך מצליח לקרוא את הקוד מכל "
+"סיבה שהיא צור קשר עם %sהמנהל הראשי%s."
+
+#: $lang->'POST_DELETED'
+msgid "This post has been deleted successfully."
+msgstr "ההודעה נמחקה בהצלחה."
+
+#: $lang->'POST_EDITED'
+msgid "This post has been edited successfully."
+msgstr "ההודעה נערכה בהצלחה."
+
+#: $lang->'POST_EDITED_MOD'
+msgid ""
+"This post has been edited successfully, but it will need to be approved by a "
+"moderator before it is publicly viewable."
+msgstr "ההודעה נערכה בהצלחה, אך היא צריכה לקבל אישור ממנהל לפני שתוצג לקהילה. "
+
+#: $lang->'POST_GLOBAL'
+msgid "Global"
+msgstr "גלובלי"
+
+#: $lang->'POST_ICON'
+msgid "Post icon"
+msgstr "סמל ההודעה"
+
+#: $lang->'POST_NORMAL'
+msgctxt "$lang->'POST_NORMAL'"
+msgid "Normal"
+msgstr "רגיל"
+
+#: $lang->'POST_REVIEW'
+msgctxt "$lang->'POST_REVIEW'"
+msgid "Post review"
+msgstr "תקציר ההודעה"
+
+#: $lang->'POST_REVIEW_EDIT'
+msgctxt "$lang->'POST_REVIEW_EDIT'"
+msgid "Post review"
+msgstr "סקירת הודעה"
+
+#: $lang->'POST_REVIEW_EDIT_EXPLAIN'
+msgid ""
+"This post has been altered by another user while you were editing it. You "
+"may wish to review the current version of this post and adjust your edits."
+msgstr ""
+"ההודעה שונתה על ידי משתמש אחר בזמן שערכת אותה. יכול להיות שתרצה לסקור את "
+"ההודעה בגרסה הנוכחית שלה ולתקן את העריכה שלך."
+
+#: $lang->'POST_REVIEW_EXPLAIN'
+msgid ""
+"At least one new post has been made to this topic. You may wish to review "
+"your post in light of this."
+msgstr "לפחות הודעה אחת נשלחה בנושא זה. תוכל לסקור את ההודעה בתמציתיות."
+
+#: $lang->'POST_STORED'
+msgid "This message has been posted successfully."
+msgstr "ההודעה נשלחה בהצלחה."
+
+#: $lang->'POST_STORED_MOD'
+msgid ""
+"This message has been submitted successfully, but it will need to be "
+"approved by a moderator before it is publicly viewable."
+msgstr "ההודעה נשלחה בהצלחה, אך היא צריכה לקבל אישור ממנהל לפני שתוצג לקהילה."
+
+#: $lang->'POST_TOPIC_AS'
+msgid "Post topic as"
+msgstr "שלח נושא בתור"
+
+#: $lang->'PROGRESS_BAR'
+msgid "Progress bar"
+msgstr "פס התקדמות"
+
+#: $lang->'QUOTE_DEPTH_EXCEEDED'->1
+msgid "You may embed only %d quote within each other."
+msgstr "ניתן להטמיע עד ציטוט אחד בתוך ציטוט אחר."
+
+#: $lang->'QUOTE_DEPTH_EXCEEDED'->2
+msgid "You may embed only %d quotes within each other."
+msgstr "ניתן להטמיע עד %d ציטוטים אחד בתוך השני."
+
+#: $lang->'QUOTE_NO_NESTING'
+msgid "You may not embed quotes within each other."
+msgstr "לא ניתן להטמיע ציטוטים בתוך ציטוטים אחרים."
+
+#: $lang->'REMOTE_UPLOAD_TIMEOUT'
+msgid "The specified file could not be uploaded because the request timed out."
+msgstr "הקובץ הנבחר לא הועלה בהצלחה בגלל שהבקשה לקחה יותר מדי זמן."
+
+#: $lang->'SAVE'
+msgid "Save"
+msgstr "שמור"
+
+#: $lang->'SAVE_DATE'
+msgid "Saved at"
+msgstr "נשמר ב"
+
+#: $lang->'SAVE_DRAFT'
+msgid "Save draft"
+msgstr "שמור טיוטה"
+
+#: $lang->'SAVE_DRAFT_CONFIRM'
+msgid ""
+"Please note that saved drafts only include the subject and the message, any "
+"other element will be removed. Do you want to save your draft now?"
+msgstr ""
+"שים לב שטיוטות שנשמרו כוללות את הכותרת וההודעה בלבד, כל פריטים אחרים יוסרו. "
+"אתה רוצה לשמור את הטיוטה שלך כעת?"
+
+#: $lang->'SMILIES'
+msgid "Smilies"
+msgstr "סמיילים"
+
+#: $lang->'SMILIES_ARE_OFF'
+msgid "Smilies are <em>OFF</em>"
+msgstr "סמיילים <em>כבויים</em>"
+
+#: $lang->'SMILIES_ARE_ON'
+msgid "Smilies are <em>ON</em>"
+msgstr "סמיילים <em>פעילים</em>"
+
+#: $lang->'STICKY_ANNOUNCE_TIME_LIMIT'
+msgid "Sticky/Announcement time limit"
+msgstr "זמן הגבלה להכרזה/דביק"
+
+#: $lang->'STICK_TOPIC_FOR'
+msgid "Stick topic for"
+msgstr "נושא מודבק למשך"
+
+#: $lang->'STICK_TOPIC_FOR_EXPLAIN'
+msgid ""
+"Enter 0 for a never ending Sticky/Announcement. Please note that this number "
+"is relative to the date of the post."
+msgstr ""
+"הזן 0 לנושא דביק/הכרזה ללא הגבלת תוקף. אנא שים לב כי מספר זה הוא יחסי לתאריך "
+"פרסום ההודעה."
+
+#: $lang->'STYLES_TIP'
+msgid "Tip: Styles can be applied quickly to selected text."
+msgstr "טיפ: ניתן להחיל סגנונות בקלות על טקסט שנבחר."
+
+#: $lang->'TOO_FEW_CHARS'
+msgid "Your message contains too few characters."
+msgstr "ההודעה שלך מכילה מעט מדי תווים. "
+
+#: $lang->'TOO_FEW_CHARS_LIMIT'->1
+msgid "You need to enter at least %1$d character."
+msgstr "אתה צריך להזין לפחות תו אחד."
+
+#: $lang->'TOO_FEW_CHARS_LIMIT'->2
+msgid "You need to enter at least %1$d characters."
+msgstr "אתה צריך להזין לפחות %d תווים."
+
+#: $lang->'TOO_FEW_POLL_OPTIONS'
+msgid "You must enter at least two poll options."
+msgstr "עליך להזין לפחות שתי אפשרויות בסקר. "
+
+#: $lang->'TOO_MANY_ATTACHMENTS'
+msgid "Cannot add another attachment, %d is the maximum."
+msgstr "לא ניתן להוסיף עוד קובץ מצורף, המקסימום הוא %d."
+
+#: $lang->'TOO_MANY_CHARS'
+msgid "Your message contains too many characters."
+msgstr "ההודעה שלך מכילה יותר מדי תווים. "
+
+#: $lang->'TOO_MANY_CHARS_LIMIT'->2
+msgid "The maximum number of allowed characters is %1$d."
+msgstr "מספר התווים המקסימלי שמאופשר הנו %1$d."
+
+#: $lang->'TOO_MANY_POLL_OPTIONS'
+msgid "You have tried to enter too many poll options."
+msgstr "ניסית להזין יותר מדי אפשרויות סקר."
+
+#: $lang->'TOO_MANY_SMILIES'
+msgid ""
+"Your message contains too many smilies. The maximum number of smilies "
+"allowed is %d."
+msgstr ""
+"ההודעה שלך מכילה יותר מדי סמיילים. המספר המרבי של סמיילים המורשה הוא %d."
+
+#: $lang->'TOO_MANY_URLS'
+msgid ""
+"Your message contains too many URLs. The maximum number of URLs allowed is "
+"%d."
+msgstr "ההודעה שלך מכילה יותר מדי כתובות. המספר המרבי של כתובות המורשה הוא %d."
+
+#: $lang->'TOO_MANY_USER_OPTIONS'
+msgid "You cannot specify more options per user than existing poll options."
+msgstr "אתה לא יכול לציין יותר אפשרויות לכל משתמש ממספר אפשרויות הסקר."
+
+#: $lang->'TOPIC_BUMPED'
+msgid "Topic has been bumped successfully."
+msgstr "הנושא הוקפץ בהצלחה."
+
+#: $lang->'UNAUTHORISED_BBCODE'
+msgid "You cannot use certain BBCodes: %s."
+msgstr "אתה לא יכול להשתמש בתגי ה־BBCode הבאים: %s."
+
+#: $lang->'UNGLOBALISE_EXPLAIN'
+msgid ""
+"To switch this topic back from being global to a normal topic, you need to "
+"select the forum you wish this topic to be displayed."
+msgstr ""
+"כדי להחליף את מצב הנושא מגלובלי לרגיל, אתה צריך לבחור את הפורום אשר אתה רוצה "
+"שבו הנושא יוצג."
+
+#: $lang->'UNSUPPORTED_CHARACTERS_MESSAGE'
+msgid "Your message contains the following unsupported characters:<br />%s"
+msgstr "ההודעה שלך מכילה את התווים הלא נתמכים הבאים:<br />%s"
+
+#: $lang->'UNSUPPORTED_CHARACTERS_SUBJECT'
+msgid "Your subject contains the following unsupported characters:<br />%s"
+msgstr "הנושא שלך מכיל את התווים הלא נתמכים הבאים:<br />%s"
+
+#: $lang->'UPDATE_COMMENT'
+msgid "Update comment"
+msgstr "עדכן תיאור"
+
+#: $lang->'URL_INVALID'
+msgid "The URL you specified is invalid."
+msgstr "הכתובת שציינת אינה חוקית."
+
+#: $lang->'URL_NOT_FOUND'
+msgid "The file specified could not be found."
+msgstr "הקובץ שצוין לא נמצא."
+
+#: $lang->'URL_IS_OFF'
+msgid "[url] is <em>OFF</em>"
+msgstr "[url] <em>כבוי</em>"
+
+#: $lang->'URL_IS_ON'
+msgid "[url] is <em>ON</em>"
+msgstr "[url] <em>פעיל</em>"
+
+#: $lang->'USER_CANNOT_BUMP'
+msgid "You cannot bump topics in this forum."
+msgstr "אתה לא יכול להבליט נושאים בפורום זה."
+
+#: $lang->'USER_CANNOT_DELETE'
+msgid "You cannot delete posts in this forum."
+msgstr "אתה לא יכול למחוק הודעות בפורום זה."
+
+#: $lang->'USER_CANNOT_EDIT'
+msgid "You cannot edit posts in this forum."
+msgstr "אתה לא יכול לערוך הודעות בפורום זה."
+
+#: $lang->'USER_CANNOT_REPLY'
+msgid "You cannot reply in this forum."
+msgstr "אתה לא יכול להגיב בפורום זה."
+
+#: $lang->'USER_CANNOT_FORUM_POST'
+msgid ""
+"You are not able to do posting operations on this forum due to the forum "
+"type not supporting it."
+msgstr "אתה לא יכול לבצע אפשרויות שליחה בפורום זה מפני שהפורום אינו תומך בהן."
+
+#: $lang->'VIEW_MESSAGE'
+msgid "%sView your submitted message%s"
+msgstr "%sצפה בהודעה ששלחת זה עתה%s"
+
+#: $lang->'VIEW_PRIVATE_MESSAGE'
+msgid "%sView your submitted private message%s"
+msgstr "%sצפה בהודעה הפרטית ששלחת זה עתה%s"
+
+#: $lang->'WRONG_FILESIZE'
+msgid "The file is too big, maximum allowed size is %1$d %2$s."
+msgstr "הקובץ גדול מדי, הגודל המרבי המורשה הוא %1$d %2$s."
+
+#: $lang->'WRONG_SIZE'
+msgid ""
+"The image must be at least %1$s wide, %2$s high and at most %3$s wide and %4$"
+"s high. The submitted image is %5$s wide and %6$s high."
+msgstr ""
+"התמונה חייבת להיות לפחות ברוחב של %1$s,בגובה של %2$s ולכל היותר ברוחב של %3$"
+"s ובגובה של %4$s. התמונה שנשלחה ברוחב של %5$s ובגובה של %6$s."

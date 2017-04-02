@@ -1,0 +1,212 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/styles.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/acp/styles.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'ACP_STYLES_EXPLAIN'
+msgid ""
+"Here you can manage the available styles on your board. You may alter "
+"existing styles, delete, deactivate, reactivate, install new ones. You can "
+"also see what a style will look like using the preview function. Also listed "
+"is the total user count for each style, note that overriding user styles "
+"will not be reflected here."
+msgstr ""
+"כאן אתה יכול לנהל את העיצובים הזמינים במערכת הפורומים שלך. אתה רשאי לשנות את "
+"העיצובים הקיימים, למחוק, לבטל, להפעיל מחדש ולהתקין חדשים. אתה יכול גם לראות "
+"איך עיצוב מסוים ייראה באמצעות פונקצית התצוגה המקדימה. כמו כן תוכל לראות כמה "
+"משתמשים בכל עיצוב, שים לב שעיצובים אלו לא דורסים עיצובים מותאמים אישית של "
+"המשתמש."
+
+#: $lang->'CANNOT_BE_INSTALLED'
+msgid "Cannot be installed"
+msgstr "לא ניתן להתקנה"
+
+#: $lang->'CONFIRM_UNINSTALL_STYLES'
+msgid "Are you sure you wish to uninstall selected styles?"
+msgstr "אתה בטוח שברצונך להסיר את העיצובים שנבחרו?"
+
+#: $lang->'COPYRIGHT'
+msgid "Copyright"
+msgstr "זכויות יוצרים"
+
+#: $lang->'DEACTIVATE_DEFAULT'
+msgid "You cannot deactivate the default style."
+msgstr "אינך יכול להפוך את עיצוב ברירת המחדל ללא לפעיל"
+
+#: $lang->'DELETE_FROM_FS'
+msgid "Delete from filesystem"
+msgstr "מחק מקבצי המערכת"
+
+#: $lang->'DELETE_STYLE_FILES_FAILED'
+msgid "Error deleting files for style \"%s\"."
+msgstr "שגיאה במחיקת קבצים בסגנון \"%s\"."
+
+#: $lang->'DELETE_STYLE_FILES_SUCCESS'
+msgid "Files for style \"%s\" have been deleted."
+msgstr "הקבצים של העיצוב \"%s\" נמחקו."
+
+#: $lang->'DETAILS'
+msgid "Details"
+msgstr "פרטים"
+
+#: $lang->'INHERITING_FROM'
+msgid "Inherits from"
+msgstr "יורש מ"
+
+#: $lang->'INSTALL_STYLE'
+msgid "Install style"
+msgstr "התקן עיצוב"
+
+#: $lang->'INSTALL_STYLES'
+msgid "Install styles"
+msgstr "התקן עיצובים"
+
+#: $lang->'INSTALL_STYLES_EXPLAIN'
+msgid ""
+"Here you can install new styles.<br />If you cannot find a specific style in "
+"list below, check to make sure style is already installed. If it is not "
+"installed, check if it was uploaded correctly."
+msgstr ""
+"כאן אתה יכול להתקין עיצובים חדשים.<br />אם אתה לא מוצא עיצוב ספציפי ברשימה "
+"שלהלן, בדוק אולי העיצוב כבר מותקן. אם הוא לא מותקן, בדוק אם הוא הועלה בצורה "
+"נכונה."
+
+#: $lang->'INVALID_STYLE_ID'
+msgid "Invalid style ID."
+msgstr "מזהה העיצוב לא תקין."
+
+#: $lang->'NO_MATCHING_STYLES_FOUND'
+msgid "No styles match your query."
+msgstr "לא נמצאו עיצובים מתאימים לשאילתה שלך."
+
+#: $lang->'NO_UNINSTALLED_STYLE'
+msgid "No uninstalled styles detected."
+msgstr "לא אותרו עיצובים לא מותקנים."
+
+#: $lang->'PURGED_CACHE'
+msgid "Cache was purged."
+msgstr "זיכרון המטמון נוקה."
+
+#: $lang->'REQUIRES_STYLE'
+msgid "This style requires the style \"%s\" to be installed."
+msgstr "עיצוב זה דורש את העיצוב \"%s\" בכדי שיהיה ניתן להתקינו."
+
+#: $lang->'STYLE_ACTIVATE'
+msgid "Activate"
+msgstr "הפעל"
+
+#: $lang->'STYLE_ACTIVE'
+msgid "Active"
+msgstr "פעיל"
+
+#: $lang->'STYLE_DEACTIVATE'
+msgid "Deactivate"
+msgstr "בטל"
+
+#: $lang->'STYLE_DEFAULT'
+msgid "Make default style"
+msgstr "סמן עיצוב ברירת מחדל"
+
+#: $lang->'STYLE_DEFAULT_CHANGE_INACTIVE'
+msgid "You must activate style before making it default style."
+msgstr "עליך להפעיל את העיצוב לפני שניתן להפוך אותו לברירת מחדל."
+
+#: $lang->'STYLE_ERR_INVALID_PARENT'
+msgid "Invalid parent style."
+msgstr "עיצוב הורה לא תקין."
+
+#: $lang->'STYLE_ERR_NAME_EXIST'
+msgid "A style with that name already exists."
+msgstr "עיצוב עם שם זה כבר קיים."
+
+#: $lang->'STYLE_ERR_STYLE_NAME'
+msgid "You must supply a name for this style."
+msgstr "אתה מוכרח לציין שם לעיצוב זה."
+
+#: $lang->'STYLE_INSTALLED'
+msgid "Style \"%s\" has been installed."
+msgstr "העיצוב \"%s\" הותקן."
+
+#: $lang->'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'
+msgid "Return to installed styles list"
+msgstr "חזור לרשימת העיצובים המותקנים"
+
+#: $lang->'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'
+msgid "Install more styles"
+msgstr "התקן עוד עיצובים"
+
+#: $lang->'STYLE_NAME'
+msgid "Style name"
+msgstr "שם העיצוב"
+
+#: $lang->'STYLE_NAME_RESERVED'
+msgid "Style \"%s\" can not be installed, because the name is reserved."
+msgstr "העיצוב \"%s\" לא ניתן להתקנה, מכיוון ששם העיצוב שמור."
+
+#: $lang->'STYLE_NOT_INSTALLED'
+msgid "Style \"%s\" was not installed."
+msgstr "עיצוב \"%s\" לא הותקן."
+
+#: $lang->'STYLE_PATH'
+msgid "Style path"
+msgstr "נתיב העיצוב"
+
+#: $lang->'STYLE_UNINSTALL'
+msgid "Uninstall"
+msgstr "הסר"
+
+#: $lang->'STYLE_UNINSTALL_DEPENDENT'
+msgid ""
+"Style \"%s\" cannot be uninstalled because it has one or more child styles."
+msgstr "לא ניתן להסיר את העיצוב \"%s\" מכיוון שיש עיצוב אחד או יותר תחתיו."
+
+#: $lang->'STYLE_UNINSTALLED'
+msgid "Style \"%s\" uninstalled successfully."
+msgstr "העיצוב \"%s\" הוסר בהצלחה."
+
+#: $lang->'STYLE_USED_BY'
+msgid "Used by (including robots)"
+msgstr "בשימוש על ידי (כולל רובוטים)"
+
+#: $lang->'UNINSTALL_DEFAULT'
+msgid "You cannot uninstall the default style."
+msgstr "אין באפשרותך להסיר את עיצוב ברירת המחדל."
+
+#: $lang->'BROWSE_STYLES_DATABASE'
+msgid "Browse styles database"
+msgstr "צפה במאגר העיצובים"

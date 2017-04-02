@@ -1,0 +1,190 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/migrator.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/migrator.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'CONFIG_NOT_EXIST'
+msgid "The config setting \"%s\" unexpectedly does not exist."
+msgstr "פריט ההגדרה \"%s\" לא קיים בצורה חריגה"
+
+#: $lang->'GROUP_NOT_EXIST'
+msgid "The group \"%s\" unexpectedly does not exist."
+msgstr "הקבוצה \"%s\" לא קיימת בצורה חריגה"
+
+#: $lang->'MIGRATION_APPLY_DEPENDENCIES'
+msgid "Apply dependencies of %s."
+msgstr "אשר את התלויות של %s."
+
+#: $lang->'MIGRATION_DATA_DONE'
+msgid "Installed Data: %1$s; Time: %2$.2f seconds"
+msgstr "מידע מותקן %1$s; זמן: %2$.2f שניות"
+
+#: $lang->'MIGRATION_DATA_IN_PROGRESS'
+msgid "Installing Data: %1$s; Time: %2$.2f seconds"
+msgstr "מתקין מידע: %1$s; זמן: %2$.2f שניות"
+
+#: $lang->'MIGRATION_DATA_RUNNING'
+msgid "Installing Data: %s."
+msgstr "מתקין מידע: %s."
+
+#: $lang->'MIGRATION_EFFECTIVELY_INSTALLED'
+msgid "Migration already effectively installed (skipped): %s"
+msgstr "ההגירה כבר התקינה בצורה אפקטיבית (דולג) את: %s"
+
+#: $lang->'MIGRATION_EXCEPTION_ERROR'
+msgid ""
+"Something went wrong during the request and an exception was thrown. The "
+"changes made before the error occurred were reversed to the best of our "
+"abilities, but you should check the board for errors."
+msgstr ""
+"משהו לא עלה יפה במהלך הבקשה, וחריגה הוגשה..השינויים שבוצעו לפני השגיאה "
+"שוחזרו כמיטב יכולתנו,אבל כדאי שתבדוק את המערכת עבור שגיאות."
+
+#: $lang->'MIGRATION_NOT_FULFILLABLE'
+msgid "The migration \"%1$s\" is not fulfillable, missing migration \"%2$s\"."
+msgstr "ההגירה של \"%1$s\" לא אפשרית, חסרה ההגירה \"%2$s\"."
+
+#: $lang->'MIGRATION_NOT_INSTALLED'
+msgid "The migration \"%s\" is not installed."
+msgstr ""
+
+#: $lang->'MIGRATION_NOT_VALID'
+msgid "%s is not a valid migration."
+msgstr "%s היא לא הגירה תקינה."
+
+#: $lang->'MIGRATION_SCHEMA_DONE'
+msgid "Installed Schema: %1$s; Time: %2$.2f seconds"
+msgstr "תכנון התקנה: %1$s; זמן: %2$.2f שניות"
+
+#: $lang->'MIGRATION_SCHEMA_IN_PROGRESS'
+msgid "Installing Schema: %1$s; Time: %2$.2f seconds"
+msgstr "Installing Schema: %1$s; זמן: %2$.2f שניות"
+
+#: $lang->'MIGRATION_SCHEMA_RUNNING'
+msgid "Installing Schema: %s."
+msgstr "תכנון התקנה: %s."
+
+#: $lang->'MIGRATION_REVERT_DATA_DONE'
+msgid "Reverted Data: %1$s; Time: %2$.2f seconds"
+msgstr ""
+
+#: $lang->'MIGRATION_REVERT_DATA_IN_PROGRESS'
+msgid "Reverting Data: %1$s; Time: %2$.2f seconds"
+msgstr ""
+
+#: $lang->'MIGRATION_REVERT_DATA_RUNNING'
+msgid "Reverting Data: %s."
+msgstr ""
+
+#: $lang->'MIGRATION_REVERT_SCHEMA_DONE'
+msgid "Reverted Schema: %1$s; Time: %2$.2f seconds"
+msgstr ""
+
+#: $lang->'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'
+msgid "Reverting Schema: %1$s; Time: %2$.2f seconds"
+msgstr ""
+
+#: $lang->'MIGRATION_REVERT_SCHEMA_RUNNING'
+msgid "Reverting Schema: %s."
+msgstr ""
+
+#: $lang->'MIGRATION_INVALID_DATA_MISSING_CONDITION'
+msgid "A migration is invalid. An if statement helper is missing a condition."
+msgstr "A migration is invalid. An if statement helper is missing a condition."
+
+#: $lang->'MIGRATION_INVALID_DATA_MISSING_STEP'
+msgid ""
+"A migration is invalid. An if statement helper is missing a valid call to a "
+"migration step."
+msgstr ""
+"A migration is invalid. An if statement helper is missing a valid call to a "
+"migration step."
+
+#: $lang->'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'
+msgid "A migration is invalid. A custom callable function could not be called."
+msgstr "A migration is invalid. A custom callable function could not be called."
+
+#: $lang->'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'
+msgid "A migration is invalid. An unknown migration tool type was encountered."
+msgstr "A migration is invalid. An unknown migration tool type was encountered."
+
+#: $lang->'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'
+msgid "A migration is invalid. An undefined migration tool was encountered."
+msgstr "A migration is invalid. An undefined migration tool was encountered."
+
+#: $lang->'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'
+msgid ""
+"A migration is invalid. An undefined migration tool method was encountered."
+msgstr ""
+"A migration is invalid. An undefined migration tool method was encountered."
+
+#: $lang->'MODULE_ERROR'
+msgid "An error occurred while creating a module: %s"
+msgstr "התרחשה שגיאה בעת יצירת המודול: %s"
+
+#: $lang->'MODULE_EXISTS'
+msgid "A module already exists: %s"
+msgstr "מודול כבר קיים: %s"
+
+#: $lang->'MODULE_EXIST_MULTIPLE'
+msgid ""
+"Several modules with the given parent module langname already exist: %s. Try "
+"using before/after keys to clarify the module placement."
+msgstr ""
+"Several modules with the given parent module langname already exist: %s. Try "
+"using before/after keys to clarify the module placement."
+
+#: $lang->'MODULE_INFO_FILE_NOT_EXIST'
+msgid "A required module info file is missing: %2$s"
+msgstr "קובץ מידע חשוב  של מודול חסר: %2$s"
+
+#: $lang->'MODULE_NOT_EXIST'
+msgid "A required module does not exist: %s"
+msgstr "מודול חיוני לא קיים: %s"
+
+#: $lang->'PARENT_MODULE_FIND_ERROR'
+msgid "Unable to determine the parent module identifier: %s"
+msgstr "Unable to determine the parent module identifier: %s"
+
+#: $lang->'PERMISSION_NOT_EXIST'
+msgid "The permission setting \"%s\" unexpectedly does not exist."
+msgstr "הגדרות ההרשאה \"%s\" לא קיימות בצורה חריגה."
+
+#: $lang->'ROLE_NOT_EXIST'
+msgid "The permission role \"%s\" unexpectedly does not exist."
+msgstr "תפקיד ההרשאות \"%s\" לא קיים בצורה חריגה."

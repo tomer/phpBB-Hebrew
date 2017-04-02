@@ -1,0 +1,584 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/forums.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/acp/forums.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#. // Forum Admin
+#: $lang->'AUTO_PRUNE_DAYS'
+msgid "Auto-prune post age"
+msgstr "איפוס אוטומטי לפי תאריכי ההודעות"
+
+#: $lang->'AUTO_PRUNE_DAYS_EXPLAIN'
+msgid "Number of days since last post after which topic is removed."
+msgstr "מספר ההודעות האחרון באשכול שלאחריו הנושא יוסר."
+
+#: $lang->'AUTO_PRUNE_FREQ'
+msgid "Auto-prune frequency"
+msgstr "איפוס אוטומטי תקופתי"
+
+#: $lang->'AUTO_PRUNE_FREQ_EXPLAIN'
+msgctxt "$lang->'AUTO_PRUNE_FREQ_EXPLAIN'"
+msgid "Time in days between pruning events."
+msgstr "מספר הימים בין אירועי האיפוס."
+
+#: $lang->'AUTO_PRUNE_VIEWED'
+msgid "Auto-prune post viewed age"
+msgstr "איפוס הודעות אוטומטי לפי תאריכי הצפיות האחרונות בהודעה"
+
+#: $lang->'AUTO_PRUNE_VIEWED_EXPLAIN'
+msgid "Number of days since topic was viewed after which topic is removed."
+msgstr "מספר הימים שעברו מאז הצפייה באשכול בפעם האחרונה שלאחריה הנושא יוסר."
+
+#: $lang->'AUTO_PRUNE_SHADOW_FREQ'
+msgid "Auto-prune shadow topics frequency"
+msgstr "תדירות מחיקה אוטומטי של נושאי צללים"
+
+#: $lang->'AUTO_PRUNE_SHADOW_DAYS'
+msgid "Auto-prune shadow topics age"
+msgstr "מחיקה אוטומטית של גיל נושאי הצללים"
+
+#: $lang->'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN'
+msgid "Number of days after which shadow topic is removed."
+msgstr "מספר הימים שלאחריהם נושא הצללים מוסר."
+
+#: $lang->'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'
+msgctxt "$lang->'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'"
+msgid "Time in days between pruning events."
+msgstr "הזמן בימים בין כל אירוע איפוס."
+
+#: $lang->'CONTINUE'
+msgid "Continue"
+msgstr "המשך"
+
+#: $lang->'COPY_PERMISSIONS'
+msgid "Copy permissions from"
+msgstr "העתק הרשאות מ"
+
+#: $lang->'COPY_PERMISSIONS_EXPLAIN'
+msgid ""
+"To ease up the permission setup for your new forum, you can copy the "
+"permissions of an existing forum."
+msgstr ""
+"כדי לזרז את תהליך יצירת הפורום החדש, אתה יכול להעתיק הרשאות מפורום קיים."
+
+#: $lang->'COPY_PERMISSIONS_ADD_EXPLAIN'
+msgid ""
+"Once created, the forum will have the same permissions as the one you select "
+"here. If no forum is selected the newly created forum will not be visible "
+"until permissions had been set."
+msgstr ""
+"כאשר נוצר, הפורום יקבל את אותן ההרשאות בדומה לפורום שבחרת. אם לא נבחר פורום, "
+"הפורום לא יוצג עד לכאשר הרשאותיו יוגדרו."
+
+#: $lang->'COPY_PERMISSIONS_EDIT_EXPLAIN'
+msgid ""
+"If you select to copy permissions, the forum will have the same permissions "
+"as the one you select here. This will overwrite any permissions you have "
+"previously set for this forum with the permissions of the forum you select "
+"here. If no forum is selected the current permissions will be kept."
+msgstr ""
+"אם בחרת בהעתקת הרשאות, הפורום יקבל את אותן ההרשאות כמו הפורום שבחרת כאן. זה "
+"יעתיק כל הרשאה שהגדרת קודם לכן לפורום זה להרשאות הפורום שבחרת כאן. אם לא "
+"נבחר פורום ההרשאות הראשיות ישמרו."
+
+#: $lang->'COPY_TO_ACL'
+msgid ""
+"Alternatively, you are also able to %sset up new permissions%s for this "
+"forum."
+msgstr "לחלופין, אתה יכול גם %sלהגדיר הרשאות חדשות%s לפורום זה."
+
+#: $lang->'CREATE_FORUM'
+msgid "Create new forum"
+msgstr "צור פורום חדש"
+
+#: $lang->'DECIDE_MOVE_DELETE_CONTENT'
+msgid "Delete content or move to forum"
+msgstr "מחק טבלה או העבר לפורום"
+
+#: $lang->'DECIDE_MOVE_DELETE_SUBFORUMS'
+msgid "Delete subforums or move to forum"
+msgstr "מחק תת פורום או העבר לפורום"
+
+#: $lang->'DEFAULT_STYLE'
+msgid "Default style"
+msgstr "סגנון ברירת המחדל"
+
+#: $lang->'DELETE_ALL_POSTS'
+msgid "Delete posts"
+msgstr "מחק הודעות"
+
+#: $lang->'DELETE_SUBFORUMS'
+msgid "Delete subforums and posts"
+msgstr "מחק תת פורומים והודעות"
+
+#: $lang->'DISPLAY_ACTIVE_TOPICS'
+msgid "Enable active topics"
+msgstr "הפעל נושאים פעילים"
+
+#: $lang->'DISPLAY_ACTIVE_TOPICS_EXPLAIN'
+msgid ""
+"If set to yes active topics in selected subforums will be displayed under "
+"this category."
+msgstr "אם סימנת כן נושאים פעילים בתת פורום שנבחר יוצגו מתחת לקטגוריה זו."
+
+#: $lang->'EDIT_FORUM'
+msgid "Edit forum"
+msgstr "ערוך פורום"
+
+#: $lang->'ENABLE_INDEXING'
+msgid "Enable search indexing"
+msgstr "הפעל חיפוש ראשי"
+
+#: $lang->'ENABLE_INDEXING_EXPLAIN'
+msgid "If set to yes posts made to this forum will be indexed for searching."
+msgstr "אם סימנת כן הודעות שנרשמו בפורום זה ייכללו בחיפוש."
+
+#: $lang->'ENABLE_POST_REVIEW'
+msgid "Enable post review"
+msgstr "אפשר סקירת הודעה"
+
+#: $lang->'ENABLE_POST_REVIEW_EXPLAIN'
+msgid ""
+"If set to yes users are able to review their post if new posts were made to "
+"the topic while users wrote theirs. This should be disabled for chat forums."
+msgstr ""
+"אם סימנת כן משתמשים יכולים לסקור את ההודעה שלהם אם הודעות חדשות נכתבו לנושא "
+"בזמן שהם כתבו את הודעתם. מומלץ לא לאפשר אפשרות זו לפורומי צ'ט."
+
+#: $lang->'ENABLE_QUICK_REPLY'
+msgid "Enable quick reply"
+msgstr "אפשר תגובה מהירה"
+
+#: $lang->'ENABLE_QUICK_REPLY_EXPLAIN'
+msgid ""
+"Enables the quick reply in this forum. This setting is not considered if the "
+"quick reply is disabled board wide. The quick reply will only be displayed "
+"for users who have permission to post in this forum."
+msgstr ""
+"אפשר תגובה מהירה בפורום זה. הגדרה זו לא תילקח בחשבון אם תגובה מהירה מבוטלת "
+"בכל המערכת. תגובה מהירה תוצג רק למשתמשים בעלי הרשאת כתיבה בפורום זה."
+
+#: $lang->'ENABLE_RECENT'
+msgid "Display active topics"
+msgstr "הצג נושאים פעילים"
+
+#: $lang->'ENABLE_RECENT_EXPLAIN'
+msgid ""
+"If set to yes topics made to this forum will be shown in the active topics "
+"list."
+msgstr ""
+"אם סימנת כן נושאים פעילים שנכתבו בפורום זה יופיעו ברשימת הנושאים הפעילים."
+
+#: $lang->'ENABLE_TOPIC_ICONS'
+msgid "Enable topic icons"
+msgstr "אפשר סמלי נושא"
+
+#: $lang->'FORUM_ADMIN'
+msgid "Forum administration"
+msgstr "ניהול פורום"
+
+#: $lang->'FORUM_ADMIN_EXPLAIN'
+msgid ""
+"In phpBB3 everything is forum based. A category is just a special type of "
+"forum. Each forum can have an unlimited number of sub-forums and you can "
+"determine whether each may be posted to or not (i.e. whether it acts like an "
+"old category). Here you can add, edit, delete, lock, unlock individual "
+"forums as well as set certain additional controls. If your posts and topics "
+"have got out of sync you can also resynchronise a forum. <strong>You need to "
+"copy or set appropriate permissions for newly created forums to have them "
+"displayed.</strong>"
+msgstr ""
+"במערכת phpBB3 הכול פועל על בסיס פורומים. קטגוריה הוא בסך הכול סוג מיוחד של "
+"פורום. כל פורום יכול להכיל מספר לא מוגבל של תתי־פורומים ואתה יכול להחליט אם "
+"לאפשר שליחת הודעות או לא בכל אחד מהם. כאן אתה יכול להוסיף, לערוך, למחוק, "
+"לנעול, לשחרר נעילות ולהגדיר אפשרויות נוספות אחרות בכל פורום ופורום. אם "
+"ההודעות והנושאים לא מסונכרנים בפורום תוכל לסנכרן אותו מחדש. <strong>על מנת "
+"שפורומים חדשים שנוצרו יוצגו, עליך קודם להעתיק או לקבוע הרשאות חדשות מתאימות "
+"בעבורם.</strong>"
+
+#: $lang->'FORUM_AUTO_PRUNE'
+msgid "Enable auto-pruning"
+msgstr "אפשר איפוס אוטומטי"
+
+#: $lang->'FORUM_AUTO_PRUNE_EXPLAIN'
+msgid "Prunes the forum of topics, set the frequency/age parameters below."
+msgstr ""
+"מאפס את הפורום ואת הנושאים בפורום, הגדר את הזמן הנפוץ בו האיפוס האוטומטי "
+"יפעל, למטה."
+
+#: $lang->'FORUM_CREATED'
+msgid "Forum created successfully."
+msgstr "הפורום נוצר בהצלחה."
+
+#: $lang->'FORUM_DATA_NEGATIVE'
+msgid "Pruning parameters cannot be negative."
+msgstr "הגדרת האיפוס לא יכולה להיות שלילית."
+
+#: $lang->'FORUM_DESC_TOO_LONG'
+msgid ""
+"The forum description is too long, it must be less than 4000 characters."
+msgstr "תיאור הפורום ארוך מדי, התיאור יכול להיות מקסימום 4000 תווים."
+
+#: $lang->'FORUM_DELETE'
+msgid "Delete forum"
+msgstr "מחק פורום"
+
+#: $lang->'FORUM_DELETE_EXPLAIN'
+msgid ""
+"The form below will allow you to delete a forum. If the forum is postable "
+"you are able to decide where you want to put all topics (or forums) it "
+"contained."
+msgstr ""
+"הטופס למטה יאפשר לך למחוק פורום. אם בפורום ישנם הודעות או נושאים אתה יכול "
+"להחליט לאיפה ברצונך לשייכם לפני המחיקה."
+
+#: $lang->'FORUM_DELETED'
+msgid "Forum successfully deleted."
+msgstr "הפורום נמחק בהצלחה."
+
+#: $lang->'FORUM_DESC'
+msgid "Description"
+msgstr "תיאור"
+
+#: $lang->'FORUM_DESC_EXPLAIN'
+msgid "Any HTML markup entered here will be displayed as is."
+msgstr "כל קוד HTML שנכנס יסומן."
+
+#: $lang->'FORUM_EDIT_EXPLAIN'
+msgid ""
+"The form below will allow you to customise this forum. Please note that "
+"moderation and post count controls are set via forum permissions for each "
+"user or usergroup."
+msgstr ""
+"הטופס למטה יאפשר לך לערוך את הפורום. שים לב שהגדרות הניהול ומספר ההודעות "
+"מוגדרות עלי ידי הרשאות הפורום לכל משתמש או קבוצת משתמשים."
+
+#: $lang->'FORUM_IMAGE'
+msgid "Forum image"
+msgstr "תמונת הפורום"
+
+#: $lang->'FORUM_IMAGE_EXPLAIN'
+msgid ""
+"Location, relative to the phpBB root directory, of an additional image to "
+"associate with this forum."
+msgstr "מיקום, רלוונטי כאשר התמונה נמצאת בתיקייה הראשית של המערכת."
+
+#: $lang->'FORUM_IMAGE_NO_EXIST'
+msgid "The specified forum image does not exist"
+msgstr "התמונה שנבחרה לפורום לא קיימת"
+
+#: $lang->'FORUM_LINK_EXPLAIN'
+msgid ""
+"Full URL (including the protocol, i.e.: <samp>http://</samp>) to the "
+"destination location that clicking this forum will take the user, e.g.: "
+"<samp>http://www.phpbb.com/</samp>."
+msgstr ""
+"כתובת מלאה (כולל הפרוטוקול, כדוגמת: <samp>http://</samp>) ליעד, שבלחיצה על "
+"הפורום שתיקח את המשתמש, e.g.: <samp>http://www.phpbb.com/</samp>."
+
+#: $lang->'FORUM_LINK_TRACK'
+msgid "Track link redirects"
+msgstr "כיוון מחדש של מעקב אחר הקישור"
+
+#: $lang->'FORUM_LINK_TRACK_EXPLAIN'
+msgid "Records the number of times a forum link was clicked."
+msgstr "סופר את מספר הפעמים שהפורום המקושר נלחץ."
+
+#: $lang->'FORUM_NAME'
+msgid "Forum name"
+msgstr "שם הפורום"
+
+#: $lang->'FORUM_NAME_EMPTY'
+msgid "You must enter a name for this forum."
+msgstr "אתה חייב להכניס שם לפורום זה."
+
+#: $lang->'FORUM_PARENT'
+msgid "Parent forum"
+msgstr "הפורום הראשי"
+
+#: $lang->'FORUM_PASSWORD'
+msgid "Forum password"
+msgstr "ססמת הפורום"
+
+#: $lang->'FORUM_PASSWORD_CONFIRM'
+msgid "Confirm forum password"
+msgstr "אימות ססמת הפורום"
+
+#: $lang->'FORUM_PASSWORD_CONFIRM_EXPLAIN'
+msgid "Only needs to be set if a forum password is entered."
+msgstr "צריך להזין רק כאשר ישנה ססמה לפורום."
+
+#: $lang->'FORUM_PASSWORD_EXPLAIN'
+msgid ""
+"Defines a password for this forum, use the permission system in preference."
+msgstr "הגדר ססמה לפורום זה, השתמש בהרשאות המערכת בהעדפות."
+
+#: $lang->'FORUM_PASSWORD_UNSET'
+msgid "Remove forum password"
+msgstr "הסר את ססמת הפורום"
+
+#: $lang->'FORUM_PASSWORD_UNSET_EXPLAIN'
+msgid "Check here if you want to remove the forum password."
+msgstr "סמן אם ברצונך להסיר את ססמת הפורום."
+
+#: $lang->'FORUM_PASSWORD_OLD'
+msgid ""
+"The forum password is using an old hashing method and should be changed."
+msgstr "ססמת הפורום משתמשת בשיטת הצפנה ישנה וצריכה להשתנות."
+
+#: $lang->'FORUM_PASSWORD_MISMATCH'
+msgid "The passwords you entered did not match."
+msgstr "הססמאות שהכנסת אינן תואמות."
+
+#: $lang->'FORUM_PRUNE_SETTINGS'
+msgid "Forum prune settings"
+msgstr "הגדרות איפוס הפורום"
+
+#: $lang->'FORUM_PRUNE_SHADOW'
+msgid "Enable auto-pruning of shadow topics"
+msgstr "אפשר איפוס אוטומטי של נושאי צללים"
+
+#: $lang->'FORUM_PRUNE_SHADOW_EXPLAIN'
+msgid ""
+"Prunes the forum of shadow topics, set the frequency/age parameters below."
+msgstr "מחק מהפורום נושאי צללים , הכנס את פרמטרי הגיל\\ התדירות מטה."
+
+#: $lang->'FORUM_RESYNCED'
+msgid "Forum “%s” successfully resynced"
+msgstr "הפורום “%s” סונכרן בהצלחה"
+
+#: $lang->'FORUM_RULES_EXPLAIN'
+msgid "Forum rules are displayed at any page within the given forum."
+msgstr "חוקי הפורום מוצגים בכל עמוד בתוך הפורום שהזנת."
+
+#: $lang->'FORUM_RULES_LINK'
+msgid "Link to forum rules"
+msgstr "קישור לחוקי הפורום"
+
+#: $lang->'FORUM_RULES_LINK_EXPLAIN'
+msgid ""
+"You are able to enter the URL of the page/post containing your forum rules "
+"here. This setting will override the forum rules text you specified."
+msgstr ""
+"באפשרותך להזין את כתובת העמוד/ההודעה שמכילה בתוכה את חוקי הפורום. הגדרות אלה "
+"יעקפו את טקסט החוקי הפורום שבחרת."
+
+#: $lang->'FORUM_RULES_PREVIEW'
+msgid "Forum rules preview"
+msgstr "תצוגה מקדימה לחוקי הפורום"
+
+#: $lang->'FORUM_RULES_TOO_LONG'
+msgid "The forum rules must be less than 4000 characters."
+msgstr "חוקי הפורום יכולים להכיל מקסימום 4000 תווים."
+
+#: $lang->'FORUM_SETTINGS'
+msgid "Forum settings"
+msgstr "הגדרות הפורום"
+
+#: $lang->'FORUM_STATUS'
+msgid "Forum status"
+msgstr "מצב הפורום"
+
+#: $lang->'FORUM_STYLE'
+msgid "Forum style"
+msgstr "סגנון הפורום"
+
+#: $lang->'FORUM_TOPICS_PAGE'
+msgid "Topics per page"
+msgstr "נושאים בעמוד"
+
+#: $lang->'FORUM_TOPICS_PAGE_EXPLAIN'
+msgid ""
+"If non-zero this value will override the default topics per page setting."
+msgstr "אם אין אפס ערך זה יעקוף הגדרות ברירת המחדל של נושאים בעמוד."
+
+#: $lang->'FORUM_TYPE'
+msgid "Forum type"
+msgstr "סוג הפורום"
+
+#: $lang->'FORUM_UPDATED'
+msgid "Forum information updated successfully."
+msgstr "מידע הפורום עודכן בהצלחה."
+
+#: $lang->'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'
+msgid ""
+"You want to change a postable forum having subforums to a link. Please move "
+"all subforums out of this forum before you proceed, because after changing "
+"to a link you are no longer able to see the subforums currently connected to "
+"this forum."
+msgstr ""
+"תוכל לשנות פורום בו ניתן לשלוח הודעות המכיל תתי־פורומים לקישור. אנא העבר את "
+"כל תתי־הפורומים מחוץ לפורום זה לפני שתמשיך, מפני שלאחר השינוי לקישור לא תוכל "
+"יותר לראות את תתי־הפורומים המקושרים כרגע לפורום זה."
+
+#: $lang->'GENERAL_FORUM_SETTINGS'
+msgid "General forum settings"
+msgstr "הגדרות פורום כלליות"
+
+#: $lang->'LINK'
+msgctxt "$lang->'LINK'"
+msgid "Link"
+msgstr "קישור"
+
+#: $lang->'LIST_INDEX'
+msgid "List subforum in parent-forum’s legend"
+msgstr "רשום תת פורום ברשימת הפורומים הראשית"
+
+#: $lang->'LIST_INDEX_EXPLAIN'
+msgid ""
+"Displays this forum on the index and elsewhere as a link within the legend "
+"of its parent-forum if the parent-forum’s “List subforums in legend” option "
+"is enabled."
+msgstr ""
+"הצג את פורום זה בעמוד הראשי ובכל מקום אחר כקישור באזור של פורום האב שלו אם "
+"פורום האב מוגדר כ”רשום תת פורום ברשימה“ האפשרות מאושרת."
+
+#: $lang->'LIST_SUBFORUMS'
+msgid "List subforums in legend"
+msgstr "רשום תת פורום ברשימה"
+
+#: $lang->'LIST_SUBFORUMS_EXPLAIN'
+msgid ""
+"Displays this forum’s subforums on the index and elsewhere as a link within "
+"the legend if their “List subforum in parent-forum’s legend” option is "
+"enabled."
+msgstr ""
+"הצג את תת הפורומים של פורום זה בעמוד הראשי ובכל מקום אחר כקישור באזור "
+"הפורום. אם הפורום מוגדר כ”רשום תת פורום ברשימת הפורומים הראשית“ האפשרות "
+"מאושרת."
+
+#: $lang->'LOCKED'
+msgid "Locked"
+msgstr "נעול"
+
+#: $lang->'MOVE_POSTS_NO_POSTABLE_FORUM'
+msgid ""
+"The forum you selected for moving the posts to is not postable. Please "
+"select a postable forum."
+msgstr ""
+"הפורום שבחרת להעביר אליו את ההודעות אינו יכול לקבל הודעות נוספות. אנא בחר "
+"פורום אחר."
+
+#: $lang->'MOVE_POSTS_TO'
+msgid "Move posts to"
+msgstr "העבר הודעות ל"
+
+#: $lang->'MOVE_SUBFORUMS_TO'
+msgid "Move subforums to"
+msgstr "העבר תת פורומים ל"
+
+#: $lang->'NO_DESTINATION_FORUM'
+msgid "You have not specified a forum to move content to."
+msgstr "לא בחרת פורום בכדי להעביר את טבלאות אלו."
+
+#: $lang->'NO_FORUM_ACTION'
+msgid "No action defined for what happens with the forum content."
+msgstr "לא הוגדרה פעולה למה שקרה עם טבלאות הפורום."
+
+#: $lang->'NO_PARENT'
+msgid "No parent"
+msgstr "אין פורום ראשי"
+
+#: $lang->'NO_PERMISSIONS'
+msgid "Do not copy permissions"
+msgstr "אל תעתיק הרשאות"
+
+#: $lang->'NO_PERMISSION_FORUM_ADD'
+msgid "You do not have the necessary permissions to add forums."
+msgstr "אין לך ההרשאות ליצור פורום."
+
+#: $lang->'NO_PERMISSION_FORUM_DELETE'
+msgid "You do not have the necessary permissions to delete forums."
+msgstr "אין לך ההרשאות למחוק פורום."
+
+#: $lang->'PARENT_IS_LINK_FORUM'
+msgid ""
+"The parent you specified is a forum link. Link forums are not able to hold "
+"other forums, please specify a category or forum as the parent forum."
+msgstr ""
+"הפורום הראשי שבחרת הנו פורום מקושר. פורומים מקושרים אינם יכולים להחזיק "
+"פורומים, אנא בחר פורום או קטגוריה אחרת שתהיה הפורום הראשי שיחזיק פורום זה."
+
+#: $lang->'PARENT_NOT_EXIST'
+msgid "Parent does not exist."
+msgstr "הפורום הראשי אינו קיים."
+
+#: $lang->'PRUNE_ANNOUNCEMENTS'
+msgid "Prune announcements"
+msgstr "איפוס הכרזות"
+
+#: $lang->'PRUNE_STICKY'
+msgid "Prune stickies"
+msgstr "איפוס דביקים"
+
+#: $lang->'PRUNE_OLD_POLLS'
+msgid "Prune old polls"
+msgstr "איפוס סקרים ישנים"
+
+#: $lang->'PRUNE_OLD_POLLS_EXPLAIN'
+msgid "Removes topics with polls not voted in for post age days."
+msgstr "הסר נושאים עם סקרים ללא הצבעות שעברו את מספר הימים שהוקצב להם."
+
+#: $lang->'REDIRECT_ACL'
+msgid "Now you are able to %sset permissions%s for this forum."
+msgstr "כעת באפשרות %sלהגדיר הרשאות%s לפורום זה."
+
+#: $lang->'SYNC_IN_PROGRESS'
+msgid "Synchronizing forum"
+msgstr "מחדש פורום"
+
+#: $lang->'SYNC_IN_PROGRESS_EXPLAIN'
+msgid "Currently resyncing topic range %1$d/%2$d."
+msgstr "מרחק חידוש הפורום כעת %1$d/%2$d."
+
+#: $lang->'TYPE_CAT'
+msgid "Category"
+msgstr "קטגוריה"
+
+#: $lang->'TYPE_FORUM'
+msgid "Forum"
+msgstr "פורום"
+
+#: $lang->'TYPE_LINK'
+msgctxt "$lang->'TYPE_LINK'"
+msgid "Link"
+msgstr "קישור"
+
+#: $lang->'UNLOCKED'
+msgid "Unlocked"
+msgstr "פתוח"

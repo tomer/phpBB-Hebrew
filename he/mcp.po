@@ -1,0 +1,1524 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/mcp.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/mcp.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'ACTION'
+msgid "Action"
+msgstr "פעולה"
+
+#: $lang->'ACTION_NOTE'
+msgid "Action/Note"
+msgstr "פעולה/הערה"
+
+#: $lang->'ADD_FEEDBACK'
+msgid "Add feedback"
+msgstr "הוסף משוב"
+
+#: $lang->'ADD_FEEDBACK_EXPLAIN'
+msgid ""
+"If you would like to add a report on this please fill out the following "
+"form. Only use plain text; HTML, BBCode, etc. are not permitted."
+msgstr ""
+"אם ברצונך להוסיף דיווח באזור זה, אנא מלא את הטופס הבא. השתמש בטקסט רגיל בלבד;"
+" HTML, BBCode, לא מאופשרים."
+
+#: $lang->'ADD_WARNING'
+msgid "Add warning"
+msgstr "הוסף אזהרה"
+
+#: $lang->'ADD_WARNING_EXPLAIN'
+msgid ""
+"To send a warning to this user please fill out the following form. Only use "
+"plain text; HTML, BBCode, etc. are not permitted."
+msgstr ""
+"בכדי לשלוח אזהרה למשתמש זה אנא מלא את הטופס הבא. השתמש בטקסט רגיל בלבד; "
+"HTML, BBCode, etc. לא מאופשרים."
+
+#: $lang->'ALL_ENTRIES'
+msgid "All entries"
+msgstr "כל הכניסות"
+
+#: $lang->'ALL_NOTES_DELETED'
+msgid "Successfully removed all user notes."
+msgstr "כל הערות המשתמשים נמחקו בהצלחה."
+
+#: $lang->'ALL_REPORTS'
+msgid "All reports"
+msgstr "כל הדיווחים"
+
+#: $lang->'ALREADY_REPORTED'
+msgid "This post has already been reported."
+msgstr "הודעה זו כבר דווחה."
+
+#: $lang->'ALREADY_REPORTED_PM'
+msgid "This private message has already been reported."
+msgstr "הודעה פרטית זו כבר דווחה."
+
+#: $lang->'ALREADY_WARNED'
+msgid "A warning has already been issued for this post."
+msgstr "הערה כבר נרשמה על הודעה זו."
+
+#: $lang->'APPROVE'
+msgid "Approve"
+msgstr "אשר"
+
+#: $lang->'APPROVE_POST'
+msgid "Approve post"
+msgstr "אשר הודעה"
+
+#: $lang->'APPROVE_POST_CONFIRM'
+msgid "Are you sure you want to approve this post?"
+msgstr "האם אתה בטוח שברצונך לאשר הודעה זו?"
+
+#: $lang->'APPROVE_POSTS'
+msgid "Approve posts"
+msgstr "אשר הודעות"
+
+#: $lang->'APPROVE_POSTS_CONFIRM'
+msgid "Are you sure you want to approve the selected posts?"
+msgstr "האם אתה בטוח שברצונך לאשר הודעות אלה?"
+
+#: $lang->'APPROVE_TOPIC'
+msgid "Approve topic"
+msgstr "אשר נושא"
+
+#: $lang->'APPROVE_TOPIC_CONFIRM'
+msgid "Are you sure you want to approve this topic?"
+msgstr "אתה בטוח שברצונך לאשר את הנושא שנבחר?"
+
+#: $lang->'APPROVE_TOPICS'
+msgid "Approve topics"
+msgstr "אשר נושאים"
+
+#: $lang->'APPROVE_TOPICS_CONFIRM'
+msgid "Are you sure you want to approve the selected topics?"
+msgstr "אתה בטוח שברצונך לאשר את הנושאים שנבחרו?"
+
+#: $lang->'CANNOT_MOVE_SAME_FORUM'
+msgid "You cannot move a topic to the forum it’s already in."
+msgstr "אתה לא יכול להעביר נושא לפורום בו הוא כבר נמצא."
+
+#: $lang->'CANNOT_WARN_ANONYMOUS'
+msgid "You cannot warn unregistered guest users."
+msgstr "אינך יכול להזהיר משתמש שאינו רשום למערכת."
+
+#: $lang->'CANNOT_WARN_SELF'
+msgid "You cannot warn yourself."
+msgstr "אינך יכול להזהיר את עצמך."
+
+#: $lang->'CAN_LEAVE_BLANK'
+msgid "This can be left blank."
+msgstr "ניתן להשאיר ריק."
+
+#: $lang->'CHANGE_POSTER'
+msgid "Change poster"
+msgstr "שנה כותב"
+
+#: $lang->'CLOSE_PM_REPORT'
+msgid "Close PM report"
+msgstr "סגור דיווח הודעה פרטית"
+
+#: $lang->'CLOSE_PM_REPORT_CONFIRM'
+msgid "Are you sure you want to close the selected PM report?"
+msgstr "האם אתה בטוח שברצונך לסגור את דיווח ההודעה הפרטית שבחרת?"
+
+#: $lang->'CLOSE_PM_REPORTS'
+msgid "Close PM reports"
+msgstr "סגור דיווחי הודעות פרטיות"
+
+#: $lang->'CLOSE_PM_REPORTS_CONFIRM'
+msgid "Are you sure you want to close the selected PM reports?"
+msgstr "האם אתה בטוח שברצונך לסגור את הדיווחי הודעות פרטיות שבחרת?"
+
+#: $lang->'CLOSE_REPORT'
+msgid "Close report"
+msgstr "סגור דיווח"
+
+#: $lang->'CLOSE_REPORT_CONFIRM'
+msgid "Are you sure you want to close the selected report?"
+msgstr "האם אתה בטוח שברצונך לסגור את הדיווח שבחרת?"
+
+#: $lang->'CLOSE_REPORTS'
+msgid "Close reports"
+msgstr "סגור דיווחים"
+
+#: $lang->'CLOSE_REPORTS_CONFIRM'
+msgid "Are you sure you want to close the selected reports?"
+msgstr "האם אתה בטוח שברצונך לסגור את הדיווחים שבחרת?"
+
+#: $lang->'DELETE_PM_REPORT'
+msgid "Delete PM report"
+msgstr "מחק דיווח הודעה פרטית"
+
+#: $lang->'DELETE_PM_REPORT_CONFIRM'
+msgid "Are you sure you want to delete the selected PM report?"
+msgstr "האם אתה בטוח שברצונך למחוק את דיווח ההודעה הפרטית שבחרת?"
+
+#: $lang->'DELETE_PM_REPORTS'
+msgid "Delete PM reports"
+msgstr "מחק דיווחי הודעות פרטיות"
+
+#: $lang->'DELETE_PM_REPORTS_CONFIRM'
+msgid "Are you sure you want to delete the selected PM reports?"
+msgstr "האם אתה בטוח שברצונך למחוק את דיווחי ההודעות הפרטיות שבחרת?"
+
+#: $lang->'DELETE_POSTS'
+msgid "Delete posts"
+msgstr "מחק הודעות"
+
+#: $lang->'DELETE_REPORT'
+msgid "Delete report"
+msgstr "מחק דיווחים"
+
+#: $lang->'DELETE_REPORT_CONFIRM'
+msgid "Are you sure you want to delete the selected report?"
+msgstr "האם אתה בטוח שברצונך למחוק את הדיווח שבחרת?"
+
+#: $lang->'DELETE_REPORTS'
+msgid "Delete reports"
+msgstr "מחק דיווחים"
+
+#: $lang->'DELETE_REPORTS_CONFIRM'
+msgid "Are you sure you want to delete the selected reports?"
+msgstr "האם אתה בטוח שברצונך למחוק את הדיווחים שבחרת?"
+
+#: $lang->'DELETE_SHADOW_TOPIC'
+msgid "Delete shadow topic"
+msgstr "מחק את צל ההודעה"
+
+#: $lang->'DELETE_TOPICS'
+msgid "Delete selected topics"
+msgstr "מחק נושאים שנבחרו"
+
+#: $lang->'DISAPPROVE'
+msgid "Disapprove"
+msgstr "לא מאשר"
+
+#: $lang->'DISAPPROVE_REASON'
+msgid "Reason for disapproval"
+msgstr "הסיבה לאי האישור"
+
+#: $lang->'DISAPPROVE_POST'
+msgid "Disapprove post"
+msgstr "אל תאשר הודעה זו"
+
+#: $lang->'DISAPPROVE_POST_CONFIRM'
+msgid "Are you sure you want to disapprove this post?"
+msgstr "אתה בטוח שברצונך לא לאשר את הודעה זו?"
+
+#: $lang->'DISAPPROVE_POSTS'
+msgid "Disapprove posts"
+msgstr "אל תאשר הודעות אלו"
+
+#: $lang->'DISAPPROVE_POSTS_CONFIRM'
+msgid "Are you sure you want to disapprove the selected posts?"
+msgstr "אתה בטוח שברצונך לא לאשר את הודעות אלו?"
+
+#: $lang->'DISPLAY_LOG'
+msgid "Display entries from previous"
+msgstr "הצג כניסות קודמות"
+
+#: $lang->'DISPLAY_OPTIONS'
+msgid "Display options"
+msgstr "הצג אפשרויות"
+
+#: $lang->'EMPTY_REPORT'
+msgid "You must enter a description when selecting this reason."
+msgstr "אתה חייב להכניס תיאור אם בחרת בסיבה זו."
+
+#: $lang->'EMPTY_TOPICS_REMOVED_WARNING'
+msgid ""
+"Please note that one or several topics have been removed from the database "
+"because they were or become empty."
+msgstr "שים לב, הודעה או חלק מההודעות הוסרו בעקבות היותם ריקות או חסרות תוכן."
+
+#: $lang->'FEEDBACK'
+msgid "Feedback"
+msgstr "משוב"
+
+#: $lang->'FORK'
+msgid "Copy"
+msgstr "העתק"
+
+#: $lang->'FORK_TOPIC'
+msgid "Copy topic"
+msgstr "עתק נושא"
+
+#: $lang->'FORK_TOPIC_CONFIRM'
+msgid "Are you sure you want to copy this topic?"
+msgstr "אתה בטוח שברצונך להעתיק נושא זה?"
+
+#: $lang->'FORK_TOPICS'
+msgid "Copy selected topics"
+msgstr "העתק נושאים נבחרים"
+
+#: $lang->'FORK_TOPICS_CONFIRM'
+msgid "Are you sure you want to copy the selected topics?"
+msgstr "אתה בטוח שברצונך להעתיק את הנושאים שנבחרו?"
+
+#: $lang->'FORUM_DESC'
+msgid "Description"
+msgstr "תיאור"
+
+#: $lang->'FORUM_NAME'
+msgid "Forum name"
+msgstr "שם הפורום"
+
+#: $lang->'FORUM_NOT_EXIST'
+msgid "The forum you selected does not exist."
+msgstr "הפורום שבחרת אינו קיים."
+
+#: $lang->'FORUM_NOT_POSTABLE'
+msgid "The forum you selected cannot be posted to."
+msgstr "הפורום שהזנת אינו יכול לקבל נושאים חדשים."
+
+#: $lang->'FORUM_STATUS'
+msgid "Forum status"
+msgstr "מצב הפורום"
+
+#: $lang->'FORUM_STYLE'
+msgid "Forum style"
+msgstr "סגנון הפורום"
+
+#: $lang->'GLOBAL_ANNOUNCEMENT'
+msgid "Global announcement"
+msgstr "הכרזה כללית"
+
+#: $lang->'IP_INFO'
+msgid "IP address information"
+msgstr "מידע על כתובת IP"
+
+#: $lang->'IPS_POSTED_FROM'
+msgid "IP addresses this user has posted from"
+msgstr "כתובת ה־IP של משתמש זה נשלחה מ"
+
+#: $lang->'LATEST_LOGS'
+msgid "Latest 5 logged actions"
+msgstr "5 פעולות אחרונות"
+
+#: $lang->'LATEST_REPORTED'
+msgid "Latest 5 reports"
+msgstr "5 דיווחים אחרונים"
+
+#: $lang->'LATEST_REPORTED_PMS'
+msgid "Latest 5 PM reports"
+msgstr "5 דיווחי ההודעות הפרטיות האחרונות"
+
+#: $lang->'LATEST_UNAPPROVED'
+msgid "Latest 5 posts awaiting approval"
+msgstr "5 הודעות הממתינות לאישור"
+
+#: $lang->'LATEST_WARNING_TIME'
+msgid "Latest warning issued"
+msgstr "אזהרה אחרונה"
+
+#: $lang->'LATEST_WARNINGS'
+msgid "Latest 5 warnings"
+msgstr "5 אזהרות אחרונות"
+
+#: $lang->'LEAVE_SHADOW'
+msgid "Leave shadow topic in place"
+msgstr "השאר העתק מנושא זה"
+
+#: $lang->'LIST_REPORTS'->1
+msgid "%d report"
+msgstr "דיווח %d"
+
+#: $lang->'LIST_REPORTS'->2
+msgid "%d reports"
+msgstr "%d דיווחים"
+
+#: $lang->'LOCK'
+msgid "Lock"
+msgstr "נעל"
+
+#: $lang->'LOCK_POST_POST'
+msgid "Lock post"
+msgstr "נעל הודעה"
+
+#: $lang->'LOCK_POST_POST_CONFIRM'
+msgid "Are you sure you want to prevent editing this post?"
+msgstr "אתה בטוח שברצונך למנוע מעריכת הודעה זו?"
+
+#: $lang->'LOCK_POST_POSTS'
+msgid "Lock selected posts"
+msgstr "נעל הודעות נבחרות"
+
+#: $lang->'LOCK_POST_POSTS_CONFIRM'
+msgid "Are you sure you want to prevent editing the selected posts?"
+msgstr "אתה בטוח שברצונך למנוע מעריכת הודעות אלה?"
+
+#: $lang->'LOCK_TOPIC_CONFIRM'
+msgid "Are you sure you want to lock this topic?"
+msgstr "אתה בטוח שברצונך לנעול נושא זה?"
+
+#: $lang->'LOCK_TOPICS'
+msgid "Lock selected topics"
+msgstr "נעל נושאים שנבחרו"
+
+#: $lang->'LOCK_TOPICS_CONFIRM'
+msgid "Are you sure you want to lock all selected topics?"
+msgstr "אתה בטוח שברצונך לנעול את הנושאים שנבחרו?"
+
+#: $lang->'LOGS_CURRENT_TOPIC'
+msgid "Currently viewing logs of:"
+msgstr "התנתקויות:"
+
+#: $lang->'LOGIN_EXPLAIN_MCP'
+msgid "To moderate this forum you must login."
+msgstr "בכדי לנהל פורום זה אתה חייב להתחבר."
+
+#: $lang->'LOGVIEW_VIEWPOST'
+msgctxt "$lang->'LOGVIEW_VIEWPOST'"
+msgid "View post"
+msgstr ""
+
+#: $lang->'LOGVIEW_VIEWTOPIC'
+msgctxt "$lang->'LOGVIEW_VIEWTOPIC'"
+msgid "View topic"
+msgstr "צפה בנושא"
+
+#: $lang->'LOGVIEW_VIEWLOGS'
+msgid "View topic log"
+msgstr "צפה בלוג הנושא"
+
+#: $lang->'LOGVIEW_VIEWFORUM'
+msgctxt "$lang->'LOGVIEW_VIEWFORUM'"
+msgid "View forum"
+msgstr "צפה בפורום"
+
+#: $lang->'LOOKUP_ALL'
+msgid "Look up all IPs"
+msgstr "צפה בכל רשימת ה־IP"
+
+#: $lang->'LOOKUP_IP'
+msgid "Look up IP"
+msgstr "ראה IP"
+
+#: $lang->'MARKED_NOTES_DELETED'
+msgid "Successfully removed all marked user notes."
+msgstr "כל הערות המשתמשים שסומנו נמחקו בהצלחה."
+
+#: $lang->'MCP_ADD'
+msgid "Add a warning"
+msgstr "הוסף הערה"
+
+#: $lang->'MCP_BAN'
+msgid "Banning"
+msgstr "חסימה"
+
+#: $lang->'MCP_BAN_EMAILS'
+msgid "Ban emails"
+msgstr "חסום כתובת דואר אלקטרוני"
+
+#: $lang->'MCP_BAN_IPS'
+msgid "Ban IPs"
+msgstr "חסימות IP"
+
+#: $lang->'MCP_BAN_USERNAMES'
+msgid "Ban Usernames"
+msgstr "חסימות שם משתמש"
+
+#: $lang->'MCP_LOGS'
+msgid "Moderator logs"
+msgstr "יומן מנהל"
+
+#: $lang->'MCP_LOGS_FRONT'
+msgctxt "$lang->'MCP_LOGS_FRONT'"
+msgid "Front page"
+msgstr "עמוד ראשון"
+
+#: $lang->'MCP_LOGS_FORUM_VIEW'
+msgid "Forum logs"
+msgstr "יומן הפורום"
+
+#: $lang->'MCP_LOGS_TOPIC_VIEW'
+msgid "Topic logs"
+msgstr "יומן הנושא"
+
+#: $lang->'MCP_MAIN'
+msgid "Main"
+msgstr "ראשי"
+
+#: $lang->'MCP_MAIN_FORUM_VIEW'
+msgctxt "$lang->'MCP_MAIN_FORUM_VIEW'"
+msgid "View forum"
+msgstr "ראה פורום"
+
+#: $lang->'MCP_MAIN_FRONT'
+msgctxt "$lang->'MCP_MAIN_FRONT'"
+msgid "Front page"
+msgstr "עמוד ראשון"
+
+#: $lang->'MCP_MAIN_POST_DETAILS'
+msgid "Post details"
+msgstr "פרטי ההודעה"
+
+#: $lang->'MCP_MAIN_TOPIC_VIEW'
+msgctxt "$lang->'MCP_MAIN_TOPIC_VIEW'"
+msgid "View topic"
+msgstr "ראה נושא"
+
+#: $lang->'MCP_MAKE_ANNOUNCEMENT'
+msgid "Modify to “Announcement”"
+msgstr "שנה ל־“הכרזה”"
+
+#: $lang->'MCP_MAKE_ANNOUNCEMENT_CONFIRM'
+msgid "Are you sure you want to change this topic to an “Announcement”?"
+msgstr "אתה בטוח שברצונך לשנות נושא זה ל־“הכרזה”?"
+
+#: $lang->'MCP_MAKE_ANNOUNCEMENTS'
+msgid "Modify to “Announcements”"
+msgstr "הערוך ל־“הכרזות”"
+
+#: $lang->'MCP_MAKE_ANNOUNCEMENTS_CONFIRM'
+msgid "Are you sure you want to change the selected topics to “Announcements”?"
+msgstr "אתה בטוח שברצונך לשנות את הנושאים שנבחרו ל־“הכרזות”?"
+
+#: $lang->'MCP_MAKE_GLOBAL'
+msgid "Modify to “Global announcement”"
+msgstr "שנה ל־“הכרזה כללית”"
+
+#: $lang->'MCP_MAKE_GLOBAL_CONFIRM'
+msgid "Are you sure you want to change this topic to a “Global announcement”?"
+msgstr "אתה בטוח שברצונך לשנות נושא זה ל־“הכרזה כללית”?"
+
+#: $lang->'MCP_MAKE_GLOBALS'
+msgid "Modify to “Global announcements”"
+msgstr "שנה ל־“הכרזה כללית”"
+
+#: $lang->'MCP_MAKE_GLOBALS_CONFIRM'
+msgid ""
+"Are you sure you want to change the selected topics to “Global "
+"announcements”?"
+msgstr "אתה בטוח שברצונך לשנות את הנושאים שנבחרו ל־“הכרזות כלליות”?"
+
+#: $lang->'MCP_MAKE_STICKY'
+msgid "Modify to “Sticky”"
+msgstr "שנה ל־“דביק”"
+
+#: $lang->'MCP_MAKE_STICKY_CONFIRM'
+msgid "Are you sure you want to change this topic to a “Sticky”?"
+msgstr "אתה בטוח שברצונך לשנות נושא זה ל־“דביק”?"
+
+#: $lang->'MCP_MAKE_STICKIES'
+msgid "Modify to “Stickies”"
+msgstr "שנה ל־“דביקים”"
+
+#: $lang->'MCP_MAKE_STICKIES_CONFIRM'
+msgid "Are you sure you want to change the selected topics to “Stickies”?"
+msgstr "אתה בטוח שברצונך לשנות את הנושאים שנבחרו לנושאים “דביקים”?"
+
+#: $lang->'MCP_MAKE_NORMAL'
+msgid "Modify to “Standard Topic”"
+msgstr "שנה ל־“נושא רגיל”"
+
+#: $lang->'MCP_MAKE_NORMAL_CONFIRM'
+msgid "Are you sure you want to change this topic to a “Standard Topic”?"
+msgstr "אתה בטוח שברצונך לשנות את הנושא ל־“נושא רגיל”?"
+
+#: $lang->'MCP_MAKE_NORMALS'
+msgid "Modify to “Standard Topics”"
+msgstr "שנה ל־“נושאים רגילים”"
+
+#: $lang->'MCP_MAKE_NORMALS_CONFIRM'
+msgid ""
+"Are you sure you want to change the selected topics to “Standard Topics”?"
+msgstr "אתה בטוח שברצונך לשנות את הנושאים שנבחרו ל־“נושאים רגילים”?"
+
+#: $lang->'MCP_NOTES'
+msgctxt "$lang->'MCP_NOTES'"
+msgid "User notes"
+msgstr "הערות המשתמש"
+
+#: $lang->'MCP_NOTES_FRONT'
+msgctxt "$lang->'MCP_NOTES_FRONT'"
+msgid "Front page"
+msgstr "עמוד ראשון"
+
+#: $lang->'MCP_NOTES_USER'
+msgid "User details"
+msgstr "פרטי המשתמש"
+
+#: $lang->'MCP_POST_REPORTS'
+msgid "Reports issued on this post"
+msgstr "דווח על הודעה זו"
+
+#: $lang->'MCP_PM_REPORTS'
+msgid "Reported PMs"
+msgstr "הודעות פרטיות מדווחות"
+
+#: $lang->'MCP_PM_REPORT_DETAILS'
+msgid "PM Report details"
+msgstr "פרטי הודעות פרטיות מדווחות"
+
+#: $lang->'MCP_PM_REPORTS_CLOSED'
+msgid "Closed PM reports"
+msgstr "דיווחים סגורים של הודעות פרטיות"
+
+#: $lang->'MCP_PM_REPORTS_CLOSED_EXPLAIN'
+msgid ""
+"This is a list of all reports about private messages which have previously "
+"been resolved."
+msgstr "זוהי רשימה של כל הדיווחים של הודעות פרטיות שטופלו בעבר."
+
+#: $lang->'MCP_PM_REPORTS_OPEN'
+msgid "Open PM reports"
+msgstr "דיווחים פתוחים של הודעות פרטיות"
+
+#: $lang->'MCP_PM_REPORTS_OPEN_EXPLAIN'
+msgid ""
+"This is a list of all reported private messages which are still to be "
+"handled."
+msgstr "זוהי רשימה של כל הדיווחים על הודעות פרטיות שעדיין צריך לטפל בהם."
+
+#: $lang->'MCP_REPORTS'
+msgid "Reported messages"
+msgstr "הודעות מדווחות"
+
+#: $lang->'MCP_REPORT_DETAILS'
+msgctxt "$lang->'MCP_REPORT_DETAILS'"
+msgid "Report details"
+msgstr "פרטי הדיווח"
+
+#: $lang->'MCP_REPORTS_CLOSED'
+msgid "Closed reports"
+msgstr "דיווחים סגורים"
+
+#: $lang->'MCP_REPORTS_CLOSED_EXPLAIN'
+msgid ""
+"This is a list of all reports about posts which have previously been "
+"resolved."
+msgstr "זוהי רשימה של דיווחים קודמים שנפתרו."
+
+#: $lang->'MCP_REPORTS_OPEN'
+msgid "Open reports"
+msgstr "דיווחים פתוחים"
+
+#: $lang->'MCP_REPORTS_OPEN_EXPLAIN'
+msgid "This is a list of all reported posts which are still to be handled."
+msgstr "זוהי רשימת הדיווחים אשר עדין לא נבדקו."
+
+#: $lang->'MCP_QUEUE'
+msgid "Moderation queue"
+msgstr "תור המנהל"
+
+#: $lang->'MCP_QUEUE_APPROVE_DETAILS'
+msgid "Approve details"
+msgstr "פרטי האישור"
+
+#: $lang->'MCP_QUEUE_UNAPPROVED_POSTS'
+msgid "Posts awaiting approval"
+msgstr "הודעות הממתינות לאישור"
+
+#: $lang->'MCP_QUEUE_UNAPPROVED_POSTS_EXPLAIN'
+msgid ""
+"This is a list of all posts which require approving before they will be "
+"visible to users."
+msgstr ""
+"זוהי רשימת ההודעות שנרשמו על ידי משתמשים אשר ממתינות לקבל אישור לפני פרסום "
+"ההודעות לקהל המשתמשים בפורום."
+
+#: $lang->'MCP_QUEUE_UNAPPROVED_TOPICS'
+msgid "Topics awaiting approval"
+msgstr "נושאים הממתינים לאישור"
+
+#: $lang->'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'
+msgid ""
+"This is a list of all topics which require approving before they will be "
+"visible to users."
+msgstr ""
+"זוהי רשימת הנושאים שנרשמו על ידי משתמשים אשר ממתינים לקבל אישור לפני פרסום "
+"ההודעות לקהל המשתמשים בפורום."
+
+#: $lang->'MCP_QUEUE_DELETED_POSTS'
+msgid "Deleted posts"
+msgstr "הודעות שנמחקו"
+
+#: $lang->'MCP_QUEUE_DELETED_POSTS_EXPLAIN'
+msgid ""
+"This is a list of all soft deleted posts. You can restore or permanently "
+"delete the posts from this screen."
+msgstr ""
+"This is a list of all soft deleted posts. You can restore or permanently "
+"delete the posts from this screen."
+
+#: $lang->'MCP_QUEUE_DELETED_TOPICS'
+msgid "Deleted topics"
+msgstr "נושאים שנמחקו"
+
+#: $lang->'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'
+msgid ""
+"This is a list of all soft deleted topics. You can restore or permanently "
+"delete the topics from this screen."
+msgstr ""
+"This is a list of all soft deleted topics. You can restore or permanently "
+"delete the topics from this screen."
+
+#: $lang->'MCP_VIEW_USER'
+msgid "View warnings for a specific user"
+msgstr "ראה אזהרות של משתמשים מסוימים"
+
+#: $lang->'MCP_WARN'
+msgctxt "$lang->'MCP_WARN'"
+msgid "Warnings"
+msgstr "אזהרות"
+
+#: $lang->'MCP_WARN_FRONT'
+msgctxt "$lang->'MCP_WARN_FRONT'"
+msgid "Front page"
+msgstr "עמוד ראשון"
+
+#: $lang->'MCP_WARN_LIST'
+msgid "List warnings"
+msgstr "רשימת הערות"
+
+#: $lang->'MCP_WARN_POST'
+msgid "Warn for specific post"
+msgstr "הזהר הודעה ספציפית"
+
+#: $lang->'MCP_WARN_USER'
+msgid "Warn user"
+msgstr "הזהר משתמש"
+
+#: $lang->'MERGE_POSTS_CONFIRM'
+msgid "Are you sure you want to move the selected posts?"
+msgstr "האם אתה בטוח שברצונך להעביר את ההודעות שנבחרו"
+
+#: $lang->'MERGE_TOPIC_EXPLAIN'
+msgid ""
+"Using the form below you can move selected posts into another topic. The "
+"posts will be split from this topic and merged into the other topic. These "
+"posts will not be reordered and will appear as if the users posted them to "
+"the new topic.<br />Please enter the destination topic id or click on “"
+"Select topic” to search for one."
+msgstr ""
+"במילוי הטופס הנמצא מטה תוכל להעביר הודעות לנושא אחר. ההודעות יפוצלו מנושא זה "
+"וימזגו לנושא אחר. סדר ההודעות לא ישתנה ויופיע כאילו שהמשתמשים פרסמו אותם "
+"בנושא חדש.<br />אנא בחר את מספר הזיהוי של הנושא או לחץ על “בחר נושא” בכדי "
+"לחפש את הנושא המבוקש."
+
+#: $lang->'MERGE_TOPIC_ID'
+msgid "Destination topic identification number"
+msgstr "מספר הזיהוי של הנושא"
+
+#: $lang->'MERGE_TOPICS'
+msgid "Merge topics"
+msgstr "מזג נושאים"
+
+#: $lang->'MERGE_TOPICS_CONFIRM'
+msgid "Are you sure you want to merge the selected topics?"
+msgstr "האם אתה בטוח שברצונך למזג את הנושאים שנבחרו?"
+
+#: $lang->'MODERATE_FORUM'
+msgid "Moderate forum"
+msgstr "נהל פורום"
+
+#: $lang->'MODERATE_TOPIC'
+msgid "Moderate topic"
+msgstr "נהל נושא"
+
+#: $lang->'MODERATE_POST'
+msgid "Moderate post"
+msgstr "נהל הודעה"
+
+#: $lang->'MOD_OPTIONS'
+msgid "Moderator options"
+msgstr "אפשרויות ניהול"
+
+#: $lang->'MORE_INFO'
+msgid "Further information"
+msgstr "מידע מתקדם"
+
+#: $lang->'MOST_WARNINGS'
+msgid "Users with most warnings"
+msgstr "משתמשים עם הכי הרבה אזהרות"
+
+#: $lang->'MOVE_TOPIC_CONFIRM'
+msgid "Are you sure you want to move the topic into a new forum?"
+msgstr "האם אתה בטוח שברצונך להעביר את הנושא אל פורום זה?"
+
+#: $lang->'MOVE_TOPICS'
+msgid "Move selected topics"
+msgstr "העבר נושאים שנבחרו"
+
+#: $lang->'MOVE_TOPICS_CONFIRM'
+msgid "Are you sure you want to move the selected topics into a new forum?"
+msgstr "האם אתה בטוח שברצונך להעביר את הנושאים שנבחרו לפורום זה?"
+
+#: $lang->'NOTIFY_POSTER_APPROVAL'
+msgid "Notify poster about approval?"
+msgstr "ידע את שולח על האישור?"
+
+#: $lang->'NOTIFY_POSTER_DISAPPROVAL'
+msgid "Notify poster about disapproval?"
+msgstr "ידע את השולח על אי האישור לבקשתו?"
+
+#: $lang->'NOTIFY_USER_WARN'
+msgid "Notify user about warning?"
+msgstr "ידע את המשתמש על אזהרה חדשה?"
+
+#: $lang->'NOT_MODERATOR'
+msgid "You are not a moderator of this forum."
+msgstr "אינך המנהל של פורום זה."
+
+#: $lang->'NO_DESTINATION_FORUM'
+msgid "Please select a forum for destination."
+msgstr "אנא בחר את ידע הפורום."
+
+#: $lang->'NO_DESTINATION_FORUM_FOUND'
+msgid "There is no destination forum available."
+msgstr "אין יעד פורום נוכחי."
+
+#: $lang->'NO_ENTRIES'
+msgid "No log entries."
+msgstr "אין רשימת כניסות."
+
+#: $lang->'NO_FEEDBACK'
+msgid "No feedback exists for this user."
+msgstr "אין משוב עבור משתמש זה."
+
+#: $lang->'NO_FINAL_TOPIC_SELECTED'
+msgid "You have to select a destination topic for merging posts."
+msgstr "אתה חייב לבחור את יעד הנושא בכדי למזג את ההודעות."
+
+#: $lang->'NO_MATCHES_FOUND'
+msgid "No matches found."
+msgstr "לא נמצאו תוצאות תואמות."
+
+#: $lang->'NO_POST'
+msgid "You have to select a post in order to warn the user for a post."
+msgstr "אתה חייב לבחור הודעה על מנת להזהיר את המשתמש על הודעה."
+
+#: $lang->'NO_POST_REPORT'
+msgid "This post was not reported."
+msgstr "ההודעה לא דווחה."
+
+#: $lang->'NO_POST_SELECTED'
+msgid "You must select at least one post to perform this action."
+msgstr "אתה חייב לבחור לפחות הודעה אחת על מנת לקיים את הפעולה."
+
+#: $lang->'NO_POSTS_DELETED'
+msgid "There are no deleted posts."
+msgstr "אין הודעות שנמחקו."
+
+#: $lang->'NO_POSTS_QUEUE'
+msgctxt "$lang->'NO_POSTS_QUEUE'"
+msgid "There are no posts waiting for approval."
+msgstr "אין הודעות שמחכות לאישור."
+
+#: $lang->'NO_REASON_DISAPPROVAL'
+msgid "Please give an appropriate reason for disapproval."
+msgstr "אנא הזן סיבה לדחייה."
+
+#: $lang->'NO_REPORT'
+msgid "No report found"
+msgstr "לא נמצאו דיווחים"
+
+#: $lang->'NO_REPORTS'
+msgid "No reports found"
+msgstr "אין דיווחים"
+
+#: $lang->'NO_REPORT_SELECTED'
+msgid "You must select at least one report to perform this action."
+msgstr "אתה חייב לבחור לפחות דיווח אחת על מנת לקיים את הפעולה."
+
+#: $lang->'NO_TOPIC_ICON'
+msgid "None"
+msgstr "אין"
+
+#: $lang->'NO_TOPIC_SELECTED'
+msgid "You must select at least one topic to perform this action."
+msgstr "אתה חייב לבחור לפחות נושא אחת על מנת לקיים את הפעולה."
+
+#: $lang->'NO_TOPICS_DELETED'
+msgid "There are no deleted topics."
+msgstr "אין נושאים שנמחקו."
+
+#: $lang->'NO_TOPICS_QUEUE'
+msgid "There are no topics waiting for approval."
+msgstr "אין נושאים שמחכים לאישור."
+
+#: $lang->'ONLY_TOPIC'
+msgid "Only topic “%s”"
+msgstr "רק נושא “%s”"
+
+#: $lang->'OTHER_USERS'
+msgid "Other users posting from this IP"
+msgstr "משתמשים אחרים שמגיבים מה-ip הזה"
+
+#: $lang->'QUICKMOD_ACTION_NOT_ALLOWED'
+msgid "%s not allowed as quickmod"
+msgstr "%s לא ניתן להפעלה במצב מהיר"
+
+#: $lang->'PM_REPORT_CLOSED_SUCCESS'
+msgid "The selected PM report has been closed successfully."
+msgstr "הדיווח על ההודעה הפרטית נסגר בהצלחה."
+
+#: $lang->'PM_REPORT_DELETED_SUCCESS'
+msgid "The selected PM report has been deleted successfully."
+msgstr "הדיווח על ההודעה הפרטית נמחק בהצלחה."
+
+#: $lang->'PM_REPORTED_SUCCESS'
+msgid "This private message has been successfully reported."
+msgstr "ההודעה הפרטית דווחה בהצלחה."
+
+#: $lang->'PM_REPORTS_CLOSED_SUCCESS'
+msgid "The selected PM reports have been closed successfully."
+msgstr "הדיווחים על ההודעות הפרטיות נסגרו בהצלחה."
+
+#: $lang->'PM_REPORTS_DELETED_SUCCESS'
+msgid "The selected PM reports have been deleted successfully."
+msgstr "הדיווחים על ההודעות הפרטיות נמחקו בהצלחה."
+
+#: $lang->'PM_REPORTS_TOTAL'->0
+msgid "There are no PM reports to review."
+msgstr "אין הודעות פרטיות שצריך לבדוק."
+
+#: $lang->'PM_REPORTS_TOTAL'->1
+msgid "In total there is <strong>1</strong> PM report to review."
+msgstr "בסך, קיימת הודעה פרטית <strong>אחת</strong> לבדיקה."
+
+#: $lang->'PM_REPORTS_TOTAL'->2
+msgid "In total there are <strong>%d</strong> PM reports to review."
+msgstr "בסך הכל יש <strong>%d</strong> הודעות פרטיות לבדיקה."
+
+#: $lang->'PM_REPORT_DETAILS'
+msgid "Private message report details"
+msgstr "פרטי דיווח הודעה פרטית"
+
+#: $lang->'POSTER'
+msgid "Poster"
+msgstr "שולח"
+
+#: $lang->'POSTS_APPROVED_SUCCESS'
+msgid "The selected posts have been approved."
+msgstr "ההודעות שנבחרו אושרו בהצלחה."
+
+#: $lang->'POSTS_DELETED_SUCCESS'
+msgid "The selected posts have been successfully removed from the database."
+msgstr "ההודעות שנבחרו הוסרו מבסיס הנתונים בהצלחה."
+
+#: $lang->'POSTS_DISAPPROVED_SUCCESS'
+msgid "The selected posts have been disapproved."
+msgstr "ההודעות שנבחרו נדחו בהצלחה."
+
+#: $lang->'POSTS_LOCKED_SUCCESS'
+msgid "The selected posts have been locked successfully."
+msgstr "ההודעות שנבחרו ננעלו בהצלחה."
+
+#: $lang->'POSTS_MERGED_SUCCESS'
+msgid "The selected posts have been merged."
+msgstr "ההודעות שנבחרו אוחדו בהצלחה."
+
+#: $lang->'POSTS_PER_PAGE'
+msgid "Posts per page"
+msgstr "הודעות לעמוד"
+
+#: $lang->'POSTS_PER_PAGE_EXPLAIN'
+msgid "(Set to 0 to view all posts.)"
+msgstr "(הגדר 0 כדי לראות את כל ההודעות.)"
+
+#: $lang->'POSTS_RESTORED_SUCCESS'
+msgid "The selected posts have been restored successfully."
+msgstr "ההודעות שנבחרו שוחזרו בהצלחה."
+
+#: $lang->'POSTS_UNLOCKED_SUCCESS'
+msgid "The selected posts have been unlocked successfully."
+msgstr "ההודעות שנבחרו נפתחו בהצלחה."
+
+#: $lang->'POST_APPROVED_SUCCESS'
+msgid "The selected post has been approved."
+msgstr "ההודעות שנבחרו אושרו בהצלחה."
+
+#: $lang->'POST_DELETED_SUCCESS'
+msgid "The selected post has been successfully removed from the database."
+msgstr "ההודעה שנבחרה הוסרה מבסיס הנתונים בהצלחה."
+
+#: $lang->'POST_DISAPPROVED_SUCCESS'
+msgid "The selected post has been disapproved."
+msgstr "ההודעה שנבחרה נדחתה בהצלחה."
+
+#: $lang->'POST_LOCKED_SUCCESS'
+msgid "Post locked successfully."
+msgstr "ההודעה ננעלה בהצלחה."
+
+#: $lang->'POST_NOT_EXIST'
+msgid "The post you requested does not exist."
+msgstr "ההודעה שביקשת איננה קיימת."
+
+#: $lang->'POST_REPORTED_SUCCESS'
+msgid "This post has been successfully reported."
+msgstr "ההודעה דווחה בהצלחה."
+
+#: $lang->'POST_RESTORED_SUCCESS'
+msgid "This post has been restored successfully."
+msgstr "הודעה זו שוחזרה בהצלחה."
+
+#: $lang->'POST_UNLOCKED_SUCCESS'
+msgid "Post unlocked successfully."
+msgstr "ההודעה נפתחה בהצלחה."
+
+#: $lang->'READ_USERNOTES'
+msgctxt "$lang->'READ_USERNOTES'"
+msgid "User notes"
+msgstr "הערות המשתמש"
+
+#: $lang->'READ_WARNINGS'
+msgid "User warnings"
+msgstr "אזהרות המשתמש"
+
+#: $lang->'REPORTER'
+msgid "Reporter"
+msgstr "מדווח"
+
+#: $lang->'REPORTED'
+msgid "Reported"
+msgstr "דווח"
+
+#: $lang->'REPORTED_BY'
+msgid "Reported by"
+msgstr "דווח על ידי"
+
+#: $lang->'REPORTED_ON_DATE'
+msgid "on"
+msgstr "ב"
+
+#: $lang->'REPORTS_CLOSED_SUCCESS'
+msgid "The selected reports have been closed successfully."
+msgstr "הדיווחים שנבחרו נסגרו בהצלחה."
+
+#: $lang->'REPORTS_DELETED_SUCCESS'
+msgid "The selected reports have been deleted successfully."
+msgstr "הדיווחים שנבחרו נמחקו בהצלחה."
+
+#: $lang->'REPORTS_TOTAL'->0
+msgid "There are no reports to review."
+msgstr "אין דיווחים חדשים."
+
+#: $lang->'REPORTS_TOTAL'->1
+msgid "In total there is <strong>1</strong> report to review."
+msgstr "בסך הכל, יש דיווח <strong>אחד</strong> לבדיקה."
+
+#: $lang->'REPORTS_TOTAL'->2
+msgid "In total there are <strong>%d</strong> reports to review."
+msgstr "בסך הכל, יש <strong>%d</strong> דיווחים לבדיקה."
+
+#: $lang->'REPORT_CLOSED'
+msgid "This report has already been closed."
+msgstr "דיווח זה כבר נסגר."
+
+#: $lang->'REPORT_CLOSED_SUCCESS'
+msgid "The selected report has been closed successfully."
+msgstr "הדיווח שנבחר נסגר בהצלחה."
+
+#: $lang->'REPORT_DELETED_SUCCESS'
+msgid "The selected report has been deleted successfully."
+msgstr "הדיווח שנבחר נמחק בהצלחה."
+
+#: $lang->'REPORT_DETAILS'
+msgctxt "$lang->'REPORT_DETAILS'"
+msgid "Report details"
+msgstr "פרטי הדיווח"
+
+#: $lang->'REPORT_MESSAGE'
+msgid "Report this message"
+msgstr "דווח על הודעה זו"
+
+#: $lang->'REPORT_MESSAGE_EXPLAIN'
+msgid ""
+"Use this form to report the selected private message. Reporting should "
+"generally be used only if the message breaks forum rules. <strong>Reporting "
+"a private message will make its contents visible to all moderators.</strong>"
+msgstr ""
+"השתמש בטופס זה כדי לדווח על ההודעה הפרטית שנבחרה. יש להשתמש בדיווח אם ההודעה "
+"עוברת על חוקי הפורום. <strong>דיווח על הודעה פרטית תאפשר למנהלים לראות את "
+"תוכן ההודעה.</strong>"
+
+#: $lang->'REPORT_NOTIFY'
+msgid "Notify me"
+msgstr "ידע אותי"
+
+#: $lang->'REPORT_NOTIFY_EXPLAIN'
+msgid "Informs you when your report is dealt with."
+msgstr "ידע אותי כאשר הדיווח נכנס לטיפול."
+
+#: $lang->'REPORT_POST_EXPLAIN'
+msgid ""
+"Use this form to report the selected post to the forum moderators and board "
+"administrators. Reporting should generally be used only if the post breaks "
+"forum rules."
+msgstr ""
+"השתמש בדף זה בכדי לדווח למנהל הפורום ולמנהלי המערכת. בדרך כלל יש להשתמש "
+"בדיווחים אם ההודעה עברה על חוקי הפורום."
+
+#: $lang->'REPORT_REASON'
+msgid "Report reason"
+msgstr "סיבת הדיווח"
+
+#: $lang->'REPORT_TIME'
+msgid "Report time"
+msgstr "זה הדיווח"
+
+#: $lang->'RESTORE'
+msgid "Restore"
+msgstr "שחזור"
+
+#: $lang->'RESTORE_POST'
+msgid "Restore post"
+msgstr "שחזר הודעה"
+
+#: $lang->'RESTORE_POST_CONFIRM'
+msgid "Are you sure you want to restore this post?"
+msgstr "אתה בטוח שברצונך לשחזר את ההודעה שנבחרה?"
+
+#: $lang->'RESTORE_POSTS'
+msgid "Restore posts"
+msgstr "שחזר הודעות"
+
+#: $lang->'RESTORE_POSTS_CONFIRM'
+msgid "Are you sure you want to restore the selected posts?"
+msgstr "אתה בטוח שברצונך לשחזר את ההודעות שנבחרו?"
+
+#: $lang->'RESTORE_TOPIC'
+msgid "Restore topic"
+msgstr "שחזר נושא"
+
+#: $lang->'RESTORE_TOPIC_CONFIRM'
+msgid "Are you sure you want to restore this topic?"
+msgstr "אתה בטוח שברצונך לשחזר את הנושא שבחרת?"
+
+#: $lang->'RESTORE_TOPICS'
+msgid "Restore topics"
+msgstr "שחזר נושאים"
+
+#: $lang->'RESTORE_TOPICS_CONFIRM'
+msgid "Are you sure you want to restore the selected topics?"
+msgstr "אתה בטוח שברצונך לשחזר את הנושאים שנבחרו?"
+
+#: $lang->'RESYNC'
+msgid "Resync"
+msgstr "חדש"
+
+#: $lang->'RETURN_MESSAGE'
+msgid "%sReturn to the message%s"
+msgstr "%sחזור להודעה%s"
+
+#: $lang->'RETURN_NEW_FORUM'
+msgid "%sGo to the new forum%s"
+msgstr "%sעבור לפורום החדש%s"
+
+#: $lang->'RETURN_NEW_TOPIC'
+msgid "%sGo to the new topic%s"
+msgstr "%sעבור לנושא החדש%s"
+
+#: $lang->'RETURN_PM'
+msgid "%sReturn to the private message%s"
+msgstr "%sחזור להודעה פרטית%s"
+
+#: $lang->'RETURN_POST'
+msgid "%sReturn to the post%s"
+msgstr "%sחזור להודעה%s"
+
+#: $lang->'RETURN_QUEUE'
+msgid "%sReturn to the queue%s"
+msgstr "%sחזור אל תור המנהל%s"
+
+#: $lang->'RETURN_REPORTS'
+msgid "%sReturn to the reports%s"
+msgstr "%sחזור אל הדיווחים%s"
+
+#: $lang->'RETURN_TOPIC_SIMPLE'
+msgid "%sReturn to the topic%s"
+msgstr "%sחזור לנושא%s"
+
+#: $lang->'SEARCH_POSTS_BY_USER'
+msgid "Search posts by"
+msgstr "חפש הודעות ע\"י שם משתמש"
+
+#: $lang->'SELECT_ACTION'
+msgid "Select desired action"
+msgstr "בחר בפעולה מתבקשת"
+
+#: $lang->'SELECT_FORUM_GLOBAL_ANNOUNCEMENT'
+msgid ""
+"Please select the forum you wish this global announcement to be displayed."
+msgstr "אנא בחר את הפורום שברצונך להציג בו את ההכרזה הכללית."
+
+#: $lang->'SELECT_FORUM_GLOBAL_ANNOUNCEMENTS'
+msgid ""
+"One or more of the selected topics are global announcements. Please select "
+"the forum you wish these to be displayed."
+msgstr ""
+"נושא או כמה נושאים שנבחרו הם הכרזות כלליות. אנא בחר את הפורום שברצונך להציג "
+"הכרזות אלו."
+
+#: $lang->'SELECT_MERGE'
+msgid "Select for merge"
+msgstr "בחר למיזוג"
+
+#: $lang->'SELECT_TOPICS_FROM'
+msgid "Select topics from"
+msgstr "בחר נושאים מ"
+
+#: $lang->'SELECT_TOPIC'
+msgid "Select topic"
+msgstr "בחר נושא"
+
+#: $lang->'SELECT_USER'
+msgid "Select user"
+msgstr "בחר משתמש"
+
+#: $lang->'SORT_ACTION'
+msgid "Log action"
+msgstr "יומן פעולות"
+
+#: $lang->'SORT_DATE'
+msgid "Date"
+msgstr "תאריך"
+
+#: $lang->'SORT_IP'
+msgid "IP address"
+msgstr "כתובת IP"
+
+#: $lang->'SORT_WARNINGS'
+msgctxt "$lang->'SORT_WARNINGS'"
+msgid "Warnings"
+msgstr "אזהרות"
+
+#: $lang->'SPLIT_AFTER'
+msgid "Split topic from selected post onwards"
+msgstr "פצל נושא החל מההודעה שנבחרה"
+
+#: $lang->'SPLIT_FORUM'
+msgid "Forum for new topic"
+msgstr "פורום לנושא חדש"
+
+#: $lang->'SPLIT_POSTS'
+msgid "Split selected posts"
+msgstr "פצל הודעות שנבחרו"
+
+#: $lang->'SPLIT_SUBJECT'
+msgid "New topic title"
+msgstr "כותרת הנושא החדש"
+
+#: $lang->'SPLIT_TOPIC_ALL'
+msgid "Split topic from selected posts"
+msgstr "פצל נושא מההודעות הנבחרות"
+
+#: $lang->'SPLIT_TOPIC_ALL_CONFIRM'
+msgid "Are you sure you want to split this topic?"
+msgstr "אתה בטוח שברצונך לפצל נושא זה?"
+
+#: $lang->'SPLIT_TOPIC_BEYOND'
+msgid "Split topic at selected post"
+msgstr "פצל נושא מההודעה שנבחרה"
+
+#: $lang->'SPLIT_TOPIC_BEYOND_CONFIRM'
+msgid "Are you sure you want to split this topic at the selected post?"
+msgstr "אתה בטוח שברצונך לפצל נושא זה מההודעה?"
+
+#: $lang->'SPLIT_TOPIC_EXPLAIN'
+msgid ""
+"Using the form below you can split a topic in two, either by selecting the "
+"posts individually or by splitting at a selected post."
+msgstr ""
+"בשימוש דף זה הנך יכול לפצל נושאים ולהפוך לכמה נושאים, או לפצל הודעות מסוימות "
+"מהנושא הנבחר."
+
+#: $lang->'THIS_PM_IP'
+msgid "IP for this private message"
+msgstr "כתובת הIP של הודעה פרטית זו"
+
+#: $lang->'THIS_POST_IP'
+msgid "IP for this post"
+msgstr "כתובת ה־IP של הודעה זו"
+
+#: $lang->'TOPICS_APPROVED_SUCCESS'
+msgid "The selected topics have been approved."
+msgstr "הנושאים שנבחרו אושרו."
+
+#: $lang->'TOPICS_DELETED_SUCCESS'
+msgid "The selected topics have been successfully removed from the database."
+msgstr "הנושאים שנבחרו הוסרו בהצלחה מבסיס הנתונים."
+
+#: $lang->'TOPICS_DISAPPROVED_SUCCESS'
+msgid "The selected topics have been disapproved."
+msgstr "הנושאים שנבחרו לא אושרו."
+
+#: $lang->'TOPICS_FORKED_SUCCESS'
+msgid "The selected topics have been copied successfully."
+msgstr "הנושאים שנבחרו הועתקו בהצלחה."
+
+#: $lang->'TOPICS_LOCKED_SUCCESS'
+msgid "The selected topics have been locked."
+msgstr "הנושאים שנבחרו ננעלו בהצלחה."
+
+#: $lang->'TOPICS_MOVED_SUCCESS'
+msgid "The selected topics have been moved successfully."
+msgstr "הנושאים שנבחרו הועברו בהצלחה."
+
+#: $lang->'TOPICS_RESTORED_SUCCESS'
+msgid "The selected topics have been restored successfully."
+msgstr "הנושאים שנבחרו שוחזרו בהצלחה."
+
+#: $lang->'TOPICS_RESYNC_SUCCESS'
+msgid "The selected topics have been resynchronised."
+msgstr "הנושאים שנבחרו חודשו בהצלחה."
+
+#: $lang->'TOPICS_TYPE_CHANGED'
+msgid "Topic types changed successfully."
+msgstr "סוג הנושא שונה בהצלחה."
+
+#: $lang->'TOPICS_UNLOCKED_SUCCESS'
+msgid "The selected topics have been unlocked."
+msgstr "הנושאים שנבחרו נפתחו בהצלחה."
+
+#: $lang->'TOPIC_APPROVED_SUCCESS'
+msgid "The selected topic has been approved."
+msgstr "הנושא הנבחר אושר."
+
+#: $lang->'TOPIC_DELETED_SUCCESS'
+msgid "The selected topic has been successfully removed from the database."
+msgstr "הנושא הנבחר הוסר בהצלחה מבסיס הנתונים."
+
+#: $lang->'TOPIC_DISAPPROVED_SUCCESS'
+msgid "The selected topic has been disapproved."
+msgstr "הנושא הנבחר לא אושר."
+
+#: $lang->'TOPIC_FORKED_SUCCESS'
+msgid "The selected topic has been copied successfully."
+msgstr "הנושא הנבחר הועתק בהצלחה."
+
+#: $lang->'TOPIC_LOCKED_SUCCESS'
+msgid "The selected topic has been locked."
+msgstr "הנושא הנבחר ננעל."
+
+#: $lang->'TOPIC_MOVED_SUCCESS'
+msgid "The selected topic has been moved successfully."
+msgstr "הנושא הנבחר הועבר בהצלחה."
+
+#: $lang->'TOPIC_NOT_EXIST'
+msgid "The topic you selected does not exist."
+msgstr "הנושא שבחרת אינו קיים."
+
+#: $lang->'TOPIC_RESTORED_SUCCESS'
+msgid "The selected topic has been restored successfully."
+msgstr "הנושא הנבחר שוחזר בהצלחה."
+
+#: $lang->'TOPIC_RESYNC_SUCCESS'
+msgid "The selected topic has been resynchronised."
+msgstr "הנושא הנבחר חודש בהצלחה."
+
+#: $lang->'TOPIC_SPLIT_SUCCESS'
+msgid "The selected topic has been split successfully."
+msgstr "הנושא הנבחר פוצל בהצלחה."
+
+#: $lang->'TOPIC_TIME'
+msgid "Topic time"
+msgstr "זמן הנושא"
+
+#: $lang->'TOPIC_TYPE_CHANGED'
+msgid "Topic type changed successfully."
+msgstr "סוג הנושא שונה בהצלחה."
+
+#: $lang->'TOPIC_UNLOCKED_SUCCESS'
+msgid "The selected topic has been unlocked."
+msgstr "הנושא שנבחר נפתח."
+
+#: $lang->'TOTAL_WARNINGS'
+msgid "Total Warnings"
+msgstr "סה\"כ אזהרות"
+
+#: $lang->'UNAPPROVED_POSTS_TOTAL'->0
+msgctxt "$lang->'UNAPPROVED_POSTS_TOTAL'->0"
+msgid "There are no posts waiting for approval."
+msgstr "אין הודעות הממתינות לאישור."
+
+#: $lang->'UNAPPROVED_POSTS_TOTAL'->1
+msgid "In total there is <strong>1</strong> post waiting for approval."
+msgstr "בסך הכל יש הודעה <strong>אחת</strong> הממתינה לאישור."
+
+#: $lang->'UNAPPROVED_POSTS_TOTAL'->2
+msgid "In total there are <strong>%d</strong> posts waiting for approval."
+msgstr "בסך הכל יש <strong>%d</strong> הודעות הממתינות לאישור."
+
+#: $lang->'UNLOCK'
+msgid "Unlock"
+msgstr "פתח"
+
+#: $lang->'UNLOCK_POST'
+msgctxt "$lang->'UNLOCK_POST'"
+msgid "Unlock post"
+msgstr "פתח הודעה"
+
+#: $lang->'UNLOCK_POST_EXPLAIN'
+msgid "Allow editing"
+msgstr "אפשר עריכה."
+
+#: $lang->'UNLOCK_POST_POST'
+msgctxt "$lang->'UNLOCK_POST_POST'"
+msgid "Unlock post"
+msgstr "פתח הודעה"
+
+#: $lang->'UNLOCK_POST_POST_CONFIRM'
+msgid "Are you sure you want to allow editing this post?"
+msgstr "אתה בטוח שברצונך לאפשר עריכת הודעה זו?"
+
+#: $lang->'UNLOCK_POST_POSTS'
+msgid "Unlock selected posts"
+msgstr "פתח הודעות שנבחרו"
+
+#: $lang->'UNLOCK_POST_POSTS_CONFIRM'
+msgid "Are you sure you want to allow editing the selected posts?"
+msgstr "האם אתה בטוח שברצונך לאפשר את ההודעות שנבחרו?"
+
+#: $lang->'UNLOCK_TOPIC'
+msgid "Unlock topic"
+msgstr "פתח נושא"
+
+#: $lang->'UNLOCK_TOPIC_CONFIRM'
+msgid "Are you sure you want to unlock this topic?"
+msgstr "האם אתה בטוח שברצונך לפתוח נושא זה?"
+
+#: $lang->'UNLOCK_TOPICS'
+msgid "Unlock selected topics"
+msgstr "פתח נושאים שנבחרו"
+
+#: $lang->'UNLOCK_TOPICS_CONFIRM'
+msgid "Are you sure you want to unlock all selected topics?"
+msgstr "האם אתה בטוח שברצונך לאפשר את פתיחתם של הנושאים שנבחרו?"
+
+#: $lang->'USER_CANNOT_POST'
+msgid "You cannot post in this forum."
+msgstr "אתה לא יכול לכתוב בפורום זה."
+
+#: $lang->'USER_CANNOT_REPORT'
+msgid "You cannot report posts in this forum."
+msgstr "אתה לא יכול לדווח על הודעות בפורום זה."
+
+#: $lang->'USER_FEEDBACK_ADDED'
+msgid "User feedback added successfully."
+msgstr "משוב המשתמש נוסף בהצלחה."
+
+#: $lang->'USER_WARNING_ADDED'
+msgid "User warned successfully."
+msgstr "המשתמש הוזהר בהצלחה."
+
+#: $lang->'VIEW_DETAILS'
+msgid "View details"
+msgstr "ראה פרטים"
+
+#: $lang->'VIEW_PM'
+msgid "View private message"
+msgstr "צפה בהודעה פרטית"
+
+#: $lang->'VIEW_POST'
+msgctxt "$lang->'VIEW_POST'"
+msgid "View post"
+msgstr "ראה הודעה"
+
+#: $lang->'WARNED_USERS'
+msgid "Warned users"
+msgstr "משתמשים שאוזהרו"
+
+#: $lang->'WARNED_USERS_EXPLAIN'
+msgid "This is a list of users with unexpired warnings issued to them."
+msgstr "זוהי רשימת המשתמשים המוזהרים."
+
+#: $lang->'WARNING_PM_BODY'
+msgid ""
+"The following is a warning which has been issued to you by an administrator "
+"or moderator of this site.[quote]%s[/quote]"
+msgstr ""
+"רשימת האזהרות הבאה ניתנה ע\"י סמכות של מנהלי פורומים ומנהלים "
+"ראשים.[quote]%s[/quote]"
+
+#: $lang->'WARNING_PM_SUBJECT'
+msgid "Board warning issued"
+msgstr "מערכת אזהרות הפורום"
+
+#: $lang->'WARNING_POST_DEFAULT'
+msgid "This is a warning regarding the following post made by you: %s ."
+msgstr "אזהרה ניתנה בעיקבות הודעה ששלחת: %s."
+
+#: $lang->'NO_WARNINGS'
+msgid "No warnings exist."
+msgstr "לא קיימות אזהרות."
+
+#: $lang->'YOU_SELECTED_TOPIC'
+msgid "You selected topic number %d: %s."
+msgstr "בחרת את נושא מספר %d: %s."
+
+#: $lang->'report_reasons'->'TITLE'->'WAREZ'
+msgid "Warez"
+msgstr "תוכן בלתי חוקי"
+
+#: $lang->'report_reasons'->'TITLE'->'SPAM'
+msgid "Spam"
+msgstr "ספאם"
+
+#: $lang->'report_reasons'->'TITLE'->'OFF_TOPIC'
+msgid "Off-topic"
+msgstr "נושא שאינו קשור"
+
+#: $lang->'report_reasons'->'TITLE'->'OTHER'
+msgid "Other"
+msgstr "אחר"
+
+#: $lang->'DESCRIPTION'->'WAREZ'
+msgid "The message contains links to illegal or pirated software."
+msgstr "ההודעה מכילה קישורים לתוכנה לא חוקית או המוגנת בזכויות יוצרים."
+
+#: $lang->'DESCRIPTION'->'SPAM'
+msgid ""
+"The reported message has the only purpose to advertise for a website or "
+"another product."
+msgstr "ההודעה שדווחה הייתה רק למטרת פרסום אתרים או מוצרים.."
+
+#: $lang->'DESCRIPTION'->'OFF_TOPIC'
+msgid "The reported message is off topic."
+msgstr "ההודעה שדווחה היא נושא שאינו קשור לפורום."
+
+#: $lang->'DESCRIPTION'->'OTHER'
+msgid ""
+"The reported message does not fit into any other category, please use the "
+"further information field."
+msgstr ""
+"ההודעה שדווחה לא תואמת לאף אחת מהאפשרויות לדיווח, אנא השתמש בשדה המידע נוסף."

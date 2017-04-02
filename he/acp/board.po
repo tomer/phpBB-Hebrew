@@ -1,0 +1,2663 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/board.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/acp/board.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#. // Board Settings
+#: $lang->'ACP_BOARD_SETTINGS_EXPLAIN'
+msgid ""
+"Here you can determine the basic operation of your board, give it a fitting "
+"name and description, and among other settings adjust the default values for "
+"timezone and language."
+msgstr ""
+"כאן אתה יכול לקבוע את הגדרות המערכת הבסיסיות, לתת לה שם ותיאור מתאימים, ובין "
+"היתר ערכי ברירת מחדל לאזור זמן ושפה."
+
+#: $lang->'BOARD_INDEX_TEXT'
+msgid "Board index text"
+msgstr "שם העמוד הראשי"
+
+#: $lang->'BOARD_INDEX_TEXT_EXPLAIN'
+msgid ""
+"This text is displayed as the board index in the board’s breadcrumbs. If not "
+"specified, it will default to “Board index”."
+msgstr ""
+"טקסט זה יופיע בתור העמוד הראשי בנתיב המערכת. במידה ולא יצויין, יוגדר כברירת "
+"מחדל בתור “עמוד ראשי”."
+
+#: $lang->'BOARD_STYLE'
+msgid "Board style"
+msgstr "עיצוב מערכת"
+
+#: $lang->'CUSTOM_DATEFORMAT'
+msgid "Custom…"
+msgstr "מותאם אישית…"
+
+#: $lang->'DEFAULT_DATE_FORMAT'
+msgid "Date format"
+msgstr "תבנית תאריך"
+
+#: $lang->'DEFAULT_DATE_FORMAT_EXPLAIN'
+msgid "The date format is the same as the PHP <code>date</code> function."
+msgstr "תבנית התאריך זהה לפונקציית התאריך <code>date</code> של PHP."
+
+#: $lang->'DEFAULT_LANGUAGE'
+msgid "Default language"
+msgstr "שפת ברירת מחדל"
+
+#: $lang->'DEFAULT_STYLE'
+msgid "Default style"
+msgstr "עיצוב ברירת מחדל"
+
+#: $lang->'DEFAULT_STYLE_EXPLAIN'
+msgid "The default style for new users."
+msgstr "עיצוב ברירת המחדל עבור משתמשים חדשים."
+
+#: $lang->'DISABLE_BOARD'
+msgid "Disable board"
+msgstr "כבה מערכת"
+
+#: $lang->'DISABLE_BOARD_EXPLAIN'
+msgid ""
+"This will make the board unavailable to users who are neither administrators "
+"nor moderators. You can also enter a short (255 character) message to "
+"display if you wish."
+msgstr ""
+"המערכת תהיה לא זמינה למשתמשים שאינם מנהלים ראשיים או מנהלים. תוכל גם להזין "
+"הודעה קצרה (255 תווים) התוצג אם תרצה."
+
+#: $lang->'DISPLAY_LAST_SUBJECT'
+msgid "Display subject of last added post on forum list"
+msgstr "הצג נושא של הודעה אחרונה ברשימת הפורומים"
+
+#: $lang->'DISPLAY_LAST_SUBJECT_EXPLAIN'
+msgid ""
+"The subject of the last added post will be displayed in the forum list with "
+"a hyperlink to the post. Subjects from password protected forums and forums "
+"in which user doesn’t have read access are not shown."
+msgstr ""
+"הנושא של ההודעה האחרונה שנוספה תוצג ברשימת הפורומים עם קישור להודעה. נושאים "
+"מפורומים שמוגנים עם ססמה ופורומים שלמשתמש אין הראשות לצפות בהם לא יוצגו."
+
+#: $lang->'GUEST_STYLE'
+msgid "Guest style"
+msgstr "עיצוב אורחים"
+
+#: $lang->'GUEST_STYLE_EXPLAIN'
+msgid "The board style for guests."
+msgstr "עיצוב המערכת עבר אורחים."
+
+#: $lang->'OVERRIDE_STYLE'
+msgid "Override user style"
+msgstr "עבור על עיצוב המשתמש"
+
+#: $lang->'OVERRIDE_STYLE_EXPLAIN'
+msgid ""
+"Replaces user’s (and guest’s) style with the style as defined under \""
+"Default style\"."
+msgstr ""
+"מחליף את עיצוב המערכת עבור משתמשים (ואורחים) עם העיצוב שמוגדר תחת \"עיצוב "
+"ברירת מחדל\""
+
+#: $lang->'SITE_DESC'
+msgid "Site description"
+msgstr "תיאור האתר"
+
+#: $lang->'SITE_HOME_TEXT'
+msgid "Main website text"
+msgstr "שם האתר הראשי"
+
+#: $lang->'SITE_HOME_TEXT_EXPLAIN'
+msgid ""
+"This text will be displayed as a link to your website homepage in the board’"
+"s breadcrumbs. If not specified, it will default to “Home”."
+msgstr ""
+"טקסט זה יופיע בתור קישור לעמוד הראשי של האתר שלך בנתיב המערכת. במידה ולא "
+"יצויין, יוגדר כברירת מחדל בתור “בית”."
+
+#: $lang->'SITE_HOME_URL'
+msgid "Main website URL"
+msgstr "כתובת האתר הראשי"
+
+#: $lang->'SITE_HOME_URL_EXPLAIN'
+msgid ""
+"If specified, a link to this URL will be prepended to your board’s "
+"breadcrumbs and the board logo will link to this URL instead of the forum "
+"index. An absolute URL is required, e.g. <samp>http://www.phpbb.com</samp>."
+msgstr ""
+"אם יצויין, קישור לכתובת זו תצורף לנתיב המערכת והלוגו של המערכת יקושר לכתובת "
+"זו במקום לעמוד הראשי של הפורום. כתובת מוחלטת נדרשת, לדוגמה "
+"<samp>http://www.phpbb.co.il</samp>."
+
+#: $lang->'SITE_NAME'
+msgid "Site name"
+msgstr "שם האתר"
+
+#: $lang->'SYSTEM_TIMEZONE'
+msgid "Guest timezone"
+msgstr "אזור זמן לאורחים"
+
+#: $lang->'SYSTEM_TIMEZONE_EXPLAIN'
+msgid ""
+"Timezone to use for displaying times to users who are not logged in (guests, "
+"bots). Logged in users set their timezone during registration and can change "
+"it in their user control panel."
+msgstr ""
+"אזור זמן המוצג למשתמשים לא מחוברים (אורחים, בוטים). משתמשים מחוברים מגדירים "
+"את אזור הזמן שלהם במהלך ההרשמה ויכולים לשנות אותו מלוח הבקרה למשתמש."
+
+#: $lang->'WARNINGS_EXPIRE'
+msgid "Warning duration"
+msgstr "תקופת אזהרה"
+
+#: $lang->'WARNINGS_EXPIRE_EXPLAIN'
+msgid ""
+"Number of days that will elapse before a warning will automatically expire "
+"from a user’s record. Set this value to 0 to make warnings permanent."
+msgstr ""
+"מספר ימים שיעברו לפני שאזהרה אוטומטית תוסר מרשומות המשתמש. קבע ערך זה ל0 כדי "
+"להפוך אזהרות לקבועות."
+
+#. // Board Features
+#: $lang->'ACP_BOARD_FEATURES_EXPLAIN'
+msgid "Here you can enable/disable several board features."
+msgstr "כאן אתה יכול להפעיל/לכבות כמה מאפייני מערכת."
+
+#: $lang->'ALLOW_ATTACHMENTS'
+msgid "Allow attachments"
+msgstr "אפשר צירוף קבצים"
+
+#: $lang->'ALLOW_BIRTHDAYS'
+msgid "Allow birthdays"
+msgstr "אפשר ימי הולדת"
+
+#: $lang->'ALLOW_BIRTHDAYS_EXPLAIN'
+msgid ""
+"Allow birthdays to be entered and age being displayed in profiles. Please "
+"note the birthday list within the board index is controlled by a separate "
+"load setting."
+msgstr ""
+"אפשר להזין ימי הולדת והגיל יוצג בפרופילים. שים לב שרשימת ימי ההולדת אשר "
+"בעמוד הראשי מנוהלת על־ידי הגדרות כלליות נפרדות."
+
+#: $lang->'ALLOW_BOOKMARKS'
+msgid "Allow bookmarking topics"
+msgstr "אפשר סימון נושאים כמועדפים"
+
+#: $lang->'ALLOW_BOOKMARKS_EXPLAIN'
+msgid "User is able to store personal bookmarks."
+msgstr "משתמש יוכל לאחסן נושאים מועדפים אישיים."
+
+#: $lang->'ALLOW_BBCODE'
+msgid "Allow BBCode"
+msgstr "אפשר BBCode"
+
+#: $lang->'ALLOW_FORUM_NOTIFY'
+msgid "Allow subscribing to forums"
+msgstr "אפשר להירשם לפורומים לקבלת עדכונים"
+
+#: $lang->'ALLOW_NAME_CHANGE'
+msgid "Allow username changes"
+msgstr "אפשר שינוי שם משתמש"
+
+#: $lang->'ALLOW_NO_CENSORS'
+msgid "Allow disabling of word censoring"
+msgstr "אפשר כיבוי צנזור המילים"
+
+#: $lang->'ALLOW_NO_CENSORS_EXPLAIN'
+msgid ""
+"Users can choose to disable the automatic word censoring of posts and "
+"private messages."
+msgstr ""
+"משתמשים יוכלו לבחור לכבות את צנזור המילים האוטומטי של הודעות והודעות פרטיות."
+
+#: $lang->'ALLOW_PM_ATTACHMENTS'
+msgid "Allow attachments in private messages"
+msgstr "אפשר צירוף קבצים בהודעות פרטיות"
+
+#: $lang->'ALLOW_PM_REPORT'
+msgid "Allow users to report private messages"
+msgstr "אפשר למשתמשים לדווח על הודעות פרטיות"
+
+#: $lang->'ALLOW_PM_REPORT_EXPLAIN'
+msgid ""
+"If this setting is enabled, users have the option of reporting a private "
+"message they have received or sent to the board’s moderators. These private "
+"messages will then be visible in the Moderator Control Panel."
+msgstr ""
+"אם אפשרות זו מאופשרת, למשתמשים תהיה האפשרות לדווח על הודעה פרטית שקיבלו או "
+"שלחו למנהלי המערכת. הודעות פרטיות אלו יוצגו בלוח הבקרה למנהלים."
+
+#: $lang->'ALLOW_QUICK_REPLY'
+msgid "Allow quick reply"
+msgstr "אפשר תגובה מהירה"
+
+#: $lang->'ALLOW_QUICK_REPLY_EXPLAIN'
+msgid ""
+"This switch allows for the quick reply to be disabled board-wide. When "
+"enabled, forum specific settings will be used to determine whether the quick "
+"reply is displayed in individual forums."
+msgstr ""
+"שינוי זה מאפשר לתגובה מהירה להיות מנוטרלת בכל המערכת. כשתהיה מאופשרת הגדרה "
+"ספציפית בפורום תגדיר אם התגובה המהירה תוצג באותו הפורום."
+
+#: $lang->'ALLOW_QUICK_REPLY_BUTTON'
+msgid "Submit and enable quick reply in all forums"
+msgstr "טען ואפשר תגובה מהירה בכל הפורומים"
+
+#: $lang->'ALLOW_SIG'
+msgid "Allow signatures"
+msgstr "אפשר חתימות"
+
+#: $lang->'ALLOW_SIG_BBCODE'
+msgid "Allow BBCode in user signatures"
+msgstr "אפשר BBCode בחתימות המשתמשים"
+
+#: $lang->'ALLOW_SIG_FLASH'
+msgid "Allow use of <code>[FLASH]</code> BBCode tag in user signatures"
+msgstr "אפשר שימוש בתג <code>[FLASH]</code> של BBCode בחתימות המשתמשים"
+
+#: $lang->'ALLOW_SIG_IMG'
+msgid "Allow use of <code>[IMG]</code> BBCode tag in user signatures"
+msgstr "אפשר שימוש בתג <code>[IMG]</code> של BBCode בחתימות המשתמשים"
+
+#: $lang->'ALLOW_SIG_LINKS'
+msgid "Allow use of links in user signatures"
+msgstr "אפשר שימוש בקישורים בחתימות המשתמשים"
+
+#: $lang->'ALLOW_SIG_LINKS_EXPLAIN'
+msgctxt "$lang->'ALLOW_SIG_LINKS_EXPLAIN'"
+msgid ""
+"If disallowed the <code>[URL]</code> BBCode tag and automatic/magic URLs are "
+"disabled."
+msgstr ""
+"אם לא מורשה התג <code>[URL]</code> של BBCode והקישורים האוטומטיים כבויים."
+
+#: $lang->'ALLOW_SIG_SMILIES'
+msgid "Allow use of smilies in user signatures"
+msgstr "אפשר שימוש בסמיילים בחתימות המשתמשים"
+
+#: $lang->'ALLOW_SMILIES'
+msgid "Allow smilies"
+msgstr "אפשר סמיילים"
+
+#: $lang->'ALLOW_TOPIC_NOTIFY'
+msgid "Allow subscribing to topics"
+msgstr "אפשר להירשם לנושאים לקבלת עדכונים"
+
+#: $lang->'BOARD_PM'
+msgid "Private messaging"
+msgstr "אפשר הודעות פרטיות"
+
+#: $lang->'BOARD_PM_EXPLAIN'
+msgid "Enable private messaging for all users."
+msgstr "אפשר הודעות פרטיות לכל המשתמשים."
+
+#: $lang->'ALLOW_BOARD_NOTIFICATIONS'
+msgid "Allow board notifications"
+msgstr ""
+
+#. // Avatar Settings
+#: $lang->'ACP_AVATAR_SETTINGS_EXPLAIN'
+msgid ""
+"Avatars are generally small, unique images a user can associate with "
+"themselves. Depending on the style they are usually displayed below the "
+"username when viewing topics. Here you can determine how users can define "
+"their avatars. Please note that in order to upload avatars you need to have "
+"created the directory you name below and ensure it can be written to by the "
+"web server. Please also note that file size limits are only imposed on "
+"uploaded avatars, they do not apply to remotely linked images."
+msgstr ""
+"הסמלים האישיים בדרך כלל קטנים, תמונות ייחודיות אשר המשתמשים יכולים לקבוע "
+"לעצמם. תלוי בעיצוב, הסמלים בדרך כלל מוצגים תחת שמות המשתמשים בתצוגת הנושאים. "
+"כאן אתה יכול לקבוע כיצד משתמשים יכולים להגדיר את הסמלים האישיים שלהם. שים לב "
+"שכדי להעלות סמלים אישיים אתה צריך ליצור את התיקייה אשר קראת לה בשם שמתחת "
+"ולוודא שהיא נתנת לכתיבה על־ידי השרת. שים גם לב שהגבלות גודל הקובץ חלות על "
+"סמלים אישיים שהועלו בלבד, הן אינן חלות על תמונות המקושרות מרחוק."
+
+#: $lang->'ALLOW_AVATARS'
+msgid "Enable avatars"
+msgstr "אפשר סמל אישי"
+
+#: $lang->'ALLOW_AVATARS_EXPLAIN'
+msgid ""
+"Allow general usage of avatars;<br />If you disable avatars in general or "
+"avatars of a certain mode, the disabled avatars will no longer be shown on "
+"the board, but users will still be able to download their own avatars in the "
+"User Control Panel."
+msgstr ""
+"אפשר שימוש בסמלים אישיים;<br />אם מבוטל סמלים אישיים לא יוצגו יותר במערכת, "
+"אבל משתמשים עדיין יכולו להוריד את הסמל האישי שלהם מהלוח בקרה למשתמש."
+
+#: $lang->'ALLOW_GRAVATAR'
+msgid "Enable gravatar avatars"
+msgstr "Enable gravatar avatars"
+
+#: $lang->'ALLOW_LOCAL'
+msgid "Enable gallery avatars"
+msgstr "אפשר גלריית סמלים אישיים"
+
+#: $lang->'ALLOW_REMOTE'
+msgid "Enable remote avatars"
+msgstr "אפשר סמלים אישיים מרחוק"
+
+#: $lang->'ALLOW_REMOTE_EXPLAIN'
+msgid "Avatars linked to from another website."
+msgstr "סמלים אישיים המקושרים מאתר אחר."
+
+#: $lang->'ALLOW_REMOTE_UPLOAD'
+msgid "Enable remote avatar uploading"
+msgstr "אפשר העלאת סמלים אישיים מרוחקים"
+
+#: $lang->'ALLOW_REMOTE_UPLOAD_EXPLAIN'
+msgid "Allow uploading of avatars from another website."
+msgstr "אפשר העלאת סמלים אישיים מאתר אחר."
+
+#: $lang->'ALLOW_UPLOAD'
+msgid "Enable avatar uploading"
+msgstr "אפשר העלאת סמלים אישיים"
+
+#: $lang->'AVATAR_GALLERY_PATH'
+msgid "Avatar gallery path"
+msgstr "נתיב גלריית הסמלים האישיים"
+
+#: $lang->'AVATAR_GALLERY_PATH_EXPLAIN'
+msgid ""
+"Path under your phpBB root directory for pre-loaded images, e.g. "
+"<samp>images/avatars/gallery</samp>.<br />Double dots like <samp>../</samp> "
+"will be stripped from the path for security reasons."
+msgstr ""
+"נתיב תחת תיקיית המערכת של phpBB3 לגלריית הסמלים האישיים, למשל "
+"<samp>images/avatars/gallery</samp>.<br />Double dots like <samp>../</samp> "
+"will be stripped from the path for security reasons."
+
+#: $lang->'AVATAR_STORAGE_PATH'
+msgid "Avatar storage path"
+msgstr "נתיב אחסון הסמלים האישיים"
+
+#: $lang->'AVATAR_STORAGE_PATH_EXPLAIN'
+msgid ""
+"Path under your phpBB root directory, e.g. "
+"<samp>images/avatars/upload</samp>.<br />Avatar uploading <strong>will not "
+"be available</strong> if this path is not writable.<br />Double dots like "
+"<samp>../</samp> will be stripped from the path for security reasons."
+msgstr ""
+"נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/avatars/upload</samp>.<"
+"br />Avatar uploading <strong>will not be available</strong> if this path is "
+"not writable.<br />Double dots like <samp>../</samp> will be stripped from "
+"the path for security reasons."
+
+#: $lang->'MAX_AVATAR_SIZE'
+msgid "Maximum avatar dimensions"
+msgstr "ממדי סמל אישי מקסימליים"
+
+#: $lang->'MAX_AVATAR_SIZE_EXPLAIN'
+msgctxt "$lang->'MAX_AVATAR_SIZE_EXPLAIN'"
+msgid "Width x Height in pixels."
+msgstr "רוחב x גובה בפיקסלים."
+
+#: $lang->'MAX_FILESIZE'
+msgid "Maximum avatar file size"
+msgstr "גודל קובץ לסמל אישי מרבי"
+
+#: $lang->'MAX_FILESIZE_EXPLAIN'
+msgid ""
+"For uploaded avatar files. If this value is 0, the uploaded filesize is only "
+"limited by your PHP configuration."
+msgstr ""
+"לקבצי סמלים אישיים שהועלו. אם הערך הוא 0, המגבלה היחידה נקבעת בהגדרות ה־PHP "
+"בשרת."
+
+#: $lang->'MIN_AVATAR_SIZE'
+msgid "Minimum avatar dimensions"
+msgstr "ממדי סמל אישי מינימליים"
+
+#: $lang->'MIN_AVATAR_SIZE_EXPLAIN'
+msgctxt "$lang->'MIN_AVATAR_SIZE_EXPLAIN'"
+msgid "Width x Height in pixels."
+msgstr "רוחב × גובה בפיקסלים."
+
+#. // Message Settings
+#: $lang->'ACP_MESSAGE_SETTINGS_EXPLAIN'
+msgid "Here you can set all default settings for private messaging."
+msgstr "כאן אתה יכול לקבוע את כל הגדרות להודעות הפרטיות."
+
+#: $lang->'ALLOW_BBCODE_PM'
+msgid "Allow BBCode in private messages"
+msgstr "אפשר BBCode בהודעות פרטיות"
+
+#: $lang->'ALLOW_FLASH_PM'
+msgid "Allow use of <code>[FLASH]</code> BBCode tag"
+msgstr "אפשר שימוש בתג <code>[FLASH]</code> של BBCode"
+
+#: $lang->'ALLOW_FLASH_PM_EXPLAIN'
+msgid ""
+"Note that the ability to use flash in private messages, if enabled here, "
+"also depends on the permissions."
+msgstr ""
+"שים לב שהאפשרות להשתמש בפלאש בהודעות פרטיות, אם פעיל כאן, תלויה גם בהרשאות."
+
+#: $lang->'ALLOW_FORWARD_PM'
+msgid "Allow forwarding of private messages"
+msgstr "אפשר העברת הודעות פרטיות"
+
+#: $lang->'ALLOW_IMG_PM'
+msgid "Allow use of <code>[IMG]</code> BBCode tag"
+msgstr "אפשר שימוש בתג <code>[IMG]</code> של BBCode"
+
+#: $lang->'ALLOW_MASS_PM'
+msgid "Allow sending of private messages to multiple users and groups"
+msgstr "אפשר שליחת הודעות פרטיות למספר משתמשים וקבוצות"
+
+#: $lang->'ALLOW_MASS_PM_EXPLAIN'
+msgid ""
+"Sending to groups can be adjusted per group within the group settings page."
+msgstr "שליחה לקבוצות יכולה להיות מותאמת לכל קבוצה מעמוד הגדרות הקבוצה."
+
+#: $lang->'ALLOW_PRINT_PM'
+msgid "Allow print view in private messaging"
+msgstr "אפשר תצוגה לפני הדפסה בהודעות פרטיות"
+
+#: $lang->'ALLOW_QUOTE_PM'
+msgid "Allow quotes in private messages"
+msgstr "אפשר ציטוטים בהודעות פרטיות"
+
+#: $lang->'ALLOW_SIG_PM'
+msgid "Allow signature in private messages"
+msgstr "אפשר חתימה בהודעות פרטיות"
+
+#: $lang->'ALLOW_SMILIES_PM'
+msgid "Allow smilies in private messages"
+msgstr "אפשר סמיילים בהודעות פרטיות"
+
+#: $lang->'BOXES_LIMIT'
+msgid "Maximum private messages per box"
+msgstr "מספר הודעות פרטיות מרבי לכל תיבה"
+
+#: $lang->'BOXES_LIMIT_EXPLAIN'
+msgid ""
+"Users may receive no more than this many messages in each of their private "
+"message boxes. Set this value to 0 to allow unlimited messages."
+msgstr ""
+"משתמשים לא יכולים לקבל יותר הודעות ממספר זה בכל אחת מתיבות ההודעות הפרטיות. "
+"קבע ערך זה ל0 על מנת לאפשר הודעות ללא הגבלה."
+
+#: $lang->'BOXES_MAX'
+msgid "Maximum private message folders"
+msgstr "מספר תיקיות להודעות פרטיות מרבי"
+
+#: $lang->'BOXES_MAX_EXPLAIN'
+msgid ""
+"By default users may create this many personal folders for private messages."
+msgstr "כברירת מחדל משתמשים יכולים ליצור מספר זה של תיבות להודעות הפרטיות."
+
+#: $lang->'ENABLE_PM_ICONS'
+msgid "Enable use of topic icons in private messages"
+msgstr "הפעל שימוש באייקונים של נושאים בהודעות פרטיות"
+
+#: $lang->'FULL_FOLDER_ACTION'
+msgid "Full folder default action"
+msgstr "פעולה כברירת מחדל במקרה והתיקייה מלאה"
+
+#: $lang->'FULL_FOLDER_ACTION_EXPLAIN'
+msgid ""
+"Default action to take if a user’s folder is full assuming the user’s folder "
+"action, if set at all, is not applicable. The only exception is for the “"
+"Sent messages” folder where the default action is always to delete old "
+"messages."
+msgstr ""
+"פעולה לביצוע כברירת מחדל אם תיקיית המשתמש מלאה במידה ופעולת התיקייה של "
+"המשתמש, אם נקבעה בכלל, אינה ישימה. היוצא מהכלל היחיד הוא של התיקייה “הודעות "
+"שנשלחו” בה פעולת ברירת המחדל היא תמיד למחוק הודעות ישנות."
+
+#: $lang->'HOLD_NEW_MESSAGES'
+msgid "Hold new messages"
+msgstr "החזק הודעות חדשות"
+
+#: $lang->'PM_EDIT_TIME'
+msgctxt "$lang->'PM_EDIT_TIME'"
+msgid "Limit editing time"
+msgstr "הגבלת זמן עריכה"
+
+#: $lang->'PM_EDIT_TIME_EXPLAIN'
+msgid ""
+"Limits the time available to edit a private message not already delivered. "
+"Setting the value to 0 disables this behaviour."
+msgstr ""
+"מגביל את הזמן הזמין לעריכת הודעה פרטית אשר עדיין לא נמסרה. קבע ערך זה ל0 על "
+"מנת לכבות אפשרות זו."
+
+#: $lang->'PM_MAX_RECIPIENTS'
+msgid "Maximum number of allowed recipients"
+msgstr "מספר מרבי של נמענים מורשים"
+
+#: $lang->'PM_MAX_RECIPIENTS_EXPLAIN'
+msgid ""
+"The maximum number of allowed recipients in a private message. If 0 is "
+"entered, an unlimited number is allowed. This setting can be adjusted for "
+"every group within the group settings page."
+msgstr ""
+"המספר המרבי של נמענים המורשים בהודעה פרטית. קבע ערך זה ל0 על מנת לקבוע מספר "
+"בלתי מוגבל. הגדרה זו יכולה להיות מותאמת לכל קבוצה מעמוד הגדרות הקבוצה."
+
+#. // Post Settings
+#: $lang->'ACP_POST_SETTINGS_EXPLAIN'
+msgid "Here you can set all default settings for posting."
+msgstr "כאן אתה יכול לקבוע את כל הגדרות השליחה."
+
+#: $lang->'ALLOW_POST_LINKS'
+msgid "Allow links in posts/private messages"
+msgstr "אפשר קישורים בהודעות/הודעות פרטיות"
+
+#: $lang->'ALLOW_POST_LINKS_EXPLAIN'
+msgctxt "$lang->'ALLOW_POST_LINKS_EXPLAIN'"
+msgid ""
+"If disallowed the <code>[URL]</code> BBCode tag and automatic/magic URLs are "
+"disabled."
+msgstr ""
+"אם לא מורשה התג <code>[URL]</code> של BBCode והקישורים האוטומטיים כבויים"
+
+#: $lang->'ALLOW_POST_FLASH'
+msgid "Allow use of <code>[FLASH]</code> BBCode tag in posts"
+msgstr "אפשר שימוש בתג <code>[FLASH]</code> של BBCode בהודעות. "
+
+#: $lang->'ALLOW_POST_FLASH_EXPLAIN'
+msgid ""
+"If disallowed the <code>[FLASH]</code> BBCode tag is disabled in posts. "
+"Otherwise the permission system controls which users can use the "
+"<code>[FLASH]</code> BBCode tag."
+msgstr ""
+"אם לא מורשה התג <code>[FLASH]</code> של BBCode כבוי בהודעות. אחרת מערכת "
+"ההרשאות שולטת על המשתמשים אשר יכולים להשתמש בתג <code>[FLASH]</code> של "
+"BBCode."
+
+#: $lang->'BUMP_INTERVAL'
+msgid "Bump interval"
+msgstr "השהיית הקפצה"
+
+#: $lang->'BUMP_INTERVAL_EXPLAIN'
+msgid ""
+"Number of minutes, hours or days between the last post to a topic and the "
+"ability to bump that topic. Setting the value to 0 disables bumping entirely."
+msgstr ""
+"מספר דקות, שעות או ימים בין ההודעה האחרונה לנושא והיכולת להקפיץ את הנושא. "
+"קביעת ערך זה ל0 מבטלת את האפשרות להקפיץ לגמרי."
+
+#: $lang->'CHAR_LIMIT'
+msgid "Maximum characters per post/message"
+msgstr "מספר תווים מרבי לכל הודעה"
+
+#: $lang->'CHAR_LIMIT_EXPLAIN'
+msgid ""
+"The number of characters allowed within a post/private message. Set to 0 for "
+"unlimited characters."
+msgstr "מספר התווים המורשה בהודעה. קבע ערך זה ל0 למספר תווים לא מוגבל."
+
+#: $lang->'DELETE_TIME'
+msgid "Limit deleting time"
+msgstr "הגבל זמן מחיקה"
+
+#: $lang->'DELETE_TIME_EXPLAIN'
+msgid ""
+"Limits the time available to delete a new post. Setting the value to 0 "
+"disables this behaviour."
+msgstr "מגביל את הזמן האפשרי למחיקת הודעה חדשה. קבע ערך זה ל0 לביטול אפשרות זו."
+
+#: $lang->'DISPLAY_LAST_EDITED'
+msgid "Display last edited time information"
+msgstr "הצג פרטי זמן העריכה האחרונה"
+
+#: $lang->'DISPLAY_LAST_EDITED_EXPLAIN'
+msgid "Choose if the last edited by information to be displayed on posts."
+msgstr "בחר אם להציג את פרטי העריכה האחרונה בהודעות."
+
+#: $lang->'EDIT_TIME'
+msgctxt "$lang->'EDIT_TIME'"
+msgid "Limit editing time"
+msgstr "הגבל זמן עריכה"
+
+#: $lang->'EDIT_TIME_EXPLAIN'
+msgid ""
+"Limits the time available to edit a new post. Setting the value to 0 "
+"disables this behaviour."
+msgstr ""
+"מגביל את הזמן הזמין לעריכת הודעה חדשה. קבע ערך זה ל0 על מנת לכבות אפשרות זו."
+
+#: $lang->'FLOOD_INTERVAL'
+msgid "Flood interval"
+msgstr "השהיית הצפה"
+
+#: $lang->'FLOOD_INTERVAL_EXPLAIN'
+msgid ""
+"Number of seconds a user must wait between posting new messages. To enable "
+"users to ignore this alter their permissions."
+msgstr ""
+"מספר שניות אשר משתמש חייב להמתין בין שליחת הודעות חדשות. כדי לאפשר למשתמשים "
+"להתעלם מההשהייה, שנה את ההרשאות שלהם."
+
+#: $lang->'HOT_THRESHOLD'
+msgid "Popular topic threshold"
+msgstr "מספר הודעות לנושא חם"
+
+#: $lang->'HOT_THRESHOLD_EXPLAIN'
+msgid ""
+"Posts per topic threshold required for the popular topic annotation. Set to "
+"0 to disable popular topics."
+msgstr ""
+"מספר הודעות לכל נושא עד שהוא הופך לנושא חם. קבע ערך זה ל0 על מנת לכבות "
+"אפשרות זו."
+
+#: $lang->'MAX_POLL_OPTIONS'
+msgid "Maximum number of poll options"
+msgstr "מספר מרבי של אפשרויות סקר"
+
+#: $lang->'MAX_POST_FONT_SIZE'
+msgid "Maximum font size per post"
+msgstr "גודל גופן מרבי לכל הודעה"
+
+#: $lang->'MAX_POST_FONT_SIZE_EXPLAIN'
+msgid "Maximum font size allowed in a post. Set to 0 for unlimited font size."
+msgstr "גודל הגופן המרבי המורשה בהודעה. כאשר 0 הנו לא מוגבל."
+
+#: $lang->'MAX_POST_IMG_HEIGHT'
+msgid "Maximum image height per post"
+msgstr "גובה תמונה מרבי לכל הודעה"
+
+#: $lang->'MAX_POST_IMG_HEIGHT_EXPLAIN'
+msgid ""
+"Maximum height of an image/flash file in postings. Set to 0 for unlimited "
+"size."
+msgstr "גובה מרבי של תמונה/קובץ פלאש בהודעות. כאשר 0 הנו לא מוגבל."
+
+#: $lang->'MAX_POST_IMG_WIDTH'
+msgid "Maximum image width per post"
+msgstr "רוחב תמונה מרבי לכל הודעה"
+
+#: $lang->'MAX_POST_IMG_WIDTH_EXPLAIN'
+msgid ""
+"Maximum width of an image/flash file in postings. Set to 0 for unlimited "
+"size."
+msgstr "רוחב מרבי של תמונה/קובץ פלאש בהודעות. כאשר 0 הנו לא מוגבל."
+
+#: $lang->'MAX_POST_URLS'
+msgid "Maximum links per post"
+msgstr "מספר קישורים מרבי לכל הודעה"
+
+#: $lang->'MAX_POST_URLS_EXPLAIN'
+msgid "Maximum number of URLs in a post. Set to 0 for unlimited links."
+msgstr "מספר מרבי של קישורים בהודעה. כאשר 0 הנו לא מוגבל."
+
+#: $lang->'MIN_CHAR_LIMIT'
+msgid "Minimum characters per post/message"
+msgstr "מספר תווים מינימלי להודעה"
+
+#: $lang->'MIN_CHAR_LIMIT_EXPLAIN'
+msgid ""
+"The minimum number of characters the user need to enter within a post/"
+"private message. The minimum for this setting is 1."
+msgstr ""
+"מספר התווים המינימלי שמשתמש צריך לכתוב בהודעה/הודעה פרטית. המינימום להגדרה "
+"זו הוא 1."
+
+#: $lang->'POSTING'
+msgid "Posting"
+msgstr "שליחה"
+
+#: $lang->'POSTS_PER_PAGE'
+msgid "Posts per page"
+msgstr "הודעות לכל עמוד"
+
+#: $lang->'QUOTE_DEPTH_LIMIT'
+msgid "Maximum nesting depth for quotes"
+msgstr "כמות מרבית לציטוטים בתוך ציטוטים."
+
+#: $lang->'QUOTE_DEPTH_LIMIT_EXPLAIN'
+msgid "Maximum quote nesting depth in a post. Set to 0 for unlimited depth."
+msgstr "כמות מרבית לציטוטים בתוך ציטוטים בהודעה. כאשר 0 הנו לא מוגבל."
+
+#: $lang->'SMILIES_LIMIT'
+msgid "Maximum smilies per post"
+msgstr "מספר סמיילים מרבי לכל הודעה"
+
+#: $lang->'SMILIES_LIMIT_EXPLAIN'
+msgid "Maximum number of smilies in a post. Set to 0 for unlimited smilies."
+msgstr "מספר מרבי של סמיילים בהודעה. כאשר 0 הנו לא מוגבל."
+
+#: $lang->'SMILIES_PER_PAGE'
+msgid "Smilies per page"
+msgstr "סמיילים לעמוד"
+
+#: $lang->'TOPICS_PER_PAGE'
+msgid "Topics per page"
+msgstr "נושאים לכל עמוד"
+
+#. // Signature Settings
+#: $lang->'ACP_SIGNATURE_SETTINGS_EXPLAIN'
+msgid "Here you can set all default settings for signatures."
+msgstr "כאן אתה יכול לקבוע את כל ההגדרות לחתימות."
+
+#: $lang->'MAX_SIG_FONT_SIZE'
+msgid "Maximum signature font size"
+msgstr "גודל גופן לחתימה מרבי"
+
+#: $lang->'MAX_SIG_FONT_SIZE_EXPLAIN'
+msgid ""
+"Maximum font size allowed in user signatures. Set to 0 for unlimited size."
+msgstr "גודל גופן מרבי המורשה בחתימות המשתמשים. כאשר 0 הנו לא מוגבל."
+
+#: $lang->'MAX_SIG_IMG_HEIGHT'
+msgid "Maximum signature image height"
+msgstr "גובה תמונה מרבי לחתימה"
+
+#: $lang->'MAX_SIG_IMG_HEIGHT_EXPLAIN'
+msgid ""
+"Maximum height of an image/flash file in user signatures. Set to 0 for "
+"unlimited height."
+msgstr "גובה מרבי של תמונה/קובץ פלאש בחתימות המשתמשים. כאשר 0 הנו לא מוגבל."
+
+#: $lang->'MAX_SIG_IMG_WIDTH'
+msgid "Maximum signature image width"
+msgstr "רוחב תמונה מרבי לחתימה"
+
+#: $lang->'MAX_SIG_IMG_WIDTH_EXPLAIN'
+msgid ""
+"Maximum width of an image/flash file in user signatures. Set to 0 for "
+"unlimited width."
+msgstr "רוחב מרבי של תמונה/קובץ פלאש בחתימות המשתמשים. כאשר 0 הנו לא מוגבל."
+
+#: $lang->'MAX_SIG_LENGTH'
+msgid "Maximum signature length"
+msgstr "אורך חתימה מרבי"
+
+#: $lang->'MAX_SIG_LENGTH_EXPLAIN'
+msgid "Maximum number of characters in user signatures."
+msgstr "מספר מרבי של תווים בחתימות המשתמשים."
+
+#: $lang->'MAX_SIG_SMILIES'
+msgid "Maximum smilies per signature"
+msgstr "מספר סמיילים מרבי לכל חתימה"
+
+#: $lang->'MAX_SIG_SMILIES_EXPLAIN'
+msgid ""
+"Maximum smilies allowed in user signatures. Set to 0 for unlimited smilies."
+msgstr "מספר מרבי של סמיילים המורשה בחתימות המשתמשים. כאשר 0 הנו לא מוגבל."
+
+#: $lang->'MAX_SIG_URLS'
+msgid "Maximum signature links"
+msgstr "מספר קישורים מרבי לחתימה"
+
+#: $lang->'MAX_SIG_URLS_EXPLAIN'
+msgid ""
+"Maximum number of links in user signatures. Set to 0 for unlimited links."
+msgstr "מספר מרבי של קישורים בחתימות המשתמשים. כאשר 0 הנו לא מוגבל."
+
+#. // Registration Settings
+#: $lang->'ACP_REGISTER_SETTINGS_EXPLAIN'
+msgid "Here you are able to define registration and profile related settings."
+msgstr "כאן אתה יכול להגדיר את ההגדרות הקשורות להרשמה ולפרופיל."
+
+#: $lang->'ACC_ACTIVATION'
+msgid "Account activation"
+msgstr "הפעלת חשבון"
+
+#: $lang->'ACC_ACTIVATION_EXPLAIN'
+msgid ""
+"This determines whether users have immediate access to the board or if "
+"confirmation is required. You can also completely disable new registrations. "
+"<em>“Board-wide email” must be enabled in order to use user or admin "
+"activation.</em>"
+msgstr ""
+"קובע אם למשתמשים תהיה הרשאה מיידית למערכת או אם נדרש אישור. תוכל גם לכבות "
+"לגמרי הרשמות חדשות. <em>“דואר אלקטרוני של המערכת” חייב להיות פעיל כדי להפעיל "
+"את החשבון על ידי משתמש או מנהל.</em>"
+
+#: $lang->'ACC_ACTIVATION_WARNING'
+msgid ""
+"Please note that the currently selected activation method requires emails to "
+"be enabled, otherwise registration will be disabled. We recommend to either "
+"select a different activation method or reenable emails."
+msgstr ""
+"Please note that the currently selected activation method requires emails to "
+"be enabled, otherwise registration will be disabled. We recommend to either "
+"select a different activation method or reenable emails."
+
+#: $lang->'NEW_MEMBER_POST_LIMIT'
+msgid "New member post limit"
+msgstr "הגבלת ההודעות למשתמש חדש"
+
+#: $lang->'NEW_MEMBER_POST_LIMIT_EXPLAIN'
+msgid ""
+"New members are within the <em>Newly Registered Users</em> group until they "
+"reach this number of posts. You can use this group to keep them from using "
+"the PM system or to review their posts. <strong>A value of 0 disables this "
+"feature.</strong>"
+msgstr ""
+"משתמשים חדשים נמצאים בקבוצת ה<em>משתמשים שנרשמו לאחרונה</em> עד שהם מגיעים "
+"למספר הודעות זה. תוכל להשתמש בקבוצה זו על מנת למנוע מהם להשתמש במערכת "
+"ההודעות הפרטיות או כדי לעקוב אחר הודעותיהם. <strong>קבע ערך זה ל0 על מנת "
+"לכבות אפשרות זו.</strong>"
+
+#: $lang->'NEW_MEMBER_GROUP_DEFAULT'
+msgid "Set Newly Registered Users group to default"
+msgstr "הגדר את קבוצת המשתמשים שנרשמו לאחרונה כברירת מחדל"
+
+#: $lang->'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'
+msgid ""
+"If set to yes, and a new member post limit is specified, newly registered "
+"users will not only be put into the <em>Newly Registered Users</em> group, "
+"but this group will also be their default one. This may come in handy if you "
+"want to assign a group default rank and/or avatar the user then inherits."
+msgstr ""
+"אם תגדיר לכן, וקיימת הגבלת הודעות למשתמש חדש, משתמשים שנרשמו לאחרונה לא רק "
+"יוכנסו לקבוצת ה<em>משתמשים שנרשמו לאחרונה</em>, הקבוצה תהפוך לקבוצת ברירת "
+"המחדל שלהם. אפשרות זו יכולה להיות יעילה אם אתה רוצה להגדיר לקבוצה דירוג ו/או "
+"סמל אישי שהמשתמש יקבל."
+
+#: $lang->'ACC_ADMIN'
+msgid "By admin"
+msgstr "על־ידי מנהל ראשי"
+
+#: $lang->'ACC_DISABLE'
+msgid "Disable registration"
+msgstr "כבה הרשמה"
+
+#: $lang->'ACC_NONE'
+msgid "No activation (immediate access)"
+msgstr "ללא הפעלה (גישה מיידית)"
+
+#: $lang->'ACC_USER'
+msgid "By user (email verification)"
+msgstr "על־ידי משתמש (אימות בדואר אלקטרוני)"
+
+#. //	'ACC_USER_ADMIN'			=> 'User + Admin',
+#: $lang->'ALLOW_EMAIL_REUSE'
+msgid "Allow email address re-use"
+msgstr "אפשר שימוש חוזר בכתובת דואר אלקטרוני"
+
+#: $lang->'ALLOW_EMAIL_REUSE_EXPLAIN'
+msgid "Different users can register with the same email address."
+msgstr "משתמשים שונים יכולים להירשם עם אותה כתובת דואר אלקטרוני."
+
+#: $lang->'COPPA'
+msgid "COPPA"
+msgstr "COPPA"
+
+#: $lang->'COPPA_FAX'
+msgid "COPPA fax number"
+msgstr "מספר פקס"
+
+#: $lang->'COPPA_MAIL'
+msgid "COPPA mailing address"
+msgstr "כתובת דואר"
+
+#: $lang->'COPPA_MAIL_EXPLAIN'
+msgid ""
+"This is the mailing address where parents will send COPPA registration forms."
+msgstr "זוהי כתובת הדואר אליה ההורים ישלחו את טפסי ההרשמה."
+
+#: $lang->'ENABLE_COPPA'
+msgid "Enable COPPA"
+msgstr "הפעל COPPA"
+
+#: $lang->'ENABLE_COPPA_EXPLAIN'
+msgid ""
+"This requires users to declare whether they are 13 or over for compliance "
+"with the U.S. COPPA. If this is disabled the COPPA specific groups will no "
+"longer be displayed."
+msgstr ""
+"דורש מהמשתמשים לציין אם הם מתחת לגיל 13 או מעל לציות ל־COPPA. אם כבוי, "
+"אפשרויות ה־COPPA המסוימות לא יוצגו יותר בהרשמה."
+
+#: $lang->'MAX_CHARS'
+msgid "Max"
+msgstr "מקסימום"
+
+#: $lang->'MIN_CHARS'
+msgid "Min"
+msgstr "מינימום"
+
+#: $lang->'NO_AUTH_PLUGIN'
+msgid "No suitable auth plugin found."
+msgstr "לא נמצאה הרשאת חיבור מתאימה."
+
+#: $lang->'PASSWORD_LENGTH'
+msgid "Password length"
+msgstr "אורך ססמה "
+
+#: $lang->'PASSWORD_LENGTH_EXPLAIN'
+msgid "Minimum and maximum number of characters in passwords."
+msgstr "מספר מינימלי ומקסימלי של תווים בססמאות."
+
+#: $lang->'REG_LIMIT'
+msgid "Registration attempts"
+msgstr "ניסיונות הרשמה"
+
+#: $lang->'REG_LIMIT_EXPLAIN'
+msgid ""
+"Number of attempts users can make at solving the anti-spambot task before "
+"being locked out of that session."
+msgstr ""
+"מספר הניסיונות שמשתמשים יכולים לנסות לפתור את מבחן הבוט לפני שהם ינעלו בחוץ "
+"בחיבור זה."
+
+#: $lang->'USERNAME_ALPHA_ONLY'
+msgid "Alphanumeric only"
+msgstr "אותיות באנגלית וספרות בלבד"
+
+#: $lang->'USERNAME_ALPHA_SPACERS'
+msgid "Alphanumeric and spacers"
+msgstr "אותיות באנגלית, ספרות וסימנים מיוחדים"
+
+#: $lang->'USERNAME_ASCII'
+msgid "ASCII (no international unicode)"
+msgstr "ASCII (לא קידוד רשמי)"
+
+#: $lang->'USERNAME_LETTER_NUM'
+msgid "Any letter and number"
+msgstr "כל תו ומספר"
+
+#: $lang->'USERNAME_LETTER_NUM_SPACERS'
+msgid "Any letter, number, and spacer"
+msgstr "כל תו, מספר, וסימן מיוחד"
+
+#: $lang->'USERNAME_CHARS'
+msgid "Limit username chars"
+msgstr "הגבלת תווים לשם משתמש"
+
+#: $lang->'USERNAME_CHARS_ANY'
+msgid "Any character"
+msgstr "כל תו"
+
+#: $lang->'USERNAME_CHARS_EXPLAIN'
+msgid ""
+"Restrict type of characters that may be used in usernames, spacers are: "
+"space, -, +, _, [ and ]."
+msgstr ""
+"מגביל את סוג התווים הניתן לשימוש בשמות המשתמשים, הסימנים המיוחדים הם: רווח, -"
+", +, _, [ ו־]."
+
+#: $lang->'USERNAME_LENGTH'
+msgid "Username length"
+msgstr "אורך שם משתמש"
+
+#: $lang->'USERNAME_LENGTH_EXPLAIN'
+msgid "Minimum and maximum number of characters in usernames."
+msgstr "מספר מינימלי ומקסימלי של תווים בשמות המשתמשים."
+
+#. // Feeds
+#: $lang->'ACP_FEED_MANAGEMENT'
+msgid "General syndication feeds settings"
+msgstr "הגדרות כלליות להפצת ההזנות"
+
+#: $lang->'ACP_FEED_MANAGEMENT_EXPLAIN'
+msgid ""
+"This module makes available various ATOM feeds, parsing any BBCode in posts "
+"to make them readable in external feeds."
+msgstr ""
+"מודול זה מאפשר מגוון הזנות ATOM לזמינות, ניתוח כל BBCode בהודעות כדי להפוך "
+"אותם לקריאות בהזנות חיצוניות."
+
+#: $lang->'ACP_FEED_GENERAL'
+msgid "General feed settings"
+msgstr "הגדרות כלליות להזנות"
+
+#: $lang->'ACP_FEED_POST_BASED'
+msgid "Post-based feed settings"
+msgstr "הגדרת הזנות מבוססות הודעה"
+
+#: $lang->'ACP_FEED_TOPIC_BASED'
+msgid "Topic-based feed settings"
+msgstr "הגדרת הזנות מבוססות נושא"
+
+#: $lang->'ACP_FEED_SETTINGS_OTHER'
+msgid "Other feeds and settings"
+msgstr "הזנות אחרות והגדרות"
+
+#: $lang->'ACP_FEED_ENABLE'
+msgid "Enable feeds"
+msgstr "אפשר הזנות"
+
+#: $lang->'ACP_FEED_ENABLE_EXPLAIN'
+msgid ""
+"Turns on or off ATOM feeds for the entire board.<br />Disabling this "
+"switches off all feeds, no matter how the options below are set."
+msgstr ""
+"מפעיל או מכבה את הזנות הATOM לכל המערכת.<br />כיבוי יכבה את כל ההזנות, ללא "
+"קשר לאפשרויות מתחת ולהגדרתם."
+
+#: $lang->'ACP_FEED_LIMIT'
+msgid "Number of items"
+msgstr "מספר פריטים להזנה"
+
+#: $lang->'ACP_FEED_LIMIT_EXPLAIN'
+msgid "The maximum number of feed items to display."
+msgstr "מספר מקסימלי של פריטים בהזנה שיוצג."
+
+#: $lang->'ACP_FEED_OVERALL'
+msgid "Enable board-wide feed"
+msgstr "אפשר הזנות לכל המערכת"
+
+#: $lang->'ACP_FEED_OVERALL_EXPLAIN'
+msgid "Board-wide new posts."
+msgstr "הודעות חדשות במערכת."
+
+#: $lang->'ACP_FEED_FORUM'
+msgid "Enable per-forum feeds"
+msgstr "אפשר הזנות לפי פורום"
+
+#: $lang->'ACP_FEED_FORUM_EXPLAIN'
+msgid "Single forum and subforums new posts."
+msgstr "הודעות חדשות בפורום מסוים ותת פורומים."
+
+#: $lang->'ACP_FEED_TOPIC'
+msgid "Enable per-topic feeds"
+msgstr "אפשר הזנות לפי נושא"
+
+#: $lang->'ACP_FEED_TOPIC_EXPLAIN'
+msgid "Single topics new posts."
+msgstr "הודעות חדשות בנושא מסוים."
+
+#: $lang->'ACP_FEED_TOPICS_NEW'
+msgid "Enable new topics feed"
+msgstr "אפשר הזנות לנושאים חדשים"
+
+#: $lang->'ACP_FEED_TOPICS_NEW_EXPLAIN'
+msgid ""
+"Enables the “New Topics” feed, which displays the last created topics "
+"including the first post."
+msgstr ""
+"מאפשר את הזנות ל”נושאים חדשים“, אשר מציג את הנושאים שנוצרו לאחרונה כולל "
+"ההודעה הראשונה."
+
+#: $lang->'ACP_FEED_TOPICS_ACTIVE'
+msgid "Enable active topics feed"
+msgstr "אפשר הזנות לנושאים פעילים"
+
+#: $lang->'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'
+msgid ""
+"Enables the “Active Topics” feed, which displays the last active topics "
+"including the last post."
+msgstr ""
+"מאפשר הזנות ל”נושאים פעילים“, אשר מציג את הנושאים את הנושאים הפעילים לאחרונה "
+"כולל ההודעה האחרונה."
+
+#: $lang->'ACP_FEED_NEWS'
+msgid "News feed"
+msgstr "הזנות חדשות"
+
+#: $lang->'ACP_FEED_NEWS_EXPLAIN'
+msgid ""
+"Pull the first post from these forums. Select no forums to disable news "
+"feed.<br />Select multiple forums by holding <samp>CTRL</samp> and clicking."
+msgstr ""
+"מושך את ההודעה הראשונה מפורומים אלו. אל תבחר בפורומים בשביל לבטל הזנות "
+"חדשות.<br />בחר בכמה פורומים על ידי לחיצה על <samp>CTRL</samp> ולחיצה בעכבר."
+
+#: $lang->'ACP_FEED_OVERALL_FORUMS'
+msgid "Enable forums feed"
+msgstr "אפשר הזנות פורומים"
+
+#: $lang->'ACP_FEED_OVERALL_FORUMS_EXPLAIN'
+msgid "Enables the “All forums” feed, which displays a list of forums."
+msgstr "מאפשר הזנות ל”כל הפורומים“, אשר מציג רשימה של פורומים."
+
+#: $lang->'ACP_FEED_HTTP_AUTH'
+msgid "Allow HTTP Authentication"
+msgstr "אפשר אימות HTTP"
+
+#: $lang->'ACP_FEED_HTTP_AUTH_EXPLAIN'
+msgid ""
+"Enables HTTP authentication, which allows users to receive content that is "
+"hidden to guest users by adding the <samp>auth=http</samp> parameter to the "
+"feed URL. Please note that some PHP setups require additional changes to the "
+".htaccess file. Instructions can be found in that file."
+msgstr ""
+"מאפשר אימות HTTP, אשר מאפשר למשתמשים לקבל תוכן אשר מוסתר מאורחים על ידי "
+"הוספת משתנה <samp>auth=http</samp> להזנת הכתובת. אנא שים לב שחלק ממערכי PHP "
+"דורשים שינויים נוספים בקובץ .htaccess. הוראות ניתן למצוא באותו הקובץ."
+
+#: $lang->'ACP_FEED_ITEM_STATISTICS'
+msgid "Item statistics"
+msgstr "סטטיסטיקת פרטים"
+
+#: $lang->'ACP_FEED_ITEM_STATISTICS_EXPLAIN'
+msgid ""
+"Display individual statistics underneath feed items<br />(e.g. posted by, "
+"date and time, replies, views)"
+msgstr ""
+"הצג סטטיסטיקה מתחת לפרטי ההזנות<br />(לדוגמה נשלח על ידי, תאריך וזמן, "
+"תגובות, צפיות)"
+
+#: $lang->'ACP_FEED_EXCLUDE_ID'
+msgid "Exclude these forums"
+msgstr "דחה פורומים אלה"
+
+#: $lang->'ACP_FEED_EXCLUDE_ID_EXPLAIN'
+msgid ""
+"Content from these will be <strong>not included in feeds</strong>. Select no "
+"forum to pull data from all forums.<br />Select/Deselect multiple forums by "
+"holding <samp>CTRL</samp> and clicking."
+msgstr ""
+"תוכן מפורומים אלה <strong>לא ייכלל בהזנות</strong>. אל תבחר בפורומים כדי "
+"למשוך מידע מכל הפורומים.<br />בחר בכמה פורומים על ידי לחיצה על "
+"<samp>CTRL</samp> ולחיצה בעכבר."
+
+#. // Visual Confirmation Settings
+#: $lang->'ACP_VC_SETTINGS_EXPLAIN'
+msgid ""
+"Here you can select and configure plugins, which are designed to block "
+"automated form submissions by spambots. These plugins typically work by "
+"challenging the user with a <em>CAPTCHA</em>, a test which is designed to be "
+"difficult for computers to solve."
+msgstr ""
+"כאן אתה יכול לבחור ולהגדיר תוספות, אשר ייעודן לחסום בוטים משלוח טפסים "
+"אוטומטית. תוספות אלו בדרך כלל עובדות על ידי כך שהן מאתגרות את המשתמשים עם "
+"<em>CAPTCHA</em>, מבחן שנועד להיות מסובך לפתרון של מחשבים."
+
+#: $lang->'ACP_VC_EXT_GET_MORE'
+msgid ""
+"For additional (and possibly better) anti-spam plugins, visit the <a href=\""
+"https://www.phpbb.com/go/anti-spam-ext\"><strong>phpBB.com Extensions "
+"Database</strong></a>. For more information on preventing spam on your "
+"board, visit the <a href=\"https://www.phpbb.com/go/anti-spam\"><strong>"
+"phpBB.com Knowledge Base</strong></a>."
+msgstr ""
+
+#: $lang->'AVAILABLE_CAPTCHAS'
+msgid "Available plugins"
+msgstr "תוספות זמינות"
+
+#: $lang->'CAPTCHA_UNAVAILABLE'
+msgid "The plugin cannot be selected as its requirements are not met."
+msgstr "התוספת לא ניתנת לבחירה מכיוון שהדרישות שלה לא נענו."
+
+#: $lang->'CAPTCHA_GD'
+msgid "GD image"
+msgstr "ספריה גראפית"
+
+#: $lang->'CAPTCHA_GD_3D'
+msgid "GD 3D image"
+msgstr "ספריה גראפית תלת ממדית"
+
+#: $lang->'CAPTCHA_GD_FOREGROUND_NOISE'
+msgid "Foreground noise"
+msgstr "רעש רקע קדמי"
+
+#: $lang->'CAPTCHA_GD_EXPLAIN'
+msgid "Uses GD to make a more advanced anti-spambot image."
+msgstr "השתמש בספריה גראפית כדי לעשות תמונת אנטי־בוט מתקדמת יותר."
+
+#: $lang->'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'
+msgid "Use foreground noise to make the image harder to read."
+msgstr "השתמש ברעש רקע קדמי כדי לגרום לתמונה להיות קשה יותר לקריאה."
+
+#: $lang->'CAPTCHA_GD_X_GRID'
+msgid "Background noise x-axis"
+msgstr "רעש רקע בציר x"
+
+#: $lang->'CAPTCHA_GD_X_GRID_EXPLAIN'
+msgid ""
+"Use lower settings of this to make the image harder to read. 0 will disable "
+"x-axis background noise."
+msgstr ""
+"השתמש בהגדרות נמוכות יותר כדי לגרום לתמונה להיות קשה יותר לקריאה. 0 יכבה את "
+"רעש הרקע של ציר ה־x."
+
+#: $lang->'CAPTCHA_GD_Y_GRID'
+msgid "Background noise y-axis"
+msgstr "רעש רקע בציר y"
+
+#: $lang->'CAPTCHA_GD_Y_GRID_EXPLAIN'
+msgid ""
+"Use lower settings of this to make the image harder to read. 0 will disable "
+"y-axis background noise."
+msgstr ""
+"השתמש בהגדרות נמוכות יותר כדי לגרום לתמונה להיות קשה יותר לקריאה. 0 יכבה את "
+"רעש הרקע של ציר ה־y."
+
+#: $lang->'CAPTCHA_GD_WAVE'
+msgid "Wave distortion"
+msgstr "גל עיוות"
+
+#: $lang->'CAPTCHA_GD_WAVE_EXPLAIN'
+msgid "This applies a wave distortion to the image."
+msgstr "אפשרות זו מוסיפה גל עיוות לתמונה."
+
+#: $lang->'CAPTCHA_GD_3D_NOISE'
+msgid "Add 3D-noise objects"
+msgstr "הוסף אובייקטי רעש תלת ממדיים"
+
+#: $lang->'CAPTCHA_GD_3D_NOISE_EXPLAIN'
+msgid "This adds additional objects to the image, over the letters."
+msgstr "אפשרות זו מוסיפה אובייקטים לתמונה, מעל האותיות."
+
+#: $lang->'CAPTCHA_GD_FONTS'
+msgid "Use different fonts"
+msgstr "השתמש בגופנים שונים"
+
+#: $lang->'CAPTCHA_GD_FONTS_EXPLAIN'
+msgid ""
+"This setting controls how many different letter shapes are used. You can "
+"just use the default shapes or introduce altered letters. Adding lowercase "
+"letters is also possible."
+msgstr ""
+"הגדרה זו מאפשרת לשנות את כמות סוגי הצורות השונות שיהיו בשימוש באותיות. תוכל "
+"להשתמש בצורות ברירת המחדל בלבד או להציג אותיות שונות. הוספת אותיות לועזיות "
+"קטנות אפשרית גם כן."
+
+#: $lang->'CAPTCHA_FONT_DEFAULT'
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: $lang->'CAPTCHA_FONT_NEW'
+msgid "New Shapes"
+msgstr "צורות חדשות"
+
+#: $lang->'CAPTCHA_FONT_LOWER'
+msgid "Also use lowercase"
+msgstr "השתמש גם באותיות קטנות"
+
+#: $lang->'CAPTCHA_NO_GD'
+msgid "Simple image"
+msgstr "תמונה פשוטה"
+
+#: $lang->'CAPTCHA_PREVIEW_MSG'
+msgid "Your changes have not been saved, this is just a preview."
+msgstr "השינויים שלך לא נשמרו, זו היא רק תצוגה מקדימה."
+
+#: $lang->'CAPTCHA_PREVIEW_EXPLAIN'
+msgid "The plugin as it would look like using the current selection."
+msgstr "התוסף כפי שיראה בשימוש בבחירות הנוכחיות."
+
+#: $lang->'CAPTCHA_SELECT'
+msgid "Installed plugins"
+msgstr "התקן תוספות"
+
+#: $lang->'CAPTCHA_SELECT_EXPLAIN'
+msgid ""
+"The dropdown holds the plugins recognised by the board. Grey entries are not "
+"available right now and might need configuration prior to use."
+msgstr ""
+"התפריט הנפתח מכיל את התוספות המזוהות על ידי המערכת. ערכים אפורים לא זמינים "
+"כרגע ויתכן שיזדקקו להגדרות לפני השימוש."
+
+#: $lang->'CAPTCHA_CONFIGURE'
+msgid "Configure plugins"
+msgstr "הגדרת תוספות"
+
+#: $lang->'CAPTCHA_CONFIGURE_EXPLAIN'
+msgid "Change the settings for the selected plugin."
+msgstr "שנה את ההגדרות לתוספת שנבחרה."
+
+#: $lang->'CONFIGURE'
+msgid "Configure"
+msgstr "הגדר"
+
+#: $lang->'CAPTCHA_NO_OPTIONS'
+msgid "This plugin has no configuration options."
+msgstr "לתוספות זו אין אפשרויות מוגדרות."
+
+#: $lang->'VISUAL_CONFIRM_POST'
+msgid "Enable spambot countermeasures for guest postings"
+msgstr "אפשר שימוש באמצעים כנגד בוטים להודעות אורחים"
+
+#: $lang->'VISUAL_CONFIRM_POST_EXPLAIN'
+msgid ""
+"Requires guest users to pass the anti-spambot task to help prevent automated "
+"postings."
+msgstr ""
+"דורש ממשתמשים לא רשומים לעבור מבחן אנטי־בוט כדי למנוע שליחת הודעות אוטמטית."
+
+#: $lang->'VISUAL_CONFIRM_REG'
+msgid "Enable spambot countermeasures for registrations"
+msgstr "אפשר שימוש באמצעים כנגד בוטים לרישומים"
+
+#: $lang->'VISUAL_CONFIRM_REG_EXPLAIN'
+msgid ""
+"Requires new users to pass the anti-spambot task to help prevent automated "
+"registrations."
+msgstr "דורש ממשתמשים חדשים לעבור מבחן אנטי־בוט כדי למנוע רישומים אוטומטים."
+
+#: $lang->'VISUAL_CONFIRM_REFRESH'
+msgid "Allow users to refresh the anti-spambot task"
+msgstr "אפשר למשתמשים לרענן את מבחן האנטי־בוט"
+
+#: $lang->'VISUAL_CONFIRM_REFRESH_EXPLAIN'
+msgid ""
+"Allows users to request a new anti-spambot task if they are unable to solve "
+"the current task during registration. Some plugins might not support this "
+"option."
+msgstr ""
+"מאפשר למשתמשים לבקש מבחן אנטי־בוט חדש אם הם לא מצליחים לפתור את המבחן הנוכחי "
+"במהלך ההרשמה. יכול להיות שישנם תוספות שלא תומכים באפשרות זו."
+
+#. // Cookie Settings
+#: $lang->'ACP_COOKIE_SETTINGS_EXPLAIN'
+msgid ""
+"These details define the data used to send cookies to your users browsers. "
+"In most cases the default values for the cookie settings should be "
+"sufficient. If you do need to change any do so with care, incorrect settings "
+"can prevent users logging in."
+msgstr ""
+"פרטים אלו מגדירים את הנתונים אשר בשימוש לשליחת עוגיות לדפדפני המשתמשים. ברוב "
+"המקרים ערכי ברירת המחדל להגדרות העוגייה צריכים להיות מספיקים. אם אתה צריך "
+"לשנות משהו, עשה זאת בזהירות, הגדרות לא נכונות יכולות למנוע מהמשמשים להתחבר."
+
+#: $lang->'COOKIE_DOMAIN'
+msgid "Cookie domain"
+msgstr "כתובת העוגייה"
+
+#: $lang->'COOKIE_NAME'
+msgid "Cookie name"
+msgstr "שם העוגייה"
+
+#: $lang->'COOKIE_NOTICE'
+msgid "Cookie notice"
+msgstr ""
+
+#: $lang->'COOKIE_NOTICE_EXPLAIN'
+msgid ""
+"If enabled a cookie notice will be displayed to users when visiting your "
+"board. This might be required by law depending on the content of your board "
+"and enabled extensions."
+msgstr ""
+
+#: $lang->'COOKIE_PATH'
+msgid "Cookie path"
+msgstr "נתיב העוגייה"
+
+#: $lang->'COOKIE_SECURE'
+msgid "Cookie secure"
+msgstr "אבטחת עוגייה"
+
+#: $lang->'COOKIE_SECURE_EXPLAIN'
+msgid ""
+"If your server is running via SSL set this to enabled else leave as "
+"disabled. Having this enabled and not running via SSL will result in server "
+"errors during redirects."
+msgstr ""
+"אם השרת שלך רץ דרך SSL, קבע לפעיל, אחרת השאר כבוי. אם מופעל והשרת אינו רץ "
+"דרך SSL, התוצאה תהיה שגיאות שרת בהעברות."
+
+#: $lang->'ONLINE_LENGTH'
+msgid "View online time span"
+msgstr "משך זמן לתצוגה ברשימת מחוברים"
+
+#: $lang->'ONLINE_LENGTH_EXPLAIN'
+msgid ""
+"Number of minutes after which inactive users will not appear in “Who is "
+"online” listings. The higher this value the greater is the processing "
+"required to generate the listing."
+msgstr ""
+"מספר דקות שאחריהם משתמשים לא פעילים לא יופיעו ברשימות “מי מחובר”. הערך הגבוה "
+"ביותר הוא הטוב ביותר לתהליך יצירת הרשימה."
+
+#: $lang->'SESSION_LENGTH'
+msgid "Session length"
+msgstr "אורך חיבור"
+
+#: $lang->'SESSION_LENGTH_EXPLAIN'
+msgid "Sessions will expire after this time, in seconds."
+msgstr "חיבורים יסתיימו אחרי זמן זה, בשניות."
+
+#. // Contact Settings
+#: $lang->'ACP_CONTACT_SETTINGS_EXPLAIN'
+msgid ""
+"Here you can enable and disable the contact page and also add a text that is "
+"displayed on the page."
+msgstr ""
+"כאן אתה יכול להפעיל או לכבות את עמוד יצירת הקשר וכן להוסיף טקסט שיוצג בעמוד."
+
+#: $lang->'CONTACT_US_ENABLE'
+msgid "Enable contact page"
+msgstr "הפעל את עמוד יצירת הקשר"
+
+#: $lang->'CONTACT_US_ENABLE_EXPLAIN'
+msgid "This page allows users to send emails to board administrators"
+msgstr "העמוד הזה מאפשר למשתמשים לשלוח דואר אלקטרוני למנהלים הראשיים של המערכת"
+
+#: $lang->'CONTACT_US_INFO'
+msgid "Contact information"
+msgstr "פרטי יצירת קשר"
+
+#: $lang->'CONTACT_US_INFO_EXPLAIN'
+msgid "The message is displayed on the contact page"
+msgstr "ההודעה מוצגת בעמוד יצירת הקשר"
+
+#: $lang->'CONTACT_US_INFO_PREVIEW'
+msgid "Contact page information - Preview"
+msgstr "תצוגה מקדימה למידע שבעמוד יצירת הקשר"
+
+#: $lang->'CONTACT_US_INFO_UPDATED'
+msgid "Contact page information has been updated."
+msgstr "עמוד יצירת הקשר עודכן."
+
+#. // Load Settings
+#: $lang->'ACP_LOAD_SETTINGS_EXPLAIN'
+msgid ""
+"Here you can enable and disable certain board functions to reduce the amount "
+"of processing required. On most servers there is no need to disable any "
+"functions. However on certain systems or in shared hosting environments it "
+"may be beneficial to disable capabilities you do not really need. You can "
+"also specify limits for system load and active sessions beyond which the "
+"board will go offline."
+msgstr ""
+"כאן אתה יכול להפעיל או לכבות אפשרויות מערכת מסוימות כדי להקטין את זמן הטעינה "
+"הנדרש. ברוב השרתים אין צורך לכבות אף אפשרות, אך במערכות מסוימות או בסביבות "
+"אחסון משותפות כיבוי האפשרויות שאינך באמת צריך יכולה להיות מועיל. תוכל גם "
+"לציין הגבלות לטעינת המערכת וחיבורים פעילים שמעבר המערכת תכבה."
+
+#: $lang->'ALLOW_CDN'
+msgid "Allow usage of third party content delivery networks"
+msgstr "אפשר שימוש של רשתות ספקי תוכן של צד שלישי"
+
+#: $lang->'ALLOW_CDN_EXPLAIN'
+msgid ""
+"If this setting is enabled, some files will be served from external third "
+"party servers instead of your server. This reduces the network bandwidth "
+"required by your server, but may present a privacy issue for some board "
+"administrators. In a default phpBB installation, this includes loading "
+"“jQuery” and the font “Open Sans” from Google’s content delivery network."
+msgstr ""
+"אם הגדרה זו פעילה חלק מהקבצים ישלחו משרתי צד שלישי חיצוניים במקום השרת שלך "
+"זה מפחית את תעבורת הרשת אשר נצרכת משרתך, אבל עלול להוות בעיית פרטיות עבור "
+"מנהלי קהילות מסוימים. בהתקנת PHPBB רגילה, זה כולל טעינת \"JQUERY\" וכן הפונט "
+"\"open sans\" מרשת התוכן של גוגל."
+
+#: $lang->'ALLOW_LIVE_SEARCHES'
+msgid "Allow live searches"
+msgstr "אפשר חיפוש בזמן אמת"
+
+#: $lang->'ALLOW_LIVE_SEARCHES_EXPLAIN'
+msgid ""
+"If this setting is enabled, users are provided with keyword suggestions as "
+"they type in certain fields throughout the board."
+msgstr ""
+"אם אפשרות זו פעילה, המשתמשים יקבלו הצעות השלמה במהלך מילוי חלקים מהשדות "
+"בפורום."
+
+#: $lang->'CUSTOM_PROFILE_FIELDS'
+msgid "Custom profile fields"
+msgstr "שדות פרופיל מותאמים אישית"
+
+#: $lang->'LIMIT_LOAD'
+msgid "Limit system load"
+msgstr "הגבל טעינת מערכת"
+
+#: $lang->'LIMIT_LOAD_EXPLAIN'
+msgid ""
+"If the system’s 1-minute load average exceeds this value the board will "
+"automatically go offline. A value of 1.0 equals ~100% utilisation of one "
+"processor. This only functions on UNIX based servers and where this "
+"information is accessible. The value here resets itself to 0 if phpBB was "
+"unable to get the load limit."
+msgstr ""
+"אם ממוצע הטעינה של המערכת בדקה עובר ערך זה המערכת תכובה אוטומטית. הערך 1.0 "
+"שווה לניצול של ~100% של מבצע אחד. אפשרויות אלו חלות רק על UNIX מבוסס שרתים "
+"והיכן שהמידע נגיש. הערך מתאפס ל־0 אם phpBB לא יכלה לקבל את הגבלת הטעינה."
+
+#: $lang->'LIMIT_SESSIONS'
+msgid "Limit sessions"
+msgstr "הגבל חיבורים"
+
+#: $lang->'LIMIT_SESSIONS_EXPLAIN'
+msgid ""
+"If the number of sessions exceeds this value within a one minute period the "
+"board will go offline. Set to 0 for unlimited sessions."
+msgstr ""
+"אם מספר החיבורים חורג את ערך זה במשך תקופת זמן של דקה המערכת תכובה. הגדר ל0 "
+"לחיבורים בלתי מוגבלים."
+
+#: $lang->'LOAD_CPF_MEMBERLIST'
+msgid "Allow styles to display custom profile fields in memberlist"
+msgstr "אפשר לעיצובים להציג שדות פרופיל מותאמים אישית ברשימת המשתמשים"
+
+#: $lang->'LOAD_CPF_PM'
+msgid "Display custom profile fields in private messages"
+msgstr "הצג שדות פרופיל מותאמים אישית בהודעות פרטיות"
+
+#: $lang->'LOAD_CPF_VIEWPROFILE'
+msgid "Display custom profile fields in user profiles"
+msgstr "הצג שדות פרופיל מותאמים אישית בפרופילי המשתמשים"
+
+#: $lang->'LOAD_CPF_VIEWTOPIC'
+msgid "Display custom profile fields on topic pages"
+msgstr "הצג שדות פרופיל מותאמים אישית בעמודי הנושאים"
+
+#: $lang->'LOAD_USER_ACTIVITY'
+msgid "Show user’s activity"
+msgstr "הצג פעילות משתמש"
+
+#: $lang->'LOAD_USER_ACTIVITY_EXPLAIN'
+msgid ""
+"Displays active topic/forum in user profiles and user control panel. It is "
+"recommended to disable this on boards with more than one million posts."
+msgstr ""
+"הצג נושא/פורום פעיל בפרופילי המשתמשים ולוח הבקרה למשתמש. מומלץ לכבות במערכות "
+"עם יותר ממליון הודעות."
+
+#: $lang->'READ_NOTIFICATION_EXPIRE_DAYS'
+msgid "Read Notification Expiration"
+msgstr "זמן תצוגה להתראות"
+
+#: $lang->'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN'
+msgid ""
+"Number of days that will elapse before a read notification will "
+"automatically be deleted. Set this value to 0 to make notifications "
+"permanent."
+msgstr "מספר הימים שלאחרם ההתראה תמחק. כתוב 0 אם ברצונך שהתראות לא ימחקו."
+
+#: $lang->'RECOMPILE_STYLES'
+msgid "Recompile stale style components"
+msgstr "ערוך מחדש רכיבי עיצוב ישנים"
+
+#: $lang->'RECOMPILE_STYLES_EXPLAIN'
+msgid "Check for updated style components on filesystem and recompile."
+msgstr "בדוק לרכיבי עיצוב מעודכנים במערכת הקבצים וערוך מחדש."
+
+#: $lang->'YES_ANON_READ_MARKING'
+msgid "Enable topic marking for guests"
+msgstr "הפעל סימון נושאים לאורחים"
+
+#: $lang->'YES_ANON_READ_MARKING_EXPLAIN'
+msgid ""
+"Stores read/unread status information for guests. If disabled, posts are "
+"always marked read for guests."
+msgstr ""
+"מאחסן פרטי מצב נקרא/לא נקרא לאורחים. אם כבוי, ההודעות תמיד יסומנו כנקראו "
+"לאורחים."
+
+#: $lang->'YES_BIRTHDAYS'
+msgid "Enable birthday listing"
+msgstr "הפעל רשימת ימי הולדת"
+
+#: $lang->'YES_BIRTHDAYS_EXPLAIN'
+msgid ""
+"If disabled the birthday listing is no longer displayed. To let this setting "
+"take effect the birthday feature needs to be enabled too."
+msgstr ""
+"אם כבוי רשימת ימי ההולדת לא תוצג יותר. כדי שהגדרה זו תפעל מאפיין ימי ההולדת "
+"חייב להיות פעיל."
+
+#: $lang->'YES_JUMPBOX'
+msgid "Enable display of jumpbox"
+msgstr "הקפץ חלון התראה על הודעות פרטיות חדשות"
+
+#: $lang->'YES_MODERATORS'
+msgid "Enable display of moderators"
+msgstr "הפעל תצוגת מנהלי פורומים"
+
+#: $lang->'YES_ONLINE'
+msgid "Enable online user listings"
+msgstr "הפעל רשימות משתמשים מחוברים"
+
+#: $lang->'YES_ONLINE_EXPLAIN'
+msgid "Display online user information on index, forum and topic pages."
+msgstr "הצג פרטי חיבור משתמש בעמוד הראשי, בפורום ובעמודי הנושאים."
+
+#: $lang->'YES_ONLINE_GUESTS'
+msgid "Enable online guest listings in viewonline"
+msgstr "הפעל רשימות אורחים מחוברים במי מחובר"
+
+#: $lang->'YES_ONLINE_GUESTS_EXPLAIN'
+msgid "Allow display of guest user information in viewonline."
+msgstr "אפשר תצוגת פרטי אורחים במי מחובר."
+
+#: $lang->'YES_ONLINE_TRACK'
+msgid "Enable display of user online/offline information"
+msgstr "הפעל תצוגת פרטי מחובר/מנותק של משתמש"
+
+#: $lang->'YES_ONLINE_TRACK_EXPLAIN'
+msgid "Display online information for user in profiles and topic pages."
+msgstr "הצג פרטי חיבור של משתמשים בפרופילים ובעמודי הנושאים."
+
+#: $lang->'YES_POST_MARKING'
+msgid "Enable dotted topics"
+msgstr "הפעל נושאים מסומנים"
+
+#: $lang->'YES_POST_MARKING_EXPLAIN'
+msgid "Indicates whether user has posted to a topic."
+msgstr "מציין אם המשתמש שלח לנושא."
+
+#: $lang->'YES_READ_MARKING'
+msgid "Enable server-side topic marking"
+msgstr "הפעל סימון נושא בצד שרת"
+
+#: $lang->'YES_READ_MARKING_EXPLAIN'
+msgid ""
+"Stores read/unread status information in the database rather than a cookie."
+msgstr "מאחסן פרטי מצב נקרא/לא נקרא בבסיס הנתונים במקום בעוגייה."
+
+#: $lang->'YES_UNREAD_SEARCH'
+msgid "Enable search for unread posts"
+msgstr "אפשר חיפוש להודעות שלא נקראו"
+
+#. // Auth settings
+#: $lang->'ACP_AUTH_SETTINGS_EXPLAIN'
+msgid ""
+"phpBB supports authentication plug-ins, or modules. These allow you "
+"determine how users are authenticated when they log into the board. By "
+"default four plug-ins are provided: DB, LDAP, Apache, and OAuth. Not all "
+"methods require additional information so only fill out fields if they are "
+"relevant to the selected method."
+msgstr ""
+"phpBB3 תומכת בתוספות אימות, או מודולים. הן מאפשרות לך לקבוע כיצד משתמשים "
+"מאומתים כאשר הם מתחברים למערכת. כברירת מחדל ארבעה תוספות מסופקות: DB, LDAP, "
+"Apache ו־OAuth. לא כל התוספות דורשות מידע נוסף כך שהשלם רק את השדות אשר "
+"קשורות לשיטה הנבחרת."
+
+#: $lang->'AUTH_METHOD'
+msgid "Select an authentication method"
+msgstr "בחר שיטת אימות"
+
+#: $lang->'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'
+msgid ""
+"Both the key and secret of each enabled OAuth service provider must be "
+"provided. Only one was provided for an OAuth service provider."
+msgstr ""
+"הן המפתח והסוד של כל שירות OAuth פעיל חייב להיות מוזן. רק אחד סופק עבור "
+"שירות התוכן OAUTH."
+
+#: $lang->'AUTH_PROVIDER_OAUTH_EXPLAIN'
+msgid ""
+"Each OAuth provider requires a unique secret and key in order to "
+"authenticate with the external server. These should be supplied by the OAuth "
+"service when you register your website with them and should be entered "
+"exactly as provided to you.<br />Any service that does not have both a key "
+"and a secret entered here will not be available for use by the forum users. "
+"Also note, that user can still register and login using the DB "
+"authentication plug-in."
+msgstr ""
+"על מנת לבצע אימות עם שרת חיצוני, כל ספק OAuth דורש מפתח וסוד. זה אמור להיות "
+"מספק על ידי ספק ה-OAuth כאשר אתה נרשם לאתרך איתם, ואמור להיות מוזן בדיוק כפי "
+"שניתן.<br />כל שירות שאין לו את המפתח והסוד לא יוכל להיות בשימוש על ידי "
+"משתמשי הפורום. כמו כן שים לב, שהמשתמשים עדיין יכולים להירשם ולהתחבר באמצעות "
+"תוסף ה-DB שלהם."
+
+#: $lang->'AUTH_PROVIDER_OAUTH_KEY'
+msgid "Key"
+msgstr "מפתח"
+
+#: $lang->'AUTH_PROVIDER_OAUTH_TITLE'
+msgid "OAuth"
+msgstr "OAuth"
+
+#: $lang->'AUTH_PROVIDER_OAUTH_SECRET'
+msgid "Secret"
+msgstr "סוד"
+
+#: $lang->'APACHE_SETUP_BEFORE_USE'
+msgid ""
+"You have to setup apache authentication before you switch phpBB to this "
+"authentication method. Keep in mind that the username you use for apache "
+"authentication has to be the same as your phpBB username. Apache "
+"authentication can only be used with mod_php (not with a CGI version) and "
+"safe_mode disabled."
+msgstr ""
+"אתה צריך להתקין אימות apache לפני שתחליף את phpBB3 לשיטת אימות זו. זכור ששם "
+"המשתמש שלך לאימות apache חייב להיות זהה לשם המשתמש שלך ב־phpBB3. אימות "
+"Apache ניתן לשימוש רק עם mod_php (לא עם גרסת CGI) ו־safe_mode כבויים."
+
+#: $lang->'LDAP'
+msgid "LDAP"
+msgstr "LDAP"
+
+#: $lang->'LDAP_DN'
+msgid "LDAP base <var>dn</var>"
+msgstr "LDAP מבוסס <var>dn</var>"
+
+#: $lang->'LDAP_DN_EXPLAIN'
+msgid ""
+"This is the Distinguished Name, locating the user information, e.g. <samp>o="
+"My Company,c=US</samp>."
+msgstr "זהו השם הנבחן, הנמצא בפרטי המשתמש, למשל <samp>o=My Company,c=US</samp>."
+
+#: $lang->'LDAP_EMAIL'
+msgid "LDAP email attribute"
+msgstr "תכונת דואר אלקטרוני של LDAP"
+
+#: $lang->'LDAP_EMAIL_EXPLAIN'
+msgid ""
+"Set this to the name of your user entry email attribute (if one exists) in "
+"order to automatically set the email address for new users. Leaving this "
+"empty results in empty email address for users who log in for the first time."
+msgstr ""
+"קבע לשם של תכונת הדואר האלקטרוני של רישום המשתמש (אם אחד קיים) כדי לקבוע "
+"אוטומטית את כתובת הדואר האלקטרוני למשתמשים חדשים. השארת השדה ריק תגרום "
+"לכתובת דואר אלקטרוני ריקה למשתמשים אשר מתחברים בפעם הראשונה."
+
+#: $lang->'LDAP_INCORRECT_USER_PASSWORD'
+msgid "Binding to LDAP server failed with specified user/password."
+msgstr "קישור לשרת LDAP נכשל עם המשתמש/הססמה שצוינו."
+
+#: $lang->'LDAP_NO_EMAIL'
+msgid "The specified email attribute does not exist."
+msgstr "תכונת הדואר האלקטרוני שצוינה לא קיימת."
+
+#: $lang->'LDAP_NO_IDENTITY'
+msgid "Could not find a login identity for %s."
+msgstr "לא ניתן למצוא זיהוי חיבור ל%s."
+
+#: $lang->'LDAP_PASSWORD'
+msgid "LDAP password"
+msgstr "ססמה ל־LDAP"
+
+#: $lang->'LDAP_PASSWORD_EXPLAIN'
+msgid ""
+"Leave blank to use anonymous binding, otherwise fill in the password for the "
+"above user. Required for Active Directory Servers.<br "
+"/><em><strong>Warning:</strong> This password will be stored as plain text "
+"in the database, visible to everybody who can access your database or who "
+"can view this configuration page.</em>"
+msgstr ""
+"השאר ריק כדי להשתמש בגישה אנונימית. אחרת מלא את הססמה למשתמש שמעל. נדרש "
+"לשרתי תיקייה פעילים.<br /><em><strong>אזהרה:</strong> הססמה תאוחסן כטקסט "
+"פשוט בבסיס הנתונים, ותוצג לכל אחד אשר יכול לגשת לבסיס הנתונים או אשר יכול "
+"לצפות בעמוד ההגדרות.</em>"
+
+#: $lang->'LDAP_PORT'
+msgid "LDAP server port"
+msgstr "יציאת שרת LDAP"
+
+#: $lang->'LDAP_PORT_EXPLAIN'
+msgid ""
+"Optionally you can specify a port which should be used to connect to the "
+"LDAP server instead of the default port 389."
+msgstr ""
+"תוכל לציין יציאה אשר בשימוש להתחברות לשרת LDAP במקום ביציאת ברירת המחדל 389."
+
+#: $lang->'LDAP_SERVER'
+msgid "LDAP server name"
+msgstr "שם שרת LDAP"
+
+#: $lang->'LDAP_SERVER_EXPLAIN'
+msgid ""
+"If using LDAP this is the hostname or IP address of the LDAP server. "
+"Alternatively you can specify an URL like ldap://hostname:port/"
+msgstr ""
+"אם בשימוש LDAP זהו שם השרת או כתובת ה־IP של שרת ה־LDAP. לחלופין אתה יכול "
+"לציין כתובת כמו ldap://hostname:port/"
+
+#: $lang->'LDAP_UID'
+msgid "LDAP <var>uid</var>"
+msgstr "<var>uid</var> של LDAP"
+
+#: $lang->'LDAP_UID_EXPLAIN'
+msgid ""
+"This is the key under which to search for a given login identity, e.g. "
+"<var>uid</var>, <var>sn</var>, etc."
+msgstr ""
+"זהו ההמפתח אשר בשימוש לחיפוש זיהוי ההתחברות הנתון, למשל <var>uid</var>, "
+"<var>sn</var>, וכד'."
+
+#: $lang->'LDAP_USER'
+msgid "LDAP user <var>dn</var>"
+msgstr "משתמש <var>dn</var> ל־LDAP"
+
+#: $lang->'LDAP_USER_EXPLAIN'
+msgid ""
+"Leave blank to use anonymous binding. If filled in phpBB uses the specified "
+"distinguished name on login attempts to find the correct user, e.g. "
+"<samp>uid=Username,ou=MyUnit,o=MyCompany,c=US</samp>. Required for Active "
+"Directory Servers."
+msgstr ""
+"השאר ריק לשימוש בגישה אנונימית. אם הוזן, phpBB3 תשתמש בשם הנבחן בניסיונות "
+"התחברות כדי למצוא את המשתמש הנכון, למשל "
+"<samp>uid=Username,ou=MyUnit,o=MyCompany,c=US</samp>. נדרש לשרתי תיקייה "
+"פעילים."
+
+#: $lang->'LDAP_USER_FILTER'
+msgid "LDAP user filter"
+msgstr "מסנן משתמש LDAP"
+
+#: $lang->'LDAP_USER_FILTER_EXPLAIN'
+msgid ""
+"Optionally you can further limit the searched objects with additional "
+"filters. For example <samp>objectClass=posixGroup</samp> would result in the "
+"use of <samp>(&amp;(uid=$username)(objectClass=posixGroup))</samp>"
+msgstr ""
+"תוכל להגביל יותר את הפריטים שבחיפוש בעזרת מסננים נוספים. לדוגמה "
+"<samp>objectClass=posixGroup</samp> יגרום לשימוש "
+"ב־<samp>(&amp;(uid=$username)(objectClass=posixGroup))</samp>"
+
+#. // Server Settings
+#: $lang->'ACP_SERVER_SETTINGS_EXPLAIN'
+msgid ""
+"Here you define server and domain dependent settings. Please ensure the data "
+"you enter is accurate, errors will result in emails containing incorrect "
+"information. When entering the domain name remember it does include http:// "
+"or other protocol term. Only alter the port number if you know your server "
+"uses a different value, port 80 is correct in most cases."
+msgstr ""
+"כאן אתה יכול להגדיר הגדרות שרת ודומיין. וודא שהמידע שאתה מזין נכון, שגיאות "
+"יגרמו בפרטים לא נכונים ליצירת קשר דרך דואר אלקטרוני. בעת הזנת שם המתחם זכור "
+"שהוא חייב לכלול http:// או פרוטוקול אחר. שנה את מספר היציאה רק אם אתה יודע "
+"שהשרת שלך משתמש בערך אחר, היציאה 80 נכונה ברוב המקרים."
+
+#: $lang->'ENABLE_GZIP'
+msgid "Enable GZip compression"
+msgstr "הפעל דחיסת GZip"
+
+#: $lang->'ENABLE_GZIP_EXPLAIN'
+msgid ""
+"Generated content will be compressed prior to sending it to the user. This "
+"can reduce network traffic but will also increase CPU usage on both server "
+"and client side. Requires zlib PHP extension to be loaded."
+msgstr ""
+"תוכן הנוצר יקובץ לפני שליחתו למשתמש. ניתן לחסוך כך בתעבורת רשת אך גם יגדל "
+"השימוש במעבד בצד הלקוח ובצד השרת. נדרש שהרחבת zlib PHP תהיה טעונה."
+
+#: $lang->'FORCE_SERVER_VARS'
+msgid "Force server URL settings"
+msgstr "דרוש הגדרות כתובת שרת"
+
+#: $lang->'FORCE_SERVER_VARS_EXPLAIN'
+msgid ""
+"If set to yes the server settings defined here will be used in favour of the "
+"automatically determined values."
+msgstr ""
+"אם נקבע לכן הגדרות השרת המוגדרות כאן יקבלו עדיפות על הערכים אשר נקבעו "
+"אוטומטית."
+
+#: $lang->'ICONS_PATH'
+msgid "Post icons storage path"
+msgstr "נתיב אחסון האייקונים להודעות"
+
+#: $lang->'ICONS_PATH_EXPLAIN'
+msgid "Path under your phpBB root directory, e.g. <samp>images/icons</samp>."
+msgstr "נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/icons</samp>."
+
+#: $lang->'MOD_REWRITE_ENABLE'
+msgid "Enable URL Rewriting"
+msgstr "אפשר שינוי URL"
+
+#: $lang->'MOD_REWRITE_ENABLE_EXPLAIN'
+msgid ""
+"When enabled, URLs containing ’app.php’ will be rewritten to remove the "
+"filename (i.e. app.php/foo will become /foo). <strong>Apache server’s "
+"mod_rewrite module is required for this functionality to work; if this "
+"option is enabled without mod_rewrite support, URLs on your board may be "
+"broken.</strong>"
+msgstr ""
+"כאשר מופעל, כתובות URL אשר מכילות \"app.php\" ישונו כך ששם הקובץ ימחק .("
+"לדוגמא app.php/foo יהפוך ל /foo). <strong>מודל mod_rewrite של שרת אפאצ'י "
+"חייב לעבוד על מנת שההגדרה תעבוד; אם ההגדרה תופעל בלעדיו, קישורים באתרך "
+"עלולים לא לעבוד.</strong>"
+
+#: $lang->'MOD_REWRITE_DISABLED'
+msgid ""
+"The <strong>mod_rewrite</strong> module on your Apache web server is "
+"disabled. Enable the module or contact your web hosting provider if you wish "
+"to enable this feature."
+msgstr ""
+"מודל ה-mod_rewrite בשרת האפצ' שלך לא פעיל. הפעל אותו, או צור קשר עם בעל "
+"האחסון אם ברצונך להפעיל את אפשרות זו."
+
+#: $lang->'MOD_REWRITE_INFORMATION_UNAVAILABLE'
+msgid ""
+"We are unable to determine whether or not this server supports URL "
+"rewriting. This setting may be enabled but if URL rewriting is not "
+"available, paths generated by this board (such as for use in links) may be "
+"broken. Contact your web hosting provider if you are unsure whether or not "
+"you can safely enable this feature."
+msgstr ""
+"אין באפשרותנו לקבוע האם השרת תומך בשינוי כתובת URL. אתה יכול להפעיל את "
+"ההגדרה, אך במידה ואפשרות זה לא נתמכת, נתיבים שיוספקו על ידי המערכת (וכן "
+"השימוש בקישורים) לא יעבוד. צור קשר עם בעל האחסון, אם אתה לא בטוח האם אתה "
+"יכול להשתמש באפשרות זו בביטחון."
+
+#: $lang->'PATH_SETTINGS'
+msgid "Path settings"
+msgstr "הגדרות נתיב"
+
+#: $lang->'RANKS_PATH'
+msgid "Rank image storage path"
+msgstr "נתיב אחסון תמונות הדירוג"
+
+#: $lang->'RANKS_PATH_EXPLAIN'
+msgid "Path under your phpBB root directory, e.g. <samp>images/ranks</samp>."
+msgstr "נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/ranks</samp>."
+
+#: $lang->'SCRIPT_PATH'
+msgid "Script path"
+msgstr "נתיב המערכת"
+
+#: $lang->'SCRIPT_PATH_EXPLAIN'
+msgid ""
+"The path where phpBB is located relative to the domain name, e.g. "
+"<samp>/phpBB3</samp>."
+msgstr "הנתיב בו מערכת phpBB3 נמצאת יחסית לשם המתחם, למשל <samp>/phpBB3</samp>."
+
+#: $lang->'SERVER_NAME'
+msgid "Domain name"
+msgstr "שם מתחם"
+
+#: $lang->'SERVER_NAME_EXPLAIN'
+msgid ""
+"The domain name this board runs from (for example: "
+"<samp>www.example.com</samp>)."
+msgstr "שם המתחם בה המערכת פועלת (לדוגמה: <samp>www.example.com</samp>)."
+
+#: $lang->'SERVER_PORT'
+msgid "Server port"
+msgstr "יציאת שרת"
+
+#: $lang->'SERVER_PORT_EXPLAIN'
+msgid ""
+"The port your server is running on, usually 80, only change if different."
+msgstr "היציאה דרכה השרת פועל, בדרך כלל 80, שנה רק אם שונה."
+
+#: $lang->'SERVER_PROTOCOL'
+msgid "Server protocol"
+msgstr "פרוטוקול השרת"
+
+#: $lang->'SERVER_PROTOCOL_EXPLAIN'
+msgid ""
+"This is used as the server protocol if these settings are forced. If empty "
+"or not forced the protocol is determined by the cookie secure settings "
+"(<samp>http://</samp> or <samp>https://</samp>)."
+msgstr ""
+"בשימוש בתור פרוטוקול השרת אם הגדרות אלו נדרשות. אם ריק או לא נדרש, הפרוטוקול "
+"נקבע על־ידי הגדרות אבטחת העוגייה (<samp>http://</samp> או "
+"<samp>https://</samp>)."
+
+#: $lang->'SERVER_URL_SETTINGS'
+msgid "Server URL settings"
+msgstr "הגדרות כתובת שרת"
+
+#: $lang->'SMILIES_PATH'
+msgid "Smilies storage path"
+msgstr "נתיב אחסון הסמיילים"
+
+#: $lang->'SMILIES_PATH_EXPLAIN'
+msgid "Path under your phpBB root directory, e.g. <samp>images/smilies</samp>."
+msgstr "נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/smilies</samp>."
+
+#: $lang->'UPLOAD_ICONS_PATH'
+msgid "Extension group icons storage path"
+msgstr "נתיב אחסון קבוצת הסיומות לאייקונים"
+
+#: $lang->'UPLOAD_ICONS_PATH_EXPLAIN'
+msgid ""
+"Path under your phpBB root directory, e.g. <samp>images/upload_icons</samp>."
+msgstr ""
+"נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/upload_icons</samp>."
+
+#: $lang->'USE_SYSTEM_CRON'
+msgid "Run periodic tasks from system cron"
+msgstr "השתמש במריצה משימות מתוזמנות על ידי מריץ המשימות האוטומטי."
+
+#: $lang->'USE_SYSTEM_CRON_EXPLAIN'
+msgid ""
+"When off, phpBB will arrange for periodic tasks to be run automatically. "
+"When on, phpBB will not schedule any periodic tasks by itself; a system "
+"administrator must arrange for <code>bin/phpbbcli.php cron:run</code> to be "
+"run by the system cron facility at regular intervals (e.g. every 5 minutes)."
+msgstr ""
+"כאשר מכובה phpBB תארגן כך שמשימות מחזוריות יורצו אוטמטית. כאשר דלוקה, phpBB "
+"לא תארגן שום משימה שתרוץ בצורה עצמאית מנהל המערכת יהיה חייב להגדיר "
+"ש-<code>bin/phpbbcli.php cron:run</code> יופעל על ידי המערכת בהפרשי זמנים "
+"סבירים באמצעות מערכת cron (לדוגמה כל 5 דקות)."
+
+#. // Security Settings
+#: $lang->'ACP_SECURITY_SETTINGS_EXPLAIN'
+msgid "Here you are able to define session and login related settings."
+msgstr "כאן אתה יכול להגדיר הגדרות הקשורות לחיבורים והתחברויות."
+
+#: $lang->'ALL'
+msgid "All"
+msgstr "הכל"
+
+#: $lang->'ALLOW_AUTOLOGIN'
+msgid "Allow \"Remember Me\" logins"
+msgstr "אפשר התחברויות \"זכור אותי\""
+
+#: $lang->'ALLOW_AUTOLOGIN_EXPLAIN'
+msgid ""
+"Determines whether users are given \"Remember Me\" option when they visit "
+"the board."
+msgstr "קובע האם משתמשים יזכו לאפשרות \"זכור אותי\" בביקורם בפורום."
+
+#: $lang->'ALLOW_PASSWORD_RESET'
+msgid "Allow password reset (\"Forgot Password\")"
+msgstr "אפשר איפוס סיסמה (\"שכחתי את הסיסמה\")"
+
+#: $lang->'ALLOW_PASSWORD_RESET_EXPLAIN'
+msgid ""
+"Determines whether or not users are able to use the \"I forgot my password\" "
+"link on the login page to recover their account. If you use an external "
+"authentication mechanism you may wish to disable this feature."
+msgstr ""
+"קובע האם משתמשים יוכלו להשתמש באפשרות \"שכחתי את סיסמתי\" הנמצאת בקישור "
+"בעמוד ההתחברות, על מנת לקבל גישה מחודשת לחשבונם. אם אתה משתמש בשיטת אימות "
+"חיצונית, יתכן שתרצה לבטל את האפשרות הזאת."
+
+#: $lang->'AUTOLOGIN_LENGTH'
+msgid "\"Remember Me\" login key expiration length (in days)"
+msgstr "זמן עד שהתחברות \"זכור אותי\" פגה (בימים)"
+
+#: $lang->'AUTOLOGIN_LENGTH_EXPLAIN'
+msgid ""
+"Number of days after which \"Remember Me\" login keys are removed or zero to "
+"disable."
+msgstr ""
+"מספר הימים שלאחרן התחברויות \"זכור אותי\" נמחקו. הכנס 0 אם אין ברצונך שהן "
+"תפוגנה."
+
+#: $lang->'BROWSER_VALID'
+msgid "Validate browser"
+msgstr "אשר דפדפן"
+
+#: $lang->'BROWSER_VALID_EXPLAIN'
+msgid "Enables browser validation for each session improving security."
+msgstr "מפעיל אישור דפדפן לכל חיבור לשיפור האבטחה."
+
+#: $lang->'CHECK_DNSBL'
+msgid "Check IP against DNS Blackhole List"
+msgstr "בדוק IP כנגד רשימת ה־DNS השחורה"
+
+#: $lang->'CHECK_DNSBL_EXPLAIN'
+msgid ""
+"If enabled the user’s IP address is checked against the following DNSBL "
+"services on registration and posting: <a href=\"http://spamcop.net\""
+">spamcop.net</a> and <a href=\"http://www.spamhaus.org\">www.spamhaus.org</a>"
+". This lookup may take a while, depending on the server’s configuration. If "
+"slowdowns are experienced or too many false positives reported it is "
+"recommended to disable this check."
+msgstr ""
+"אם פעיל כתובת ה־IP של המשתמש תיבדק כנגד שירותי ה־DNSBL הבאים בהרשמה ובשליחה: "
+"<a href=\"http://www.spamcop.net\">www.spamcop.net</a> ו־<a href=\""
+"http://spamhaus.org\">spamhaus.org</a>. תהליך זה יכול למשך זמן מה, לפי "
+"הגדרות השרת. אם מתרחשות האטות במערכת או יותר מדי תהליכים שנכשלו מדיווחים, "
+"מומלץ לכבות בדיקה זו."
+
+#: $lang->'CLASS_B'
+msgid "A.B"
+msgstr "A.B"
+
+#: $lang->'CLASS_C'
+msgid "A.B.C"
+msgstr "A.B.C"
+
+#: $lang->'EMAIL_CHECK_MX'
+msgid "Check email domain for valid MX record"
+msgstr "בדוק מתחם דואר אלקטרוני לרישום MX חוקי"
+
+#: $lang->'EMAIL_CHECK_MX_EXPLAIN'
+msgid ""
+"If enabled, the email domain provided on registration and profile changes is "
+"checked for a valid MX record."
+msgstr ""
+"אם פעיל, מתחם הדואר האלקטרוני אשר סופק בהרשמה ובשינוי הפרופיל ייבדק לרישום "
+"MX חוקי."
+
+#: $lang->'FORCE_PASS_CHANGE'
+msgid "Force password change"
+msgstr "דרוש שינוי ססמה"
+
+#: $lang->'FORCE_PASS_CHANGE_EXPLAIN'
+msgid ""
+"Require user to change their password after a set number of days. Setting "
+"this value to 0 disables this behaviour."
+msgstr ""
+"דורש מהמשתמשים לשנות את ססמתם לאחר מספר ימים שנקבע. קבע ערך זה ל0 על מנת "
+"לכבות אפשרות זו."
+
+#: $lang->'FORM_TIME_MAX'
+msgid "Maximum time to submit forms"
+msgstr "הזמן המקסימלי לשליחת טופס"
+
+#: $lang->'FORM_TIME_MAX_EXPLAIN'
+msgid ""
+"The time a user has to submit a form. Use -1 to disable. Note that a form "
+"might become invalid if the session expires, regardless of this setting."
+msgstr ""
+"הזמן שיש למשתמש לשליחת טופס. הגדר 1- לכיבוי. שים לב שטופס עלול להפוך ללא "
+"תקין אם החיבור הסתיים, מבלי להתייחס להגדרה זו."
+
+#: $lang->'FORM_SID_GUESTS'
+msgid "Tie forms to guest sessions"
+msgstr "הגבל טפסים לחיבורי אורחים"
+
+#: $lang->'FORM_SID_GUESTS_EXPLAIN'
+msgid ""
+"If enabled, the form token issued to guests will be session-exclusive. This "
+"can cause problems with some ISPs."
+msgstr ""
+"אם פעיל, טוקן הטופס הנוצרת לאורחים תהיה בלעדית לחיבור. זה עלול לגרום לבעיות "
+"בכמה ספקיות אינטרנט."
+
+#: $lang->'FORWARDED_FOR_VALID'
+msgid "Validate <var>X_FORWARDED_FOR</var> header"
+msgstr "כותרת <var>X_FORWARDED_FOR</var> מאושרת"
+
+#: $lang->'FORWARDED_FOR_VALID_EXPLAIN'
+msgid ""
+"Sessions will only be continued if the sent <var>X_FORWARDED_FOR</var> "
+"header equals the one sent with the previous request. Bans will be checked "
+"against IPs in <var>X_FORWARDED_FOR</var> too."
+msgstr ""
+"חיבורים ימשכו רק אם הכותרת <var>X_FORWARDED_FOR</var> שווה לזו שנשלחה בבקשה "
+"הקודמת. חסימות ייבדקו אל מול IP ב־<var>X_FORWARDED_FOR</var> גם כן."
+
+#: $lang->'IP_VALID'
+msgid "Session IP validation"
+msgstr "אישור IP של פעולה"
+
+#: $lang->'IP_VALID_EXPLAIN'
+msgid ""
+"Determines how much of the users IP is used to validate a session; "
+"<samp>All</samp> compares the complete address, <samp>A.B.C</samp> the first "
+"x.x.x, <samp>A.B</samp> the first x.x, <samp>None</samp> disables checking. "
+"On IPv6 addresses <samp>A.B.C</samp> compares the first 4 blocks and "
+"<samp>A.B</samp> the first 3 blocks."
+msgstr ""
+"קובע כמה מכתובות ה־IP של המשתמשים בשימוש לאישור הפעולה; <samp>הכל</samp> "
+"שווה לכתובת המלאה, <samp>A.B.C</samp> x.x.x הראשונים, <samp>A.B</samp> x.x "
+"הראשונים, <samp>ללא</samp> מכבה בדיקה. בכתובות IP בגרסה 6 <samp>A.B.C</samp> "
+"שווה ל־4 החלקים הראשונים ו־<samp>A.B</samp> ל־3 החלקים הראשונים."
+
+#: $lang->'IP_LOGIN_LIMIT_MAX'
+msgid "Maximum number of login attempts per IP address"
+msgstr "מספר ניסיונות חיבור מקסימלי עבור כתובת IP"
+
+#: $lang->'IP_LOGIN_LIMIT_MAX_EXPLAIN'
+msgid ""
+"The threshold of login attempts allowed from a single IP address before an "
+"anti-spambot task is triggered. Enter 0 to prevent the anti-spambot task "
+"from being triggered by IP addresses."
+msgstr ""
+"סף ניסיונות החיבור מכתובת IP בודדת לפני שהאנטי־בוט מתחיל לפעול. הכנס 0 כדי "
+"למנוע מהאנטי־בוט לפעול על ידי כתובת."
+
+#: $lang->'IP_LOGIN_LIMIT_TIME'
+msgid "IP address login attempt expiration time"
+msgstr "תוקף זמן ניסיונות החיבור עבור כתובת IP"
+
+#: $lang->'IP_LOGIN_LIMIT_TIME_EXPLAIN'
+msgid "Login attempts expire after this period."
+msgstr "ניסיונות החיבור מפסיקות לאחר זמן זה."
+
+#: $lang->'IP_LOGIN_LIMIT_USE_FORWARDED'
+msgid "Limit login attempts by <var>X_FORWARDED_FOR</var> header"
+msgstr "הגבל ניסיונות חיבור עבור כותבות <var>X_FORWARDED_FOR</var>"
+
+#: $lang->'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'
+msgid ""
+"Instead of limiting login attempts by IP address they are limited by "
+"<var>X_FORWARDED_FOR</var> values. <br /><em><strong>Warning:</strong> Only "
+"enable this if you are operating a proxy server that sets "
+"<var>X_FORWARDED_FOR</var> to trustworthy values.</em>"
+msgstr ""
+"במקום להגביל ניסיונות חיבור עבור כתובות IP הם מוגבלים עבור ערכי "
+"<var>X_FORWARDED_FOR</var>. <br /><em><strong>אזהרה:</strong> הפעל אפשרות זו "
+"אם אתה מפעיל שרת פרוקסי שמגדיר <var>X_FORWARDED_FOR</var> עבור ערכים "
+"אמינים.</em>"
+
+#: $lang->'MAX_LOGIN_ATTEMPTS'
+msgid "Maximum number of login attempts per username"
+msgstr "מספר מרבי של ניסיונות התחברות עבור כל שם משתמש"
+
+#: $lang->'MAX_LOGIN_ATTEMPTS_EXPLAIN'
+msgid ""
+"The number of login attempts allowed for a single account before the anti-"
+"spambot task is triggered. Enter 0 to prevent the anti-spambot task from "
+"being triggered for distinct user accounts."
+msgstr ""
+"מספר ניסיונות החיבור עבור חשבון בודד לפני שהאנטי־בוט מתחיל לפעול. הכנס 0 כדי "
+"למנוע מהאנטי־בוט לעבוד עבור חשבון משתמש מפורש."
+
+#: $lang->'NO_IP_VALIDATION'
+msgctxt "$lang->'NO_IP_VALIDATION'"
+msgid "None"
+msgstr "ללא"
+
+#: $lang->'NO_REF_VALIDATION'
+msgctxt "$lang->'NO_REF_VALIDATION'"
+msgid "None"
+msgstr "ללא"
+
+#: $lang->'PASSWORD_TYPE'
+msgid "Password complexity"
+msgstr "מורכבות ססמה"
+
+#: $lang->'PASSWORD_TYPE_EXPLAIN'
+msgid ""
+"Determines how complex a password needs to be when set or altered, "
+"subsequent options include the previous ones."
+msgstr ""
+"קובע כמה מורכבת ססמה צריכה להיות כאשר נקבעה או שונתה, אפשרויות מורכבות "
+"נכללות באחדים הקודמים."
+
+#: $lang->'PASS_TYPE_ALPHA'
+msgid "Must contain letters and numbers"
+msgstr "חייבת להכיל אותיות ומספרים"
+
+#: $lang->'PASS_TYPE_ANY'
+msgid "No requirements"
+msgstr "ללא דרישות"
+
+#: $lang->'PASS_TYPE_CASE'
+msgid "Must be mixed case"
+msgstr "חייבת להיות משפט מעורבב"
+
+#: $lang->'PASS_TYPE_SYMBOL'
+msgid "Must contain symbols"
+msgstr "חייבת להכיל סימנים"
+
+#: $lang->'REF_HOST'
+msgid "Only validate host"
+msgstr "רק שרת בתוקף"
+
+#: $lang->'REF_PATH'
+msgid "Also validate path"
+msgstr "וגם תיקייה בתוקף"
+
+#: $lang->'REFERRER_VALID'
+msgid "Validate Referrer"
+msgstr "בדיקת דף מפנה"
+
+#: $lang->'REFERRER_VALID_EXPLAIN'
+msgid ""
+"If enabled, the referrer of POST requests will be checked against the host/"
+"script path settings. This may cause issues with boards using several "
+"domains and or external logins."
+msgstr ""
+"אם מאופשר, הדף המפנה שנשלח ייבדק מול שרת/קוד בהגדרות. זה יכול לגרום לבעיות "
+"בפורומים שמשתמשים במספר כתובות או התחברויות חיצוניות."
+
+#: $lang->'TPL_ALLOW_PHP'
+msgid "Allow php in templates"
+msgstr "אפשר php בערכות"
+
+#: $lang->'TPL_ALLOW_PHP_EXPLAIN'
+msgid ""
+"If this option is enabled, <code>PHP</code> and <code>INCLUDEPHP</code> "
+"statements will be recognised and parsed in templates."
+msgstr ""
+"אם האפשרות פעילה, משפטי <code>PHP</code> ו־<code>INCLUDEPHP</code> יזוהו "
+"ויבוצעו בערכות."
+
+#: $lang->'UPLOAD_CERT_VALID'
+msgid "Validate upload certificate"
+msgstr ""
+
+#: $lang->'UPLOAD_CERT_VALID_EXPLAIN'
+msgid ""
+"If enabled, certificates of remote uploads will be validated. This requires "
+"the CA bundle to be defined by the <samp>openssl.cafile</samp> or "
+"<samp>curl.cainfo</samp> setting in your php.ini."
+msgstr ""
+
+#. // Email Settings
+#: $lang->'ACP_EMAIL_SETTINGS_EXPLAIN'
+msgid ""
+"This information is used when the board sends emails to your users. Please "
+"ensure the email address you specify is valid, any bounced or undeliverable "
+"messages will likely be sent to that address. If your host does not provide "
+"a native (PHP based) email service you can instead send messages directly "
+"using SMTP. This requires the address of an appropriate server (ask your "
+"provider if necessary). If the server requires authentication (and only if "
+"it does) enter the necessary username, password and authentication method."
+msgstr ""
+"מידע זה בשימוש כאשר המערכת שולחת הודעות דואר אלקטרוני למשתמשים. וודא שכתובת "
+"הדואר האלקטרוני שאתה מציין חוקית, כל ההודעות מוקפות או שלא נמסרו כנראה ישלחו "
+"לכתובת זו. אם השרת שלך אינו מספק שירות דואר אלקטרוני מקומי (מבוסס PHP) תוכל "
+"במקום לשלוח הודעות ישירות דרך SMTP. בשיטה זו נדרשת הכתובת של שרת מתאים (בקש "
+"מספק האחסון שלך אם נדרש). אם השרת דורש אימות (ורק אם הוא דורש) הזן את שם "
+"המשתמש, הססמה ושיטת האימות הנדרשים."
+
+#: $lang->'ADMIN_EMAIL'
+msgid "Return email address"
+msgstr "כתובת דואר אלקטרוני לתגובה"
+
+#: $lang->'ADMIN_EMAIL_EXPLAIN'
+msgid ""
+"This will be used as the return address on all emails, the technical contact "
+"email address. It will always be used as the <samp>Return-Path</samp> and "
+"<samp>Sender</samp> address in emails."
+msgstr ""
+"בשימוש בתור כתובת הדואר האלקטרוני לתגובה לכל ההודעות, כתובת הדואר האלקטרוני "
+"ליצירת קשר. תמיד בשימוש בתור כתובת <samp>נתיב תשובה</samp> "
+"ו־<samp>שולח</samp> בהודעות דואר אלקטרוני."
+
+#: $lang->'BOARD_EMAIL_FORM'
+msgid "Users send email via board"
+msgstr "משתמשים שולחים דואר אלקטרוני דרך המערכת"
+
+#: $lang->'BOARD_EMAIL_FORM_EXPLAIN'
+msgid ""
+"Instead of showing the users email address users are able to send emails via "
+"the board."
+msgstr ""
+"במקום הצגת כתובת הדואר האלקטרוני של המשתמשים, הם יוכלו לשלוח הודעות דואר "
+"אלקטרוני דרך המערכת."
+
+#: $lang->'BOARD_HIDE_EMAILS'
+msgid "Hide email addresses"
+msgstr "הסתר כתובות דואר אלקטרוני"
+
+#: $lang->'BOARD_HIDE_EMAILS_EXPLAIN'
+msgid "This function keeps email addresses completely private."
+msgstr "אפשרות זו שומרת את כל כתובות הדואר האלקטרוני כפרטיות לחלוטין."
+
+#: $lang->'CONTACT_EMAIL'
+msgid "Contact email address"
+msgstr "כתובת דואר אלקטרוני ליצירת קשר"
+
+#: $lang->'CONTACT_EMAIL_EXPLAIN'
+msgid ""
+"This address will be used whenever a specific contact point is needed, e.g. "
+"spam, error output, etc. It will always be used as the <samp>From</samp> and "
+"<samp>Reply-To</samp> address in emails."
+msgstr ""
+"כתובת זו בשימוש אם נקודה מסוימת ליצירת קשר נדרשת, למשל דואר זבל, פלט שגיאה, "
+"וכד'. היא תמיד תהיה כתובת <samp>מאת</samp> ו־<samp>תגובה אל</samp> בהודעות "
+"דואר אלקטרוני."
+
+#: $lang->'CONTACT_EMAIL_NAME'
+msgid "Contact name"
+msgstr "שם איש קשר"
+
+#: $lang->'CONTACT_EMAIL_NAME_EXPLAIN'
+msgid ""
+"This is the contact name that e-mail recipients will see. If you don’t want "
+"to have a contact name, leave this field empty."
+msgstr ""
+"זה השם שיופיע לנמענים. אם אינך מעוניין שיופיע שם איש קשר, השאר שדה זה ריק."
+
+#: $lang->'EMAIL_FUNCTION_NAME'
+msgid "Email function name"
+msgstr "שם פונקציית הדואר האלקטרוני"
+
+#: $lang->'EMAIL_FUNCTION_NAME_EXPLAIN'
+msgid "The email function used to send mails through PHP."
+msgstr "פונקציית הדואר האלקטרוני אשר בשימוש לשליחת הודעות דרך PHP."
+
+#: $lang->'EMAIL_PACKAGE_SIZE'
+msgid "Email package size"
+msgstr "גודל חבילת הודעות דואר אלקטרוני"
+
+#: $lang->'EMAIL_PACKAGE_SIZE_EXPLAIN'
+msgid ""
+"This is the number of maximum emails sent out in one package. This setting "
+"is applied to the internal message queue; set this value to 0 if you have "
+"problems with non-delivered notification emails."
+msgstr ""
+"מספר הודעות הדואר האלקטרוני המרבי אשר נשלחות בחבילה אחת. הגדרה זו שייכת לתור "
+"ההודעה הפנימית. קבע ערך זה ל־0 אם אתה נתקל בבעיות לגבי הודעות אשר לא נמסרות"
+
+#: $lang->'EMAIL_SIG'
+msgid "Email signature"
+msgstr "חתימה לדואר האלקטרוני"
+
+#: $lang->'EMAIL_SIG_EXPLAIN'
+msgid "This text will be attached to all emails the board sends."
+msgstr "הטקסט אשר יצורף לכל הודעות הדואר האלקטרוני אשר המערכת שולחת."
+
+#: $lang->'ENABLE_EMAIL'
+msgid "Enable board-wide emails"
+msgstr "הפעל הודעות דואר אלקטרוני של המערכת"
+
+#: $lang->'ENABLE_EMAIL_EXPLAIN'
+msgid ""
+"If this is set to disabled no emails will be sent by the board at all. <em>"
+"Note the user and admin account activation settings require this setting to "
+"be enabled. If currently using “user” or “admin” activation in the "
+"activation settings, disabling this setting will disable registration.</em>"
+msgstr ""
+"אם נקבע לכבוי, לא ישלחו הודעות דואר אלקטרוני על־ידי המערכת בכלל. <em>שים לב "
+"שכדי להפעיל חשבון על ידי משתמש או מנהל ראשי נדרש שאפשרות זו תהיה זמינה. אם "
+"כרגע מוגדר ל“משתמש” או “מנהל ראשי” בהגדרה של הפעלת חשבון, ביטול הגדרה זו "
+"יגרום לכך שלא יהיה ניתן להרשם למערכת.</em>"
+
+#: $lang->'SEND_TEST_EMAIL'
+msgid "Send a test email"
+msgstr ""
+
+#: $lang->'SEND_TEST_EMAIL_EXPLAIN'
+msgid "This will send a test email to the address defined in your account."
+msgstr ""
+
+#: $lang->'SMTP_AUTH_METHOD'
+msgid "Authentication method for SMTP"
+msgstr "שיטת אימות ל־SMTP"
+
+#: $lang->'SMTP_AUTH_METHOD_EXPLAIN'
+msgid ""
+"Only used if a username/password is set, ask your provider if you are unsure "
+"which method to use."
+msgstr ""
+"בשימוש רק אם שם המשתמש/הססמה נקבעו, שאל את ספק האחסון שלך אם אינך בטוח באיזו "
+"שיטה להשתמש."
+
+#: $lang->'SMTP_CRAM_MD5'
+msgid "CRAM-MD5"
+msgstr "CRAM-MD5"
+
+#: $lang->'SMTP_DIGEST_MD5'
+msgid "DIGEST-MD5"
+msgstr "DIGEST-MD5"
+
+#: $lang->'SMTP_LOGIN'
+msgid "LOGIN"
+msgstr "LOGIN"
+
+#: $lang->'SMTP_PASSWORD'
+msgid "SMTP password"
+msgstr "ססמה ל־SMTP"
+
+#: $lang->'SMTP_PASSWORD_EXPLAIN'
+msgid ""
+"Only enter a password if your SMTP server requires it.<br "
+"/><em><strong>Warning:</strong> This password will be stored as plain text "
+"in the database, visible to everybody who can access your database or who "
+"can view this configuration page.</em>"
+msgstr ""
+"הזן ססמה רק אם שרת ה־SMTP שלך דורש זאת.<br /><em><strong>אזהרה:</strong> "
+"ססמה זו תשמר כטקסט פשוט בבסיס הנתונים ותוצג לכל אחד אשר יכול לגשת לבסיס "
+"הנתונים או אשר יכול לצפות בעמוד ההגדרות.</em>"
+
+#: $lang->'SMTP_PLAIN'
+msgid "PLAIN"
+msgstr "PLAIN"
+
+#: $lang->'SMTP_POP_BEFORE_SMTP'
+msgid "POP-BEFORE-SMTP"
+msgstr "POP-BEFORE-SMTP"
+
+#: $lang->'SMTP_PORT'
+msgid "SMTP server port"
+msgstr "יציאת שרת SMTP"
+
+#: $lang->'SMTP_PORT_EXPLAIN'
+msgid "Only change this if you know your SMTP server is on a different port."
+msgstr "שנה זאת רק אם אתה יודע ששרת ה־SMTP משתמש ביציאה שונה."
+
+#: $lang->'SMTP_SERVER'
+msgid "SMTP server address"
+msgstr "כתובת שרת ה־SMTP"
+
+#: $lang->'SMTP_SERVER_EXPLAIN'
+msgid ""
+"Note that you have to provide the protocol that your server uses. If you are "
+"using SSL, this has to be \"ssl://your.mailserver.com\""
+msgstr ""
+"שים לב כי יש לציין את הפרוטוקול בו עובד השרת שבו אתה משתמש. אם אתה משתמש ב־"
+"SSL, זה חייב להיות \"ssl://your.mailserver.com\""
+
+#: $lang->'SMTP_SETTINGS'
+msgid "SMTP settings"
+msgstr "הגדרות SMTP"
+
+#: $lang->'SMTP_USERNAME'
+msgid "SMTP username"
+msgstr "שם משתמש ל־SMTP"
+
+#: $lang->'SMTP_USERNAME_EXPLAIN'
+msgid "Only enter a username if your SMTP server requires it."
+msgstr "הזן שם משתמש רק אם שרת ה־SMTP שלך דורש זאת."
+
+#: $lang->'TEST_EMAIL_SENT'
+msgid ""
+"The test email has been sent.<br />If you don’t receive it, please check "
+"your emails configuration.<br /><br />If you require assistance, please "
+"visit the <a href=\"https://www.phpbb.com/community/\">phpBB support "
+"forums</a>."
+msgstr ""
+
+#: $lang->'USE_SMTP'
+msgid "Use SMTP server for email"
+msgstr "השתמש בשרת SMTP לדואר אלקטרוני"
+
+#: $lang->'USE_SMTP_EXPLAIN'
+msgid ""
+"Select “Yes” if you want or have to send email via a named server instead of "
+"the local mail function."
+msgstr ""
+"בחר “כן” אם אתה רוצה או חייב לשלוח דואר אלקטרוני דרך שרת קרוי במקום "
+"בפונקציית דואר מקומית."
+
+#. // Jabber settings
+#: $lang->'ACP_JABBER_SETTINGS_EXPLAIN'
+msgid ""
+"Here you can enable and control the use of Jabber for instant messaging and "
+"board notifications. Jabber is an open source protocol and therefore "
+"available for use by anyone. Some Jabber servers include gateways or "
+"transports which allow you to contact users on other networks. Not all "
+"servers offer all transports and changes in protocols can prevent transports "
+"from operating. Please be sure to enter already registered account details - "
+"phpBB will use the details you enter here as is."
+msgstr ""
+"כאן אתה יכול להפעיל ולנהל את השימוש ב־Jabber לשליחת הודעות מיידיות והודעות "
+"מערכת. Jabber הוא מקור פרוטוקול פתוח ולכן זמין לשימוש לכולם. כמה שרתי Jabber "
+"כוללים כניסות או העברות אשר מאפשרות לך ליצור קשר עם משתמשים בשרתים אחרים. לא "
+"כל השרתים מציעים את כל ההעברות ושינויים בפרוטוקולים יכולים למנוע מהעברות "
+"להתבצע. וודא שאתה מזמין פרטי חשבון שכבר רשום – phpBB3 תשתמש בפרטים אשר אתה "
+"מזין כאן."
+
+#: $lang->'JAB_ENABLE'
+msgid "Enable Jabber"
+msgstr "הפעל Jabber"
+
+#: $lang->'JAB_ENABLE_EXPLAIN'
+msgid "Enables use of Jabber messaging and notifications."
+msgstr "מפעיל שימוש בשליחת הודעות דרך Jabber."
+
+#: $lang->'JAB_GTALK_NOTE'
+msgid ""
+"Please note that GTalk will not work because the <samp>dns_get_record</samp> "
+"function could not be found. This function is not available in PHP4, and is "
+"not implemented on Windows platforms. It currently does not work on BSD-"
+"based systems, including Mac OS."
+msgstr ""
+"שים לב ש־GTalk לא יעבוד מפני שהפונקציה <samp>dns_get_record</samp> לא נמצאה. "
+"פונקציה זו אינה זמינה ב־PHP4, ואינה מיושמת במערכות Windows. היא כרגע אינה "
+"עובדת על מערכות המבוססות על BSD, כולל מערכת ההפעלה Mac."
+
+#: $lang->'JAB_PACKAGE_SIZE'
+msgid "Jabber package size"
+msgstr "גודל חבילת Jabber"
+
+#: $lang->'JAB_PACKAGE_SIZE_EXPLAIN'
+msgid ""
+"This is the number of messages sent in one package. If set to 0 the message "
+"is sent immediately and will not be queued for later sending."
+msgstr ""
+"זהו מספר ההודעות אשר נשלחות בחבילה אחת. אם נקבע ל־0 ההודעה תשלח באופן מיידי "
+"ולא תמתין לשליחת מאוחרת יותר."
+
+#: $lang->'JAB_PASSWORD'
+msgid "Jabber password"
+msgstr "ססמה ל־Jabber"
+
+#: $lang->'JAB_PASSWORD_EXPLAIN'
+msgid ""
+"<em><strong>Warning:</strong> This password will be stored as plain text in "
+"the database, visible to everybody who can access your database or who can "
+"view this configuration page.</em>"
+msgstr ""
+"<em><strong>אזהרה:</strong> ססמה זו תשמר כטקסט פשוט בבסיס הנתונים ותוצג לכל "
+"אחד אשר יכול לגשת לבסיס הנתונים או אשר יכול לצפות בעמוד ההגדרות.</em>"
+
+#: $lang->'JAB_PORT'
+msgid "Jabber port"
+msgstr "יציאת Jabber"
+
+#: $lang->'JAB_PORT_EXPLAIN'
+msgid "Leave blank unless you know it is not port 5222."
+msgstr "השאר ריק אלא אם כן אתה יודע שהיציאה היא לא 5222."
+
+#: $lang->'JAB_SERVER'
+msgid "Jabber server"
+msgstr "שרת Jabber"
+
+#: $lang->'JAB_SERVER_EXPLAIN'
+msgid "See %sjabber.org%s for a list of servers."
+msgstr "ראה %sjabber.org%s לרשימת שרתים."
+
+#: $lang->'JAB_SETTINGS_CHANGED'
+msgid "Jabber settings changed successfully."
+msgstr "הגדרות ה־Jabber שונו בהצלחה."
+
+#: $lang->'JAB_USE_SSL'
+msgid "Use SSL to connect"
+msgstr "השתמש ב־SSL כדי להתחבר"
+
+#: $lang->'JAB_USE_SSL_EXPLAIN'
+msgid ""
+"If enabled a secure connection is tried to be established. The Jabber port "
+"will be modified to 5223 if port 5222 is specified."
+msgstr ""
+"אם פעיל, חיבור מאובטח ינסה להתבצע. יציאת ה־Jabber תשונה ל־5223 אם היציאה "
+"5222 צוינה."
+
+#: $lang->'JAB_USERNAME'
+msgid "Jabber username or JID"
+msgstr "שם משתמש ל־Jabber או JID"
+
+#: $lang->'JAB_USERNAME_EXPLAIN'
+msgid ""
+"Specify a registered username or a valid JID. The username will not be "
+"checked for validity. If you only specify a username, then your JID will be "
+"the username and the server you specified above. Else, specify a valid JID, "
+"for example user@jabber.org."
+msgstr ""
+"ציין שם משתמש רשום או JID תקין. שם המשתמש לא ייבדק לאימות. אם ציינת רק שם "
+"משתמש, אז ה־JID שלך יהיה שם המשתמש והשרת שציינת למעלה. או, ציין JID תקין, "
+"לדוגמה user@jabber.org."

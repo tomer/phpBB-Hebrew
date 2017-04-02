@@ -1,0 +1,446 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/memberlist.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/memberlist.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'ABOUT_USER'
+msgid "Profile"
+msgstr "פרופיל"
+
+#: $lang->'ACTIVE_IN_FORUM'
+msgid "Most active forum"
+msgstr "פעיל ביותר בפורום"
+
+#: $lang->'ACTIVE_IN_TOPIC'
+msgid "Most active topic"
+msgstr "פעיל ביותר בנושא"
+
+#: $lang->'ADD_FOE'
+msgid "Add foe"
+msgstr "הוסף נודניק"
+
+#: $lang->'ADD_FRIEND'
+msgid "Add friend"
+msgstr "הוסף חבר"
+
+#: $lang->'AFTER'
+msgid "After"
+msgstr "לאחר"
+
+#: $lang->'ALL'
+msgid "All"
+msgstr "כולם"
+
+#: $lang->'BEFORE'
+msgid "Before"
+msgstr "לפני"
+
+#: $lang->'CC_SENDER'
+msgid "Send a copy of this email to yourself."
+msgstr "שלח העתק של הדואר האלקטרוני לעצמך."
+
+#: $lang->'CONTACT_ADMIN'
+msgid "Contact a Board Administrator"
+msgstr "צור קשר עם מנהל ראשי"
+
+#: $lang->'DEST_LANG'
+msgid "Language"
+msgstr "שפה"
+
+#: $lang->'DEST_LANG_EXPLAIN'
+msgid ""
+"Select an appropriate language (if available) for the recipient of this "
+"message."
+msgstr "בחר בשפה המתאימה (אם קיימת) עבור הבן אדם שמקבל הודעה זאת."
+
+#: $lang->'EDIT_PROFILE'
+msgid "Edit profile"
+msgstr "ערוך פרופיל"
+
+#: $lang->'EMAIL_BODY_EXPLAIN'
+msgid ""
+"This message will be sent as plain text, do not include any HTML or BBCode. "
+"The return address for this message will be set to your email address."
+msgstr ""
+"הודעה זו תשלח כטקסט נקי, אל תכלול כאו קוד HTML או BBCode. הכתובת לחזרה תיקבע "
+"על פי כתובת הדואר אלקטרוני שלך."
+
+#: $lang->'EMAIL_DISABLED'
+msgid "Sorry but all email related functions have been disabled."
+msgstr "פונקציית הדואר האלקטרוני איננה פעילה."
+
+#: $lang->'EMAIL_SENT'
+msgid "The email has been sent."
+msgstr "הדואר האלקטרוני נשלח."
+
+#: $lang->'EMAIL_TOPIC_EXPLAIN'
+msgid ""
+"This message will be sent as plain text, do not include any HTML or BBCode. "
+"Please note that the topic information is already included in the message. "
+"The return address for this message will be set to your email address."
+msgstr ""
+"הודעה זו תשלח כטקסט נקי, אל תכלול כאו קוד HTML או BBCode. אנא שים לב שפירטי "
+"הנושא כבר כלולים בהודעה, הכתובת לחזרה תיקבע על פי כתובת הדואר אלקטרוני שלך."
+
+#: $lang->'EMPTY_ADDRESS_EMAIL'
+msgid "You must provide a valid email address for the recipient."
+msgstr "אתה מוכרח לספק כתובת דואר אלקטרוני תקינה של הנמען."
+
+#: $lang->'EMPTY_MESSAGE_EMAIL'
+msgid "You must enter a message to be emailed."
+msgstr "אתה מוכרח לכתוב את ההודעה שהנך רוצה לשלוח בדואר אלקטרוני."
+
+#: $lang->'EMPTY_MESSAGE_IM'
+msgid "You must enter a message to be send."
+msgstr "אתה חייב להזין הודעה לשליחה."
+
+#: $lang->'EMPTY_NAME_EMAIL'
+msgid "You must enter the real name of the recipient."
+msgstr "אתה מוכרח לציין שם אמיתי של הנמען."
+
+#: $lang->'EMPTY_SENDER_EMAIL'
+msgid "You must provide a valid email address."
+msgstr "אתה מוכרח לציין כתובת דואר אלקטרוני תקינה."
+
+#: $lang->'EMPTY_SENDER_NAME'
+msgid "You must provide a name."
+msgstr "אתה מוכרח לציין שם."
+
+#: $lang->'EMPTY_SUBJECT_EMAIL'
+msgid "You must specify a subject for the email."
+msgstr "אתה מוכרח לציין נושא להודעה."
+
+#: $lang->'EQUAL_TO'
+msgid "Equal to"
+msgstr "שווה ל"
+
+#: $lang->'FIND_USERNAME_EXPLAIN'
+msgid ""
+"Use this form to search for specific members. You do not need to fill out "
+"all fields. To match partial data use * as a wildcard. When entering dates "
+"use the format <kbd>YYYY-MM-DD</kbd>, e.g. <samp>2004-02-29</samp>. Use the "
+"mark checkboxes to select one or more usernames (several usernames may be "
+"accepted depending on the form itself) and click the Select Marked button to "
+"return to the previous form."
+msgstr ""
+"תשתמש בטופס זה על מנת לחפש משתמשים מסוימים. אינך מוכרח למלא את כל השדות "
+"בטופס. השתמש ב־* בתור תו משלים. בהוספת תאריכים אנא השתמש בפורמט <kbd>YYYY-MM-"
+"DD</kbd>, לדוגמה <samp>2004-02-29</samp>. תשתמש בתיבות הבחירה על מנת לבחור "
+"שם משתמש אחד או יותר (יותר משם משתמש אחד יתקבל בהתאם לטופס עצמו) ותלחץ על "
+"הכפתור בחר מסומנים על מנת לחזור לטופס הקודם."
+
+#: $lang->'FLOOD_EMAIL_LIMIT'
+msgid "You cannot send another email at this time. Please try again later."
+msgstr "אינך יכול לשלוח דואר אלקטרוני נוסף כרגע, אנא נסה שנית מאוחר יותר."
+
+#: $lang->'GROUP_LEADER'
+msgid "Group leader"
+msgstr "ראש קבוצה"
+
+#: $lang->'HIDE_MEMBER_SEARCH'
+msgid "Hide member search"
+msgstr "הסתר טופס חיפוש משתמש"
+
+#: $lang->'IM_ADD_CONTACT'
+msgid "Add Contact"
+msgstr "הוסף איש קשר"
+
+#: $lang->'IM_DOWNLOAD_APP'
+msgid "Download application"
+msgstr "הורדת היישום"
+
+#: $lang->'IM_JABBER'
+msgid ""
+"Please note that users may have selected to not receive unsolicited instant "
+"messages."
+msgstr "אנא שים לב שיש משתמשים שבחרו שלא לקבל הודעות ללא הזמנה."
+
+#: $lang->'IM_JABBER_SUBJECT'
+msgid ""
+"This is an automated message please do not reply! Message from user %1$s at "
+"%2$s."
+msgstr "זוהי הודעה אוטומטית, אנא אל תגיב לה! הודעה מהמשתמש %1$s בשעה %2$s."
+
+#: $lang->'IM_MESSAGE'
+msgid "Your message"
+msgstr "הודעתך"
+
+#: $lang->'IM_NAME'
+msgid "Your Name"
+msgstr "שמך"
+
+#: $lang->'IM_NO_DATA'
+msgid "There is no suitable contact information for this user."
+msgstr "אין פרטי תוכן מתאימים למשתמש זה."
+
+#: $lang->'IM_NO_JABBER'
+msgid ""
+"Sorry, direct messaging of Jabber users is not supported on this board. You "
+"will need a Jabber client installed on your system to contact the recipient "
+"above."
+msgstr ""
+"סליחה, שליחת הודעה באופן ישיר למשתמש Jabber אינה נתמכת במערכת זו, אתה צריך "
+"שתוכנת הJabber תהיה מותקנת אצלך במחשב כדי לשלוח הודעה למשתמש זה."
+
+#: $lang->'IM_RECIPIENT'
+msgctxt "$lang->'IM_RECIPIENT'"
+msgid "Recipient"
+msgstr "נמען"
+
+#: $lang->'IM_SEND'
+msgctxt "$lang->'IM_SEND'"
+msgid "Send message"
+msgstr "שלח הודעה"
+
+#: $lang->'IM_SEND_MESSAGE'
+msgctxt "$lang->'IM_SEND_MESSAGE'"
+msgid "Send message"
+msgstr "שלח הודעה"
+
+#: $lang->'IM_SENT_JABBER'
+msgid "Your message to %1$s has been sent successfully."
+msgstr "הודעתך ל־%1$s נשלחה בהצלחה."
+
+#: $lang->'IM_USER'
+msgid "Send an instant message"
+msgstr "שלח הודעה מיידית."
+
+#: $lang->'LAST_ACTIVE'
+msgctxt "$lang->'LAST_ACTIVE'"
+msgid "Last active"
+msgstr "פעיל לאחרונה"
+
+#: $lang->'LESS_THAN'
+msgid "Less than"
+msgstr "פחות מ"
+
+#: $lang->'LIST_USERS'->1
+msgid "%d user"
+msgstr "משתמש %d"
+
+#: $lang->'LIST_USERS'->2
+msgid "%d users"
+msgstr "%d משתמשים"
+
+#: $lang->'LOGIN_EXPLAIN_TEAM'
+msgid ""
+"The board requires you to be registered and logged in to view the team "
+"listing."
+msgstr "המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות ברשימות הצוות."
+
+#: $lang->'LOGIN_EXPLAIN_MEMBERLIST'
+msgid ""
+"The board requires you to be registered and logged in to access the "
+"memberlist."
+msgstr "המערכת דורשת ממך להיות רשום ומחובר על מנת לגשת לרשימת משתמשים."
+
+#: $lang->'LOGIN_EXPLAIN_SEARCHUSER'
+msgid "The board requires you to be registered and logged in to search users."
+msgstr "המערכת דורשת ממך להיות רשום ומחובר על מנת לחפש משתמשים."
+
+#: $lang->'LOGIN_EXPLAIN_VIEWPROFILE'
+msgid "The board requires you to be registered and logged in to view profiles."
+msgstr "המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות בפרופילים."
+
+#: $lang->'MANAGE_GROUP'
+msgid "Manage Group"
+msgstr "נהל קבוצה"
+
+#: $lang->'MORE_THAN'
+msgid "More than"
+msgstr "יותר מ"
+
+#: $lang->'NO_CONTACT_FORM'
+msgid "The board administrator contact form has been disabled."
+msgstr "טופס יצירת הקשר עם המנהל הראשי לא פעיל."
+
+#: $lang->'NO_CONTACT_PAGE'
+msgid "The board administrator contact page has been disabled."
+msgstr "עמוד יצירת הקשר עם המנהל הראשי לא פעיל."
+
+#: $lang->'NO_EMAIL'
+msgid "You are not permitted to send email to this user."
+msgstr "אינך מורשה לשלוח דואר אלקטרוני למשתמש זה."
+
+#: $lang->'NO_VIEW_USERS'
+msgid "You are not authorised to view the member list or profiles."
+msgstr "אין לך הרשאה לצפות ברשימות משתמשים או בפרופילים."
+
+#: $lang->'ORDER'
+msgid "Order"
+msgstr "סדר"
+
+#: $lang->'OTHER'
+msgid "Other"
+msgstr "אחר"
+
+#: $lang->'POST_IP'
+msgid "Posted from IP/domain"
+msgstr "נשלח מהאייפי\\דומיין"
+
+#: $lang->'REAL_NAME'
+msgid "Recipient name"
+msgstr "שם הנמען"
+
+#: $lang->'RECIPIENT'
+msgctxt "$lang->'RECIPIENT'"
+msgid "Recipient"
+msgstr "נמען"
+
+#: $lang->'REMOVE_FOE'
+msgid "Remove foe"
+msgstr "הסר נודניק"
+
+#: $lang->'REMOVE_FRIEND'
+msgid "Remove friend"
+msgstr "הסר חבר"
+
+#: $lang->'SELECT_MARKED'
+msgid "Select marked"
+msgstr "בחר מסומנים"
+
+#: $lang->'SELECT_SORT_METHOD'
+msgid "Select sort method"
+msgstr "בחר שיטת מיון"
+
+#: $lang->'SENDER_EMAIL_ADDRESS'
+msgid "Your email address"
+msgstr "כתובת הדואר האלקטרוני שלך"
+
+#: $lang->'SENDER_NAME'
+msgid "Your name"
+msgstr "השם שלך"
+
+#: $lang->'SEND_ICQ_MESSAGE'
+msgid "Send ICQ message"
+msgstr "שלח הודעת ICQ"
+
+#: $lang->'SEND_IM'
+msgid "Instant messaging"
+msgstr "הודעה מיידית"
+
+#: $lang->'SEND_JABBER_MESSAGE'
+msgid "Send Jabber message"
+msgstr "שלח הודעת Jabber"
+
+#: $lang->'SEND_MESSAGE'
+msgid "Message"
+msgstr "הודעה"
+
+#: $lang->'SEND_YIM_MESSAGE'
+msgid "Send YIM message"
+msgstr "שלח הודעת YIM"
+
+#: $lang->'SORT_EMAIL'
+msgid "Email"
+msgstr "דואר אלקטרוני"
+
+#: $lang->'SORT_LAST_ACTIVE'
+msgctxt "$lang->'SORT_LAST_ACTIVE'"
+msgid "Last active"
+msgstr "פעיל לאחרונה"
+
+#: $lang->'SORT_POST_COUNT'
+msgid "Post count"
+msgstr "מונה הודעות"
+
+#: $lang->'USERNAME_BEGINS_WITH'
+msgid "Username begins with"
+msgstr "שמות משתמש המתחילים באות"
+
+#: $lang->'USER_ADMIN'
+msgid "Administer user"
+msgstr "נהל משתמש"
+
+#: $lang->'USER_BAN'
+msgid "Banning"
+msgstr "חסימה"
+
+#: $lang->'USER_FORUM'
+msgid "User statistics"
+msgstr "סטטיסטיקת המשתמש"
+
+#: $lang->'USER_LAST_REMINDED'->0
+msgid "No reminder sent at this time"
+msgstr "לא נשלחו תזכורות בזמן זה"
+
+#: $lang->'USER_LAST_REMINDED'->1
+msgctxt "$lang->'USER_LAST_REMINDED'->1"
+msgid "%1$d reminder sent<br />» %2$s"
+msgstr "%1$d נשלחה תזכורת<br />» %2$s"
+
+#: $lang->'USER_LAST_REMINDED'->2
+msgctxt "$lang->'USER_LAST_REMINDED'->2"
+msgid "%1$d reminder sent<br />» %2$s"
+msgstr "%1$d נשלחה תזכורת<br />» %2$s"
+
+#: $lang->'USER_ONLINE'
+msgid "Online"
+msgstr "מחובר"
+
+#: $lang->'USER_PRESENCE'
+msgid "Board presence"
+msgstr "נוכחות בפורום"
+
+#: $lang->'USERS_PER_PAGE'
+msgid "Users per page"
+msgstr "משתמשים בעמוד"
+
+#: $lang->'VIEWING_PROFILE'
+msgid "Viewing profile - %s"
+msgstr "צופה בפרופיל - %s"
+
+#: $lang->'VIEW_FACEBOOK_PROFILE'
+msgid "View Facebook Profile"
+msgstr "צפה בפרופיל Facebook"
+
+#: $lang->'VIEW_SKYPE_PROFILE'
+msgid "View Skype Profile"
+msgstr "צפה בפרופיל Skype"
+
+#: $lang->'VIEW_TWITTER_PROFILE'
+msgid "View Twitter Profile"
+msgstr "צפה בפרופיל Twitter"
+
+#: $lang->'VIEW_YOUTUBE_CHANNEL'
+msgid "View YouTube Channel"
+msgstr "צפה בערוץ YouTube"
+
+#: $lang->'VIEW_GOOGLEPLUS_PROFILE'
+msgid "View Google+ Profile"
+msgstr "צפה בפרופיל Google+"

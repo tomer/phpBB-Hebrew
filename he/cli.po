@@ -1,0 +1,469 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/cli.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/cli.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'CLI_CONFIG_CANNOT_CACHED'
+msgid ""
+"Set this option if the configuration option changes too frequently to be "
+"efficiently cached."
+msgstr ""
+"הדלק את הגדרה זו, אם אפשרויות ההגדרה משתנות תדיר עד כדי כך, שזה לא יעיל "
+"לשמור את מטמונן."
+
+#: $lang->'CLI_CONFIG_CURRENT'
+msgid "Current configuration value, use 0 and 1 to specify boolean values"
+msgstr "ערך ההגדרה הנוכחי, השתמש ב-0 ו-1 על מנת לציין ערכים בוליאניים"
+
+#: $lang->'CLI_CONFIG_DELETE_SUCCESS'
+msgid "Successfully deleted config %s."
+msgstr "ההגדרה %s נמחקה בהצלחה ."
+
+#: $lang->'CLI_CONFIG_NEW'
+msgid "New configuration value, use 0 and 1 to specify boolean values"
+msgstr "ערך חדש להגדרה, השתמש ב-0 ו-1 בשביל לציין ערכים בוליאניים."
+
+#: $lang->'CLI_CONFIG_NOT_EXISTS'
+msgid "Config %s does not exist"
+msgstr "ההגדרה %s לא קיימת"
+
+#: $lang->'CLI_CONFIG_OPTION_NAME'
+msgid "The configuration option’s name"
+msgstr "שמה של האפשרות של ההגדרה"
+
+#: $lang->'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'
+msgid ""
+"Set this option if the value should be printed without a new line at the end."
+msgstr "הדלק את אפשרות זו, אם הערך אמור להיות מודפס מבלי לצרף שורה חדשה בסיומו."
+
+#: $lang->'CLI_CONFIG_INCREMENT_BY'
+msgid "Amount to increment by"
+msgstr "הכמות שבה יש להגדיל"
+
+#: $lang->'CLI_CONFIG_INCREMENT_SUCCESS'
+msgid "Successfully incremented config %s"
+msgstr "ההגדרה %s הוגדלה בהצלחה"
+
+#: $lang->'CLI_CONFIG_SET_FAILURE'
+msgid "Could not set config %s"
+msgstr "לא ניתן היה לשנות את ההגדרה %s "
+
+#: $lang->'CLI_CONFIG_SET_SUCCESS'
+msgid "Successfully set config %s"
+msgstr "שינוי ההגדרה %s עלה יפה "
+
+#: $lang->'CLI_DESCRIPTION_CRON_LIST'
+msgid "Prints a list of ready and unready cron jobs."
+msgstr "מדפיס רשימה של משימות cron מוכנות ולא מוכנות."
+
+#: $lang->'CLI_DESCRIPTION_CRON_RUN'
+msgid "Runs all ready cron tasks."
+msgstr "מריץ את כל המשימות המכונות."
+
+#: $lang->'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'
+msgid "Name of the task to be run"
+msgstr "שם המשימה שתורץ"
+
+#: $lang->'CLI_DESCRIPTION_DB_LIST'
+msgid "List all installed and available migrations."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_DB_MIGRATE'
+msgid "Updates the database by applying migrations."
+msgstr "עדכן את מאגר הנתונים על ידי אישור הגירות."
+
+#: $lang->'CLI_DESCRIPTION_DB_REVERT'
+msgid "Revert a migration."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_DELETE_CONFIG'
+msgid "Deletes a configuration option"
+msgstr "מוחק אפשרות הגדרה"
+
+#: $lang->'CLI_DESCRIPTION_DISABLE_EXTENSION'
+msgid "Disables the specified extension."
+msgstr "מכבה את התוספת הספציפית."
+
+#: $lang->'CLI_DESCRIPTION_ENABLE_EXTENSION'
+msgid "Enables the specified extension."
+msgstr "מדליק את התוספת הספציפית."
+
+#: $lang->'CLI_DESCRIPTION_FIND_MIGRATIONS'
+msgid "Finds migrations that are not depended upon."
+msgstr "מוצא הגירות שלא תלויות אחת בשנייה."
+
+#: $lang->'CLI_DESCRIPTION_GET_CONFIG'
+msgid "Gets a configuration option’s value"
+msgstr "מוצא את הערך של אפשרות של הגדרה"
+
+#: $lang->'CLI_DESCRIPTION_INCREMENT_CONFIG'
+msgid "Increments a configuration option’s integer value"
+msgstr "מגדיל את הערך של האפשרות של ההגדרה"
+
+#: $lang->'CLI_DESCRIPTION_LIST_EXTENSIONS'
+msgid "Lists all extensions in the database and on the filesystem."
+msgstr "מארגן ברשימה את כל התוספות שבמאגר ובקבצי המערכת."
+
+#: $lang->'CLI_DESCRIPTION_OPTION_ENV'
+msgid "The Environment name."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_OPTION_SAFE_MODE'
+msgid "Run in Safe Mode (without extensions)."
+msgstr "הפעל במצב בטוח (ללא תוספות)."
+
+#: $lang->'CLI_DESCRIPTION_OPTION_SHELL'
+msgid "Launch the shell."
+msgstr "הפעל את ה-shell."
+
+#: $lang->'CLI_DESCRIPTION_PURGE_EXTENSION'
+msgid "Purges the specified extension."
+msgstr "מטהר את התוספת."
+
+#: $lang->'CLI_DESCRIPTION_REPARSER_LIST'
+msgid "Lists the types of text that can be reparsed."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_REPARSER_AVAILABLE'
+msgid "Available reparsers:"
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_REPARSER_REPARSE'
+msgid "Reparses stored text with the current text_formatter services."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'
+msgid "Type of text to reparse. Leave blank to reparse everything."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'
+msgid "Do not save any changes; just print what would happen"
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'
+msgid "Lowest record ID to process"
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'
+msgid "Highest record ID to process"
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'
+msgid "Approximate number of records to process at a time"
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'
+msgid "Start reparsing where the last execution stopped"
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'
+msgid "Recalculates the user_email_hash column of the users table."
+msgstr "מחשב מחדש את ה-user_email_hash column של טבלת users"
+
+#: $lang->'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'
+msgid ""
+"Sets a configuration option’s value only if the old matches the current value"
+msgstr "מציב ערך של אפשרות של הגדרה רק אם הישן תואם את הערך הנוכחי"
+
+#: $lang->'CLI_DESCRIPTION_SET_CONFIG'
+msgid "Sets a configuration option’s value"
+msgstr "מציב ערך של אפשרות של הגדרה"
+
+#: $lang->'CLI_DESCRIPTION_THUMBNAIL_DELETE'
+msgid "Delete all existing thumbnails."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_THUMBNAIL_GENERATE'
+msgid "Generate all missing thumbnails."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_THUMBNAIL_RECREATE'
+msgid "Recreate all thumbnails."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_UPDATE_CHECK'
+msgid "Check if the board is up to date."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'
+msgid "Name of the extension to check (if all, checks all the extensions)"
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'
+msgid "Run check command with cache."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'
+msgid "Run command choosing to check only stable or unstable versions."
+msgstr ""
+
+#: $lang->'CLI_ERROR_INVALID_STABILITY'
+msgid "\"%s\" is not a valid stability."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_USER_ACTIVATE'
+msgid "Activate (or deactivate) a user account."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'
+msgid "Username of the account to activate."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_USER_ACTIVATE_DEACTIVATE'
+msgid "Deactivate the user’s account"
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_USER_ACTIVATE_ACTIVE'
+msgid "The user is already active."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'
+msgid "The user is already inactive."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_USER_ADD'
+msgid "Add a new user."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'
+msgid "Username of the new user"
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'
+msgid "Password of the new user"
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'
+msgid "E-mail address of the new user"
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'
+msgid "Send account activation email to the new user (not sent by default)"
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_USER_DELETE'
+msgid "Delete a user account."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_USER_DELETE_USERNAME'
+msgid "Username of the user to delete"
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'
+msgid ""
+"Delete all posts by the user. Without this option, the user’s posts will be "
+"retained."
+msgstr ""
+
+#: $lang->'CLI_DESCRIPTION_USER_RECLEAN'
+msgid "Re-clean usernames."
+msgstr ""
+
+#: $lang->'CLI_EXTENSION_DISABLE_FAILURE'
+msgid "Could not disable extension %s"
+msgstr "לא ניתן היה לבטל את התוספת  %s"
+
+#: $lang->'CLI_EXTENSION_DISABLE_SUCCESS'
+msgid "Successfully disabled extension %s"
+msgstr "התוספת %s כובתה בהצלחה "
+
+#: $lang->'CLI_EXTENSION_ENABLE_FAILURE'
+msgid "Could not enable extension %s"
+msgstr "לא ניתן היה להדליק את התוספת %s"
+
+#: $lang->'CLI_EXTENSION_ENABLE_SUCCESS'
+msgid "Successfully enabled extension %s"
+msgstr "התוספת %s הופעלה בהצלחה "
+
+#: $lang->'CLI_EXTENSION_NAME'
+msgid "Name of the extension"
+msgstr "שמה של התוספת"
+
+#: $lang->'CLI_EXTENSION_PURGE_FAILURE'
+msgid "Could not purge extension %s"
+msgstr "לא ניתן היה לאפס את התוספת %s"
+
+#: $lang->'CLI_EXTENSION_PURGE_SUCCESS'
+msgid "Successfully purged extension %s"
+msgstr "התוספת %s אופסה בהצלחה"
+
+#: $lang->'CLI_EXTENSION_UPDATE_FAILURE'
+msgid "Could not update extension %s"
+msgstr ""
+
+#: $lang->'CLI_EXTENSION_UPDATE_SUCCESS'
+msgid "Successfully updated extension %s"
+msgstr ""
+
+#: $lang->'CLI_EXTENSION_NOT_FOUND'
+msgid "No extensions were found."
+msgstr "לא נמצאו תוספות."
+
+#: $lang->'CLI_EXTENSIONS_AVAILABLE'
+msgid "Available"
+msgstr "זמין"
+
+#: $lang->'CLI_EXTENSIONS_DISABLED'
+msgid "Disabled"
+msgstr "מכובה"
+
+#: $lang->'CLI_EXTENSIONS_ENABLED'
+msgid "Enabled"
+msgstr "דלוק"
+
+#: $lang->'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'
+msgid "Successfully recalculated all email hashes."
+msgstr "גיבובי המיילים חושבו מחדש בהצלחה."
+
+#: $lang->'CLI_MIGRATION_NAME'
+msgid ""
+"Migration name, including the namespace (use forward slashes instead of "
+"backslashes to avoid problems)."
+msgstr ""
+
+#: $lang->'CLI_MIGRATIONS_AVAILABLE'
+msgid "Available migrations"
+msgstr ""
+
+#: $lang->'CLI_MIGRATIONS_INSTALLED'
+msgid "Installed migrations"
+msgstr ""
+
+#: $lang->'CLI_MIGRATIONS_ONLY_AVAILABLE'
+msgid "Show only available migrations"
+msgstr ""
+
+#: $lang->'CLI_MIGRATIONS_EMPTY'
+msgid "No migrations."
+msgstr ""
+
+#: $lang->'CLI_REPARSER_REPARSE_REPARSING'
+msgid "Reparsing %1$s (range %2$d..%3$d)"
+msgstr ""
+
+#: $lang->'CLI_REPARSER_REPARSE_REPARSING_START'
+msgid "Reparsing %s..."
+msgstr ""
+
+#: $lang->'CLI_REPARSER_REPARSE_SUCCESS'
+msgid "Reparsing ended with success"
+msgstr ""
+
+#. // In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
+#. // eg: big_image.png (2_a51529ae7932008cf8454a95af84cacd) generated.
+#: $lang->'CLI_THUMBNAIL_DELETED'
+msgid "%1$s (%2$s) deleted."
+msgstr ""
+
+#: $lang->'CLI_THUMBNAIL_DELETING'
+msgid "Deleting thumbnails"
+msgstr ""
+
+#: $lang->'CLI_THUMBNAIL_SKIPPED'
+msgid "%1$s (%2$s) skipped."
+msgstr ""
+
+#: $lang->'CLI_THUMBNAIL_GENERATED'
+msgid "%1$s (%2$s) generated."
+msgstr ""
+
+#: $lang->'CLI_THUMBNAIL_GENERATING'
+msgid "Generating thumbnails"
+msgstr ""
+
+#: $lang->'CLI_THUMBNAIL_GENERATING_DONE'
+msgid "All thumbnails have been regenerated."
+msgstr ""
+
+#: $lang->'CLI_THUMBNAIL_DELETING_DONE'
+msgid "All thumbnails have been deleted."
+msgstr ""
+
+#: $lang->'CLI_THUMBNAIL_NOTHING_TO_GENERATE'
+msgid "No thumbnails to generate."
+msgstr ""
+
+#: $lang->'CLI_THUMBNAIL_NOTHING_TO_DELETE'
+msgid "No thumbnails to delete."
+msgstr ""
+
+#: $lang->'CLI_USER_ADD_SUCCESS'
+msgid "Successfully added user %s."
+msgstr ""
+
+#: $lang->'CLI_USER_DELETE_CONFIRM'
+msgid "Are you sure you want to delete ‘%s’? [y/N]"
+msgstr ""
+
+#: $lang->'CLI_USER_RECLEAN_START'
+msgid "Re-cleaning usernames"
+msgstr ""
+
+#: $lang->0
+msgid "Re-cleaning complete. No usernames needed to be cleaned."
+msgstr ""
+
+#: $lang->1
+msgid "Re-cleaning complete. %d username was cleaned."
+msgstr ""
+
+#: $lang->2
+msgid "Re-cleaning complete. %d usernames were cleaned."
+msgstr ""
+
+#. // Additional help for commands.
+#: $lang->'CLI_HELP_USER_ACTIVATE'
+msgid ""
+"Activate a user account, or deactivate an account using the "
+"<info>--deactivate</info> option.\n"
+"To optionally send an activation email to the user, use the <info>--send-"
+"email</info> option."
+msgstr ""
+
+#: $lang->'CLI_HELP_USER_ADD'
+msgid ""
+"The <info>%command.name%</info> command adds a new user:\n"
+"If this command is run without options, you will be prompted to enter them.\n"
+"To optionally send an email to the new user, use the <info>--send-"
+"email</info> option."
+msgstr ""
+
+#: $lang->'CLI_HELP_USER_RECLEAN'
+msgid ""
+"Re-clean usernames will check all stored usernames and ensure clean versions "
+"are also stored. Cleaned usernames are a case insensitive form, NFC "
+"normalized and transformed to ASCII."
+msgstr ""

@@ -1,0 +1,187 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/plupload.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/plupload.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @copyright (c) 2010-2013 Moxiecode Systems AB
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'PLUPLOAD_ADD_FILES'
+msgid "Add files"
+msgstr "הוסף קבצים"
+
+#: $lang->'PLUPLOAD_ADD_FILES_TO_QUEUE'
+msgid "Add files to the upload queue and click the start button."
+msgstr "הוסף קבצים ולחץ על לחצן ההפעלה…"
+
+#: $lang->'PLUPLOAD_ALREADY_QUEUED'
+msgid "%s already present in the queue."
+msgstr "%s כבר קיים."
+
+#: $lang->'PLUPLOAD_CLOSE'
+msgid "Close"
+msgstr "סגור"
+
+#: $lang->'PLUPLOAD_DRAG'
+msgid "Drag files here."
+msgstr "גרור את הקבצים לכאן."
+
+#: $lang->'PLUPLOAD_DUPLICATE_ERROR'
+msgid "Duplicate file error."
+msgstr "שגיאת קובץ כפול"
+
+#: $lang->'PLUPLOAD_DRAG_TEXTAREA'
+msgid ""
+"You may also attach files by dragging and dropping them in the message box."
+msgstr "ניתן לצרף קבצים על ידי גרירה ושחרורם בתיבת ההודעה."
+
+#: $lang->'PLUPLOAD_ERR_INPUT'
+msgid "Failed to open input stream."
+msgstr "לא הצליח, נכשל."
+
+#: $lang->'PLUPLOAD_ERR_MOVE_UPLOADED'
+msgid "Failed to move uploaded file."
+msgstr "ניסיון העלאת הקובץ נכשל."
+
+#: $lang->'PLUPLOAD_ERR_OUTPUT'
+msgid "Failed to open output stream."
+msgstr "נכשל בפתיחת זרם הפלט. נסו שוב."
+
+#: $lang->'PLUPLOAD_ERR_FILE_TOO_LARGE'
+msgid "File too large:"
+msgstr "קובץ גדול מדי:"
+
+#: $lang->'PLUPLOAD_ERR_FILE_COUNT'
+msgid "File count error."
+msgstr "שגיאת העלאה."
+
+#: $lang->'PLUPLOAD_ERR_FILE_INVALID_EXT'
+msgid "Invalid file extension:"
+msgstr "סיומת קובץ לא חוקית:"
+
+#: $lang->'PLUPLOAD_ERR_RUNTIME_MEMORY'
+msgid "Runtime ran out of available memory."
+msgstr "אין מספיק זכרון באחסון, נסו מאוחר יותר."
+
+#: $lang->'PLUPLOAD_ERR_UPLOAD_URL'
+msgid "Upload URL might be wrong or does not exist."
+msgstr "הקישור שהעלת עשויה להיות שגויה או אינה קיימת."
+
+#: $lang->'PLUPLOAD_EXTENSION_ERROR'
+msgid "File extension error."
+msgstr "שגיאה בסיומת הקובץ."
+
+#: $lang->'PLUPLOAD_FILE'
+msgid "File: %s"
+msgstr "קובץ: %s"
+
+#: $lang->'PLUPLOAD_FILE_DETAILS'
+msgid "File: %s, size: %d, max file size: %d"
+msgstr "קובץ: %s, גודל: %d, גודל הקובץ: %d"
+
+#: $lang->'PLUPLOAD_FILENAME'
+msgid "Filename"
+msgstr "שם קובץ"
+
+#: $lang->'PLUPLOAD_FILES_QUEUED'
+msgid "%d files queued"
+msgstr "%d קבצים בתור"
+
+#: $lang->'PLUPLOAD_GENERIC_ERROR'
+msgid "Generic error."
+msgstr "שגיאה כללית."
+
+#: $lang->'PLUPLOAD_HTTP_ERROR'
+msgid "HTTP error."
+msgstr "שגיאת HTTP."
+
+#: $lang->'PLUPLOAD_IMAGE_FORMAT'
+msgid "Image format either wrong or not supported."
+msgstr "פורט שגוי או אינו נתמך."
+
+#: $lang->'PLUPLOAD_INIT_ERROR'
+msgid "Init error."
+msgstr "שגיאת INIT."
+
+#: $lang->'PLUPLOAD_IO_ERROR'
+msgid "IO error."
+msgstr "שגיאת IO."
+
+#: $lang->'PLUPLOAD_NOT_APPLICABLE'
+msgid "N/A"
+msgstr "לא זמין"
+
+#: $lang->'PLUPLOAD_SECURITY_ERROR'
+msgid "Security error."
+msgstr "שגיאת אבטחה."
+
+#: $lang->'PLUPLOAD_SELECT_FILES'
+msgid "Select files"
+msgstr "בחר קבצים"
+
+#: $lang->'PLUPLOAD_SIZE'
+msgid "Size"
+msgstr "גודל"
+
+#: $lang->'PLUPLOAD_SIZE_ERROR'
+msgid "File size error."
+msgstr "שגיאת גודל הקובץ."
+
+#: $lang->'PLUPLOAD_STATUS'
+msgid "Status"
+msgstr "מצב"
+
+#: $lang->'PLUPLOAD_START_UPLOAD'
+msgid "Start upload"
+msgstr "התחל בהעלה"
+
+#: $lang->'PLUPLOAD_START_CURRENT_UPLOAD'
+msgid "Start uploading queue"
+msgstr "מעלה לאתר"
+
+#: $lang->'PLUPLOAD_STOP_UPLOAD'
+msgid "Stop upload"
+msgstr "עצירת העלאה"
+
+#: $lang->'PLUPLOAD_STOP_CURRENT_UPLOAD'
+msgid "Stop current upload"
+msgstr "הפסק העלאה נוכחית"
+
+#. // Note: This string is formatted independently by plupload and so does not
+#. // use the same formatting rules as normal phpBB translation strings
+#: $lang->'PLUPLOAD_UPLOADED'
+msgid "Uploaded %d/%d files"
+msgstr "הועלו %d/%d קבצים"

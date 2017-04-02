@@ -1,0 +1,373 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/extensions.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/acp/extensions.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'EXTENSION'
+msgid "Extension"
+msgstr "תוסף"
+
+#: $lang->'EXTENSIONS'
+msgid "Extensions"
+msgstr "תוספות"
+
+#: $lang->'EXTENSIONS_ADMIN'
+msgid "Extensions Manager"
+msgstr "מנהל התוספות"
+
+#: $lang->'EXTENSIONS_EXPLAIN'
+msgid ""
+"The Extensions Manager is a tool in your phpBB Board which allows you to "
+"manage all of your extensions statuses and view information about them."
+msgstr ""
+"מנהלים התוספות הוא כלי במערכת הphpBB שלך שמאפשרת לך למנהל את כל התוספות שלך, "
+"מצבם וצפיה במידע אודותם."
+
+#: $lang->'EXTENSION_INVALID_LIST'
+msgid "The “%s” extension is not valid.<br />%s<br /><br />"
+msgstr "ה “%s” תוספת שבורה.<br />%s<br /><br />"
+
+#: $lang->'EXTENSION_NOT_AVAILABLE'
+msgid ""
+"The selected extension is not available for this board, please verify your "
+"phpBB and PHP versions are allowed (see the details page)."
+msgstr ""
+"התוספת לא מתאימה למערכת, אנא ודא כי גרסת ה-PHP וה-PHPBB תואמות (ראה בעמוד "
+"הפירוט של התוספת)."
+
+#: $lang->'EXTENSION_DIR_INVALID'
+msgid ""
+"The selected extension has an invalid directory structure and cannot be "
+"enabled."
+msgstr "לתוספת מבנה תיקייה שגוי, ועל כן לא ניתן להתקינה."
+
+#: $lang->'EXTENSION_NOT_ENABLEABLE'
+msgid ""
+"The selected extension cannot be enabled, please verify the extension’s "
+"requirements."
+msgstr "לא ניתן להתקין את התוספת, אנא בדוק את דרישות התוספת."
+
+#: $lang->'EXTENSION_NOT_INSTALLED'
+msgid ""
+"The extension %s is not available. Please check that you have installed it "
+"correctly."
+msgstr ""
+
+#: $lang->'DETAILS'
+msgid "Details"
+msgstr "פרטים"
+
+#: $lang->'EXTENSIONS_DISABLED'
+msgid "Disabled Extensions"
+msgstr "הפסק תוספות"
+
+#: $lang->'EXTENSIONS_ENABLED'
+msgid "Enabled Extensions"
+msgstr "הפעל תוספות"
+
+#: $lang->'EXTENSION_DELETE_DATA'
+msgid "Delete data"
+msgstr "מחק מידע"
+
+#: $lang->'EXTENSION_DISABLE'
+msgid "Disable"
+msgstr "הפסק"
+
+#: $lang->'EXTENSION_ENABLE'
+msgid "Enable"
+msgstr "הפעל"
+
+#: $lang->'EXTENSION_DELETE_DATA_EXPLAIN'
+msgid ""
+"Deleting an extension’s data removes all of its data and settings. The "
+"extension files are retained so it can be enabled again."
+msgstr ""
+"מחיקת נתוני התוספת ימחק את כל נתוניה והגדרותיה. קבצי התוספת נשמרים כך שניתן "
+"להתקינה מחדש."
+
+#: $lang->'EXTENSION_DISABLE_EXPLAIN'
+msgid ""
+"Disabling an extension retains its files, data and settings but removes any "
+"functionality added by the extension."
+msgstr ""
+"הפסקת תוספת שומר על קבציה ונתוניה והגדרותיה, אך מוריד כל פונקציונליות שנוספת "
+"על ידי התוספת."
+
+#: $lang->'EXTENSION_ENABLE_EXPLAIN'
+msgid "Enabling an extension allows you to use it on your board."
+msgstr "הפעלת התוספת מאפשר לך להשתמש בה במערכת שלך."
+
+#: $lang->'EXTENSION_DELETE_DATA_IN_PROGRESS'
+msgid ""
+"The extension’s data is currently being deleted. Please do not leave or "
+"refresh this page until it is completed."
+msgstr "נתוני התוספת נמחקים. אנא אל תעזוב או תרענן את העמוד עד שהתהליך מסתיים."
+
+#: $lang->'EXTENSION_DISABLE_IN_PROGRESS'
+msgid ""
+"The extension is currently being disabled. Please do not leave or refresh "
+"this page until it is completed."
+msgstr "התוספת עוברת כיבוי. אנא אל תעזוב או תרענן את העמוד עד שהתהליך מסתיים."
+
+#: $lang->'EXTENSION_ENABLE_IN_PROGRESS'
+msgid ""
+"The extension is currently being enabled. Please do not leave or refresh "
+"this page until it is completed."
+msgstr "התוספת נדלקת, אנא אל תעזוב או תרענן את העמוד עד אשר התהליך יושלם."
+
+#: $lang->'EXTENSION_DELETE_DATA_SUCCESS'
+msgid "The extension’s data was deleted successfully"
+msgstr "נתוני התוספת נמחקו בהצלחה"
+
+#: $lang->'EXTENSION_DISABLE_SUCCESS'
+msgid "The extension was disabled successfully"
+msgstr "התוספת הופסקה בהצלחה"
+
+#: $lang->'EXTENSION_ENABLE_SUCCESS'
+msgid "The extension was enabled successfully"
+msgstr "התוספת הופעלה בהצלחה"
+
+#: $lang->'EXTENSION_NAME'
+msgid "Extension Name"
+msgstr "שם התוסף"
+
+#: $lang->'EXTENSION_ACTIONS'
+msgid "Actions"
+msgstr "פעולות"
+
+#: $lang->'EXTENSION_OPTIONS'
+msgid "Options"
+msgstr "אפשרויות"
+
+#: $lang->'EXTENSION_INSTALL_HEADLINE'
+msgid "Installing an extension"
+msgstr "מתקין תוסף"
+
+#: $lang->'EXTENSION_INSTALL_EXPLAIN'
+msgid ""
+"<ol>\n"
+"\t\t\t<li>Download an extension from phpBB’s extensions database</li>\n"
+"\t\t\t<li>Unzip the extension and upload it to the <samp>ext/</samp> "
+"directory of your phpBB board</li>\n"
+"\t\t\t<li>Enable the extension, here in the Extensions manager</li>\n"
+"\t\t</ol>"
+msgstr ""
+"<ol>\n"
+"\t\t\t<li>הורד תוסף ממאגר התוספות של phpBB</li>\n"
+"\t\t\t<li>חלץ את התוסף והעלה אותו אל תיקית <samp>ext/</samp> של מערכת "
+"הפורומים שלך</li>\n"
+"\t\t\t<li>אפשר את התוסף, כאן במנהל התוספות</li>\n"
+"\t\t</ol>"
+
+#: $lang->'EXTENSION_UPDATE_HEADLINE'
+msgid "Updating an extension"
+msgstr "עדכון תוספת"
+
+#: $lang->'EXTENSION_UPDATE_EXPLAIN'
+msgid ""
+"<ol>\n"
+"\t\t\t<li>Disable the extension</li>\n"
+"\t\t\t<li>Delete the extension’s files from the filesystem</li>\n"
+"\t\t\t<li>Upload the new files</li>\n"
+"\t\t\t<li>Enable the extension</li>\n"
+"\t\t</ol>"
+msgstr ""
+"<ol>\n"
+"\t\t\t<li>הפסק את התוספת</li>\n"
+"\t\t\t<li>מחק את הקבצים של התוספת מקבצי המערכת</li>\n"
+"\t\t\t<li>העלה את הקבצים החדשים</li>\n"
+"\t\t\t<li>הפעל את התוספת</li>\n"
+"\t\t</ol>"
+
+#: $lang->'EXTENSION_REMOVE_HEADLINE'
+msgid "Completely removing an extension from your board"
+msgstr "מחיקה מלאה של תוספת מהמערכת"
+
+#: $lang->'EXTENSION_REMOVE_EXPLAIN'
+msgid ""
+"<ol>\n"
+"\t\t\t<li>Disable the extension</li>\n"
+"\t\t\t<li>Delete the extension’s data</li>\n"
+"\t\t\t<li>Delete the extension’s files from the filesystem</li>\n"
+"\t\t</ol>"
+msgstr ""
+"<ol>\n"
+"\t\t\t<li>הפסק את התוספת</li>\n"
+"\t\t\t<li>מחק את המידע של התוספת</li>\n"
+"\t\t\t<li>מחק את הקבצים של התוספת מקבצי המערכת</li>\n"
+"\t\t</ol>"
+
+#: $lang->'EXTENSION_DELETE_DATA_CONFIRM'
+msgid ""
+"Are you sure that you wish to delete the data associated with “%s”?<br /><br "
+"/>This removes all of its data and settings and cannot be undone!"
+msgstr ""
+"אתה בטוח שברצונך למחוק את המידע המשתייך ל-“%s”?<br /><br />התהליך ישמיד את "
+"כל הנתונים וההגדרות של התוספת ולא ניתן יהיה לביטול!"
+
+#: $lang->'EXTENSION_DISABLE_CONFIRM'
+msgid "Are you sure that you wish to disable the “%s” extension?"
+msgstr "אתה בטוח שברצונך לכבות את התוספת“%s” ?"
+
+#: $lang->'EXTENSION_ENABLE_CONFIRM'
+msgid "Are you sure that you wish to enable the “%s” extension?"
+msgstr "אתה בטוח שאתה רוצה להדליק את התוספת“%s” ?"
+
+#: $lang->'EXTENSION_FORCE_UNSTABLE_CONFIRM'
+msgid "Are you sure that you wish to force the use of unstable version?"
+msgstr "אתה בטוח שברצונך להשתמש בגרסה לא יציבה (בטא)?"
+
+#: $lang->'RETURN_TO_EXTENSION_LIST'
+msgid "Return to the extension list"
+msgstr "חזור אל רשימת התוספות"
+
+#: $lang->'EXT_DETAILS'
+msgid "Extension Details"
+msgstr "פרטי התוספת"
+
+#: $lang->'DISPLAY_NAME'
+msgid "Display Name"
+msgstr "שם מוצג"
+
+#: $lang->'CLEAN_NAME'
+msgid "Clean Name"
+msgstr "שם נקי"
+
+#: $lang->'TYPE'
+msgid "Type"
+msgstr "סוג"
+
+#: $lang->'DESCRIPTION'
+msgid "Description"
+msgstr "תיאור"
+
+#: $lang->'VERSION'
+msgid "Version"
+msgstr "גרסא"
+
+#: $lang->'HOMEPAGE'
+msgctxt "$lang->'HOMEPAGE'"
+msgid "Homepage"
+msgstr "דף הבית"
+
+#: $lang->'PATH'
+msgid "File Path"
+msgstr "File Path"
+
+#: $lang->'TIME'
+msgid "Release Time"
+msgstr "זמן שחרור"
+
+#: $lang->'LICENSE'
+msgid "Licence"
+msgstr "רשיון"
+
+#: $lang->'REQUIREMENTS'
+msgid "Requirements"
+msgstr "דרישות"
+
+#: $lang->'PHPBB_VERSION'
+msgid "phpBB Version"
+msgstr "גרסת phpBB"
+
+#: $lang->'PHP_VERSION'
+msgid "PHP Version"
+msgstr "גרסת PHP"
+
+#: $lang->'AUTHOR_INFORMATION'
+msgid "Author Information"
+msgstr "מידע אודות היוצר"
+
+#: $lang->'AUTHOR_NAME'
+msgid "Name"
+msgstr "שם"
+
+#: $lang->'AUTHOR_EMAIL'
+msgid "Email"
+msgstr "דואר אלקטורני"
+
+#: $lang->'AUTHOR_HOMEPAGE'
+msgctxt "$lang->'AUTHOR_HOMEPAGE'"
+msgid "Homepage"
+msgstr "דף הבית"
+
+#: $lang->'AUTHOR_ROLE'
+msgid "Role"
+msgstr "תפקיד"
+
+#: $lang->'NOT_UP_TO_DATE'
+msgid "%s is not up to date"
+msgstr "%s לא מעודכן"
+
+#: $lang->'UP_TO_DATE'
+msgid "%s is up to date"
+msgstr "%s מעודכן"
+
+#: $lang->'ANNOUNCEMENT_TOPIC'
+msgid "Release Announcement"
+msgstr "הודעת שחרור"
+
+#: $lang->'DOWNLOAD_LATEST'
+msgid "Download Version"
+msgstr "הורד גרסה"
+
+#: $lang->'NO_VERSIONCHECK'
+msgid "No version check information given."
+msgstr "לא ניתן מידע לאימות גרסה."
+
+#: $lang->'VERSIONCHECK_FORCE_UPDATE_ALL'
+msgid "Re-Check all versions"
+msgstr "בדוק שוב את כל הגרסאות"
+
+#: $lang->'FORCE_UNSTABLE'
+msgid "Always check for unstable versions"
+msgstr "תמיד בדוק גרסאות לא יציבות"
+
+#: $lang->'EXTENSIONS_VERSION_CHECK_SETTINGS'
+msgid "Version check settings"
+msgstr "הגדרות בודק הגרסאות"
+
+#: $lang->'BROWSE_EXTENSIONS_DATABASE'
+msgid "Browse extensions database"
+msgstr "צפה במאגר התוספות"
+
+#: $lang->'META_FIELD_NOT_SET'
+msgid "Required meta field %s has not been set."
+msgstr "פרטי מטא חיוניים של%s לא נתנו."
+
+#: $lang->'META_FIELD_INVALID'
+msgid "Meta field %s is invalid."
+msgstr "פרטי המטא של %s שבורים."

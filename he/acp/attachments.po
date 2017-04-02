@@ -1,0 +1,618 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/attachments.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/acp/attachments.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'ACP_ATTACHMENT_SETTINGS_EXPLAIN'
+msgid ""
+"Here you can configure the main settings for attachments and the associated "
+"special categories."
+msgstr ""
+"כאן אתה יכול להגדיר את ההגדרות הראשית של צירוף הקבצים והקטגוריות המיוחדות "
+"הקשורות."
+
+#: $lang->'ACP_EXTENSION_GROUPS_EXPLAIN'
+msgid ""
+"Here you can add, delete, modify or disable your extension groups. Further "
+"options include the assignment of a special category to them, changing the "
+"download mechanism and defining an upload icon which will be displayed in "
+"front of the attachment which belongs to the group."
+msgstr ""
+"כאן אתה יכול להוסיף, למחוק, לשנות או לכבות את קבוצות הסיומות. אפשרויות "
+"נוספות כוללות את קביעת הסיומות לקבוצות, שינוי מנגנון ההורדה והגדרת סמל "
+"ההעלאה אשר יוצר לפני קובץ מצורף ששייך לקבוצה."
+
+#: $lang->'ACP_MANAGE_EXTENSIONS_EXPLAIN'
+msgid ""
+"Here you can manage your allowed extensions. To activate your extensions, "
+"please refer to the extension groups management panel. We strongly recommend "
+"not to allow scripting extensions (such as <code>php</code>, "
+"<code>php3</code>, <code>php4</code>, <code>phtml</code>, <code>pl</code>, "
+"<code>cgi</code>, <code>py</code>, <code>rb</code>, <code>asp</code>, "
+"<code>aspx</code>, and so forth…)."
+msgstr ""
+"כאן אתה יכול לנהל את הסיומות המורשות. כדי להפעיל את הסיומות, עבור אל לוח "
+"ניהול קבוצות הסיומות. אנו ממליצים במיוחד לא לאפשר סיומות של קבצי תסריט (כמו "
+"<code>php</code>, <code>php3</code>, <code>php4</code>, <code>phtml</code>, "
+"<code>pl</code>, <code>cgi</code>, <code>py</code>, <code>rb</code>, "
+"<code>asp</code>, <code>aspx</code>, ועוד…)."
+
+#: $lang->'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'
+msgid ""
+"Here you are able to see orphaned files. This happens mostly if users are "
+"attaching files but not submitting the post. You are able to delete the "
+"files or attach them to existing posts. Attaching to posts requires a valid "
+"post ID, you have to determine this ID by yourself. This will assign the "
+"already uploaded attachment to the post you entered."
+msgstr ""
+"כאן אתה יכול לראות את הקבצים ללא שולח. הדבר מתרחש בדרך כלל כאשר משתמשים "
+"מצרפים קבצים אך לא שולחים את ההודעה. אתה יכול למחוק את הקבצים או לצרף אותם "
+"להודעות קיימות. צירוף להודעות דורש מספר ID של הודעה חוקי, אתה חייב לקבוע "
+"מספר ID זה בעצמך. כך יקבע הקובץ המצורף להודעה שהזנת."
+
+#: $lang->'ADD_EXTENSION'
+msgid "Add extension"
+msgstr "הוסף סיומת"
+
+#: $lang->'ADD_EXTENSION_GROUP'
+msgid "Add extension group"
+msgstr "הוסף קבוצת סיומות"
+
+#: $lang->'ADMIN_UPLOAD_ERROR'
+msgid "Errors while trying to attach file: “%s”."
+msgstr "שגיאות בעת ניסיון לצרף קבצים: “%s”."
+
+#: $lang->'ALLOWED_FORUMS'
+msgid "Allowed forums"
+msgstr "פורומים מורשים"
+
+#: $lang->'ALLOWED_FORUMS_EXPLAIN'
+msgid ""
+"Able to post the assigned extensions at the selected (or all if selected) "
+"forums."
+msgstr "ניתן לשלוח את הסיומות שנקבעו לפורומים הנבחרים (או כולם אם נבחר)."
+
+#: $lang->'ALLOWED_IN_PM_POST'
+msgid "Allowed"
+msgstr "מורשה"
+
+#: $lang->'ALLOW_ATTACHMENTS'
+msgid "Allow attachments"
+msgstr "אפשר קבצים מצורפים"
+
+#: $lang->'ALLOW_ALL_FORUMS'
+msgid "Allow all forums"
+msgstr "אפשר בכל הפורומים"
+
+#: $lang->'ALLOW_IN_PM'
+msgid "Allowed in private messaging"
+msgstr "מורשה בהודעות פרטיות"
+
+#: $lang->'ALLOW_PM_ATTACHMENTS'
+msgid "Allow attachments in private messages"
+msgstr "אפשר קבצים מצורפים בהודעות פרטיות"
+
+#: $lang->'ALLOW_SELECTED_FORUMS'
+msgid "Only forums selected below"
+msgstr "רק הפורומים הנבחרים להלן"
+
+#: $lang->'ASSIGNED_EXTENSIONS'
+msgid "Assigned extensions"
+msgstr "סיומות שנקבעו"
+
+#: $lang->'ASSIGNED_GROUP'
+msgid "Assigned extension group"
+msgstr "קבוצת סיומות שנקבעה"
+
+#: $lang->'ATTACH_EXTENSIONS_URL'
+msgid "Extensions"
+msgstr "סיומות"
+
+#: $lang->'ATTACH_EXT_GROUPS_URL'
+msgctxt "$lang->'ATTACH_EXT_GROUPS_URL'"
+msgid "Extension groups"
+msgstr "קבוצות סיומות"
+
+#: $lang->'ATTACH_ID'
+msgid "ID"
+msgstr "ID"
+
+#: $lang->'ATTACH_MAX_FILESIZE'
+msgctxt "$lang->'ATTACH_MAX_FILESIZE'"
+msgid "Maximum file size"
+msgstr "גודל קובץ מרבי"
+
+#: $lang->'ATTACH_MAX_FILESIZE_EXPLAIN'
+msgid ""
+"Maximum size of each file. If this value is 0, the uploadable filesize is "
+"only limited by your PHP configuration."
+msgstr ""
+"גודל מרבי של כל קובץ. אם הערך הוא 0, המגבלה היחידה נקבעת בהגדרות ה־PHP בשרת."
+
+#: $lang->'ATTACH_MAX_PM_FILESIZE'
+msgid "Maximum file size messaging"
+msgstr "גודל קובץ מרבי להודעה פרטית"
+
+#: $lang->'ATTACH_MAX_PM_FILESIZE_EXPLAIN'
+msgid ""
+"Maximum size of each file, with 0 being unlimited, attached to a private "
+"message."
+msgstr "גודל מרבי של קובץ, מצורף להודעה הפרטית, כאשר 0 הנו בלתי מוגבל."
+
+#: $lang->'ATTACH_ORPHAN_URL'
+msgid "Orphan attachments"
+msgstr "קבצים מצורפים ללא שולח"
+
+#: $lang->'ATTACH_POST_ID'
+msgid "Post ID"
+msgstr "מספר ID של הודעה"
+
+#: $lang->'ATTACH_POST_TYPE'
+msgid "Post type"
+msgstr "סוג ההודעה"
+
+#: $lang->'ATTACH_QUOTA'
+msgid "Total attachment quota"
+msgstr "מכסת קבצים מצורפים כללית"
+
+#: $lang->'ATTACH_QUOTA_EXPLAIN'
+msgid ""
+"Maximum drive space available for attachments for the whole board, with 0 "
+"being unlimited."
+msgstr "שטח אחסון מרבי זמין לקבצים מצורפים למערכת השלמה, כאשר 0 הנו בלתי מוגבל."
+
+#: $lang->'ATTACH_TO_POST'
+msgid "Attach file to post"
+msgstr "צרף קובץ להודעה"
+
+#: $lang->'CAT_FLASH_FILES'
+msgid "Flash files"
+msgstr "קבצי פלאש"
+
+#: $lang->'CAT_IMAGES'
+msgctxt "$lang->'CAT_IMAGES'"
+msgid "Images"
+msgstr "תמונות"
+
+#: $lang->'CHECK_CONTENT'
+msgid "Check attachment files"
+msgstr "בדוק קבצים מצורפים"
+
+#: $lang->'CHECK_CONTENT_EXPLAIN'
+msgid ""
+"Some browsers can be tricked to assume an incorrect mimetype for uploaded "
+"files. This option ensures that such files likely to cause this are rejected."
+msgstr ""
+"בדפדפנים מסוימים ניתנת האפשרות לגרום לדפדפן לטעות בסוג הקובץ של הקבצים "
+"שמעלים לשרת. סימון אפשרות זו תוודא שקבצים ידועים שעשויים לגרום למצב כזה ידחו "
+"באופן אוטומטי."
+
+#: $lang->'CREATE_GROUP'
+msgid "Create new group"
+msgstr "צור קבוצה חדשה"
+
+#: $lang->'CREATE_THUMBNAIL'
+msgid "Create thumbnail"
+msgstr "צור תמונה מוקטנת"
+
+#: $lang->'CREATE_THUMBNAIL_EXPLAIN'
+msgid "Create a thumbnail in all possible situations."
+msgstr "צור תמונה קטנה בכל הפתרונות האפשריים."
+
+#: $lang->'DEFINE_ALLOWED_IPS'
+msgid "Define allowed IPs/hostnames"
+msgstr "הגדר כתובות IP/שמות שרתים מורשים"
+
+#: $lang->'DEFINE_DISALLOWED_IPS'
+msgid "Define disallowed IPs/hostnames"
+msgstr "הגדר כתובות IP/שמות שרתים לא מורשים"
+
+#: $lang->'DOWNLOAD_REMOVE_IPS_EXPLAIN'
+msgid ""
+"You can remove (or un-exclude) multiple IP addresses in one go using the "
+"appropriate combination of mouse and keyboard for your computer and browser. "
+"Excluded IPs have a blue background."
+msgstr ""
+"אתה יכול להסיר (או לבטל שחרור) למספר כתובות IP במהלך אחד עם השילוב המתאים של "
+"עכבר ומקלדת למחשב והדפדפן שלך. לכתובת IP ששוחררו יש רקע כחול."
+
+#: $lang->'DISPLAY_INLINED'
+msgid "Display images inline"
+msgstr "הצג תמונה בשורה"
+
+#: $lang->'DISPLAY_INLINED_EXPLAIN'
+msgid "If set to No image attachments will show as a link."
+msgstr "אם נקבע ללא, תמונות מצורפות יוצגו כקישורים."
+
+#: $lang->'DISPLAY_ORDER'
+msgid "Attachment display order"
+msgstr "סדר תצוגת קבצים מצורפים"
+
+#: $lang->'DISPLAY_ORDER_EXPLAIN'
+msgid "Display attachments ordered by time."
+msgstr "הצג קבצים מצורפים מסודרים לפי זמן."
+
+#: $lang->'EDIT_EXTENSION_GROUP'
+msgid "Edit extension group"
+msgstr "ערוך קבוצת סיומות"
+
+#: $lang->'EXCLUDE_ENTERED_IP'
+msgid "Enable this to exclude the entered IP/hostname."
+msgstr "הפעל כדי לשחרר את כתובת ה־IP/שם השרת שהוזן."
+
+#: $lang->'EXCLUDE_FROM_ALLOWED_IP'
+msgid "Exclude IP from allowed IPs/hostnames"
+msgstr "שחרר כתובת IP מרשימת כתובות ה־IP/שמות השרתים המורשים"
+
+#: $lang->'EXCLUDE_FROM_DISALLOWED_IP'
+msgid "Exclude IP from disallowed IPs/hostnames"
+msgstr "שחרר כתובת IP מרשימת כתובות ה־IP/שמות השרתים הלא מורשים"
+
+#: $lang->'EXTENSIONS_UPDATED'
+msgid "Extensions successfully updated."
+msgstr "הסיומות עודכנו בהצלחה."
+
+#: $lang->'EXTENSION_EXIST'
+msgid "The extension %s already exists."
+msgstr "הסיומת %s כבר קיימת."
+
+#: $lang->'EXTENSION_GROUP'
+msgid "Extension group"
+msgstr "קבוצת סיומות"
+
+#: $lang->'EXTENSION_GROUPS'
+msgctxt "$lang->'EXTENSION_GROUPS'"
+msgid "Extension groups"
+msgstr "קבוצות סיומות"
+
+#: $lang->'EXTENSION_GROUP_DELETED'
+msgid "Extension group successfully deleted."
+msgstr "קבוצת הסיומות נמחקה בהצלחה."
+
+#: $lang->'EXTENSION_GROUP_EXIST'
+msgid "The extension group %s already exists."
+msgstr "קבוצת הסיומות %s כבר קיימת."
+
+#: $lang->'EXT_GROUP_ARCHIVES'
+msgid "Archives"
+msgstr "ארכיונים"
+
+#: $lang->'EXT_GROUP_DOCUMENTS'
+msgid "Documents"
+msgstr "מסמכים"
+
+#: $lang->'EXT_GROUP_DOWNLOADABLE_FILES'
+msgid "Downloadable Files"
+msgstr "קבצים הניתנים להורדה"
+
+#: $lang->'EXT_GROUP_FLASH_FILES'
+msgid "Flash Files"
+msgstr "קבצי פלאש"
+
+#: $lang->'EXT_GROUP_IMAGES'
+msgctxt "$lang->'EXT_GROUP_IMAGES'"
+msgid "Images"
+msgstr "תמונות"
+
+#: $lang->'EXT_GROUP_PLAIN_TEXT'
+msgid "Plain Text"
+msgstr "טקסט רגיל"
+
+#: $lang->'FILES_GONE'
+msgid ""
+"Some of the attachments you selected for deletion do not exist. They may "
+"have been already deleted. Attachments that did exist were deleted."
+msgstr ""
+"Some of the attachments you selected for deletion do not exist. They may "
+"have been already deleted. Attachments that did exist were deleted."
+
+#: $lang->'FILES_STATS_WRONG'
+msgid ""
+"Your file statistics are likely inaccurate and need to be resynchronised. "
+"Actual values: number of attachments = %1$d, total size of attachments = "
+"%2$s.<br />Click %3$shere%4$s to resynchronise them."
+msgstr ""
+"Your file statistics are likely inaccurate and need to be resynchronised. "
+"Actual values: number of attachments = %1$d, total size of attachments = "
+"%2$s.<br />Click %3$shere%4$s to resynchronise them."
+
+#: $lang->'GO_TO_EXTENSIONS'
+msgid "Go to extension management screen"
+msgstr "עבור למסך ניהול הסיומות"
+
+#: $lang->'GROUP_NAME'
+msgid "Group name"
+msgstr "שם הקבוצה"
+
+#: $lang->'IMAGE_LINK_SIZE'
+msgid "Image link dimensions"
+msgstr "ממדים לקישור תמונה"
+
+#: $lang->'IMAGE_LINK_SIZE_EXPLAIN'
+msgid ""
+"Display image attachment as an inline text link if image is larger than "
+"this. To disable this behaviour, set the values to 0px by 0px."
+msgstr ""
+"הצג תמונה מצורפת כטקסט מקושר אם תמונה גדולה יותר מגודל זה. כדי לכבות אפשרות "
+"זו, קבע את הערכים ל־0 פיקסלים על 0 פיקסלים."
+
+#: $lang->'IMAGICK_PATH'
+msgid "ImageMagick path"
+msgstr "נתיב ל־ImageMagick"
+
+#: $lang->'IMAGICK_PATH_EXPLAIN'
+msgid ""
+"Full path to the imagemagick convert application, e.g. "
+"<samp>/usr/bin/</samp>."
+msgstr "נתיב מלא ליישום המרה imagemagick, למשל <samp>/usr/bin/</samp>."
+
+#: $lang->'MAX_ATTACHMENTS'
+msgid "Maximum number of attachments per post"
+msgstr "מספר מרבי של קבצים מצורפים לכל הודעה"
+
+#: $lang->'MAX_ATTACHMENTS_PM'
+msgid "Maximum number of attachments per private message"
+msgstr "מספר מרבי של קבצים מצורפים לכל הודעה פרטית"
+
+#: $lang->'MAX_EXTGROUP_FILESIZE'
+msgctxt "$lang->'MAX_EXTGROUP_FILESIZE'"
+msgid "Maximum file size"
+msgstr "גודל קובץ מרבי"
+
+#: $lang->'MAX_IMAGE_SIZE'
+msgid "Maximum image dimensions"
+msgstr "ממדי תמונה מרביים"
+
+#: $lang->'MAX_IMAGE_SIZE_EXPLAIN'
+msgid ""
+"Maximum size of image attachments. Set both values to 0px by 0px to disable "
+"dimension checking."
+msgstr ""
+"גודל מרבי של תמונות מצורפות. קבע את שני הערכים ל־0 פיקסלים על 0 פיקסלים כדי "
+"לכבות את בדיקת הממדים."
+
+#: $lang->'MAX_THUMB_WIDTH'
+msgid "Maximum thumbnail width in pixel"
+msgstr "רוחב מרבי לתמונה מוקטנת בפיקסלים"
+
+#: $lang->'MAX_THUMB_WIDTH_EXPLAIN'
+msgid "A generated thumbnail will not exceed the width set here."
+msgstr "תמונה מוקטנת הנוצרת לא תעבור את הרוחב הנקבע כאן."
+
+#: $lang->'MIN_THUMB_FILESIZE'
+msgid "Minimum thumbnail file size"
+msgstr "גודל קובץ מינימלי לתמונה מוקטנת"
+
+#: $lang->'MIN_THUMB_FILESIZE_EXPLAIN'
+msgid "Do not create a thumbnail for images smaller than this."
+msgstr "אל תיצור תמונה מוקטנת לתמונות היותר קטנות מגודל זה."
+
+#: $lang->'MODE_INLINE'
+msgid "Inline"
+msgstr "בשורה"
+
+#: $lang->'MODE_PHYSICAL'
+msgid "Physical"
+msgstr "פיסי"
+
+#: $lang->'NOT_ALLOWED_IN_PM'
+msgid "Only allowed in posts"
+msgstr "מאופשר רק בהודעות"
+
+#: $lang->'NOT_ALLOWED_IN_PM_POST'
+msgid "Not allowed"
+msgstr "לא מאופשר"
+
+#: $lang->'NOT_ASSIGNED'
+msgid "Not assigned"
+msgstr "לא נקבע"
+
+#: $lang->'NO_ATTACHMENTS'
+msgid "No attachments found for this period."
+msgstr "לא נמצאו קבצים מצורפים בקבוצה זו."
+
+#: $lang->'NO_EXT_GROUP'
+msgctxt "$lang->'NO_EXT_GROUP'"
+msgid "None"
+msgstr "ללא"
+
+#: $lang->'NO_EXT_GROUP_NAME'
+msgid "No group name entered"
+msgstr "לא הוזנה קבוצת משתמשים"
+
+#: $lang->'NO_EXT_GROUP_SPECIFIED'
+msgid "No extension group specified."
+msgstr "לא צוינה קבוצת סיומות."
+
+#: $lang->'NO_FILE_CAT'
+msgctxt "$lang->'NO_FILE_CAT'"
+msgid "None"
+msgstr "ללא"
+
+#: $lang->'NO_IMAGE'
+msgid "No image"
+msgstr "ללא תמונה"
+
+#: $lang->'NO_THUMBNAIL_SUPPORT'
+msgid ""
+"Thumbnail support has been disabled. For proper functionality either the GD "
+"extension need to be available or imagemagick being installed. Both were not "
+"found."
+msgstr ""
+"תמיכה בתמונות מוקטנות כבויה. לפעילות טובה יותר סיומת הספריה הגראפית צריכה "
+"להיות זמינה או imagemagick צריכה להיות מותקנת. שניהן לא נמצאו."
+
+#: $lang->'NO_UPLOAD_DIR'
+msgid "The upload directory you specified does not exist."
+msgstr "תיקיית הקבצים שציינת לא קיימת."
+
+#: $lang->'NO_WRITE_UPLOAD'
+msgid ""
+"The upload directory you specified cannot be written to. Please alter the "
+"permissions to allow the webserver to write to it."
+msgstr ""
+"תיקיית הקבצים שציינת לא ניתנת לכתיבה. אנא שנה את הגישות על מנת לאפשר לשרת "
+"לכתוב אליה."
+
+#: $lang->'ONLY_ALLOWED_IN_PM'
+msgid "Only allowed in private messages"
+msgstr "מאופשר רק בהודעות פרטיות"
+
+#: $lang->'ORDER_ALLOW_DENY'
+msgid "Allow"
+msgstr "אפשר"
+
+#: $lang->'ORDER_DENY_ALLOW'
+msgid "Deny"
+msgstr "דחה"
+
+#: $lang->'REMOVE_ALLOWED_IPS'
+msgid "Remove or un-exclude <em>allowed</em> IPs/hostnames"
+msgstr "הסר או בטל שחרור מרשימת כתובות ה־IP/שמות השרתים <em>המורשים</em>"
+
+#: $lang->'REMOVE_DISALLOWED_IPS'
+msgid "Remove or un-exclude <em>disallowed</em> IPs/hostnames"
+msgstr "הסר או בטל שחרור מרשימת כתובות ה־IP/שמות השרתים <em>הלא מורשים</em>"
+
+#: $lang->'RESYNC_FILES_STATS_CONFIRM'
+msgid "Are you sure you wish to resynchronise file statistics?"
+msgstr "האם אתה בטוח כי ברצונך לאפס את סטטיסטיקות הקובץ?"
+
+#: $lang->'SEARCH_IMAGICK'
+msgid "Search for ImageMagick"
+msgstr "אתר ImageMagick"
+
+#: $lang->'SECURE_ALLOW_DENY'
+msgid "Allow/Deny list"
+msgstr "אפשר/דחה רשימה"
+
+#: $lang->'SECURE_ALLOW_DENY_EXPLAIN'
+msgid ""
+"Change the default behaviour when secure downloads are enabled of the Allow/"
+"Deny list to that of a <strong>whitelist</strong> (Allow) or a "
+"<strong>blacklist</strong> (Deny)."
+msgstr ""
+"שנה את התנהגות ברירת המחדל כאשר אבטחת ההורדות פעילה של האפשר/דחה רשימה לזו "
+"של <strong>רשימה לבנה</strong> (אפשר) או <strong>רשימה שחורה</strong> (דחה)."
+
+#: $lang->'SECURE_DOWNLOADS'
+msgid "Enable secure downloads"
+msgstr "הפעל אבטחת הורדות"
+
+#: $lang->'SECURE_DOWNLOADS_EXPLAIN'
+msgid ""
+"With this option enabled, downloads are limited to IP’s/hostnames you define."
+msgstr "כאשר אפשרות זו פעילה, ההורדות מוגבלות לכתובות IP/שמות שרתים שאתה מגדיר."
+
+#: $lang->'SECURE_DOWNLOAD_NOTICE'
+msgid ""
+"Secure Downloads are not enabled. The settings below will be applied after "
+"enabling secure downloads."
+msgstr "אבטחת ההורדות לא פעילה. ההגדרות הבאות ישפיעו לאחר הפעלת אבטחת ההורדות."
+
+#: $lang->'SECURE_DOWNLOAD_UPDATE_SUCCESS'
+msgid "The IP list has been updated successfully."
+msgstr "רשימת ה־IP עודכנה בהצלחה."
+
+#: $lang->'SECURE_EMPTY_REFERRER'
+msgid "Allow empty referrer"
+msgstr "אפשר מקשר ריק"
+
+#: $lang->'SECURE_EMPTY_REFERRER_EXPLAIN'
+msgid ""
+"Secure downloads are based on referrers. Do you want to allow downloads for "
+"those omitting the referrer?"
+msgstr ""
+"אבטחת ההורדות מבוססת על מקשרים. האם אתה רוצה לאפשר להורדות להשמיט את המקשר?"
+
+#: $lang->'SETTINGS_CAT_IMAGES'
+msgid "Image category settings"
+msgstr "הגדרות קטגורית תמונות"
+
+#: $lang->'SPECIAL_CATEGORY'
+msgid "Special category"
+msgstr "קטגוריה מיוחדת"
+
+#: $lang->'SPECIAL_CATEGORY_EXPLAIN'
+msgid "Special categories differ between the way presented within posts."
+msgstr "קטגוריות מיוחדות נבדלות בדרך בהן הן מוצגות בהודעות."
+
+#: $lang->'SUCCESSFULLY_UPLOADED'
+msgid "Successfully uploaded."
+msgstr "הועלה בהצלחה."
+
+#: $lang->'SUCCESS_EXTENSION_GROUP_ADD'
+msgid "Extension group successfully added."
+msgstr "קבוצת הסיומות נוספה בהצלחה."
+
+#: $lang->'SUCCESS_EXTENSION_GROUP_EDIT'
+msgid "Extension group successfully updated."
+msgstr "קבוצת הסיומות עודכנה בהצלחה."
+
+#: $lang->'UPLOADING_FILES'
+msgid "Uploading files"
+msgstr "מעלה קבצים"
+
+#: $lang->'UPLOADING_FILE_TO'
+msgid "Uploading file “%1$s” to post number %2$d…"
+msgstr "מעלה קובץ “%1$s” להודעה מספר %2$d…"
+
+#: $lang->'UPLOAD_DENIED_FORUM'
+msgid "You do not have the permission to upload files to forum “%s”."
+msgstr "אין לך את הגישה להעלות קבצים לפורום “%s”."
+
+#: $lang->'UPLOAD_DIR'
+msgid "Upload directory"
+msgstr "תיקיית קבצים"
+
+#: $lang->'UPLOAD_DIR_EXPLAIN'
+msgid ""
+"Storage path for attachments. Please note that if you change this directory "
+"while already having uploaded attachments you need to manually copy the "
+"files to their new location."
+msgstr ""
+"נתיב לאחסון הקבצים המצורפים. שים לב שאם תשנה את התיקייה לאחר שיש בה כבר "
+"קבצים מצורפים, תצטרך להעביר אותם למיקום החדש ידנית."
+
+#: $lang->'UPLOAD_ICON'
+msgid "Upload icon"
+msgstr "סמל העלאה"
+
+#: $lang->'UPLOAD_NOT_DIR'
+msgid "The upload location you specified does not appear to be a directory."
+msgstr "המיקום לקבצים שציינת אינו נראה כתיקייה."

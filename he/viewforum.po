@@ -1,0 +1,128 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/viewforum.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/viewforum.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'ACTIVE_TOPICS'
+msgid "Active topics"
+msgstr "נושאים פעילים"
+
+#: $lang->'ANNOUNCEMENTS'
+msgid "Announcements"
+msgstr "הכרזות"
+
+#: $lang->'FORUM_PERMISSIONS'
+msgid "Forum permissions"
+msgstr "הרשאות הפורום"
+
+#: $lang->'ICON_ANNOUNCEMENT'
+msgid "Announcement"
+msgstr "הכרזה"
+
+#: $lang->'ICON_STICKY'
+msgid "Sticky"
+msgstr "דביק"
+
+#: $lang->'LOGIN_NOTIFY_FORUM'
+msgid "You have been notified about this forum, please login to view it."
+msgstr "קיבלת התראה אודות פורום זה, אנא התחבר על מנת לצפות בו."
+
+#: $lang->'MARK_TOPICS_READ'
+msgid "Mark topics read"
+msgstr "סמן נושאים כנקראו"
+
+#. Not used anymore
+#: $lang->'NEW_POSTS_HOT'
+msgid "New posts [ Popular ]"
+msgstr "יש הודעות חדשות [ הודעות חמות ]"
+
+#. Not used anymore
+#: $lang->'NEW_POSTS_LOCKED'
+msgid "New posts [ Locked ]"
+msgstr "יש הודעות חדשות [ הודעות נעולות ]"
+
+#. Not used anymore
+#: $lang->'NO_NEW_POSTS_HOT'
+msgid "No new posts [ Popular ]"
+msgstr "אין הודעות חדשות [ הודעות חמות ]"
+
+#. Not used anymore
+#: $lang->'NO_NEW_POSTS_LOCKED'
+msgid "No new posts [ Locked ]"
+msgstr "אין הודעות חדשות [ הודעות נעולות ]"
+
+#: $lang->'NO_READ_ACCESS'
+msgid ""
+"You do not have the required permissions to read topics within this forum."
+msgstr "אין לך את ההרשאות המתאימות על מנת לקרוא הודעות בפורום זה."
+
+#: $lang->'NO_UNREAD_POSTS_HOT'
+msgid "No unread posts [ Popular ]"
+msgstr "אין הודעות שלא נקראו [ הודעות חמות ]"
+
+#: $lang->'NO_UNREAD_POSTS_LOCKED'
+msgid "No unread posts [ Locked ]"
+msgstr "אין הודעות שלא נקראו [ הודעות נעולות ]"
+
+#: $lang->'POST_FORUM_LOCKED'
+msgid "Forum is locked"
+msgstr "הפורום נעול"
+
+#: $lang->'TOPICS_MARKED'
+msgid "The topics for this forum have now been marked read."
+msgstr "הנושאים בפורום זה סומנו כנקראו."
+
+#: $lang->'UNREAD_POSTS_HOT'
+msgid "Unread posts [ Popular ]"
+msgstr "הודעות שלא נקראו [ הודעות חמות ]"
+
+#: $lang->'UNREAD_POSTS_LOCKED'
+msgid "Unread posts [ Locked ]"
+msgstr "הודעות שלא נקראו [ הודעות נעולות ]"
+
+#: $lang->'VIEW_FORUM'
+msgid "View forum"
+msgstr "צפה בפורום"
+
+#: $lang->'VIEW_FORUM_TOPICS'->1
+msgid "%d topic"
+msgstr "נושא %d"
+
+#: $lang->'VIEW_FORUM_TOPICS'->2
+msgid "%d topics"
+msgstr "%d נושאים"

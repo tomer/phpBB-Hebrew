@@ -1,0 +1,530 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/groups.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/acp/groups.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'ACP_GROUPS_MANAGE_EXPLAIN'
+msgid ""
+"From this panel you can administer all your usergroups. You can delete, "
+"create and edit existing groups. Furthermore, you may choose group leaders, "
+"toggle open/hidden/closed group status and set the group name and "
+"description."
+msgstr ""
+"בדף זה תוכל לערוך את כל קבוצות המשתמשים הקיימות בפורום שלך, אתה יכול למחוק, "
+"ליצור ולערוך קבוצות קיימות. בנוסף, אתה יכול לבחור ראש קבוצה, לשנות את מצב "
+"הקבוצה בין פתוח/מוסתר/סגור ולקבוע את שם ותיאור הקבוצה."
+
+#: $lang->'ADD_GROUP_CATEGORY'
+msgid "Add category"
+msgstr "הוסף קטגוריה"
+
+#: $lang->'ADD_USERS'
+msgid "Add users"
+msgstr "הוסף משתמשים"
+
+#: $lang->'ADD_USERS_EXPLAIN'
+msgid ""
+"Here you can add new users to the group. You may select whether this group "
+"becomes the new default for the selected users. Additionally you can define "
+"them as group leaders. Please enter each username on a separate line."
+msgstr ""
+"כאן אתה יכול להוסיף משתמשים חדשים לקבוצה. אתה יכול לבחור אם קבוצה זו תהפוך "
+"לברירת המחדל החדשה של המשתמשים שיבחרו. בנוסף באפשרותך להפוך אותם לראשי "
+"קבוצה. אנא הכנס כל שם משתמש עם רווח בין שם לשם."
+
+#: $lang->'COPY_PERMISSIONS'
+msgid "Copy permissions from"
+msgstr "העתק הרשאות מ"
+
+#: $lang->'COPY_PERMISSIONS_EXPLAIN'
+msgid ""
+"Once created, the group will have the same permissions as the one you select "
+"here."
+msgstr "כשהקבוצה תיווצר הרשאותיה יהיו כהרשאות של הקבוצה שבחרת כאן."
+
+#: $lang->'CREATE_GROUP'
+msgid "Create new group"
+msgstr "צור קבוצה חדשה"
+
+#: $lang->'GROUPS_NO_MEMBERS'
+msgid "This group has no members"
+msgstr "לקבוצה זו אין חברים"
+
+#: $lang->'GROUPS_NO_MODS'
+msgid "No group leaders defined"
+msgstr "לא נבחר ראש קבוצה"
+
+#: $lang->'GROUP_APPROVE'
+msgid "Approve member"
+msgstr "אשר חבר"
+
+#: $lang->'GROUP_APPROVED'
+msgid "Approved members"
+msgstr "חברים מאושרים"
+
+#: $lang->'GROUP_AVATAR'
+msgid "Group avatar"
+msgstr "הסמל האישי של הקבוצה"
+
+#: $lang->'GROUP_AVATAR_EXPLAIN'
+msgid "This image will be displayed in the Group Control Panel."
+msgstr "תמונה זו תופיע בלוח הבקרה של ניהול הקבוצה."
+
+#: $lang->'GROUP_CATEGORY_NAME'
+msgid "Category name"
+msgstr "שם הקטגוריה"
+
+#: $lang->'GROUP_CLOSED'
+msgid "Closed"
+msgstr "סגור"
+
+#: $lang->'GROUP_COLOR'
+msgid "Group colour"
+msgstr "צבע הקבוצה"
+
+#: $lang->'GROUP_COLOR_EXPLAIN'
+msgid ""
+"Defines the colour members’ usernames will appear in, leave blank for user "
+"default."
+msgstr "הגדר את צבע שמות המשתמש של חברי הקבוצה, השאר ריק להגדרות הרגילות."
+
+#: $lang->'GROUP_CONFIRM_ADD_USERS'->1
+msgid "Are you sure that you want to add the user %2$s to the group?"
+msgstr "האם אתה בטוח שאתה רוצה להוסיף את המשתמש %2$s לקבוצה?"
+
+#: $lang->'GROUP_CONFIRM_ADD_USERS'->2
+msgid "Are you sure that you want to add the users %2$s to the group?"
+msgstr "האם אתה בטוח שאתה רוצה להוסיף את המשתמשים %2$s לקבוצה?"
+
+#: $lang->'GROUP_CREATED'
+msgid "Group has been created successfully."
+msgstr "הקבוצה נוצרה בהצלחה."
+
+#: $lang->'GROUP_DEFAULT'
+msgid "Make group default for member"
+msgstr "צור קבוצת ברירת מחדל לחבר"
+
+#: $lang->'GROUP_DEFS_UPDATED'
+msgid "Default group set for all selected members."
+msgstr "קבוצת ברירת המחדל מוגדרת לכל המשתמשים שנבחרו."
+
+#: $lang->'GROUP_DELETE'
+msgid "Remove member from group"
+msgstr "הסר משתמש מהקבוצה"
+
+#: $lang->'GROUP_DELETED'
+msgid "Group deleted and user default groups set successfully."
+msgstr "הקבוצה נמחקה והגדרות קבוצת ברירת המחדל הוגדרה בהצלחה."
+
+#: $lang->'GROUP_DEMOTE'
+msgid "Demote group leader"
+msgstr "הדח ראש קבוצה"
+
+#: $lang->'GROUP_DESC'
+msgid "Group description"
+msgstr "תיאור הקבוצה"
+
+#: $lang->'GROUP_DETAILS'
+msgid "Group details"
+msgstr "פרטי הקבוצה"
+
+#: $lang->'GROUP_EDIT_EXPLAIN'
+msgid ""
+"Here you can edit an existing group. You can change its name, description "
+"and type (open, closed, etc.). You can also set certain group wide options "
+"such as colouration, rank, etc. Changes made here override users’ current "
+"settings. Please note that group members can override group-avatar settings, "
+"unless you set appropriate user permissions."
+msgstr ""
+"כאן אתה יכול לערוך קבוצות קיימות. אתה יכול לשנות את שמם, תיאורם וסוגם (פתוח, "
+"סגור, וכדומה..). אתה יכול להגדיר את גודל הקבוצה או צבע, דירוג, ואפשרויות "
+"נוספות השינויים שיבוצעו כאן יעקפו את הגדרות המשתמשים שנמצאים בקבוצה. שים לב "
+"חברי הקבוצה יכולים לערוך את סמלם האישי רק אם כן הגדרת הרשאות משתמש תואמים."
+
+#: $lang->'GROUP_ERR_USERS_EXIST'
+msgid "The specified users are already members of this group."
+msgstr "משתמשים אלו כבר חברים בקבוצה זו."
+
+#: $lang->'GROUP_FOUNDER_MANAGE'
+msgid "Founder manage only"
+msgstr "מייסד הקבוצה עורך בלבד"
+
+#: $lang->'GROUP_FOUNDER_MANAGE_EXPLAIN'
+msgid ""
+"Restrict management of this group to founders only. Users having group "
+"permissions are still able to see this group as well as this group’s members."
+msgstr ""
+"הגבל את ניהול קבוצה זו למייסד הקבוצה בלבד. משתמשים שברשותם הרשאות קבוצה עדין "
+"יכולים לראות קבוצה זו."
+
+#: $lang->'GROUP_HIDDEN'
+msgid "Hidden"
+msgstr "הסתר"
+
+#: $lang->'GROUP_LANG'
+msgid "Group language"
+msgstr "שפת הקבוצה"
+
+#: $lang->'GROUP_LEAD'
+msgid "Group leaders"
+msgstr "ראש קבוצה"
+
+#: $lang->'GROUP_LEADERS_ADDED'
+msgid "New leaders added to group successfully."
+msgstr "ראשים נוספים נוספו לקבוצה בהצלחה."
+
+#: $lang->'GROUP_LEGEND'
+msgid "Display group in legend"
+msgstr "הצג קבוצה במקרא"
+
+#: $lang->'GROUP_LIST'
+msgid "Current members"
+msgstr "משתמשים נוכחים"
+
+#: $lang->'GROUP_LIST_EXPLAIN'
+msgid ""
+"This is a complete list of all the current users with membership of this "
+"group. You can delete members (except in certain special groups) or add new "
+"ones as you see fit."
+msgstr ""
+"זוהי רשימה מלאה של כל המשתמשים החברים בקבוצה זו. אתה יכול למחוק חברים (מלבד "
+"קבוצות מיוחדות) או להוסיף."
+
+#: $lang->'GROUP_MEMBERS'
+msgid "Group members"
+msgstr "חברי הקבוצה"
+
+#: $lang->'GROUP_MEMBERS_EXPLAIN'
+msgid ""
+"This is a complete listing of all the members of this usergroup. It includes "
+"separate sections for leaders, pending and existing members. From here you "
+"can manage all aspects of who has membership of this group and what their "
+"role is. To remove a leader but keep them in the group use Demote rather "
+"than delete. Similarly use Promote to make an existing member a leader."
+msgstr ""
+"זוהי הרישמה המלאה של כל המשתמשים החברים בקבוצה זו. כולל רווחים לזיהוי "
+"הראשיים, הממתינים והחברים הקיימים. מפה אתה יכול לערוך הכל. בכדי להסיר ראשי "
+"אך להשאיר את החברים בקבוצה השתמש בהדחה ולאחר מכן מחק. וההפך השתמש בקידום "
+"בכדי להפוך משתמש קיים לראשי קבוצה."
+
+#: $lang->'GROUP_MESSAGE_LIMIT'
+msgid "Group private message limit per folder"
+msgstr "ההודעות הפרטיות של הקבוצה מוגבלות בתיקייה אחת"
+
+#: $lang->'GROUP_MESSAGE_LIMIT_EXPLAIN'
+msgid ""
+"This setting overrides the per-user folder message limit. The maximum for "
+"all groups of the user is used to determine the actual value.<br />Set this "
+"value to 0 to overwrite the setting for all users of this group with the "
+"board-wide setting."
+msgstr ""
+"הגדרות אלו יעקפו את מגבלת תיקיית ההודעות למשתמש. קבע ערך זה ל0 על מנת "
+"שהגדרות ברירת המחדל של המשתמש יהיו בשימוש."
+
+#: $lang->'GROUP_MODS_ADDED'
+msgid "New group leaders added successfully."
+msgstr "ראשי קבוצה חדשים נוספו בהצלחה."
+
+#: $lang->'GROUP_MODS_DEMOTED'
+msgid "Group leaders demoted successfully."
+msgstr "ראשי הקבוצה הודחו בהצלחה."
+
+#: $lang->'GROUP_MODS_PROMOTED'
+msgid "Group members promoted successfully."
+msgstr "חברי הקבוצה קודמו בהצלחה."
+
+#: $lang->'GROUP_NAME'
+msgid "Group name"
+msgstr "שם הקבוצה"
+
+#: $lang->'GROUP_NAME_TAKEN'
+msgid ""
+"The group name you entered is already in use, please select an alternative."
+msgstr "שם הקבוצה שהכנסת כבר בשימוש, אנא בחר שם אחר."
+
+#: $lang->'GROUP_OPEN'
+msgid "Open"
+msgstr "פתח"
+
+#: $lang->'GROUP_PENDING'
+msgid "Pending members"
+msgstr "משתמשים ממתינים"
+
+#: $lang->'GROUP_MAX_RECIPIENTS'
+msgid "Maximum number of allowed recipients per private message"
+msgstr "מספר מרבי של נמענים מורשים לכל הודעה פרטית"
+
+#: $lang->'GROUP_MAX_RECIPIENTS_EXPLAIN'
+msgid ""
+"The maximum number of allowed recipients in a private message.  The maximum "
+"for all groups of the user is used to determine the actual value.<br />Set "
+"this value to 0 to overwrite the setting for all users of this group with "
+"the board-wide setting."
+msgstr ""
+"המספר המרבי של נמענים המורשים בהודעה פרטית.קבע ערך זה ל־0 על מנת שהגדרות "
+"המערכת יהיו בשימוש."
+
+#: $lang->'GROUP_OPTIONS_SAVE'
+msgid "Group wide options"
+msgstr "אפשרויות קבוצה רחבות"
+
+#: $lang->'GROUP_PROMOTE'
+msgid "Promote to group leader"
+msgstr "קדם לראש הקבוצה"
+
+#: $lang->'GROUP_RANK'
+msgid "Group rank"
+msgstr "דירוג הקבוצה"
+
+#: $lang->'GROUP_RECEIVE_PM'
+msgid "Group able to receive private messages"
+msgstr "הקבוצה יכולה לקבל הודעות פרטיות"
+
+#: $lang->'GROUP_RECEIVE_PM_EXPLAIN'
+msgid ""
+"Please note that hidden groups are not able to be messaged, regardless of "
+"this setting."
+msgstr "שים לב קבוצות מוסתרות לא יכולות לקבל הודעות, למרות הגדרות אלו."
+
+#: $lang->'GROUP_REQUEST'
+msgid "Request"
+msgstr "בקש"
+
+#: $lang->'GROUP_SETTINGS_SAVE'
+msgid "Group wide settings"
+msgstr "הגדרות גודל הקבוצה"
+
+#: $lang->'GROUP_SKIP_AUTH'
+msgid "Exempt group leader from permissions"
+msgstr "שחרר את ראש הקבוצה מהרשאות"
+
+#: $lang->'GROUP_SKIP_AUTH_EXPLAIN'
+msgid "If enabled group leader no longer inherit permissions from the group."
+msgstr "אם מאופשר ראש קבוצה לא יקבל הרשאות מהקבוצה."
+
+#: $lang->'GROUP_SPECIAL'
+msgid "Pre-defined"
+msgstr "מוגדר מראש"
+
+#: $lang->'GROUP_TEAMPAGE'
+msgid "Display group on teampage"
+msgstr "הצג קבוצה בעמוד הקבוצות"
+
+#: $lang->'GROUP_TYPE'
+msgid "Group type"
+msgstr "סוג הקבוצה"
+
+#: $lang->'GROUP_TYPE_EXPLAIN'
+msgid "This determines which users can join or view this group."
+msgstr "יחליט מי יכול להיכנס לקבוצה או לראותה."
+
+#: $lang->'GROUP_UPDATED'
+msgid "Group preferences updated successfully."
+msgstr "אפשרויות הקבוצה עודכנה בהצלחה."
+
+#: $lang->'GROUP_USERS_ADDED'
+msgid "New users added to group successfully."
+msgstr "משתמשים חדשים נוספו לקבוצה בהצלחה."
+
+#: $lang->'GROUP_USERS_EXIST'
+msgid "The selected users are already members."
+msgstr "המשתמשים שנבחרו כבר חברים בקבוצה."
+
+#: $lang->'GROUP_USERS_REMOVE'
+msgid "Users removed from group and new defaults set successfully."
+msgstr "המשתמשים הוסרו מהקבוצה והגדרות ברירת המחדל החדשות הוגדרו בהצלחה."
+
+#: $lang->'LEGEND_EXPLAIN'
+msgid "These are the groups which are displayed in the group legend:"
+msgstr "אלה הקבוצות אשר מוצגות במקרא הקבוצות:"
+
+#: $lang->'LEGEND_SETTINGS'
+msgid "Legend settings"
+msgstr "הגדרות מקרא"
+
+#: $lang->'LEGEND_SORT_GROUPNAME'
+msgid "Sort legend by group name"
+msgstr "מיין מקרא לפי שם קבוצה"
+
+#: $lang->'LEGEND_SORT_GROUPNAME_EXPLAIN'
+msgid "The order below is ignored when this option is enabled."
+msgstr "הסדר שלהלן מבוטל כאשר אפשרות זו מופעלת."
+
+#: $lang->'MANAGE_LEGEND'
+msgid "Manage group legend"
+msgstr "ניהול עמוד הצוות"
+
+#: $lang->'MANAGE_TEAMPAGE'
+msgid "Manage teampage"
+msgstr "נהל עמוד צוות"
+
+#: $lang->'MAKE_DEFAULT_FOR_ALL'
+msgid "Make default group for every member"
+msgstr "עשה קבוצת ברירת מחדל לכל המשתמשים"
+
+#: $lang->'MEMBERS'
+msgctxt "$lang->'MEMBERS'"
+msgid "Members"
+msgstr "משתמשים"
+
+#: $lang->'NO_GROUP'
+msgid "No group specified."
+msgstr "לא נבחרה קבוצה."
+
+#: $lang->'NO_GROUPS_ADDED'
+msgid "No groups added yet."
+msgstr "לא נוספו קבוצות עדיין."
+
+#: $lang->'NO_GROUPS_CREATED'
+msgid "No groups created yet."
+msgstr "לא נוצרו כרגע קבוצות."
+
+#: $lang->'NO_PERMISSIONS'
+msgid "Do not copy permissions"
+msgstr "אל תעתיק הרשאות"
+
+#: $lang->'NO_USERS'
+msgid "You haven’t entered any users."
+msgstr "לא הכנסת אף משתמש."
+
+#: $lang->'NO_USERS_ADDED'
+msgid "No users were added to the group."
+msgstr "לא נוספו משתמשים לקבוצה."
+
+#: $lang->'NO_VALID_USERS'
+msgid "You haven’t entered any users eligible for that action."
+msgstr "לא הזנת משתמשים מתאימים לפעולה זו."
+
+#: $lang->'PENDING_MEMBERS'
+msgid "Pending"
+msgstr ""
+
+#: $lang->'SELECT_GROUP'
+msgid "Select a group"
+msgstr "בחר קבוצה"
+
+#: $lang->'SPECIAL_GROUPS'
+msgid "Pre-defined groups"
+msgstr "קבוצות מוגדרות מראש"
+
+#: $lang->'SPECIAL_GROUPS_EXPLAIN'
+msgid ""
+"Pre-defined groups are special groups, they cannot be deleted or directly "
+"modified. However you can still add users and alter basic settings."
+msgstr ""
+"קבוצות מוגדרות מראש הינם קבוצות מיוחדות, לא ניתן למחוק אותם או לשנות באופן "
+"ישיר. למרות זאת עדיין תוכל להוסיף משתמשים ולערוך את ההגדרות הבסיסיות."
+
+#: $lang->'TEAMPAGE'
+msgid "Teampage"
+msgstr "עמוד הצוות"
+
+#: $lang->'TEAMPAGE_DISP_ALL'
+msgid "All memberships"
+msgstr "כל החברויות"
+
+#: $lang->'TEAMPAGE_DISP_DEFAULT'
+msgid "User’s default group only"
+msgstr "קבוצת ברירת המחדל של המשתמש בלבד"
+
+#: $lang->'TEAMPAGE_DISP_FIRST'
+msgid "First membership only"
+msgstr "הקבוצה הראשונה של המשתמש בלבד"
+
+#: $lang->'TEAMPAGE_EXPLAIN'
+msgid "These are the groups which are displayed on the teampage:"
+msgstr "אלו הן הקבוצות המוצגות בעמוד הצוות:"
+
+#: $lang->'TEAMPAGE_FORUMS'
+msgid "Display moderated forums"
+msgstr "הצג את הפורומים המנוהלים"
+
+#: $lang->'TEAMPAGE_FORUMS_EXPLAIN'
+msgid ""
+"If set to yes, moderators will have a list with all of the forums where they "
+"have moderator permissions displayed in their row. This can be very database "
+"intensive for big boards."
+msgstr ""
+"אם מופעל, מתחת לכל שורה של מנהל תהיה רשימה של כל הפורומים בהם יש לו הרשאות "
+"ניהול. למערכות גדולות הדבר עלול לגזול משאבים רבים."
+
+#: $lang->'TEAMPAGE_MEMBERSHIPS'
+msgid "Display user memberships"
+msgstr "הצג את שיוכו לקבוצות של המשתמש "
+
+#: $lang->'TEAMPAGE_SETTINGS'
+msgid "Teampage settings"
+msgstr "הגדרות עמוד צוות"
+
+#: $lang->'TOTAL_MEMBERS'
+msgctxt "$lang->'TOTAL_MEMBERS'"
+msgid "Members"
+msgstr "משתמשים"
+
+#: $lang->'USERS_APPROVED'
+msgid "Users approved successfully."
+msgstr "המשתמשים אושרו בהצלחה."
+
+#: $lang->'USER_DEFAULT'
+msgid "User default"
+msgstr "משתמש ברירת מחדל"
+
+#: $lang->'USER_DEF_GROUPS'
+msgid "User defined groups"
+msgstr "קבוצות משתמשים מוגדרות"
+
+#: $lang->'USER_DEF_GROUPS_EXPLAIN'
+msgid ""
+"These are groups created by you or another admin on this board. You can "
+"manage memberships as well as edit group properties or even delete the group."
+msgstr ""
+"אלו קבוצות אשר נוצרו על ידך או מנהלים ראשים אחרים. אתה יכול לנהל את חברי "
+"הקבוצה בנוסף לעריכת הגדרות הקבוצה ואפילו למחוק את הקבוצה."
+
+#: $lang->'USER_GROUP_DEFAULT'
+msgid "Set as default group"
+msgstr "הגדר כקבוצת ברירת המחדל"
+
+#: $lang->'USER_GROUP_DEFAULT_EXPLAIN'
+msgid ""
+"Saying yes here will set this group as the default group for the added users."
+msgstr "להגיד כן כאן תגדיר את קבוצה זו כברירת המחדל למשתמשים שנוספו."
+
+#: $lang->'USER_GROUP_LEADER'
+msgid "Set as group leader"
+msgstr "הגדר כראש הקבוצה"

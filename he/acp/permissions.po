@@ -1,0 +1,1241 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/permissions.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/acp/permissions.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'ACP_PERMISSIONS_EXPLAIN'
+msgid ""
+"\n"
+"\t\t<p>Permissions are highly granular and grouped into four major sections, "
+"which are:</p>\n"
+"\n"
+"\t\t<h2>Global Permissions</h2>\n"
+"\t\t<p>These are used to control access on a global level and apply to the "
+"entire bulletin board. They are further divided into User Permissions, Group "
+"Permissions, Administrators and Global Moderators.</p>\n"
+"\n"
+"\t\t<h2>Forum Based Permissions</h2>\n"
+"\t\t<p>These are used to control access on a per forum basis. They are "
+"further divided into Forum Permissions, Forum Moderators, User Forum "
+"Permissions and Group Forum Permissions.</p>\n"
+"\n"
+"\t\t<h2>Permission Roles</h2>\n"
+"\t\t<p>These are used to create different sets of permissions for the "
+"different permission types later being able to be assigned on a role-based "
+"basis. The default roles should cover the administration of bulletin boards "
+"large and small, though within each of the four divisions, you can add/edit/"
+"delete roles as you see fit.</p>\n"
+"\n"
+"\t\t<h2>Permission Masks</h2>\n"
+"\n"
+"\t\t<br />\n"
+"\n"
+"\t\t<p>For further information on setting up and managing permissions on "
+"your phpBB3 board, please see the section on <a href=\""
+"https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/permissions/\">"
+"Setting permissions of our Quick Start Guide</a>.</p>\n"
+"\t"
+msgstr ""
+"\n"
+"\t\t<p>ההרשאות מקובצות ומשתייכות לארבעה חלקים עיקריים, שהם:</p>\n"
+"\n"
+"\t\t<h2>הרשאות גלובליות</h2>\n"
+"\t\t<p>הן בשימוש לשליטה בהרשאה ברמה גלובלית ושייכות למערכת הפורום בשלמותה. "
+"הן בנוסף מתחלקות להרשאות של משתמש, הרשאות של קבוצה, מנהלים ראשיים ומנהלים "
+"גלובליים.</p>\n"
+"\n"
+"\t\t<h2>הרשאות לפי פורומים</h2>\n"
+"\t\t<p>הן בשימוש לשליטה בהרשאה בכל פורום. הן בנוסף נחלקות להרשאות פורום, "
+"מנהלי פורום, הרשאות פורום של משתמש והרשאות פורום של קבוצה.</p>\n"
+"\n"
+"\t\t<h2>כללי הרשאות</h2>\n"
+"\t\t<p>הן בשימוש ליצירת ערכות שונות של הרשאות לסוגי ההרשאה השונים אשר אחר כך "
+"יכולים להיקבע לפי כלל. כללי ברירת המחדל אמורים להיות הניהול הראשי של מערכות "
+"פורומים גדולות וקטנות, אך בכל אחד מארבעת החלקים, אתה יכול להוסיף/לערוך/למחוק "
+"כללים כפי שתרצה.</p>\n"
+"\n"
+"\t\t<h2>משימות הרשאה</h2>\n"
+"\n"
+"\t\t<br />\n"
+"\n"
+"\t\t<p>למידע נוסף על קביעה וניהול הרשאות במערכת phpBB, קרא את <a href=\""
+"http://www.phpbb.co.il/viewtopic.php?f=28&t=21412\">המדריך לקביעת הרשאות</a> "
+"— שתורגם על־ידי Berlo.</p>\n"
+"\t"
+
+#: $lang->'ACL_NEVER'
+msgid "Never"
+msgstr "לעולם לא"
+
+#: $lang->'ACL_SET'
+msgid "Setting permissions"
+msgstr "הגדרת הרשאות"
+
+#: $lang->'ACL_SET_EXPLAIN'
+msgid ""
+"Permissions are based on a simple <strong>YES</strong>/<strong>NO</strong> "
+"system. Setting an option to <strong>NEVER</strong> for a user or usergroup "
+"overrides any other value assigned to it. If you do not wish to assign a "
+"value for an option for this user or group select <strong>NO</strong>. If "
+"values are assigned for this option elsewhere they will be used in "
+"preference, else <strong>NEVER</strong> is assumed. All objects marked (with "
+"the checkbox in front of them) will copy the permission set you defined."
+msgstr ""
+"ההרשאות מבוססות על מערכת פשוטה של <strong>כן</strong>/<strong>לא</strong>. "
+"הגדרת אפשרות ל<strong>לעולם לא</strong> למשתמש או קבוצת משתמשים עוברת על כל "
+"הערכים האחרים אשר נקבעו להם. אם אינך מעוניין לקבוע ערך לאפשרות למשתמש או "
+"לקבוצה, בחר <strong>לא</strong>. אם ערכים נקבעו לאפשרות במקום אחר הם ישומשו "
+"בעדיפות ראשונה, אלא אם כן <strong>לעולם לא</strong> נקבע. כל הפריטים מסומנים "
+"(עם תיבת סימון לפניהם) יעתיקו את ההרשאה שהגדרת."
+
+#: $lang->'ACL_SETTING'
+msgid "Setting"
+msgstr "הגדרה"
+
+#: $lang->'ACL_TYPE_A_'
+msgctxt "$lang->'ACL_TYPE_A_'"
+msgid "Administrative permissions"
+msgstr "הרשאות ניהול ראשי"
+
+#: $lang->'ACL_TYPE_F_'
+msgctxt "$lang->'ACL_TYPE_F_'"
+msgid "Forum permissions"
+msgstr "הרשאות פורום"
+
+#: $lang->'ACL_TYPE_M_'
+msgid "Moderative permissions"
+msgstr "הרשאות ניהול"
+
+#: $lang->'ACL_TYPE_U_'
+msgctxt "$lang->'ACL_TYPE_U_'"
+msgid "User permissions"
+msgstr "הרשאות משתמש"
+
+#: $lang->'ACL_TYPE_GLOBAL_A_'
+msgctxt "$lang->'ACL_TYPE_GLOBAL_A_'"
+msgid "Administrative permissions"
+msgstr "הרשאות ניהול ראשי"
+
+#: $lang->'ACL_TYPE_GLOBAL_U_'
+msgctxt "$lang->'ACL_TYPE_GLOBAL_U_'"
+msgid "User permissions"
+msgstr "הרשאות משתמש"
+
+#: $lang->'ACL_TYPE_GLOBAL_M_'
+msgid "Global Moderator permissions"
+msgstr "הרשאות מנהל גלובלי"
+
+#: $lang->'ACL_TYPE_LOCAL_M_'
+msgid "Forum Moderator permissions"
+msgstr "הרשאות מנהל פורום"
+
+#: $lang->'ACL_TYPE_LOCAL_F_'
+msgctxt "$lang->'ACL_TYPE_LOCAL_F_'"
+msgid "Forum permissions"
+msgstr "הרשאות פורום"
+
+#: $lang->'ACL_NO'
+msgid "No"
+msgstr "לא"
+
+#: $lang->'ACL_VIEW'
+msgid "Viewing permissions"
+msgstr "צופה בהרשאות"
+
+#: $lang->'ACL_VIEW_EXPLAIN'
+msgid ""
+"Here you can see the effective permissions the user/group is having. A red "
+"square indicates that the user/group does not have the permission, a green "
+"square indicates that the user/group does have the permission."
+msgstr ""
+"כאן אתה יכול לראות את ההרשאות הפעילות למשתמש/לקבוצה. ריבוע אדום מציין כי "
+"למשתמש/לקבוצה אין את ההרשאה, ריבוע ירוק מסמן כי למשתמש/לקבוצה יש את ההרשאה."
+
+#: $lang->'ACL_YES'
+msgid "Yes"
+msgstr "כן"
+
+#: $lang->'ACP_ADMINISTRATORS_EXPLAIN'
+msgid ""
+"Here you can assign administrator permissions to users or groups. All users "
+"with administrator permissions can view the administration control panel."
+msgstr ""
+"כאן ניתן לקבוע הרשאות מנהל ראשי למשתמשים או לקבוצות. רק משתמשים עם הרשאות "
+"מנהל ראשי יכולים לראות את לוח בקרה למנהלים ראשיים."
+
+#: $lang->'ACP_FORUM_MODERATORS_EXPLAIN'
+msgid ""
+"Here you can assign users and groups as forum moderators. To assign users "
+"access to forums, to define global moderative permissions or administrators "
+"please use the appropriate page."
+msgstr ""
+"כאן ניתן לקבוע משתמשים וקבוצות בתור מנהלי פורומים. כדי לקבוע למשתמשים הרשאה "
+"לפורומים, להגדיר הרשאות ניהול גלובלי או מנהלים ראשיים יש להשתמש בעמוד המתאים."
+
+#: $lang->'ACP_FORUM_PERMISSIONS_EXPLAIN'
+msgid ""
+"Here you can alter which users and groups can access which forums. To assign "
+"moderators or define administrators please use the appropriate page."
+msgstr ""
+"כאן ניתן לקבוע את ההרשאה לפורומים למנהלים ולקבוצות. כדי לקבוע מנהלים או "
+"להגדיר מנהלים ראשיים יש להשתמש בעמוד המתאים."
+
+#: $lang->'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'
+msgid ""
+"Here you can copy forum permissions from one forum to one or more other "
+"forums."
+msgstr "כאן ניתן להעתיק הרשאות פורום מפורום אחד לפורום אחד או יותר אחרים."
+
+#: $lang->'ACP_GLOBAL_MODERATORS_EXPLAIN'
+msgid ""
+"Here you can assign global moderator permissions to users or groups. These "
+"moderators are like ordinary moderators except they have access to every "
+"forum on your board."
+msgstr ""
+"כאן ניתן לקבוע הרשאות מנהל גלובלי למשתמשים או קבוצות. מנהלים אלו הם כמו "
+"מנהלים רגילים אך יש להם הרשאה לכל הפורומים במערכת."
+
+#: $lang->'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'
+msgid "Here you can assign forum permissions to groups."
+msgstr "כאן ניתן לקבוע הרשאות פורום לקבוצות."
+
+#: $lang->'ACP_GROUPS_PERMISSIONS_EXPLAIN'
+msgid ""
+"Here you can assign global permissions to groups - user permissions, global "
+"moderator permissions and administrator permissions. User permissions "
+"include capabilities such as the use of avatars, sending private messages, "
+"et cetera; global moderator permissions such as approving posts, manage "
+"topics, manage bans, et cetera and lastly administrator permissions such as "
+"altering permissions, define custom BBCodes, manage forums, et cetera. "
+"Individual user permissions should only be changed in rare occasions, the "
+"preferred method is putting users in groups and assigning the group "
+"permissions."
+msgstr ""
+"כאן ניתן לקבוע הרשאות גלובליות לקבוצות – הרשאות משתמש, הרשאות מנהל גלובלי "
+"והרשאות מנהל ראשי. הרשאות משתמש כוללות יכולות כמו שימוש בסמלים אישיים, שליחת "
+"הודעות פרטיות, וכדומה. הרשאות מנהל גלובלי כוללות יכולות כמו אישות הודעות, "
+"ניהול נושאים, ניהול חסימות, וכדומה, ולבסוף הרשאות מנהל ראשי כוללות יכולות "
+"כמו שינוי הרשאות, הגדרת תגי BBCode מותאמים אישית, ניהול פורומים, וכדומה. "
+"הרשאות משתמש יחיד מומלץ לשנות במקרים נדירים, השיטה המועדפת היא הכנסת משתמשים "
+"לקבוצות וקביעת הרשאות לקבוצה."
+
+#: $lang->'ACP_ADMIN_ROLES_EXPLAIN'
+msgid ""
+"Here you are able to manage the roles for administrative permissions. Roles "
+"are effective permissions, if you change a role the items having this role "
+"assigned will change its permissions too."
+msgstr ""
+"כאן אתה יכול לנהל את הכללים להרשאות הניהול הראשי. הכללים הם הרשאות פעילות, "
+"אם אתה משנה כלל, הרכיבים אשר להם הכלל נקבע ישנו את ההרשאות שלהם גם כן."
+
+#: $lang->'ACP_FORUM_ROLES_EXPLAIN'
+msgid ""
+"Here you are able to manage the roles for forum permissions. Roles are "
+"effective permissions, if you change a role the items having this role "
+"assigned will change its permissions too."
+msgstr ""
+"כאן אתה יכול לנהל את הכללים להרשאות הפורום. הכללים הם הרשאות פעילות, אם אתה "
+"משנה כלל, הרכיבים אשר להם הכלל נקבע ישנו את ההרשאות שלהם גם כן."
+
+#: $lang->'ACP_MOD_ROLES_EXPLAIN'
+msgid ""
+"Here you are able to manage the roles for moderative permissions. Roles are "
+"effective permissions, if you change a role the items having this role "
+"assigned will change its permissions too."
+msgstr ""
+"כאן אתה יכול לנהל את הכללים להרשאות הניהול. הכללים הם הרשאות פעילות, אם אתה "
+"משנה כלל, הרכיבים אשר להם הכלל נקבע ישנו את ההרשאות שלהם גם כן."
+
+#: $lang->'ACP_USER_ROLES_EXPLAIN'
+msgid ""
+"Here you are able to manage the roles for user permissions. Roles are "
+"effective permissions, if you change a role the items having this role "
+"assigned will change its permissions too."
+msgstr ""
+"כאן אתה יכול לנהל את הכללים להרשאות משתמש. הכללים הם הרשאות פעילות, אם אתה "
+"משנה כלל, הרכיבים אשר להם הכלל נקבע ישנו את ההרשאות שלהם גם כן."
+
+#: $lang->'ACP_USERS_FORUM_PERMISSIONS_EXPLAIN'
+msgid "Here you can assign forum permissions to users."
+msgstr "כאן אתה יכול לקבוע הרשאות פורום למשתמשים."
+
+#: $lang->'ACP_USERS_PERMISSIONS_EXPLAIN'
+msgid ""
+"Here you can assign global permissions to users - user permissions, global "
+"moderator permissions and administrator permissions. User permissions "
+"include capabilities such as the use of avatars, sending private messages, "
+"et cetera; global moderator permissions such as approving posts, manage "
+"topics, manage bans, et cetera and lastly administrator permissions such as "
+"altering permissions, define custom BBCodes, manage forums, et cetera. To "
+"alter these settings for large numbers of users the Group permissions system "
+"is the preferred method. User permissions should only be changed in rare "
+"occasions, the preferred method is putting users in groups and assigning the "
+"group permissions."
+msgstr ""
+"כאן אתה יכול לקבוע הרשאות גלובליות למשתמשים – הרשאות משתמש, הרשאות מנהל "
+"גלובלי והרשאות מנהל ראשי. הרשאות משתמש כוללות יכולות כמו שימוש בסמלים "
+"אישיים, שליחת הודעות פרטיות, וכדומה. הרשאות מנהל גלובלי כוללות יכולות כמו "
+"אישות הודעות, ניהול נושאים, ניהול חסימות, וכדומה, ולבסוף הרשאות מנהל ראשי "
+"כוללות יכולות כמו שינוי הרשאות, הגדרת תגי BBCode מותאמים אישית, ניהול "
+"פורומים, וכדומה. הרשאות משתמש יחיד מומלץ לשנות במקרים נדירים, השיטה המועדפת "
+"היא הכנסת משתמשים לקבוצות וקביעת הרשאות לקבוצה."
+
+#: $lang->'ACP_VIEW_ADMIN_PERMISSIONS_EXPLAIN'
+msgid ""
+"Here you can view the effective administrative permissions assigned to the "
+"selected users/groups."
+msgstr ""
+"כאן אתה יכול לצפות בהרשאות הניהול הראשי הפעילות אשר נקבעו למשתמשים/לקבוצות "
+"הנבחרים."
+
+#: $lang->'ACP_VIEW_GLOBAL_MOD_PERMISSIONS_EXPLAIN'
+msgid ""
+"Here you can view the global moderative permissions assigned to the selected "
+"users/groups."
+msgstr ""
+"כאן אתה יכול לצפות בהרשאות הניהול הגלובלי אשר נקבעו למשתמשים/לקבוצות הנבחרים."
+
+#: $lang->'ACP_VIEW_FORUM_PERMISSIONS_EXPLAIN'
+msgid ""
+"Here you can view the forum permissions assigned to the selected users/"
+"groups and forums."
+msgstr ""
+"כאן אתה יכול לצפות בהרשאות הפורום אשר נקבעו למשתמשים/לקבוצות ולפורומים "
+"הנבחרים."
+
+#: $lang->'ACP_VIEW_FORUM_MOD_PERMISSIONS_EXPLAIN'
+msgid ""
+"Here you can view the forum moderator permissions assigned to the selected "
+"users/groups and forums."
+msgstr ""
+"כאן אתה יכול לצפות בהרשאות מנהל הפורום אשר נקבעו למשתמשים/לקבוצות ולפורומים "
+"הנבחרים."
+
+#: $lang->'ACP_VIEW_USER_PERMISSIONS_EXPLAIN'
+msgid ""
+"Here you can view the effective user permissions assigned to the selected "
+"users/groups."
+msgstr ""
+"כאן אתה יכול לצפות בהרשאות המשתמש הפעילות אשר נקבעו למשתמשים/לקבוצות הנבחרים."
+
+#: $lang->'ADD_GROUPS'
+msgid "Add groups"
+msgstr "הוסף קבוצות"
+
+#: $lang->'ADD_PERMISSIONS'
+msgid "Add permissions"
+msgstr "הוסף הרשאות"
+
+#: $lang->'ADD_USERS'
+msgid "Add users"
+msgstr "הוסף משתמשים"
+
+#: $lang->'ADVANCED_PERMISSIONS'
+msgid "Advanced Permissions"
+msgstr "הרשאות מתקדמות"
+
+#: $lang->'ALL_GROUPS'
+msgid "Select all groups"
+msgstr "בחר את כל הקבוצות"
+
+#: $lang->'ALL_NEVER'
+msgid "All <strong>NEVER</strong>"
+msgstr "הכול <strong>לעולם לא</strong>"
+
+#: $lang->'ALL_NO'
+msgid "All <strong>NO</strong>"
+msgstr "הכול <strong>לא</strong>"
+
+#: $lang->'ALL_USERS'
+msgid "Select all users"
+msgstr "בחר את כל המשתמשים"
+
+#: $lang->'ALL_YES'
+msgid "All <strong>YES</strong>"
+msgstr "הכול <strong>כן</strong>"
+
+#: $lang->'APPLY_ALL_PERMISSIONS'
+msgid "Apply all permissions"
+msgstr "החל את כל ההרשאות"
+
+#: $lang->'APPLY_PERMISSIONS'
+msgid "Apply permissions"
+msgstr "החל הרשאות"
+
+#: $lang->'APPLY_PERMISSIONS_EXPLAIN'
+msgid ""
+"The permissions and role defined for this item will only be applied to this "
+"item and all checked items."
+msgstr ""
+"ההרשאות והכלל המוגדרים לפריטי זה יפעלו לפריט זה וכל הפריטים המסומנים בלבד."
+
+#: $lang->'AUTH_UPDATED'
+msgid "Permissions have been updated."
+msgstr "ההרשאות עודכנו."
+
+#: $lang->'COPY_PERMISSIONS_CONFIRM'
+msgid ""
+"Are you sure you wish to carry out this operation? Please be aware that this "
+"will overwrite any existing permissions on the selected targets."
+msgstr ""
+"האם אתה בטוח שאתה רוצה להמשיך עם הפעולה? אנא שים לב שזה ישכתב כל הרשאה קיימת "
+"ביעדים שנבחרו."
+
+#: $lang->'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'
+msgid "The source forum you want to copy permissions from."
+msgstr "פורום המקור ממנו אתה רוצה להעתיק הרשאות."
+
+#: $lang->'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'
+msgid "The destination forums you want the copied permissions applied to."
+msgstr "פורום היעד אשר אליו אתה רוצה להעתיק הרשאות שיחולו עליו."
+
+#: $lang->'COPY_PERMISSIONS_FROM'
+msgid "Copy permissions from"
+msgstr "העתק הרשאות מ"
+
+#: $lang->'COPY_PERMISSIONS_TO'
+msgid "Apply permissions to"
+msgstr "החל הרשאות ל"
+
+#: $lang->'CREATE_ROLE'
+msgid "Create role"
+msgstr "צור כלל"
+
+#: $lang->'CREATE_ROLE_FROM'
+msgid "Use settings from…"
+msgstr "השתמש בהגדרות של…"
+
+#: $lang->'CUSTOM'
+msgid "Custom…"
+msgstr "מותאם אישית…"
+
+#: $lang->'DEFAULT'
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: $lang->'DELETE_ROLE'
+msgid "Delete role"
+msgstr "מחק כלל"
+
+#: $lang->'DELETE_ROLE_CONFIRM'
+msgid ""
+"Are you sure you want to remove this role? Items having this role assigned "
+"will <strong>not</strong> lose their permission settings."
+msgstr ""
+"אתה בטוח שאתה רוצה להסיר כלל זה? הרכיבים להם הכלל נקבע <strong>לא</strong> "
+"יאבדו את הגדרות ההרשאה שלהם."
+
+#: $lang->'DISPLAY_ROLE_ITEMS'
+msgid "View items using this role"
+msgstr "צפה ברכיבים המשתמשים בכלל זה"
+
+#: $lang->'EDIT_PERMISSIONS'
+msgid "Edit permissions"
+msgstr "ערוך הרשאות"
+
+#: $lang->'EDIT_ROLE'
+msgid "Edit role"
+msgstr "ערוך כלל"
+
+#: $lang->'GROUPS_NOT_ASSIGNED'
+msgid "No group assigned to this role"
+msgstr "אין קבוצה הנקבעה לכלל זה"
+
+#: $lang->'LOOK_UP_GROUP'
+msgid "Look up usergroup"
+msgstr "אתר קבוצת משתמשים"
+
+#: $lang->'LOOK_UP_USER'
+msgid "Look up user"
+msgstr "אתר משתמש"
+
+#: $lang->'MANAGE_GROUPS'
+msgid "Manage groups"
+msgstr "ניהול קבוצות"
+
+#: $lang->'MANAGE_USERS'
+msgid "Manage users"
+msgstr "ניהול משתמשים"
+
+#: $lang->'NO_AUTH_SETTING_FOUND'
+msgid "Permission settings not defined."
+msgstr "הגדרות הרשאה לא הוגדרו."
+
+#: $lang->'NO_ROLE_ASSIGNED'
+msgid "No role assigned…"
+msgstr "אין כלל שנקבע…"
+
+#: $lang->'NO_ROLE_ASSIGNED_EXPLAIN'
+msgid ""
+"Setting to this role does not change permissions on the right. If you want "
+"to unset/remove all permissions you should use the “All <strong>NO</strong>” "
+"link."
+msgstr ""
+"הגדרה לכלל זה לא משנה את ההרשאות. אם אתה רוצה לבטל/להסיר את כל ההרשאות אתה "
+"צריך להשתמש בקישור “הכול <strong>לא</strong>”."
+
+#: $lang->'NO_ROLE_AVAILABLE'
+msgid "No role available"
+msgstr "אין כלל זמין"
+
+#: $lang->'NO_ROLE_NAME_SPECIFIED'
+msgid "Please give the role a name."
+msgstr "הזן לכלל שם."
+
+#: $lang->'NO_ROLE_SELECTED'
+msgid "Role could not be found."
+msgstr "לא ניתן למצוא את הכלל."
+
+#: $lang->'NO_USER_GROUP_SELECTED'
+msgid "You haven’t selected any user or group."
+msgstr "לא בחרת אף משתמש או קבוצה."
+
+#: $lang->'ONLY_FORUM_DEFINED'
+msgid ""
+"You only defined forums in your selection. Please also select at least one "
+"user or one group."
+msgstr "הגדרת רק פורומים בבחירה שלך. בחר גם לפחות משתמש אחד או קבוצה אחת."
+
+#: $lang->'PERMISSION_APPLIED_TO_ALL'
+msgid "Permissions and role will also be applied to all checked objects"
+msgstr "ההרשאות והכלל יפעלו גם לכל הפריטים המסומנים"
+
+#: $lang->'PLUS_SUBFORUMS'
+msgid "+Subforums"
+msgstr "+תתי־פורומים"
+
+#: $lang->'REMOVE_PERMISSIONS'
+msgid "Remove permissions"
+msgstr "הסר הרשאות"
+
+#: $lang->'REMOVE_ROLE'
+msgid "Remove role"
+msgstr "הסר כלל"
+
+#: $lang->'RESULTING_PERMISSION'
+msgid "Resulting permission"
+msgstr "תוצאת הרשאה"
+
+#: $lang->'ROLE'
+msgid "Role"
+msgstr "כלל"
+
+#: $lang->'ROLE_ADD_SUCCESS'
+msgid "Role successfully added."
+msgstr "הכלל נוסף בהצלחה."
+
+#: $lang->'ROLE_ASSIGNED_TO'
+msgid "Users/Groups assigned to %s"
+msgstr "משתמשים/קבוצות שנקבעו ל%s"
+
+#: $lang->'ROLE_DELETED'
+msgid "Role successfully removed."
+msgstr "הכלל הוסר בהצלחה."
+
+#: $lang->'ROLE_DESCRIPTION'
+msgid "Role description"
+msgstr "תיאור הכלל"
+
+#: $lang->'ROLE_ADMIN_FORUM'
+msgid "Forum Admin"
+msgstr "ניהול ראשי של פורום"
+
+#: $lang->'ROLE_ADMIN_FULL'
+msgid "Full Admin"
+msgstr "ניהול ראשי מלא"
+
+#: $lang->'ROLE_ADMIN_STANDARD'
+msgid "Standard Admin"
+msgstr "ניהול ראשי רגיל"
+
+#: $lang->'ROLE_ADMIN_USERGROUP'
+msgid "User and Groups Admin"
+msgstr "ניהול ראשי של משתמשים וקבוצות"
+
+#: $lang->'ROLE_FORUM_BOT'
+msgid "Bot Access"
+msgstr "הרשאת בוט"
+
+#: $lang->'ROLE_FORUM_FULL'
+msgid "Full Access"
+msgstr "הרשאה מלאה"
+
+#: $lang->'ROLE_FORUM_LIMITED'
+msgid "Limited Access"
+msgstr "הרשאה מוגבלת"
+
+#: $lang->'ROLE_FORUM_LIMITED_POLLS'
+msgid "Limited Access + Polls"
+msgstr "הרשאה מוגבלת + סקרים"
+
+#: $lang->'ROLE_FORUM_NOACCESS'
+msgid "No Access"
+msgstr "ללא הרשאה"
+
+#: $lang->'ROLE_FORUM_ONQUEUE'
+msgid "On Moderation Queue"
+msgstr "חצי ניהול"
+
+#: $lang->'ROLE_FORUM_POLLS'
+msgid "Standard Access + Polls"
+msgstr "הרשאה רגילה + סקרים"
+
+#: $lang->'ROLE_FORUM_READONLY'
+msgid "Read Only Access"
+msgstr "הרשאה לקריאה בלבד"
+
+#: $lang->'ROLE_FORUM_STANDARD'
+msgid "Standard Access"
+msgstr "הרשאה רגילה"
+
+#: $lang->'ROLE_FORUM_NEW_MEMBER'
+msgid "Newly Registered User Access"
+msgstr "הרשאת משתמש שנרשם לאחרונה"
+
+#: $lang->'ROLE_MOD_FULL'
+msgid "Full Moderator"
+msgstr "מנהל מלא"
+
+#: $lang->'ROLE_MOD_QUEUE'
+msgid "Queue Moderator"
+msgstr "חצי מנהל"
+
+#: $lang->'ROLE_MOD_SIMPLE'
+msgid "Simple Moderator"
+msgstr "מנהל פשוט"
+
+#: $lang->'ROLE_MOD_STANDARD'
+msgid "Standard Moderator"
+msgstr "מנהל רגיל"
+
+#: $lang->'ROLE_USER_FULL'
+msgid "All Features"
+msgstr "כל המאפיינים"
+
+#: $lang->'ROLE_USER_LIMITED'
+msgid "Limited Features"
+msgstr "מאפיינים מוגבלים"
+
+#: $lang->'ROLE_USER_NOAVATAR'
+msgid "No Avatar"
+msgstr "ללא סמל אישי"
+
+#: $lang->'ROLE_USER_NOPM'
+msgid "No Private Messages"
+msgstr "ללא הודעות פרטיות"
+
+#: $lang->'ROLE_USER_STANDARD'
+msgid "Standard Features"
+msgstr "מאפיינים רגילים"
+
+#: $lang->'ROLE_USER_NEW_MEMBER'
+msgid "Newly Registered User Features"
+msgstr "מאפיינים למשתמש שנרשם לאחרונה"
+
+#: $lang->'ROLE_DESCRIPTION_ADMIN_FORUM'
+msgid "Can access the forum management and forum permission settings."
+msgstr "יכול לגשת לניהול הפורום והגדרות הרשאת הפורום."
+
+#: $lang->'ROLE_DESCRIPTION_ADMIN_FULL'
+msgid ""
+"Has access to all administrative functions of this board.<br />Not "
+"recommended."
+msgstr "בעל הרשאה לכל אפשרויות הניהול הראשי של המערכת.<br />לא מומלץ."
+
+#: $lang->'ROLE_DESCRIPTION_ADMIN_STANDARD'
+msgid ""
+"Has access to most administrative features but is not allowed to use server "
+"or system related tools."
+msgstr ""
+"בעל הרשאה לרוב מאפייני הניהול הראשי אבל לא מורשה להשתמש בכלים הקשורים למערכת "
+"או לשרת."
+
+#: $lang->'ROLE_DESCRIPTION_ADMIN_USERGROUP'
+msgid ""
+"Can manage groups and users: Able to change permissions, settings, manage "
+"bans, and manage ranks."
+msgstr ""
+"יכול לנהל קבוצות ומשתמשים: יכול לשנות הרשאות, הגדרות, לנהל חסימות, ולנהל "
+"דירוגים."
+
+#: $lang->'ROLE_DESCRIPTION_FORUM_BOT'
+msgid "This role is recommended for bots and search spiders."
+msgstr "כלל זה מומלץ לבוטים ועכבישי חיפוש."
+
+#: $lang->'ROLE_DESCRIPTION_FORUM_FULL'
+msgid ""
+"Can use all forum features, including posting of announcements and stickies. "
+"Can also ignore the flood limit.<br />Not recommended for normal users."
+msgstr ""
+"יכול להשתמש בכל מאפייני הפורום, כולל שליחה של הכרזות ודביקים. יכול בנוסף "
+"להתעלם מהגבלת ההצפה.<br />לא מומלץ למשתמשים רגילים."
+
+#: $lang->'ROLE_DESCRIPTION_FORUM_LIMITED'
+msgid "Can use some forum features, but cannot attach files or use post icons."
+msgstr ""
+"יכול להשתמש בכמה מאפייני פורום, אבל לא יכול לצרף קבצים או להשתמש באייקונים "
+"של ההודעות."
+
+#: $lang->'ROLE_DESCRIPTION_FORUM_LIMITED_POLLS'
+msgid "As per Limited Access but can also create polls."
+msgstr "כמו הרשאה מוגבלת אך יכול גם ליצור סקרים."
+
+#: $lang->'ROLE_DESCRIPTION_FORUM_NOACCESS'
+msgid "Can neither see nor access the forum."
+msgstr "לא יכול לראות ולא לגשת לפורום."
+
+#: $lang->'ROLE_DESCRIPTION_FORUM_ONQUEUE'
+msgid ""
+"Can use most forum features including attachments, but posts and topics need "
+"to be approved by a moderator."
+msgstr ""
+"יכול להשתמש ברוב מאפייני הפורום כולל צירוף קבצים, אבל הודעות ונושאים צריכים "
+"לקבל אישור על־ידי מנהל."
+
+#: $lang->'ROLE_DESCRIPTION_FORUM_POLLS'
+msgid "Like Standard Access but can also create polls."
+msgstr "כמו הרשאה רגילה אבל יכול גם ליצור סקרים."
+
+#: $lang->'ROLE_DESCRIPTION_FORUM_READONLY'
+msgid "Can read the forum, but cannot create new topics or reply to posts."
+msgstr "יכול לקרוא בפורום, אבל לא יכול ליצור נושאים חדשים או להגיב להודעות."
+
+#: $lang->'ROLE_DESCRIPTION_FORUM_STANDARD'
+msgid ""
+"Can use most forum features including attachments and deleting own topics, "
+"but cannot lock own topics, and cannot create polls."
+msgstr ""
+"יכול להשתמש ברוב מאפייני הפורום כולל צירוף קבצים ומחיקת הנושאים של עצמו, אבל "
+"לא יכול לנעול נושאים של עצמו, ולא יכול ליצור סקרים."
+
+#: $lang->'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'
+msgctxt "$lang->'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'"
+msgid ""
+"A role for members of the special newly registered users group; contains "
+"<strong>NEVER</strong> permissions to lock features for new users."
+msgstr ""
+"כלל למשתמשים מהקבוצה המיוחדת משתמשים שנרשמו לאחרונה; מכיל הרשאות <strong>"
+"לעולם לא</strong> כדי לחסום אפשרויות ממשתמשים חדשים."
+
+#: $lang->'ROLE_DESCRIPTION_MOD_FULL'
+msgid "Can use all moderating features, including banning."
+msgstr "יכול להשתמש בכל מאפייני הניהול, כולל חסימה."
+
+#: $lang->'ROLE_DESCRIPTION_MOD_QUEUE'
+msgid ""
+"Can use the Moderation Queue to validate and edit posts, but nothing else."
+msgstr "יכול להשתמש בחצי ניהול כדי לאשר ולערוך הודעות, אבל שום דבר אחר."
+
+#: $lang->'ROLE_DESCRIPTION_MOD_SIMPLE'
+msgid ""
+"Can only use basic topic actions. Cannot send warnings or use moderation "
+"queue."
+msgstr ""
+"יכול להשתמש בפעולות נושא בסיסיות בלבד. לא יכול לשלוח אזהרות או להשתמש בחצי "
+"ניהול."
+
+#: $lang->'ROLE_DESCRIPTION_MOD_STANDARD'
+msgid ""
+"Can use most moderating tools, but cannot ban users or change the post "
+"author."
+msgstr ""
+"יכול להשתמש ברוב כלי הניהול, אבל לא יכול לחסום משתמשים או לשנות את כותב "
+"ההודעה."
+
+#: $lang->'ROLE_DESCRIPTION_USER_FULL'
+msgid ""
+"Can use all available forum features for users, including changing the user "
+"name or ignoring the flood limit.<br />Not recommended."
+msgstr ""
+"יכול להשתמש בכל מאפייני הפורום הזמינים למשתמשים, כולל שינוי שם המשתמש או "
+"התעלמות מהגבלת ההצפה.<br />לא מומלץ."
+
+#: $lang->'ROLE_DESCRIPTION_USER_LIMITED'
+msgid ""
+"Can access some of the user features. Attachments, emails, or instant "
+"messages are not allowed."
+msgstr ""
+"יכול לגשת לכמה ממאפייני המשתמש. צירוף קבצים, שליחת הודעות דואר אלקטרוני, או "
+"הודעות מיידיות לא מורשים."
+
+#: $lang->'ROLE_DESCRIPTION_USER_NOAVATAR'
+msgid "Has a limited feature set and is not allowed to use the Avatar feature."
+msgstr "בעל מאפיין מוגבל שנקבע ולא מורשה להשתמש במאפיין הסמלים האישיים."
+
+#: $lang->'ROLE_DESCRIPTION_USER_NOPM'
+msgid "Has a limited feature set, and is not allowed to use Private Messages."
+msgstr "בעל מאפיין מוגבל שנקבע, ולא מורשה להשתמש בהודעות פרטיות."
+
+#: $lang->'ROLE_DESCRIPTION_USER_STANDARD'
+msgid ""
+"Can access most but not all user features. Cannot change user name or ignore "
+"the flood limit, for instance."
+msgstr ""
+"יכול לגשת לרוב אך לא לכל מאפייני המשתמש. לא יכול לשנות שם משתמש או להתעלם "
+"מהגבלת ההצפה, למשל."
+
+#: $lang->'ROLE_DESCRIPTION_USER_NEW_MEMBER'
+msgctxt "$lang->'ROLE_DESCRIPTION_USER_NEW_MEMBER'"
+msgid ""
+"A role for members of the special newly registered users group; contains "
+"<strong>NEVER</strong> permissions to lock features for new users."
+msgstr ""
+"כלל למשתמשים מהקבוצה המיוחדת משתמשים שנרשמו לאחרונה; מכיל הרשאות <strong>"
+"לעולם לא</strong> כדי לחסום אפשרויות ממשתמשים חדשים."
+
+#: $lang->'ROLE_DESCRIPTION_EXPLAIN'
+msgid ""
+"You are able to enter a short explanation of what the role is doing or for "
+"what it is meant for. The text you enter here will be displayed within the "
+"permissions screens too."
+msgstr ""
+"אתה יכול להזין תיאור קצר של מה הכלל עושה או מה הוא אומר. הטקסט שאתה מזין כאן "
+"יוצג גם במסכי ההרשאות."
+
+#: $lang->'ROLE_DESCRIPTION_LONG'
+msgid "The role description is too long, please limit it to 4000 characters."
+msgstr "תיאור הכלל אורך מדי, הגבל אותו ל־4000 תווים."
+
+#: $lang->'ROLE_DETAILS'
+msgid "Role details"
+msgstr "פרטי הכלל"
+
+#: $lang->'ROLE_EDIT_SUCCESS'
+msgid "Role successfully edited."
+msgstr "הכלל נערך בהצלחה."
+
+#: $lang->'ROLE_NAME'
+msgid "Role name"
+msgstr "שם הכלל"
+
+#: $lang->'ROLE_NAME_ALREADY_EXIST'
+msgid ""
+"A role named <strong>%s</strong> already exist for the specified permission "
+"type."
+msgstr "כלל הנקרא <strong>%s</strong> כבר קיים לסוג ההרשאה המצוין."
+
+#: $lang->'ROLE_NOT_ASSIGNED'
+msgid "Role has not been assigned yet."
+msgstr "כלל עדיין לא נקבע."
+
+#: $lang->'SELECTED_FORUM_NOT_EXIST'
+msgid "The selected forum(s) do not exist."
+msgstr "הפורומים הנבחרים לא קיימים."
+
+#: $lang->'SELECTED_GROUP_NOT_EXIST'
+msgid "The selected group(s) do not exist."
+msgstr "הקבוצות הנבחרות לא קיימות."
+
+#: $lang->'SELECTED_USER_NOT_EXIST'
+msgid "The selected user(s) do not exist."
+msgstr "המשתמשים הנבחרים לא קיימים."
+
+#: $lang->'SELECT_FORUM_SUBFORUM_EXPLAIN'
+msgid ""
+"The forum you select here will include all subforums into the selection."
+msgstr "הפורום אשר אתה בוחר כולל את כל תתי־הפורומים שלו בבחירה."
+
+#: $lang->'SELECT_ROLE'
+msgid "Select role…"
+msgstr "בחר כלל…"
+
+#: $lang->'SELECT_TYPE'
+msgid "Select type"
+msgstr "בחר סוג"
+
+#: $lang->'SET_PERMISSIONS'
+msgid "Set permissions"
+msgstr "קבע הרשאות"
+
+#: $lang->'SET_ROLE_PERMISSIONS'
+msgid "Set role permissions"
+msgstr "קבע הרשאות כלל"
+
+#: $lang->'SET_USERS_PERMISSIONS'
+msgid "Set user permissions"
+msgstr "קבע הרשאות משתמש"
+
+#: $lang->'SET_USERS_FORUM_PERMISSIONS'
+msgid "Set user forum permissions"
+msgstr "קבע הרשאות פורום של משתמש"
+
+#: $lang->'TRACE_DEFAULT'
+msgid ""
+"By default every permission is <strong>NO</strong> (unset). So the "
+"permission can be overwritten by other settings."
+msgstr ""
+"כברירת מחדל כל הרשאה היא <strong>לא</strong> (מבוטלת). ההרשאה יכולה להשתנות "
+"על־ידי הגדרות אחרות."
+
+#: $lang->'TRACE_FOR'
+msgid "Trace for"
+msgstr "אתר ל"
+
+#: $lang->'TRACE_GLOBAL_SETTING'
+msgid "%s (global)"
+msgstr "%s (גלובלי)"
+
+#: $lang->'TRACE_GROUP_NEVER_TOTAL_NEVER'
+msgid ""
+"This group’s permission is set to <strong>NEVER</strong> like the total "
+"result so the old result is kept."
+msgstr ""
+"הרשאת הקבוצה נקבעה ל<strong>לעולם לא</strong> כמו התוצאה הכוללת כך שהתוצאה "
+"הקודמת נשמרה."
+
+#: $lang->'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'
+msgid ""
+"This group’s permission for this forum is set to <strong>NEVER</strong> like "
+"the total result so the old result is kept."
+msgstr ""
+"הרשאת הקבוצה לפורום זה נקבעה ל<strong>לעולם לא</strong> כמו התוצאה הכוללת כך "
+"שהתוצאה הקודמת נשמרה."
+
+#: $lang->'TRACE_GROUP_NEVER_TOTAL_NO'
+msgid ""
+"This group’s permission is set to <strong>NEVER</strong> which becomes the "
+"new total value because it wasn’t set yet (set to <strong>NO</strong>)."
+msgstr ""
+"הרשאת הקבוצה נקבעה ל<strong>לעולם לא</strong> אשר הופכת לערך הכולל החדש מפני "
+"שהוא עדיין לא נקבע (נקבע ל<strong>לא</strong>)."
+
+#: $lang->'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'
+msgid ""
+"This group’s permission for this forum is set to <strong>NEVER</strong> "
+"which becomes the new total value because it wasn’t set yet (set to "
+"<strong>NO</strong>)."
+msgstr ""
+"הרשאת הקבוצה לפורום זה נקבעה ל<strong>לעולם לא</strong> אשר הופכת לערך הכולל "
+"החדש מפני שהוא עדיין לא נקבע (נקבע ל<strong>לא</strong>)."
+
+#: $lang->'TRACE_GROUP_NEVER_TOTAL_YES'
+msgid ""
+"This group’s permission is set to <strong>NEVER</strong> which overwrites "
+"the total <strong>YES</strong> to a <strong>NEVER</strong> for this user."
+msgstr ""
+"הרשאת הקבוצה נקבעה ל<strong>לעולם לא</strong> אשר משנה את הכוללת "
+"<strong>כן</strong> ל<strong>לעולם לא</strong> למשתמש זה."
+
+#: $lang->'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'
+msgid ""
+"This group’s permission for this forum is set to <strong>NEVER</strong> "
+"which overwrites the total <strong>YES</strong> to a <strong>NEVER</strong> "
+"for this user."
+msgstr ""
+"הרשאת הקבוצה לפורום זה נקבעה ל<strong>לעולם לא</strong> אשר משנה את הכוללת "
+"<strong>כן</strong> ל<strong>לעולם לא</strong> למשתמש זה."
+
+#: $lang->'TRACE_GROUP_NO'
+msgid ""
+"The permission is <strong>NO</strong> for this group so the old total value "
+"is kept."
+msgstr "ההרשאה היא <strong>לא</strong> לקבוצה זו כך שהערך הכולל הקודם נשמר."
+
+#: $lang->'TRACE_GROUP_NO_LOCAL'
+msgid ""
+"The permission is <strong>NO</strong> for this group within this forum so "
+"the old total value is kept."
+msgstr ""
+"ההרשאה היא <strong>לא</strong> לקבוצה זו בתוך פורום זה כך שהערך הכולל הקודם "
+"נשמר."
+
+#: $lang->'TRACE_GROUP_YES_TOTAL_NEVER'
+msgid ""
+"This group’s permission is set to <strong>YES</strong> but the total "
+"<strong>NEVER</strong> cannot be overwritten."
+msgstr ""
+"הרשאת הקבוצה נקבעה ל<strong>כן</strong> אבל הכוללת <strong>לעולם לא</strong> "
+"לא ניתנת לשינוי."
+
+#: $lang->'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'
+msgid ""
+"This group’s permission for this forum is set to <strong>YES</strong> but "
+"the total <strong>NEVER</strong> cannot be overwritten."
+msgstr ""
+"הרשאת הקבוצה לפורום זה נקבעה ל<strong>כן</strong> אבל הכוללת <strong>לעולם "
+"לא</strong> לא ניתנת לשינוי."
+
+#: $lang->'TRACE_GROUP_YES_TOTAL_NO'
+msgid ""
+"This group’s permission is set to <strong>YES</strong> which becomes the new "
+"total value because it wasn’t set yet (set to <strong>NO</strong>)."
+msgstr ""
+"הרשאת הקבוצה נקבעה ל<strong>כן</strong> אשר הופכת לערך הכולל החדש מפני שהוא "
+"עדיין לא נקבע (נקבע ל<strong>לא</strong>)."
+
+#: $lang->'TRACE_GROUP_YES_TOTAL_NO_LOCAL'
+msgid ""
+"This group’s permission for this forum is set to <strong>YES</strong> which "
+"becomes the new total value because it wasn’t set yet (set to "
+"<strong>NO</strong>)."
+msgstr ""
+"הרשאת הקבוצה לפורום זה נקבעה ל<strong>כן</strong> אשר הופכת לערך הכולל החדש "
+"מפני שהוא עדיין לא נקבע (נקבע ל<strong>לא</strong>)."
+
+#: $lang->'TRACE_GROUP_YES_TOTAL_YES'
+msgid ""
+"This group’s permission is set to <strong>YES</strong> and the total "
+"permission is already set to <strong>YES</strong>, so the total result is "
+"kept."
+msgstr ""
+"הרשאת הקבוצה נקבעה ל<strong>כן</strong> וההרשאה הכוללת כבר נקבעה "
+"ל<strong>כן</strong>, כך שהתוצאה הכוללת נשמרה."
+
+#: $lang->'TRACE_GROUP_YES_TOTAL_YES_LOCAL'
+msgid ""
+"This group’s permission for this forum is set to <strong>YES</strong> and "
+"the total permission is already set to <strong>YES</strong>, so the total "
+"result is kept."
+msgstr ""
+"הרשאת הקבוצה לפורום זה נקבעה ל<strong>כן</strong> וההרשאה הכוללת כבר נקבעה "
+"ל<strong>כן</strong>, כך שהתוצאה הכוללת נשמרה."
+
+#: $lang->'TRACE_PERMISSION'
+msgid "Trace permission - %s"
+msgstr "אתר הרשאה – %s"
+
+#: $lang->'TRACE_RESULT'
+msgid "Trace result"
+msgstr "אתר תוצאה"
+
+#: $lang->'TRACE_SETTING'
+msgid "Trace setting"
+msgstr "אתר הגדרה"
+
+#: $lang->'TRACE_USER_GLOBAL_YES_TOTAL_YES'
+msgid ""
+"The forum independent user permission evaluates to <strong>YES</strong> but "
+"the total permission is already set to <strong>YES</strong>, so the total "
+"result is kept. %sTrace global permission%s"
+msgstr ""
+"הרשאת המשתמש העצמאית של הפורום נקבעה ל<strong>כן</strong> אבל ההרשאה הכוללת "
+"כבר נקבעה ל<strong>כן</strong>, כך שהתוצאה הכוללת נשמרה. %sאתר הרשאה "
+"גלובלית%s"
+
+#: $lang->'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'
+msgid ""
+"The forum independent user permission evaluates to <strong>YES</strong> "
+"which overwrites the current local result <strong>NEVER</strong>. %sTrace "
+"global permission%s"
+msgstr ""
+"הרשאת המשתמש העצמאית של הפורום נקבעה ל<strong>כן</strong> אשר עוברת על "
+"התוצאה המקומית הנוכחית <strong>לעולם לא</strong>. %sאתר הרשאה גלובלית%s"
+
+#: $lang->'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'
+msgid ""
+"The forum independent user permission evaluates to <strong>NEVER</strong> "
+"which doesn’t influence the local permission. %sTrace global permission%s"
+msgstr ""
+"הרשאת המשתמש העצמאית של הפורום נקבעה ל<strong>לעולם לא</strong> אשר לא "
+"משפיעה על ההרשאה המקומית. %sאתר הרשאה גלובלית%s"
+
+#: $lang->'TRACE_USER_FOUNDER'
+msgid ""
+"The user is a founder, therefore admin permissions are always set to "
+"<strong>YES</strong>."
+msgstr "המשתמש הנו מייסד, לכן תמיד הרשאות המנהל מוגדרות ל<strong>כן</strong>."
+
+#: $lang->'TRACE_USER_KEPT'
+msgid ""
+"The user’s permission is <strong>NO</strong> so the old total value is kept."
+msgstr "הרשאת המשתמש היא <strong>לא</strong> כך שהערך הכולל הקודם נשמר."
+
+#: $lang->'TRACE_USER_KEPT_LOCAL'
+msgid ""
+"The user’s permission for this forum is <strong>NO</strong> so the old total "
+"value is kept."
+msgstr ""
+"הרשאת המשתמש לפורום זה היא <strong>לא</strong> כך שהערך הכולל הקודם נשמר."
+
+#: $lang->'TRACE_USER_NEVER_TOTAL_NEVER'
+msgid ""
+"The user’s permission is set to <strong>NEVER</strong> and the total value "
+"is set to <strong>NEVER</strong>, so nothing is changed."
+msgstr ""
+"הרשאת המשתמש נקבעה ל<strong>לעולם לא</strong> והערך הכולל נקבע ל<strong>"
+"לעולם לא</strong>, כך ששום דבר לא השתנה."
+
+#: $lang->'TRACE_USER_NEVER_TOTAL_NEVER_LOCAL'
+msgid ""
+"The user’s permission for this forum is set to <strong>NEVER</strong> and "
+"the total value is set to <strong>NEVER</strong>, so nothing is changed."
+msgstr ""
+"הרשאת המשתמש לפורום זה נקבעה ל<strong>לעולם לא</strong> והערך הכולל נקבע "
+"ל<strong>לעולם לא</strong>, כך ששום דבר לא השתנה."
+
+#: $lang->'TRACE_USER_NEVER_TOTAL_NO'
+msgid ""
+"The user’s permission is set to <strong>NEVER</strong> which becomes the "
+"total value because it was set to NO."
+msgstr ""
+"הרשאת המשתמש נקבעה ל<strong>לעולם לא</strong> אשר הופכת לערך הכולל מפני שהוא "
+"נקבע ללא."
+
+#: $lang->'TRACE_USER_NEVER_TOTAL_NO_LOCAL'
+msgid ""
+"The user’s permission for this forum is set to <strong>NEVER</strong> which "
+"becomes the total value because it was set to NO."
+msgstr ""
+"הרשאת המשתמש לפורום זה נקבעה ל<strong>לעולם לא</strong> אשר הופכת לערך הכולל "
+"מפני שהוא נקבע ללא."
+
+#: $lang->'TRACE_USER_NEVER_TOTAL_YES'
+msgid ""
+"The user’s permission is set to <strong>NEVER</strong> and overwrites the "
+"previous <strong>YES</strong>."
+msgstr ""
+"הרשאת המשתמש נקבעה ל<strong>לעולם לא</strong> ומשנה את הקודמת "
+"<strong>כן</strong>."
+
+#: $lang->'TRACE_USER_NEVER_TOTAL_YES_LOCAL'
+msgid ""
+"The user’s permission for this forum is set to <strong>NEVER</strong> and "
+"overwrites the previous <strong>YES</strong>."
+msgstr ""
+"הרשאת המשתמש לפורום זה נקבעה ל<strong>לעולם לא</strong> ומשנה את הקודמת "
+"<strong>כן</strong>."
+
+#: $lang->'TRACE_USER_NO_TOTAL_NO'
+msgid ""
+"The user’s permission is <strong>NO</strong> and the total value was set to "
+"NO so it defaults to <strong>NEVER</strong>."
+msgstr ""
+"הרשאת המשתמש היא <strong>לא</strong> והערך הכולל נקבע ללא כך שכברירת מחדל "
+"הוא <strong>לעולם לא</strong>."
+
+#: $lang->'TRACE_USER_NO_TOTAL_NO_LOCAL'
+msgid ""
+"The user’s permission for this forum is <strong>NO</strong> and the total "
+"value was set to NO so it defaults to <strong>NEVER</strong>."
+msgstr ""
+"הרשאת המשתמש לפורום זה היא <strong>לא</strong> והערך הכולל נקבע ללא כך "
+"שכברירת מחדל הוא <strong>לעולם לא</strong>."
+
+#: $lang->'TRACE_USER_YES_TOTAL_NEVER'
+msgid ""
+"The user’s permission is set to <strong>YES</strong> but the total "
+"<strong>NEVER</strong> cannot be overwritten."
+msgstr ""
+"הרשאת המשתמש נקבעה ל<strong>כן</strong> אבל הכוללת <strong>לעולם לא</strong> "
+"לא ניתנת לשינוי."
+
+#: $lang->'TRACE_USER_YES_TOTAL_NEVER_LOCAL'
+msgid ""
+"The user’s permission for this forum is set to <strong>YES</strong> but the "
+"total <strong>NEVER</strong> cannot be overwritten."
+msgstr ""
+"הרשאת המשתמש לפורום זה נקבעה ל<strong>כן</strong> אבל הכוללת <strong>לעולם "
+"לא</strong> לא ניתנת לשינוי."
+
+#: $lang->'TRACE_USER_YES_TOTAL_NO'
+msgid ""
+"The user’s permission is set to <strong>YES</strong> which becomes the total "
+"value because it was set to <strong>NO</strong>."
+msgstr ""
+"הרשאת המשתמש נקבעה ל<strong>כן</strong> אשר הופכת לערך הכולל מפני שהוא נקבע "
+"ל<strong>לא</strong>."
+
+#: $lang->'TRACE_USER_YES_TOTAL_NO_LOCAL'
+msgid ""
+"The user’s permission for this forum is set to <strong>YES</strong> which "
+"becomes the total value because it was set to <strong>NO</strong>."
+msgstr ""
+"הרשאת המשתמש לפורום זה נקבעה ל<strong>כן</strong> אשר הופכת לערך הכולל מפני "
+"שהוא נקבע ל<strong>לא</strong>."
+
+#: $lang->'TRACE_USER_YES_TOTAL_YES'
+msgid ""
+"The user’s permission is set to <strong>YES</strong> and the total value is "
+"set to <strong>YES</strong>, so nothing is changed."
+msgstr ""
+"הרשאת המשתמש נקבעה ל<strong>כן</strong> והערך הכולל נקבע ל<strong>כן</strong>"
+", כך ששום דבר לא השתנה."
+
+#: $lang->'TRACE_USER_YES_TOTAL_YES_LOCAL'
+msgid ""
+"The user’s permission for this forum is set to <strong>YES</strong> and the "
+"total value is set to <strong>YES</strong>, so nothing is changed."
+msgstr ""
+"הרשאת המשתמש לפורום זה נקבעה ל<strong>כן</strong> והערך הכולל נקבע "
+"ל<strong>כן</strong>, כך ששום דבר לא השתנה."
+
+#: $lang->'TRACE_WHO'
+msgid "Who"
+msgstr "מי"
+
+#: $lang->'TRACE_TOTAL'
+msgid "Total"
+msgstr "סך הכל"
+
+#: $lang->'USERS_NOT_ASSIGNED'
+msgid "No users are assigned to this role"
+msgstr "אין משתמשים שנקבעו לכלל זה"
+
+#: $lang->'USER_IS_MEMBER_OF_DEFAULT'
+msgid "is a member of the following pre-defined groups"
+msgstr "הוא חבר בקבוצות המוגדרות מראש הבאות"
+
+#: $lang->'USER_IS_MEMBER_OF_CUSTOM'
+msgid "is a member of the following user defined groups"
+msgstr "הוא חבר בקבוצות המשתמש המוגדרות הבאות"
+
+#: $lang->'VIEW_ASSIGNED_ITEMS'
+msgid "View assigned items"
+msgstr "ראה פריטים שנקבעו"
+
+#: $lang->'VIEW_LOCAL_PERMS'
+msgid "Local permissions"
+msgstr "הרשאות מקומיות"
+
+#: $lang->'VIEW_GLOBAL_PERMS'
+msgid "Global permissions"
+msgstr "הרשאות גלובליות"
+
+#: $lang->'VIEW_PERMISSIONS'
+msgid "View permissions"
+msgstr "ראה הרשאות"
+
+#: $lang->'WRONG_PERMISSION_TYPE'
+msgid "Wrong permission type selected."
+msgstr "סוג ההרשאה הנבחרת שגויה."
+
+#: $lang->'WRONG_PERMISSION_SETTING_FORMAT'
+msgid ""
+"The permission settings are in a wrong format, phpBB is not able to process "
+"them correctly."
+msgstr "הגדרת ההרשאות נכתבו בפורמט לא תקין, phpBB לא יכול לעבד אותם כראוי."

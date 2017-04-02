@@ -1,0 +1,204 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/modules.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/acp/modules.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'ACP_MODULE_MANAGEMENT_EXPLAIN'
+msgid ""
+"Here you are able to manage all kind of modules. Please note that the ACP "
+"has a three-level menu structure (Category -> Category -> Module) whereby "
+"the others having a two-level menu structure (Category -> Module) which must "
+"be kept. Please also be aware that you may lock out yourself if you disable "
+"or delete the modules responsible for the module management itself."
+msgstr ""
+"כאן אתה יכול לנהל את כל סוגי המודולים. שים לב שלוח הבקרה למנהל הראשי יש שלוש "
+"רמות של מבנה (קטגוריה -> קטגוריה -> מודול) באמצעותו לאחרים יש את מבנה התפריט "
+"(קטגוריה -> מודול) שחייב להישמר. אנא שים לב שאתה יכול לנעול את עצמך בחוץ אם "
+"אתה מבטל או מוחק את המודולים האחראים על ניהול המודולים עצמם."
+
+#: $lang->'ADD_MODULE'
+msgctxt "$lang->'ADD_MODULE'"
+msgid "Add module"
+msgstr "הוסף מודול"
+
+#: $lang->'ADD_MODULE_CONFIRM'
+msgid ""
+"Are you sure you want to add the selected module with the selected mode?"
+msgstr "אתה בטוח שברצונך להוסיף את המודול הנבחר עם המצב הנוכחי?"
+
+#: $lang->'ADD_MODULE_TITLE'
+msgctxt "$lang->'ADD_MODULE_TITLE'"
+msgid "Add module"
+msgstr "הוסף מודול"
+
+#: $lang->'CANNOT_REMOVE_MODULE'
+msgid ""
+"Unable to remove module, it has assigned children. Please remove or move all "
+"children before performing this action."
+msgstr ""
+"לא מצליח להסיר את המודול, יש לו ילדים רשומים. אנא הסר או העבר את כל הילדים "
+"לפני שאתה מבצע פעולה זו."
+
+#: $lang->'CATEGORY'
+msgid "Category"
+msgstr "קטגוריה"
+
+#: $lang->'CHOOSE_MODE'
+msgid "Choose module mode"
+msgstr "בחר את מצב המודול"
+
+#: $lang->'CHOOSE_MODE_EXPLAIN'
+msgid "Choose the modules mode being used."
+msgstr "בחר את המצב בו המודול יתחיל לפעול."
+
+#: $lang->'CHOOSE_MODULE'
+msgid "Choose module"
+msgstr "בחר מודול"
+
+#: $lang->'CHOOSE_MODULE_EXPLAIN'
+msgid "Choose the file being called by this module."
+msgstr "בחר את הקובץ הנקרא על ידי מודול זה."
+
+#: $lang->'CREATE_MODULE'
+msgid "Create new module"
+msgstr "צור מודול חדש"
+
+#: $lang->'DEACTIVATED_MODULE'
+msgid "Deactivated module"
+msgstr "הפסק את פעילות המודול"
+
+#: $lang->'DELETE_MODULE'
+msgid "Delete module"
+msgstr "מחק מודול"
+
+#: $lang->'DELETE_MODULE_CONFIRM'
+msgid "Are you sure you want to remove this module?"
+msgstr "אתה בטוח שברצונך להסיר מודול זה?"
+
+#: $lang->'EDIT_MODULE'
+msgid "Edit module"
+msgstr "ערוך מודול"
+
+#: $lang->'EDIT_MODULE_EXPLAIN'
+msgid "Here you are able to enter module specific settings."
+msgstr "כאן אתה יכול להגדיר הגדרות ספציפיות למודול."
+
+#: $lang->'HIDDEN_MODULE'
+msgid "Hidden module"
+msgstr "מודול מוסתר"
+
+#: $lang->'MODULE'
+msgid "Module"
+msgstr "מודול"
+
+#: $lang->'MODULE_ADDED'
+msgid "Module successfully added."
+msgstr "המודול נוסף בהצלחה."
+
+#: $lang->'MODULE_DELETED'
+msgid "Module successfully removed."
+msgstr "המודול הוסר בהצלחה."
+
+#: $lang->'MODULE_DISPLAYED'
+msgid "Module displayed"
+msgstr "המודול מוצג"
+
+#: $lang->'MODULE_DISPLAYED_EXPLAIN'
+msgid ""
+"If you do not wish to display this module, but want to use it, set this to "
+"no."
+msgstr ""
+"אם אין ברצונך להציג מודול זה, אך ברצונך להשתמש בו, הגדר אפשרות זאת לפעילה."
+
+#: $lang->'MODULE_EDITED'
+msgid "Module successfully edited."
+msgstr "המודול נערך בהצלחה."
+
+#: $lang->'MODULE_ENABLED'
+msgid "Module enabled"
+msgstr "הפעל מודול"
+
+#: $lang->'MODULE_LANGNAME'
+msgid "Module language name"
+msgstr "שפת המודול"
+
+#: $lang->'MODULE_LANGNAME_EXPLAIN'
+msgid ""
+"Enter the displayed module name. Use language constant if name is served "
+"from language file."
+msgstr "הכנס את שם המודול המוצג. השתמש בשפה מדויקת אם השם מקושר לקובץ שפה."
+
+#: $lang->'MODULE_TYPE'
+msgid "Module type"
+msgstr "סוג המודול"
+
+#: $lang->'NO_CATEGORY_TO_MODULE'
+msgid ""
+"Unable to turn category into module. Please remove/move all children before "
+"performing this action."
+msgstr ""
+"לא מצליח להעביר את הקטגוריה למודול. אנא הסר/העבר את כל הפורומים לפני עשיית "
+"פעולה זו."
+
+#: $lang->'NO_MODULE'
+msgid "No module found."
+msgstr "לא נמצא מודול."
+
+#: $lang->'NO_MODULE_ID'
+msgid "No module id specified."
+msgstr "לא נבחר מספר זיהוי למודול."
+
+#: $lang->'NO_MODULE_LANGNAME'
+msgid "No module language name specified."
+msgstr "לא נבחר למודול שפה."
+
+#: $lang->'NO_PARENT'
+msgid "No Parent"
+msgstr "אין הורה"
+
+#: $lang->'PARENT'
+msgid "Parent"
+msgstr "הורה"
+
+#: $lang->'PARENT_NO_EXIST'
+msgid "Parent does not exist."
+msgstr "ההורה אינו קיים."
+
+#: $lang->'SELECT_MODULE'
+msgid "Select a module"
+msgstr "בחר מודול"

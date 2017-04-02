@@ -1,0 +1,139 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/captcha_qa.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/captcha_qa.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'CAPTCHA_QA'
+msgid "Q&amp;A"
+msgstr "שאלות ותשובות"
+
+#: $lang->'CONFIRM_QUESTION_EXPLAIN'
+msgid ""
+"This question is a means of preventing automated form submissions by "
+"spambots."
+msgstr "שאלת אימות זו היא אמצעי למניעת שליחה אוטומטית של טפסים על ידי בוטים."
+
+#: $lang->'CONFIRM_QUESTION_WRONG'
+msgid "You have provided an invalid answer to the question."
+msgstr "התשובה שסיפקת לשאלת האימות איננה נכונה."
+
+#: $lang->'CONFIRM_QUESTION_MISSING'
+msgid ""
+"Questions for the captcha could not be retrieved. Please contact a board "
+"administrator."
+msgstr "שאלות עבור שאלת האימות לא התקבלו. אנא צור קשר עם מנהל המערכת."
+
+#: $lang->'QUESTION_ANSWERS'
+msgid "Answers"
+msgstr "תשובות"
+
+#: $lang->'ANSWERS_EXPLAIN'
+msgid "Please enter valid answers to the question, one per line."
+msgstr "אנא הכנס תשובות נכונות לשאלה, אחת בכל שורה."
+
+#: $lang->'CONFIRM_QUESTION'
+msgctxt "$lang->'CONFIRM_QUESTION'"
+msgid "Question"
+msgstr "שאלת אימות"
+
+#: $lang->'ANSWER'
+msgid "Answer"
+msgstr "תשובה"
+
+#: $lang->'EDIT_QUESTION'
+msgid "Edit Question"
+msgstr "ערוך שאלה"
+
+#: $lang->'QUESTIONS'
+msgid "Questions"
+msgstr "שאלות"
+
+#: $lang->'QUESTIONS_EXPLAIN'
+msgid ""
+"For every form submission where you have enabled the Q&amp;A plugin, users "
+"will be asked one of the questions specified here. To use this plugin at "
+"least one question must be set in the default language. These questions "
+"should be easy for your target audience to answer but beyond the ability of "
+"a bot capable of running a Google™ search. Using a large and regularly "
+"changed set of questions will yield the best results. Enable the strict "
+"setting if your question relies on mixed case, punctuation or whitespace."
+msgstr ""
+"בכל טופס שליחה שבו אפשרת את התוספת שאלות ותשובות, משתמשים ישאלו אחת מן "
+"השאלות המצוינות כאן. כדי להשתמש בתוסף, לפחות אחת מן השאלות צריכה להיות "
+"מוגדרת לשפת ברירת המחדל. שאלות אלו צריכות להיות קלות למענה על ידי קהל היעד "
+"שלך, אבל מעבר ליכולת של רובוט המסוגל להריץ חיפוש בגוגל™. שימוש במאגר גדול של "
+"שאלות שמשתנה בקביעות יפיק את התוצאות הטובות ביותר. אפשר את אפשרות האימות "
+"הנוקשה אם התשובה שלך דורשת הקפדה על אותיות רישיות/קטנות, סימני פיסוק או "
+"רווחים."
+
+#: $lang->'QUESTION_DELETED'
+msgid "Question deleted"
+msgstr "השאלה נמחקה"
+
+#: $lang->'QUESTION_LANG'
+msgid "Language"
+msgstr "שפה"
+
+#: $lang->'QUESTION_LANG_EXPLAIN'
+msgid "The language this question and its answers are written in."
+msgstr "השפה שבהן השאלה והתשובה כתובות."
+
+#: $lang->'QUESTION_STRICT'
+msgid "Strict check"
+msgstr "אימות נוקשה"
+
+#: $lang->'QUESTION_STRICT_EXPLAIN'
+msgid "Enable to enforce mixed case, punctuation and whitespace."
+msgstr "אפשר בכדי לפסול שינויים באותיות רישיות/גדולות, סימני פיסוק ורווחים."
+
+#: $lang->'QUESTION_TEXT'
+msgctxt "$lang->'QUESTION_TEXT'"
+msgid "Question"
+msgstr "שאלה"
+
+#: $lang->'QUESTION_TEXT_EXPLAIN'
+msgid "The question presented to the user."
+msgstr "השאלה שתוצג למשתמש."
+
+#: $lang->'QA_ERROR_MSG'
+msgid "Please fill in all fields and enter at least one answer."
+msgstr "אנא מלא את כל השדות והכנס לפחות תשובה אחת."
+
+#: $lang->'QA_LAST_QUESTION'
+msgid "You cannot delete all questions while the plugin is active."
+msgstr "אתה לא יכול למחוק את כל השאלות בזמן שהרכיב פעיל."

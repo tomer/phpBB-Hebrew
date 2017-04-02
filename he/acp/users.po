@@ -1,0 +1,439 @@
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/users.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/acp/users.php
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#. /**
+#. *
+#. * This file is part of the phpBB Forum Software package.
+#. *
+#. * @copyright (c) phpBB Limited <https://www.phpbb.com>
+#. * @license GNU General Public License, version 2 (GPL-2.0)
+#. *
+#. * For full copyright and license information, please see
+#. * the docs/CREDITS.txt file.
+#. *
+#. */
+#. /**
+#. * DO NOT CHANGE
+#. */
+#. // DEVELOPERS PLEASE NOTE
+#. //
+#. // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+#. //
+#. // Placeholders can now contain order information, e.g. instead of
+#. // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+#. // translators to re-order the output of data while ensuring it remains correct
+#. //
+#. // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+#. // equally where a string contains only two placeholders which are used to wrap text
+#. // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+#: $lang->'ADMIN_SIG_PREVIEW'
+msgid "Signature preview"
+msgstr "תצוגת חתימה"
+
+#: $lang->'AT_LEAST_ONE_FOUNDER'
+msgid ""
+"You are not able to change this founder to a normal user. There needs to be "
+"at least one founder enabled for this board. If you want to change this "
+"users founder status, promote another user to be a founder first."
+msgstr ""
+"אתה לא יכול לשנות את המייסד למשתמש רגיל. חובה שיהיה מייסד אחד לפחות הפעיל "
+"במערכת זו. אם אתה רוצה לשנת את מצב המשתמשים המייסדים, אפשר קודם למשתמש אחר "
+"להיות מייסד."
+
+#: $lang->'BAN_ALREADY_ENTERED'
+msgid ""
+"The ban had been previously entered successfully. The ban list has not been "
+"updated."
+msgstr "החסימה הופעלה בהצלחה, אך הרשימה לא התעדכנה."
+
+#: $lang->'BAN_SUCCESSFUL'
+msgid "Ban entered successfully."
+msgstr "החסימה הופעלה בהצלחה."
+
+#: $lang->'CANNOT_BAN_ANONYMOUS'
+msgid ""
+"You are not allowed to ban the anonymous account. Permissions for anonymous "
+"users can be set under the Permissions tab."
+msgstr ""
+"אינך רשאי לחסום חשבון אנונימי. הרשאות לחשבון אנונימי ניתן להגדיר תחת תגית "
+"ההרשאות."
+
+#: $lang->'CANNOT_BAN_FOUNDER'
+msgid "You are not allowed to ban founder accounts."
+msgstr "אינך מורשה לחסום חשבון של מייסד."
+
+#: $lang->'CANNOT_BAN_YOURSELF'
+msgid "You are not allowed to ban yourself."
+msgstr "אינך מורשה לחסום את עצמך."
+
+#: $lang->'CANNOT_DEACTIVATE_BOT'
+msgid ""
+"You are not allowed to deactivate bot accounts. Please deactivate the bot "
+"within the bots page instead."
+msgstr ""
+"אינך מורשה לבטל חשבונות רובוטים. אנא בטל את הרובוט מעמוד הרובוטים במקום."
+
+#: $lang->'CANNOT_DEACTIVATE_FOUNDER'
+msgid "You are not allowed to deactivate founder accounts."
+msgstr "אינך מורשה לבטל חשבונות מייסדים."
+
+#: $lang->'CANNOT_DEACTIVATE_YOURSELF'
+msgid "You are not allowed to deactivate your own account."
+msgstr "אינך מורשה לבטל את החשבון שלך."
+
+#: $lang->'CANNOT_FORCE_REACT_BOT'
+msgid ""
+"You are not allowed to force reactivation on bot accounts. Please reactivate "
+"the bot within the bots page instead."
+msgstr ""
+"אינך מורשה לדרוש הפעלה מחדש לחשבונות רובוטים. אנא הפעל מחדש את הרובוט מעמוד "
+"הרובוטים במקום."
+
+#: $lang->'CANNOT_FORCE_REACT_FOUNDER'
+msgid "You are not allowed to force reactivation on founder accounts."
+msgstr "אינך מורשה לדרוש הפעלה מחדש לחשבונות מייסדים."
+
+#: $lang->'CANNOT_FORCE_REACT_YOURSELF'
+msgid "You are not allowed to force reactivation of your own account."
+msgstr "אינך מורשה לדרוש הפעלה מחדש לחשבון שלך."
+
+#: $lang->'CANNOT_REMOVE_ANONYMOUS'
+msgid "You are not able to remove the guest user account."
+msgstr "אתה לא יכול להסיר את חשבון משתמש האורח."
+
+#: $lang->'CANNOT_REMOVE_FOUNDER'
+msgid "You are not allowed to remove founder accounts."
+msgstr "אינך מורשה להסיר חשבונות של מייסדים."
+
+#: $lang->'CANNOT_REMOVE_YOURSELF'
+msgid "You are not allowed to remove your own user account."
+msgstr "אינך מורשה להסיר חשבון של עצמך."
+
+#: $lang->'CANNOT_SET_FOUNDER_IGNORED'
+msgid "You are not able to promote ignored users to be founders."
+msgstr "אתה לא יכול לאפשר למשתמשים מהם אתה מתעלם להיות מייסדים."
+
+#: $lang->'CANNOT_SET_FOUNDER_INACTIVE'
+msgid ""
+"You need to activate users before you promote them to founders, only "
+"activated users are able to be promoted."
+msgstr ""
+"אתה צריך להפעיל את המשתמשים לפני שאתה מאפשר להם להיות מייסדים, רק משתמשים "
+"פעילים ניתנים."
+
+#: $lang->'CONFIRM_EMAIL_EXPLAIN'
+msgid ""
+"You only need to specify this if you are changing the users email address."
+msgstr ""
+"אתה נדרש למלא שדה זה רק אם אתה מעוניין לשנות את הדואר האלקטרוני של המתשמש."
+
+#: $lang->'DELETE_POSTS'
+msgid "Delete posts"
+msgstr "מחק הודעות"
+
+#: $lang->'DELETE_USER'
+msgid "Delete user"
+msgstr "מחק משתמש"
+
+#: $lang->'DELETE_USER_EXPLAIN'
+msgid ""
+"Please note that deleting a user is final, they cannot be recovered. Unread "
+"private messages sent by this user will be deleted and will not be available "
+"to their recipients."
+msgstr ""
+"אנא שים לב שמחיקת משתמש הינה לתמיד ואין אפשרות לשיחזור. הודעות פרטיות שנשלחו "
+"על־ידי משתמש זה ולא נקראו ימחקו ולא יהיו זמינות אצל הנמען"
+
+#: $lang->'FORCE_REACTIVATION_SUCCESS'
+msgid "Successfully forced reactivation."
+msgstr "ההפעלה מחדש בוצעה בהצלחה."
+
+#: $lang->'FOUNDER'
+msgid "Founder"
+msgstr "מייסד"
+
+#: $lang->'FOUNDER_EXPLAIN'
+msgid ""
+"Founders have all administrative permissions and can never be banned, "
+"deleted or altered by non-founder members."
+msgstr ""
+"למייסדים יש את כל ההרשאות המנהליות ואינם יכולים להיחסם, להימחק או להשתנות על "
+"ידי משתמשים שאינם מייסדים."
+
+#: $lang->'GROUP_APPROVE'
+msgid "Approve member"
+msgstr "אשר משתמש"
+
+#: $lang->'GROUP_DEFAULT'
+msgid "Make group default for member"
+msgstr "קבע קבוצה זו כברירת מחדל למשתמש"
+
+#: $lang->'GROUP_DELETE'
+msgid "Remove member from group"
+msgstr "מחק משתמש מהקבוצה"
+
+#: $lang->'GROUP_DEMOTE'
+msgid "Demote group leader"
+msgstr "הורד מדרגת ראש קבוצה"
+
+#: $lang->'GROUP_PROMOTE'
+msgid "Promote to group leader"
+msgstr "קדם לראש קבוצה"
+
+#: $lang->'IP_WHOIS_FOR'
+msgid "IP whois for %s"
+msgstr "%s זיהוי על פי האייפי עבור"
+
+#: $lang->'LAST_ACTIVE'
+msgid "Last active"
+msgstr "פעיל לאחרונה"
+
+#: $lang->'MOVE_POSTS_EXPLAIN'
+msgid ""
+"Please select the forum to which you wish to move all the posts this user "
+"has made."
+msgstr "בחר את הפורום אליו אתה רוצה להעביר את ההודעות של המשתמש."
+
+#: $lang->'NO_SPECIAL_RANK'
+msgid "No special rank assigned"
+msgstr "לא צוינה דרגה"
+
+#: $lang->'NO_WARNINGS'
+msgid "No warnings."
+msgstr "אין אזהרות."
+
+#: $lang->'NOT_MANAGE_FOUNDER'
+msgid ""
+"You tried to manage a user with founder status. Only founders are allowed to "
+"manage other founders."
+msgstr "ניסית לנהל משתמש בדרגת מייסד, רק מייסדים אחרים לנהל משתמש שהוא מייסד."
+
+#: $lang->'QUICK_TOOLS'
+msgid "Quick tools"
+msgstr "כלים מהירים"
+
+#: $lang->'REGISTERED'
+msgid "Registered"
+msgstr "רשומים"
+
+#: $lang->'REGISTERED_IP'
+msgid "Registered from IP"
+msgstr "רשומים מ־IP"
+
+#: $lang->'RETAIN_POSTS'
+msgid "Retain posts"
+msgstr "שמור הודעות"
+
+#: $lang->'SELECT_FORM'
+msgid "Select form"
+msgstr "בחר טופס"
+
+#: $lang->'SELECT_USER'
+msgid "Select user"
+msgstr "בחר משתמש"
+
+#: $lang->'USER_ADMIN'
+msgid "User administration"
+msgstr "ניהול משתמשים"
+
+#: $lang->'USER_ADMIN_ACTIVATE'
+msgid "Activate account"
+msgstr "הפעל משתמש"
+
+#: $lang->'USER_ADMIN_ACTIVATED'
+msgid "User activated successfully."
+msgstr "המשתמש הופעל בהצלחה."
+
+#: $lang->'USER_ADMIN_AVATAR_REMOVED'
+msgid "Successfully removed avatar from user account."
+msgstr "הסמל האישי של המשתמש נמחק בהצלחה."
+
+#: $lang->'USER_ADMIN_BAN_EMAIL'
+msgid "Ban by email"
+msgstr "חסום באמצעות דואר אלקטרוני"
+
+#: $lang->'USER_ADMIN_BAN_EMAIL_REASON'
+msgid "Email address banned via user management"
+msgstr "כתובת דואר אלקטרוני חסומה דרך ניהול משתמש"
+
+#: $lang->'USER_ADMIN_BAN_IP'
+msgid "Ban by IP"
+msgstr "חסום באמצעות IP"
+
+#: $lang->'USER_ADMIN_BAN_IP_REASON'
+msgid "IP banned via user management"
+msgstr "כתובת IP חסומה דרך ניהול משתמש"
+
+#: $lang->'USER_ADMIN_BAN_NAME_REASON'
+msgid "Username banned via user management"
+msgstr "שם המשתמש נחסם על ידי ניהול משתמשים"
+
+#: $lang->'USER_ADMIN_BAN_USER'
+msgid "Ban by username"
+msgstr "חסום באמצעות שם משתמש"
+
+#: $lang->'USER_ADMIN_DEACTIVATE'
+msgid "Deactivate account"
+msgstr "בטל חשבון"
+
+#: $lang->'USER_ADMIN_DEACTIVED'
+msgid "User deactivated successfully."
+msgstr "המשתמש בוטל בהצלחה."
+
+#: $lang->'USER_ADMIN_DEL_ATTACH'
+msgid "Delete all attachments"
+msgstr "מחק את כל הקבצים המצורפים"
+
+#: $lang->'USER_ADMIN_DEL_AVATAR'
+msgid "Delete avatar"
+msgstr "מחק סמל אישי"
+
+#: $lang->'USER_ADMIN_DEL_OUTBOX'
+msgid "Empty PM outbox"
+msgstr "רוקן תיבת הודעות פרטיות יוצאות"
+
+#: $lang->'USER_ADMIN_DEL_POSTS'
+msgid "Delete all posts"
+msgstr "מחק את כל ההודעות"
+
+#: $lang->'USER_ADMIN_DEL_SIG'
+msgid "Delete signature"
+msgstr "מחק חתימה"
+
+#: $lang->'USER_ADMIN_EXPLAIN'
+msgid ""
+"Here you can change your users information and certain specific options."
+msgstr "כאן אתה יכול לשנות את פרטי המשתמשים ואפשרויות מסוימות."
+
+#: $lang->'USER_ADMIN_FORCE'
+msgid "Force reactivation"
+msgstr "הכרח הפעלת משתמש מחדש"
+
+#: $lang->'USER_ADMIN_LEAVE_NR'
+msgid "Remove from Newly Registered"
+msgstr "הסר מנרשמו לאחרונה"
+
+#: $lang->'USER_ADMIN_MOVE_POSTS'
+msgid "Move all posts"
+msgstr "העבר את כל ההודעות"
+
+#: $lang->'USER_ADMIN_SIG_REMOVED'
+msgid "Successfully removed signature from user account."
+msgstr "החתימה נמחקה מהצלחה מהמשתמש."
+
+#: $lang->'USER_ATTACHMENTS_REMOVED'
+msgid "Successfully removed all attachments made by this user."
+msgstr "נמחקו כל הקבצים של המשתמש."
+
+#: $lang->'USER_AVATAR_NOT_ALLOWED'
+msgid "The avatar cannot be displayed because avatars have been disallowed."
+msgstr "הסמל האישי לא ניתן להצגה מכיוון שסמלים אישיים נהפכו ללא מורשים."
+
+#: $lang->'USER_AVATAR_UPDATED'
+msgid "Successfully updated user avatars details."
+msgstr "עודכנו בהצלחה פרטי הסמל האישי של המשתמש."
+
+#: $lang->'USER_AVATAR_TYPE_NOT_ALLOWED'
+msgid ""
+"The current avatar cannot be displayed because its type has been disallowed."
+msgstr "לא ניתן להציג את הסמל האישי מכיוון שסוגו נהפך ללא מורשה."
+
+#: $lang->'USER_CUSTOM_PROFILE_FIELDS'
+msgid "Custom profile fields"
+msgstr "שדות מותאמים אישית בכרטיס אישי של המשתמש"
+
+#: $lang->'USER_DELETED'
+msgid "User deleted successfully."
+msgstr "משתמש נמחק בהצלחה."
+
+#: $lang->'USER_GROUP_ADD'
+msgid "Add user to group"
+msgstr "הוסף משתמש לקבוצה"
+
+#: $lang->'USER_GROUP_NORMAL'
+msgid "User defined groups user is a member of"
+msgstr "קבוצות משתמש שהמשתמש חבר בהם"
+
+#: $lang->'USER_GROUP_PENDING'
+msgid "Groups user is in pending mode"
+msgstr "קבוצות משתמשים במצב ניסיון"
+
+#: $lang->'USER_GROUP_SPECIAL'
+msgid "Pre-defined groups user is a member of"
+msgstr "קבוצות מוגדרות מראש שהמשתמש חבר בהם"
+
+#: $lang->'USER_LIFTED_NR'
+msgid "Successfully removed the user’s newly registered status."
+msgstr "מעמד הנרשם לאחרונה הוסר בהצלחה מן המשתמש."
+
+#: $lang->'USER_NO_ATTACHMENTS'
+msgid "There are no attached files to display."
+msgstr "אין קבצים מצורפים להצגה."
+
+#: $lang->'USER_NO_POSTS_TO_DELETE'
+msgid "The user has no posts to retain or delete."
+msgstr "למשתמש זה אין הודעות לשמירה או למחיקה."
+
+#: $lang->'USER_OUTBOX_EMPTIED'
+msgid "Successfully emptied user’s private message outbox."
+msgstr "תיבת ההודעות הפרטיות של המשתמש רוקנה בהצלחה."
+
+#: $lang->'USER_OUTBOX_EMPTY'
+msgid "The user’s private message outbox was already empty."
+msgstr "תיבת ההודעות הפרטיות היוצאות של המשתמש כבר הייתה ריקה."
+
+#: $lang->'USER_OVERVIEW_UPDATED'
+msgid "User details updated."
+msgstr "פרטי משתמש עודכנו."
+
+#: $lang->'USER_POSTS_DELETED'
+msgid "Successfully removed all posts made by this user."
+msgstr "הודעות המשתמש נמחקו בהצלחה."
+
+#: $lang->'USER_POSTS_MOVED'
+msgid "Successfully moved users posts to target forum."
+msgstr "הודעות המשתמש הועברו לפורום הרצוי בהצלחה."
+
+#: $lang->'USER_PREFS_UPDATED'
+msgid "User preferences updated."
+msgstr "העדפות משתמש עודכנו."
+
+#: $lang->'USER_PROFILE'
+msgid "User profile"
+msgstr "כרטיס אישי של משתמש"
+
+#: $lang->'USER_PROFILE_UPDATED'
+msgid "User profile updated."
+msgstr "הכרטיס האישי של המשתמש עודכן."
+
+#: $lang->'USER_RANK'
+msgid "User rank"
+msgstr "דרגת משתמש"
+
+#: $lang->'USER_RANK_UPDATED'
+msgid "User rank updated."
+msgstr "דרגת המשתמש עודכנה."
+
+#: $lang->'USER_SIG_UPDATED'
+msgid "User signature successfully updated."
+msgstr "חתימת המשתמש עודכנה."
+
+#: $lang->'USER_WARNING_LOG_DELETED'
+msgid "No information available. Possibly the log entry has been deleted."
+msgstr "אין מידע זמין. ככל הנראה יומן המעקב נמחק."
+
+#: $lang->'USER_TOOLS'
+msgid "Basic tools"
+msgstr "כלים בסיסיים"
