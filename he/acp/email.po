@@ -1,10 +1,10 @@
-#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/email.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/acp/email.php
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/email.php, ../phpBB-Hebrew.ReallyGood.3.1/language/he/acp/email.php
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-02 14:48+0300\n"
+"POT-Creation-Date: 2017-04-02 15:56+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"

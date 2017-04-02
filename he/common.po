@@ -1,19 +1,17 @@
-# Tomer Cohen <tomer.mozilla@tomercohen.com>, 2017.
-#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/common.php, /home/tomer/phpbb/www/lang-he-31/hebrew_3_1_10/language/he/common.php
+#. extracted from /home/tomer/phpbb/www/phpBB3/language/en/common.php, ../phpBB-Hebrew.ReallyGood.3.1/language/he/common.php
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-02 14:48+0300\n"
-"PO-Revision-Date: 2017-04-02 14:57+0300\n"
-"Last-Translator: Tomer Cohen <tomer.mozilla@tomercohen.com>\n"
-"Language-Team: Mozilla Israel\n"
-"Language: he\n"
+"POT-Creation-Date: 2017-04-02 15:56+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
 
 #. /**
 #. *
@@ -203,7 +201,7 @@ msgstr "כל הנושאים"
 
 #: $lang->'ALT_TEXT'
 msgid "Alternative text"
-msgstr "מלל חלופי"
+msgstr ""
 
 #: $lang->'AND'
 msgid "And"
@@ -265,7 +263,7 @@ msgstr "Google"
 #: $lang->'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'
 msgctxt "$lang->'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'"
 msgid "Twitter"
-msgstr "טוויטר"
+msgstr ""
 
 #: $lang->'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'
 msgid "OAuth token not stored."
@@ -309,7 +307,7 @@ msgstr "הסמל האישי אינו ניתן להעלאה."
 
 #: $lang->'AVATAR_NO_TEMP_DIR'
 msgid "Temporary folder could not be found or is not writable."
-msgstr "תיקייה זמנית אינה קיימת או שאינת ניתנת לכתיבה"
+msgstr ""
 
 #: $lang->'AVATAR_NO_SIZE'
 msgid ""
@@ -344,7 +342,7 @@ msgstr "הסמל האישי שבחרת לא הועלה בהצלחה כי הבק�
 
 #: $lang->'AVATAR_PHP_UPLOAD_STOPPED'
 msgid "A PHP extension has stopped the file upload."
-msgstr "העלאת הקובץ הופסקה מאחר שסיומת הקובץ היא PHP."
+msgstr ""
 
 #: $lang->'AVATAR_URL_INVALID'
 msgid "The URL you specified is invalid."
@@ -599,17 +597,17 @@ msgstr "יצירת קשר"
 
 #: $lang->'COOKIE_CONSENT_INFO'
 msgid "Learn more"
-msgstr "מידע נוסף"
+msgstr ""
 
 #: $lang->'COOKIE_CONSENT_MSG'
 msgid ""
 "This website uses cookies to ensure you get the best experience on our "
 "website."
-msgstr "אתר זה עושה שימוש בעוגיות כדי להבטיח לך הנאה מרבית."
+msgstr ""
 
 #: $lang->'COOKIE_CONSENT_OK'
 msgid "Got it!"
-msgstr "הבנתי!"
+msgstr ""
 
 #: $lang->'COOKIES_DELETED'
 msgid "All board cookies successfully deleted."
@@ -820,7 +818,7 @@ msgstr "שאלות נפוצות"
 
 #: $lang->'FEATURE_NOT_AVAILABLE'
 msgid "The requested feature is not available on this board."
-msgstr "התכונה המבוקשת אינה זמינה באתר זה."
+msgstr ""
 
 #: $lang->'FILENAME'
 msgid "Filename"
@@ -1242,7 +1240,7 @@ msgstr "<strong>%s</strong> ייתכן שזוהי כתובת דואר אלקטר
 
 #: $lang->'INVALID_FEED_ATTACHMENTS'
 msgid "The selected feed tried fetching attachments with invalid constraints."
-msgstr "ההזנה הנבחרת ניסתה למשוך צרופות עם אילוצים לא חוקיים."
+msgstr ""
 
 #: $lang->'INVALID_PLURAL_RULE'
 msgid ""
@@ -1680,7 +1678,7 @@ msgstr "<strong>בקשת קבוצה אושרה</strong> להצטרף לקבוצ�
 
 #: $lang->'NOTIFICATION_METHOD_INVALID'
 msgid "The method \"%s\" does not refer to a valid notification method."
-msgstr "השיטה ”%s” אינה מתייחסת לשיטת התרעות חוקית."
+msgstr ""
 
 #: $lang->'NOTIFICATION_PM'
 msgid "<strong>Private Message</strong> from %1$s:"
@@ -2577,7 +2575,7 @@ msgstr "אינך מורשה לקרוא בפורום זה."
 
 #: $lang->'SORRY_AUTH_READ_TOPIC'
 msgid "You are not authorised to read this topic."
-msgstr "אין ברשותך הרשאה לקרוא הודעות בנושא זה."
+msgstr ""
 
 #: $lang->'SORRY_AUTH_VIEW_ATTACH'
 msgid "You are not authorised to download this attachment."
@@ -2589,7 +2587,7 @@ msgstr "מיין לפי"
 
 #: $lang->'SORT_DIRECTION'
 msgid "Direction"
-msgstr "כיוון"
+msgstr ""
 
 #: $lang->'SORT_JOINED'
 msgid "Joined date"
@@ -2602,7 +2600,7 @@ msgstr "מיקום"
 
 #: $lang->'SORT_OPTIONS'
 msgid "Display and sorting options"
-msgstr "אפשרויות הצגה ומיון"
+msgstr ""
 
 #: $lang->'SORT_RANK'
 msgctxt "$lang->'SORT_RANK'"
