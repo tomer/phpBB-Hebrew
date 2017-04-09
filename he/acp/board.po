@@ -1,17 +1,18 @@
+# Tomer Cohen <tomer.mozilla@tomercohen.com>, 2017.
 #. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/board.php, ../phpBB-Hebrew.ReallyGood.3.1/language/he/acp/board.php
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-02 15:56+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2017-04-09 19:32+0300\n"
+"Last-Translator: Tomer Cohen\n"
+"Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.0.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 #. /**
 #. *
@@ -330,7 +331,7 @@ msgstr "אפשר הודעות פרטיות לכל המשתמשים."
 
 #: $lang->'ALLOW_BOARD_NOTIFICATIONS'
 msgid "Allow board notifications"
-msgstr ""
+msgstr "לאפשר התרעות"
 
 #. // Avatar Settings
 #: $lang->'ACP_AVATAR_SETTINGS_EXPLAIN'
@@ -1197,6 +1198,11 @@ msgid ""
 "board, visit the <a href=\"https://www.phpbb.com/go/anti-spam\"><strong>"
 "phpBB.com Knowledge Base</strong></a>."
 msgstr ""
+"לתוספי הגנה מפני ספאם נוספים (ואולי גם טובים יותר), נא לבקר ב<a href=\""
+"https://www.phpbb.com/go/anti-spam-ext\"><strong>מסד הנתונים של "
+"phpBB.com</strong></a>. למידע נוסף על חסימת ספאם בפורום שלך, נא לבקר ב<a "
+"href=\"https://www.phpbb.com/go/anti-spam\"><strong>בסיס הידע של "
+"phpBB.com</strong></a>."
 
 #: $lang->'AVAILABLE_CAPTCHAS'
 msgid "Available plugins"
@@ -1388,7 +1394,7 @@ msgstr "שם העוגייה"
 
 #: $lang->'COOKIE_NOTICE'
 msgid "Cookie notice"
-msgstr ""
+msgstr "הודעה על השימוש בעוגיות"
 
 #: $lang->'COOKIE_NOTICE_EXPLAIN'
 msgid ""
@@ -1396,6 +1402,8 @@ msgid ""
 "board. This might be required by law depending on the content of your board "
 "and enabled extensions."
 msgstr ""
+"אם מאופשר תוצג הודעה על השימוש בעוגיות לכלל המשתמשים המבקרים בפורום. הודעה "
+"זה עשויה להיות מחוייבת בחוק כתלות בתוכן הקיים בפורום שלך וההרחבות המופעלות."
 
 #: $lang->'COOKIE_PATH'
 msgid "Cookie path"
@@ -2315,7 +2323,7 @@ msgstr ""
 
 #: $lang->'UPLOAD_CERT_VALID'
 msgid "Validate upload certificate"
-msgstr ""
+msgstr "לאמת אישור אבטחה בהעלאה"
 
 #: $lang->'UPLOAD_CERT_VALID_EXPLAIN'
 msgid ""
@@ -2323,6 +2331,9 @@ msgid ""
 "the CA bundle to be defined by the <samp>openssl.cafile</samp> or "
 "<samp>curl.cainfo</samp> setting in your php.ini."
 msgstr ""
+"אם מופעל, אישורי אבטחה של העלאות מרוחקות יאומתו. אפשרות זו מחייבת הגדרת צרור "
+"האישורים של רשות האישורים בתור <samp>openssl.cafile</samp> או "
+"<samp>curl.cainfo</samp> s בקובץ ה־php.ini."
 
 #. // Email Settings
 #: $lang->'ACP_EMAIL_SETTINGS_EXPLAIN'
@@ -2448,11 +2459,11 @@ msgstr ""
 
 #: $lang->'SEND_TEST_EMAIL'
 msgid "Send a test email"
-msgstr ""
+msgstr "שליחת הודעת בדיקה"
 
 #: $lang->'SEND_TEST_EMAIL_EXPLAIN'
 msgid "This will send a test email to the address defined in your account."
-msgstr ""
+msgstr "אפשרות זו תשלח הודעת בדיקה לכתובת הדוא״ל המוגדרת בחשבון שלך."
 
 #: $lang->'SMTP_AUTH_METHOD'
 msgid "Authentication method for SMTP"
@@ -2540,6 +2551,9 @@ msgid ""
 "visit the <a href=\"https://www.phpbb.com/community/\">phpBB support "
 "forums</a>."
 msgstr ""
+"הודעת הבדיקה נשלחה.<br />אם לא קיבלת אותה, נא לבדוק את הגדרות הדוא״ל שלך.<br "
+"/><br />אם נדרשת עזרה נוספת, נא לבקר ב<a href=\""
+"https://www.phpbb.com/community/\">פורום התמיכה של phpBB</a>."
 
 #: $lang->'USE_SMTP'
 msgid "Use SMTP server for email"

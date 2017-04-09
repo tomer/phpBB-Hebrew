@@ -1,17 +1,18 @@
+# Tomer Cohen <tomer.mozilla@tomercohen.com>, 2017.
 #. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/common.php, ../phpBB-Hebrew.ReallyGood.3.1/language/he/acp/common.php
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-02 15:56+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2017-04-09 20:16+0300\n"
+"Last-Translator: Tomer Cohen\n"
+"Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.0.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 #. /**
 #. *
@@ -678,39 +679,39 @@ msgstr "חזור"
 
 #: $lang->'CANNOT_CHANGE_FILE_GROUP'
 msgid "Unable to change file group"
-msgstr ""
+msgstr "לא ניתן לשנות את הקבוצה של הקובץ"
 
 #: $lang->'CANNOT_CHANGE_FILE_PERMISSIONS'
 msgid "Unable to change file permissions"
-msgstr ""
+msgstr "לא ניתן לשנות את ההרשאות של הקובץ"
 
 #: $lang->'CANNOT_COPY_FILES'
 msgid "Unable to copy files"
-msgstr ""
+msgstr "לא ניתן להעתיק קבצים"
 
 #: $lang->'CANNOT_CREATE_SYMLINK'
 msgid "Unable to create a symlink"
-msgstr ""
+msgstr "לא ניתן ליצור קישור סימבולי"
 
 #: $lang->'CANNOT_DELETE_FILES'
 msgid "Unable to delete files from the system"
-msgstr ""
+msgstr "לא ניתן למחוק קבצים מהמערכת"
 
 #: $lang->'CANNOT_DUMP_FILE'
 msgid "Unable to dump file"
-msgstr ""
+msgstr "לא ניתן לייצר קובץ dump"
 
 #: $lang->'CANNOT_MIRROR_DIRECTORY'
 msgid "Unable to mirror directory"
-msgstr ""
+msgstr "לא ניתן לשכפל תיקייה"
 
 #: $lang->'CANNOT_RENAME_FILE'
 msgid "Unable to rename a file from the system"
-msgstr ""
+msgstr "לא ניתן לשנות שם קובץ במערכת"
 
 #: $lang->'CANNOT_TOUCH_FILES'
 msgid "Unable to determine if the file exists"
-msgstr ""
+msgstr "לא ניתן להסיק אם הקובץ קיים"
 
 #: $lang->'CONTAINER_EXCEPTION'
 msgid ""
@@ -721,10 +722,14 @@ msgid ""
 "please visit <a href=\"https://www.phpbb.com/support\">phpBB.com</a> for "
 "support."
 msgstr ""
+"אירעה תקלה בבנייה של המכולה עקב הרחבה מותקנת. מסיבה זו, כל ההרחבות נוטרלו "
+"באופן זמני. נא לנסות לטהר את מטמון הפורום. כל ההרחבות יופעלו מחדש באופן "
+"אוטומטי ברגע שתיפתר הבעיה במכולה. אם תקלה זו ממשיכה, נא לבקר ב־<a href=\""
+"https://www.phpbb.com/support\">phpBB.com</a> לתמיכה."
 
 #: $lang->'EXCEPTION'
 msgid "Exception"
-msgstr ""
+msgstr "חריגה"
 
 #: $lang->'COLOUR_SWATCH'
 msgid "Web-safe colour swatch"
@@ -752,7 +757,7 @@ msgstr "No cron tasks could be found."
 
 #: $lang->'CURRENT_VERSION'
 msgid "Current version"
-msgstr ""
+msgstr "גרסה נוכחית"
 
 #: $lang->'DEACTIVATE'
 msgid "Deactivate"
@@ -841,7 +846,7 @@ msgstr "כתובות IP או שמות שרתים"
 
 #: $lang->'LATEST_VERSION'
 msgid "Latest version"
-msgstr ""
+msgstr "גרסה אחרונה"
 
 #: $lang->'LOAD_NOTIFICATIONS'
 msgid "Display Notifications"
@@ -965,7 +970,7 @@ msgstr "%sהמשך ללוח הבקרה למנהלים ראשיים%s"
 
 #: $lang->'RELEASE_ANNOUNCEMENT'
 msgid "Announcement"
-msgstr ""
+msgstr "הכרזה"
 
 #: $lang->'REMIND'
 msgid "Remind"
@@ -973,7 +978,7 @@ msgstr "הזכר"
 
 #: $lang->'REPARSE_LOCK_ERROR'
 msgid "Reparsing is already in progress by another process."
-msgstr ""
+msgstr "ההתחדשות כבר נמצאת בביצוע בתהליך אחר."
 
 #: $lang->'RESYNC'
 msgid "Resynchronise"
@@ -1047,15 +1052,15 @@ msgstr "לוח בקרה למשתמש"
 
 #: $lang->'UPDATE_NEEDED'
 msgid "The board is not up to date."
-msgstr ""
+msgstr "פורום זה אינו עדכני."
 
 #: $lang->'UPDATE_NOT_NEEDED'
 msgid "The board is up to date."
-msgstr ""
+msgstr "פורום זה עדכני."
 
 #: $lang->'UPDATES_AVAILABLE'
 msgid "Updates available:"
-msgstr ""
+msgstr "עדכונים זמינים:"
 
 #: $lang->'WARNING'
 msgid "Warning"
@@ -1464,11 +1469,11 @@ msgstr "בדיקת גרסה מחדש"
 
 #: $lang->'VERSION_CHECK'
 msgid "Version check"
-msgstr ""
+msgstr "בדיקת גרסה"
 
 #: $lang->'VERSION_CHECK_EXPLAIN'
 msgid "Checks to see if your phpBB installation is up to date."
-msgstr ""
+msgstr "בדיקה אם הגרסה של phpBB שברשותך עדכנית."
 
 #: $lang->'VERSION_NOT_UP_TO_DATE_ACP'
 msgid ""
@@ -1476,16 +1481,18 @@ msgid ""
 "release announcement, which contains more information as well as "
 "instructions on updating."
 msgstr ""
+"הגרסה של phpBB שברשותך אינה עדכנית.<br />להלן קישור להכרזה על הגרסה החדשה, "
+"המכילה מידע נוסף כמו גם הנחיות לגבי ביצוע העדכון."
 
 #: $lang->'VERSION_NOT_UP_TO_DATE_TITLE'
 msgid "Your phpBB installation is not up to date."
-msgstr ""
+msgstr "הגרסה של phpBB שברשותך אינה עדכנית."
 
 #: $lang->'VERSION_UP_TO_DATE_ACP'
 msgid ""
 "Your phpBB installation is up to date. There are no updates available at "
 "this time."
-msgstr ""
+msgstr "הגרסה של phpBB שברשותך עדכנית. נכון לעכשיו אין עדכונים זמינים."
 
 #: $lang->'VIEW_ADMIN_LOG'
 msgid "View administrator log"
@@ -1646,7 +1653,7 @@ msgstr "שלח מידע סטטיסטי"
 
 #: $lang->'SEND_STATISTICS_LONG'
 msgid "Send statistical information"
-msgstr ""
+msgstr "שליחת מידע סטטיסטי"
 
 #: $lang->'SHOW_STATISTICS'
 msgid "Show details"
@@ -1658,7 +1665,7 @@ msgstr "תודה ששלחת את המידע."
 
 #: $lang->'FAIL_SEND_STATISTICS'
 msgid "phpBB was unable to send statistics"
-msgstr ""
+msgstr "phpBB לא הצליח לשלוח נתונים סטטיסטיים"
 
 #. // Log Entries
 #: $lang->'LOG_ACL_ADD_USER_GLOBAL_U_'
@@ -2868,4 +2875,4 @@ msgstr "<strong>נתוני התוספת נמחקו</strong><br />» %s"
 
 #: $lang->'LOG_EXT_UPDATE'
 msgid "<strong>Extension updated</strong><br />» %s"
-msgstr ""
+msgstr "<strong>הרחבה עודכנה</strong><br />» %s"
