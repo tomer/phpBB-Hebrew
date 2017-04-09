@@ -1,17 +1,18 @@
+# Tomer Cohen <tomer.mozilla@tomercohen.com>, 2017.
 #. extracted from /home/tomer/phpbb/www/phpBB3/language/en/acp/permissions_phpbb.php, ../phpBB-Hebrew.ReallyGood.3.1/language/he/acp/permissions_phpbb.php
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-02 15:56+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2017-04-09 23:33+0300\n"
+"Last-Translator: Tomer Cohen\n"
+"Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.0.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 #. /**
 #. *
@@ -284,19 +285,19 @@ msgstr "רשאי לדווח על הודעות"
 
 #: $lang->'ACL_F_POST'
 msgid "Can start new topics"
-msgstr "רשאי לכתוב נושא חדש"
+msgstr "רשאי לפרסם נושאים חדשים"
 
 #: $lang->'ACL_F_STICKY'
 msgid "Can post stickies"
-msgstr "רשאי לכתוב נושאים דביקים"
+msgstr "רשאי לפרסם נושאים דביקים"
 
 #: $lang->'ACL_F_ANNOUNCE'
 msgid "Can post announcements"
-msgstr "רשאי לכתוב הכרזות"
+msgstr "רשאי לפרסם הכרזות"
 
 #: $lang->'ACL_F_ANNOUNCE_GLOBAL'
 msgid "Can post global announcements"
-msgstr ""
+msgstr "רשאי לפרסם הכרזות גלובליות"
 
 #: $lang->'ACL_F_REPLY'
 msgid "Can reply to topics"
